@@ -1,0 +1,57 @@
+import { afterAll, describe, expect, it, vi } from "vitest";
+import { PrismaClient } from "@prisma/client";
+import { randomUUID } from "node:crypto";
+import { readFileSync } from "node:fs";
+import { sessionSchema } from "@/schema/pack";
+import { contextRevisionSchema } from "@/schema/prepared-day";
+import { createPreparationStore } from "@/lib/prepared-day/store";
+import { prepareLesson } from "@/lib/prepared-day/service";
+import { nodeTextFields, type Composition } from "@/lib/prepared-day/snapshot";
+
+describe.skipIf(!process.env.DATABASE_URL)("prepared days across real DB clients",()=>{
+ const first=new PrismaClient();const second=new PrismaClient();const teachers:string[]=[];
+ afterAll(async()=>{await first.user.deleteMany({where:{id:{in:teachers}}});await first.$disconnect();await second.$disconnect();});
+ it("one claim across clients, owner-only reads, immutable saved source, cascading account deletion",async()=>{
+  const owner=await first.user.create({data:{email:`prepare-${randomUUID()}@example.test`}});teachers.push(owner.id);
+  const source=sessionSchema.parse(JSON.parse(readFileSync("packs/autumn-starter.json","utf8")).sessions.find((s:{id:string})=>s.id==="animal-leaf-masks"));
+  const context=contextRevisionSchema.parse({revisionId:randomUUID(),placeKey:{resolution:"koppen",value:"Cfb",resolvedBy:"test"},ability:{band:null,resolvedBy:"base"},weather:{reach:"the-planned-hour",conditionKind:null,reasonCode:"not-asked",observedAt:null,validUntil:null,source:null},siteProfile:null,plannedAt:"2026-09-09T10:00:00Z",plannedTimeZone:"Europe/London",jurisdiction:null,locale:null,teacherNotes:[],capturedAt:"2026-09-08T10:00:00Z"});
+  const input={teacherId:owner.id,requestKey:randomUUID(),source,context};
+  const answer:Composition={lines:[...nodeTextFields(source).values()].map(({nid,field,text})=>({nid,field,text,reason:"Unchanged",origins:[{scope:"node",sessionId:source.id,nid,field}]})),outcome:"no-change-needed",promptVersion:"fixture",modelVersion:"fixture"};
+  let release!:(c:Composition)=>void;
+  const composer=vi.fn(()=>new Promise<Composition>(resolve=>{release=resolve;}));
+  const stores=[createPreparationStore(first),createPreparationStore(second)];
+  const running=prepareLesson(stores[0]!,composer,input,true);
+  await vi.waitFor(()=>expect(composer).toHaveBeenCalledTimes(1));
+  const retry=await prepareLesson(stores[1]!,composer,input,true);
+  expect(retry.status).toBe("composing");release(answer);
+  const saved=await running;
+  expect((await prepareLesson(stores[1]!,composer,input,false)).proposalRevision).toBe(saved.proposalRevision);
+  expect(composer).toHaveBeenCalledTimes(1);
+  expect(await stores[1]!.read("some-other-teacher",saved.id)).toBeNull();
+  expect(await stores[1]!.claim("some-other-teacher",saved.id)).toBe(false);
+  expect(saved.source).toEqual(source);expect(saved.composedSession).toEqual(source);
+  const burstComposer=vi.fn(async()=>answer);
+  const burstInput={...input,requestKey:randomUUID()};
+  const burst=await Promise.all(Array.from({length:12},(_,i)=>prepareLesson(stores[i%2]!,burstComposer,burstInput,true)));
+  expect(new Set(burst.map(r=>r.id)).size).toBe(1);
+  expect(burstComposer).toHaveBeenCalledTimes(1);
+  expect((await stores[1]!.read(owner.id,burst[0]!.id))!.status).toBe("proposed");
+  // This is the real durable read/query seam, not a separate in-memory registry.
+  let current = structuredClone(source);
+  const reader = createPreparationStore(first, () => current);
+  expect((await reader.read(owner.id, saved.id))!.sourceFreshness!.state).toBe("fresh");
+  expect(await reader.affectedDays("different-teacher", source.id)).toEqual([]);
+  current.phases[0]!.title += " revised";
+  const stale = (await reader.read(owner.id, saved.id))!;
+  expect(stale.sourceFreshness!.state).toBe("stale");
+  expect(stale.sourceFreshness!.changes.some(d => d.source.scope === "node" && d.source.nid === source.phases[0]!.nid && d.source.field === "title")).toBe(true);
+  expect(stale.source).toEqual(saved.source);
+  expect(stale.composedSession).toEqual(saved.composedSession);
+  expect(stale.proposalRevision).toBe(saved.proposalRevision);
+  expect((await reader.affectedDays(owner.id, source.id)).map(row => row.id)).toContain(saved.id);
+  expect(await first.preparedSourceDependency.count({where:{preparedId:saved.id}})).toBeGreaterThan(0);
+  await first.user.delete({where:{id:owner.id}});
+  expect(await second.preparedLesson.findUnique({where:{id:saved.id}})).toBeNull();
+  expect(await first.preparedSourceDependency.count({where:{preparedId:saved.id}})).toBe(0);
+ });
+});

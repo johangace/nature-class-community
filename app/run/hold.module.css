@@ -1,0 +1,101 @@
+/*
+ * THE RUNNER'S HOLD — what the screen is while the lesson is being opened
+ * (#355, and it is the cause behind #253).
+ *
+ * Johan: *"when i press enter lesson, sometimes it freezes or it takes forever
+ * to load"*, then, clarifying: *"i mean it freezes in empty screen takes long
+ * to load"*.
+ *
+ * MEASURED: /run answered in 8,988ms cold with time-to-first-byte at 7,480ms —
+ * TTFB and total were the SAME NUMBER, because this route has no Suspense
+ * boundary anywhere in it. Today at least streamed a shell and filled holes;
+ * the runner blocks the entire document on a serial chain of reads and paints
+ * nothing at all until the last of them lands.
+ *
+ * A shimmer says something is happening. It never says a value: no bar shaped
+ * like the lesson title that resolves into a different title, no fake beat
+ * text. It holds the runner's own three-row frame so the real screen lands in
+ * the same places rather than jumping into them.
+ */
+.hold {
+  height: 100dvh;
+  min-height: 0;
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr) auto;
+  padding: env(safe-area-inset-top) clamp(1.5rem, 6vw, 4.5rem)
+    env(safe-area-inset-bottom);
+  gap: 1.5rem;
+  align-content: start;
+}
+
+.bar,
+.body,
+.control {
+  background: rgba(71, 76, 63, 0.07);
+  border-radius: 10px;
+  background-image: linear-gradient(
+    100deg,
+    rgba(71, 76, 63, 0) 20%,
+    rgba(71, 76, 63, 0.05) 50%,
+    rgba(71, 76, 63, 0) 80%
+  );
+  background-size: 220% 100%;
+  background-repeat: no-repeat;
+  animation: holdSweep 1.6s linear infinite;
+}
+
+@keyframes holdSweep {
+  from {
+    background-position: 160% 0;
+  }
+  to {
+    background-position: -60% 0;
+  }
+}
+
+/* A classroom product. Reduced motion keeps the reserved frame and the tone,
+   and moves nothing. */
+@media (prefers-reduced-motion: reduce) {
+  .bar,
+  .body,
+  .control {
+    animation: none;
+    background-image: none;
+  }
+}
+
+/* The running head's hairline. */
+.bar {
+  height: 20px;
+  width: 240px;
+  max-width: 60%;
+  margin-top: 1.25rem;
+}
+
+/* The beat. It takes the room the lesson is about to fill rather than a
+   guessed height, so nothing moves when the real screen arrives. */
+.body {
+  min-height: 0;
+  height: 100%;
+  border-radius: 16px;
+}
+
+/* The control the thumb is already heading for. */
+.control {
+  height: 52px;
+  border-radius: 14px;
+  margin-bottom: 1.25rem;
+}
+
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}

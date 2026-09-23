@@ -1,0 +1,4925 @@
+{
+  "1": [
+    {
+      "id": "us_south_central_w1_ashe_juniper",
+      "species": "Ashe Juniper",
+      "scientificName": "Juniperus ashei",
+      "description": "Male Ashe junipers releasing massive clouds of pollen, triggering cedar fever across central Texas",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Shake a branch and a yellow cloud puffs out like smoke. That's tree dust called pollen flying everywhere!"
+    },
+    {
+      "id": "us_south_central_w1_northern_cardinal",
+      "species": "Northern Cardinal",
+      "scientificName": "Cardinalis cardinalis",
+      "description": "Cardinals bright against bare winter branches, males beginning to sing territorial songs on mild mornings",
+      "habitats": [
+        "woodland",
+        "garden",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A bright red bird sits on a bare branch like a little Christmas ornament and whistles \"cheer-cheer-cheer!\""
+    },
+    {
+      "id": "us_south_central_w1_nine_banded_armadillo",
+      "species": "Nine-banded Armadillo",
+      "scientificName": "Dasypus novemcinctus",
+      "description": "Armadillos foraging on mild winter evenings, rooting through leaf litter for grubs and insects",
+      "habitats": [
+        "woodland",
+        "garden",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A little armoured animal shuffles through leaves at dusk, snuffling and digging like a tiny tank looking for bugs"
+    },
+    {
+      "id": "us_south_central_w1_american_robin",
+      "species": "American Robin",
+      "scientificName": "Turdus migratorius",
+      "description": "Large flocks of wintering robins gathering in trees with persistent berries, especially hollies and hackberries",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Hundreds of round red-bellied birds huddle in berry trees like a feathery picnic party"
+    },
+    {
+      "id": "us_south_central_w1_cedar_waxwing",
+      "species": "Cedar Waxwing",
+      "scientificName": "Bombycilla cedrorum",
+      "description": "Flocks of cedar waxwings stripping berries from hollies and junipers, their thin high-pitched calls overhead",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Masked birds with fancy yellow tail-tips gobble berries and pass them beak-to-beak like sharing sweets"
+    },
+    {
+      "id": "us_south_central_w1_live_oak",
+      "species": "Live Oak",
+      "scientificName": "Quercus virginiana",
+      "description": "Live oaks standing green and full through winter, their broad spreading canopies unchanged by cold",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "While other trees are bare and sleeping, the live oak keeps all its dark green leaves like a stubborn friend who won't go to bed"
+    }
+  ],
+  "2": [
+    {
+      "id": "us_south_central_w2_ashe_juniper",
+      "species": "Ashe Juniper",
+      "scientificName": "Juniperus ashei",
+      "description": "Cedar fever continues as Ashe juniper pollen counts soar on windy days across the Hill Country",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The juniper trees are still puffing golden clouds. If you look at the hills on a windy day they look smoky!"
+    },
+    {
+      "id": "us_south_central_w2_northern_cardinal",
+      "species": "Northern Cardinal",
+      "scientificName": "Cardinalis cardinalis",
+      "description": "Male cardinals singing from fence posts and treetops, establishing territories for the coming nesting season",
+      "habitats": [
+        "woodland",
+        "garden",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The bright red cardinal sits on the tallest branch and sings \"birdy-birdy-birdy\" to tell everyone this is his garden"
+    },
+    {
+      "id": "us_south_central_w2_great_blue_heron",
+      "species": "Great Blue Heron",
+      "scientificName": "Ardea herodias",
+      "description": "Great blue herons standing motionless at pond edges and creek banks, hunting fish in the winter quiet",
+      "habitats": [
+        "pond",
+        "stream",
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A tall grey-blue bird stands perfectly still by the water like a statue. Then snap! It grabs a fish!"
+    },
+    {
+      "id": "us_south_central_w2_cedar_waxwing",
+      "species": "Cedar Waxwing",
+      "scientificName": "Bombycilla cedrorum",
+      "description": "Cedar waxwing flocks moving between fruiting trees, their soft trilling calls filling the cold air",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A whole flock of sleek birds with black masks swoops into a tree and eats every single berry before flying on"
+    },
+    {
+      "id": "us_south_central_w2_northern_mockingbird",
+      "species": "Northern Mockingbird",
+      "scientificName": "Mimus polyglottos",
+      "description": "Mockingbirds defending winter berry territories, flashing white wing patches at intruders",
+      "habitats": [
+        "garden",
+        "urban",
+        "hedgerow",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "This grey bird is the best copycat. It can sing like a cardinal, a blue jay, even a car alarm!"
+    }
+  ],
+  "3": [
+    {
+      "id": "us_south_central_w3_ashe_juniper",
+      "species": "Ashe Juniper",
+      "scientificName": "Juniperus ashei",
+      "description": "Peak cedar fever season, pollen counts among the highest of the year on dry windy days",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The juniper trees are still making so much yellow dust that cars turn greenish-yellow overnight!"
+    },
+    {
+      "id": "us_south_central_w3_american_robin",
+      "species": "American Robin",
+      "scientificName": "Turdus migratorius",
+      "description": "Massive robin flocks foraging in lawns and fields, sometimes thousands together in winter roosts",
+      "habitats": [
+        "garden",
+        "urban",
+        "meadow",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Robins hop across the playground tugging worms out of the ground, tug, tug, pop! Dinner time!"
+    },
+    {
+      "id": "us_south_central_w3_red_tailed_hawk",
+      "species": "Red-tailed Hawk",
+      "scientificName": "Buteo jamaicensis",
+      "description": "Red-tailed hawks soaring over highways and open fields, their raspy screaming call echoing across the sky",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A big brown hawk circles high up making that wild screaming call. It can spot a mouse from way up there!"
+    },
+    {
+      "id": "us_south_central_w3_mexican_free_tailed_bat",
+      "species": "Mexican Free-tailed Bat",
+      "scientificName": "Tadarida brasiliensis",
+      "description": "Bats roosting in caves and under bridges through winter, mostly inactive during cold spells",
+      "habitats": [
+        "urban",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Thousands of bats snuggle together under bridges and in caves, staying warm and waiting for bug season"
+    },
+    {
+      "id": "us_south_central_w3_sandhill_crane",
+      "species": "Sandhill Crane",
+      "scientificName": "Antigone canadensis",
+      "description": "Sandhill cranes wintering in agricultural fields and wetlands, their rattling bugle calls carrying far",
+      "habitats": [
+        "grassland",
+        "meadow",
+        "pond"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Tall grey birds with red caps dance and trumpet in the fields. They sound like rusty gates swinging open!"
+    }
+  ],
+  "4": [
+    {
+      "id": "us_south_central_w4_ashe_juniper",
+      "species": "Ashe Juniper",
+      "scientificName": "Juniperus ashei",
+      "description": "Cedar pollen season beginning to wane but still significant on warm dry days",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The juniper pollen clouds are finally calming down, less yellow dust on everything!"
+    },
+    {
+      "id": "us_south_central_w4_northern_cardinal",
+      "species": "Northern Cardinal",
+      "scientificName": "Cardinalis cardinalis",
+      "description": "Cardinals singing more frequently as days lengthen, pairs beginning to form",
+      "habitats": [
+        "woodland",
+        "garden",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Mr and Mrs Cardinal are singing love songs to each other. He's bright red and she's a warm golden brown"
+    },
+    {
+      "id": "us_south_central_w4_green_anole",
+      "species": "Green Anole",
+      "scientificName": "Anolis carolinensis",
+      "description": "Green anoles emerging on warm afternoons to bask on sunny walls and fence posts",
+      "habitats": [
+        "garden",
+        "wall_fence",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A bright green lizard does push-ups on the fence to warm up in the sunshine. Look how it puffs out a pink throat bubble!"
+    },
+    {
+      "id": "us_south_central_w4_sandhill_crane",
+      "species": "Sandhill Crane",
+      "scientificName": "Antigone canadensis",
+      "description": "Sandhill cranes still wintering in Texas fields, beginning to get restless before spring migration",
+      "habitats": [
+        "grassland",
+        "meadow",
+        "pond"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The big grey cranes are still here, honking and dancing, but soon they'll fly all the way north!"
+    },
+    {
+      "id": "us_south_central_w4_elbow_bush",
+      "species": "Elbow Bush",
+      "scientificName": "Forestiera pubescens",
+      "description": "Elbow bush among the first native shrubs to bloom, tiny yellow flowers on bare zigzag branches",
+      "habitats": [
+        "woodland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "This funny zigzag bush is one of the first to wake up. Little yellow flowers pop out on its bare bendy branches"
+    },
+    {
+      "id": "us_south_central_w4_cedar_waxwing",
+      "species": "Cedar Waxwing",
+      "scientificName": "Bombycilla cedrorum",
+      "description": "Cedar waxwings continuing to feast on winter berries in large chattering flocks",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The fancy masked birds are still here gobbling berries. They eat so many they sometimes get a bit wobbly!"
+    }
+  ],
+  "5": [
+    {
+      "id": "us_south_central_w5_ashe_juniper",
+      "species": "Ashe Juniper",
+      "scientificName": "Juniperus ashei",
+      "description": "Cedar pollen season winding down, last significant releases on windy days",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The sneezy juniper trees are almost done making pollen. Relief is coming!"
+    },
+    {
+      "id": "us_south_central_w5_eastern_redbud",
+      "species": "Eastern Redbud",
+      "scientificName": "Cercis canadensis",
+      "description": "First redbud flower buds swelling on bare branches, earliest blooms possible in southern areas",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Tiny pink buds are swelling on bare branches. Soon the whole tree will look like it's covered in pink butterflies!"
+    },
+    {
+      "id": "us_south_central_w5_northern_mockingbird",
+      "species": "Northern Mockingbird",
+      "scientificName": "Mimus polyglottos",
+      "description": "Mockingbirds beginning to expand their song repertoire, practicing new phrases for breeding season",
+      "habitats": [
+        "garden",
+        "urban",
+        "hedgerow",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The mockingbird is practising new songs. Count how many different sounds it makes in a row!"
+    },
+    {
+      "id": "us_south_central_w5_sandhill_crane",
+      "species": "Sandhill Crane",
+      "scientificName": "Antigone canadensis",
+      "description": "Sandhill cranes beginning northward migration, large flocks forming overhead",
+      "habitats": [
+        "grassland",
+        "meadow",
+        "pond"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Look up. Hundreds of grey cranes spiral into the sky like a feathered tornado, heading north for summer!"
+    },
+    {
+      "id": "us_south_central_w5_great_horned_owl",
+      "species": "Great Horned Owl",
+      "scientificName": "Bubo virginianus",
+      "description": "Great horned owls already nesting and incubating eggs, their deep hooting echoes at dusk",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "\"Hoo-hoo-hoooo\". A big owl with ear tufts is already sitting on eggs in the cold, keeping them warm with fluffy feathers"
+    },
+    {
+      "id": "us_south_central_w5_green_anole",
+      "species": "Green Anole",
+      "scientificName": "Anolis carolinensis",
+      "description": "Green anoles basking on warm afternoons, beginning to turn from winter brown back to green",
+      "habitats": [
+        "garden",
+        "wall_fence",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The little lizards are changing colour from brown back to bright green, like living mood rings on the fence!"
+    }
+  ],
+  "6": [
+    {
+      "id": "us_south_central_w6_eastern_redbud",
+      "species": "Eastern Redbud",
+      "scientificName": "Cercis canadensis",
+      "description": "Redbuds beginning to open their magenta-pink blossoms on bare branches across central Texas",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The bare trees are sprouting bright pink flowers right out of their bark. No leaves needed!"
+    },
+    {
+      "id": "us_south_central_w6_carolina_wren",
+      "species": "Carolina Wren",
+      "scientificName": "Thryothorus ludovicianus",
+      "description": "Carolina wrens singing their loud \"teakettle-teakettle\" from brush piles and garden corners",
+      "habitats": [
+        "garden",
+        "woodland",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A tiny rusty-brown bird with a big white eyebrow shouts \"teakettle-teakettle-teakettle!\" so loud you jump!"
+    },
+    {
+      "id": "us_south_central_w6_great_horned_owl",
+      "species": "Great Horned Owl",
+      "scientificName": "Bubo virginianus",
+      "description": "Great horned owl chicks hatching, parents hunting extra prey to feed fuzzy white nestlings",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Fluffy white owl babies have hatched. They look like cotton balls with big eyes sitting in the nest!"
+    },
+    {
+      "id": "us_south_central_w6_green_anole",
+      "species": "Green Anole",
+      "scientificName": "Anolis carolinensis",
+      "description": "Green anoles increasingly active on warm days, males displaying bright pink dewlaps",
+      "habitats": [
+        "garden",
+        "wall_fence",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The boy lizards puff out a bubblegum-pink flap under their chin and do push-ups to show off!"
+    },
+    {
+      "id": "us_south_central_w6_gulf_fritillary_butterfly",
+      "species": "Gulf Fritillary",
+      "scientificName": "Dione vanillae",
+      "description": "First gulf fritillary butterflies appearing on warm days, bright orange with silver-spotted underwings",
+      "habitats": [
+        "garden",
+        "meadow",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A bright orange butterfly with secret silver sparkles under its wings floats through the garden"
+    }
+  ],
+  "7": [
+    {
+      "id": "us_south_central_w7_eastern_redbud",
+      "species": "Eastern Redbud",
+      "scientificName": "Cercis canadensis",
+      "description": "Redbuds in full bloom along roadsides and woodland edges, pink-purple flowers covering bare branches",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Whole trees glow pink like cotton candy lollipops. The flowers grow straight out of the branches and even the trunk!"
+    },
+    {
+      "id": "us_south_central_w7_texas_mountain_laurel",
+      "species": "Texas Mountain Laurel",
+      "scientificName": "Dermatophyllum secundiflorum",
+      "description": "Texas mountain laurel flower buds swelling, first purple clusters beginning to open with grape-soda scent",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Sniff the purple flower clusters on this evergreen tree. They smell exactly like grape bubblegum!"
+    },
+    {
+      "id": "us_south_central_w7_northern_mockingbird",
+      "species": "Northern Mockingbird",
+      "scientificName": "Mimus polyglottos",
+      "description": "Mockingbirds in full song, sometimes singing through the night under streetlights",
+      "habitats": [
+        "garden",
+        "urban",
+        "hedgerow",
+        "meadow"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The mockingbird sings all night long under the streetlight. It knows more than 200 different songs!"
+    },
+    {
+      "id": "us_south_central_w7_carolina_wren",
+      "species": "Carolina Wren",
+      "scientificName": "Thryothorus ludovicianus",
+      "description": "Carolina wrens building nests in porch corners, flower pots, and any sheltered nook",
+      "habitats": [
+        "garden",
+        "woodland",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Check your boots on the porch. A cheeky little wren might be building a nest in there!"
+    },
+    {
+      "id": "us_south_central_w7_green_anole",
+      "species": "Green Anole",
+      "scientificName": "Anolis carolinensis",
+      "description": "Green anoles fully active now, males doing territorial push-up displays on fences and walls",
+      "habitats": [
+        "garden",
+        "wall_fence",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The green lizard does push-ups on the wall and flashes its pink chin flap: \"This is my fence!\""
+    },
+    {
+      "id": "us_south_central_w7_henbit",
+      "species": "Henbit",
+      "scientificName": "Lamium amplexicaule",
+      "description": "Henbit carpeting lawns and fields with tiny purple flowers, one of the earliest spring wildflowers",
+      "habitats": [
+        "garden",
+        "meadow",
+        "playing_field",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Lawns turn purple with millions of tiny flowers. Get close and they look like little dragon mouths!"
+    }
+  ],
+  "8": [
+    {
+      "id": "us_south_central_w8_texas_mountain_laurel",
+      "species": "Texas Mountain Laurel",
+      "scientificName": "Dermatophyllum secundiflorum",
+      "description": "Texas mountain laurel in peak bloom, heavy purple flower clusters dangling and filling the air with grape-soda fragrance",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Close your eyes and sniff. It smells like someone opened a grape soda! Those are the purple mountain laurel flowers"
+    },
+    {
+      "id": "us_south_central_w8_eastern_redbud",
+      "species": "Eastern Redbud",
+      "scientificName": "Cercis canadensis",
+      "description": "Redbuds at peak bloom, heart-shaped leaves beginning to emerge behind the flowers",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The pink redbud trees are at their prettiest, and look, tiny heart-shaped leaves are starting to unfold behind the flowers!"
+    },
+    {
+      "id": "us_south_central_w8_bluebonnet",
+      "species": "Texas Bluebonnet",
+      "scientificName": "Lupinus texensis",
+      "description": "Bluebonnet rosettes growing rapidly in fields and roadsides, flower stalks just beginning to push up",
+      "habitats": [
+        "meadow",
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Flat circles of fuzzy green leaves are getting ready for the biggest flower show in Texas. The bluebonnets are coming!"
+    },
+    {
+      "id": "us_south_central_w8_american_robin",
+      "species": "American Robin",
+      "scientificName": "Turdus migratorius",
+      "description": "Robin winter flocks beginning to break up as some birds start migrating north",
+      "habitats": [
+        "garden",
+        "urban",
+        "meadow",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The big robin flocks are breaking up. Some are heading north, but a few will stay and sing for us"
+    },
+    {
+      "id": "us_south_central_w8_painted_lady_butterfly",
+      "species": "Painted Lady",
+      "scientificName": "Vanessa cardui",
+      "description": "Painted lady butterflies beginning their northward migration through Texas, orange and black wings flashing",
+      "habitats": [
+        "meadow",
+        "garden",
+        "grassland",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Orange butterflies with painted spots are passing through on an incredible journey north. Wave them on!"
+    }
+  ],
+  "9": [
+    {
+      "id": "us_south_central_w9_bluebonnet",
+      "species": "Texas Bluebonnet",
+      "scientificName": "Lupinus texensis",
+      "description": "First bluebonnet flowers opening in southern areas, blue spikes rising from fuzzy rosettes along highways",
+      "habitats": [
+        "meadow",
+        "grassland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The first blue flowers are popping up like tiny bonnets. Soon there will be millions turning whole fields blue!"
+    },
+    {
+      "id": "us_south_central_w9_texas_mountain_laurel",
+      "species": "Texas Mountain Laurel",
+      "scientificName": "Dermatophyllum secundiflorum",
+      "description": "Mountain laurel still blooming strongly, purple wisteria-like clusters fragrant in warm afternoons",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Take a big sniff near the purple flowers, grape soda smell! The bees love it too"
+    },
+    {
+      "id": "us_south_central_w9_eastern_redbud",
+      "species": "Eastern Redbud",
+      "scientificName": "Cercis canadensis",
+      "description": "Redbud flowers fading as heart-shaped leaves expand, pink petals drifting down like confetti",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Pink petals are falling like confetti and cute heart-shaped leaves are taking their place!"
+    },
+    {
+      "id": "us_south_central_w9_mexican_plum",
+      "species": "Mexican Plum",
+      "scientificName": "Prunus mexicana",
+      "description": "Mexican plum trees covered in clusters of fragrant white blossoms, attracting early pollinators",
+      "habitats": [
+        "woodland",
+        "garden",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "White fluffy blossoms cover the plum tree like a cloud and smell so sweet that bees come buzzing from everywhere"
+    },
+    {
+      "id": "us_south_central_w9_scissor_tailed_flycatcher",
+      "species": "Scissor-tailed Flycatcher",
+      "scientificName": "Tyrannus forficatus",
+      "description": "First scissor-tailed flycatchers returning from Central America, their spectacular long tails streaming behind",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A pale pink bird with a tail twice as long as its body lands on a wire. It looks like it's trailing ribbons!"
+    },
+    {
+      "id": "us_south_central_w9_green_anole",
+      "species": "Green Anole",
+      "scientificName": "Anolis carolinensis",
+      "description": "Green anoles fully active, males displaying pink dewlaps and chasing rivals across garden walls",
+      "habitats": [
+        "garden",
+        "wall_fence",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Lizard wrestling! Two green anoles chase each other around the tree trunk, flashing their pink chin fans"
+    }
+  ],
+  "10": [
+    {
+      "id": "us_south_central_w10_bluebonnet",
+      "species": "Texas Bluebonnet",
+      "scientificName": "Lupinus texensis",
+      "description": "Bluebonnets spreading across fields and highway medians, blue carpets intensifying daily",
+      "habitats": [
+        "meadow",
+        "grassland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Fields are turning blue like the sky fell down! Get close and the flowers smell sweet like grape honey"
+    },
+    {
+      "id": "us_south_central_w10_indian_paintbrush",
+      "species": "Indian Paintbrush",
+      "scientificName": "Castilleja indivisa",
+      "description": "Indian paintbrush lighting up roadsides with scarlet-orange tips among the bluebonnets",
+      "habitats": [
+        "meadow",
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Red-orange flowers pop up in the bluebonnets like someone dipped paintbrushes in bright paint and stuck them in the ground!"
+    },
+    {
+      "id": "us_south_central_w10_monarch_butterfly",
+      "species": "Monarch Butterfly",
+      "scientificName": "Danaus plexippus",
+      "description": "Spring monarch migration beginning through Texas, butterflies heading north from Mexico",
+      "habitats": [
+        "meadow",
+        "garden",
+        "grassland",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Orange and black monarchs are flying through on an amazing journey. They came all the way from mountains in Mexico!"
+    },
+    {
+      "id": "us_south_central_w10_scissor_tailed_flycatcher",
+      "species": "Scissor-tailed Flycatcher",
+      "scientificName": "Tyrannus forficatus",
+      "description": "Scissor-tailed flycatchers arriving on fence lines and power wires, long tail feathers scissoring in flight",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The Oklahoma state bird is back! Watch it fly off the wire and its long tail opens and closes like scissors, snip!"
+    },
+    {
+      "id": "us_south_central_w10_texas_mountain_laurel",
+      "species": "Texas Mountain Laurel",
+      "scientificName": "Dermatophyllum secundiflorum",
+      "description": "Mountain laurel blossoms fading, last sweet grape-soda fragrance of the season",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The purple grape-soda flowers are dropping their petals. Quick, get one last sniff before they're gone!"
+    },
+    {
+      "id": "us_south_central_w10_prickly_pear_cactus",
+      "species": "Prickly Pear Cactus",
+      "scientificName": "Opuntia engelmannii",
+      "description": "Prickly pear cacti pushing out bright green new pads, soft and spineless at first",
+      "habitats": [
+        "grassland",
+        "meadow",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Baby cactus pads are sprouting. They're neon green and weirdly soft, like little rubbery ears (but don't touch, spines are coming!)"
+    }
+  ],
+  "11": [
+    {
+      "id": "us_south_central_w11_bluebonnet",
+      "species": "Texas Bluebonnet",
+      "scientificName": "Lupinus texensis",
+      "description": "Bluebonnet fields at their most spectacular, entire hillsides painted deep blue",
+      "habitats": [
+        "meadow",
+        "grassland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Whole hills look like blue oceans swaying in the breeze. This is the best week for bluebonnets!"
+    },
+    {
+      "id": "us_south_central_w11_indian_paintbrush",
+      "species": "Indian Paintbrush",
+      "scientificName": "Castilleja indivisa",
+      "description": "Indian paintbrush at peak, mixing scarlet splashes among blue and gold wildflowers",
+      "habitats": [
+        "meadow",
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The red paintbrush flowers blaze among the blue like little campfires in a blue sea!"
+    },
+    {
+      "id": "us_south_central_w11_monarch_butterfly",
+      "species": "Monarch Butterfly",
+      "scientificName": "Danaus plexippus",
+      "description": "Monarchs passing through Texas, females stopping to lay eggs on milkweed sprouting in fields",
+      "habitats": [
+        "meadow",
+        "garden",
+        "grassland",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The mama monarchs are stopping to lay teeny eggs on milkweed. Each egg is smaller than a grain of rice!"
+    },
+    {
+      "id": "us_south_central_w11_scissor_tailed_flycatcher",
+      "species": "Scissor-tailed Flycatcher",
+      "scientificName": "Tyrannus forficatus",
+      "description": "Scissor-tailed flycatchers establishing territories, spectacular sky-dancing courtship flights",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The scissor-tail zooms up high, tumbles and twists with its long tail streaming. It's a sky dance to impress a girlfriend!"
+    },
+    {
+      "id": "us_south_central_w11_ruby_throated_hummingbird",
+      "species": "Ruby-throated Hummingbird",
+      "scientificName": "Archilochus colubris",
+      "description": "First ruby-throated hummingbirds arriving from across the Gulf of Mexico, exhausted and hungry",
+      "habitats": [
+        "garden",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Tiny buzzing jewel-birds are arriving after flying non-stop across the whole Gulf of Mexico. Put out sugar water, they're starving!"
+    }
+  ],
+  "12": [
+    {
+      "id": "us_south_central_w12_bluebonnet",
+      "species": "Texas Bluebonnet",
+      "scientificName": "Lupinus texensis",
+      "description": "Bluebonnets at absolute peak across central Texas, families stopping for photos in the fields",
+      "habitats": [
+        "meadow",
+        "grassland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "It's bluebonnet picture time! Sit gently in the flowers and look up. You're in a sea of blue with white tips like tiny bonnets"
+    },
+    {
+      "id": "us_south_central_w12_indian_paintbrush",
+      "species": "Indian Paintbrush",
+      "scientificName": "Castilleja indivisa",
+      "description": "Indian paintbrush blazing alongside bluebonnets, the classic red-and-blue Texas wildflower combo",
+      "habitats": [
+        "meadow",
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Red and blue side by side. Nature made its own patriotic painting in the meadow!"
+    },
+    {
+      "id": "us_south_central_w12_monarch_butterfly",
+      "species": "Monarch Butterfly",
+      "scientificName": "Danaus plexippus",
+      "description": "Monarch migration in full swing through Texas, nectaring on wildflowers and laying eggs on milkweed",
+      "habitats": [
+        "meadow",
+        "garden",
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Follow a monarch with your eyes. Watch it dip its curly tongue into each flower like a tiny straw!"
+    },
+    {
+      "id": "us_south_central_w12_live_oak",
+      "species": "Live Oak",
+      "scientificName": "Quercus virginiana",
+      "description": "Live oaks dropping old leaves while new lime-green leaves emerge simultaneously, catkins shedding pollen",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The live oak is doing something wild, dropping old brown leaves and growing fresh green ones at the same time!"
+    },
+    {
+      "id": "us_south_central_w12_ruby_throated_hummingbird",
+      "species": "Ruby-throated Hummingbird",
+      "scientificName": "Archilochus colubris",
+      "description": "Ruby-throated hummingbirds arriving in numbers, males flashing iridescent red throats in sunlight",
+      "habitats": [
+        "garden",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A tiny bird hovers like a helicopter. Turn your head and its throat flashes from black to blazing ruby red!"
+    },
+    {
+      "id": "us_south_central_w12_green_anole",
+      "species": "Green Anole",
+      "scientificName": "Anolis carolinensis",
+      "description": "Green anoles very active, territorial males bobbing heads and displaying dewlaps on every warm surface",
+      "habitats": [
+        "garden",
+        "wall_fence",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Anoles are everywhere now, doing push-ups on trees, fences, walls, even your windowsill!"
+    }
+  ],
+  "13": [
+    {
+      "id": "us_south_central_w13_bluebonnet",
+      "species": "Texas Bluebonnet",
+      "scientificName": "Lupinus texensis",
+      "description": "Bluebonnets beginning to fade in southern areas, still peak in northern Hill Country",
+      "habitats": [
+        "meadow",
+        "grassland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Some bluebonnets are making seed pods now. The flowers turn pink then droop, but there are still blue fields up north!"
+    },
+    {
+      "id": "us_south_central_w13_painted_bunting",
+      "species": "Painted Bunting",
+      "scientificName": "Passerina ciris",
+      "description": "First painted buntings arriving, males dazzling with their rainbow plumage of blue, green, and red",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The most colourful bird in America just arrived. It's painted blue, green, red and yellow like a flying rainbow!"
+    },
+    {
+      "id": "us_south_central_w13_monarch_butterfly",
+      "species": "Monarch Butterfly",
+      "scientificName": "Danaus plexippus",
+      "description": "Monarch spring migration continuing, caterpillars hatching on Texas milkweed plants",
+      "habitats": [
+        "meadow",
+        "garden",
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Check the milkweed for stripy caterpillars: black, yellow and white! They munch leaves all day long"
+    },
+    {
+      "id": "us_south_central_w13_scissor_tailed_flycatcher",
+      "species": "Scissor-tailed Flycatcher",
+      "scientificName": "Tyrannus forficatus",
+      "description": "Scissor-tails nesting on utility poles and in open trees, long tails trailing as they hawk insects",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Watch the scissor-tail launch off the wire. It grabs a bug mid-air and its tail opens like scissors! Snip-snap!"
+    },
+    {
+      "id": "us_south_central_w13_dewberry",
+      "species": "Dewberry",
+      "scientificName": "Rubus trivialis",
+      "description": "Dewberry vines blooming with white flowers along fences and field edges, fruit beginning to form",
+      "habitats": [
+        "hedgerow",
+        "meadow",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "White flowers on thorny vines by the fence are going to turn into the yummiest little wild blackberries soon!"
+    },
+    {
+      "id": "us_south_central_w13_ruby_throated_hummingbird",
+      "species": "Ruby-throated Hummingbird",
+      "scientificName": "Archilochus colubris",
+      "description": "Ruby-throated hummingbirds established, aggressively defending flower patches and feeders",
+      "habitats": [
+        "garden",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The hummingbird zooms at other birds like a tiny fighter jet: buzz off, these flowers are mine!"
+    }
+  ],
+  "14": [
+    {
+      "id": "us_south_central_w14_bluebonnet",
+      "species": "Texas Bluebonnet",
+      "scientificName": "Lupinus texensis",
+      "description": "Bluebonnets fading across most areas, seed pods rattling on dried stems",
+      "habitats": [
+        "meadow",
+        "grassland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Shake a bluebonnet stem. Hear the seeds rattle? They're getting ready to plant themselves for next year!"
+    },
+    {
+      "id": "us_south_central_w14_painted_bunting",
+      "species": "Painted Bunting",
+      "scientificName": "Passerina ciris",
+      "description": "Painted buntings singing from treetops, males displaying iridescent plumage in morning light",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The rainbow bird sings a sweet warbling song from the highest branch so everyone can see how gorgeous he is"
+    },
+    {
+      "id": "us_south_central_w14_live_oak",
+      "species": "Live Oak",
+      "scientificName": "Quercus virginiana",
+      "description": "Live oak leaf exchange nearly complete, fresh bright green canopy replacing old leaves, pollen heavy",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The live oaks are finally done swapping leaves. Everything is fresh bright green and the brown leaf rain is stopping!"
+    },
+    {
+      "id": "us_south_central_w14_dewberry",
+      "species": "Dewberry",
+      "scientificName": "Rubus trivialis",
+      "description": "Dewberries forming green fruit, some early berries turning red along sunny fence lines",
+      "habitats": [
+        "hedgerow",
+        "meadow",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The dewberry flowers are turning into tiny hard green berries. Don't eat them yet, they need to turn dark purple!"
+    },
+    {
+      "id": "us_south_central_w14_black_chinned_hummingbird",
+      "species": "Black-chinned Hummingbird",
+      "scientificName": "Archilochus alexandri",
+      "description": "Black-chinned hummingbirds arriving in central and western Texas, joining ruby-throats at feeders",
+      "habitats": [
+        "garden",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Another tiny hummingbird has arrived. This one has a purple stripe that only shows when the light hits just right!"
+    },
+    {
+      "id": "us_south_central_w14_texas_spiny_lizard",
+      "species": "Texas Spiny Lizard",
+      "scientificName": "Sceloporus olivaceus",
+      "description": "Texas spiny lizards sunning on fence posts and tree trunks, males doing push-up territorial displays",
+      "habitats": [
+        "woodland",
+        "wall_fence",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A bumpy grey lizard as long as your hand does push-ups on the fence. Look at the blue patches on his belly!"
+    }
+  ],
+  "15": [
+    {
+      "id": "us_south_central_w15_painted_bunting",
+      "species": "Painted Bunting",
+      "scientificName": "Passerina ciris",
+      "description": "Painted buntings nesting in thick brush, males singing territorial songs from exposed perches",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The rainbow bird is building a secret nest deep in the bushes while the colourful dad sings from up high"
+    },
+    {
+      "id": "us_south_central_w15_dewberry",
+      "species": "Dewberry",
+      "scientificName": "Rubus trivialis",
+      "description": "Dewberries ripening to dark purple-black, sweet and juicy along fence rows and woodland edges",
+      "habitats": [
+        "hedgerow",
+        "meadow",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "touch",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The dewberries are dark and squishy-ripe! Pop one in your mouth, sweet and purple and juicy (watch the thorns!)"
+    },
+    {
+      "id": "us_south_central_w15_scissor_tailed_flycatcher",
+      "species": "Scissor-tailed Flycatcher",
+      "scientificName": "Tyrannus forficatus",
+      "description": "Scissor-tailed flycatchers incubating eggs, pairs defending nest territories aggressively",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Mama scissor-tail sits on her eggs while papa chases away any bird that comes too close, even hawks!"
+    },
+    {
+      "id": "us_south_central_w15_mexican_free_tailed_bat",
+      "species": "Mexican Free-tailed Bat",
+      "scientificName": "Tadarida brasiliensis",
+      "description": "Mexican free-tailed bat colonies growing under bridges, evening flights becoming more spectacular",
+      "habitats": [
+        "urban",
+        "woodland",
+        "stream"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Stand on the bridge at sunset. Thousands of bats pour out like a dark river flowing into the sky!"
+    },
+    {
+      "id": "us_south_central_w15_coral_honeysuckle",
+      "species": "Coral Honeysuckle",
+      "scientificName": "Lonicera sempervirens",
+      "description": "Native coral honeysuckle in full bloom, tubular red flowers attracting hummingbirds",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Red tube-shaped flowers hang in clusters. Pull one off gently and sip the tiny drop of honey-sweet nectar inside!"
+    }
+  ],
+  "16": [
+    {
+      "id": "us_south_central_w16_prickly_pear_cactus",
+      "species": "Prickly Pear Cactus",
+      "scientificName": "Opuntia engelmannii",
+      "description": "Prickly pear flower buds forming on pad edges, yellow-orange blossoms beginning to open",
+      "habitats": [
+        "grassland",
+        "meadow",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The spiky cactus is growing beautiful yellow flowers on its edges. Nature's way of putting a bow on a cactus!"
+    },
+    {
+      "id": "us_south_central_w16_black_chinned_hummingbird",
+      "species": "Black-chinned Hummingbird",
+      "scientificName": "Archilochus alexandri",
+      "description": "Black-chinned hummingbirds nesting, building tiny lichen-covered nests on tree branches",
+      "habitats": [
+        "garden",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The hummingbird's nest is the size of a walnut shell! She glues it together with spider silk, so tiny and perfect"
+    },
+    {
+      "id": "us_south_central_w16_painted_bunting",
+      "species": "Painted Bunting",
+      "scientificName": "Passerina ciris",
+      "description": "Painted buntings on eggs, females nearly invisible in their olive-green plumage",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The mama painted bunting is all green. She's hiding on the nest so no one can find her babies!"
+    },
+    {
+      "id": "us_south_central_w16_great_tailed_grackle",
+      "species": "Great-tailed Grackle",
+      "scientificName": "Quiscalus mexicanus",
+      "description": "Great-tailed grackles nesting in parking lot trees, males puffing up and making outrageous mechanical sounds",
+      "habitats": [
+        "urban",
+        "garden",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Shiny purple-black birds in the parking lot make the weirdest sounds: clicks, whistles, rusty gates, and laser beams!"
+    },
+    {
+      "id": "us_south_central_w16_mexican_free_tailed_bat",
+      "species": "Mexican Free-tailed Bat",
+      "scientificName": "Tadarida brasiliensis",
+      "description": "Bat colonies swelling as pregnant females arrive, evening emergences growing larger",
+      "habitats": [
+        "urban",
+        "woodland",
+        "stream"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The mama bats are arriving. Soon each one will have a tiny pink baby bat clinging to her fur!"
+    },
+    {
+      "id": "us_south_central_w16_carolina_wren",
+      "species": "Carolina Wren",
+      "scientificName": "Thryothorus ludovicianus",
+      "description": "Carolina wren chicks fledging from first broods, noisy families exploring gardens",
+      "habitats": [
+        "garden",
+        "woodland",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Baby wrens hop out of the nest for the first time, cheeping and fluttering and following mum everywhere!"
+    }
+  ],
+  "17": [
+    {
+      "id": "us_south_central_w17_prickly_pear_cactus",
+      "species": "Prickly Pear Cactus",
+      "scientificName": "Opuntia engelmannii",
+      "description": "Prickly pear in spectacular bloom, large waxy yellow and orange flowers covering the pads",
+      "habitats": [
+        "grassland",
+        "meadow",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The prickly cactus is wearing a crown of bright yellow flowers. Each one is as big as your palm!"
+    },
+    {
+      "id": "us_south_central_w17_monarch_butterfly",
+      "species": "Monarch Butterfly",
+      "scientificName": "Danaus plexippus",
+      "description": "Monarch caterpillars feeding on milkweed, first generation chrysalises forming",
+      "habitats": [
+        "meadow",
+        "garden",
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The stripy caterpillar hangs upside-down and makes a jade-green sleeping bag with gold dots. It's becoming a butterfly inside!"
+    },
+    {
+      "id": "us_south_central_w17_ruby_throated_hummingbird",
+      "species": "Ruby-throated Hummingbird",
+      "scientificName": "Archilochus colubris",
+      "description": "Ruby-throated hummingbirds nesting, females sitting on two jelly-bean-sized eggs",
+      "habitats": [
+        "garden",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Two eggs the size of jelly beans sit in a walnut-shell nest. Each one will become a buzzing hummingbird!"
+    },
+    {
+      "id": "us_south_central_w17_green_anole",
+      "species": "Green Anole",
+      "scientificName": "Anolis carolinensis",
+      "description": "Green anoles mating, females beginning to lay single eggs in moist soil and leaf litter",
+      "habitats": [
+        "garden",
+        "wall_fence",
+        "urban",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The mama lizard hides a tiny white egg under a leaf. It's so small you could mistake it for a pebble!"
+    },
+    {
+      "id": "us_south_central_w17_firefly",
+      "species": "Firefly",
+      "scientificName": "Photinus pyralis",
+      "description": "First fireflies of the season blinking in eastern Texas yards and meadows at dusk",
+      "habitats": [
+        "garden",
+        "meadow",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Little lights blink on and off in the grass at twilight. Fireflies are bugs with glow-in-the-dark bottoms!"
+    }
+  ],
+  "18": [
+    {
+      "id": "us_south_central_w18_prickly_pear_cactus",
+      "species": "Prickly Pear Cactus",
+      "scientificName": "Opuntia engelmannii",
+      "description": "Prickly pear bloom continuing, bees buzzing inside the large cup-shaped flowers",
+      "habitats": [
+        "grassland",
+        "meadow",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Peek inside a cactus flower. A fuzzy bee is rolling around in yellow pollen like a tiny dog in a ball pit!"
+    },
+    {
+      "id": "us_south_central_w18_mexican_free_tailed_bat",
+      "species": "Mexican Free-tailed Bat",
+      "scientificName": "Tadarida brasiliensis",
+      "description": "Bat colonies at near-peak numbers, spectacular sunset emergences from bridges and caves",
+      "habitats": [
+        "urban",
+        "woodland",
+        "stream"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A million bats stream out from under the bridge at sunset. The ribbon of bats stretches across the whole sky!"
+    },
+    {
+      "id": "us_south_central_w18_firefly",
+      "species": "Firefly",
+      "scientificName": "Photinus pyralis",
+      "description": "Fireflies increasing in number across eastern Texas, blinking yellow-green in warm humid evenings",
+      "habitats": [
+        "garden",
+        "meadow",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "More and more fireflies are joining the light show. The yard looks like it's full of floating stars!"
+    },
+    {
+      "id": "us_south_central_w18_great_tailed_grackle",
+      "species": "Great-tailed Grackle",
+      "scientificName": "Quiscalus mexicanus",
+      "description": "Grackle chicks fledging, noisy juveniles begging for food in parking lots and picnic areas",
+      "habitats": [
+        "urban",
+        "garden",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Baby grackles follow their parents going \"cheee cheee cheee\" with their mouths wide open, so demanding!"
+    },
+    {
+      "id": "us_south_central_w18_eastern_box_turtle",
+      "species": "Eastern Box Turtle",
+      "scientificName": "Terrapene carolina",
+      "description": "Box turtles active after spring rains, crossing roads and foraging in woodland leaf litter",
+      "habitats": [
+        "woodland",
+        "garden",
+        "meadow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A turtle with an orange and brown shell walks slowly through the leaves. If scared it pulls everything inside and shuts the door!"
+    },
+    {
+      "id": "us_south_central_w18_horsemint",
+      "species": "Horsemint",
+      "scientificName": "Monarda citriodora",
+      "description": "Horsemint beginning to bloom in meadows and roadsides, stacked pink-purple whorls of flowers",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Rub a horsemint leaf and sniff. It smells like lemon! The stacked purple flowers look like a tiny wedding cake"
+    }
+  ],
+  "19": [
+    {
+      "id": "us_south_central_w19_firefly",
+      "species": "Firefly",
+      "scientificName": "Photinus pyralis",
+      "description": "Firefly displays intensifying in humid areas, synchronized flashing in some eastern Texas woods",
+      "habitats": [
+        "garden",
+        "meadow",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The fireflies are putting on their best show (flash, flash, flash). They're talking to each other with light!"
+    },
+    {
+      "id": "us_south_central_w19_mexican_free_tailed_bat",
+      "species": "Mexican Free-tailed Bat",
+      "scientificName": "Tadarida brasiliensis",
+      "description": "Baby bats being born in colonies, mothers returning from foraging to nurse in the dark",
+      "habitats": [
+        "urban",
+        "woodland",
+        "stream"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Tiny pink baby bats cling upside-down waiting for mum. And she finds her baby among millions just by its voice and smell!"
+    },
+    {
+      "id": "us_south_central_w19_horsemint",
+      "species": "Horsemint",
+      "scientificName": "Monarda citriodora",
+      "description": "Horsemint at peak bloom, meadows and roadsides dotted with purple tiered flower towers",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Fields of stacked purple flowers smell lemony-fresh. Butterflies and bees are having a feast!"
+    },
+    {
+      "id": "us_south_central_w19_painted_bunting",
+      "species": "Painted Bunting",
+      "scientificName": "Passerina ciris",
+      "description": "Painted buntings feeding chicks, parents making constant trips with caterpillars and seeds",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The rainbow dad brings bugs to his babies, back and forth, back and forth, all day long!"
+    },
+    {
+      "id": "us_south_central_w19_texas_spiny_lizard",
+      "species": "Texas Spiny Lizard",
+      "scientificName": "Sceloporus olivaceus",
+      "description": "Texas spiny lizards hunting insects on tree trunks, quick dashes and freeze-frame stillness",
+      "habitats": [
+        "woodland",
+        "wall_fence",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The big bumpy lizard runs up the tree. Stop! Runs again. Stop! It's playing a real-life game of freeze tag"
+    }
+  ],
+  "20": [
+    {
+      "id": "us_south_central_w20_mexican_free_tailed_bat",
+      "species": "Mexican Free-tailed Bat",
+      "scientificName": "Tadarida brasiliensis",
+      "description": "Bat colonies at peak with nursing mothers, Austin's Congress Avenue Bridge emergence a must-see spectacle",
+      "habitats": [
+        "urban",
+        "woodland",
+        "stream"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Stand on the bridge at sunset and watch a million bats swirl out. It takes 45 minutes for them all to leave!"
+    },
+    {
+      "id": "us_south_central_w20_firefly",
+      "species": "Firefly",
+      "scientificName": "Photinus pyralis",
+      "description": "Peak firefly season in eastern Texas, warm humid nights lit up with blinking yellow-green",
+      "habitats": [
+        "garden",
+        "meadow",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Catch a firefly gently in your cupped hands and peek through your fingers. Your hands glow like a magic lantern!"
+    },
+    {
+      "id": "us_south_central_w20_scissor_tailed_flycatcher",
+      "species": "Scissor-tailed Flycatcher",
+      "scientificName": "Tyrannus forficatus",
+      "description": "Scissor-tailed flycatcher chicks fledging, awkward juveniles with shorter tails learning to hawk insects",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Baby scissor-tails have stubby tails and keep missing the bugs. Practice makes perfect, little bird!"
+    },
+    {
+      "id": "us_south_central_w20_greater_roadrunner",
+      "species": "Greater Roadrunner",
+      "scientificName": "Geococcyx californianus",
+      "description": "Roadrunners hunting lizards and snakes in brushy areas, running at top speed with prey dangling from bill",
+      "habitats": [
+        "grassland",
+        "garden",
+        "urban",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The roadrunner sprints across the path with a lizard in its beak. Beep beep! (Well, it actually goes \"coo-coo-coo\")"
+    },
+    {
+      "id": "us_south_central_w20_crape_myrtle",
+      "species": "Crape Myrtle",
+      "scientificName": "Lagerstroemia indica",
+      "description": "Crape myrtle flower buds forming at branch tips, preparing for the long summer bloom",
+      "habitats": [
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Fat green buds are growing at the tips of the crape myrtle. They're going to pop into amazing crinkly flowers soon!"
+    }
+  ],
+  "21": [
+    {
+      "id": "us_south_central_w21_crape_myrtle",
+      "species": "Crape Myrtle",
+      "scientificName": "Lagerstroemia indica",
+      "description": "First crape myrtle blossoms opening in pink, purple, red and white, crinkly crepe-paper petals",
+      "habitats": [
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Crinkly flowers that feel like crepe paper are opening. Touch one gently, it's like a ruffled tissue-paper skirt!"
+    },
+    {
+      "id": "us_south_central_w21_mexican_free_tailed_bat",
+      "species": "Mexican Free-tailed Bat",
+      "scientificName": "Tadarida brasiliensis",
+      "description": "Baby bats growing rapidly, clinging to cave and bridge ceilings while mothers forage",
+      "habitats": [
+        "urban",
+        "woodland",
+        "stream"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Baby bats are getting furry now. They practice flapping their wings while hanging upside-down, getting ready to fly!"
+    },
+    {
+      "id": "us_south_central_w21_cicada",
+      "species": "Annual Cicada",
+      "scientificName": "Neotibicen superbus",
+      "description": "First cicadas of summer buzzing from tree canopies, their rising and falling drone becoming the sound of heat",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Bzzzzzzzzz, that loud rising buzz from the trees? That's a cicada, a big bug that lived underground for years and finally came up!"
+    },
+    {
+      "id": "us_south_central_w21_painted_bunting",
+      "species": "Painted Bunting",
+      "scientificName": "Passerina ciris",
+      "description": "Painted bunting fledglings leaving nests, dull olive juveniles following parents through brush",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Baby painted buntings don't look like rainbows yet. They're plain green, like they forgot to put on their fancy clothes!"
+    },
+    {
+      "id": "us_south_central_w21_greater_roadrunner",
+      "species": "Greater Roadrunner",
+      "scientificName": "Geococcyx californianus",
+      "description": "Roadrunner pairs raising chicks, parents sprinting with grasshoppers and small reptiles for hungry nestlings",
+      "habitats": [
+        "grassland",
+        "garden",
+        "urban",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Mama roadrunner runs up with a big grasshopper. The babies fight over who gets the crunchy snack!"
+    },
+    {
+      "id": "us_south_central_w21_turks_cap",
+      "species": "Turk's Cap",
+      "scientificName": "Malvaviscus arboreus",
+      "description": "Turk's cap beginning to bloom, spiralled red flowers unfurling in shady garden spots",
+      "habitats": [
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Red flowers that never fully open. They stay twisted like a little turban, and hummingbirds love poking their beaks inside!"
+    }
+  ],
+  "22": [
+    {
+      "id": "us_south_central_w22_crape_myrtle",
+      "species": "Crape Myrtle",
+      "scientificName": "Lagerstroemia indica",
+      "description": "Crape myrtles blooming along streets and in yards, one of the few trees flowering in the heat",
+      "habitats": [
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "When everything else is wilting, the crape myrtle shows off huge bunches of crinkly pink and purple flowers!"
+    },
+    {
+      "id": "us_south_central_w22_cicada",
+      "species": "Annual Cicada",
+      "scientificName": "Neotibicen superbus",
+      "description": "Cicada chorus building, empty brown shells clinging to tree bark where nymphs emerged",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Find a crunchy brown shell on a tree. A cicada climbed out of its old skin and left it behind like an empty spacesuit!"
+    },
+    {
+      "id": "us_south_central_w22_mexican_free_tailed_bat",
+      "species": "Mexican Free-tailed Bat",
+      "scientificName": "Tadarida brasiliensis",
+      "description": "Young bats taking first flights, bat emergences at their most spectacular numbers",
+      "habitats": [
+        "urban",
+        "woodland",
+        "stream"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The baby bats are learning to fly! Some wobble and loop, but they're getting better every night"
+    },
+    {
+      "id": "us_south_central_w22_turks_cap",
+      "species": "Turk's Cap",
+      "scientificName": "Malvaviscus arboreus",
+      "description": "Turk's cap in steady bloom, twisted red flowers attracting hummingbirds to shady garden corners",
+      "habitats": [
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The twisty red flowers are a hummingbird café. Watch the tiny birds zip in for a sip of nectar!"
+    },
+    {
+      "id": "us_south_central_w22_green_anole",
+      "species": "Green Anole",
+      "scientificName": "Anolis carolinensis",
+      "description": "Green anoles hunting insects in the heat, turning brown on hot surfaces and green in shade",
+      "habitats": [
+        "garden",
+        "wall_fence",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Watch the anole change colour, green in the shade, brown in the sun! It's not a chameleon, but close!"
+    }
+  ],
+  "23": [
+    {
+      "id": "us_south_central_w23_cicada",
+      "species": "Annual Cicada",
+      "scientificName": "Neotibicen superbus",
+      "description": "Cicada drone at full volume, the defining soundtrack of Texas summer afternoons",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Close your eyes and listen. That loud bzzzzzz rising and falling is the sound of summer itself!"
+    },
+    {
+      "id": "us_south_central_w23_crape_myrtle",
+      "species": "Crape Myrtle",
+      "scientificName": "Lagerstroemia indica",
+      "description": "Crape myrtles in full glory, huge panicles of ruffled flowers in hot pink, lavender, red and white",
+      "habitats": [
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Crape myrtles are the queens of summer, big bunches of crinkly flowers when everything else is too hot to bloom!"
+    },
+    {
+      "id": "us_south_central_w23_mexican_free_tailed_bat",
+      "species": "Mexican Free-tailed Bat",
+      "scientificName": "Tadarida brasiliensis",
+      "description": "Peak bat season, columns of 1.5 million bats spiraling from Austin's Congress Avenue Bridge at dusk",
+      "habitats": [
+        "urban",
+        "woodland",
+        "stream"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The biggest bat show in the world! They eat 10,000 pounds of mosquitoes and moths every single night"
+    },
+    {
+      "id": "us_south_central_w23_greater_roadrunner",
+      "species": "Greater Roadrunner",
+      "scientificName": "Geococcyx californianus",
+      "description": "Roadrunners panting in the heat with mouth agape, still hunting lizards and scorpions",
+      "habitats": [
+        "grassland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Even the roadrunner is hot. It stands in the shade panting, but still chases lizards when it spots one!"
+    },
+    {
+      "id": "us_south_central_w23_turks_cap",
+      "species": "Turk's Cap",
+      "scientificName": "Malvaviscus arboreus",
+      "description": "Turk's cap blooming steadily through the heat, red spiralled flowers in every shady garden corner",
+      "habitats": [
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Turk's cap just keeps blooming all summer. The hummingbirds say thank you!"
+    }
+  ],
+  "24": [
+    {
+      "id": "us_south_central_w24_cicada",
+      "species": "Annual Cicada",
+      "scientificName": "Neotibicen superbus",
+      "description": "Multiple cicada species calling, overlapping buzzes and clicks creating waves of sound in the heat",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Different cicadas make different sounds: some buzz, some click, some whine. It's a bug orchestra in the treetops!"
+    },
+    {
+      "id": "us_south_central_w24_crape_myrtle",
+      "species": "Crape Myrtle",
+      "scientificName": "Lagerstroemia indica",
+      "description": "Crape myrtles in sustained bloom, petals drifting down like coloured confetti on hot sidewalks",
+      "habitats": [
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Tiny crinkly petals fall like confetti on the sidewalk. Step on them and they feel like tissue paper"
+    },
+    {
+      "id": "us_south_central_w24_striped_bark_scorpion",
+      "species": "Striped Bark Scorpion",
+      "scientificName": "Centruroides vittatus",
+      "description": "Scorpions active at night, glowing blue-green under UV light while hunting insects on walls and patios",
+      "habitats": [
+        "garden",
+        "wall_fence",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Shine a blacklight in the garden at night. Scorpions glow spooky blue-green! (Look but don't touch!)"
+    },
+    {
+      "id": "us_south_central_w24_mexican_free_tailed_bat",
+      "species": "Mexican Free-tailed Bat",
+      "scientificName": "Tadarida brasiliensis",
+      "description": "Bat colonies at peak size, young bats now foraging independently alongside adults",
+      "habitats": [
+        "urban",
+        "woodland",
+        "stream"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The teenage bats are hunting on their own now, swooping and diving after moths in the streetlights!"
+    },
+    {
+      "id": "us_south_central_w24_texas_spiny_lizard",
+      "species": "Texas Spiny Lizard",
+      "scientificName": "Sceloporus olivaceus",
+      "description": "Texas spiny lizards laying eggs in warm soil, adults hunting in morning and evening to avoid midday heat",
+      "habitats": [
+        "woodland",
+        "wall_fence",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The big spiny lizard only comes out in the cooler morning and evening now. It's too hot even for a lizard at noon!"
+    }
+  ],
+  "25": [
+    {
+      "id": "us_south_central_w25_cicada",
+      "species": "Annual Cicada",
+      "scientificName": "Neotibicen superbus",
+      "description": "Cicadas at peak volume, the relentless buzz the hallmark of brutal Texas summer heat",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The hotter it gets, the louder the cicadas buzz. They love the heat!"
+    },
+    {
+      "id": "us_south_central_w25_crape_myrtle",
+      "species": "Crape Myrtle",
+      "scientificName": "Lagerstroemia indica",
+      "description": "Crape myrtles continuing their long bloom, one of the only splashes of colour in the scorching landscape",
+      "habitats": [
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Everything looks dried up except the crape myrtle, still waving its crinkly flowers like colourful flags!"
+    },
+    {
+      "id": "us_south_central_w25_mexican_free_tailed_bat",
+      "species": "Mexican Free-tailed Bat",
+      "scientificName": "Tadarida brasiliensis",
+      "description": "Massive bat emergences continuing at dusk, the dark ribbon visible against sunset skies",
+      "habitats": [
+        "urban",
+        "woodland",
+        "stream"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The bats make a dark swirling river in the sunset sky. Hawks try to catch them but the bats are too quick!"
+    },
+    {
+      "id": "us_south_central_w25_striped_bark_scorpion",
+      "species": "Striped Bark Scorpion",
+      "scientificName": "Centruroides vittatus",
+      "description": "Scorpions hunting nightly on warm surfaces, sometimes finding their way indoors seeking water",
+      "habitats": [
+        "garden",
+        "wall_fence",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Shake out your shoes in the morning. A scorpion might be hiding in there! They glow under blacklight"
+    },
+    {
+      "id": "us_south_central_w25_turks_cap",
+      "species": "Turk's Cap",
+      "scientificName": "Malvaviscus arboreus",
+      "description": "Turk's cap thriving in shade despite the heat, red flowers a vital nectar source for hummingbirds",
+      "habitats": [
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Turk's cap flowers are like little red swirly ice cream cones that hummingbirds stick their tongues into!"
+    }
+  ],
+  "26": [
+    {
+      "id": "us_south_central_w26_cicada",
+      "species": "Annual Cicada",
+      "scientificName": "Neotibicen superbus",
+      "description": "Cicada chorus peaking, their shed exoskeletons accumulating on tree trunks",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Collect the crunchy cicada shells off tree bark. They're like tiny perfect bug costumes left behind!"
+    },
+    {
+      "id": "us_south_central_w26_crape_myrtle",
+      "species": "Crape Myrtle",
+      "scientificName": "Lagerstroemia indica",
+      "description": "Crape myrtles at mid-summer peak, some trees covered in so many flowers the branches droop",
+      "habitats": [
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "So many flowers the branches bend down like the tree is bowing to say \"Look how beautiful I am!\""
+    },
+    {
+      "id": "us_south_central_w26_mexican_free_tailed_bat",
+      "species": "Mexican Free-tailed Bat",
+      "scientificName": "Tadarida brasiliensis",
+      "description": "Bat colonies at their largest, consuming tonnes of agricultural pest insects nightly",
+      "habitats": [
+        "urban",
+        "woodland",
+        "stream"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Each bat eats its own weight in bugs every night. Imagine eating your weight in pizza!"
+    },
+    {
+      "id": "us_south_central_w26_greater_roadrunner",
+      "species": "Greater Roadrunner",
+      "scientificName": "Geococcyx californianus",
+      "description": "Roadrunners hunting in early morning before the heat, juveniles learning to chase prey",
+      "habitats": [
+        "grassland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Baby roadrunners are learning to hunt. They chase grasshoppers and sometimes trip over their own big feet!"
+    },
+    {
+      "id": "us_south_central_w26_green_anole",
+      "species": "Green Anole",
+      "scientificName": "Anolis carolinensis",
+      "description": "Tiny hatchling anoles appearing on plants and fences, just a few centimetres long",
+      "habitats": [
+        "garden",
+        "wall_fence",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Teeny tiny baby lizards smaller than your pinky finger are popping up on the fence. They hatched all by themselves!"
+    }
+  ],
+  "27": [
+    {
+      "id": "us_south_central_w27_cicada",
+      "species": "Annual Cicada",
+      "scientificName": "Neotibicen superbus",
+      "description": "Cicadas buzzing from dawn to dusk, the loudest insects in North America at over 100 decibels",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Cicadas are as loud as a lawnmower! Cover your ears near a tree full of them, bzzzzzzzzz!"
+    },
+    {
+      "id": "us_south_central_w27_crape_myrtle",
+      "species": "Crape Myrtle",
+      "scientificName": "Lagerstroemia indica",
+      "description": "Crape myrtles still blooming strong through July heat, attracting pollinators",
+      "habitats": [
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The crape myrtle keeps going and going. It's the energizer bunny of summer flowers!"
+    },
+    {
+      "id": "us_south_central_w27_mexican_free_tailed_bat",
+      "species": "Mexican Free-tailed Bat",
+      "scientificName": "Tadarida brasiliensis",
+      "description": "Peak bat season, all ages foraging, spectacular evening emergences from bridges and caves",
+      "habitats": [
+        "urban",
+        "woodland",
+        "stream"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The bats are the best pest control: a whole colony eats enough bugs to fill a swimming pool every summer!"
+    },
+    {
+      "id": "us_south_central_w27_striped_bark_scorpion",
+      "species": "Striped Bark Scorpion",
+      "scientificName": "Centruroides vittatus",
+      "description": "Peak scorpion activity on hot nights, females carrying babies on their backs",
+      "habitats": [
+        "garden",
+        "wall_fence",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Mama scorpion carries all her babies on her back, dozens of tiny scorpions riding piggyback! (Don't pick them up!)"
+    },
+    {
+      "id": "us_south_central_w27_turks_cap",
+      "species": "Turk's Cap",
+      "scientificName": "Malvaviscus arboreus",
+      "description": "Turk's cap blooming reliably through the heat, one of the best native plants for summer hummingbirds",
+      "habitats": [
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The red turk's cap flowers are the hummingbird's favourite summer restaurant, always open, always serving nectar!"
+    }
+  ],
+  "28": [
+    {
+      "id": "us_south_central_w28_cicada",
+      "species": "Annual Cicada",
+      "scientificName": "Neotibicen superbus",
+      "description": "Cicadas still at full chorus, dead adults littering sidewalks after completing their brief above-ground lives",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A cicada lived underground for years, then came up to sing for just a few weeks. What a wild life!"
+    },
+    {
+      "id": "us_south_central_w28_crape_myrtle",
+      "species": "Crape Myrtle",
+      "scientificName": "Lagerstroemia indica",
+      "description": "Crape myrtles pushing out new flower panicles as old ones fade, extending the bloom",
+      "habitats": [
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Just when one bunch of flowers fades, the crape myrtle grows new ones. It's like a flower machine!"
+    },
+    {
+      "id": "us_south_central_w28_mexican_free_tailed_bat",
+      "species": "Mexican Free-tailed Bat",
+      "scientificName": "Tadarida brasiliensis",
+      "description": "Bat colonies still at peak, young bats fully independent and foraging far from roosts",
+      "habitats": [
+        "urban",
+        "woodland",
+        "stream"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Teenage bats are expert flyers now. They zoom and dive catching moths with their echolocation superpowers!"
+    },
+    {
+      "id": "us_south_central_w28_texas_spiny_lizard",
+      "species": "Texas Spiny Lizard",
+      "scientificName": "Sceloporus olivaceus",
+      "description": "Texas spiny lizards sheltering in shade during hottest hours, active at dawn and dusk",
+      "habitats": [
+        "woodland",
+        "wall_fence",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Even the tough spiny lizard hides from the afternoon sun. Find them pressed flat against the shady side of trees"
+    },
+    {
+      "id": "us_south_central_w28_greater_roadrunner",
+      "species": "Greater Roadrunner",
+      "scientificName": "Geococcyx californianus",
+      "description": "Roadrunners sunbathing in morning, spreading wings and fluffing back feathers to absorb warmth",
+      "habitats": [
+        "grassland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The roadrunner spreads its wings like a vampire cape and turns its back to the sun. It's solar-powered!"
+    }
+  ],
+  "29": [
+    {
+      "id": "us_south_central_w29_cicada",
+      "species": "Annual Cicada",
+      "scientificName": "Neotibicen superbus",
+      "description": "Late-season cicada species joining the chorus, slightly different buzz patterns in the canopy",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "New cicadas with different songs are joining in. The summer concert has new performers!"
+    },
+    {
+      "id": "us_south_central_w29_crape_myrtle",
+      "species": "Crape Myrtle",
+      "scientificName": "Lagerstroemia indica",
+      "description": "Crape myrtles in sustained bloom, second and third flushes of flowers keeping trees colourful",
+      "habitats": [
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The crape myrtle has been blooming for two months and still going, what a champion!"
+    },
+    {
+      "id": "us_south_central_w29_mexican_free_tailed_bat",
+      "species": "Mexican Free-tailed Bat",
+      "scientificName": "Tadarida brasiliensis",
+      "description": "Bat colonies beginning to thin slightly as some individuals start dispersing",
+      "habitats": [
+        "urban",
+        "woodland",
+        "stream"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The bat show is still amazing, but a few bats are starting to head off on their own adventures"
+    },
+    {
+      "id": "us_south_central_w29_green_anole",
+      "species": "Green Anole",
+      "scientificName": "Anolis carolinensis",
+      "description": "Multiple generations of anoles active, from tiny hatchlings to large territorial adults",
+      "habitats": [
+        "garden",
+        "wall_fence",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Big lizards, medium lizards, tiny baby lizards. The fence is like a lizard apartment building!"
+    },
+    {
+      "id": "us_south_central_w29_turks_cap",
+      "species": "Turk's Cap",
+      "scientificName": "Malvaviscus arboreus",
+      "description": "Turk's cap still flowering despite the heat, small red fruits beginning to form on older flowers",
+      "habitats": [
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Some turk's cap flowers are becoming little red berries. Birds will gobble them up later!"
+    }
+  ],
+  "30": [
+    {
+      "id": "us_south_central_w30_cicada",
+      "species": "Annual Cicada",
+      "scientificName": "Neotibicen superbus",
+      "description": "Cicada chorus still strong but beginning to thin in some areas as oldest individuals die off",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The cicada orchestra is still playing but some musicians are taking their final bow"
+    },
+    {
+      "id": "us_south_central_w30_crape_myrtle",
+      "species": "Crape Myrtle",
+      "scientificName": "Lagerstroemia indica",
+      "description": "Crape myrtles still blooming, seed pods forming on earlier flower clusters",
+      "habitats": [
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The crape myrtle has flowers and little round seed balls at the same time, multi-tasking tree!"
+    },
+    {
+      "id": "us_south_central_w30_mexican_free_tailed_bat",
+      "species": "Mexican Free-tailed Bat",
+      "scientificName": "Tadarida brasiliensis",
+      "description": "Bat emergences still spectacular, colony sizes starting to decline as autumn migration approaches",
+      "habitats": [
+        "urban",
+        "woodland",
+        "stream"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Still worth watching at sunset. The bat tornado swirls out but there are fewer bats each week now"
+    },
+    {
+      "id": "us_south_central_w30_striped_bark_scorpion",
+      "species": "Striped Bark Scorpion",
+      "scientificName": "Centruroides vittatus",
+      "description": "Scorpions still active nightly, young scorpions now independent and hunting on their own",
+      "habitats": [
+        "garden",
+        "wall_fence",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Baby scorpions are on their own now, tiny but already glowing blue-green under a blacklight!"
+    },
+    {
+      "id": "us_south_central_w30_texas_sage",
+      "species": "Texas Sage",
+      "scientificName": "Leucophyllum frutescens",
+      "description": "Texas sage erupting in purple blooms after summer rain, the \"barometer bush\" predicting storms",
+      "habitats": [
+        "garden",
+        "urban",
+        "grassland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "After a rain, this silvery bush explodes with purple flowers overnight. People call it the rain sage because it knows when storms are coming!"
+    }
+  ],
+  "31": [
+    {
+      "id": "us_south_central_w31_cicada",
+      "species": "Annual Cicada",
+      "scientificName": "Neotibicen superbus",
+      "description": "Cicada chorus beginning to thin, late-season species still calling in afternoon heat",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The cicada buzz is getting quieter, fewer singers in the treetop choir each day"
+    },
+    {
+      "id": "us_south_central_w31_crape_myrtle",
+      "species": "Crape Myrtle",
+      "scientificName": "Lagerstroemia indica",
+      "description": "Late crape myrtle bloom, some trees still producing fresh flower clusters in August heat",
+      "habitats": [
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The crape myrtle is finally slowing down after months of blooming, what a marathon!"
+    },
+    {
+      "id": "us_south_central_w31_texas_sage",
+      "species": "Texas Sage",
+      "scientificName": "Leucophyllum frutescens",
+      "description": "Texas sage blooming spectacularly after any summer rain, silvery bushes covered in purple",
+      "habitats": [
+        "garden",
+        "urban",
+        "grassland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Every time it rains, the silver bush turns purple like magic. Then the flowers fall off until the next rain!"
+    },
+    {
+      "id": "us_south_central_w31_mexican_free_tailed_bat",
+      "species": "Mexican Free-tailed Bat",
+      "scientificName": "Tadarida brasiliensis",
+      "description": "Bat colonies thinning as some begin southward migration, evening flights still impressive",
+      "habitats": [
+        "urban",
+        "woodland",
+        "stream"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Some bats are packing their invisible suitcases and heading to Mexico for winter!"
+    },
+    {
+      "id": "us_south_central_w31_northern_mockingbird",
+      "species": "Northern Mockingbird",
+      "scientificName": "Mimus polyglottos",
+      "description": "Mockingbirds raising late broods, still singing vigorously from rooftops and power lines",
+      "habitats": [
+        "garden",
+        "urban",
+        "hedgerow"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The mockingbird is still singing at midnight. It never runs out of songs or energy!"
+    }
+  ],
+  "32": [
+    {
+      "id": "us_south_central_w32_texas_sage",
+      "species": "Texas Sage",
+      "scientificName": "Leucophyllum frutescens",
+      "description": "Texas sage continuing to bloom after rain events, the barometer bush signalling moisture in the air",
+      "habitats": [
+        "garden",
+        "urban",
+        "grassland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "If you see the sage bush covered in purple flowers, grab an umbrella. Rain is probably coming!"
+    },
+    {
+      "id": "us_south_central_w32_cicada",
+      "species": "Annual Cicada",
+      "scientificName": "Neotibicen superbus",
+      "description": "Cicada song fading, fewer individuals calling, end of the summer buzz approaching",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The cicada songs are getting quieter and lonelier. Summer is starting to wind down"
+    },
+    {
+      "id": "us_south_central_w32_greater_roadrunner",
+      "species": "Greater Roadrunner",
+      "scientificName": "Geococcyx californianus",
+      "description": "Roadrunners fully grown with second brood fledglings, family groups hunting together",
+      "habitats": [
+        "grassland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A whole family of roadrunners sprints across the yard. The little ones run just as fast as the grown-ups!"
+    },
+    {
+      "id": "us_south_central_w32_green_anole",
+      "species": "Green Anole",
+      "scientificName": "Anolis carolinensis",
+      "description": "Late-summer hatchling anoles abundant, tiny lizards hunting gnats on leaves and window screens",
+      "habitats": [
+        "garden",
+        "wall_fence",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Itty-bitty lizards hunt teeny-tiny bugs on the window screen. The whole world is a giant jungle to them!"
+    },
+    {
+      "id": "us_south_central_w32_turks_cap",
+      "species": "Turk's Cap",
+      "scientificName": "Malvaviscus arboreus",
+      "description": "Turk's cap still blooming in shade, red fruits ripening alongside fresh flowers",
+      "habitats": [
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The turk's cap has flowers and red berries at the same time: a shop that never closes for hummingbirds!"
+    }
+  ],
+  "33": [
+    {
+      "id": "us_south_central_w33_texas_sage",
+      "species": "Texas Sage",
+      "scientificName": "Leucophyllum frutescens",
+      "description": "Texas sage reliably blooming after each rain event through late summer",
+      "habitats": [
+        "garden",
+        "urban",
+        "grassland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Rain comes, purple flowers appear, like clockwork! The sage bush is nature's weather reporter"
+    },
+    {
+      "id": "us_south_central_w33_northern_mockingbird",
+      "species": "Northern Mockingbird",
+      "scientificName": "Mimus polyglottos",
+      "description": "Mockingbirds completing final broods, juveniles practising their own songs with rough imitations",
+      "habitats": [
+        "garden",
+        "urban",
+        "hedgerow"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Young mockingbirds are trying to copy sounds but keep getting mixed up. It's like listening to a kid learning to whistle!"
+    },
+    {
+      "id": "us_south_central_w33_monarch_butterfly",
+      "species": "Monarch Butterfly",
+      "scientificName": "Danaus plexippus",
+      "description": "Late-summer monarchs building up before fall migration, caterpillars on late milkweed",
+      "habitats": [
+        "meadow",
+        "garden",
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Monarch caterpillars are munching milkweed as fast as they can. They need to grow up and fly to Mexico!"
+    },
+    {
+      "id": "us_south_central_w33_mexican_free_tailed_bat",
+      "species": "Mexican Free-tailed Bat",
+      "scientificName": "Tadarida brasiliensis",
+      "description": "Bat numbers declining as migration accelerates, but evening flights still notable",
+      "habitats": [
+        "urban",
+        "woodland",
+        "stream"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Fewer bats under the bridge each week. They're flying south to warmer caves in Mexico"
+    },
+    {
+      "id": "us_south_central_w33_prickly_pear_cactus",
+      "species": "Prickly Pear Cactus",
+      "scientificName": "Opuntia engelmannii",
+      "description": "Prickly pear tunas (fruit) turning from green to reddish-purple, attracting birds and mammals",
+      "habitats": [
+        "grassland",
+        "meadow",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The cactus fruits are turning purple-red. Birds love eating them and their poop turns bright pink!"
+    }
+  ],
+  "34": [
+    {
+      "id": "us_south_central_w34_monarch_butterfly",
+      "species": "Monarch Butterfly",
+      "scientificName": "Danaus plexippus",
+      "description": "Super-generation monarchs emerging, the special butterflies that will make the long flight to Mexico",
+      "habitats": [
+        "meadow",
+        "garden",
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "These are special monarchs. They won't lay eggs, they'll fly 2,000 miles to Mexico and live for 8 months!"
+    },
+    {
+      "id": "us_south_central_w34_texas_sage",
+      "species": "Texas Sage",
+      "scientificName": "Leucophyllum frutescens",
+      "description": "Texas sage responding to late summer storms with reliable purple blooming",
+      "habitats": [
+        "garden",
+        "urban",
+        "grassland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The rain prophet bush is still doing its thing, purple flowers after every storm!"
+    },
+    {
+      "id": "us_south_central_w34_green_anole",
+      "species": "Green Anole",
+      "scientificName": "Anolis carolinensis",
+      "description": "Last clutches of anole eggs hatching, the tiniest hatchlings of the year appearing on plant stems",
+      "habitats": [
+        "garden",
+        "wall_fence",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The last batch of baby lizards for the year, so tiny they can sit on a penny!"
+    },
+    {
+      "id": "us_south_central_w34_prickly_pear_cactus",
+      "species": "Prickly Pear Cactus",
+      "scientificName": "Opuntia engelmannii",
+      "description": "Prickly pear fruit ripening to deep magenta, mockingbirds and woodpeckers feeding on them",
+      "habitats": [
+        "grassland",
+        "meadow",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Ripe cactus fruit is so purple it stains everything. Birds eat it and fly away with purple beaks!"
+    },
+    {
+      "id": "us_south_central_w34_crape_myrtle",
+      "species": "Crape Myrtle",
+      "scientificName": "Lagerstroemia indica",
+      "description": "Crape myrtle bloom finally winding down, seed capsules forming in clusters",
+      "habitats": [
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The crape myrtle's long flower party is ending. Little round seed balls are taking the flowers' place"
+    }
+  ],
+  "35": [
+    {
+      "id": "us_south_central_w35_monarch_butterfly",
+      "species": "Monarch Butterfly",
+      "scientificName": "Danaus plexippus",
+      "description": "Monarch fall migration beginning, first butterflies heading south through Texas",
+      "habitats": [
+        "meadow",
+        "garden",
+        "grassland",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The great monarch journey south has started. Watch for orange butterflies all heading the same direction!"
+    },
+    {
+      "id": "us_south_central_w35_goldenrod",
+      "species": "Goldenrod",
+      "scientificName": "Solidago altissima",
+      "description": "Goldenrod beginning to bloom along roadsides and meadow edges, bright yellow plumes",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Golden yellow feathery flowers are popping up along the road. They look like nature's cheerleader pom-poms!"
+    },
+    {
+      "id": "us_south_central_w35_northern_cardinal",
+      "species": "Northern Cardinal",
+      "scientificName": "Cardinalis cardinalis",
+      "description": "Cardinals moulting into fresh plumage, some males looking patchy with new and old feathers",
+      "habitats": [
+        "woodland",
+        "garden",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The cardinal looks a bit scruffy. It's losing old feathers and growing shiny new ones, like getting a new outfit!"
+    },
+    {
+      "id": "us_south_central_w35_texas_sage",
+      "species": "Texas Sage",
+      "scientificName": "Leucophyllum frutescens",
+      "description": "Texas sage continuing its rain-triggered bloom cycle through the last weeks of summer",
+      "habitats": [
+        "garden",
+        "urban",
+        "grassland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Purple blooms after the rain, every single time. The sage bush never gets it wrong!"
+    },
+    {
+      "id": "us_south_central_w35_turks_cap",
+      "species": "Turk's Cap",
+      "scientificName": "Malvaviscus arboreus",
+      "description": "Turk's cap ramping up bloom as summer heat begins easing, bright red fruits ripening",
+      "habitats": [
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The turk's cap is blooming even more now. It saved its best show for the end of summer!"
+    }
+  ],
+  "36": [
+    {
+      "id": "us_south_central_w36_monarch_butterfly",
+      "species": "Monarch Butterfly",
+      "scientificName": "Danaus plexippus",
+      "description": "Monarch migration building, more butterflies moving south through Texas each day",
+      "habitats": [
+        "meadow",
+        "garden",
+        "grassland",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "More monarchs are flying south every day. They ride the wind like tiny orange gliders heading to Mexico!"
+    },
+    {
+      "id": "us_south_central_w36_goldenrod",
+      "species": "Goldenrod",
+      "scientificName": "Solidago altissima",
+      "description": "Goldenrod in full bloom, meadows and roadsides glowing golden yellow",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Fields of gold! The goldenrod turns meadows into a yellow sea. And butterflies are having a nectar party!"
+    },
+    {
+      "id": "us_south_central_w36_fall_aster",
+      "species": "Fall Aster",
+      "scientificName": "Symphyotrichum oblongifolium",
+      "description": "Fall asters beginning to bloom in purple and blue, brightening dry autumn landscapes",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Little purple daisy-like flowers are popping up everywhere. They look like tiny stars that fell into the grass!"
+    },
+    {
+      "id": "us_south_central_w36_ruby_throated_hummingbird",
+      "species": "Ruby-throated Hummingbird",
+      "scientificName": "Archilochus colubris",
+      "description": "Ruby-throated hummingbirds fuelling up before southward migration, aggressively defending feeders",
+      "habitats": [
+        "garden",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The hummingbirds are eating extra today. They need to get fat before flying across the entire Gulf of Mexico!"
+    },
+    {
+      "id": "us_south_central_w36_northern_mockingbird",
+      "species": "Northern Mockingbird",
+      "scientificName": "Mimus polyglottos",
+      "description": "Mockingbirds quieter now, saving energy after a long breeding season of constant singing",
+      "habitats": [
+        "garden",
+        "urban",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The mockingbird is taking a singing break. Even the best musicians need a rest!"
+    }
+  ],
+  "37": [
+    {
+      "id": "us_south_central_w37_monarch_butterfly",
+      "species": "Monarch Butterfly",
+      "scientificName": "Danaus plexippus",
+      "description": "Peak monarch migration through Texas, hundreds visible nectaring on goldenrod and frostweed",
+      "habitats": [
+        "meadow",
+        "garden",
+        "grassland",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "So many monarchs! Some bushes have dozens of orange butterflies all resting and sipping. It's monarch highway!"
+    },
+    {
+      "id": "us_south_central_w37_goldenrod",
+      "species": "Goldenrod",
+      "scientificName": "Solidago altissima",
+      "description": "Goldenrod at peak bloom, vital nectar source for migrating monarchs and other pollinators",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The golden flowers are like petrol stations for butterflies. Stop, fill up, and keep flying south!"
+    },
+    {
+      "id": "us_south_central_w37_fall_aster",
+      "species": "Fall Aster",
+      "scientificName": "Symphyotrichum oblongifolium",
+      "description": "Fall asters in full bloom, purple-blue flowers providing late-season nectar for butterflies and bees",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Purple star-flowers and golden plumes side by side. Autumn is painting the meadow in purple and gold!"
+    },
+    {
+      "id": "us_south_central_w37_american_beautyberry",
+      "species": "American Beautyberry",
+      "scientificName": "Callicarpa americana",
+      "description": "Beautyberry clusters turning vivid magenta-purple, bright berries hugging the stems",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Bright purple berry clusters wrap around the stems like purple bubble necklaces. They're almost too purple to be real!"
+    },
+    {
+      "id": "us_south_central_w37_texas_sage",
+      "species": "Texas Sage",
+      "scientificName": "Leucophyllum frutescens",
+      "description": "Texas sage responding to early autumn moisture, beautiful against the golden landscape",
+      "habitats": [
+        "garden",
+        "urban",
+        "grassland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The silver bush puts on its purple dress one more time before autumn really arrives"
+    }
+  ],
+  "38": [
+    {
+      "id": "us_south_central_w38_monarch_butterfly",
+      "species": "Monarch Butterfly",
+      "scientificName": "Danaus plexippus",
+      "description": "Monarch migration at peak intensity through central Texas, massive roosts forming in trees at night",
+      "habitats": [
+        "meadow",
+        "garden",
+        "grassland",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "At night, monarchs huddle together in trees. A single tree can hold thousands, dripping with orange wings!"
+    },
+    {
+      "id": "us_south_central_w38_american_beautyberry",
+      "species": "American Beautyberry",
+      "scientificName": "Callicarpa americana",
+      "description": "Beautyberry at peak colour, electric purple berry clusters unmistakable in woodland understory",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "These berries are so purple they look like someone painted them with a marker. Birds feast on them like candy!"
+    },
+    {
+      "id": "us_south_central_w38_goldenrod",
+      "species": "Goldenrod",
+      "scientificName": "Solidago altissima",
+      "description": "Goldenrod still blooming, providing crucial fuel for southbound monarchs",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The goldenrod flowers are fading but still feeding the last wave of travelling monarchs"
+    },
+    {
+      "id": "us_south_central_w38_fall_aster",
+      "species": "Fall Aster",
+      "scientificName": "Symphyotrichum oblongifolium",
+      "description": "Fall asters continuing to bloom, one of the last wildflower shows of the year",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The purple asters are still open when most other flowers have gone to sleep for the year"
+    },
+    {
+      "id": "us_south_central_w38_pecan",
+      "species": "Pecan",
+      "scientificName": "Carya illinoinensis",
+      "description": "Pecan nuts beginning to fill out in their green husks, weighing down branch tips",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The pecan tree's branches are bending with heavy green nuts. Inside each one is the yummy nut we eat in pie!"
+    }
+  ],
+  "39": [
+    {
+      "id": "us_south_central_w39_monarch_butterfly",
+      "species": "Monarch Butterfly",
+      "scientificName": "Danaus plexippus",
+      "description": "Monarch migration still strong, late-September waves of butterflies streaming south on north winds",
+      "habitats": [
+        "meadow",
+        "garden",
+        "grassland",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "When a cool front blows in from the north, it pushes the monarchs south like orange leaves on the wind!"
+    },
+    {
+      "id": "us_south_central_w39_american_beautyberry",
+      "species": "American Beautyberry",
+      "scientificName": "Callicarpa americana",
+      "description": "Beautyberry clusters being eaten by mockingbirds, cardinals, and armadillos",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The birds discovered the purple berries. They're disappearing fast! Even armadillos eat the ones that fall"
+    },
+    {
+      "id": "us_south_central_w39_pecan",
+      "species": "Pecan",
+      "scientificName": "Carya illinoinensis",
+      "description": "Pecan husks beginning to split, revealing the smooth brown shell underneath",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The green jackets on the pecans are cracking open. You can see the smooth brown nut peeking out!"
+    },
+    {
+      "id": "us_south_central_w39_fall_aster",
+      "species": "Fall Aster",
+      "scientificName": "Symphyotrichum oblongifolium",
+      "description": "Fall asters fading, seed heads forming with fluffy white pappus ready to drift on the wind",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The purple flowers are turning into little fluffy parachutes. Blow on them and watch the seeds fly away!"
+    },
+    {
+      "id": "us_south_central_w39_northern_cardinal",
+      "species": "Northern Cardinal",
+      "scientificName": "Cardinalis cardinalis",
+      "description": "Cardinals in fresh plumage after moult, vivid red males bright against turning foliage",
+      "habitats": [
+        "woodland",
+        "garden",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The cardinal got all its new feathers. It's the brightest red you've ever seen, like a flying tomato!"
+    }
+  ],
+  "40": [
+    {
+      "id": "us_south_central_w40_monarch_butterfly",
+      "species": "Monarch Butterfly",
+      "scientificName": "Danaus plexippus",
+      "description": "Late monarch migration, final waves passing through Texas on their way to Mexican mountain forests",
+      "habitats": [
+        "meadow",
+        "garden",
+        "grassland",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The last monarchs are hurrying south. Wave goodbye, they have mountains to reach before winter!"
+    },
+    {
+      "id": "us_south_central_w40_pecan",
+      "species": "Pecan",
+      "scientificName": "Carya illinoinensis",
+      "description": "Pecans beginning to fall, squirrels and crows competing to gather the first nuts",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Pecans are raining down (bonk!) squirrels grab them and run, stuffing their cheeks like furry shopping bags!"
+    },
+    {
+      "id": "us_south_central_w40_american_beautyberry",
+      "species": "American Beautyberry",
+      "scientificName": "Callicarpa americana",
+      "description": "Beautyberry clusters thinning as birds strip them, bright purple still visible among fading leaves",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The birds have eaten most of the purple berries but a few clusters still glow in the fading leaves"
+    },
+    {
+      "id": "us_south_central_w40_northern_cardinal",
+      "species": "Northern Cardinal",
+      "scientificName": "Cardinalis cardinalis",
+      "description": "Cardinals beginning to form loose winter flocks, visiting feeders in small groups",
+      "habitats": [
+        "woodland",
+        "garden",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Cardinals are teaming up for winter. A whole gang of red birds at the feeder is called a \"conclave\"!"
+    },
+    {
+      "id": "us_south_central_w40_texas_sage",
+      "species": "Texas Sage",
+      "scientificName": "Leucophyllum frutescens",
+      "description": "Texas sage giving late autumn blooms after October rains, purple flowers on silvery foliage",
+      "habitats": [
+        "garden",
+        "urban",
+        "grassland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "One last burst of purple from the rain sage. Autumn rains bring autumn flowers!"
+    }
+  ],
+  "41": [
+    {
+      "id": "us_south_central_w41_pecan",
+      "species": "Pecan",
+      "scientificName": "Carya illinoinensis",
+      "description": "Peak pecan harvest, nuts falling heavily and covering ground beneath trees",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Fill your pockets with pecans! Crack one open and eat the sweet nutty insides: nature's candy!"
+    },
+    {
+      "id": "us_south_central_w41_monarch_butterfly",
+      "species": "Monarch Butterfly",
+      "scientificName": "Danaus plexippus",
+      "description": "Last straggling monarchs passing through, migration nearly complete for the year",
+      "habitats": [
+        "meadow",
+        "garden",
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The very last monarchs flutter past. See you next spring, little travellers!"
+    },
+    {
+      "id": "us_south_central_w41_cedar_waxwing",
+      "species": "Cedar Waxwing",
+      "scientificName": "Bombycilla cedrorum",
+      "description": "First cedar waxwing flocks returning for winter, high thin calls overhead as they seek berries",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The sleek masked birds are back for winter! They travel in noisy flocks making soft \"seee-seee\" calls"
+    },
+    {
+      "id": "us_south_central_w41_northern_mockingbird",
+      "species": "Northern Mockingbird",
+      "scientificName": "Mimus polyglottos",
+      "description": "Mockingbirds establishing winter berry territories, aggressively defending holly and pyracantha bushes",
+      "habitats": [
+        "garden",
+        "urban",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The mockingbird picks its favourite berry bush and chases every other bird away: \"My berries! All mine!\""
+    },
+    {
+      "id": "us_south_central_w41_green_anole",
+      "species": "Green Anole",
+      "scientificName": "Anolis carolinensis",
+      "description": "Green anoles slowing down, basking on warm afternoons but increasingly retreating to shelter",
+      "habitats": [
+        "garden",
+        "wall_fence",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The lizards are getting sleepy. They only come out on the warmest afternoons for a quick sunbathe"
+    }
+  ],
+  "42": [
+    {
+      "id": "us_south_central_w42_pecan",
+      "species": "Pecan",
+      "scientificName": "Carya illinoinensis",
+      "description": "Pecan harvest continuing, golden-yellow leaves beginning to fall from the trees",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Pecan trees are dropping nuts and golden leaves at the same time. It's raining treasure!"
+    },
+    {
+      "id": "us_south_central_w42_cedar_waxwing",
+      "species": "Cedar Waxwing",
+      "scientificName": "Bombycilla cedrorum",
+      "description": "Cedar waxwing flocks growing, descending on fruiting trees in chattering groups",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A whole flock of waxwings lands in the holly tree. They strip every red berry in minutes flat!"
+    },
+    {
+      "id": "us_south_central_w42_northern_cardinal",
+      "species": "Northern Cardinal",
+      "scientificName": "Cardinalis cardinalis",
+      "description": "Cardinals gathering in larger winter groups, bright red males vivid against autumn browns",
+      "habitats": [
+        "woodland",
+        "garden",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Red cardinals against brown autumn leaves. It's like nature arranged the colours on purpose!"
+    },
+    {
+      "id": "us_south_central_w42_nine_banded_armadillo",
+      "species": "Nine-banded Armadillo",
+      "scientificName": "Dasypus novemcinctus",
+      "description": "Armadillos busy foraging through leaf litter in the pleasant autumn weather, leaving small divots in lawns",
+      "habitats": [
+        "woodland",
+        "garden",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The armoured digger is making little holes in the yard. It's sniffing out juicy grubs under the leaves!"
+    },
+    {
+      "id": "us_south_central_w42_live_oak",
+      "species": "Live Oak",
+      "scientificName": "Quercus virginiana",
+      "description": "Live oaks standing green and full while other trees turn and drop leaves around them",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "All the other trees are losing their leaves but the live oak is still green. It never quits!"
+    }
+  ],
+  "43": [
+    {
+      "id": "us_south_central_w43_pecan",
+      "species": "Pecan",
+      "scientificName": "Carya illinoinensis",
+      "description": "Late pecan harvest, trees dropping the last nuts and shedding butter-yellow leaves",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The pecan trees are nearly empty. Grab the last ones before the squirrels do!"
+    },
+    {
+      "id": "us_south_central_w43_sandhill_crane",
+      "species": "Sandhill Crane",
+      "scientificName": "Antigone canadensis",
+      "description": "First sandhill cranes arriving from the north, their bugling calls heard overhead as V-formations pass",
+      "habitats": [
+        "grassland",
+        "meadow",
+        "pond"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Listen! A rattling trumpet sound from the sky. Look up and see huge grey birds flying in a V, coming to spend winter!"
+    },
+    {
+      "id": "us_south_central_w43_cedar_waxwing",
+      "species": "Cedar Waxwing",
+      "scientificName": "Bombycilla cedrorum",
+      "description": "Cedar waxwings well established, roving flocks moving between fruiting trees across the region",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The waxwings are settling in for winter. Watch them pass berries to each other beak-to-beak. So polite!"
+    },
+    {
+      "id": "us_south_central_w43_northern_mockingbird",
+      "species": "Northern Mockingbird",
+      "scientificName": "Mimus polyglottos",
+      "description": "Mockingbirds fiercely guarding winter berry territories, chasing robins and waxwings away",
+      "habitats": [
+        "garden",
+        "urban",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The mockingbird guard sits on the holly bush all day long. Get away from my berries, it says to every bird!"
+    },
+    {
+      "id": "us_south_central_w43_northern_cardinal",
+      "species": "Northern Cardinal",
+      "scientificName": "Cardinalis cardinalis",
+      "description": "Cardinals visiting feeders more frequently as natural food diminishes, whistling softly",
+      "habitats": [
+        "woodland",
+        "garden",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The red cardinal taps at the bird feeder: \"Please sir, may I have some more seeds?\""
+    }
+  ],
+  "44": [
+    {
+      "id": "us_south_central_w44_sandhill_crane",
+      "species": "Sandhill Crane",
+      "scientificName": "Antigone canadensis",
+      "description": "Sandhill cranes settling into winter grounds, flocks gathering in agricultural fields and wetlands",
+      "habitats": [
+        "grassland",
+        "meadow",
+        "pond"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Hundreds of tall grey cranes stand in the field like a feathery army. They honk and dance and strut around!"
+    },
+    {
+      "id": "us_south_central_w44_cedar_waxwing",
+      "species": "Cedar Waxwing",
+      "scientificName": "Bombycilla cedrorum",
+      "description": "Cedar waxwings feasting on late-season berries, possumhaw holly a favourite",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The waxwings found a tree full of red berries and they are not sharing, eating every single one!"
+    },
+    {
+      "id": "us_south_central_w44_american_robin",
+      "species": "American Robin",
+      "scientificName": "Turdus migratorius",
+      "description": "Wintering robin flocks returning, large groups foraging in pecan leaf litter and berry trees",
+      "habitats": [
+        "garden",
+        "urban",
+        "meadow",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The robin army is back for winter! They flip leaves with their beaks looking for worms, flip, flip, tug!"
+    },
+    {
+      "id": "us_south_central_w44_live_oak",
+      "species": "Live Oak",
+      "scientificName": "Quercus virginiana",
+      "description": "Live oaks green and unchanging while deciduous trees stand bare, acorns still falling",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The live oak is the toughest tree in Texas, stays green no matter what, while every other tree goes bare!"
+    },
+    {
+      "id": "us_south_central_w44_nine_banded_armadillo",
+      "species": "Nine-banded Armadillo",
+      "scientificName": "Dasypus novemcinctus",
+      "description": "Armadillos active on mild autumn evenings, rooting energetically through garden beds",
+      "habitats": [
+        "woodland",
+        "garden",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The armadillo is digging up the flower bed again, snuffle snuffle dig dig, looking for buried bugs!"
+    }
+  ],
+  "45": [
+    {
+      "id": "us_south_central_w45_sandhill_crane",
+      "species": "Sandhill Crane",
+      "scientificName": "Antigone canadensis",
+      "description": "Sandhill cranes established in wintering areas, spectacular dancing displays in open fields",
+      "habitats": [
+        "grassland",
+        "meadow",
+        "pond"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The cranes dance! They bow, jump, flap their wings, and throw sticks in the air. It's a crane ballet!"
+    },
+    {
+      "id": "us_south_central_w45_cedar_waxwing",
+      "species": "Cedar Waxwing",
+      "scientificName": "Bombycilla cedrorum",
+      "description": "Large cedar waxwing flocks stripping berry-laden trees across urban and rural areas",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A tree full of berries in the morning can be completely stripped by waxwings before lunch, fast eaters!"
+    },
+    {
+      "id": "us_south_central_w45_american_robin",
+      "species": "American Robin",
+      "scientificName": "Turdus migratorius",
+      "description": "Robin winter flocks growing, gathering in large roosts at dusk and dispersing at dawn to forage",
+      "habitats": [
+        "garden",
+        "urban",
+        "meadow",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "At sunset, thousands of robins fly to the same group of trees for a big sleepover, safety in numbers!"
+    },
+    {
+      "id": "us_south_central_w45_northern_cardinal",
+      "species": "Northern Cardinal",
+      "scientificName": "Cardinalis cardinalis",
+      "description": "Cardinals in winter flocks of up to a dozen, bright against bare branches and grey skies",
+      "habitats": [
+        "woodland",
+        "garden",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A flock of red cardinals in a bare tree looks like the tree grew ornaments, living Christmas decorations!"
+    },
+    {
+      "id": "us_south_central_w45_red_tailed_hawk",
+      "species": "Red-tailed Hawk",
+      "scientificName": "Buteo jamaicensis",
+      "description": "Red-tailed hawks soaring over bare fields, easier to spot now that leaves have fallen",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "With the leaves gone, you can finally see the hawk nests high in the trees, and the hawks circling above!"
+    }
+  ],
+  "46": [
+    {
+      "id": "us_south_central_w46_sandhill_crane",
+      "species": "Sandhill Crane",
+      "scientificName": "Antigone canadensis",
+      "description": "Sandhill cranes in full winter residence, bugling calls echoing across agricultural fields at dawn",
+      "habitats": [
+        "grassland",
+        "meadow",
+        "pond"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The cranes wake up at dawn and shout their crazy trumpet call across the fields: garoooo-a-a-a!"
+    },
+    {
+      "id": "us_south_central_w46_cedar_waxwing",
+      "species": "Cedar Waxwing",
+      "scientificName": "Bombycilla cedrorum",
+      "description": "Cedar waxwings everywhere, their thin high-pitched whistle a constant winter soundtrack",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Hear that thin \"seeeee\" sound from the treetop? A whole flock of masked berry-thieves is up there!"
+    },
+    {
+      "id": "us_south_central_w46_northern_cardinal",
+      "species": "Northern Cardinal",
+      "scientificName": "Cardinalis cardinalis",
+      "description": "Cardinals brightening the dull November landscape, singing occasional clear whistles on warmer mornings",
+      "habitats": [
+        "woodland",
+        "garden",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The cardinal is the brightest thing in the whole garden now that the flowers are gone, a little red flame!"
+    },
+    {
+      "id": "us_south_central_w46_american_robin",
+      "species": "American Robin",
+      "scientificName": "Turdus migratorius",
+      "description": "Huge robin flocks foraging in open areas, sometimes numbering in the thousands",
+      "habitats": [
+        "garden",
+        "urban",
+        "meadow",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "So many robins on the playing field you can't count them all. They're like a feathery carpet that walks!"
+    },
+    {
+      "id": "us_south_central_w46_live_oak",
+      "species": "Live Oak",
+      "scientificName": "Quercus virginiana",
+      "description": "Live oaks still fully green, providing vital shelter and food for winter birds",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The live oak is like a green umbrella in a brown world. Birds hide in its leaves to stay warm and safe"
+    }
+  ],
+  "47": [
+    {
+      "id": "us_south_central_w47_ashe_juniper",
+      "species": "Ashe Juniper",
+      "scientificName": "Juniperus ashei",
+      "description": "Male Ashe juniper cones maturing, brown-gold pollen cones getting ready for December release",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The juniper trees are loading up their pollen cannons. Golden-brown cones are getting fat and ready to burst!"
+    },
+    {
+      "id": "us_south_central_w47_sandhill_crane",
+      "species": "Sandhill Crane",
+      "scientificName": "Antigone canadensis",
+      "description": "Sandhill cranes well settled in winter territories, family groups with cinnamon-brown juveniles",
+      "habitats": [
+        "grassland",
+        "meadow",
+        "pond"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Baby cranes are brown and fuzzy while mum and dad are grey. Can you spot which is the kid?"
+    },
+    {
+      "id": "us_south_central_w47_cedar_waxwing",
+      "species": "Cedar Waxwing",
+      "scientificName": "Bombycilla cedrorum",
+      "description": "Cedar waxwings in peak winter numbers, roving flocks cleaning out berry trees one by one",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The waxwing flock moves like a team. They find a berry tree, eat everything, then zoom to the next one!"
+    },
+    {
+      "id": "us_south_central_w47_american_robin",
+      "species": "American Robin",
+      "scientificName": "Turdus migratorius",
+      "description": "Robin flocks occupying hackberry and holly trees, gorging on winter berries",
+      "habitats": [
+        "garden",
+        "urban",
+        "meadow",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The robins eat so many hackberries their chests turn orangey-red: berry-powered birds!"
+    },
+    {
+      "id": "us_south_central_w47_northern_cardinal",
+      "species": "Northern Cardinal",
+      "scientificName": "Cardinalis cardinalis",
+      "description": "Cardinals frequenting feeders in the cooling weather, paired birds often visiting together",
+      "habitats": [
+        "woodland",
+        "garden",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Mr and Mrs Cardinal come to the feeder together. He's red and she's golden-brown, a beautiful pair!"
+    }
+  ],
+  "48": [
+    {
+      "id": "us_south_central_w48_ashe_juniper",
+      "species": "Ashe Juniper",
+      "scientificName": "Juniperus ashei",
+      "description": "Ashe juniper pollen cones nearly mature, first early releases possible on warm dry days",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The juniper trees are about to start their big sneeze. The golden pollen cones are getting ready to poof!"
+    },
+    {
+      "id": "us_south_central_w48_sandhill_crane",
+      "species": "Sandhill Crane",
+      "scientificName": "Antigone canadensis",
+      "description": "Sandhill cranes dancing in winter fields, their courtship displays beginning even in late November",
+      "habitats": [
+        "grassland",
+        "meadow",
+        "pond"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Even in winter the cranes dance, leaping high, wings spread, like they're celebrating something!"
+    },
+    {
+      "id": "us_south_central_w48_cedar_waxwing",
+      "species": "Cedar Waxwing",
+      "scientificName": "Bombycilla cedrorum",
+      "description": "Cedar waxwings working through holly and juniper berries, feeding heavily in short winter days",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The waxwings eat and eat all day. Winter days are short so they have to fill up fast before dark!"
+    },
+    {
+      "id": "us_south_central_w48_northern_cardinal",
+      "species": "Northern Cardinal",
+      "scientificName": "Cardinalis cardinalis",
+      "description": "Cardinals at feeders and in berry bushes, a splash of red cheer in the late autumn landscape",
+      "habitats": [
+        "woodland",
+        "garden",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Nothing cheers up a grey November day like a bright red cardinal at your window, hello, feathered friend!"
+    },
+    {
+      "id": "us_south_central_w48_great_blue_heron",
+      "species": "Great Blue Heron",
+      "scientificName": "Ardea herodias",
+      "description": "Great blue herons stalking winter ponds and creeks, standing perfectly still in the cold water",
+      "habitats": [
+        "pond",
+        "stream",
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The tall grey-blue bird stands so still in the creek that fish swim right past. Then stab! Got one!"
+    }
+  ],
+  "49": [
+    {
+      "id": "us_south_central_w49_ashe_juniper",
+      "species": "Ashe Juniper",
+      "scientificName": "Juniperus ashei",
+      "description": "Cedar fever season beginning in earnest, first significant pollen releases from Ashe juniper",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The junipers are starting to puff yellow clouds again. Here comes the big sneeze season!"
+    },
+    {
+      "id": "us_south_central_w49_sandhill_crane",
+      "species": "Sandhill Crane",
+      "scientificName": "Antigone canadensis",
+      "description": "Sandhill cranes in winter flocks, their prehistoric bugling calls carrying across fields at dawn",
+      "habitats": [
+        "grassland",
+        "meadow",
+        "pond"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The cranes have been around since dinosaur times. Their call sounds like it comes from a million years ago!"
+    },
+    {
+      "id": "us_south_central_w49_northern_cardinal",
+      "species": "Northern Cardinal",
+      "scientificName": "Cardinalis cardinalis",
+      "description": "Cardinals in their most vivid winter plumage, frequently visiting feeders in the early December chill",
+      "habitats": [
+        "woodland",
+        "garden",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The cardinal's red feathers glow even brighter in December, like a tiny fire in the cold grey garden"
+    },
+    {
+      "id": "us_south_central_w49_cedar_waxwing",
+      "species": "Cedar Waxwing",
+      "scientificName": "Bombycilla cedrorum",
+      "description": "Cedar waxwings in large flocks, their sleek silhouettes and thin calls a constant winter presence",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The berry-eating bandits with their cool black masks are everywhere. They travel in a big hungry gang!"
+    },
+    {
+      "id": "us_south_central_w49_american_robin",
+      "species": "American Robin",
+      "scientificName": "Turdus migratorius",
+      "description": "Robin winter flocks established, thousands roosting together in sheltered groves at night",
+      "habitats": [
+        "garden",
+        "urban",
+        "meadow",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "At bedtime, robins gather in one big tree. Imagine a sleepover with a thousand friends!"
+    }
+  ],
+  "50": [
+    {
+      "id": "us_south_central_w50_ashe_juniper",
+      "species": "Ashe Juniper",
+      "scientificName": "Juniperus ashei",
+      "description": "Cedar pollen increasing rapidly, visible yellow haze on Hill Country mornings",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Look at the hills in the morning. A yellow haze hangs in the air! That's millions of tiny pollen grains from the junipers"
+    },
+    {
+      "id": "us_south_central_w50_northern_cardinal",
+      "species": "Northern Cardinal",
+      "scientificName": "Cardinalis cardinalis",
+      "description": "Cardinals joining mixed winter flocks at feeders with sparrows, juncos, and titmice",
+      "habitats": [
+        "woodland",
+        "garden",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The bird feeder is like a December party: cardinals, sparrows, and titmice all eating together!"
+    },
+    {
+      "id": "us_south_central_w50_sandhill_crane",
+      "species": "Sandhill Crane",
+      "scientificName": "Antigone canadensis",
+      "description": "Sandhill cranes wintering peacefully, family groups feeding together in harvested fields",
+      "habitats": [
+        "grassland",
+        "meadow",
+        "pond"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Crane families stick together all winter: mum, dad, and the teenager eating corn in the field together"
+    },
+    {
+      "id": "us_south_central_w50_great_horned_owl",
+      "species": "Great Horned Owl",
+      "scientificName": "Bubo virginianus",
+      "description": "Great horned owls beginning courtship duets, male and female hooting back and forth at dusk",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Listen at dusk. Two owls hoot back and forth like a love song! \"Hoo-hoo-hoo\" says he. \"Hoo-hoo-hoo-hoo\" says she!"
+    },
+    {
+      "id": "us_south_central_w50_live_oak",
+      "species": "Live Oak",
+      "scientificName": "Quercus virginiana",
+      "description": "Live oaks still fully green, acorns mostly gone, providing winter shelter for birds",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The live oak is the only tree on the street still wearing its green outfit. It never takes it off!"
+    }
+  ],
+  "51": [
+    {
+      "id": "us_south_central_w51_ashe_juniper",
+      "species": "Ashe Juniper",
+      "scientificName": "Juniperus ashei",
+      "description": "Cedar fever ramping up, pollen counts rising daily as more male trees begin releasing",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "More and more juniper trees are joining the pollen party. The yellow clouds are getting bigger every day!"
+    },
+    {
+      "id": "us_south_central_w51_great_horned_owl",
+      "species": "Great Horned Owl",
+      "scientificName": "Bubo virginianus",
+      "description": "Great horned owl pairs calling to each other in the long December nights, preparing to nest",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The owl couple hoots in the dark December night. They're picking out a nest spot before everyone else even thinks about babies!"
+    },
+    {
+      "id": "us_south_central_w51_cedar_waxwing",
+      "species": "Cedar Waxwing",
+      "scientificName": "Bombycilla cedrorum",
+      "description": "Cedar waxwings feasting on juniper berries, holly berries, and any remaining fruit",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The waxwings eat the juniper berries that give them their name: cedar waxwings eating cedar berries!"
+    },
+    {
+      "id": "us_south_central_w51_northern_cardinal",
+      "species": "Northern Cardinal",
+      "scientificName": "Cardinalis cardinalis",
+      "description": "Cardinals brightening the December landscape, a beloved backyard sight during the holidays",
+      "habitats": [
+        "woodland",
+        "garden",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Red cardinals in green holly bushes look just like Christmas cards, nature's holiday decorations!"
+    },
+    {
+      "id": "us_south_central_w51_sandhill_crane",
+      "species": "Sandhill Crane",
+      "scientificName": "Antigone canadensis",
+      "description": "Sandhill cranes continuing winter routines, flying between roost sites and feeding fields daily",
+      "habitats": [
+        "grassland",
+        "meadow",
+        "pond"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Every morning the cranes fly from their sleeping pond to the feeding field, and every evening they fly back, like a commute!"
+    }
+  ],
+  "52": [
+    {
+      "id": "us_south_central_w52_ashe_juniper",
+      "species": "Ashe Juniper",
+      "scientificName": "Juniperus ashei",
+      "description": "Cedar fever in full swing, massive pollen clouds visible drifting from Hill Country juniper groves",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The junipers are going all out. Golden pollen smoke drifts between the hills like a yellow fog!"
+    },
+    {
+      "id": "us_south_central_w52_northern_cardinal",
+      "species": "Northern Cardinal",
+      "scientificName": "Cardinalis cardinalis",
+      "description": "Cardinals visiting feeders on cold December mornings, bright red against grey winter skies",
+      "habitats": [
+        "woodland",
+        "garden",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The cardinal waits on a branch for its turn at the feeder, patient and glowing red like a tiny holiday light"
+    },
+    {
+      "id": "us_south_central_w52_great_horned_owl",
+      "species": "Great Horned Owl",
+      "scientificName": "Bubo virginianus",
+      "description": "Great horned owls selecting nest sites, some females already settling in to lay eggs",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "While everyone celebrates the holidays, the great horned owl is already sitting on eggs, the earliest nesting bird around!"
+    },
+    {
+      "id": "us_south_central_w52_cedar_waxwing",
+      "species": "Cedar Waxwing",
+      "scientificName": "Bombycilla cedrorum",
+      "description": "Cedar waxwings in large flocks, a constant presence at berry trees through the holiday season",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The waxwings are having their own holiday feast. Every berry tree is their dinner table!"
+    },
+    {
+      "id": "us_south_central_w52_sandhill_crane",
+      "species": "Sandhill Crane",
+      "scientificName": "Antigone canadensis",
+      "description": "Sandhill cranes settled into winter routine, their ancient rattling calls ringing across cold fields",
+      "habitats": [
+        "grassland",
+        "meadow",
+        "pond"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The cranes will be here all winter, dancing and trumpeting. They're the best winter visitors in Texas!"
+    },
+    {
+      "id": "us_south_central_w52_live_oak",
+      "species": "Live Oak",
+      "scientificName": "Quercus virginiana",
+      "description": "Live oaks steadfastly green as the year closes, unchanged through every season",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The live oak ends the year the same way it started: green, strong, and full of leaves. What a tree!"
+    }
+  ]
+}

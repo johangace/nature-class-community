@@ -1,0 +1,2055 @@
+{
+  "id": "winter-term",
+  "title": "Winter term",
+  "subject": "Nature study",
+  "ageBand": "4-6",
+  "sessions": [
+    {
+      "id": "winter-w1-bare",
+      "prompt": "What can you see now the leaves are gone?",
+      "title": "Bare",
+      "topic": "Look up at bare trees. What can you see that was hidden? Touch a bare branch. Follow it with your eyes from trunk to tip.",
+      "topicTags": [
+        "trees",
+        "seasons",
+        "weather"
+      ],
+      "primaryTopic": "trees",
+      "objective": "Leaves are gone and the hidden structure of trees is revealed. Children see nests, branches, and sky that were invisible in summer. A practice about what becomes visible when things are stripped away.",
+      "namedSkill": "noticing by looking",
+      "kit": [
+        "None required"
+      ],
+      "durationMin": 40,
+      "nodeSeq": 31,
+      "phases": [
+        {
+          "nid": "p1",
+          "key": "awareness-1",
+          "title": "Find what was hidden",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b2",
+              "type": "conditions-line",
+              "fallbackText": "Look at the sky together before you set off. Whatever it's doing, name it out loud."
+            },
+            {
+              "nid": "b3",
+              "type": "teacher-note",
+              "text": "Nests, branches, the shape of trunks, buildings behind trees, the sky itself. Winter reveals."
+            },
+            {
+              "nid": "b4",
+              "type": "say-aloud",
+              "text": "The leaves are gone. Look up. What can you see that was hidden?"
+            }
+          ]
+        },
+        {
+          "nid": "p5",
+          "key": "embodiment-2",
+          "title": "Trace a branch",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b9",
+              "type": "teacher-note",
+              "text": "The architecture of a tree. In summer it's hidden by leaves. Now you can see the whole structure."
+            },
+            {
+              "nid": "b10",
+              "type": "say-aloud",
+              "text": "Touch a bare branch. Follow it with your eyes from trunk to tip."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t6",
+              "when": "The low branches are all out of reach",
+              "then": "Tracing with eyes alone is enough. Start at the trunk and let your gaze climb it like a ladder."
+            },
+            {
+              "nid": "t7",
+              "when": "A child says the tree looks dead and sad",
+              "then": "Ask them to find the very tip of one branch. That's where next year's leaf is already waiting."
+            },
+            {
+              "nid": "t8",
+              "when": "Cold fingers make no one want to touch the bark",
+              "then": "One quick tap with a gloved hand is plenty. The looking is the real work today."
+            }
+          ]
+        },
+        {
+          "nid": "p11",
+          "key": "feeling-3",
+          "title": "Wonder",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b14",
+              "type": "teacher-note",
+              "text": "Dormancy is not death. The buds are already there, tiny and waiting. Point one out if you see one."
+            },
+            {
+              "nid": "b15",
+              "type": "say-aloud",
+              "text": "The tree is not dead. It's resting. Can you feel the difference?"
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t12",
+              "when": "They insist the tree really is dead",
+              "then": "Point to a bud on a twig. Say: a dead tree makes no buds. This one is getting ready."
+            },
+            {
+              "nid": "t13",
+              "when": "No buds are visible yet on your trees",
+              "then": "Look at an evergreen nearby instead. Say: some trees keep their green, some rest bare. Both are alive."
+            }
+          ]
+        },
+        {
+          "nid": "p16",
+          "key": "kinship-4",
+          "title": "Thank the tree",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b19",
+              "type": "teacher-note",
+              "text": "Vulnerability as strength. Walk back."
+            },
+            {
+              "nid": "b20",
+              "type": "say-aloud",
+              "text": "Thank the tree for showing us its bones. That takes courage."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t17",
+              "when": "Saying thank you to a tree feels silly to them",
+              "then": "Say it quietly yourself first. When the teacher goes first, the children follow."
+            },
+            {
+              "nid": "t18",
+              "when": "The class is getting cold and restless",
+              "then": "Keep it to one shared thank you, then start walking. A short close in the cold is a good close."
+            }
+          ]
+        },
+        {
+          "nid": "p21",
+          "key": "circle",
+          "title": "Circle",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "nid": "b22",
+              "type": "circle-question",
+              "text": "What could you see that was hidden in autumn?"
+            },
+            {
+              "nid": "b23",
+              "type": "teacher-note",
+              "text": "Nests, structures, the sky."
+            },
+            {
+              "nid": "b24",
+              "type": "circle-question",
+              "text": "What does a tree look like without its leaves?"
+            },
+            {
+              "nid": "b25",
+              "type": "teacher-note",
+              "text": "Drawing opportunity: sketch the branch pattern."
+            },
+            {
+              "nid": "b26",
+              "type": "circle-question",
+              "text": "What do you look like when you're resting?"
+            },
+            {
+              "nid": "b27",
+              "type": "teacher-note",
+              "text": "Personal connection to dormancy."
+            },
+            {
+              "nid": "b28",
+              "type": "named-skill",
+              "skill": "noticing by looking"
+            }
+          ]
+        }
+      ],
+      "standards": [
+        {
+          "system": "england",
+          "code": "Year 1 · Plants",
+          "text": "identify and name a variety of common wild and garden plants, including deciduous and evergreen trees"
+        }
+      ],
+      "childSheet": [
+        {
+          "nid": "b29",
+          "type": "sheet-title",
+          "title": "Bare",
+          "nameLine": "This page was made by"
+        },
+        {
+          "nid": "b30",
+          "type": "collage-zone",
+          "hint": "Draw or stick something from today's session here."
+        },
+        {
+          "nid": "b31",
+          "type": "notice-line",
+          "prompt": "One thing you noticed outside today:"
+        }
+      ],
+      "preparation": "Best after leaf fall when tree structures are fully visible.",
+      "spaceNeeded": "Near deciduous trees, any avenue, park edge, or tree-lined area.",
+      "primer": {
+        "summary": "In winter, deciduous trees drop their leaves and stand bare. Suddenly you can see the whole shape of a tree: the trunk, the branches splitting into smaller and smaller twigs, and the sky behind them. Things hidden all summer come into view, like old nests and the buildings beyond. Children look up and notice what the leaves were covering.",
+        "why": "Children often think a bare tree is a dead tree. It isn't. It is resting, holding next year's leaves inside tiny buds. Seeing the structure of a tree helps children understand how a tree is built, and learning that bare does not mean dead is a quiet, useful lesson about rest and patience.",
+        "glossary": [
+          {
+            "term": "Deciduous",
+            "definition": "A tree that drops all its leaves in autumn and grows new ones in spring. Oak, beech, birch and sycamore are deciduous.",
+            "forChildren": "Deciduous trees let all their leaves fall in autumn. In winter they stand bare, and in spring they grow brand new leaves."
+          },
+          {
+            "term": "Dormant",
+            "definition": "A resting state a tree enters in winter. It slows right down and stops growing, but it is very much alive.",
+            "forChildren": "Dormant means resting. The tree is not sleeping like us, but it is having a long quiet rest until spring."
+          },
+          {
+            "term": "Bud",
+            "definition": "A small tight bump on a twig that holds a folded-up leaf or flower, waiting for spring to open.",
+            "forChildren": "A bud is a tiny bump on a twig. Inside is a leaf all folded up, waiting for spring to say go."
+          },
+          {
+            "term": "Trunk",
+            "definition": "The thick main stem of a tree that holds up all the branches.",
+            "forChildren": "The trunk is the big strong middle of the tree. All the branches grow out from it."
+          }
+        ],
+        "childFriendlyExamples": [
+          "In summer, a tree wears a big green coat of leaves. In winter, the coat comes off and you can see the tree's arms and fingers reaching up.",
+          "A bare tree is not dead. It is having a rest. Deep inside every twig, next spring's leaves are already tucked up in tiny buds, waiting.",
+          "Look up through the branches. In summer the leaves hid the sky. Now you can see all the way up. What else can you see that the leaves used to cover?"
+        ]
+      },
+      "conditionNotes": [
+        {
+          "when": [
+            "windy"
+          ],
+          "teacher": "The bare branches show how each tree bends in the wind, and the nests are being tested too, so watch the tops before you look for anything hidden.",
+          "child": "The wind is strong today. The bare branches are moving, so we will watch how each tree bends."
+        },
+        {
+          "when": [
+            "bright"
+          ],
+          "teacher": "The whole shape of each tree stands against a clear sky, so nests and branches read like a drawing and the class can trace one from trunk to tip.",
+          "child": "The sky is clear today. Every branch shows against it, so we will follow one from the trunk to the tip."
+        }
+      ],
+      "topicLine": "We are going outside to see what we can spot now the leaves are gone from the trees.",
+      "seasonNote": {
+        "teacher": "Trees are fully bare through winter, so their shapes, old nests and the sky between the branches are all on show. The structure is there all term, and the light is clearest on a bright, cold day.",
+        "child": "In winter the leaves are gone. We are going to look at what the trees show us now that they are bare."
+      }
+    },
+    {
+      "id": "winter-w2-ice",
+      "prompt": "What does frozen feel like?",
+      "title": "Ice",
+      "topic": "Find something frozen: a puddle, frost on a leaf, frozen ground. Touch it quickly. Feel what frozen means.",
+      "topicTags": [
+        "trees",
+        "water",
+        "senses"
+      ],
+      "primaryTopic": "senses",
+      "objective": "Water becomes something entirely different just from cold. Children find frozen things, touch ice, and reflect on transformation: how something can change completely and still be itself.",
+      "namedSkill": "touching and looking",
+      "kit": [
+        "Warm clothes and gloves recommended"
+      ],
+      "durationMin": 40,
+      "nodeSeq": 31,
+      "phases": [
+        {
+          "nid": "p1",
+          "key": "awareness-1",
+          "title": "Find something frozen",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b2",
+              "type": "conditions-line",
+              "fallbackText": "Look at the sky together before you set off. Whatever it's doing, name it out loud."
+            },
+            {
+              "nid": "b3",
+              "type": "teacher-note",
+              "text": "If there's no frost, look for cold: the coldest surface, condensation on metal, breath visible in air."
+            },
+            {
+              "nid": "b4",
+              "type": "say-aloud",
+              "text": "Find something that is frozen. Ice on a puddle. Frost on a leaf. Frozen ground."
+            }
+          ]
+        },
+        {
+          "nid": "p5",
+          "key": "embodiment-2",
+          "title": "Touch the ice",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b9",
+              "type": "teacher-note",
+              "text": "Sharp, smooth, brittle, stinging. Ice is water doing something extraordinary."
+            },
+            {
+              "nid": "b10",
+              "type": "say-aloud",
+              "text": "Touch it. Quickly. What does frozen feel like?"
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t6",
+              "when": "Gloves are on and they can't feel the cold through them",
+              "then": "Let them press one bare fingertip for a single second, then gloves straight back on. One touch is all it takes."
+            },
+            {
+              "nid": "t7",
+              "when": "A child says the ice hurts or stings",
+              "then": "Good noticing. Say: that sting is the cold saying hello. Now warm that finger in your other hand."
+            },
+            {
+              "nid": "t8",
+              "when": "There is no ice, only hard frozen ground",
+              "then": "Press a palm flat on the frozen grass or a metal railing. Say: feel how the cold has made everything stiff."
+            }
+          ]
+        },
+        {
+          "nid": "p11",
+          "key": "feeling-3",
+          "title": "Wonder",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b14",
+              "type": "teacher-note",
+              "text": "Transformation metaphor. Temperature changed water. What changes us?"
+            },
+            {
+              "nid": "b15",
+              "type": "say-aloud",
+              "text": "Water became something completely different. Just from cold. What changes you?"
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t12",
+              "when": "The idea of change is too big for them",
+              "then": "Keep it simple: water was runny, now it is hard. Just the cold did that. Ask what else the cold changes."
+            },
+            {
+              "nid": "t13",
+              "when": "They want to smash the ice to see inside",
+              "then": "Let one child crack a thin piece gently, together. Say: now it will melt faster and go back to water."
+            }
+          ]
+        },
+        {
+          "nid": "p16",
+          "key": "kinship-4",
+          "title": "Leave it to thaw",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b19",
+              "type": "teacher-note",
+              "text": "Continuity. Will it still be frozen tomorrow? Observation as care. Walk back."
+            },
+            {
+              "nid": "b20",
+              "type": "say-aloud",
+              "text": "Leave the ice. The sun will set it free later. Say: I'll check on you tomorrow."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t17",
+              "when": "They want to carry a piece of ice back inside",
+              "then": "Say: it can't come with us, it would turn to water in your pocket. We'll come back and see it tomorrow."
+            },
+            {
+              "nid": "t18",
+              "when": "Fingers are too cold to linger",
+              "then": "Say one quick goodbye to the ice together and set off walking. Moving warms everyone up."
+            }
+          ]
+        },
+        {
+          "nid": "p21",
+          "key": "circle",
+          "title": "Circle",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "nid": "b22",
+              "type": "circle-question",
+              "text": "What frozen thing did you find?"
+            },
+            {
+              "nid": "b23",
+              "type": "teacher-note",
+              "text": "Puddles, leaves, grass, metal surfaces."
+            },
+            {
+              "nid": "b24",
+              "type": "circle-question",
+              "text": "What happens when ice melts?"
+            },
+            {
+              "nid": "b25",
+              "type": "teacher-note",
+              "text": "It goes back to being water. Nothing is permanent."
+            },
+            {
+              "nid": "b26",
+              "type": "circle-question",
+              "text": "What's something in your life that changed completely?"
+            },
+            {
+              "nid": "b27",
+              "type": "teacher-note",
+              "text": "Optional. Transformation theme."
+            },
+            {
+              "nid": "b28",
+              "type": "named-skill",
+              "skill": "touching and looking"
+            }
+          ]
+        }
+      ],
+      "standards": [
+        {
+          "system": "england",
+          "code": "Year 4 · States of matter",
+          "text": "observe that some materials change state when they are heated or cooled, and measure or research the temperature at which this happens in degrees Celsius (°C)"
+        }
+      ],
+      "childSheet": [
+        {
+          "nid": "b29",
+          "type": "sheet-title",
+          "title": "Ice",
+          "nameLine": "This page was made by"
+        },
+        {
+          "nid": "b30",
+          "type": "collage-zone",
+          "hint": "Draw or stick something from today's session here."
+        },
+        {
+          "nid": "b31",
+          "type": "notice-line",
+          "prompt": "One thing you noticed outside today:"
+        }
+      ],
+      "preparation": "Best on a frosty morning. If no frost, focus on the coldest surfaces and visible breath.",
+      "conditionNotes": [
+        {
+          "when": [
+            "cold"
+          ],
+          "teacher": "The shaded corners will be the coldest things they touch today, and the sunlit ones will surprise them.",
+          "child": "It is cold enough for ice in the shady corners. We will touch a shady place and then a sunny one."
+        }
+      ],
+      "spaceNeeded": "Any outdoor area, puddles, metal surfaces, and grass show frost well.",
+      "connectionToLast": "Last week you looked up at bare trees and what winter had uncovered. This week, look down and find what the cold has turned to ice.",
+      "primer": {
+        "summary": "When the air gets cold enough, water freezes. A puddle turns to hard ice, dew on the grass becomes white frost, and mud sets solid. It is the same water as before, only the cold has changed it into something you can stand on and knock on. Children find something frozen, touch it briefly, and notice that water can change so completely and still be water.",
+        "why": "Freezing is one of the first big changes a young child can see, touch and understand with their own hands. It shows that the same stuff can take different forms. When the ice melts later, it becomes water again, and that back-and-forth is a gentle first idea about how nothing outside stays the same for long.",
+        "glossary": [
+          {
+            "term": "Frozen",
+            "definition": "When water gets so cold it turns hard and solid, like ice on a puddle.",
+            "forChildren": "Frozen is when water gets so cold it goes hard. You can knock on it and it doesn't splash."
+          },
+          {
+            "term": "Frost",
+            "definition": "A thin white layer of tiny ice crystals that forms on grass, leaves and cars on very cold mornings.",
+            "forChildren": "Frost is like tiny white sparkly ice. It covers the grass on a really cold morning and makes everything look furry and white."
+          },
+          {
+            "term": "Melt",
+            "definition": "When ice or frost warms up and turns back into water.",
+            "forChildren": "Melt is when ice gets warm again and turns back into runny water. The sun helps it melt."
+          },
+          {
+            "term": "Freezing point",
+            "definition": "The temperature at which water turns to ice. It is cold enough to freeze when the air drops to that point.",
+            "forChildren": "There is a special cold point where water stops being runny and turns to ice. When it gets that cold, puddles freeze."
+          }
+        ],
+        "childFriendlyExamples": [
+          "A puddle is soft and splashy. But when the night gets really cold, the puddle turns hard like glass. It is still the same water, just frozen.",
+          "Frost is water too. On a cold morning the tiny bits of water in the air freeze onto the grass and turn it white and sparkly.",
+          "Ice does not stay forever. When the sun comes up and warms it, the ice melts and becomes runny water again. It was water all along."
+        ]
+      },
+      "topicLine": "Today is about ice, and what frozen things feel like to touch.",
+      "seasonNote": {
+        "teacher": "Frost and ice come and go through winter rather than staying, so frozen puddles, crunchy grass and ice on leaves are things to look for on cold mornings, not every day. When there is none, the cold itself is still there to feel.",
+        "child": "In winter, water can turn to ice on cold days. We are going to look for something frozen and feel what it is like."
+      }
+    },
+    {
+      "id": "winter-w3-birds",
+      "prompt": "Which birds stayed, and what are they doing?",
+      "title": "Birds",
+      "topic": "Find a bird. Watch it for 2 minutes. What is it doing? Looking for food? Singing? Waiting? Notice how hard it works.",
+      "topicTags": [
+        "birds",
+        "seasons"
+      ],
+      "primaryTopic": "birds",
+      "objective": "Most creatures left or hid. But the birds stayed. Children find a winter bird, watch it work, and reflect on what it means to stay when things are hard.",
+      "namedSkill": "looking and listening",
+      "kit": [
+        "None required, binoculars optional"
+      ],
+      "durationMin": 40,
+      "nodeSeq": 31,
+      "phases": [
+        {
+          "nid": "p1",
+          "key": "awareness-1",
+          "title": "Find a bird",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b2",
+              "type": "conditions-line",
+              "fallbackText": "Look at the sky together before you set off. Whatever it's doing, name it out loud."
+            },
+            {
+              "nid": "b3",
+              "type": "teacher-note",
+              "text": "Robins, pigeons, crows, sparrows, blue tits. They're here all winter. That takes something."
+            },
+            {
+              "nid": "b4",
+              "type": "say-aloud",
+              "text": "Most creatures left or hid. But the birds stayed. Find one."
+            }
+          ]
+        },
+        {
+          "nid": "p5",
+          "key": "embodiment-2",
+          "title": "Watch a bird",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b9",
+              "type": "teacher-note",
+              "text": "Winter birds work hard. Every moment is about finding enough to eat. Observe for 2 minutes."
+            },
+            {
+              "nid": "b10",
+              "type": "say-aloud",
+              "text": "Watch it. What is it doing? Looking for food? Singing? Waiting?"
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t6",
+              "when": "No bird will land while a loud class stands watching",
+              "then": "Have everyone go still and quiet as statues. Birds come back fast once the movement stops."
+            },
+            {
+              "nid": "t7",
+              "when": "The bird flies off after a few seconds",
+              "then": "That's fine. Watch where it lands next. Say: let's follow it with our eyes, not our feet."
+            },
+            {
+              "nid": "t8",
+              "when": "They can't find any bird at all",
+              "then": "Listen instead of looking. Ask everyone to point to where a chirp is coming from, then look there."
+            }
+          ]
+        },
+        {
+          "nid": "p11",
+          "key": "feeling-3",
+          "title": "Wonder",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b14",
+              "type": "teacher-note",
+              "text": "Resilience. Some kids will connect this to their own experiences. Let them."
+            },
+            {
+              "nid": "b15",
+              "type": "say-aloud",
+              "text": "It's cold. Food is scarce. But this bird stayed. What does it mean to stay when it's hard?"
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t12",
+              "when": "The idea of staying when it's hard is too abstract",
+              "then": "Make it simple: the bird is cold and hungry too, but it keeps going and looking for food. That's brave."
+            },
+            {
+              "nid": "t13",
+              "when": "A child worries the bird is cold and sad",
+              "then": "Reassure them: birds are built for winter, with warm feathers puffed up like a coat. It knows how to stay warm."
+            }
+          ]
+        },
+        {
+          "nid": "p16",
+          "key": "kinship-4",
+          "title": "Welcome it",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b19",
+              "type": "teacher-note",
+              "text": "Acknowledgment. The bird doesn't need our thanks, but saying it changes us. Walk back."
+            },
+            {
+              "nid": "b20",
+              "type": "say-aloud",
+              "text": "Thank you for staying. We see you. We're glad you're here."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t17",
+              "when": "The bird has already flown off before you say it",
+              "then": "Say it anyway, toward where it went. Say: it can still be our welcome, even if it's out of sight now."
+            },
+            {
+              "nid": "t18",
+              "when": "They want to chase the bird to say goodbye",
+              "then": "Hold the group still. Say: we welcome it by leaving it in peace to find its food. That's the kind thing."
+            }
+          ]
+        },
+        {
+          "nid": "p21",
+          "key": "circle",
+          "title": "Circle",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "nid": "b22",
+              "type": "circle-question",
+              "text": "What bird did you find? What was it doing?"
+            },
+            {
+              "nid": "b23",
+              "type": "teacher-note",
+              "text": "Build observation skills."
+            },
+            {
+              "nid": "b24",
+              "type": "circle-question",
+              "text": "Why do some birds stay and others leave?"
+            },
+            {
+              "nid": "b25",
+              "type": "teacher-note",
+              "text": "Migration vs residency. Science connection."
+            },
+            {
+              "nid": "b26",
+              "type": "circle-question",
+              "text": "Who in your life \"stays\" when things are hard?"
+            },
+            {
+              "nid": "b27",
+              "type": "teacher-note",
+              "text": "Beautiful question. Handle with care."
+            },
+            {
+              "nid": "b28",
+              "type": "named-skill",
+              "skill": "looking and listening"
+            }
+          ]
+        }
+      ],
+      "standards": [
+        {
+          "system": "england",
+          "code": "Year 1 · Animals, including humans",
+          "text": "identify and name a variety of common animals including fish, amphibians, reptiles, birds and mammals"
+        },
+        {
+          "system": "england",
+          "code": "Year 2 · Animals, including humans",
+          "text": "find out about and describe the basic needs of animals, including humans, for survival (water, food and air)"
+        }
+      ],
+      "childSheet": [
+        {
+          "nid": "b29",
+          "type": "sheet-title",
+          "title": "Birds",
+          "nameLine": "This page was made by"
+        },
+        {
+          "nid": "b30",
+          "type": "collage-zone",
+          "hint": "Draw or stick something from today's session here."
+        },
+        {
+          "nid": "b31",
+          "type": "notice-line",
+          "prompt": "One thing you noticed outside today:"
+        }
+      ],
+      "preparation": "Best in the morning when birds are most active feeding. Near feeders if your school has them.",
+      "spaceNeeded": "Near trees, hedges, or bird feeders. Open areas where birds are visible.",
+      "connectionToLast": "Last week the cold turned water to ice. This week, notice the creatures that stay out in that cold all winter long.",
+      "primer": {
+        "summary": "Many animals leave or hide away in winter, but some birds stay all season. They spend their short cold days working hard to find enough to eat: hopping across grass, searching hedges, pecking at the ground. Children find one bird, watch it quietly for a couple of minutes, and notice how busy and determined it is.",
+        "why": "Watching one bird do its work is a gateway to paying attention to everything. It builds patience and slow looking, which children get few chances to practise. It also carries a gentle truth: some creatures stay and keep going even when things are hard, and children can feel the strength in that without it being spelled out.",
+        "glossary": [
+          {
+            "term": "Resident bird",
+            "definition": "A bird that stays in the same area all year, including through winter. Robins, blackbirds and sparrows are usually residents.",
+            "forChildren": "A resident bird is one that stays here all year. It doesn't fly away in winter. It sticks around, even in the cold."
+          },
+          {
+            "term": "Migration",
+            "definition": "The long journey some birds make to a warmer place for winter, returning in spring.",
+            "forChildren": "Some birds fly a very long way to somewhere warmer for winter, then come back in spring. That big journey is called migration."
+          },
+          {
+            "term": "Foraging",
+            "definition": "Searching about for food. Winter birds forage almost constantly because food is hard to find.",
+            "forChildren": "Foraging is hunting around for food. In winter, birds forage nearly all day to find enough to eat."
+          },
+          {
+            "term": "Scarce",
+            "definition": "Hard to find, not much of it about. Food is scarce for birds in winter.",
+            "forChildren": "Scarce means there isn't much of it. In winter there aren't many berries or bugs left, so bird food is scarce."
+          }
+        ],
+        "childFriendlyExamples": [
+          "In winter, a bird doesn't have much time to rest. Nearly all day it hops and searches for a few seeds or a hidden bug, just to stay warm and full.",
+          "Some birds fly far away to somewhere warm for winter. But the robin and the sparrow stay right here with us and get on with it.",
+          "Watch one bird for a little while. It might be hunting for food, or singing, or just resting. Whatever it's doing, it stayed through the cold to do it here."
+        ]
+      },
+      "conditionNotes": [
+        {
+          "when": [
+            "cold"
+          ],
+          "teacher": "The birds feed hard and long on a cold day, so a feeder or a berry hedge is worth standing by, and the class can stand still longer than they think.",
+          "child": "It is cold today. The birds are busy finding food to stay warm, so we will stand still and watch one work."
+        },
+        {
+          "when": [
+            "still"
+          ],
+          "teacher": "Birdsong carries a long way in calm air, so start with ears before eyes and let the class point to where a call came from.",
+          "child": "The air is still today. Bird calls carry a long way when it is still, so we will listen first and then look."
+        }
+      ],
+      "topicLine": "This lesson is about the birds that stayed for winter, and what they are doing.",
+      "seasonNote": {
+        "teacher": "The birds that stayed are the winter grounds' most visible life: they are feeding hard through the short days, singing to hold territories, and easy to see in bare trees. Winter visitors from the north are with them.",
+        "child": "Many creatures have gone or are hiding, but the birds stayed. We are going to find a winter bird and watch what it is doing."
+      }
+    },
+    {
+      "id": "winter-w4-hibernation",
+      "prompt": "Where might something be sleeping all winter?",
+      "title": "Hibernation",
+      "topic": "Look for where something might be hibernating: under logs, in leaf piles, in wall cracks. Feel how sheltered and protected the spot is.",
+      "topicTags": [
+        "minibeasts",
+        "seasons"
+      ],
+      "primaryTopic": "minibeasts",
+      "objective": "Somewhere nearby, creatures are sleeping through winter. Children look for likely hiding spots (under logs, in leaf piles, in wall cracks) without disturbing the sleepers.",
+      "namedSkill": "looking and touching",
+      "kit": [
+        "None required, do not disturb sleeping creatures"
+      ],
+      "durationMin": 40,
+      "nodeSeq": 31,
+      "phases": [
+        {
+          "nid": "p1",
+          "key": "awareness-1",
+          "title": "Find a hiding spot",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b2",
+              "type": "conditions-line",
+              "fallbackText": "Look at the sky together before you set off. Whatever it's doing, name it out loud."
+            },
+            {
+              "nid": "b3",
+              "type": "teacher-note",
+              "text": "Under logs, in leaf piles, in cracks in walls, under stones. Don't disturb. Just look for likely spots."
+            },
+            {
+              "nid": "b4",
+              "type": "say-aloud",
+              "text": "Something here is sleeping. A hedgehog. A frog. A beetle. Look for where they might be hiding."
+            }
+          ]
+        },
+        {
+          "nid": "p5",
+          "key": "embodiment-2",
+          "title": "Feel the shelter",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b9",
+              "type": "teacher-note",
+              "text": "Hibernation spots are chosen carefully. Feel why this spot works: blocked from wind, insulated by leaves."
+            },
+            {
+              "nid": "b10",
+              "type": "say-aloud",
+              "text": "Put your hand near a hiding place. Feel how sheltered it is. Warm? Dry? Protected?"
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t6",
+              "when": "A child starts to lift a log or pull a leaf pile apart",
+              "then": "Stop them gently. Say: we keep the roof on. Hold your hand near the gap and feel the still air instead."
+            },
+            {
+              "nid": "t7",
+              "when": "They can't tell any difference between the spot and the open air",
+              "then": "Have them feel the wind out in the open first, then near the sheltered gap. The stillness is the difference."
+            },
+            {
+              "nid": "t8",
+              "when": "Every hiding place is cold and damp today",
+              "then": "That's honest. Say: it's still out of the wind, and out of the wind is what keeps a sleeper alive."
+            }
+          ]
+        },
+        {
+          "nid": "p11",
+          "key": "feeling-3",
+          "title": "Wonder",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b14",
+              "type": "teacher-note",
+              "text": "Kids love this idea. Some will say \"amazing.\" Acknowledge that rest is essential, for animals and for us."
+            },
+            {
+              "nid": "b15",
+              "type": "say-aloud",
+              "text": "Imagine sleeping for four months. No alarm. No school. Just rest. How would that feel?"
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t12",
+              "when": "They get loud and excited about sleeping through school",
+              "then": "Ride the joy, then bring it down: whisper the next part, because a real sleeper is nearby and needs quiet."
+            },
+            {
+              "nid": "t13",
+              "when": "A child worries the animal is hungry while it sleeps",
+              "then": "Reassure them: it ate lots in autumn to get ready, and its body goes so slow it hardly needs anything now."
+            }
+          ]
+        },
+        {
+          "nid": "p16",
+          "key": "kinship-4",
+          "title": "Wish it well",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b19",
+              "type": "teacher-note",
+              "text": "Gentle. Respectful of the sleeping creature. Walk back quietly."
+            },
+            {
+              "nid": "b20",
+              "type": "say-aloud",
+              "text": "Whisper: sleep well. We won't disturb you. See you in spring."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t17",
+              "when": "The whispers turn into a giggling competition",
+              "then": "Model one soft real whisper yourself, then lead the class away on tiptoe. Leaving quietly is the whole point."
+            },
+            {
+              "nid": "t18",
+              "when": "A child is sad to leave the animal alone",
+              "then": "Say: leaving it alone is the kindest thing. Quiet and undisturbed is exactly what it needs from us."
+            }
+          ]
+        },
+        {
+          "nid": "p21",
+          "key": "circle",
+          "title": "Circle",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "nid": "b22",
+              "type": "circle-question",
+              "text": "Where did you think something might be sleeping?"
+            },
+            {
+              "nid": "b23",
+              "type": "teacher-note",
+              "text": "Share hiding spots: under logs, leaf piles, walls."
+            },
+            {
+              "nid": "b24",
+              "type": "circle-question",
+              "text": "What does a good hibernation spot need?"
+            },
+            {
+              "nid": "b25",
+              "type": "teacher-note",
+              "text": "Warmth, shelter, safety, dryness. Design thinking."
+            },
+            {
+              "nid": "b26",
+              "type": "circle-question",
+              "text": "If you could hibernate, when would you wake up?"
+            },
+            {
+              "nid": "b27",
+              "type": "teacher-note",
+              "text": "Fun question. Connects to seasonal preference."
+            },
+            {
+              "nid": "b28",
+              "type": "named-skill",
+              "skill": "looking and touching"
+            }
+          ]
+        }
+      ],
+      "standards": [
+        {
+          "system": "england",
+          "code": "Year 2 · Living things and their habitats",
+          "text": "identify that most living things live in habitats to which they are suited and describe how different habitats provide for the basic needs of different kinds of animals and plants, and how they depend on each other"
+        }
+      ],
+      "childSheet": [
+        {
+          "nid": "b29",
+          "type": "sheet-title",
+          "title": "Hibernation",
+          "nameLine": "This page was made by"
+        },
+        {
+          "nid": "b30",
+          "type": "collage-zone",
+          "hint": "Draw or stick something from today's session here."
+        },
+        {
+          "nid": "b31",
+          "type": "notice-line",
+          "prompt": "One thing you noticed outside today:"
+        }
+      ],
+      "preparation": "Identify safe areas to look, log piles, leaf litter, wall cracks. Brief the class: look but do not lift or disturb.",
+      "spaceNeeded": "Near log piles, compost heaps, stone walls, leaf piles, dense hedges.",
+      "connectionToLast": "Last week you watched the birds that stayed awake through the cold. This week, look for the creatures doing the opposite, sleeping the winter away.",
+      "primer": {
+        "summary": "Some animals get through winter by sleeping through it. Hedgehogs, frogs, and many insects find a sheltered spot, slow their bodies right down, and stay hidden until spring. Children look for the kinds of places a sleeping creature might choose, under logs, in leaf piles, in cracks in walls, without lifting or disturbing anything.",
+        "why": "Hibernation gives children a lovely, gentle idea: that rest is not laziness but survival, and that a sleeping creature deserves to be left in peace. It also builds careful, respectful observation, looking closely and thinking about why a spot is safe, while learning that some things are best watched over rather than poked at.",
+        "glossary": [
+          {
+            "term": "Hibernation",
+            "definition": "A deep winter sleep some animals enter to survive when food is scarce and it is cold. The body slows down for months.",
+            "forChildren": "Hibernation is a very long winter sleep. Some animals curl up in a cosy spot and rest all the way until spring."
+          },
+          {
+            "term": "Shelter",
+            "definition": "A protected spot that keeps an animal out of the wind, rain and cold.",
+            "forChildren": "Shelter is a safe, covered spot. It keeps an animal dry and out of the cold wind, like a little hideaway."
+          },
+          {
+            "term": "Insulation",
+            "definition": "Material like leaves, soil or fur that traps warmth and keeps the cold out.",
+            "forChildren": "Insulation is anything that keeps warmth in, like a pile of leaves or a woolly jumper. It stops the cold getting through."
+          },
+          {
+            "term": "Leaf litter",
+            "definition": "The layer of fallen leaves on the ground. It makes a warm, sheltered home for small hibernating creatures.",
+            "forChildren": "Leaf litter is the pile of old leaves on the ground. Underneath, it's warm and hidden, a perfect place for a small creature to sleep."
+          }
+        ],
+        "childFriendlyExamples": [
+          "A hedgehog doesn't like the cold, so it finds a cosy pile of leaves, curls into a ball, and sleeps right through winter until the warm days come back.",
+          "A good sleeping spot needs to be dry, out of the wind, and hidden away. Under a log or deep in the leaves is just right.",
+          "If you find a spot where something might be sleeping, we look with our eyes only. We keep the leaves and the log exactly as they are, so we don't wake anyone."
+        ]
+      },
+      "conditionNotes": [
+        {
+          "when": [
+            "cold"
+          ],
+          "teacher": "The sleepers are deep in on a day like this, so the class is looking for likely places, not creatures, and nothing gets lifted.",
+          "child": "It is cold today. Somewhere here something is asleep for the winter, so we will look for hiding places and leave them be."
+        },
+        {
+          "when": [
+            "wet"
+          ],
+          "teacher": "The leaf piles and logs are the driest places left in the rain, which is exactly where a sleeper would be, so point at them and do not lift.",
+          "child": "Rain is falling today. A leaf pile or a log stays dry inside, so we will look at where something might be sleeping."
+        }
+      ],
+      "topicLine": "Today's lesson is about creatures sleeping through winter, and where they might be hiding.",
+      "seasonNote": {
+        "teacher": "Small creatures are tucked away and sleeping through winter under logs, in leaf piles and in wall cracks, so the lesson is finding likely places without lifting or disturbing them. The sleeping is happening now, all term long.",
+        "child": "In winter, some creatures are sleeping until spring. We are going to look for where they might be, without waking them."
+      }
+    },
+    {
+      "id": "winter-w5-breath",
+      "prompt": "Can you see your own breath?",
+      "title": "Breath",
+      "topic": "Breathe out slowly. Watch it. That's your warmth meeting the cold. Put your hand in front of your mouth and feel it.",
+      "topicTags": [
+        "weather",
+        "senses"
+      ],
+      "primaryTopic": "senses",
+      "objective": "In cold air, you can see your own breath, visible proof of being alive. Children watch their warmth meet the cold and discover that their body is a furnace.",
+      "namedSkill": "noticing by looking",
+      "kit": [
+        "Warm clothes recommended"
+      ],
+      "durationMin": 40,
+      "nodeSeq": 31,
+      "phases": [
+        {
+          "nid": "p1",
+          "key": "awareness-1",
+          "title": "See your breath",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b2",
+              "type": "conditions-line",
+              "fallbackText": "Look at the sky together before you set off. Whatever it's doing, name it out loud."
+            },
+            {
+              "nid": "b3",
+              "type": "teacher-note",
+              "text": "Visible breath is winter's gift. You can see yourself being alive. Let them experiment with long slow breaths vs quick puffs."
+            },
+            {
+              "nid": "b4",
+              "type": "say-aloud",
+              "text": "Breathe out slowly. Can you see it? That's your warmth meeting the cold. That's you being alive."
+            }
+          ]
+        },
+        {
+          "nid": "p5",
+          "key": "embodiment-2",
+          "title": "Find your breath",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b9",
+              "type": "teacher-note",
+              "text": "Body temperature is remarkable. We generate heat constantly. In winter you can feel the contrast."
+            },
+            {
+              "nid": "b10",
+              "type": "say-aloud",
+              "text": "Put your hand in front of your mouth. Feel the warmth. Your body is a furnace."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t6",
+              "when": "The air is too mild and no breath shows",
+              "then": "Move the lesson to their hands. Breathe on a cold palm and feel the warmth. The body being a furnace is still true."
+            },
+            {
+              "nid": "t7",
+              "when": "They race to blow the biggest cloud",
+              "then": "Turn it slow: ask for one long, quiet breath out and to watch how far the cloud drifts before it fades."
+            },
+            {
+              "nid": "t8",
+              "when": "A child breathes so hard they get dizzy",
+              "then": "Slow everyone down. Say: gentle breaths, like you're warming soup, not blowing out candles."
+            }
+          ]
+        },
+        {
+          "nid": "p11",
+          "key": "feeling-3",
+          "title": "Wonder",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b14",
+              "type": "teacher-note",
+              "text": "Gratitude for being warm-blooded. For being alive. For the body doing its job without being asked."
+            },
+            {
+              "nid": "b15",
+              "type": "say-aloud",
+              "text": "You are warm in a cold world. That's amazing. Really feel that."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t12",
+              "when": "They can't feel anything special about being warm",
+              "then": "Have them touch a cold railing, then their own cheek. Say: feel the difference. That warmth is you, all the time."
+            },
+            {
+              "nid": "t13",
+              "when": "A child says they feel cold, not warm",
+              "then": "Honour it: your hands are cold on the outside, but deep inside you're still warm. That's why the cold hands can be warmed."
+            }
+          ]
+        },
+        {
+          "nid": "p16",
+          "key": "kinship-4",
+          "title": "Warm your hands",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b19",
+              "type": "teacher-note",
+              "text": "Generosity of warmth. Touch a cold railing, a frozen bench. You give warmth. Walk back."
+            },
+            {
+              "nid": "b20",
+              "type": "say-aloud",
+              "text": "Breathe on your hands. Warm them up. Then put your warm hands on something cold. Share your heat."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t17",
+              "when": "Their hands are already too cold to warm anything",
+              "then": "Have them tuck hands under their arms or breathe into cupped palms first. Warm your own hands before sharing heat."
+            },
+            {
+              "nid": "t18",
+              "when": "A child doesn't want to touch anything cold and wet",
+              "then": "That's fine. They can warm a friend's cold hands between their own instead. Sharing warmth counts either way."
+            }
+          ]
+        },
+        {
+          "nid": "p21",
+          "key": "circle",
+          "title": "Circle",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "nid": "b22",
+              "type": "circle-question",
+              "text": "Could you see your breath?"
+            },
+            {
+              "nid": "b23",
+              "type": "teacher-note",
+              "text": "Simple observation. Joy in visibility."
+            },
+            {
+              "nid": "b24",
+              "type": "circle-question",
+              "text": "How does your body stay warm?"
+            },
+            {
+              "nid": "b25",
+              "type": "teacher-note",
+              "text": "Science connection: metabolism, food as fuel, blood circulation."
+            },
+            {
+              "nid": "b26",
+              "type": "circle-question",
+              "text": "What does it feel like to give warmth to something cold?"
+            },
+            {
+              "nid": "b27",
+              "type": "teacher-note",
+              "text": "Generosity metaphor."
+            },
+            {
+              "nid": "b28",
+              "type": "named-skill",
+              "skill": "noticing by looking"
+            }
+          ]
+        }
+      ],
+      "standards": [
+        {
+          "system": "england",
+          "code": "Year 2 · Animals, including humans",
+          "text": "find out about and describe the basic needs of animals, including humans, for survival (water, food and air)"
+        }
+      ],
+      "childSheet": [
+        {
+          "nid": "b29",
+          "type": "sheet-title",
+          "title": "Breath",
+          "nameLine": "This page was made by"
+        },
+        {
+          "nid": "b30",
+          "type": "collage-zone",
+          "hint": "Draw or stick something from today's session here."
+        },
+        {
+          "nid": "b31",
+          "type": "notice-line",
+          "prompt": "One thing you noticed outside today:"
+        }
+      ],
+      "preparation": "Best on a cold day when breath is visible. The colder, the better for this practice.",
+      "spaceNeeded": "Any outdoor area, open space where cold air is felt.",
+      "connectionToLast": "Last week you thought about warm creatures sleeping through the cold. This week, feel the warmth inside your own body, and watch it in the air.",
+      "primer": {
+        "summary": "On a cold day you can see your own breath. The warm, damp air from inside your body meets the cold air outside and turns to a little cloud of mist, just for a moment. Children breathe out and watch it, then feel the warmth on their own hands. It is simple proof that their body is warm and alive, making heat all the time.",
+        "why": "Children are told they are alive, but here they can see it and feel it: warm breath, a warm palm, a body that runs like a little furnace even in the cold. It builds body awareness and a quiet gratitude, and it turns a plain cold morning into something to notice and enjoy rather than just endure.",
+        "glossary": [
+          {
+            "term": "Breath",
+            "definition": "The air you take into your body and let out again. Breathing brings in the air your body needs to live.",
+            "forChildren": "Your breath is the air you take in and puff out. You do it all day and night without even trying."
+          },
+          {
+            "term": "Warm-blooded",
+            "definition": "Animals like people, dogs and birds whose bodies make their own heat and stay warm even when it is cold outside.",
+            "forChildren": "Warm-blooded means your body makes its own warmth. You stay warm inside even on a freezing day, like a little heater."
+          },
+          {
+            "term": "Condensation",
+            "definition": "Tiny water droplets that appear when warm damp air meets something cold. Your visible breath is made of them.",
+            "forChildren": "Your warm breath has a little water in it. When it hits the cold air, that water turns into a tiny misty cloud you can see."
+          },
+          {
+            "term": "Body heat",
+            "definition": "The warmth your body makes all the time from the food you eat, keeping you alive and warm.",
+            "forChildren": "Body heat is the warmth your body makes on its own. It comes from your food, and it keeps you toasty inside."
+          }
+        ],
+        "childFriendlyExamples": [
+          "Breathe out slowly on a cold day and you'll see a little cloud. That cloud is your warm breath meeting the cold air. It's a bit like magic, but it's really science.",
+          "Put your hand in front of your mouth and breathe. Feel the warmth? That warmth is your body making heat, all day long, without you even asking it to.",
+          "You are warm on the inside even when the world is icy. Your body is like a little furnace, quietly keeping you alive and cosy."
+        ]
+      },
+      "conditionNotes": [
+        {
+          "when": [
+            "cold"
+          ],
+          "teacher": "Breath shows clearly today, so start with one slow breath out together and let them compare a long breath with a quick puff.",
+          "child": "It is cold today. Cold air shows our breath, so we will breathe out slowly and watch it."
+        }
+      ],
+      "topicLine": "Our lesson today is about our own breath, and seeing it in the cold air.",
+      "seasonNote": {
+        "teacher": "Your breath shows only when the air is cold, and winter provides that most mornings: the colder the day, the clearer the cloud. On a mild winter day the effect is faint, so use the earliest and shadiest moment of the session.",
+        "child": "On cold winter days you can see your own breath. We are going to watch our warm breath meet the cold air."
+      }
+    },
+    {
+      "id": "winter-w6-footprints",
+      "prompt": "Who has been here before us?",
+      "title": "Footprints",
+      "topic": "Look at the ground. Find tracks: footprints, paw prints, bird feet, trails. Put your own foot next to one. Which way were they going?",
+      "topicTags": [
+        "senses",
+        "seasons"
+      ],
+      "primaryTopic": "seasons",
+      "objective": "Winter mud and frost reveal who else has been here. Children become detectives: reading tracks, comparing prints, and discovering they share this space with creatures they rarely see.",
+      "namedSkill": "looking and touching",
+      "kit": [
+        "None required"
+      ],
+      "durationMin": 40,
+      "nodeSeq": 31,
+      "phases": [
+        {
+          "nid": "p1",
+          "key": "awareness-1",
+          "title": "Find who's been here",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b2",
+              "type": "conditions-line",
+              "fallbackText": "Look at the sky together before you set off. Whatever it's doing, name it out loud."
+            },
+            {
+              "nid": "b3",
+              "type": "teacher-note",
+              "text": "Mud and frost show tracks. Bird feet, dog paws, fox prints if you're lucky. Even snail trails."
+            },
+            {
+              "nid": "b4",
+              "type": "say-aloud",
+              "text": "Look at the ground. Who has been here before us? Footprints. Paw prints. Trails."
+            }
+          ]
+        },
+        {
+          "nid": "p5",
+          "key": "embodiment-2",
+          "title": "Measure a print",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b9",
+              "type": "teacher-note",
+              "text": "Detective work. Reading the ground like a book. Direction, speed, weight."
+            },
+            {
+              "nid": "b10",
+              "type": "say-aloud",
+              "text": "Put your own foot next to a print. How big is it? What shape are its toes? Which way was it going?"
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t6",
+              "when": "The ground is frozen hard and holds no prints",
+              "then": "Look for the softest patch, near a puddle edge or under a drip. Even one clear print is enough to read together."
+            },
+            {
+              "nid": "t7",
+              "when": "A child steps right on the print to compare feet",
+              "then": "Say: put your foot beside it, not on it, so the animal's mark stays whole for us to read."
+            },
+            {
+              "nid": "t8",
+              "when": "They can't tell which way the animal went",
+              "then": "Point out the toes. Say: toes point the way it was heading, like little arrows in the mud."
+            }
+          ]
+        },
+        {
+          "nid": "p11",
+          "key": "feeling-3",
+          "title": "Wonder",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b14",
+              "type": "teacher-note",
+              "text": "We share space with creatures we rarely see. The tracks are proof."
+            },
+            {
+              "nid": "b15",
+              "type": "say-aloud",
+              "text": "Something was here. Right where you're standing. Maybe last night. Maybe this morning. You missed each other."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t12",
+              "when": "A child feels spooked that an animal was so close",
+              "then": "Reassure them: it came when we weren't here and has long gone. It left us a friendly clue, that's all."
+            },
+            {
+              "nid": "t13",
+              "when": "They only find dog and human prints",
+              "then": "Those still tell a story. Ask whose dog, going where, in a hurry or slow. Reading any track is the real skill."
+            }
+          ]
+        },
+        {
+          "nid": "p16",
+          "key": "kinship-4",
+          "title": "Leave your mark",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b19",
+              "type": "teacher-note",
+              "text": "Adding our mark to the record. Walk back."
+            },
+            {
+              "nid": "b20",
+              "type": "say-aloud",
+              "text": "Leave your own print. Press your hand into the mud. Say: I was here too."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t17",
+              "when": "A child won't press a hand into cold mud",
+              "then": "A footprint works just as well. Or press a stick in. The point is leaving a small mark, not getting muddy."
+            },
+            {
+              "nid": "t18",
+              "when": "Muddy hands become a problem before the walk back",
+              "then": "Wipe on the grass, and warm hands under arms as you walk. Say: the mud stays here, we take the memory."
+            }
+          ]
+        },
+        {
+          "nid": "p21",
+          "key": "circle",
+          "title": "Circle",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "nid": "b22",
+              "type": "circle-question",
+              "text": "What prints did you find?"
+            },
+            {
+              "nid": "b23",
+              "type": "teacher-note",
+              "text": "Describe shape, size, direction."
+            },
+            {
+              "nid": "b24",
+              "type": "circle-question",
+              "text": "What animal do you think made them?"
+            },
+            {
+              "nid": "b25",
+              "type": "teacher-note",
+              "text": "Deduction. Match prints to animals."
+            },
+            {
+              "nid": "b26",
+              "type": "circle-question",
+              "text": "If an animal found your footprint, what would they think?"
+            },
+            {
+              "nid": "b27",
+              "type": "teacher-note",
+              "text": "Perspective-taking. Empathy practice."
+            },
+            {
+              "nid": "b28",
+              "type": "named-skill",
+              "skill": "looking and touching"
+            }
+          ]
+        }
+      ],
+      "standards": [
+        {
+          "system": "england",
+          "code": "Year 4 · Living things and their habitats",
+          "text": "explore and use classification keys to help group, identify and name a variety of living things in their local and wider environment"
+        },
+        {
+          "system": "england",
+          "code": "Year 1 · Animals, including humans",
+          "text": "identify and name a variety of common animals including fish, amphibians, reptiles, birds and mammals"
+        }
+      ],
+      "childSheet": [
+        {
+          "nid": "b29",
+          "type": "sheet-title",
+          "title": "Footprints",
+          "nameLine": "This page was made by"
+        },
+        {
+          "nid": "b30",
+          "type": "collage-zone",
+          "hint": "Draw or stick something from today's session here."
+        },
+        {
+          "nid": "b31",
+          "type": "notice-line",
+          "prompt": "One thing you noticed outside today:"
+        }
+      ],
+      "preparation": "Best after rain or frost when the ground is soft or marked. Muddy areas show tracks best.",
+      "conditionNotes": [
+        {
+          "when": [
+            "wet"
+          ],
+          "teacher": "The ground is soft enough to hold a print today, so everything that crossed it has left a page.",
+          "child": "The ground is soft after the rain. Soft ground can hold a footprint, so we will look for what has crossed it."
+        }
+      ],
+      "spaceNeeded": "Near muddy paths, soft ground, or areas where animals cross.",
+      "connectionToLast": "Last week you watched your own warm breath in the cold. This week, look down for the marks other creatures left behind before you arrived.",
+      "primer": {
+        "summary": "Winter mud and soft ground hold onto footprints. Birds, dogs, foxes and other animals leave tracks as they pass, and later a child can find them and work out who was here and which way they went. Children put their own foot beside a print, look at the shape and the toes, and become detectives reading the ground.",
+        "why": "Tracks are proof that children share their space with animals they hardly ever see. Following that clue builds observation, careful looking, and a kind of gentle detective thinking, working out a story from what was left behind. It also grows a quiet sense of connection: something living stood right where you are standing now.",
+        "glossary": [
+          {
+            "term": "Track",
+            "definition": "A mark an animal leaves as it moves, most often a footprint pressed into mud, sand or snow.",
+            "forChildren": "A track is a mark an animal leaves behind, like a footprint in the mud. It shows an animal walked here."
+          },
+          {
+            "term": "Print",
+            "definition": "The shape a single foot or paw presses into soft ground.",
+            "forChildren": "A print is the shape one foot leaves in the mud. You can see the toes and how big the foot was."
+          },
+          {
+            "term": "Trail",
+            "definition": "A line of prints left as an animal walks along, showing the path it took.",
+            "forChildren": "A trail is a row of prints, one after another. It shows the way an animal walked, like a dotted line on the ground."
+          },
+          {
+            "term": "Nocturnal",
+            "definition": "Active at night. Many animals move about in the dark, so we find their tracks in the morning but rarely see them.",
+            "forChildren": "Nocturnal animals come out at night while we're asleep. We often find their prints in the morning, but we miss the animal."
+          }
+        ],
+        "childFriendlyExamples": [
+          "The soft winter mud is like a page. When a bird or a fox walks across it, it leaves a print, a message that says: I was here.",
+          "Put your own foot next to a print. Is the animal's foot bigger or smaller than yours? Which way do the toes point? That's the way it was going.",
+          "Lots of animals move around at night while we're fast asleep. We don't see them, but in the morning their prints are waiting for us to find."
+        ]
+      },
+      "topicLine": "In this lesson we are detectives, reading footprints to see who has been here before us.",
+      "seasonNote": {
+        "teacher": "Mud, frost and any snow hold prints in winter better than in any other season, and the bare, quiet grounds mean the creatures passing through leave the only marks. Soft ground after rain is best; frozen ground keeps older tracks.",
+        "child": "In winter the soft mud and frost keep footprints. We are going to look for who has walked here before us."
+      }
+    },
+    {
+      "id": "winter-w7-dark",
+      "prompt": "What grows in the darkest spot you can find?",
+      "title": "Dark",
+      "topic": "Find the darkest spot you can. Step into it. Feel how different it is from the light. Look for things that grow here: moss, ferns, damp life.",
+      "topicTags": [
+        "seasons",
+        "weather",
+        "senses"
+      ],
+      "primaryTopic": "seasons",
+      "objective": "Winter days are short and shadows are long. Children step into the darkest spots and discover that moss, ferns, and quiet things thrive in shade. A practice about finding life in the dark.",
+      "namedSkill": "noticing by looking",
+      "kit": [
+        "Warm clothes recommended"
+      ],
+      "durationMin": 40,
+      "nodeSeq": 31,
+      "phases": [
+        {
+          "nid": "p1",
+          "key": "awareness-1",
+          "title": "Find the darkest spot",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b2",
+              "type": "conditions-line",
+              "fallbackText": "Look at the sky together before you set off. Whatever it's doing, name it out loud."
+            },
+            {
+              "nid": "b3",
+              "type": "teacher-note",
+              "text": "Under hedges, behind buildings, in corners. Shadow creates habitat."
+            },
+            {
+              "nid": "b4",
+              "type": "say-aloud",
+              "text": "Winter days are short. The shadows are long. Find the darkest spot you can."
+            }
+          ]
+        },
+        {
+          "nid": "p5",
+          "key": "embodiment-2",
+          "title": "Step into shadow",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b9",
+              "type": "teacher-note",
+              "text": "Shadow is a microclimate. Temperature, moisture, light all change in a few steps."
+            },
+            {
+              "nid": "b10",
+              "type": "say-aloud",
+              "text": "Step into the shadow. Feel how different it is from the light. Colder? Damper? Quieter?"
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t6",
+              "when": "A child is scared to step into the dark corner",
+              "then": "Go in first and hold out a hand. Say: we go together, and we can step back into the light whenever you want."
+            },
+            {
+              "nid": "t7",
+              "when": "The sky is grey and there are no strong shadows",
+              "then": "Use the dampest, dimmest spot instead, under a hedge or against a north wall. Feel how it's cooler and stiller there."
+            },
+            {
+              "nid": "t8",
+              "when": "They rush in and out and don't settle",
+              "then": "Have them stand still for three slow breaths in the shade. Ask what their skin feels that their eyes missed."
+            }
+          ]
+        },
+        {
+          "nid": "p11",
+          "key": "feeling-3",
+          "title": "Wonder",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b14",
+              "type": "teacher-note",
+              "text": "Gentle. Not scary. Some children fear darkness. This reframes it as a place where things thrive."
+            },
+            {
+              "nid": "b15",
+              "type": "say-aloud",
+              "text": "We sometimes avoid the dark. But things grow here. Moss. Ferns. Things that love the shade. Can you be okay in the dark?"
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t12",
+              "when": "A child still feels frightened of the dark",
+              "then": "Don't push. Say: it's okay to feel that. Look, the moss chose this spot on purpose. The dark is a home, not a scary place."
+            },
+            {
+              "nid": "t13",
+              "when": "There is no moss or fern to point to",
+              "then": "Point to the damp, the dark soil, the stillness. Say: quiet things love it here, even if they're hiding today."
+            }
+          ]
+        },
+        {
+          "nid": "p16",
+          "key": "kinship-4",
+          "title": "Thank the dark",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b19",
+              "type": "teacher-note",
+              "text": "Balance. Walk back into the light together."
+            },
+            {
+              "nid": "b20",
+              "type": "say-aloud",
+              "text": "Thank the dark for what it grows. The light gets all the credit. But the dark works too."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t17",
+              "when": "The light is already fading and the class feels uneasy",
+              "then": "Keep the close short and lead everyone back toward the brightest open spot as you say thank you together."
+            },
+            {
+              "nid": "t18",
+              "when": "A child says they still don't like the dark",
+              "then": "Honour it: you don't have to love it. We're just saying thank you for what it grows, then walking back to the light."
+            }
+          ]
+        },
+        {
+          "nid": "p21",
+          "key": "circle",
+          "title": "Circle",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "nid": "b22",
+              "type": "circle-question",
+              "text": "What did you find in the shadows?"
+            },
+            {
+              "nid": "b23",
+              "type": "teacher-note",
+              "text": "Moss, damp, insects, hiding spots."
+            },
+            {
+              "nid": "b24",
+              "type": "circle-question",
+              "text": "How did it feel to stand in the dark spot?"
+            },
+            {
+              "nid": "b25",
+              "type": "teacher-note",
+              "text": "Different, cooler, quieter, maybe a bit scary. All valid."
+            },
+            {
+              "nid": "b26",
+              "type": "circle-question",
+              "text": "What grows better in shade than in sun?"
+            },
+            {
+              "nid": "b27",
+              "type": "teacher-note",
+              "text": "Science connection: shade-loving plants, mushrooms, ferns."
+            },
+            {
+              "nid": "b28",
+              "type": "named-skill",
+              "skill": "noticing by looking"
+            }
+          ]
+        }
+      ],
+      "standards": [
+        {
+          "system": "england",
+          "code": "Year 3 · Light",
+          "text": "recognise that they need light in order to see things and that dark is the absence of light"
+        }
+      ],
+      "childSheet": [
+        {
+          "nid": "b29",
+          "type": "sheet-title",
+          "title": "Dark",
+          "nameLine": "This page was made by"
+        },
+        {
+          "nid": "b30",
+          "type": "collage-zone",
+          "hint": "Draw or stick something from today's session here."
+        },
+        {
+          "nid": "b31",
+          "type": "notice-line",
+          "prompt": "One thing you noticed outside today:"
+        }
+      ],
+      "preparation": "Find areas with strong shadow contrast, north-facing walls, dense hedges, under evergreens.",
+      "spaceNeeded": "Areas with deep shade, north-facing walls, dense hedges, under evergreen trees.",
+      "connectionToLast": "Last week you read the tracks animals left in the light. This week, step into the shady corners and find what quietly grows there.",
+      "primer": {
+        "summary": "Winter days are short and the light is low, so shadows are long and there are plenty of dim, damp corners. In those shady spots the air is cooler and stiller, and shade-loving plants like moss and ferns do well there. Children step into a dark spot, feel how different it is, and discover that life grows in the dark just as it does in the light.",
+        "why": "Some children are uneasy about darkness. This session meets that gently and reframes the dark as a place where quiet things thrive, not a place to fear. It builds sensory awareness, feeling a change in temperature and quiet in just a few steps, and it carries a kind message: not everything good happens in the bright and loud.",
+        "glossary": [
+          {
+            "term": "Shade",
+            "definition": "A cooler, darker area where something blocks the sunlight, like a wall, a hedge or a tree.",
+            "forChildren": "Shade is where the sun can't reach because something is in the way. It's cooler and darker there than out in the sun."
+          },
+          {
+            "term": "Moss",
+            "definition": "A soft, low green plant that loves damp shady places. It grows in cushions on soil, walls and tree bark.",
+            "forChildren": "Moss is a soft green plant like a tiny carpet. It loves damp, shady spots and feels velvety when you touch it gently."
+          },
+          {
+            "term": "Shade-loving",
+            "definition": "Plants that grow best out of direct sun, in cool damp shady places. Ferns and moss are shade-loving.",
+            "forChildren": "Some plants like the shade better than the sun. They grow happily in the cool dark corners where other plants wouldn't."
+          },
+          {
+            "term": "Damp",
+            "definition": "A little bit wet. Shady spots stay damp because the sun doesn't dry them out.",
+            "forChildren": "Damp means slightly wet. Shady corners stay damp because the sun can't reach in to dry them."
+          }
+        ],
+        "childFriendlyExamples": [
+          "Step from the light into a shady corner and you can feel the change. It's cooler, damper and quieter, all in a couple of steps.",
+          "The dark isn't empty. Soft green moss and feathery ferns choose the shady spots on purpose. They like it there.",
+          "We don't always have to be scared of the dark. It's a home for lots of quiet, gentle things. And we can step back into the light whenever we like."
+        ]
+      },
+      "topicLine": "Dark corners are today's subject, and what grows in the shadiest spots outside.",
+      "seasonNote": {
+        "teacher": "The sun stays low and the days are the shortest of the year in winter, so shade is long and deep and the dark corners of the grounds are at their darkest. Moss and ferns stay green there all winter, which is the life the session goes looking for.",
+        "child": "In winter the days are short and the shadows are long. We are going to step into the darkest spot and see what grows there."
+      }
+    },
+    {
+      "id": "winter-w8-promise",
+      "prompt": "Can you find the first sign of spring?",
+      "title": "Promise",
+      "topic": "Find a sign that spring is coming. A bud, a snowdrop, longer light, a louder bird. Touch it. This tiny thing is about to become something big.",
+      "topicTags": [
+        "plants",
+        "seasons"
+      ],
+      "primaryTopic": "plants",
+      "objective": "The final winter practice. Children search for the first signs that spring is coming: a swelling bud, a snowdrop, longer daylight. Proof that the cycle continues.",
+      "namedSkill": "looking and touching",
+      "kit": [
+        "None required"
+      ],
+      "durationMin": 40,
+      "nodeSeq": 31,
+      "phases": [
+        {
+          "nid": "p1",
+          "key": "awareness-1",
+          "title": "Find a sign",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b2",
+              "type": "conditions-line",
+              "fallbackText": "Look at the sky together before you set off. Whatever it's doing, name it out loud."
+            },
+            {
+              "nid": "b3",
+              "type": "teacher-note",
+              "text": "A swelling bud, a snowdrop, longer daylight, a bird singing more loudly. The first whispers of change."
+            },
+            {
+              "nid": "b4",
+              "type": "say-aloud",
+              "text": "Spring is coming. It's not here yet. But somewhere, there's a sign. Find it."
+            }
+          ]
+        },
+        {
+          "nid": "p5",
+          "key": "embodiment-2",
+          "title": "Touch the bud",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b9",
+              "type": "teacher-note",
+              "text": "A bud is packed with leaves. A bulb tip pushing through soil. Concentrated potential."
+            },
+            {
+              "nid": "b10",
+              "type": "say-aloud",
+              "text": "Touch it. This tiny thing is about to become something much bigger."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t6",
+              "when": "No buds or shoots have appeared yet this year",
+              "then": "Turn to longer light or louder birdsong instead. Say: the sign isn't in a bud today, it's in the brighter morning."
+            },
+            {
+              "nid": "t7",
+              "when": "A child wants to pick the bud or snowdrop",
+              "then": "Say: leave it to grow. If we pick it, the promise stops here. Touch it gently and let it carry on."
+            },
+            {
+              "nid": "t8",
+              "when": "The bud feels like nothing much to them",
+              "then": "Say: it's small now, but folded up tight inside is a whole leaf or flower, just waiting for the warm days."
+            }
+          ]
+        },
+        {
+          "nid": "p11",
+          "key": "feeling-3",
+          "title": "Wonder",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b14",
+              "type": "teacher-note",
+              "text": "Shared survival. Shared anticipation. This is the emotional peak of the winter season."
+            },
+            {
+              "nid": "b15",
+              "type": "say-aloud",
+              "text": "We made it through winter. So did this. How does that feel?"
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t12",
+              "when": "You want to gather the whole winter's journey here",
+              "then": "Remind them of the bare trees and the ice from the start. Say: we've watched winter the whole way, and here comes spring."
+            },
+            {
+              "nid": "t13",
+              "when": "A child feels sad that winter is ending",
+              "then": "Honour it: winter had its own quiet gifts. And now something new is coming. Both can be true."
+            }
+          ]
+        },
+        {
+          "nid": "p16",
+          "key": "kinship-4",
+          "title": "Greet the spring",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b19",
+              "type": "teacher-note",
+              "text": "Close the winter season with hope. The cycle continues. Walk back together."
+            },
+            {
+              "nid": "b20",
+              "type": "say-aloud",
+              "text": "Say: I see you. You're early. Thank you for the promise."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t17",
+              "when": "The greeting feels flat because it's cold and grey",
+              "then": "Say it toward the sign you found, together, once and warmly. A small honest greeting beats a big forced one."
+            },
+            {
+              "nid": "t18",
+              "when": "They ask when spring will really arrive",
+              "then": "Say: not yet, and no one knows the day. But the sign is here, so it's on its way. We'll keep watching."
+            }
+          ]
+        },
+        {
+          "nid": "p21",
+          "key": "circle",
+          "title": "Circle",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "nid": "b22",
+              "type": "circle-question",
+              "text": "What sign of spring did you find?"
+            },
+            {
+              "nid": "b23",
+              "type": "teacher-note",
+              "text": "Buds, snowdrops, birdsong, longer days."
+            },
+            {
+              "nid": "b24",
+              "type": "circle-question",
+              "text": "How did it feel to find proof that spring is coming?"
+            },
+            {
+              "nid": "b25",
+              "type": "teacher-note",
+              "text": "Relief, excitement, hope."
+            },
+            {
+              "nid": "b26",
+              "type": "circle-question",
+              "text": "What are you most looking forward to about spring?"
+            },
+            {
+              "nid": "b27",
+              "type": "teacher-note",
+              "text": "Full circle. Close winter, open spring. The year turns."
+            },
+            {
+              "nid": "b28",
+              "type": "named-skill",
+              "skill": "looking and touching"
+            }
+          ]
+        }
+      ],
+      "standards": [
+        {
+          "system": "england",
+          "code": "Year 1 · Seasonal changes",
+          "text": "observe changes across the 4 seasons"
+        }
+      ],
+      "childSheet": [
+        {
+          "nid": "b29",
+          "type": "sheet-title",
+          "title": "Promise",
+          "nameLine": "This page was made by"
+        },
+        {
+          "nid": "b30",
+          "type": "collage-zone",
+          "hint": "Draw or stick something from today's session here."
+        },
+        {
+          "nid": "b31",
+          "type": "notice-line",
+          "prompt": "One thing you noticed outside today:"
+        }
+      ],
+      "preparation": "Scout for early spring signs, swelling buds, snowdrops, longer daylight. Best in late February.",
+      "spaceNeeded": "Near trees with visible buds, garden beds where bulbs emerge, or any south-facing sheltered spot.",
+      "connectionToLast": "Last week you found life growing in the dark. This week, in the last of winter, look for the very first signs that spring is on its way.",
+      "primer": {
+        "summary": "Near the end of winter, the first small signs of spring appear. A bud on a twig swells and softens, a snowdrop pushes up through cold soil, the mornings grow a little lighter, and the birds sing louder. Children search for one of these signs, touch it gently, and see proof that winter is turning and the year is beginning again.",
+        "why": "This is the last winter session and its emotional peak. After weeks of cold, finding the first sign of spring gives children a real feeling of hope and of a cycle turning. It closes the season with the understanding that winter always ends, that tiny things hold big change inside them, and that the class watched the whole turn happen together.",
+        "glossary": [
+          {
+            "term": "Bud",
+            "definition": "A small tight bump on a twig holding a folded leaf or flower. In late winter buds swell as they get ready to open.",
+            "forChildren": "A bud is a little bump on a twig with a leaf or flower folded up inside. As spring comes, it grows fatter, getting ready to open."
+          },
+          {
+            "term": "Snowdrop",
+            "definition": "A small white flower that is one of the first to appear at the end of winter, often pushing up through frosty ground.",
+            "forChildren": "A snowdrop is a tiny white flower shaped like a drop. It's one of the very first flowers, brave enough to come up while it's still cold."
+          },
+          {
+            "term": "Sprout",
+            "definition": "To begin to grow. A seed or bulb sprouts when its first shoot pushes up out of the soil.",
+            "forChildren": "To sprout is to start growing. When a little green shoot pokes up out of the soil, we say it has sprouted."
+          },
+          {
+            "term": "Season",
+            "definition": "One of the four parts of the year: spring, summer, autumn and winter. Each brings its own weather and changes in nature.",
+            "forChildren": "A season is a part of the year. Winter is cold and bare, and spring is when things start to grow again. The seasons take turns, round and round."
+          }
+        ],
+        "childFriendlyExamples": [
+          "Spring doesn't arrive all at once. It sends little messages first: a fat bud, a brave snowdrop, a lighter morning. If you look closely, you can find one.",
+          "A snowdrop is tiny, but it's strong. It pushes up through the cold ground while the frost is still about, just to say spring is coming.",
+          "We watched the whole winter together, from the bare trees to the ice to the sleeping animals. Now here is the first sign that the warm days are on their way back."
+        ]
+      },
+      "topicLine": "We are going outside to look for the first signs that spring is on its way.",
+      "seasonNote": {
+        "teacher": "Buds are swelling on bare twigs and the earliest bulbs are pushing through by late winter, and the daylight is noticeably longer than in December. Early in the term the signs are tiny, so look in sheltered spots and low to the ground.",
+        "child": "Winter is nearly over. We are going to look for the very first signs that spring is on its way."
+      }
+    }
+  ]
+}

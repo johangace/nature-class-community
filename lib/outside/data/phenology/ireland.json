@@ -1,0 +1,5457 @@
+{
+  "1": [
+    {
+      "id": "ireland_w1_snowdrop",
+      "species": "Snowdrop",
+      "scientificName": "Galanthus nivalis",
+      "description": "Early snowdrop shoots appearing in sheltered spots, Ireland's mild Gulf Stream climate brings them out sooner than much of Britain",
+      "habitats": [
+        "woodland",
+        "garden",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Tiny white bells are already pushing up through the cold ground. Ireland is so mild they come early!"
+    },
+    {
+      "id": "ireland_w1_robin",
+      "species": "Robin",
+      "scientificName": "Erithacus rubecula",
+      "description": "Robins singing loudly from bare branches, defending winter territories with their bright red breast puffed out",
+      "habitats": [
+        "garden",
+        "woodland",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A little bird with a bright red tummy sits on a branch and sings its heart out, even in the cold!"
+    },
+    {
+      "id": "ireland_w1_red_fox",
+      "species": "Red Fox",
+      "scientificName": "Vulpes vulpes",
+      "description": "Fox mating season. Eerie barking screams echo through the night in both countryside and city",
+      "habitats": [
+        "urban",
+        "woodland",
+        "garden",
+        "hedgerow"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Listen after dark for a spooky scream. That's a fox calling to its friends in the night!"
+    },
+    {
+      "id": "ireland_w1_fieldfare",
+      "species": "Fieldfare",
+      "scientificName": "Turdus pilaris",
+      "description": "Flocks of fieldfares feeding on hawthorn berries in hedgerows, winter visitors from Scandinavia",
+      "habitats": [
+        "hedgerow",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Big flocks of speckled birds chatter as they gobble up red berries from the hedges"
+    },
+    {
+      "id": "ireland_w1_gorse",
+      "species": "Gorse",
+      "scientificName": "Ulex europaeus",
+      "description": "Gorse bushes showing scattered yellow flowers even in midwinter, their coconut scent faint in cold air",
+      "habitats": [
+        "hedgerow",
+        "grassland",
+        "coast"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Even in winter, prickly gorse bushes have bright yellow flowers. Lean in carefully and sniff for coconut!"
+    },
+    {
+      "id": "ireland_w1_winter_fungi",
+      "species": "Jelly Ear Fungus",
+      "scientificName": "Auricularia auricula-judae",
+      "description": "Jelly ear fungus growing on dead elder branches, brown and rubbery in the damp Irish winter",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Wobbly brown ears growing on branches. Jelly ear fungus feels just like a cold, rubbery ear!"
+    }
+  ],
+  "2": [
+    {
+      "id": "ireland_w2_snowdrop",
+      "species": "Snowdrop",
+      "scientificName": "Galanthus nivalis",
+      "description": "Snowdrop patches spreading in churchyards and old gardens, white bells nodding in the breeze",
+      "habitats": [
+        "woodland",
+        "garden",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "More little white lanterns are popping up every day, nodding hello in the wind"
+    },
+    {
+      "id": "ireland_w2_hazel_catkins",
+      "species": "Hazel Catkins",
+      "scientificName": "Corylus avellana",
+      "description": "Long yellow catkins dangling from bare hazel branches, releasing clouds of pollen on dry days",
+      "habitats": [
+        "woodland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Fuzzy yellow tails hang from branches like caterpillars. Shake one gently and watch golden dust fly"
+    },
+    {
+      "id": "ireland_w2_robin",
+      "species": "Robin",
+      "scientificName": "Erithacus rubecula",
+      "description": "Robins singing at dawn and dusk, one of the only birds in full voice during the dark months",
+      "habitats": [
+        "garden",
+        "woodland",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The robin sings even when it's dark and cold. It's one of the bravest little singers in Ireland!"
+    },
+    {
+      "id": "ireland_w2_rook",
+      "species": "Rook",
+      "scientificName": "Corvus frugilegus",
+      "description": "Rooks returning to rookeries in tall trees, noisy groups cawing and refurbishing stick nests",
+      "habitats": [
+        "grassland",
+        "woodland",
+        "playing_field"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Big black birds with pale beaks are gathering in the treetops, shouting and fixing their twiggy homes"
+    },
+    {
+      "id": "ireland_w2_gorse",
+      "species": "Gorse",
+      "scientificName": "Ulex europaeus",
+      "description": "Gorse bushes beginning to show more yellow flowers on mild coastal hillsides",
+      "habitats": [
+        "hedgerow",
+        "grassland",
+        "coast"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The prickly gorse is waking up, more yellow flowers every week, smelling like sweet coconut"
+    }
+  ],
+  "3": [
+    {
+      "id": "ireland_w3_snowdrop",
+      "species": "Snowdrop",
+      "scientificName": "Galanthus nivalis",
+      "description": "Snowdrops in full flower, carpeting woodland edges and old estate grounds across Ireland",
+      "habitats": [
+        "woodland",
+        "garden",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The ground is covered in little white bells, like a fairy village stretching through the trees"
+    },
+    {
+      "id": "ireland_w3_hazel_catkins",
+      "species": "Hazel Catkins",
+      "scientificName": "Corylus avellana",
+      "description": "Hazel catkins at their longest, swinging in the wind and dusting everything with yellow pollen",
+      "habitats": [
+        "woodland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The fuzzy yellow tails are at their longest now. They swing and bounce in the wind"
+    },
+    {
+      "id": "ireland_w3_red_fox",
+      "species": "Red Fox",
+      "scientificName": "Vulpes vulpes",
+      "description": "Fox mating calls still heard at night, vixens seeking den sites for coming cubs",
+      "habitats": [
+        "urban",
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The foxes are still screaming at night. The mum fox is looking for a cosy den for her babies"
+    },
+    {
+      "id": "ireland_w3_rook",
+      "species": "Rook",
+      "scientificName": "Corvus frugilegus",
+      "description": "Rookeries getting noisier, birds stealing sticks from each other's nests in tall beeches and ashes",
+      "habitats": [
+        "grassland",
+        "woodland",
+        "playing_field"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The rooks are building nests and arguing. They steal sticks from each other when nobody's looking!"
+    },
+    {
+      "id": "ireland_w3_gorse",
+      "species": "Gorse",
+      "scientificName": "Ulex europaeus",
+      "description": "Gorse flowering increasing on hillsides and coastal paths, bright yellow against grey winter landscape",
+      "habitats": [
+        "hedgerow",
+        "grassland",
+        "coast"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "More golden flowers on the prickly gorse. They're like little suns dotted across the hillside"
+    },
+    {
+      "id": "ireland_w3_fieldfare",
+      "species": "Fieldfare",
+      "scientificName": "Turdus pilaris",
+      "description": "Fieldfares still in hedgerows and fields, chattering flocks working through last berries",
+      "habitats": [
+        "hedgerow",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The visiting birds from the north are still here, chattering as they hunt for berries"
+    }
+  ],
+  "4": [
+    {
+      "id": "ireland_w4_snowdrop",
+      "species": "Snowdrop",
+      "scientificName": "Galanthus nivalis",
+      "description": "Snowdrops at peak, dense white drifts in sheltered spots, some early flowers beginning to fade",
+      "habitats": [
+        "woodland",
+        "garden",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Snowdrops everywhere! So many white bells the ground looks like it snowed"
+    },
+    {
+      "id": "ireland_w4_hazel_catkins",
+      "species": "Hazel Catkins",
+      "scientificName": "Corylus avellana",
+      "description": "Hazel catkins shedding pollen freely, tiny red female flowers visible on the same branches if you look closely",
+      "habitats": [
+        "woodland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Look really closely at the hazel branch. Can you spot the tiny red flowers? They're smaller than a ladybird!"
+    },
+    {
+      "id": "ireland_w4_dunnock",
+      "species": "Dunnock",
+      "scientificName": "Prunella modularis",
+      "description": "Dunnocks starting to sing from hedgerow tops, a rapid sweet warble often overlooked",
+      "habitats": [
+        "hedgerow",
+        "garden",
+        "woodland"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A shy brown bird hops along the hedge bottom then suddenly sings a fast happy tune from the top!"
+    },
+    {
+      "id": "ireland_w4_rook",
+      "species": "Rook",
+      "scientificName": "Corvus frugilegus",
+      "description": "Rooks actively building nests, flying back and forth with sticks, rookeries at full volume",
+      "habitats": [
+        "grassland",
+        "woodland",
+        "playing_field"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The rooks are so busy! Watch them fly to and fro with sticks. Their treetop village is getting noisy"
+    },
+    {
+      "id": "ireland_w4_gorse",
+      "species": "Gorse",
+      "scientificName": "Ulex europaeus",
+      "description": "Gorse flowering building on hillsides and coastal cliffs, coconut scent stronger on warm days",
+      "habitats": [
+        "hedgerow",
+        "grassland",
+        "coast"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "More and more yellow gorse. If the sun warms the flowers, close your eyes and sniff for coconut"
+    },
+    {
+      "id": "ireland_w4_common_frog",
+      "species": "Common Frog",
+      "scientificName": "Rana temporaria",
+      "description": "First frogs stirring in mild parts of Ireland, moving towards breeding ponds on damp nights",
+      "habitats": [
+        "pond",
+        "garden",
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Frogs are waking up from their winter sleep and hopping towards the nearest pond in the dark!"
+    }
+  ],
+  "5": [
+    {
+      "id": "ireland_w5_snowdrop",
+      "species": "Snowdrop",
+      "scientificName": "Galanthus nivalis",
+      "description": "Snowdrops still strong but earliest flowers starting to turn papery at the edges",
+      "habitats": [
+        "woodland",
+        "garden",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The first snowdrops are getting tired. Their petals are going soft and see-through"
+    },
+    {
+      "id": "ireland_w5_lesser_celandine",
+      "species": "Lesser Celandine",
+      "scientificName": "Ficaria verna",
+      "description": "First lesser celandine leaves appearing along hedge banks and damp woodland edges",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "stream"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Shiny heart-shaped leaves are poking up along the paths. Their yellow star-flowers will come soon"
+    },
+    {
+      "id": "ireland_w5_common_frog",
+      "species": "Common Frog",
+      "scientificName": "Rana temporaria",
+      "description": "Frogs gathering at breeding ponds, males calling with low purring croaks in the evening",
+      "habitats": [
+        "pond",
+        "garden",
+        "stream"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Listen near the pond at dusk. The frogs are purring like tiny motorbikes as they call for a mate"
+    },
+    {
+      "id": "ireland_w5_crocus",
+      "species": "Crocus",
+      "scientificName": "Crocus vernus",
+      "description": "Purple, yellow and white crocuses opening in parks, gardens and churchyards across Irish towns",
+      "habitats": [
+        "garden",
+        "urban",
+        "playing_field"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Purple, yellow and white cups pop open in the grass. They close up tight when it gets cold again"
+    },
+    {
+      "id": "ireland_w5_dunnock",
+      "species": "Dunnock",
+      "scientificName": "Prunella modularis",
+      "description": "Dunnocks in full song from hedge tops, pairs chasing each other in quick fluttery flights",
+      "habitats": [
+        "hedgerow",
+        "garden",
+        "woodland"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The shy brown bird sings its fast happy song from the tippy-top of the hedge every morning now"
+    }
+  ],
+  "6": [
+    {
+      "id": "ireland_w6_snowdrop",
+      "species": "Snowdrop",
+      "scientificName": "Galanthus nivalis",
+      "description": "Snowdrops fading, seed pods swelling as flowers collapse, last blooms in shaded spots",
+      "habitats": [
+        "woodland",
+        "garden",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The snowdrops are drooping and going green. They're making seeds now, ready for next year"
+    },
+    {
+      "id": "ireland_w6_lesser_celandine",
+      "species": "Lesser Celandine",
+      "scientificName": "Ficaria verna",
+      "description": "Lesser celandine flowers opening, glossy yellow stars on hedge banks and woodland edges",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "stream"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Shiny yellow star-flowers are opening along the paths. They close up on cloudy days"
+    },
+    {
+      "id": "ireland_w6_common_frog",
+      "species": "Common Frog",
+      "scientificName": "Rana temporaria",
+      "description": "Frogs spawning in garden ponds, ditches and bog pools: clumps of jelly appearing in still water",
+      "habitats": [
+        "pond",
+        "garden",
+        "stream"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Blobs of see-through jelly with tiny black dots in the pond. Each dot will become a baby frog!"
+    },
+    {
+      "id": "ireland_w6_crocus",
+      "species": "Crocus",
+      "scientificName": "Crocus vernus",
+      "description": "Crocuses at peak in parks and gardens, bees visiting the open cups on sunny mornings",
+      "habitats": [
+        "garden",
+        "urban",
+        "playing_field"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The colourful crocus cups are wide open and bees are diving in headfirst for a drink of nectar!"
+    },
+    {
+      "id": "ireland_w6_primrose",
+      "species": "Primrose",
+      "scientificName": "Primula vulgaris",
+      "description": "First primroses opening on sheltered banks in the mild southwest, pale yellow flowers close to the ground",
+      "habitats": [
+        "hedgerow",
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Soft yellow flowers peep out from the bottom of the hedgerow. Primroses mean spring is really coming!"
+    },
+    {
+      "id": "ireland_w6_gorse",
+      "species": "Gorse",
+      "scientificName": "Ulex europaeus",
+      "description": "Gorse flowering strongly now, hillsides and roadside banks turning yellow, sweet coconut scent carrying",
+      "habitats": [
+        "hedgerow",
+        "grassland",
+        "coast"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The hillsides are going golden! The prickly gorse smells like coconut ice cream on a warm day"
+    }
+  ],
+  "7": [
+    {
+      "id": "ireland_w7_lesser_celandine",
+      "species": "Lesser Celandine",
+      "scientificName": "Ficaria verna",
+      "description": "Celandine spreading along hedge banks and stream sides, glossy leaves and bright yellow flowers",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "stream"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Yellow stars twinkle all along the path. They open in the sunshine and hide on cloudy days"
+    },
+    {
+      "id": "ireland_w7_common_frog",
+      "species": "Common Frog",
+      "scientificName": "Rana temporaria",
+      "description": "Frogspawn everywhere in ponds and ditches, swelling clumps of jelly with black embryos visible",
+      "habitats": [
+        "pond",
+        "garden",
+        "stream"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The frogspawn blobs are getting bigger. You can see the tiny black tadpoles wriggling inside!"
+    },
+    {
+      "id": "ireland_w7_primrose",
+      "species": "Primrose",
+      "scientificName": "Primula vulgaris",
+      "description": "Primroses appearing on hedge banks and woodland edges across the south and west",
+      "habitats": [
+        "hedgerow",
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Pale yellow primroses are popping up everywhere along the hedge. Spring is really here!"
+    },
+    {
+      "id": "ireland_w7_gorse",
+      "species": "Gorse",
+      "scientificName": "Ulex europaeus",
+      "description": "Gorse at full flower on hills and coast, coconut scent strong on warm days, pods beginning to form on earliest flowers",
+      "habitats": [
+        "hedgerow",
+        "grassland",
+        "coast"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The gorse is blazing yellow! Stand near it on a sunny day and breathe in the sweet coconut smell"
+    },
+    {
+      "id": "ireland_w7_song_thrush",
+      "species": "Song Thrush",
+      "scientificName": "Turdus philomelos",
+      "description": "Song thrush singing from rooftops and tree tops at dusk, repeating each phrase two or three times",
+      "habitats": [
+        "garden",
+        "woodland",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A brown bird on the rooftop sings the same tune twice, then a new one. It's like a DJ mixing songs!"
+    },
+    {
+      "id": "ireland_w7_rook",
+      "species": "Rook",
+      "scientificName": "Corvus frugilegus",
+      "description": "Rooks incubating eggs in their treetop rookeries, one bird sits tight while the other brings food",
+      "habitats": [
+        "grassland",
+        "woodland",
+        "playing_field"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The rooks are sitting on their eggs now. One stays on the nest while the other goes shopping for food!"
+    }
+  ],
+  "8": [
+    {
+      "id": "ireland_w8_primrose",
+      "species": "Primrose",
+      "scientificName": "Primula vulgaris",
+      "description": "Primroses spreading along hedgerows and woodland rides, pale yellow flowers clustered on hairy stems",
+      "habitats": [
+        "hedgerow",
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Primroses everywhere! Their soft yellow flowers have a sweet gentle smell if you get close"
+    },
+    {
+      "id": "ireland_w8_lesser_celandine",
+      "species": "Lesser Celandine",
+      "scientificName": "Ficaria verna",
+      "description": "Celandine carpeting damp woodland floors and stream banks, flowers closing on overcast days",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "stream"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The woodland floor sparkles with yellow stars, but they shut tight when the clouds come!"
+    },
+    {
+      "id": "ireland_w8_common_frog",
+      "species": "Common Frog",
+      "scientificName": "Rana temporaria",
+      "description": "Frogspawn swelling, embryos developing into comma shapes, some early spawn hatching into tadpoles",
+      "habitats": [
+        "pond",
+        "garden",
+        "stream"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The little black dots in the jelly are growing wiggly tails. They're turning into tadpoles!"
+    },
+    {
+      "id": "ireland_w8_gorse",
+      "species": "Gorse",
+      "scientificName": "Ulex europaeus",
+      "description": "Gorse at peak flower, entire hillsides blazing yellow, the saying goes 'when gorse is out of bloom, kissing is out of fashion'",
+      "habitats": [
+        "hedgerow",
+        "grassland",
+        "coast"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The hills are painted golden yellow with gorse! There's an old saying that gorse is never out of flower"
+    },
+    {
+      "id": "ireland_w8_song_thrush",
+      "species": "Song Thrush",
+      "scientificName": "Turdus philomelos",
+      "description": "Song thrush in full voice from treetops and aerials, each phrase repeated like a musical conversation",
+      "habitats": [
+        "garden",
+        "woodland",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The song thrush sings the same little tune twice or three times. Can you count how many times it repeats?"
+    },
+    {
+      "id": "ireland_w8_daffodil",
+      "species": "Daffodil",
+      "scientificName": "Narcissus pseudonarcissus",
+      "description": "Wild and garden daffodils beginning to bloom, golden trumpets appearing in parks and roadsides",
+      "habitats": [
+        "garden",
+        "woodland",
+        "urban",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Golden trumpets are popping up in gardens and parks. The daffodils are here!"
+    }
+  ],
+  "9": [
+    {
+      "id": "ireland_w9_primrose",
+      "species": "Primrose",
+      "scientificName": "Primula vulgaris",
+      "description": "Primroses at peak across Ireland, lining every country lane and hedge bank",
+      "habitats": [
+        "hedgerow",
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Every hedge bank is dotted with soft yellow primroses: Ireland's favourite spring flower!"
+    },
+    {
+      "id": "ireland_w9_daffodil",
+      "species": "Daffodil",
+      "scientificName": "Narcissus pseudonarcissus",
+      "description": "Daffodils in full bloom across parks, gardens and roadsides, brightening up the late-winter landscape",
+      "habitats": [
+        "garden",
+        "woodland",
+        "urban",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Daffodils are dancing everywhere. Their golden trumpets bob and nod in the March breeze"
+    },
+    {
+      "id": "ireland_w9_common_frog",
+      "species": "Common Frog",
+      "scientificName": "Rana temporaria",
+      "description": "Tadpoles hatching from frogspawn, tiny black wrigglers clinging to empty jelly in ponds",
+      "habitats": [
+        "pond",
+        "garden",
+        "stream"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The baby tadpoles have hatched! Tiny black wrigglers cling to the leftover jelly like little commas"
+    },
+    {
+      "id": "ireland_w9_blackthorn",
+      "species": "Blackthorn",
+      "scientificName": "Prunus spinosa",
+      "description": "First blackthorn blossom appearing on bare thorny hedgerow branches, white flowers before leaves",
+      "habitats": [
+        "hedgerow",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The dark spiky hedge suddenly has white flowers, like popcorn stuck on bare black branches!"
+    },
+    {
+      "id": "ireland_w9_gorse",
+      "species": "Gorse",
+      "scientificName": "Ulex europaeus",
+      "description": "Gorse still blazing yellow, early pods beginning to form as flowers fade on sun-facing slopes",
+      "habitats": [
+        "hedgerow",
+        "grassland",
+        "coast"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The gorse is still glowing golden on the hills. On a hot day you might hear the seed pods pop!"
+    },
+    {
+      "id": "ireland_w9_willow_catkins",
+      "species": "Willow Catkins",
+      "scientificName": "Salix caprea",
+      "description": "Pussy willow catkins soft and silvery on goat willow branches, turning golden with pollen",
+      "habitats": [
+        "hedgerow",
+        "stream",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Soft silvery puffs on the willow branches feel like tiny kittens' paws. That's why they're called pussy willows!"
+    }
+  ],
+  "10": [
+    {
+      "id": "ireland_w10_primrose",
+      "species": "Primrose",
+      "scientificName": "Primula vulgaris",
+      "description": "Primroses at peak, covering hedge banks and woodland floors across Ireland, a true emblem of Irish spring",
+      "habitats": [
+        "hedgerow",
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Primroses are everywhere. Every bank and ditch is dotted with soft yellow flowers"
+    },
+    {
+      "id": "ireland_w10_blackthorn",
+      "species": "Blackthorn",
+      "scientificName": "Prunus spinosa",
+      "description": "Blackthorn hedgerows turning white with blossom, flowers appearing before any leaves emerge",
+      "habitats": [
+        "hedgerow",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The hedgerows are covered in white flowers on dark branches. It looks like they're wearing snowflake coats!"
+    },
+    {
+      "id": "ireland_w10_common_frog",
+      "species": "Common Frog",
+      "scientificName": "Rana temporaria",
+      "description": "Tadpoles growing in ponds, swimming in shoals near the surface on warm days",
+      "habitats": [
+        "pond",
+        "garden",
+        "stream"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Wiggly tadpoles swim together in a big group near the top of the pond to catch the warm sunshine"
+    },
+    {
+      "id": "ireland_w10_chiffchaff",
+      "species": "Chiffchaff",
+      "scientificName": "Phylloscopus collybita",
+      "description": "First chiffchaffs arriving from Africa, singing their two-note name from willow and birch tops",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "This tiny bird flew all the way from Africa and sings its own name: \"chiff-chaff, chiff-chaff\"!"
+    },
+    {
+      "id": "ireland_w10_buff_tailed_bumblebee",
+      "species": "Buff-tailed Bumblebee",
+      "scientificName": "Bombus terrestris",
+      "description": "Queen bumblebees emerging from hibernation, visiting willow catkins and early garden flowers",
+      "habitats": [
+        "garden",
+        "hedgerow",
+        "meadow",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A big fuzzy bee bumbles past. She's a queen looking for a cosy hole to build her home in!"
+    },
+    {
+      "id": "ireland_w10_willow_catkins",
+      "species": "Willow Catkins",
+      "scientificName": "Salix caprea",
+      "description": "Pussy willow catkins turning golden yellow with pollen, buzzing with bees on sunny mornings",
+      "habitats": [
+        "hedgerow",
+        "stream",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "touch",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The soft silvery puffs have turned golden and are covered in happy buzzing bees having breakfast!"
+    }
+  ],
+  "11": [
+    {
+      "id": "ireland_w11_primrose",
+      "species": "Primrose",
+      "scientificName": "Primula vulgaris",
+      "description": "Primroses still glorious across hedgerows and woodland, this is peak Irish primrose season",
+      "habitats": [
+        "hedgerow",
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Still so many primroses! They smile up from the hedge bank like little yellow faces"
+    },
+    {
+      "id": "ireland_w11_blackthorn",
+      "species": "Blackthorn",
+      "scientificName": "Prunus spinosa",
+      "description": "Blackthorn in full bloom, white blossom clouds along every hedgerow, sometimes called the 'blackthorn winter' cold snap",
+      "habitats": [
+        "hedgerow",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "White flowers cover the dark thorny hedge like a cloud. People say a cold snap comes when the blackthorn blooms!"
+    },
+    {
+      "id": "ireland_w11_chiffchaff",
+      "species": "Chiffchaff",
+      "scientificName": "Phylloscopus collybita",
+      "description": "Chiffchaffs now widespread, their repetitive two-note song one of the first spring sounds in every woodland",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "\"Chiff-chaff, chiff-chaff\". Can you hear it? This little bird never gets tired of saying its name!"
+    },
+    {
+      "id": "ireland_w11_daffodil",
+      "species": "Daffodil",
+      "scientificName": "Narcissus pseudonarcissus",
+      "description": "Daffodils at peak in parks, gardens and along roadsides, golden and white varieties shining",
+      "habitats": [
+        "garden",
+        "woodland",
+        "urban",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Fields of golden daffodils are bobbing in the breeze like they're all waving hello!"
+    },
+    {
+      "id": "ireland_w11_buff_tailed_bumblebee",
+      "species": "Buff-tailed Bumblebee",
+      "scientificName": "Bombus terrestris",
+      "description": "Bumblebee queens actively nest-hunting, buzzing low over the ground searching for mouse holes",
+      "habitats": [
+        "garden",
+        "hedgerow",
+        "meadow",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Watch the big furry bee flying low along the ground. She's house-hunting for the perfect hole!"
+    },
+    {
+      "id": "ireland_w11_wood_sorrel",
+      "species": "Wood Sorrel",
+      "scientificName": "Oxalis acetosella",
+      "description": "Wood sorrel unfolding trefoil leaves on woodland floors, one candidate for the original Irish shamrock",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Three little heart-shaped leaves fold up like tiny umbrellas. Some people think this is the real shamrock!"
+    }
+  ],
+  "12": [
+    {
+      "id": "ireland_w12_primrose",
+      "species": "Primrose",
+      "scientificName": "Primula vulgaris",
+      "description": "Primroses still blooming strongly, though earliest flowers starting to set seed",
+      "habitats": [
+        "hedgerow",
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The primroses are still going strong. Ireland's hedgerows are lined with pale yellow"
+    },
+    {
+      "id": "ireland_w12_blackthorn",
+      "species": "Blackthorn",
+      "scientificName": "Prunus spinosa",
+      "description": "Blackthorn blossom beginning to fade, first tiny green leaves unfurling on thorny branches",
+      "habitats": [
+        "hedgerow",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The white blackthorn flowers are falling like snow and little green leaves are starting to grow instead"
+    },
+    {
+      "id": "ireland_w12_chiffchaff",
+      "species": "Chiffchaff",
+      "scientificName": "Phylloscopus collybita",
+      "description": "Chiffchaffs singing from every woodland and garden, establishing territories for nesting",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The chiffchaffs are singing so loud now. Each one has picked its favourite tree to sing from!"
+    },
+    {
+      "id": "ireland_w12_wood_sorrel",
+      "species": "Wood Sorrel",
+      "scientificName": "Oxalis acetosella",
+      "description": "Wood sorrel flowering in old woodlands, delicate white petals veined with pink above shamrock-like leaves",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Tiny white flowers with pink stripes sit above three-leaf clovers. This might be the real shamrock of St Patrick!"
+    },
+    {
+      "id": "ireland_w12_frogspawn_tadpoles",
+      "species": "Common Frog Tadpoles",
+      "scientificName": "Rana temporaria",
+      "description": "Tadpoles growing fast in warming ponds, developing external gills, feeding on algae",
+      "habitats": [
+        "pond",
+        "garden",
+        "stream"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The tadpoles are getting bigger! They munch on green slimy algae and swim in wiggly circles"
+    },
+    {
+      "id": "ireland_w12_gorse",
+      "species": "Gorse",
+      "scientificName": "Ulex europaeus",
+      "description": "Gorse still flowering strongly, seed pods starting to form on lower branches, bees buzzing around blooms",
+      "habitats": [
+        "hedgerow",
+        "grassland",
+        "coast"
+      ],
+      "senses": [
+        "sight",
+        "smell",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The golden gorse is humming with bees. On a hot day the black seed pods go pop like tiny fireworks!"
+    }
+  ],
+  "13": [
+    {
+      "id": "ireland_w13_primrose",
+      "species": "Primrose",
+      "scientificName": "Primula vulgaris",
+      "description": "Primroses beginning to fade, flowers going papery as bluebells start to take over woodland floors",
+      "habitats": [
+        "hedgerow",
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The primroses are getting tired now, but look, bluebells are coming to take their place!"
+    },
+    {
+      "id": "ireland_w13_swallow",
+      "species": "Swallow",
+      "scientificName": "Hirundo rustica",
+      "description": "First swallows arriving from Africa, skimming low over fields and water, a sign that summer is coming",
+      "habitats": [
+        "grassland",
+        "meadow",
+        "stream",
+        "playing_field"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The swallows are back from Africa! Watch them swoop low over the fields catching tiny flying bugs"
+    },
+    {
+      "id": "ireland_w13_blackthorn",
+      "species": "Blackthorn",
+      "scientificName": "Prunus spinosa",
+      "description": "Blackthorn blossom fading, green leaves replacing white flowers, small fruitlets beginning to form",
+      "habitats": [
+        "hedgerow",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The white blackthorn flowers are gone and green leaves are covering the hedge. Summer clothes are going on!"
+    },
+    {
+      "id": "ireland_w13_orange_tip_butterfly",
+      "species": "Orange-tip Butterfly",
+      "scientificName": "Anthocharis cardamines",
+      "description": "First orange-tip butterflies on the wing, males with bright orange wing tips patrolling hedgerows",
+      "habitats": [
+        "hedgerow",
+        "meadow",
+        "garden",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A white butterfly with bright orange wing tips flutters along the hedge. Only the boys have the orange!"
+    },
+    {
+      "id": "ireland_w13_wild_garlic",
+      "species": "Wild Garlic",
+      "scientificName": "Allium ursinum",
+      "description": "Wild garlic leaves carpeting damp woodland floors, the strong garlicky smell hitting you before you see them",
+      "habitats": [
+        "woodland",
+        "stream"
+      ],
+      "senses": [
+        "smell",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Walk into the woods and sniff. Can you smell garlic? Look down and you'll see a carpet of green leaves!"
+    },
+    {
+      "id": "ireland_w13_chiffchaff",
+      "species": "Chiffchaff",
+      "scientificName": "Phylloscopus collybita",
+      "description": "Chiffchaffs nesting now, still singing loudly from canopy to mark territory",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "\"Chiff-chaff, chiff-chaff\". The little bird is still singing away while its partner builds a nest in the bushes"
+    }
+  ],
+  "14": [
+    {
+      "id": "ireland_w14_swallow",
+      "species": "Swallow",
+      "scientificName": "Hirundo rustica",
+      "description": "More swallows arriving daily, swooping over farmyards and fields, long forked tails flashing",
+      "habitats": [
+        "grassland",
+        "meadow",
+        "stream",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "More swallows are arriving every day. Watch their long tail feathers stream behind them like ribbons!"
+    },
+    {
+      "id": "ireland_w14_wild_garlic",
+      "species": "Wild Garlic",
+      "scientificName": "Allium ursinum",
+      "description": "Wild garlic spreading fast through damp woodlands, leaves broadening, first flower buds forming",
+      "habitats": [
+        "woodland",
+        "stream"
+      ],
+      "senses": [
+        "smell",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The garlic smell in the woods is getting stronger! Soon the green carpet will be covered in white star flowers"
+    },
+    {
+      "id": "ireland_w14_orange_tip_butterfly",
+      "species": "Orange-tip Butterfly",
+      "scientificName": "Anthocharis cardamines",
+      "description": "Orange-tip butterflies increasing along hedgerows, females laying eggs on cuckoo flower stems",
+      "habitats": [
+        "hedgerow",
+        "meadow",
+        "garden",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The orange-tipped butterflies are everywhere now. Can you spot one landing on a pink cuckoo flower?"
+    },
+    {
+      "id": "ireland_w14_gorse",
+      "species": "Gorse",
+      "scientificName": "Ulex europaeus",
+      "description": "Gorse approaching peak spring flowering, hillsides ablaze with yellow, seed pods cracking in the sunshine",
+      "habitats": [
+        "hedgerow",
+        "grassland",
+        "coast"
+      ],
+      "senses": [
+        "sight",
+        "smell",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The hills are blazing yellow! Listen closely on a hot day. You might hear the gorse pods popping!"
+    },
+    {
+      "id": "ireland_w14_bluebell",
+      "species": "Bluebell",
+      "scientificName": "Hyacinthoides non-scripta",
+      "description": "First bluebell shoots pushing through woodland leaf litter, green spears with flower buds tightly furled",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Green spears are pushing through the brown leaves on the forest floor. The bluebells are coming!"
+    },
+    {
+      "id": "ireland_w14_cuckoo_flower",
+      "species": "Cuckoo Flower",
+      "scientificName": "Cardamine pratensis",
+      "description": "Cuckoo flower (lady's smock) blooming in damp meadows and along ditches, pale pink petals",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "stream"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Pale pink flowers on thin stems sway in wet meadows. They bloom when the cuckoo is supposed to arrive!"
+    }
+  ],
+  "15": [
+    {
+      "id": "ireland_w15_bluebell",
+      "species": "Bluebell",
+      "scientificName": "Hyacinthoides non-scripta",
+      "description": "Bluebells starting to open in sheltered woodlands, first hints of the blue haze to come",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The first bluebells are opening! Their sweet smell fills the wood like a gentle perfume"
+    },
+    {
+      "id": "ireland_w15_swallow",
+      "species": "Swallow",
+      "scientificName": "Hirundo rustica",
+      "description": "Swallows now widespread, settling into barns and outbuildings, beginning to build mud cup nests",
+      "habitats": [
+        "grassland",
+        "meadow",
+        "stream",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The swallows are making mud cups on barn walls. They carry tiny beakfuls of mud from puddles!"
+    },
+    {
+      "id": "ireland_w15_wild_garlic",
+      "species": "Wild Garlic",
+      "scientificName": "Allium ursinum",
+      "description": "Wild garlic in full flower, white star-shaped blooms above broad green leaves, pungent scent fills the woods",
+      "habitats": [
+        "woodland",
+        "stream"
+      ],
+      "senses": [
+        "smell",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The woods are full of white flowers and the garlic smell is so strong. You can smell it from the path!"
+    },
+    {
+      "id": "ireland_w15_cuckoo",
+      "species": "Cuckoo",
+      "scientificName": "Cuculus canorus",
+      "description": "First cuckoos calling across bogs and farmland, the male's loud \"cuck-oo\" carrying far on still mornings",
+      "habitats": [
+        "woodland",
+        "grassland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "\"Cuck-oo! Cuck-oo!\". This sneaky bird lays its eggs in other birds' nests so they do all the hard work!"
+    },
+    {
+      "id": "ireland_w15_hawthorn_buds",
+      "species": "Hawthorn",
+      "scientificName": "Crataegus monogyna",
+      "description": "Hawthorn hedges greening up fast, bright green leaf clusters bursting from thorny branches",
+      "habitats": [
+        "hedgerow",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The hedges are turning green! Tiny bright leaves are bursting out of every branch like green fireworks"
+    },
+    {
+      "id": "ireland_w15_orange_tip_butterfly",
+      "species": "Orange-tip Butterfly",
+      "scientificName": "Anthocharis cardamines",
+      "description": "Orange-tips at peak along hedgerows and country lanes, a classic Irish spring butterfly",
+      "habitats": [
+        "hedgerow",
+        "meadow",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Orange-tips are fluttering everywhere! When they close their wings they look like little green leaves"
+    }
+  ],
+  "16": [
+    {
+      "id": "ireland_w16_bluebell",
+      "species": "Bluebell",
+      "scientificName": "Hyacinthoides non-scripta",
+      "description": "Bluebells spreading across ancient woodland floors, a shimmering blue-purple carpet under the trees",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The woods have turned blue! A magical carpet of bluebells stretches between the trees"
+    },
+    {
+      "id": "ireland_w16_swallow",
+      "species": "Swallow",
+      "scientificName": "Hirundo rustica",
+      "description": "Swallows swooping low over fields and water, chattering from wires and barn roofs",
+      "habitats": [
+        "grassland",
+        "meadow",
+        "stream",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Swallows sit on the wires chattering to each other, then zoom off to catch flies, so fast!"
+    },
+    {
+      "id": "ireland_w16_cuckoo",
+      "species": "Cuckoo",
+      "scientificName": "Cuculus canorus",
+      "description": "Cuckoo calling from woodland edges and over bogs, females scouting for nests of meadow pipits and dunnocks",
+      "habitats": [
+        "woodland",
+        "grassland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "\"Cuck-oo!\" echoes across the fields. The sneaky lady cuckoo is looking for another bird's nest to use!"
+    },
+    {
+      "id": "ireland_w16_wild_garlic",
+      "species": "Wild Garlic",
+      "scientificName": "Allium ursinum",
+      "description": "Wild garlic at peak flower, woodland floors white and pungent, bees visiting the star-shaped blooms",
+      "habitats": [
+        "woodland",
+        "stream"
+      ],
+      "senses": [
+        "smell",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The whole wood smells like a pizza restaurant! White star flowers and that amazing garlic pong"
+    },
+    {
+      "id": "ireland_w16_hawthorn",
+      "species": "Hawthorn",
+      "scientificName": "Crataegus monogyna",
+      "description": "Hawthorn hedges fully leafed out, first flower buds forming in clusters, the 'May blossom' nearly ready",
+      "habitats": [
+        "hedgerow",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The hedges are thick with green leaves now and little bundles of flower buds are getting ready to pop"
+    },
+    {
+      "id": "ireland_w16_cow_parsley",
+      "species": "Cow Parsley",
+      "scientificName": "Anthriscus sylvestris",
+      "description": "Cow parsley shooting up along lanes and hedge bases, feathery green leaves and white flower heads starting",
+      "habitats": [
+        "hedgerow",
+        "meadow",
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Tall feathery plants are growing fast along every lane. Their white flower heads look like tiny umbrellas"
+    }
+  ],
+  "17": [
+    {
+      "id": "ireland_w17_bluebell",
+      "species": "Bluebell",
+      "scientificName": "Hyacinthoides non-scripta",
+      "description": "Bluebells at peak, ancient woodlands filled with sweet scent and shimmering blue-purple haze",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The bluebell woods are absolutely magical right now. Close your eyes and breathe in the sweet perfume"
+    },
+    {
+      "id": "ireland_w17_hawthorn",
+      "species": "Hawthorn",
+      "scientificName": "Crataegus monogyna",
+      "description": "First hawthorn flowers opening, creamy white blossom with a musky sweet scent, the 'May' is nearly here",
+      "habitats": [
+        "hedgerow",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The hawthorn is starting to bloom! In Ireland people say the fairy trees are putting on their dresses"
+    },
+    {
+      "id": "ireland_w17_cow_parsley",
+      "species": "Cow Parsley",
+      "scientificName": "Anthriscus sylvestris",
+      "description": "Cow parsley frothing along every lane and hedgerow, white flower heads creating a lacy border",
+      "habitats": [
+        "hedgerow",
+        "meadow",
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Every country lane has a frothy white border of cow parsley. It looks like someone sprayed the hedges with foam!"
+    },
+    {
+      "id": "ireland_w17_cuckoo",
+      "species": "Cuckoo",
+      "scientificName": "Cuculus canorus",
+      "description": "Cuckoo at peak calling period, the sound carrying across bogs, farmland and woodland edges",
+      "habitats": [
+        "woodland",
+        "grassland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "\"Cuck-oo! Cuck-oo!\". It's the loudest time for cuckoos, you can hear them from far away!"
+    },
+    {
+      "id": "ireland_w17_swift",
+      "species": "Swift",
+      "scientificName": "Apus apus",
+      "description": "First swifts arriving, screaming in groups over towns and villages, these birds almost never land",
+      "habitats": [
+        "urban",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Look up! Screaming dark birds zoom over the rooftops. Swifts eat, sleep and even drink while flying!"
+    },
+    {
+      "id": "ireland_w17_foxglove",
+      "species": "Foxglove",
+      "scientificName": "Digitalis purpurea",
+      "description": "Foxglove rosettes growing tall along banks and woodland edges, flower spikes beginning to form",
+      "habitats": [
+        "woodland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Tall fuzzy stems are shooting up along the lane. Soon they'll be covered in spotty purple bells"
+    }
+  ],
+  "18": [
+    {
+      "id": "ireland_w18_bluebell",
+      "species": "Bluebell",
+      "scientificName": "Hyacinthoides non-scripta",
+      "description": "Bluebells still stunning but earliest flowers starting to droop and lose colour",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The bluebells are still beautiful but the oldest ones are going floppy. Enjoy them while they last!"
+    },
+    {
+      "id": "ireland_w18_hawthorn",
+      "species": "Hawthorn",
+      "scientificName": "Crataegus monogyna",
+      "description": "Hawthorn hedges bursting into white blossom, the May blossom filling lanes with its sweet musky scent",
+      "habitats": [
+        "hedgerow",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The hawthorn hedges are covered in white flowers! In Ireland these are fairy trees. Never cut one down!"
+    },
+    {
+      "id": "ireland_w18_swift",
+      "species": "Swift",
+      "scientificName": "Apus apus",
+      "description": "Swifts now screaming over Irish towns in the evenings, dark scythe-shaped silhouettes against the sky",
+      "habitats": [
+        "urban",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The swifts are screaming around the rooftops! They look like little dark boomerangs zooming through the sky"
+    },
+    {
+      "id": "ireland_w18_cow_parsley",
+      "species": "Cow Parsley",
+      "scientificName": "Anthriscus sylvestris",
+      "description": "Cow parsley at peak, roadsides and lanes a mass of white lacy flower heads above feathery leaves",
+      "habitats": [
+        "hedgerow",
+        "meadow",
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Roadsides are like a white wedding! Cow parsley everywhere, tall and frothy and beautiful"
+    },
+    {
+      "id": "ireland_w18_puffin",
+      "species": "Atlantic Puffin",
+      "scientificName": "Fratercula arctica",
+      "description": "Puffins arriving at breeding colonies on Skellig Michael, Saltee Islands and Rathlin Island, colourful beaks bright",
+      "habitats": [
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The puffins are back on the islands! They look like tiny clowns with their bright orange beaks"
+    },
+    {
+      "id": "ireland_w18_foxglove",
+      "species": "Foxglove",
+      "scientificName": "Digitalis purpurea",
+      "description": "Foxglove spikes getting taller, first purple bell flowers opening at the bottom of the spike",
+      "habitats": [
+        "woodland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The foxglove is opening its purple bells from the bottom up. Bees crawl right inside them!"
+    }
+  ],
+  "19": [
+    {
+      "id": "ireland_w19_hawthorn",
+      "species": "Hawthorn",
+      "scientificName": "Crataegus monogyna",
+      "description": "Hawthorn at peak blossom, hedgerows a mass of creamy white flowers buzzing with insects",
+      "habitats": [
+        "hedgerow",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Every hedge is covered in white May blossom. Lean close and hear it humming with hundreds of bees!"
+    },
+    {
+      "id": "ireland_w19_swift",
+      "species": "Swift",
+      "scientificName": "Apus apus",
+      "description": "Swifts screaming over rooftops in the long evenings, parties of birds chasing each other at high speed",
+      "habitats": [
+        "urban",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Wild screaming parties of swifts race around the rooftops. They sleep on the wing, flying all night!"
+    },
+    {
+      "id": "ireland_w19_foxglove",
+      "species": "Foxglove",
+      "scientificName": "Digitalis purpurea",
+      "description": "Foxgloves opening along woodland edges, banks and lanes, purple spotted bells climbing the tall spikes",
+      "habitats": [
+        "woodland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Tall purple foxgloves are like fairy towers. Peek inside a bell and see the spotty pattern!"
+    },
+    {
+      "id": "ireland_w19_puffin",
+      "species": "Atlantic Puffin",
+      "scientificName": "Fratercula arctica",
+      "description": "Puffins busy on island colonies, digging burrows and courting, bills brightly coloured for breeding",
+      "habitats": [
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The puffins are digging burrows on the cliffs to lay their eggs. They use their feet like shovels!"
+    },
+    {
+      "id": "ireland_w19_cow_parsley",
+      "species": "Cow Parsley",
+      "scientificName": "Anthriscus sylvestris",
+      "description": "Cow parsley still frothing along lanes, beginning to go over, seed heads forming",
+      "habitats": [
+        "hedgerow",
+        "meadow",
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The white cow parsley is starting to droop and go brown. It's making seeds for next year"
+    },
+    {
+      "id": "ireland_w19_common_blue_damselfly",
+      "species": "Common Blue Damselfly",
+      "scientificName": "Enallagma cyathigerum",
+      "description": "First damselflies appearing over ponds and streams, electric blue bodies flickering over the water",
+      "habitats": [
+        "pond",
+        "stream"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Tiny blue helicopters hover over the pond. They're damselflies and they can fly backwards!"
+    }
+  ],
+  "20": [
+    {
+      "id": "ireland_w20_hawthorn",
+      "species": "Hawthorn",
+      "scientificName": "Crataegus monogyna",
+      "description": "Hawthorn blossom still going strong, petals beginning to fall like confetti on breezy days",
+      "habitats": [
+        "hedgerow",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Walk under the hawthorn and white petals fall like snow. Catch one in your hand!"
+    },
+    {
+      "id": "ireland_w20_foxglove",
+      "species": "Foxglove",
+      "scientificName": "Digitalis purpurea",
+      "description": "Foxgloves at peak, tall purple spikes lining woodland edges and roadside banks",
+      "habitats": [
+        "woodland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The foxgloves are the tallest now. Look at the spotty insides of each purple bell, like a secret map!"
+    },
+    {
+      "id": "ireland_w20_swift",
+      "species": "Swift",
+      "scientificName": "Apus apus",
+      "description": "Swifts at peak, screaming parties over towns in warm evenings, nesting under eaves and in old walls",
+      "habitats": [
+        "urban",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The swifts are zooming and screaming overhead. They fly about 500 miles every single day!"
+    },
+    {
+      "id": "ireland_w20_puffin",
+      "species": "Atlantic Puffin",
+      "scientificName": "Fratercula arctica",
+      "description": "Puffins incubating eggs in burrows on Skellig Michael and Saltee Islands, taking turns sitting",
+      "habitats": [
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The puffins are keeping their single egg warm deep in a burrow. Mum and dad take turns!"
+    },
+    {
+      "id": "ireland_w20_meadow_buttercup",
+      "species": "Meadow Buttercup",
+      "scientificName": "Ranunculus acris",
+      "description": "Buttercups opening in meadows and grasslands, golden yellow flowers shining in the sunshine",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Hold a buttercup under your chin. If it glows yellow, you like butter! (Everyone does!)"
+    },
+    {
+      "id": "ireland_w20_common_blue_damselfly",
+      "species": "Common Blue Damselfly",
+      "scientificName": "Enallagma cyathigerum",
+      "description": "Damselflies more common now, pairs flying in tandem over ponds, brilliant blue bodies catching the light",
+      "habitats": [
+        "pond",
+        "stream"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Blue damselflies fly stuck together making a heart shape with their bodies, how romantic!"
+    }
+  ],
+  "21": [
+    {
+      "id": "ireland_w21_foxglove",
+      "species": "Foxglove",
+      "scientificName": "Digitalis purpurea",
+      "description": "Foxgloves at peak, tall purple spikes standing like sentinels along every bank and woodland edge",
+      "habitats": [
+        "woodland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The foxgloves are the stars of the show! Fat bumblebees crawl deep inside the spotted purple bells"
+    },
+    {
+      "id": "ireland_w21_meadow_buttercup",
+      "species": "Meadow Buttercup",
+      "scientificName": "Ranunculus acris",
+      "description": "Buttercups at peak, meadows and playing fields glowing golden yellow",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The fields are golden with buttercups! Pick one and hold it under your friend's chin"
+    },
+    {
+      "id": "ireland_w21_hawthorn",
+      "species": "Hawthorn",
+      "scientificName": "Crataegus monogyna",
+      "description": "Hawthorn blossom fading, petals falling and small green berries beginning to form",
+      "habitats": [
+        "hedgerow",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The hawthorn flowers are turning into tiny green berries. They'll go red by autumn!"
+    },
+    {
+      "id": "ireland_w21_puffin",
+      "species": "Atlantic Puffin",
+      "scientificName": "Fratercula arctica",
+      "description": "Puffins incubating on island colonies, standing guard at burrow entrances, preening colourful beaks",
+      "habitats": [
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Puffins stand at the door of their burrows looking out to sea like little clown-faced doorkeepers!"
+    },
+    {
+      "id": "ireland_w21_meadowsweet",
+      "species": "Meadowsweet",
+      "scientificName": "Filipendula ulmaria",
+      "description": "Meadowsweet beginning to flower along streams and in damp meadows, frothy cream flower heads appearing",
+      "habitats": [
+        "stream",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Creamy frothy flowers are popping up along the stream. Crush a leaf and it smells like medicine!"
+    },
+    {
+      "id": "ireland_w21_common_spotted_orchid",
+      "species": "Common Spotted Orchid",
+      "scientificName": "Dactylorhiza fuchsii",
+      "description": "Common spotted orchids appearing in meadows, roadsides and even lawns, pink-purple spotted flower spikes",
+      "habitats": [
+        "meadow",
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A real wild orchid growing in the grass! Look at the tiny spotted flowers. Each one is like a little face"
+    }
+  ],
+  "22": [
+    {
+      "id": "ireland_w22_foxglove",
+      "species": "Foxglove",
+      "scientificName": "Digitalis purpurea",
+      "description": "Foxgloves still magnificent, lower flowers fading as upper bells continue to open",
+      "habitats": [
+        "woodland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The bottom foxglove bells are going floppy but new ones keep opening at the top like a tower growing upwards!"
+    },
+    {
+      "id": "ireland_w22_meadowsweet",
+      "species": "Meadowsweet",
+      "scientificName": "Filipendula ulmaria",
+      "description": "Meadowsweet blooming along every stream and ditch, sweet almond-honey scent on warm evenings",
+      "habitats": [
+        "stream",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Creamy frothy flowers along the stream smell like sweet honey and almonds. Breathe in deep!"
+    },
+    {
+      "id": "ireland_w22_fuchsia",
+      "species": "Fuchsia",
+      "scientificName": "Fuchsia magellanica",
+      "description": "Fuchsia hedges beginning to bloom in the west and southwest, magenta and purple flowers dangling like earrings",
+      "habitats": [
+        "hedgerow",
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The fuchsia hedges are growing little dangling pink and purple flowers. They look like fairy earrings!"
+    },
+    {
+      "id": "ireland_w22_common_blue_butterfly",
+      "species": "Common Blue Butterfly",
+      "scientificName": "Polyommatus icarus",
+      "description": "Common blue butterflies appearing in grasslands and meadows, males a vivid blue, females brownish",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A tiny blue butterfly dances over the grass. It's smaller than your thumb but so bright blue!"
+    },
+    {
+      "id": "ireland_w22_bog_cotton",
+      "species": "Bog Cotton",
+      "scientificName": "Eriophorum angustifolium",
+      "description": "Bog cotton dotting blanket bogs and wet hillsides, white fluffy heads bobbing in the breeze",
+      "habitats": [
+        "grassland",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "White fluffy balls bob on the bog like cotton wool stuck on sticks. They're softer than you'd think!"
+    },
+    {
+      "id": "ireland_w22_puffin",
+      "species": "Atlantic Puffin",
+      "scientificName": "Fratercula arctica",
+      "description": "Puffin chicks hatching in burrows, parents beginning fishing trips to bring back sand eels",
+      "habitats": [
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Baby puffins are hatching in their dark burrows! Mum and dad bring them tiny fish to eat"
+    }
+  ],
+  "23": [
+    {
+      "id": "ireland_w23_fuchsia",
+      "species": "Fuchsia",
+      "scientificName": "Fuchsia magellanica",
+      "description": "Fuchsia hedges in full flower across Munster and the west coast, magenta flowers dripping from every branch",
+      "habitats": [
+        "hedgerow",
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The fuchsia hedges are covered in pink and purple dancers. Squeeze a bud gently and it pops open!"
+    },
+    {
+      "id": "ireland_w23_meadowsweet",
+      "species": "Meadowsweet",
+      "scientificName": "Filipendula ulmaria",
+      "description": "Meadowsweet at peak along streams, ditches and damp meadows, the scent intoxicating on still evenings",
+      "habitats": [
+        "stream",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The meadowsweet smells so good by the stream tonight. People used to scatter it on their floors as perfume!"
+    },
+    {
+      "id": "ireland_w23_bog_cotton",
+      "species": "Bog Cotton",
+      "scientificName": "Eriophorum angustifolium",
+      "description": "Bog cotton at peak, blanket bogs appearing snow-covered with thousands of white fluffy seed heads",
+      "habitats": [
+        "grassland",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The bog looks like it's snowing in summer! Thousands of white fluffy balls dance in the wind"
+    },
+    {
+      "id": "ireland_w23_common_blue_butterfly",
+      "species": "Common Blue Butterfly",
+      "scientificName": "Polyommatus icarus",
+      "description": "Common blues widespread in grasslands and sand dunes, fluttering low over wildflowers",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Little blue jewels flutter over the flowers. When they close their wings, they show silvery spots underneath"
+    },
+    {
+      "id": "ireland_w23_puffin",
+      "species": "Atlantic Puffin",
+      "scientificName": "Fratercula arctica",
+      "description": "Puffins busy feeding chicks, flying back with beaks crammed full of sand eels lined up neatly",
+      "habitats": [
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Puffins fly home with beaks full of little fish all lined up. How do they catch more without dropping the first ones?"
+    },
+    {
+      "id": "ireland_w23_common_spotted_orchid",
+      "species": "Common Spotted Orchid",
+      "scientificName": "Dactylorhiza fuchsii",
+      "description": "Common spotted orchids at peak in meadows and roadsides, pink-purple spikes amid the grass",
+      "habitats": [
+        "meadow",
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Wild orchids in the grass! Each tiny flower has spots and stripes like a little butterfly mask"
+    }
+  ],
+  "24": [
+    {
+      "id": "ireland_w24_fuchsia",
+      "species": "Fuchsia",
+      "scientificName": "Fuchsia magellanica",
+      "description": "Fuchsia hedges spectacular in west Cork, Kerry and Connemara, magenta flowers glowing in the summer light",
+      "habitats": [
+        "hedgerow",
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The fuchsia hedges in the west of Ireland are dripping with pink and purple flowers. They're so pretty!"
+    },
+    {
+      "id": "ireland_w24_meadowsweet",
+      "species": "Meadowsweet",
+      "scientificName": "Filipendula ulmaria",
+      "description": "Meadowsweet lining every waterway, creamy flower heads billowing like foam, sweet scent everywhere",
+      "habitats": [
+        "stream",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Every stream and ditch is lined with creamy frothy flowers that smell like honey and marzipan"
+    },
+    {
+      "id": "ireland_w24_bog_cotton",
+      "species": "Bog Cotton",
+      "scientificName": "Eriophorum angustifolium",
+      "description": "Bog cotton still beautiful on blanket bogs, fluffy heads starting to shed on windy days",
+      "habitats": [
+        "grassland",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The bog cotton is starting to blow away. Catch a fluffy bit floating on the breeze!"
+    },
+    {
+      "id": "ireland_w24_puffin",
+      "species": "Atlantic Puffin",
+      "scientificName": "Fratercula arctica",
+      "description": "Puffin chicks growing fast in burrows, parents making constant fishing trips from Skellig and Saltee colonies",
+      "habitats": [
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Baby puffins (called pufflings!) are getting big and fluffy in their dark burrows, eating fish all day"
+    },
+    {
+      "id": "ireland_w24_foxglove",
+      "species": "Foxglove",
+      "scientificName": "Digitalis purpurea",
+      "description": "Foxgloves past peak, lower bells fallen, upper flowers still open, seed pods forming below",
+      "habitats": [
+        "woodland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The foxglove is making seeds now. Shake a dry pod gently and hundreds of tiny seeds fall out like dust!"
+    },
+    {
+      "id": "ireland_w24_hay_meadow",
+      "species": "Hay Meadow Wildflowers",
+      "description": "Traditional hay meadows at peak colour with knapweed, clover, vetch and yellow rattle creating a tapestry",
+      "habitats": [
+        "meadow",
+        "grassland"
+      ],
+      "senses": [
+        "sight",
+        "smell",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The meadow is buzzing with bees and full of every colour: pink, purple, yellow, white! It's a flower party!"
+    }
+  ],
+  "25": [
+    {
+      "id": "ireland_w25_fuchsia",
+      "species": "Fuchsia",
+      "scientificName": "Fuchsia magellanica",
+      "description": "Fuchsia hedges at their most spectacular, a signature sight of the Irish summer west coast landscape",
+      "habitats": [
+        "hedgerow",
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Fuchsia flowers are the jewels of Irish hedges. Each dangling flower is like a tiny ballerina!"
+    },
+    {
+      "id": "ireland_w25_meadowsweet",
+      "species": "Meadowsweet",
+      "scientificName": "Filipendula ulmaria",
+      "description": "Meadowsweet still fragrant along waterways, earliest flower heads turning brown at the edges",
+      "habitats": [
+        "stream",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The meadowsweet is still smelling lovely but some flowers are going brown. Summer is halfway through!"
+    },
+    {
+      "id": "ireland_w25_puffin",
+      "species": "Atlantic Puffin",
+      "scientificName": "Fratercula arctica",
+      "description": "Puffin chicks (pufflings) growing rapidly, parents still ferrying fish back to island burrows",
+      "habitats": [
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The pufflings are getting big. Soon they'll be ready to jump off the cliffs and swim for the first time!"
+    },
+    {
+      "id": "ireland_w25_common_blue_butterfly",
+      "species": "Common Blue Butterfly",
+      "scientificName": "Polyommatus icarus",
+      "description": "Common blues at peak in meadows, coastal grasslands and sand dunes across Ireland",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "So many tiny blue butterflies! They love clover flowers and dance around them all day"
+    },
+    {
+      "id": "ireland_w25_hay_meadow",
+      "species": "Hay Meadow Wildflowers",
+      "description": "Hay meadows still colourful, grasses heavy with seed heads, insects buzzing and chirping",
+      "habitats": [
+        "meadow",
+        "grassland"
+      ],
+      "senses": [
+        "sight",
+        "smell",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Run your hand through the tall grass and feel the feathery seed heads tickle your fingers"
+    },
+    {
+      "id": "ireland_w25_red_clover",
+      "species": "Red Clover",
+      "scientificName": "Trifolium pratense",
+      "description": "Red clover blooming in meadows and field margins, fuzzy pink-purple flower heads visited by bumblebees",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Pull a tiny pink tube from the clover flower head and suck the sweet nectar drop, nature's lollipop!"
+    }
+  ],
+  "26": [
+    {
+      "id": "ireland_w26_fuchsia",
+      "species": "Fuchsia",
+      "scientificName": "Fuchsia magellanica",
+      "description": "Fuchsia hedges still glowing along western lanes, a constant companion to summer walks in Ireland",
+      "habitats": [
+        "hedgerow",
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The fuchsia hedges keep making new flowers all summer, each one dangling like a fairy lantern"
+    },
+    {
+      "id": "ireland_w26_meadow_brown_butterfly",
+      "species": "Meadow Brown Butterfly",
+      "scientificName": "Maniola jurtina",
+      "description": "Meadow brown butterflies abundant in grasslands and along hedgerows, lazy fluttering flight",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Brown butterflies with one eye-spot on each wing flutter lazily through the grass, like little pancakes with eyes!"
+    },
+    {
+      "id": "ireland_w26_puffin",
+      "species": "Atlantic Puffin",
+      "scientificName": "Fratercula arctica",
+      "description": "Pufflings nearly fledged, almost as big as parents, getting ready for their first flight to the ocean",
+      "habitats": [
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The baby puffins are almost ready to leave! Soon they'll waddle to the cliff edge and jump into the sea!"
+    },
+    {
+      "id": "ireland_w26_hogweed",
+      "species": "Hogweed",
+      "scientificName": "Heracleum sphondylium",
+      "description": "Hogweed flowering along lanes and field edges, large flat white flower heads attracting beetles and hoverflies",
+      "habitats": [
+        "hedgerow",
+        "meadow",
+        "grassland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Big flat white flower plates attract all sorts of beetles and flies. It's like a bug restaurant!"
+    },
+    {
+      "id": "ireland_w26_red_clover",
+      "species": "Red Clover",
+      "scientificName": "Trifolium pratense",
+      "description": "Red clover at peak in meadows, bumblebees clinging to fuzzy pink flower heads",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Fat bumblebees cling to the pink clover balls. They're so heavy the whole flower nods down!"
+    },
+    {
+      "id": "ireland_w26_common_blue_butterfly",
+      "species": "Common Blue Butterfly",
+      "scientificName": "Polyommatus icarus",
+      "description": "Common blues still widespread, first generation fading as second generation begins to emerge",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Some blue butterflies look fresh and bright and some look a bit tatty. The new ones are just born!"
+    }
+  ],
+  "27": [
+    {
+      "id": "ireland_w27_fuchsia",
+      "species": "Fuchsia",
+      "scientificName": "Fuchsia magellanica",
+      "description": "Fuchsia hedges at peak, magenta flowers everywhere in the west, berries starting to form on earliest blooms",
+      "habitats": [
+        "hedgerow",
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The fuchsia flowers are making dark purple berries. Did you know you can eat them? They taste a bit peppery!"
+    },
+    {
+      "id": "ireland_w27_meadow_brown_butterfly",
+      "species": "Meadow Brown Butterfly",
+      "scientificName": "Maniola jurtina",
+      "description": "Meadow browns abundant in every meadow and hedgerow margin, the commonest Irish summer butterfly",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Everywhere you walk in the grass, brown butterflies flutter up. Count how many you see in one minute!"
+    },
+    {
+      "id": "ireland_w27_swift",
+      "species": "Swift",
+      "scientificName": "Apus apus",
+      "description": "Swifts still screaming over towns, chicks growing in nests under eaves, parents hunting insects at height",
+      "habitats": [
+        "urban",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The swifts are still screaming overhead. Their babies are hidden in nests under the roof!"
+    },
+    {
+      "id": "ireland_w27_hogweed",
+      "species": "Hogweed",
+      "scientificName": "Heracleum sphondylium",
+      "description": "Hogweed at peak, large platform flowers along every country lane, crawling with insects",
+      "habitats": [
+        "hedgerow",
+        "meadow",
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Look at how many different bugs are sitting on one hogweed flower. It's like a bug airport!"
+    },
+    {
+      "id": "ireland_w27_heather",
+      "species": "Bell Heather",
+      "scientificName": "Erica cinerea",
+      "description": "Bell heather starting to colour hillsides and bogs, deep purple-pink flowers on wiry stems",
+      "habitats": [
+        "grassland",
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The hillside is getting a purple tinge. Bell heather flowers are tiny and shaped like little bells!"
+    },
+    {
+      "id": "ireland_w27_red_squirrel",
+      "species": "Red Squirrel",
+      "scientificName": "Sciurus vulgaris",
+      "description": "Red squirrels active in conifer plantations and native woodlands, summer coat a bright ginger-red",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Bright ginger squirrels with tufty ears scamper through the trees. Ireland still has lots of red squirrels!"
+    }
+  ],
+  "28": [
+    {
+      "id": "ireland_w28_fuchsia",
+      "species": "Fuchsia",
+      "scientificName": "Fuchsia magellanica",
+      "description": "Fuchsia hedges still blooming magnificently, berries swelling on earliest flowers, bees visiting constantly",
+      "habitats": [
+        "hedgerow",
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Fuchsia hedges are still going strong. Watch the bees push inside the dangling flowers for nectar"
+    },
+    {
+      "id": "ireland_w28_meadow_brown_butterfly",
+      "species": "Meadow Brown Butterfly",
+      "scientificName": "Maniola jurtina",
+      "description": "Meadow browns at peak numbers, fluttering through every patch of long grass",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Walk through any long grass and brown butterflies flutter up around your knees, so many of them!"
+    },
+    {
+      "id": "ireland_w28_heather",
+      "species": "Heather",
+      "scientificName": "Calluna vulgaris",
+      "description": "Ling heather and bell heather colouring hillsides and bogland, purple spreading across the landscape",
+      "habitats": [
+        "grassland",
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The hills are turning purple! The tiny heather flowers are opening by the thousand"
+    },
+    {
+      "id": "ireland_w28_hogweed",
+      "species": "Hogweed",
+      "scientificName": "Heracleum sphondylium",
+      "description": "Hogweed going over, flower heads turning brown and curling into seed heads, some still fresh",
+      "habitats": [
+        "hedgerow",
+        "meadow",
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The hogweed flowers are curling up like clenched fists. They're turning into seeds inside"
+    },
+    {
+      "id": "ireland_w28_puffin",
+      "species": "Atlantic Puffin",
+      "scientificName": "Fratercula arctica",
+      "description": "Pufflings fledging from burrows, making their first journey to the sea under cover of darkness",
+      "habitats": [
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The baby puffins sneak out at night and run to the cliff. Then they jump into the dark sea! So brave!"
+    },
+    {
+      "id": "ireland_w28_red_squirrel",
+      "species": "Red Squirrel",
+      "scientificName": "Sciurus vulgaris",
+      "description": "Red squirrels busy in woodlands, young squirrels exploring independently for the first time",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Young red squirrels are out exploring on their own. They're a bit clumsy and very curious!"
+    }
+  ],
+  "29": [
+    {
+      "id": "ireland_w29_heather",
+      "species": "Heather",
+      "scientificName": "Calluna vulgaris",
+      "description": "Heather spreading purple across hillsides and blanket bogs, bees buzzing in the warm summer air",
+      "habitats": [
+        "grassland",
+        "coast"
+      ],
+      "senses": [
+        "sight",
+        "sound",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The hills are turning purple with heather. Listen to all the bees humming as they collect heather honey!"
+    },
+    {
+      "id": "ireland_w29_fuchsia",
+      "species": "Fuchsia",
+      "scientificName": "Fuchsia magellanica",
+      "description": "Fuchsia hedges still flowering, dark purple berries forming alongside fresh magenta blooms",
+      "habitats": [
+        "hedgerow",
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The fuchsia has flowers and berries at the same time. The berries are like tiny dark purple grapes"
+    },
+    {
+      "id": "ireland_w29_blackberry",
+      "species": "Blackberry",
+      "scientificName": "Rubus fruticosus",
+      "description": "First blackberries starting to ripen in sheltered sunny spots, most still green or red",
+      "habitats": [
+        "hedgerow",
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The blackberries are starting! Look for the first black ones in the sunniest spots, but most are still red"
+    },
+    {
+      "id": "ireland_w29_meadow_brown_butterfly",
+      "species": "Meadow Brown Butterfly",
+      "scientificName": "Maniola jurtina",
+      "description": "Meadow browns still common but some looking worn, wings tattered at the edges",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Some meadow browns have tatty wings now. They've been flying all summer and it shows!"
+    },
+    {
+      "id": "ireland_w29_swift",
+      "species": "Swift",
+      "scientificName": "Apus apus",
+      "description": "Swifts still screaming over towns but numbers starting to thin as earliest birds begin departure",
+      "habitats": [
+        "urban",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Some swifts are already heading back to Africa. Enjoy watching them while they're still here!"
+    },
+    {
+      "id": "ireland_w29_red_squirrel",
+      "species": "Red Squirrel",
+      "scientificName": "Sciurus vulgaris",
+      "description": "Red squirrels beginning to cache food for autumn, busy collecting hazelnuts and pine cones",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The red squirrels are being extra busy. They're hiding nuts everywhere for when winter comes!"
+    }
+  ],
+  "30": [
+    {
+      "id": "ireland_w30_heather",
+      "species": "Heather",
+      "scientificName": "Calluna vulgaris",
+      "description": "Heather at peak, hillsides and bogs a blaze of purple, the air humming with bees making heather honey",
+      "habitats": [
+        "grassland",
+        "coast"
+      ],
+      "senses": [
+        "sight",
+        "sound",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The purple hills are buzzing! Thousands of bees are making the most delicious dark heather honey"
+    },
+    {
+      "id": "ireland_w30_blackberry",
+      "species": "Blackberry",
+      "scientificName": "Rubus fruticosus",
+      "description": "Blackberries ripening in hedgerows, first properly juicy dark fruits ready to pick on south-facing banks",
+      "habitats": [
+        "hedgerow",
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "touch",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The first black ones are ready! Pick the darkest fattest berries and your fingers go purple"
+    },
+    {
+      "id": "ireland_w30_fuchsia",
+      "species": "Fuchsia",
+      "scientificName": "Fuchsia magellanica",
+      "description": "Fuchsia hedges still flowering along western lanes, berries ripening alongside new blooms",
+      "habitats": [
+        "hedgerow",
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The fuchsia keeps making flowers and berries together. It just doesn't know when to stop!"
+    },
+    {
+      "id": "ireland_w30_swift",
+      "species": "Swift",
+      "scientificName": "Apus apus",
+      "description": "Swifts departing, screaming parties getting smaller over towns as birds head south to Africa",
+      "habitats": [
+        "urban",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The swifts are leaving! Wave goodbye. They won't land until they get all the way to Africa"
+    },
+    {
+      "id": "ireland_w30_rowan",
+      "species": "Rowan",
+      "scientificName": "Sorbus aucuparia",
+      "description": "Rowan berries turning orange, heavy clusters bending branches in hedgerows and mountainsides",
+      "habitats": [
+        "hedgerow",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The rowan tree is covered in bunches of orange berries. Birds will go crazy for them soon!"
+    },
+    {
+      "id": "ireland_w30_painted_lady",
+      "species": "Painted Lady Butterfly",
+      "scientificName": "Vanessa cardui",
+      "description": "Painted lady butterflies arriving from the continent in variable numbers, feeding on thistles and knapweed",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "An orange and black butterfly flew here from Africa! It's a painted lady and she loves thistle flowers"
+    }
+  ],
+  "31": [
+    {
+      "id": "ireland_w31_heather",
+      "species": "Heather",
+      "scientificName": "Calluna vulgaris",
+      "description": "Heather at peak on uplands and bogs, the characteristic purple August landscape of Ireland",
+      "habitats": [
+        "grassland",
+        "coast"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "August is heather time! The hills are like a purple blanket spread across the land"
+    },
+    {
+      "id": "ireland_w31_blackberry",
+      "species": "Blackberry",
+      "scientificName": "Rubus fruticosus",
+      "description": "Blackberries ripening fast in the summer heat, hedgerows heavy with dark juicy fruit",
+      "habitats": [
+        "hedgerow",
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "touch",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Blackberry picking time! The fattest juiciest ones are at the top where nobody can reach, typical!"
+    },
+    {
+      "id": "ireland_w31_rowan",
+      "species": "Rowan",
+      "scientificName": "Sorbus aucuparia",
+      "description": "Rowan berries bright orange-red, heavy clusters drooping on branches, birds starting to feed",
+      "habitats": [
+        "hedgerow",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The rowan berries are bright orange now. Blackbirds and thrushes are starting to feast!"
+    },
+    {
+      "id": "ireland_w31_fuchsia",
+      "species": "Fuchsia",
+      "scientificName": "Fuchsia magellanica",
+      "description": "Fuchsia hedges still flowering in the west, though peak is passing, berries abundant",
+      "habitats": [
+        "hedgerow",
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The fuchsia flowers are slowing down but the berries are getting bigger and darker"
+    },
+    {
+      "id": "ireland_w31_meadow_brown_butterfly",
+      "species": "Meadow Brown Butterfly",
+      "scientificName": "Maniola jurtina",
+      "description": "Meadow browns still flying but looking increasingly worn, late-season individuals still fresh",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The meadow browns are getting a bit ragged now. They've had a busy summer of flying!"
+    },
+    {
+      "id": "ireland_w31_red_squirrel",
+      "species": "Red Squirrel",
+      "scientificName": "Sciurus vulgaris",
+      "description": "Red squirrels busy collecting and caching hazelnuts, active in the canopy and on the ground",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The red squirrels are stuffing their cheeks with hazelnuts and burying them for winter. Will they remember where?"
+    }
+  ],
+  "32": [
+    {
+      "id": "ireland_w32_heather",
+      "species": "Heather",
+      "scientificName": "Calluna vulgaris",
+      "description": "Heather still magnificent on hills and bogs, bees still busy making the last of the heather honey",
+      "habitats": [
+        "grassland",
+        "coast"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Purple heather still covers the hills. The bees are working hard to make one last batch of honey!"
+    },
+    {
+      "id": "ireland_w32_blackberry",
+      "species": "Blackberry",
+      "scientificName": "Rubus fruticosus",
+      "description": "Blackberries at peak, every hedgerow dripping with ripe dark fruit, an August tradition",
+      "habitats": [
+        "hedgerow",
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "touch",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "It's the best time for blackberries! Grab a bucket and pick as many as you can. Watch out for thorns!"
+    },
+    {
+      "id": "ireland_w32_rowan",
+      "species": "Rowan",
+      "scientificName": "Sorbus aucuparia",
+      "description": "Rowan berries brilliant scarlet, birds feeding heavily, berries beginning to disappear",
+      "habitats": [
+        "hedgerow",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The rowan berries are traffic-light red! Blackbirds are gobbling them up as fast as they can"
+    },
+    {
+      "id": "ireland_w32_swallow",
+      "species": "Swallow",
+      "scientificName": "Hirundo rustica",
+      "description": "Swallows still feeding young, second broods fledging, gathering in growing flocks on wires",
+      "habitats": [
+        "grassland",
+        "meadow",
+        "stream",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Baby swallows are sitting on the wires begging mum and dad for food. Their mouths are so wide open!"
+    },
+    {
+      "id": "ireland_w32_red_admiral",
+      "species": "Red Admiral Butterfly",
+      "scientificName": "Vanessa atalanta",
+      "description": "Red admiral butterflies feeding on bramble flowers and ripe blackberries, black wings with red bands",
+      "habitats": [
+        "hedgerow",
+        "garden",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A beautiful black butterfly with red stripes sits on the blackberries drinking the juice. It's a red admiral!"
+    },
+    {
+      "id": "ireland_w32_ragwort",
+      "species": "Ragwort",
+      "scientificName": "Jacobaea vulgaris",
+      "description": "Ragwort in flower along roadsides and waste ground, visited by cinnabar moth caterpillars with yellow and black stripes",
+      "habitats": [
+        "grassland",
+        "meadow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Yellow ragwort flowers have amazing stripy caterpillars, black and gold like tiny tigers munching the leaves!"
+    }
+  ],
+  "33": [
+    {
+      "id": "ireland_w33_heather",
+      "species": "Heather",
+      "scientificName": "Calluna vulgaris",
+      "description": "Heather past peak, purple fading to brown on the earliest flowers, still beautiful on sheltered slopes",
+      "habitats": [
+        "grassland",
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The heather is going brown in places but there's still purple on the sheltered slopes"
+    },
+    {
+      "id": "ireland_w33_blackberry",
+      "species": "Blackberry",
+      "scientificName": "Rubus fruticosus",
+      "description": "Blackberries still abundant, later ripening berries on shaded branches, some going mouldy on warm days",
+      "habitats": [
+        "hedgerow",
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Still loads of blackberries. The ones hiding in the shade are just getting ripe now!"
+    },
+    {
+      "id": "ireland_w33_swallow",
+      "species": "Swallow",
+      "scientificName": "Hirundo rustica",
+      "description": "Swallows gathering on telephone wires in growing flocks, preparing for the long migration south",
+      "habitats": [
+        "grassland",
+        "meadow",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The swallows are lining up on the wires like musical notes. They're planning their big trip to Africa!"
+    },
+    {
+      "id": "ireland_w33_red_admiral",
+      "species": "Red Admiral Butterfly",
+      "scientificName": "Vanessa atalanta",
+      "description": "Red admirals frequent in gardens, feeding on fallen fruit and late flowers, sunbathing on warm walls",
+      "habitats": [
+        "garden",
+        "hedgerow",
+        "urban",
+        "wall_fence"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Red admirals love rotten apples. Look for them sitting on the ground with their wings spread open, sunbathing!"
+    },
+    {
+      "id": "ireland_w33_rowan",
+      "species": "Rowan",
+      "scientificName": "Sorbus aucuparia",
+      "description": "Rowan berries being stripped by birds, some trees already bare, mistle thrushes defending laden trees",
+      "habitats": [
+        "hedgerow",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The birds have eaten most of the rowan berries already! One angry thrush guards the last ones"
+    },
+    {
+      "id": "ireland_w33_red_squirrel",
+      "species": "Red Squirrel",
+      "scientificName": "Sciurus vulgaris",
+      "description": "Red squirrels frantically caching hazelnuts and acorns for winter stores",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The red squirrels are so busy, running up and down burying nuts. They'll need them when it gets cold!"
+    }
+  ],
+  "34": [
+    {
+      "id": "ireland_w34_blackberry",
+      "species": "Blackberry",
+      "scientificName": "Rubus fruticosus",
+      "description": "Blackberries still ripening but the season is waning, last good picking before they go seedy",
+      "habitats": [
+        "hedgerow",
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Last chance for blackberries! Old tradition says not to pick them after September. The devil spits on them!"
+    },
+    {
+      "id": "ireland_w34_swallow",
+      "species": "Swallow",
+      "scientificName": "Hirundo rustica",
+      "description": "Swallow flocks growing, staging along wires and over reed beds before the journey to Africa",
+      "habitats": [
+        "grassland",
+        "meadow",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Hundreds of swallows sit on the wires chattering. They're getting ready for a 6000 mile flight!"
+    },
+    {
+      "id": "ireland_w34_red_admiral",
+      "species": "Red Admiral Butterfly",
+      "scientificName": "Vanessa atalanta",
+      "description": "Red admirals feeding up on fallen fruit and ivy flowers, storing energy for migration or overwintering",
+      "habitats": [
+        "garden",
+        "hedgerow",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Red admirals are eating as much as they can. Rotten plums are their favourite! They need energy for winter"
+    },
+    {
+      "id": "ireland_w34_heather",
+      "species": "Heather",
+      "scientificName": "Calluna vulgaris",
+      "description": "Heather fading to russet brown, seed heads forming, the purple season drawing to a close",
+      "habitats": [
+        "grassland",
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The purple heather is going brown and rusty. It held its colour for most of August!"
+    },
+    {
+      "id": "ireland_w34_elder_berries",
+      "species": "Elder",
+      "scientificName": "Sambucus nigra",
+      "description": "Elder berries ripening in hedgerows, heavy clusters turning from green to dark purple-black",
+      "habitats": [
+        "hedgerow",
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The elder tree's berries are going dark purple. Birds love them and people make them into cordial!"
+    },
+    {
+      "id": "ireland_w34_conker",
+      "species": "Horse Chestnut",
+      "scientificName": "Aesculus hippocastanum",
+      "description": "Horse chestnuts ripening, prickly green cases starting to split open, conkers just visible inside",
+      "habitats": [
+        "urban",
+        "playing_field",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Look up at the horse chestnut. The prickly green balls are getting fat and starting to crack open!"
+    }
+  ],
+  "35": [
+    {
+      "id": "ireland_w35_blackberry",
+      "species": "Blackberry",
+      "scientificName": "Rubus fruticosus",
+      "description": "Last blackberries fading, many going mouldy, an Irish tradition says they shouldn't be picked past the end of September",
+      "habitats": [
+        "hedgerow",
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The blackberries are going soft and mouldy now. The season is ending, but what a feast it was!"
+    },
+    {
+      "id": "ireland_w35_swallow",
+      "species": "Swallow",
+      "scientificName": "Hirundo rustica",
+      "description": "Swallows beginning to depart, large flocks still visible over lakes and reed beds in the evenings",
+      "habitats": [
+        "grassland",
+        "meadow",
+        "stream"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Some swallows have already left for Africa. Wave goodbye and wish them a safe flight!"
+    },
+    {
+      "id": "ireland_w35_conker",
+      "species": "Horse Chestnut",
+      "scientificName": "Aesculus hippocastanum",
+      "description": "Conkers starting to fall, prickly cases splitting to reveal glossy brown seeds",
+      "habitats": [
+        "urban",
+        "playing_field",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The first conkers are falling! Crack open a prickly case and find the beautiful shiny brown treasure inside"
+    },
+    {
+      "id": "ireland_w35_elder_berries",
+      "species": "Elder",
+      "scientificName": "Sambucus nigra",
+      "description": "Elder berries ripe and heavy, dark purple-black clusters drooping on red stems",
+      "habitats": [
+        "hedgerow",
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Elderberries are ripe and so dark they're almost black. Birds love them and they stain your fingers purple!"
+    },
+    {
+      "id": "ireland_w35_ivy",
+      "species": "Ivy",
+      "scientificName": "Hedera helix",
+      "description": "Ivy flower buds forming, the round green clusters about to open, vital late food for insects",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden",
+        "wall_fence"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Little green balls are forming on the ivy. They'll open into flowers that feed bees and butterflies in autumn!"
+    },
+    {
+      "id": "ireland_w35_red_admiral",
+      "species": "Red Admiral Butterfly",
+      "scientificName": "Vanessa atalanta",
+      "description": "Red admirals still active, feeding on windfall fruit in gardens and warm sheltered spots",
+      "habitats": [
+        "garden",
+        "hedgerow",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Red admirals are sunbathing on warm walls. They spread their dark wings wide to soak up the last heat"
+    }
+  ],
+  "36": [
+    {
+      "id": "ireland_w36_conker",
+      "species": "Horse Chestnut",
+      "scientificName": "Aesculus hippocastanum",
+      "description": "Conkers falling in parks and playing fields, prickly cases cracking open on impact",
+      "habitats": [
+        "urban",
+        "playing_field",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Conker season! Stamp on the prickly green shells to find the beautiful shiny brown conker inside"
+    },
+    {
+      "id": "ireland_w36_swallow",
+      "species": "Swallow",
+      "scientificName": "Hirundo rustica",
+      "description": "Last swallows departing Ireland, stragglers still swooping over fields and water",
+      "habitats": [
+        "grassland",
+        "meadow",
+        "stream"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The very last swallows are leaving. They'll fly all the way to South Africa! See you next spring!"
+    },
+    {
+      "id": "ireland_w36_ivy",
+      "species": "Ivy",
+      "scientificName": "Hedera helix",
+      "description": "Ivy flowers opening, pale green blooms buzzing with bees, wasps and hoverflies, a vital autumn nectar source",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden",
+        "wall_fence"
+      ],
+      "senses": [
+        "sight",
+        "sound",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The ivy is flowering and buzzing with bees! When other flowers are gone, ivy keeps the bees fed"
+    },
+    {
+      "id": "ireland_w36_fungi",
+      "species": "Autumn Fungi",
+      "description": "First autumn fungi appearing: fly agaric, puffballs and field mushrooms popping up after rain",
+      "habitats": [
+        "woodland",
+        "grassland",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Mushrooms are popping up overnight like magic! The red spotty ones are fly agaric, beautiful but don't touch!"
+    },
+    {
+      "id": "ireland_w36_red_squirrel",
+      "species": "Red Squirrel",
+      "scientificName": "Sciurus vulgaris",
+      "description": "Red squirrels in a frenzy of food caching, burying hazelnuts and acorns across the woodland floor",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The red squirrels are running around like crazy hiding food. They bury hundreds of nuts but forget where some are!"
+    },
+    {
+      "id": "ireland_w36_elder_berries",
+      "species": "Elder",
+      "scientificName": "Sambucus nigra",
+      "description": "Elder berries fully ripe, birds stripping the clusters, stems left bare and red",
+      "habitats": [
+        "hedgerow",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The birds have eaten most of the elderberries. Just the empty red stems are left dangling!"
+    }
+  ],
+  "37": [
+    {
+      "id": "ireland_w37_conker",
+      "species": "Horse Chestnut",
+      "scientificName": "Aesculus hippocastanum",
+      "description": "Conkers at peak, falling thickly in parks, kids collecting the shiniest specimens",
+      "habitats": [
+        "urban",
+        "playing_field",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Conkers everywhere! The shiniest ones feel so smooth and cool in your hand. Who has the biggest?"
+    },
+    {
+      "id": "ireland_w37_ivy",
+      "species": "Ivy",
+      "scientificName": "Hedera helix",
+      "description": "Ivy flowers in full bloom, covered in feeding insects, the most important late-season nectar source in Ireland",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden",
+        "wall_fence"
+      ],
+      "senses": [
+        "sight",
+        "sound",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Ivy flowers smell sweet and sticky. Watch all the different insects having their autumn feast!"
+    },
+    {
+      "id": "ireland_w37_fungi",
+      "species": "Autumn Fungi",
+      "description": "Fungi season building, bracket fungi on trees, fairy rings in grass, puffballs in meadows",
+      "habitats": [
+        "woodland",
+        "grassland",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "More mushrooms appearing every day. Look for fairy rings in the grass, perfect circles of toadstools!"
+    },
+    {
+      "id": "ireland_w37_robin",
+      "species": "Robin",
+      "scientificName": "Erithacus rubecula",
+      "description": "Robins starting autumn territorial singing, the familiar thin sweet song returning after summer silence",
+      "habitats": [
+        "garden",
+        "woodland",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The robin is singing again after being quiet all summer! Its sweet thin song says \"this is my garden!\""
+    },
+    {
+      "id": "ireland_w37_autumn_colour",
+      "species": "Autumn Leaf Colour",
+      "description": "First hints of autumn colour in the canopy, birches turning yellow, wild cherry going orange-red",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The trees are starting to change. Some leaves are going yellow and gold like nature is painting them!"
+    },
+    {
+      "id": "ireland_w37_red_squirrel",
+      "species": "Red Squirrel",
+      "scientificName": "Sciurus vulgaris",
+      "description": "Red squirrels active from dawn, collecting the autumn nut harvest with urgency",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Red squirrels dash about stuffing acorns and hazelnuts into hiding spots. They forget about a quarter of them!"
+    }
+  ],
+  "38": [
+    {
+      "id": "ireland_w38_autumn_colour",
+      "species": "Autumn Leaf Colour",
+      "description": "Autumn colour building in woodlands and hedgerows, beech going copper, oak turning brown, sycamore yellow",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The trees are on fire with colour, gold, orange, red, brown! How many different colours can you count?"
+    },
+    {
+      "id": "ireland_w38_conker",
+      "species": "Horse Chestnut",
+      "scientificName": "Aesculus hippocastanum",
+      "description": "Last conkers falling, leaves of horse chestnut already browning and curling",
+      "habitats": [
+        "urban",
+        "playing_field",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The last conkers are falling. Get them quick before they lose their shine and go dull!"
+    },
+    {
+      "id": "ireland_w38_fungi",
+      "species": "Autumn Fungi",
+      "description": "Fungi at peak, woodland floors dotted with many species: chanterelles, boletes, waxcaps in old grassland",
+      "habitats": [
+        "woodland",
+        "grassland",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The woodland floor is a mushroom gallery, every shape, colour and size! Look but don't pick"
+    },
+    {
+      "id": "ireland_w38_ivy",
+      "species": "Ivy",
+      "scientificName": "Hedera helix",
+      "description": "Ivy flowers still going strong, one of the last nectar sources keeping bees and butterflies going",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden",
+        "wall_fence"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The ivy flowers are the last restaurant open for bees. They're so grateful for the sweet nectar!"
+    },
+    {
+      "id": "ireland_w38_robin",
+      "species": "Robin",
+      "scientificName": "Erithacus rubecula",
+      "description": "Robins in full autumn song, fighting for winter territories, their thin sweet tune carrying in the cool air",
+      "habitats": [
+        "garden",
+        "woodland",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Robins are singing so much now. Each one is saying \"this bit of the garden is mine!\""
+    },
+    {
+      "id": "ireland_w38_fieldfare",
+      "species": "Fieldfare",
+      "scientificName": "Turdus pilaris",
+      "description": "First fieldfares arriving from Scandinavia, chattering flocks settling into hawthorn hedgerows",
+      "habitats": [
+        "hedgerow",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "New birds have arrived from the frozen north! Fieldfares come to Ireland for our mild winter, smart!"
+    }
+  ],
+  "39": [
+    {
+      "id": "ireland_w39_autumn_colour",
+      "species": "Autumn Leaf Colour",
+      "description": "Peak autumn colour in many woodlands, though Atlantic gales may strip leaves early in exposed areas",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The trees are at their most colourful! But a big storm could blow the leaves off. Enjoy them quick!"
+    },
+    {
+      "id": "ireland_w39_fungi",
+      "species": "Autumn Fungi",
+      "description": "Fungi peak continuing, fly agaric under birch trees, giant puffballs in meadows, waxcaps in old grassland",
+      "habitats": [
+        "woodland",
+        "grassland",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Kick a giant puffball gently and watch the cloud of brown spores puff out like smoke. Each spore could grow a new one!"
+    },
+    {
+      "id": "ireland_w39_fieldfare",
+      "species": "Fieldfare",
+      "scientificName": "Turdus pilaris",
+      "description": "Fieldfare flocks building in hedgerows and fields, chattering as they strip hawthorn berries",
+      "habitats": [
+        "hedgerow",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Noisy flocks of fieldfares are gobbling red hawthorn berries. They sound like they're arguing over the best ones!"
+    },
+    {
+      "id": "ireland_w39_ivy",
+      "species": "Ivy",
+      "scientificName": "Hedera helix",
+      "description": "Ivy flowers fading, small green berries beginning to form, still attracting late insects on warm days",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden",
+        "wall_fence"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The ivy flowers are turning into tiny green berries. They'll go black later and feed the birds in winter"
+    },
+    {
+      "id": "ireland_w39_robin",
+      "species": "Robin",
+      "scientificName": "Erithacus rubecula",
+      "description": "Robins conspicuous on bare branches, singing their winter song, following gardeners for worms",
+      "habitats": [
+        "garden",
+        "woodland",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The robin follows you when you dig the garden. It watches for worms and hops closer and closer!"
+    },
+    {
+      "id": "ireland_w39_red_squirrel",
+      "species": "Red Squirrel",
+      "scientificName": "Sciurus vulgaris",
+      "description": "Red squirrels making final caches before winter, fur thickening and ear tufts growing longer",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The red squirrels are getting their winter coats. Their ear tufts are growing longer and fluffier!"
+    }
+  ],
+  "40": [
+    {
+      "id": "ireland_w40_autumn_colour",
+      "species": "Autumn Leaf Colour",
+      "description": "Autumn colour fading, many trees bare after Atlantic storms, oaks still holding their brown leaves",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The wind is shaking the coloured leaves off. Run through the falling leaves and try to catch one!"
+    },
+    {
+      "id": "ireland_w40_fungi",
+      "species": "Autumn Fungi",
+      "description": "Fungi still abundant after autumn rain, bracket fungi on trees lasting all season, woodland floor dotted with toadstools",
+      "habitats": [
+        "woodland",
+        "grassland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "New mushrooms pop up after every rain. Some look like shelves on trees, they're called bracket fungi!"
+    },
+    {
+      "id": "ireland_w40_fieldfare",
+      "species": "Fieldfare",
+      "scientificName": "Turdus pilaris",
+      "description": "Fieldfares widespread in hedgerows and farmland, large chattering flocks moving through the landscape",
+      "habitats": [
+        "hedgerow",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Big flocks of fieldfares move noisily through the hedges. When the berries run out they'll hop into the fields"
+    },
+    {
+      "id": "ireland_w40_robin",
+      "species": "Robin",
+      "scientificName": "Erithacus rubecula",
+      "description": "Robins very conspicuous on bare branches, red breast bright against the grey autumn sky",
+      "habitats": [
+        "garden",
+        "woodland",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "With the leaves falling, the robin's red breast is easy to spot. It stands out like a little torch!"
+    },
+    {
+      "id": "ireland_w40_starling",
+      "species": "Starling",
+      "scientificName": "Sturnus vulgaris",
+      "description": "Starling flocks building, evening murmurations starting to form over reed beds and towns",
+      "habitats": [
+        "urban",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Hundreds of starlings swirl together at sunset like a living cloud. It's called a murmuration!"
+    },
+    {
+      "id": "ireland_w40_holly",
+      "species": "Holly",
+      "scientificName": "Ilex aquifolium",
+      "description": "Holly berries turning red on female trees, the prickly dark green leaves standing out as other trees go bare",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Red holly berries are appearing! The prickly leaves protect them but birds still manage to eat them"
+    }
+  ],
+  "41": [
+    {
+      "id": "ireland_w41_starling",
+      "species": "Starling",
+      "scientificName": "Sturnus vulgaris",
+      "description": "Starling murmurations growing, thousands of birds creating spectacular aerial displays at dusk",
+      "habitats": [
+        "urban",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The starling cloud gets bigger every evening, they swirl and swoop together before going to sleep!"
+    },
+    {
+      "id": "ireland_w41_fungi",
+      "species": "Autumn Fungi",
+      "description": "Late fungi still appearing, honey fungus glowing at tree bases, waxcaps in old grassland after rain",
+      "habitats": [
+        "woodland",
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Look for golden honey mushrooms at the bottom of trees. They grow in big bunches after the rain"
+    },
+    {
+      "id": "ireland_w41_fieldfare",
+      "species": "Fieldfare",
+      "scientificName": "Turdus pilaris",
+      "description": "Fieldfares feeding in fields and hedgerows, more birds still arriving from Scandinavia and Iceland",
+      "habitats": [
+        "hedgerow",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "More winter visitors are arriving. The fieldfares came from Iceland where it's already freezing cold!"
+    },
+    {
+      "id": "ireland_w41_robin",
+      "species": "Robin",
+      "scientificName": "Erithacus rubecula",
+      "description": "Robins singing their thin sweet winter song, one of the few birds still in voice",
+      "habitats": [
+        "garden",
+        "woodland",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Most birds have stopped singing but the brave robin carries on. Its thin sweet song fills the quiet garden"
+    },
+    {
+      "id": "ireland_w41_holly",
+      "species": "Holly",
+      "scientificName": "Ilex aquifolium",
+      "description": "Holly berries bright red, standing out against dark green leaves in bare hedgerows",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Red holly berries and dark prickly leaves look like Christmas decorations growing wild in the hedge!"
+    },
+    {
+      "id": "ireland_w41_redwing",
+      "species": "Redwing",
+      "scientificName": "Turdus iliacus",
+      "description": "Redwings arriving from Iceland and Scandinavia, feeding in hedgerows with fieldfares, cream eyestripe visible",
+      "habitats": [
+        "hedgerow",
+        "grassland",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A new thrush with a cream stripe over its eye and red under its wing. Redwings come from the frozen north!"
+    }
+  ],
+  "42": [
+    {
+      "id": "ireland_w42_starling",
+      "species": "Starling",
+      "scientificName": "Sturnus vulgaris",
+      "description": "Starling murmurations spectacular, huge flocks creating living sculptures in the evening sky",
+      "habitats": [
+        "urban",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The starling show at sunset is amazing, thousands of birds flowing like a river in the sky!"
+    },
+    {
+      "id": "ireland_w42_fieldfare",
+      "species": "Fieldfare",
+      "scientificName": "Turdus pilaris",
+      "description": "Fieldfares settled into Irish hedgerows for winter, chattering flocks stripping berries systematically",
+      "habitats": [
+        "hedgerow",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The fieldfares work through the hedge eating every berry, one bush at a time, like going down a buffet!"
+    },
+    {
+      "id": "ireland_w42_redwing",
+      "species": "Redwing",
+      "scientificName": "Turdus iliacus",
+      "description": "Redwings widespread now, feeding on berries by day, their thin \"tseep\" call heard overhead on clear nights as more arrive",
+      "habitats": [
+        "hedgerow",
+        "grassland",
+        "woodland"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Go outside on a clear night and listen. You might hear thin \"tseep\" calls as redwings fly over in the dark!"
+    },
+    {
+      "id": "ireland_w42_robin",
+      "species": "Robin",
+      "scientificName": "Erithacus rubecula",
+      "description": "Robins ever-present, singing from garden walls and bare branches, the soundtrack of Irish autumn",
+      "habitats": [
+        "garden",
+        "woodland",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The robin sits on the garden wall singing its gentle song. It's one of the friendliest birds in Ireland"
+    },
+    {
+      "id": "ireland_w42_holly",
+      "species": "Holly",
+      "scientificName": "Ilex aquifolium",
+      "description": "Holly berries bright red, thrushes and blackbirds starting to feed on them in earnest",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The birds are starting to eat the holly berries. Will there be any left for Christmas decorations?"
+    },
+    {
+      "id": "ireland_w42_wren",
+      "species": "Wren",
+      "scientificName": "Troglodytes troglodytes",
+      "description": "Wrens active in hedges and stone walls, tiny brown birds with an explosively loud song for their size",
+      "habitats": [
+        "hedgerow",
+        "garden",
+        "wall_fence",
+        "woodland"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The tiny wren is Ireland's favourite bird. It's smaller than your fist but sings so loud! Incredible!"
+    }
+  ],
+  "43": [
+    {
+      "id": "ireland_w43_starling",
+      "species": "Starling",
+      "scientificName": "Sturnus vulgaris",
+      "description": "Starling murmurations at peak, some of Ireland's best displays over Shannon and Lough Ennell",
+      "habitats": [
+        "urban",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The starling murmurations are the best show in Ireland, millions of birds dancing across the sky!"
+    },
+    {
+      "id": "ireland_w43_wren",
+      "species": "Wren",
+      "scientificName": "Troglodytes troglodytes",
+      "description": "Wrens busy in stone walls and hedges, searching for spiders and insects, cocking their tiny tails",
+      "habitats": [
+        "hedgerow",
+        "garden",
+        "wall_fence",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Watch the tiny wren dart in and out of the stone wall. It holds its tail straight up like a little flag!"
+    },
+    {
+      "id": "ireland_w43_redwing",
+      "species": "Redwing",
+      "scientificName": "Turdus iliacus",
+      "description": "Redwings feeding in hedgerows and on playing fields, often with fieldfares, hopping through short grass",
+      "habitats": [
+        "hedgerow",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Redwings and fieldfares feed together on the playing field. The redwings are smaller with a stripe over their eye"
+    },
+    {
+      "id": "ireland_w43_robin",
+      "species": "Robin",
+      "scientificName": "Erithacus rubecula",
+      "description": "Robins bold and visible, following gardeners closely, singing from dawn to dusk",
+      "habitats": [
+        "garden",
+        "woodland",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The robin hops right up to you in the garden. It's hoping you'll turn over a leaf so it can grab a worm!"
+    },
+    {
+      "id": "ireland_w43_fungi",
+      "species": "Late Autumn Fungi",
+      "description": "Late fungi still appearing after rain, velvet shank on dead wood, clouded funnel in leaf litter",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Even in late autumn, new mushrooms pop up after rain. They help the forest recycle dead leaves"
+    },
+    {
+      "id": "ireland_w43_holly",
+      "species": "Holly",
+      "scientificName": "Ilex aquifolium",
+      "description": "Holly berries still red and shining, an important food source as other berries run out",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Holly berries glow red in the bare hedge. They're a lifeline for hungry birds when everything else is eaten"
+    }
+  ],
+  "44": [
+    {
+      "id": "ireland_w44_starling",
+      "species": "Starling",
+      "scientificName": "Sturnus vulgaris",
+      "description": "Starling murmurations still spectacular as days shorten, swirling clouds against orange sunset skies",
+      "habitats": [
+        "urban",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The starlings dance in the sunset sky. They make shapes like waves, tornadoes and giant whales!"
+    },
+    {
+      "id": "ireland_w44_wren",
+      "species": "Wren",
+      "scientificName": "Troglodytes troglodytes",
+      "description": "Wrens looking for warm roost sites as nights get cold, sometimes huddling together in nest boxes",
+      "habitats": [
+        "hedgerow",
+        "garden",
+        "wall_fence",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "On cold nights, wrens cuddle together for warmth. Once 63 wrens were found in one nest box!"
+    },
+    {
+      "id": "ireland_w44_fieldfare",
+      "species": "Fieldfare",
+      "scientificName": "Turdus pilaris",
+      "description": "Fieldfares in fields and hedgerows, moving to open ground when hedgerow berries run out",
+      "habitats": [
+        "hedgerow",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The fieldfares have eaten all the hedge berries so now they're hunting for worms in the fields!"
+    },
+    {
+      "id": "ireland_w44_robin",
+      "species": "Robin",
+      "scientificName": "Erithacus rubecula",
+      "description": "Robins singing from fence posts and bare branches, their sweet warble one of the few bird songs now",
+      "habitats": [
+        "garden",
+        "woodland",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "In the quiet of late autumn, the robin's song sounds even more beautiful, like a tiny jewel of sound"
+    },
+    {
+      "id": "ireland_w44_holly",
+      "species": "Holly",
+      "scientificName": "Ilex aquifolium",
+      "description": "Holly berries and leaves prominent as other plants die back, ready for traditional Christmas gathering",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Holly is one of the only green things left! Red berries and prickly leaves, getting ready for Christmas"
+    },
+    {
+      "id": "ireland_w44_redwing",
+      "species": "Redwing",
+      "scientificName": "Turdus iliacus",
+      "description": "Redwings widespread, feeding on berries and worms, their thin calls heard on still autumn nights",
+      "habitats": [
+        "hedgerow",
+        "grassland",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Redwings hop across the grass turning over leaves. Flash! You see the orange-red under their wings"
+    }
+  ],
+  "45": [
+    {
+      "id": "ireland_w45_starling",
+      "species": "Starling",
+      "scientificName": "Sturnus vulgaris",
+      "description": "Starling murmurations continuing through November, flocks roosting in reeds, under bridges and in trees",
+      "habitats": [
+        "urban",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The starling dance goes on! At sunset, find a murmuration and watch the sky come alive"
+    },
+    {
+      "id": "ireland_w45_wren",
+      "species": "Wren",
+      "scientificName": "Troglodytes troglodytes",
+      "description": "Wrens flitting through hedges and stone walls, Ireland's most loved small bird, the subject of Wren Day on St Stephen's",
+      "habitats": [
+        "hedgerow",
+        "garden",
+        "wall_fence",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The tiny wren is Ireland's favourite bird. On St Stephen's Day people dress up and go 'hunting the wren'!"
+    },
+    {
+      "id": "ireland_w45_robin",
+      "species": "Robin",
+      "scientificName": "Erithacus rubecula",
+      "description": "Robins conspicuous in bare gardens, the Christmas robin of cards and stories",
+      "habitats": [
+        "garden",
+        "woodland",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The robin on the Christmas card is real! It sits in your garden singing even when it's cold and grey"
+    },
+    {
+      "id": "ireland_w45_fieldfare",
+      "species": "Fieldfare",
+      "scientificName": "Turdus pilaris",
+      "description": "Fieldfares feeding in fields and pastures, often with redwings, moving to new areas when food runs out",
+      "habitats": [
+        "grassland",
+        "hedgerow",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Fieldfares and redwings travel together like best friends: safety in numbers when a hawk flies over!"
+    },
+    {
+      "id": "ireland_w45_bare_trees",
+      "species": "Bare Tree Silhouettes",
+      "description": "Most deciduous trees now bare, their beautiful branching patterns visible against grey Irish skies",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "With no leaves, you can see every branch and twig. Each tree has its own special shape like a fingerprint!"
+    },
+    {
+      "id": "ireland_w45_gorse",
+      "species": "Gorse",
+      "scientificName": "Ulex europaeus",
+      "description": "A few gorse flowers still showing on sheltered bushes, proving the saying that gorse is never out of bloom",
+      "habitats": [
+        "hedgerow",
+        "grassland",
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Even in November, a few brave gorse flowers are shining yellow. This plant just never gives up!"
+    }
+  ],
+  "46": [
+    {
+      "id": "ireland_w46_starling",
+      "species": "Starling",
+      "scientificName": "Sturnus vulgaris",
+      "description": "Starling murmurations at their most dramatic as flocks reach maximum size in mid-November",
+      "habitats": [
+        "urban",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The starling murmurations are at their biggest now. Like a living fireworks display every sunset!"
+    },
+    {
+      "id": "ireland_w46_wren",
+      "species": "Wren",
+      "scientificName": "Troglodytes troglodytes",
+      "description": "Wrens searching stone walls for spiders and insects, their explosive trill still ringing out on fine mornings",
+      "habitats": [
+        "hedgerow",
+        "garden",
+        "wall_fence"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The wren is so loud for such a tiny bird. Its song rattles like a tiny machine gun from the wall!"
+    },
+    {
+      "id": "ireland_w46_robin",
+      "species": "Robin",
+      "scientificName": "Erithacus rubecula",
+      "description": "Robins singing from every garden and hedgerow, their winter song carrying in the still air",
+      "habitats": [
+        "garden",
+        "woodland",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The robin is the voice of the Irish winter, sweet and gentle when everything else is quiet"
+    },
+    {
+      "id": "ireland_w46_redwing",
+      "species": "Redwing",
+      "scientificName": "Turdus iliacus",
+      "description": "Redwings feeding across Ireland, visiting gardens in cold snaps, showing the flash of red under wings",
+      "habitats": [
+        "hedgerow",
+        "grassland",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "When it's really cold, redwings come into gardens to eat berries. Look for the red patch under their wings!"
+    },
+    {
+      "id": "ireland_w46_holly",
+      "species": "Holly",
+      "scientificName": "Ilex aquifolium",
+      "description": "Holly berries glowing red in bare hedgerows, mistle thrushes fiercely defending their favourite trees",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "One angry thrush guards the holly tree and chases away every other bird. Those berries are mine!"
+    },
+    {
+      "id": "ireland_w46_grey_heron",
+      "species": "Grey Heron",
+      "scientificName": "Ardea cinerea",
+      "description": "Grey herons standing motionless by ponds and streams, easier to spot now vegetation has died back",
+      "habitats": [
+        "pond",
+        "stream",
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A tall grey bird stands like a statue by the water, waiting... waiting... then stab! It grabs a fish!"
+    }
+  ],
+  "47": [
+    {
+      "id": "ireland_w47_starling",
+      "species": "Starling",
+      "scientificName": "Sturnus vulgaris",
+      "description": "Starling murmurations still stunning, the birds gathering from miles around before dropping into their roost",
+      "habitats": [
+        "urban",
+        "grassland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Watch how the starlings all turn at exactly the same moment. No one bird is the leader!"
+    },
+    {
+      "id": "ireland_w47_wren",
+      "species": "Wren",
+      "scientificName": "Troglodytes troglodytes",
+      "description": "Wrens huddling in sheltered spots on cold nights, sometimes dozens roosting together for warmth",
+      "habitats": [
+        "hedgerow",
+        "garden",
+        "wall_fence"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Wrens have sleepovers! They squeeze together in a nest box or hole to share body heat on cold nights"
+    },
+    {
+      "id": "ireland_w47_robin",
+      "species": "Robin",
+      "scientificName": "Erithacus rubecula",
+      "description": "Robins singing bravely through the shortening days, one of the last birds singing at dusk",
+      "habitats": [
+        "garden",
+        "woodland",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Even as it gets dark so early, the robin keeps singing, a little melody to end the short November day"
+    },
+    {
+      "id": "ireland_w47_fieldfare",
+      "species": "Fieldfare",
+      "scientificName": "Turdus pilaris",
+      "description": "Fieldfares roaming farmland in noisy flocks, feeding on the last berries and on earthworms",
+      "habitats": [
+        "grassland",
+        "hedgerow",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The fieldfares are chattering loudly as they search for food. They sound like they're having an argument!"
+    },
+    {
+      "id": "ireland_w47_grey_heron",
+      "species": "Grey Heron",
+      "scientificName": "Ardea cinerea",
+      "description": "Grey herons fishing at ponds and rivers, their patient hunting style easier to watch now bankside plants have died back",
+      "habitats": [
+        "pond",
+        "stream"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Can you stand as still as a heron? It waits without moving for ages, then, splash! It catches a fish!"
+    },
+    {
+      "id": "ireland_w47_holly",
+      "species": "Holly",
+      "scientificName": "Ilex aquifolium",
+      "description": "Holly berries bright red, a vital winter food for thrushes and blackbirds",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The holly berries are so red they glow in the grey November light. Birds depend on them for winter food"
+    }
+  ],
+  "48": [
+    {
+      "id": "ireland_w48_starling",
+      "species": "Starling",
+      "scientificName": "Sturnus vulgaris",
+      "description": "Starling murmurations continuing in late November, flocks twisting and turning in the gloaming",
+      "habitats": [
+        "urban",
+        "grassland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The starlings are still putting on their evening show. They make shapes like giant animals in the sky!"
+    },
+    {
+      "id": "ireland_w48_robin",
+      "species": "Robin",
+      "scientificName": "Erithacus rubecula",
+      "description": "Robins singing from bare branches and garden walls, very tame and confiding near humans",
+      "habitats": [
+        "garden",
+        "woodland",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The robin comes so close now. It's not shy at all! It knows you might turn over a stone and find it a snack"
+    },
+    {
+      "id": "ireland_w48_wren",
+      "species": "Wren",
+      "scientificName": "Troglodytes troglodytes",
+      "description": "Wrens busy in walls and hedges, their loud trill a burst of energy on frosty mornings",
+      "habitats": [
+        "hedgerow",
+        "garden",
+        "wall_fence"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "On a frosty morning the tiny wren lets out a trill so loud it makes you jump. What a voice for such a small bird!"
+    },
+    {
+      "id": "ireland_w48_grey_heron",
+      "species": "Grey Heron",
+      "scientificName": "Ardea cinerea",
+      "description": "Grey herons visible at ponds and along rivers, standing still as statues in the winter landscape",
+      "habitats": [
+        "pond",
+        "stream"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The heron stands in the cold water without moving a feather. Patience is its superpower!"
+    },
+    {
+      "id": "ireland_w48_holly",
+      "species": "Holly",
+      "scientificName": "Ilex aquifolium",
+      "description": "Holly berries being gathered for Christmas wreaths, thrushes competing with humans for the red fruits",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Time to gather holly for decorations! Be careful of the prickly leaves, ouch!"
+    },
+    {
+      "id": "ireland_w48_redwing",
+      "species": "Redwing",
+      "scientificName": "Turdus iliacus",
+      "description": "Redwings feeding in gardens during cold spells, stripping holly and cotoneaster berries",
+      "habitats": [
+        "hedgerow",
+        "garden",
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "When it's freezing cold, redwings come into gardens to eat berries. They must be really hungry!"
+    }
+  ],
+  "49": [
+    {
+      "id": "ireland_w49_starling",
+      "species": "Starling",
+      "scientificName": "Sturnus vulgaris",
+      "description": "Starling murmurations in early December, darkening skies filled with swirling flocks before roosting",
+      "habitats": [
+        "urban",
+        "grassland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "December evenings are perfect for starling watching. Wrap up warm and enjoy the sky ballet!"
+    },
+    {
+      "id": "ireland_w49_robin",
+      "species": "Robin",
+      "scientificName": "Erithacus rubecula",
+      "description": "Robins singing their winter song, appearing on Christmas cards and in festive traditions",
+      "habitats": [
+        "garden",
+        "woodland",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The robin on the Christmas card is singing outside your window right now. Can you hear it?"
+    },
+    {
+      "id": "ireland_w49_wren",
+      "species": "Wren",
+      "scientificName": "Troglodytes troglodytes",
+      "description": "Wrens active in hedges and walls, preparing for the old tradition of Wren Day on December 26th",
+      "habitats": [
+        "hedgerow",
+        "garden",
+        "wall_fence"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The wren is getting ready for its special day! On St Stephen's Day people dress up to celebrate the wren"
+    },
+    {
+      "id": "ireland_w49_fieldfare",
+      "species": "Fieldfare",
+      "scientificName": "Turdus pilaris",
+      "description": "Fieldfares in fields and hedgerows, feeding on whatever berries remain and on invertebrates in grassland",
+      "habitats": [
+        "grassland",
+        "hedgerow",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The fieldfares are still here from the north. They'll stay all winter keeping warm in our mild Irish weather"
+    },
+    {
+      "id": "ireland_w49_holly",
+      "species": "Holly",
+      "scientificName": "Ilex aquifolium",
+      "description": "Holly central to Christmas preparations, red berries and evergreen leaves a symbol of the season",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Holly is the star of Christmas decorations, red berries and shiny green leaves that stay on all winter!"
+    },
+    {
+      "id": "ireland_w49_grey_heron",
+      "species": "Grey Heron",
+      "scientificName": "Ardea cinerea",
+      "description": "Grey herons fishing at ponds, their hunched silhouette a familiar part of the winter waterside scene",
+      "habitats": [
+        "pond",
+        "stream"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The heron hunches its shoulders against the cold like a grumpy old man, but it's actually a brilliant fisher!"
+    }
+  ],
+  "50": [
+    {
+      "id": "ireland_w50_starling",
+      "species": "Starling",
+      "scientificName": "Sturnus vulgaris",
+      "description": "Starling murmurations in the short December days, dramatic against the winter sunset",
+      "habitats": [
+        "urban",
+        "grassland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The sun sets so early now. That means the starling show starts early too! Watch from your window"
+    },
+    {
+      "id": "ireland_w50_robin",
+      "species": "Robin",
+      "scientificName": "Erithacus rubecula",
+      "description": "Robins at their most visible and confiding, hopping close to humans in gardens and parks",
+      "habitats": [
+        "garden",
+        "woodland",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The robin is your garden friend. It sits so close you could almost touch it! (But don't, let it come to you)"
+    },
+    {
+      "id": "ireland_w50_wren",
+      "species": "Wren",
+      "scientificName": "Troglodytes troglodytes",
+      "description": "Wrens roosting communally in cold spells, searching stone walls and ivy for invertebrates by day",
+      "habitats": [
+        "hedgerow",
+        "garden",
+        "wall_fence"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The wren sneaks through the thickest brambles and ivy. It's so small it can fit through gaps you can't even see!"
+    },
+    {
+      "id": "ireland_w50_red_fox",
+      "species": "Red Fox",
+      "scientificName": "Vulpes vulpes",
+      "description": "Foxes becoming more vocal as the mating season approaches, barking calls heard at night",
+      "habitats": [
+        "urban",
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Was that a bark in the night? The foxes are starting to call to each other as winter gets deep"
+    },
+    {
+      "id": "ireland_w50_fieldfare",
+      "species": "Fieldfare",
+      "scientificName": "Turdus pilaris",
+      "description": "Fieldfares scattered across farmland and playing fields, chattering flocks a constant winter presence",
+      "habitats": [
+        "grassland",
+        "hedgerow",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Fieldfares chatter away on the playing fields. They came all the way from the frozen north for our mild winter!"
+    },
+    {
+      "id": "ireland_w50_ivy_berries",
+      "species": "Ivy",
+      "scientificName": "Hedera helix",
+      "description": "Ivy berries ripening, green clusters turning dark, a vital winter food for wood pigeons and blackbirds",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden",
+        "wall_fence"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The ivy berries are going dark. Pigeons and blackbirds love them when everything else has been eaten"
+    }
+  ],
+  "51": [
+    {
+      "id": "ireland_w51_robin",
+      "species": "Robin",
+      "scientificName": "Erithacus rubecula",
+      "description": "Robins prominent in the Christmas week landscape, singing from fence posts and bare holly branches",
+      "habitats": [
+        "garden",
+        "woodland",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "It's Christmas week and the robin is singing! The real Christmas robin right there in your garden"
+    },
+    {
+      "id": "ireland_w51_wren",
+      "species": "Wren",
+      "scientificName": "Troglodytes troglodytes",
+      "description": "Wrens active in hedges and walls. Wren Day (Lá an Dreoilín) on St Stephen's Day, December 26th, is an Irish tradition",
+      "habitats": [
+        "hedgerow",
+        "garden",
+        "wall_fence"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Tomorrow is Wren Day! People dress up as Wren Boys and go door to door. The wren is the King of All Birds!"
+    },
+    {
+      "id": "ireland_w51_starling",
+      "species": "Starling",
+      "scientificName": "Sturnus vulgaris",
+      "description": "Starling murmurations in the Christmas twilight, thousands of birds swirling before dropping to roost",
+      "habitats": [
+        "urban",
+        "grassland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "After Christmas dinner, go watch the starlings dance in the sky, nature's own light show!"
+    },
+    {
+      "id": "ireland_w51_holly",
+      "species": "Holly",
+      "scientificName": "Ilex aquifolium",
+      "description": "Holly the centrepiece of Christmas decorations, brought indoors in the old Irish tradition",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Holly on the door, holly on the mantelpiece. Its red berries and green leaves mean Christmas is here!"
+    },
+    {
+      "id": "ireland_w51_red_fox",
+      "species": "Red Fox",
+      "scientificName": "Vulpes vulpes",
+      "description": "Fox mating season beginning, bark-like screams echoing through cold night air in town and countryside",
+      "habitats": [
+        "urban",
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Was that a scream outside on Christmas night? It's a fox calling. Their noisy time of year is starting!"
+    },
+    {
+      "id": "ireland_w51_snowdrop",
+      "species": "Snowdrop",
+      "scientificName": "Galanthus nivalis",
+      "description": "In the mildest coastal areas, the very first snowdrop tips may be pushing through, a promise of spring to come",
+      "habitats": [
+        "garden",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "low",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "In the warmest spots near the coast, tiny green snowdrop tips might already be poking up. Spring is coming!"
+    }
+  ],
+  "52": [
+    {
+      "id": "ireland_w52_robin",
+      "species": "Robin",
+      "scientificName": "Erithacus rubecula",
+      "description": "Robins singing through the last days of the year, their sweet song a bridge between old year and new",
+      "habitats": [
+        "garden",
+        "woodland",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The robin sings goodbye to the old year and hello to the new one. Its song never stops, even in winter!"
+    },
+    {
+      "id": "ireland_w52_wren",
+      "species": "Wren",
+      "scientificName": "Troglodytes troglodytes",
+      "description": "Wrens sheltering in stone walls and ivy on the coldest nights, tiny bodies burning through energy fast",
+      "habitats": [
+        "hedgerow",
+        "garden",
+        "wall_fence"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The tiny wren weighs about the same as a euro coin but survives the coldest nights! What a little hero!"
+    },
+    {
+      "id": "ireland_w52_starling",
+      "species": "Starling",
+      "scientificName": "Sturnus vulgaris",
+      "description": "Starling murmurations continuing through the year's end, a breathtaking display in the winter dusk",
+      "habitats": [
+        "urban",
+        "grassland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The starlings are putting on their New Year show! Thousands of birds painting pictures in the sky"
+    },
+    {
+      "id": "ireland_w52_red_fox",
+      "species": "Red Fox",
+      "scientificName": "Vulpes vulpes",
+      "description": "Fox mating season underway, eerie screaming calls echoing through the long winter nights",
+      "habitats": [
+        "urban",
+        "woodland",
+        "garden",
+        "hedgerow"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The foxes are screaming in the dark. It sounds spooky but they're just talking to each other!"
+    },
+    {
+      "id": "ireland_w52_fieldfare",
+      "species": "Fieldfare",
+      "scientificName": "Turdus pilaris",
+      "description": "Fieldfares and redwings feeding across farmland, making the most of Ireland's mild oceanic winter",
+      "habitats": [
+        "grassland",
+        "hedgerow",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The winter visitors from the north are settled in. Ireland's mild weather keeps them happy till spring!"
+    },
+    {
+      "id": "ireland_w52_gorse",
+      "species": "Gorse",
+      "scientificName": "Ulex europaeus",
+      "description": "A few gorse flowers visible on sheltered bushes even in late December, the eternal golden bloom of Ireland",
+      "habitats": [
+        "hedgerow",
+        "grassland",
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Even on the last day of the year, gorse has a few yellow flowers. It really never stops blooming!"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+/*
+ * THE CONDITIONS NOTE, IN ONE PLACE (2026-09-08, #1037 follow-up).
+ *
+ * Johan, on the lesson page ("View session"): *"i said somewhere here i dont
+ * see the line"*. He expected the authored note where he prepares the lesson,
+ * not only on the run's day screen.
+ *
+ * So the note has three placements now and one definition. These rules were
+ * local to `app/run/journey.module.css`, which meant the second placement
+ * would have had to copy them and the two would have drifted the first time
+ * either was tuned. They moved here whole; the runner imports this module for
+ * them and keeps everything else it owns.
+ *
+ * WHAT IS NOT HERE. No ground, no border, no radius. It is a HEADED NOTE and
+ * not a card: the one-ground rule that got these surfaces accepted holds, and
+ * what separates this block from the prose around it is its label and the
+ * space, the way every other block on these screens is separated.
+ */
+
+.conditionNote {
+  margin: 0;
+}
+
+.conditionLabel {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 6px;
+}
+
+/*
+ * INK, NOT A SOFTENED GREY (2026-09-08). Johan, on the lesson page: "can u
+ * maybe fix the font and icon change color?"
+ *
+ * The mark and the label both took `--ink-soft`, which is the tone for a
+ * caption ABOUT the page. This is not a caption: it is the one thing on the
+ * screen that read the weather, and it sat greyer than the "Before class"
+ * glyphs beside it. Both take `--ink` now, the page's own ink, the same the
+ * title is set in. The mark's faintness had a second cause that no colour
+ * would have fixed, and it is fixed where it lives: see app/ConditionMark.tsx
+ * for why a literal `strokeWidth={2}` was drawing a one-pixel line.
+ *
+ * `flex: none` keeps the mark from being squeezed by a long label at a narrow
+ * width.
+ */
+.conditionMark {
+  flex: none;
+  color: var(--ink);
+}
+
+/* The app's small-label register. Sentence case: the letter-spacing carries
+   the small-caption voice and caps-lint fails CI on a transform. */
+.conditionLabelText {
+  font-size: var(--size-1);
+  font-weight: var(--weight-strong);
+  letter-spacing: 0.1em;
+  color: var(--ink);
+}
+
+/*
+ * THE SENTENCE IS BODY TEXT, AND IT SETS NO MEASURE OF ITS OWN (2026-09-08).
+ *
+ * Johan, on the lesson page: "expand it broader. idk why u havent put it full
+ * width like the rest."
+ *
+ * THE CAUSE WAS HERE, AND IT WAS `max-width: 46ch`. Every container this note
+ * sits in is already the full page measure (44rem on both surfaces), and its
+ * left edge always matched. What narrowed it was a measure baked into the
+ * shared TYPE rule: 46ch of the runner's own prose register, which came over
+ * with the block when it moved out of `journey.module.css` and then applied
+ * itself to a page whose column is set by something else entirely. A shared
+ * component may own its identity; it may not own the width of every column it
+ * is ever dropped into. So the measure comes from the container now, and the
+ * runner states its own on its own surface (`.conditionNoteMeasure`).
+ *
+ * The type follows the same split. This is the page's body register --
+ * `--size-2` and `--ink`, what globals.css sets `body` to -- because on the
+ * lesson page the note is read seated, beside body copy. The runner overrides
+ * it up a step for a playground at arm's length, where 21px sits on the
+ * acuity limit (the nc#232 measurements). Reading distance is a property of
+ * the room, not of the sentence.
+ *
+ * No mark of its own (#343). The register is carried by the label above it.
+ */
+.note {
+  font-size: var(--size-2);
+  line-height: 1.6;
+  color: var(--ink);
+  margin: 0;
+}

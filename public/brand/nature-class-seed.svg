@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-11 -25 22 40">
+  <g stroke-width="2.2">
+    <ellipse cx="0" cy="12" rx="2.6" ry="5.4" fill="currentColor" />
+    <path
+      d="M0,6 L0,-9 M0,-9 L-9,-19 M0,-9 L-4.5,-22 M0,-9 L0.5,-23.5 M0,-9 L5.5,-21.5 M0,-9 L9.5,-18"
+      fill="none"
+      stroke="currentColor"
+      stroke-linecap="round"
+    />
+  </g>
+</svg>

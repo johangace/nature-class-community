@@ -1,0 +1,5306 @@
+{
+  "1": [
+    {
+      "id": "canada_west_w1_bald_eagle",
+      "species": "Bald Eagle",
+      "scientificName": "Haliaeetus leucocephalus",
+      "description": "Bald eagles perched along rivers and coastlines, fishing in cold waters and scavenging salmon carcasses",
+      "habitats": [
+        "stream",
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A huge bird with a bright white head sits in a tall tree, watching the water like a king on a throne"
+    },
+    {
+      "id": "canada_west_w1_annas_hummingbird",
+      "species": "Anna's Hummingbird",
+      "scientificName": "Calypte anna",
+      "description": "Anna's hummingbirds staying through winter in coastal BC, visiting garden feeders and early flowers",
+      "habitats": [
+        "garden",
+        "urban",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A tiny jewel-coloured bird zooms to a feeder and hovers like magic. Its throat flashes pink in the sun!"
+    },
+    {
+      "id": "canada_west_w1_varied_thrush",
+      "species": "Varied Thrush",
+      "scientificName": "Ixoreus naevius",
+      "description": "Varied thrush singing its haunting single-note whistle from mossy forest canopy in mild coastal rain",
+      "habitats": [
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A beautiful orange-and-grey bird sings one long spooky note from deep in the rainy forest"
+    },
+    {
+      "id": "canada_west_w1_sword_fern",
+      "species": "Sword Fern",
+      "scientificName": "Polystichum munitum",
+      "description": "Sword ferns stay lush green all winter on the damp forest floor, fronds arching outward like fountains",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Giant green feathers spread across the forest floor. Run your finger along one and feel the bumpy pattern underneath"
+    },
+    {
+      "id": "canada_west_w1_moss_carpet",
+      "species": "Forest Moss",
+      "description": "Mosses at their lushest in winter rains, coating tree trunks, branches, and rocks in vivid green velvet",
+      "habitats": [
+        "woodland",
+        "wall_fence",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Everything wears a thick green fur coat. Press your palm on the moss and feel how soft and squishy it is!"
+    },
+    {
+      "id": "canada_west_w1_douglas_fir",
+      "species": "Douglas Fir",
+      "scientificName": "Pseudotsuga menziesii",
+      "description": "Towering Douglas fir trees stand evergreen through winter, their bark deeply furrowed and fragrant",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Tip your head way, way back. These giant trees go up so high they tickle the clouds!"
+    }
+  ],
+  "2": [
+    {
+      "id": "canada_west_w2_bald_eagle",
+      "species": "Bald Eagle",
+      "scientificName": "Haliaeetus leucocephalus",
+      "description": "Bald eagles fishing along rivers and coast, often seen perched on snags overlooking water",
+      "habitats": [
+        "stream",
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A huge bird with a bright white head sits in a tall tree, watching the water like a king on a throne"
+    },
+    {
+      "id": "canada_west_w2_annas_hummingbird",
+      "species": "Anna's Hummingbird",
+      "scientificName": "Calypte anna",
+      "description": "Anna's hummingbirds singing their scratchy buzzing song from treetops even in January rain",
+      "habitats": [
+        "garden",
+        "urban",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Even in the rain, a tiny hummingbird sits on a branch and sings a squeaky, buzzy little song"
+    },
+    {
+      "id": "canada_west_w2_varied_thrush",
+      "species": "Varied Thrush",
+      "scientificName": "Ixoreus naevius",
+      "description": "Varied thrush foraging on the ground in gardens and parks, flipping leaves to find insects",
+      "habitats": [
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A beautiful orange-and-grey bird hops across wet leaves, flicking them aside to find a snack"
+    },
+    {
+      "id": "canada_west_w2_banana_slug",
+      "species": "Banana Slug",
+      "scientificName": "Ariolimax columbianus",
+      "description": "Banana slugs active on wet forest trails, bright yellow bodies gliding over mossy logs",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A slimy yellow creature slides slowly across a log. It looks like a banana with tiny antennae!"
+    },
+    {
+      "id": "canada_west_w2_western_red_cedar",
+      "species": "Western Red Cedar",
+      "scientificName": "Thuja plicata",
+      "description": "Western red cedar stands fragrant in the rain, its drooping branches and shreddy bark distinctive",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "smell",
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Crush a tiny leaf between your fingers and sniff. It smells like a wooden treasure chest!"
+    },
+    {
+      "id": "canada_west_w2_winter_wren",
+      "species": "Pacific Wren",
+      "scientificName": "Troglodytes pacificus",
+      "description": "Tiny Pacific wrens singing their astonishingly long trilling song from root tangles and fallen logs",
+      "habitats": [
+        "woodland",
+        "stream"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The tiniest brown bird sings the longest, bubbliest song. It sounds like a tiny waterfall of notes!"
+    }
+  ],
+  "3": [
+    {
+      "id": "canada_west_w3_bald_eagle",
+      "species": "Bald Eagle",
+      "scientificName": "Haliaeetus leucocephalus",
+      "description": "Bald eagles beginning courtship, pairs performing dramatic sky dances and talon-locking aerial displays",
+      "habitats": [
+        "stream",
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Two huge eagles grab each other's feet in the sky and spin round and round: it's their way of saying I love you!"
+    },
+    {
+      "id": "canada_west_w3_annas_hummingbird",
+      "species": "Anna's Hummingbird",
+      "scientificName": "Calypte anna",
+      "description": "Male Anna's hummingbirds performing spectacular dive displays, climbing high then plummeting with a loud chirp",
+      "habitats": [
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A hummingbird zooms way up high then dives straight down like a tiny rocket (chirp!) at the bottom"
+    },
+    {
+      "id": "canada_west_w3_snowdrop",
+      "species": "Snowdrop",
+      "scientificName": "Galanthus nivalis",
+      "description": "Snowdrops blooming in coastal gardens and parks, white bells nodding in January rain",
+      "habitats": [
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Tiny white bells hang their heads shyly in the rain. They're the bravest flowers, blooming in the cold!"
+    },
+    {
+      "id": "canada_west_w3_varied_thrush",
+      "species": "Varied Thrush",
+      "scientificName": "Ixoreus naevius",
+      "description": "Varied thrush singing haunting single-note whistles from the misty canopy",
+      "habitats": [
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Stop and listen in the foggy forest. One long, ghostly whistle floats through the trees"
+    },
+    {
+      "id": "canada_west_w3_moss_carpet",
+      "species": "Forest Moss",
+      "description": "Mosses at peak lushness in the winter rains, entire tree trunks draped in thick green velvet",
+      "habitats": [
+        "woodland",
+        "wall_fence"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The whole forest looks like it's wrapped in a soft green blanket. Everything is fuzzy and bright!"
+    },
+    {
+      "id": "canada_west_w3_stellers_jay",
+      "species": "Steller's Jay",
+      "scientificName": "Cyanocitta stelleri",
+      "description": "Steller's jays calling loudly from conifers, their dark blue plumage and tall crest unmistakable",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A dark blue bird with a spiky crown yells \"shack shack shack\" from a tree, so loud and bossy!"
+    }
+  ],
+  "4": [
+    {
+      "id": "canada_west_w4_bald_eagle",
+      "species": "Bald Eagle",
+      "scientificName": "Haliaeetus leucocephalus",
+      "description": "Eagle pairs refurbishing massive stick nests, adding fresh branches and moss",
+      "habitats": [
+        "stream",
+        "coast",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Two eagles carry big sticks to their nest: it's so huge, you could lie down inside it!"
+    },
+    {
+      "id": "canada_west_w4_crocus",
+      "species": "Crocus",
+      "scientificName": "Crocus vernus",
+      "description": "Crocuses emerging in parks and gardens, purple and yellow cups opening on sunny days",
+      "habitats": [
+        "garden",
+        "urban",
+        "playing_field"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Little purple and yellow cups pop up through the grass like tiny presents from underground"
+    },
+    {
+      "id": "canada_west_w4_annas_hummingbird",
+      "species": "Anna's Hummingbird",
+      "scientificName": "Calypte anna",
+      "description": "Anna's hummingbirds visiting winter-flowering shrubs, their gorgets flashing magenta in low sun",
+      "habitats": [
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Watch the hummingbird's throat. It changes from dull grey to blazing pink when it turns its head!"
+    },
+    {
+      "id": "canada_west_w4_banana_slug",
+      "species": "Banana Slug",
+      "scientificName": "Ariolimax columbianus",
+      "description": "Banana slugs gliding across wet trails after rain, leaving silvery slime tracks on logs",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Follow the sparkly silver trail on a log. At the end you'll find a big yellow slug leaving its glittery path!"
+    },
+    {
+      "id": "canada_west_w4_great_blue_heron",
+      "species": "Great Blue Heron",
+      "scientificName": "Ardea herodias",
+      "description": "Great blue herons stalking shorelines and streams, standing motionless before striking at fish",
+      "habitats": [
+        "stream",
+        "coast",
+        "pond"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A tall grey bird stands perfectly still like a statue, then (splash) it grabs a fish with its long beak!"
+    },
+    {
+      "id": "canada_west_w4_witch_hazel",
+      "species": "Witch Hazel",
+      "scientificName": "Hamamelis mollis",
+      "description": "Witch hazel blooming with spidery yellow flowers on bare branches, sweet fragrance in winter gardens",
+      "habitats": [
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Wiggly yellow ribbons burst from bare branches. Lean in and sniff the sweet, magical smell!"
+    }
+  ],
+  "5": [
+    {
+      "id": "canada_west_w5_skunk_cabbage",
+      "species": "Skunk Cabbage",
+      "scientificName": "Lysichiton americanus",
+      "description": "Western skunk cabbage beginning to push bright yellow spathes through wet ground in bogs and stream edges",
+      "habitats": [
+        "stream",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Bright yellow hoods poke up from the mud, but hold your nose, because they smell like a skunk!"
+    },
+    {
+      "id": "canada_west_w5_crocus",
+      "species": "Crocus",
+      "scientificName": "Crocus vernus",
+      "description": "Crocuses in full bloom across parks, bees visiting the purple and gold flowers on warm afternoons",
+      "habitats": [
+        "garden",
+        "urban",
+        "playing_field"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A whole carpet of purple and yellow flowers opens wide to catch the sun. Spring is knocking!"
+    },
+    {
+      "id": "canada_west_w5_bald_eagle",
+      "species": "Bald Eagle",
+      "scientificName": "Haliaeetus leucocephalus",
+      "description": "Eagles incubating eggs in their massive nests, one parent always on guard while the other fishes",
+      "habitats": [
+        "stream",
+        "coast",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The eagle sits on its huge nest keeping eggs warm. The nest is bigger than your bed!"
+    },
+    {
+      "id": "canada_west_w5_dark_eyed_junco",
+      "species": "Dark-eyed Junco",
+      "scientificName": "Junco hyemalis",
+      "description": "Flocks of dark-eyed juncos foraging on the ground, flashing white outer tail feathers when they fly",
+      "habitats": [
+        "garden",
+        "urban",
+        "woodland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Little grey birds hop around pecking at seeds, then flash white stripes on their tails when they fly away!"
+    },
+    {
+      "id": "canada_west_w5_great_blue_heron",
+      "species": "Great Blue Heron",
+      "scientificName": "Ardea herodias",
+      "description": "Great blue herons returning to colonial nesting rookeries, repairing stick nests in tall trees",
+      "habitats": [
+        "stream",
+        "coast",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Lots of herons building nests in the same big tree. They squawk at each other like noisy neighbours!"
+    },
+    {
+      "id": "canada_west_w5_pacific_wren",
+      "species": "Pacific Wren",
+      "scientificName": "Troglodytes pacificus",
+      "description": "Pacific wrens singing their extraordinary bubbly trill from root balls and fallen logs in damp forest",
+      "habitats": [
+        "woodland",
+        "stream"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The tiniest bird you've ever seen sings the longest song: a magical waterfall of bubbly notes!"
+    }
+  ],
+  "6": [
+    {
+      "id": "canada_west_w6_skunk_cabbage",
+      "species": "Skunk Cabbage",
+      "scientificName": "Lysichiton americanus",
+      "description": "Skunk cabbage spathes fully open in wetlands, bright yellow beacons in the February forest",
+      "habitats": [
+        "stream",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Glowing yellow hoods stand in the swamp like lanterns. They even make their own heat to melt the snow!"
+    },
+    {
+      "id": "canada_west_w6_snowdrop",
+      "species": "Snowdrop",
+      "scientificName": "Galanthus nivalis",
+      "description": "Snowdrops at peak bloom in coastal gardens, nodding white bells in drifts",
+      "habitats": [
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Hundreds of tiny white bells nod their heads together, a whole fairy garden in the park!"
+    },
+    {
+      "id": "canada_west_w6_red_breasted_nuthatch",
+      "species": "Red-breasted Nuthatch",
+      "scientificName": "Sitta canadensis",
+      "description": "Nuthatches creeping headfirst down tree trunks, giving nasal \"yank-yank\" calls from the conifers",
+      "habitats": [
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A little bird walks down the tree trunk upside-down. It honks like a tiny toy trumpet!"
+    },
+    {
+      "id": "canada_west_w6_daffodil",
+      "species": "Daffodil",
+      "scientificName": "Narcissus pseudonarcissus",
+      "description": "First daffodil shoots pushing up in gardens and parks, green spears rising from winter soil",
+      "habitats": [
+        "garden",
+        "urban",
+        "playing_field"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Green swords are pushing up through the dirt. Soon they'll unfurl into golden trumpet flowers!"
+    },
+    {
+      "id": "canada_west_w6_great_blue_heron",
+      "species": "Great Blue Heron",
+      "scientificName": "Ardea herodias",
+      "description": "Great blue herons nesting in rookeries, loud croaking calls as pairs display and build",
+      "habitats": [
+        "stream",
+        "coast",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The tall herons stretch their necks, clack their beaks, and croak to each other at their big nest tree"
+    },
+    {
+      "id": "canada_west_w6_hazelnut_catkins",
+      "species": "Beaked Hazelnut",
+      "scientificName": "Corylus cornuta",
+      "description": "Native beaked hazelnut catkins dangling from bare branches, releasing clouds of pollen on dry days",
+      "habitats": [
+        "woodland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Long fuzzy caterpillar-shaped things dangle from branches. Tap one and golden dust puffs into the air!"
+    }
+  ],
+  "7": [
+    {
+      "id": "canada_west_w7_skunk_cabbage",
+      "species": "Skunk Cabbage",
+      "scientificName": "Lysichiton americanus",
+      "description": "Skunk cabbage generating heat to melt surrounding snow, one of the first wildflowers of the year",
+      "habitats": [
+        "stream",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "This amazing plant makes its own heat like a warm-blooded animal. It melts a circle of snow around itself!"
+    },
+    {
+      "id": "canada_west_w7_crocus",
+      "species": "Crocus",
+      "scientificName": "Crocus vernus",
+      "description": "Crocuses fading in gardens as early daffodils take over the show",
+      "habitats": [
+        "garden",
+        "urban",
+        "playing_field"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The little crocus cups are closing up for the year, but look: golden daffodils are taking their turn!"
+    },
+    {
+      "id": "canada_west_w7_red_alder_catkins",
+      "species": "Red Alder",
+      "scientificName": "Alnus rubra",
+      "description": "Red alder catkins elongating and releasing pollen, one of the first native trees to bloom",
+      "habitats": [
+        "woodland",
+        "stream"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Long dangly catkins hang from the alders like tiny brown sausages. They shed golden dust in the breeze"
+    },
+    {
+      "id": "canada_west_w7_daffodil",
+      "species": "Daffodil",
+      "scientificName": "Narcissus pseudonarcissus",
+      "description": "First daffodils opening in coastal gardens, golden trumpets brightening grey February days",
+      "habitats": [
+        "garden",
+        "urban",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The first golden daffodils open their trumpets. It's like the ground is playing a fanfare for spring!"
+    },
+    {
+      "id": "canada_west_w7_spotted_towhee",
+      "species": "Spotted Towhee",
+      "scientificName": "Pipilo maculatus",
+      "description": "Spotted towhees scratching loudly in leaf litter with both feet, making a racket among the bushes",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Something is kicking up all the dead leaves. It's a fancy black-and-orange bird doing a backwards dance!"
+    },
+    {
+      "id": "canada_west_w7_hazelnut_catkins",
+      "species": "Beaked Hazelnut",
+      "scientificName": "Corylus cornuta",
+      "description": "Hazelnut catkins at peak, tiny red female flowers also visible if you look closely on the twigs",
+      "habitats": [
+        "woodland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Look really closely at the twigs. See the teensy red starbursts? Those are the girl flowers hiding beside the big dangling catkins!"
+    }
+  ],
+  "8": [
+    {
+      "id": "canada_west_w8_daffodil",
+      "species": "Daffodil",
+      "scientificName": "Narcissus pseudonarcissus",
+      "description": "Daffodils blooming across Vancouver parks and gardens, golden drifts under bare deciduous trees",
+      "habitats": [
+        "garden",
+        "urban",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Fields of golden trumpets sway in the breeze. Lean down and sniff their sweet, fresh smell"
+    },
+    {
+      "id": "canada_west_w8_cherry_plum",
+      "species": "Cherry Plum",
+      "scientificName": "Prunus cerasifera",
+      "description": "Cherry plum trees covered in early white or pink blossoms, a preview of the cherry blossom season ahead",
+      "habitats": [
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Some trees can't wait for spring. They burst into pink flowers while everything else is still bare!"
+    },
+    {
+      "id": "canada_west_w8_pacific_tree_frog",
+      "species": "Pacific Tree Frog",
+      "scientificName": "Pseudacris regilla",
+      "description": "First Pacific tree frogs beginning to call from wetlands on mild evenings, the classic \"ribbit\" sound",
+      "habitats": [
+        "pond",
+        "stream",
+        "meadow"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Listen near a pond at dusk, \"ribbit! ribbit!\". That's a teeny frog no bigger than your thumb!"
+    },
+    {
+      "id": "canada_west_w8_red_flowering_currant",
+      "species": "Red-flowering Currant",
+      "scientificName": "Ribes sanguineum",
+      "description": "Red-flowering currant buds swelling on bare stems, getting ready to burst into drooping pink clusters",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Fat pink buds are getting ready to pop open. This native bush will soon be covered in candy-pink flowers!"
+    },
+    {
+      "id": "canada_west_w8_song_sparrow",
+      "species": "Song Sparrow",
+      "scientificName": "Melospiza melodia",
+      "description": "Song sparrows beginning their spring singing from fence posts and bramble patches, varied musical phrases",
+      "habitats": [
+        "hedgerow",
+        "garden",
+        "urban",
+        "stream"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A stripy brown bird perches on a fence and sings a cheerful bouncy song over and over"
+    },
+    {
+      "id": "canada_west_w8_skunk_cabbage",
+      "species": "Skunk Cabbage",
+      "scientificName": "Lysichiton americanus",
+      "description": "Skunk cabbage leaves beginning to unfurl alongside the bright yellow spathes in boggy areas",
+      "habitats": [
+        "stream",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Giant green leaves start to unroll beside the yellow hoods. They'll grow as big as elephant ears!"
+    }
+  ],
+  "9": [
+    {
+      "id": "canada_west_w9_pacific_tree_frog",
+      "species": "Pacific Tree Frog",
+      "scientificName": "Pseudacris regilla",
+      "description": "Pacific tree frogs calling in chorus from ponds and ditches, the loudest sound in the evening wetlands",
+      "habitats": [
+        "pond",
+        "stream",
+        "meadow"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Hundreds of tiny frogs singing together, ribbit ribbit ribbit, so loud you can hear them from the road!"
+    },
+    {
+      "id": "canada_west_w9_red_flowering_currant",
+      "species": "Red-flowering Currant",
+      "scientificName": "Ribes sanguineum",
+      "description": "Red-flowering currant bursting into bloom, drooping clusters of deep pink flowers attracting early bumblebees",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Bunches of candy-pink flowers dangle from bare branches. Bees are buzzing around them already!"
+    },
+    {
+      "id": "canada_west_w9_cherry_blossom_early",
+      "species": "Cherry Blossom (Early Varieties)",
+      "scientificName": "Prunus spp.",
+      "description": "Early-blooming ornamental cherry trees starting to flower in Vancouver, pale pink clouds appearing on streets",
+      "habitats": [
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Whole trees are turning into pink candy floss. The cherry blossoms are starting their magical show!"
+    },
+    {
+      "id": "canada_west_w9_daffodil",
+      "species": "Daffodil",
+      "scientificName": "Narcissus pseudonarcissus",
+      "description": "Daffodils at peak bloom, masses of gold in parks, gardens, and roadsides",
+      "habitats": [
+        "garden",
+        "urban",
+        "playing_field"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Everywhere you look: gold, gold, gold! The daffodils have turned the whole world sunny"
+    },
+    {
+      "id": "canada_west_w9_rufous_hummingbird",
+      "species": "Rufous Hummingbird",
+      "scientificName": "Selasphorus rufus",
+      "description": "First rufous hummingbirds arriving from Mexico, fiery orange males buzzing into coastal gardens",
+      "habitats": [
+        "garden",
+        "woodland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A brand new hummingbird arrives. This one is bright copper-orange and flew all the way from Mexico!"
+    },
+    {
+      "id": "canada_west_w9_stellers_jay",
+      "species": "Steller's Jay",
+      "scientificName": "Cyanocitta stelleri",
+      "description": "Steller's jays getting vocal as spring approaches, mimicking hawk calls to scare other birds from feeders",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The blue jay with the punk-rock crest pretends to be a hawk (keeer!) and all the little birds fly away. Sneaky!"
+    }
+  ],
+  "10": [
+    {
+      "id": "canada_west_w10_cherry_blossom",
+      "species": "Cherry Blossom",
+      "scientificName": "Prunus spp.",
+      "description": "Cherry blossoms beginning to peak across Vancouver, streets and parks transformed into tunnels of pink and white",
+      "habitats": [
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Whole streets turn into pink fairy tunnels. Petals fall like warm snow and land in your hair!"
+    },
+    {
+      "id": "canada_west_w10_pacific_tree_frog",
+      "species": "Pacific Tree Frog",
+      "scientificName": "Pseudacris regilla",
+      "description": "Pacific tree frogs in full chorus at wetlands, calling intensely from pond edges and flooded ditches",
+      "habitats": [
+        "pond",
+        "stream",
+        "meadow"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The pond is so noisy with frog songs you can't hear your friend talking, ribbit ribbit everywhere!"
+    },
+    {
+      "id": "canada_west_w10_red_flowering_currant",
+      "species": "Red-flowering Currant",
+      "scientificName": "Ribes sanguineum",
+      "description": "Red-flowering currant at peak bloom, hanging clusters of rose-pink flowers buzzing with bees and visited by hummingbirds",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Pink flower bunches drip from every branch. Hummingbirds zip from cluster to cluster like they're at a buffet!"
+    },
+    {
+      "id": "canada_west_w10_rufous_hummingbird",
+      "species": "Rufous Hummingbird",
+      "scientificName": "Selasphorus rufus",
+      "description": "Rufous hummingbirds arriving in numbers, males chasing each other and performing dramatic dive displays",
+      "habitats": [
+        "garden",
+        "woodland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Fiery orange hummingbirds chase each other around the garden. They're tiny but so fierce and angry!"
+    },
+    {
+      "id": "canada_west_w10_western_trillium",
+      "species": "Western Trillium",
+      "scientificName": "Trillium ovatum",
+      "description": "First white trillium flowers appearing on the forest floor, three pristine petals above three broad leaves",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Everything comes in threes (three white petals, three green leaves), like a forest fairy's favourite number!"
+    },
+    {
+      "id": "canada_west_w10_song_sparrow",
+      "species": "Song Sparrow",
+      "scientificName": "Melospiza melodia",
+      "description": "Song sparrows in full voice, each male singing his unique variation from a prominent perch",
+      "habitats": [
+        "hedgerow",
+        "garden",
+        "urban",
+        "stream"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Every song sparrow makes up his own song. Listen to two different ones and hear how their tunes are different!"
+    }
+  ],
+  "11": [
+    {
+      "id": "canada_west_w11_cherry_blossom",
+      "species": "Cherry Blossom",
+      "scientificName": "Prunus spp.",
+      "description": "Cherry blossom season at full peak in Vancouver, over 40,000 trees creating cascades of pink across the city",
+      "habitats": [
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The whole city is draped in pink. Petals rain down like confetti and pile up on the sidewalks!"
+    },
+    {
+      "id": "canada_west_w11_pacific_tree_frog",
+      "species": "Pacific Tree Frog",
+      "scientificName": "Pseudacris regilla",
+      "description": "Tree frogs laying eggs in ponds, gelatinous masses of eggs attached to submerged plants",
+      "habitats": [
+        "pond",
+        "stream"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Look in the pond for wobbly blobs of jelly with tiny black dots. Each one will become a baby frog!"
+    },
+    {
+      "id": "canada_west_w11_salmonberry",
+      "species": "Salmonberry",
+      "scientificName": "Rubus spectabilis",
+      "description": "Salmonberry bushes flowering with bright pink blooms in forest understory and stream edges",
+      "habitats": [
+        "woodland",
+        "stream",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Hot pink flowers pop open on thorny bushes by the stream. Later they'll turn into yummy orange berries!"
+    },
+    {
+      "id": "canada_west_w11_western_trillium",
+      "species": "Western Trillium",
+      "scientificName": "Trillium ovatum",
+      "description": "Trillium flowers carpeting the forest floor, fresh white blooms that will slowly turn pink as they age",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "White three-petalled flowers dot the forest like fallen stars. Watch over the weeks as they slowly blush pink!"
+    },
+    {
+      "id": "canada_west_w11_rufous_hummingbird",
+      "species": "Rufous Hummingbird",
+      "scientificName": "Selasphorus rufus",
+      "description": "Rufous hummingbirds aggressively defending flowering currant patches, buzzing intruders away",
+      "habitats": [
+        "garden",
+        "woodland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "This tiny copper bird thinks the whole bush belongs to him. He chases away birds twice his size!"
+    },
+    {
+      "id": "canada_west_w11_bumble_bee",
+      "species": "Yellow-faced Bumble Bee",
+      "scientificName": "Bombus vosnesenskii",
+      "description": "Queen bumble bees emerging from hibernation, visiting early spring flowers and searching for nest sites",
+      "habitats": [
+        "garden",
+        "meadow",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A big fuzzy bee with a yellow face bumbles along. She's a queen looking for the perfect spot for her nest!"
+    }
+  ],
+  "12": [
+    {
+      "id": "canada_west_w12_cherry_blossom",
+      "species": "Cherry Blossom",
+      "scientificName": "Prunus spp.",
+      "description": "Peak cherry blossom continues with mid-season varieties, petals drifting like snow on breezy days",
+      "habitats": [
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Stand under a cherry tree when the wind blows. It's a pink snowstorm and the petals tickle your face!"
+    },
+    {
+      "id": "canada_west_w12_salmonberry",
+      "species": "Salmonberry",
+      "scientificName": "Rubus spectabilis",
+      "description": "Salmonberry in full bloom along streams and forest trails, bright magenta flowers attracting hummingbirds",
+      "habitats": [
+        "woodland",
+        "stream",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Bright pink flowers cover the bushes along every path. Hummingbirds dart between them like little rockets!"
+    },
+    {
+      "id": "canada_west_w12_western_trillium",
+      "species": "Western Trillium",
+      "scientificName": "Trillium ovatum",
+      "description": "Trillium at peak bloom on the forest floor, some early flowers already blushing pink with age",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Can you spot the white ones and the pink ones? The pink trilliums are the older, wiser flowers!"
+    },
+    {
+      "id": "canada_west_w12_barn_swallow_early",
+      "species": "Violet-green Swallow",
+      "scientificName": "Tachycineta thalassina",
+      "description": "First violet-green swallows returning from the south, swooping over ponds and fields catching insects",
+      "habitats": [
+        "pond",
+        "meadow",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Shiny green-and-white birds zoom through the sky scooping up bugs. They just arrived from their winter holiday!"
+    },
+    {
+      "id": "canada_west_w12_indian_plum",
+      "species": "Indian Plum",
+      "scientificName": "Oemleria cerasiformis",
+      "description": "Indian plum (osoberry) blooming with drooping clusters of small white flowers, one of the first native shrubs to leaf out",
+      "habitats": [
+        "woodland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Dangling white flower bells hang from branches that already have fresh green leaves. Smell them, they're like almonds!"
+    },
+    {
+      "id": "canada_west_w12_bumble_bee",
+      "species": "Yellow-faced Bumble Bee",
+      "scientificName": "Bombus vosnesenskii",
+      "description": "Bumble bee queens visiting flowering currant, salmonberry, and garden flowers, buzzing loudly",
+      "habitats": [
+        "garden",
+        "meadow",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Fat fuzzy bees crawl deep inside pink flowers, their bums poking out as they slurp up nectar"
+    }
+  ],
+  "13": [
+    {
+      "id": "canada_west_w13_cherry_blossom",
+      "species": "Cherry Blossom",
+      "scientificName": "Prunus spp.",
+      "description": "Late cherry blossom varieties blooming, petals carpeting sidewalks and floating in puddles",
+      "habitats": [
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Pink petals float in every puddle like tiny boats. Scoop some up and let them drift from your hand!"
+    },
+    {
+      "id": "canada_west_w13_salmonberry",
+      "species": "Salmonberry",
+      "scientificName": "Rubus spectabilis",
+      "description": "Salmonberry flowers fading as small green berries begin to form on the bushes",
+      "habitats": [
+        "woodland",
+        "stream",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The pink flowers are dropping off and leaving behind tiny green bumpy balls. Future berries are growing!"
+    },
+    {
+      "id": "canada_west_w13_bigleaf_maple",
+      "species": "Bigleaf Maple",
+      "scientificName": "Acer macrophyllum",
+      "description": "Bigleaf maples bursting into leaf and flower simultaneously, huge drooping yellow-green flower clusters",
+      "habitats": [
+        "woodland",
+        "stream",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The biggest maple trees wake up all at once, fresh green leaves and dangling flower tassels at the same time!"
+    },
+    {
+      "id": "canada_west_w13_rufous_hummingbird",
+      "species": "Rufous Hummingbird",
+      "scientificName": "Selasphorus rufus",
+      "description": "Rufous hummingbirds nesting, females building tiny lichen-covered cup nests on branches",
+      "habitats": [
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The mama hummingbird builds a nest the size of a walnut shell, using spider silk to glue it together!"
+    },
+    {
+      "id": "canada_west_w13_bleeding_heart",
+      "species": "Pacific Bleeding Heart",
+      "scientificName": "Dicentra formosa",
+      "description": "Pacific bleeding heart emerging on the forest floor, delicate pink heart-shaped flowers on arching stems",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Tiny pink hearts dangle from a curved stem. The forest is growing valentines!"
+    },
+    {
+      "id": "canada_west_w13_american_robin",
+      "species": "American Robin",
+      "scientificName": "Turdus migratorius",
+      "description": "American robins singing their cheerful \"cheerily cheer-up\" song from dawn, pulling worms from lawns",
+      "habitats": [
+        "garden",
+        "urban",
+        "playing_field",
+        "meadow"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The orange-bellied robin tilts its head, listening, then tugs a wiggly worm right out of the grass, pop!"
+    }
+  ],
+  "14": [
+    {
+      "id": "canada_west_w14_cherry_blossom_late",
+      "species": "Cherry Blossom (Late Varieties)",
+      "scientificName": "Prunus spp.",
+      "description": "Final wave of cherry blossom with double-flowered Kanzan varieties, deeper pink and more ruffled blooms",
+      "habitats": [
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The last cherry trees bloom with extra-fluffy double flowers. They look like popcorn dipped in pink paint!"
+    },
+    {
+      "id": "canada_west_w14_bigleaf_maple",
+      "species": "Bigleaf Maple",
+      "scientificName": "Acer macrophyllum",
+      "description": "Bigleaf maple fully leafing out, enormous leaves unfurling that can be wider than a dinner plate",
+      "habitats": [
+        "woodland",
+        "stream",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Hold a bigleaf maple leaf next to your face. It might be bigger than your whole head!"
+    },
+    {
+      "id": "canada_west_w14_bleeding_heart",
+      "species": "Pacific Bleeding Heart",
+      "scientificName": "Dicentra formosa",
+      "description": "Bleeding heart in full bloom on the forest floor, delicate fernlike foliage with arching sprays of pink hearts",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Little pink hearts hang in a row like a necklace. The forest floor is decorated with love!"
+    },
+    {
+      "id": "canada_west_w14_barn_swallow",
+      "species": "Barn Swallow",
+      "scientificName": "Hirundo rustica",
+      "description": "Barn swallows arriving from Central America, swooping low over fields and water with forked tails",
+      "habitats": [
+        "meadow",
+        "pond",
+        "urban",
+        "stream"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Birds with long forked tails zoom and swoop over the field like tiny acrobats. They never stop moving!"
+    },
+    {
+      "id": "canada_west_w14_western_trillium",
+      "species": "Western Trillium",
+      "scientificName": "Trillium ovatum",
+      "description": "Trillium flowers aging from white to deep rose-pink, the forest floor scattered with both colours",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The white trilliums are blushing deeper and deeper pink. They change colour as they get older!"
+    },
+    {
+      "id": "canada_west_w14_american_robin",
+      "species": "American Robin",
+      "scientificName": "Turdus migratorius",
+      "description": "Robins singing loudly at dawn and dusk, building mud-cup nests in garden trees and under eaves",
+      "habitats": [
+        "garden",
+        "urban",
+        "playing_field"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The robin wakes you up singing before the sun! Look for its nest made of mud and grass in a tree fork"
+    }
+  ],
+  "15": [
+    {
+      "id": "canada_west_w15_camas_lily",
+      "species": "Common Camas",
+      "scientificName": "Camassia quamash",
+      "description": "First camas lily shoots pushing up in meadows and oak savannahs, getting ready for their spectacular blue-purple bloom",
+      "habitats": [
+        "meadow",
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Green spikes are rising from the ground. Soon this whole meadow will turn purple-blue like an ocean!"
+    },
+    {
+      "id": "canada_west_w15_bigleaf_maple",
+      "species": "Bigleaf Maple",
+      "scientificName": "Acer macrophyllum",
+      "description": "Bigleaf maples fully leafed out, helicopter seeds (samaras) beginning to develop in dangling clusters",
+      "habitats": [
+        "woodland",
+        "stream",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The giant maple leaves make a green roof over the path. Look up and see sunlight glowing through them!"
+    },
+    {
+      "id": "canada_west_w15_osprey",
+      "species": "Osprey",
+      "scientificName": "Pandion haliaetus",
+      "description": "Ospreys returning to their platform nests on tall poles and dead trees near water, carrying fish",
+      "habitats": [
+        "coast",
+        "stream",
+        "pond"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A big brown-and-white hawk hovers over the water, then splashes in feet-first and flies up with a fish!"
+    },
+    {
+      "id": "canada_west_w15_barn_swallow",
+      "species": "Barn Swallow",
+      "scientificName": "Hirundo rustica",
+      "description": "Barn swallows swooping over fields and ponds, their metallic blue backs flashing in spring sunlight",
+      "habitats": [
+        "meadow",
+        "pond",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Shiny blue-and-orange birds swoop past your head so close you can hear the wind in their feathers, whoosh!"
+    },
+    {
+      "id": "canada_west_w15_red_flowering_currant",
+      "species": "Red-flowering Currant",
+      "scientificName": "Ribes sanguineum",
+      "description": "Red-flowering currant finishing bloom, small green berries forming where the flowers were",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The pink flowers are finished but look: tiny green balls are growing where each flower used to be!"
+    },
+    {
+      "id": "canada_west_w15_violet_green_swallow",
+      "species": "Violet-green Swallow",
+      "scientificName": "Tachycineta thalassina",
+      "description": "Violet-green swallows nesting in tree cavities and nest boxes, males' iridescent backs flashing green and purple",
+      "habitats": [
+        "meadow",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "These swallows live in little holes in trees. Watch them zoom out, grab a bug, and zoom right back in!"
+    }
+  ],
+  "16": [
+    {
+      "id": "canada_west_w16_camas_lily",
+      "species": "Common Camas",
+      "scientificName": "Camassia quamash",
+      "description": "Camas beginning to bloom in meadows around Victoria and the Gulf Islands, blue-purple spires rising",
+      "habitats": [
+        "meadow",
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Blue-purple star flowers start opening on tall green stalks, a whole meadow of tiny blue stars!"
+    },
+    {
+      "id": "canada_west_w16_bleeding_heart",
+      "species": "Pacific Bleeding Heart",
+      "scientificName": "Dicentra formosa",
+      "description": "Bleeding heart at peak in shady forest, lush ferny leaves with dancing pink hearts above",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Rows of tiny pink hearts sway in the forest breeze like a valentine garland strung between the ferns"
+    },
+    {
+      "id": "canada_west_w16_rufous_hummingbird",
+      "species": "Rufous Hummingbird",
+      "scientificName": "Selasphorus rufus",
+      "description": "Rufous hummingbirds nesting and defending flower territories fiercely, visiting salmonberry and currant",
+      "habitats": [
+        "garden",
+        "woodland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The feisty orange hummingbird guards every flower. It chatters angrily if another bird comes close!"
+    },
+    {
+      "id": "canada_west_w16_garry_oak",
+      "species": "Garry Oak",
+      "scientificName": "Quercus garryana",
+      "description": "Garry oaks leafing out on Vancouver Island, their twisted branches framing meadows of emerging wildflowers",
+      "habitats": [
+        "woodland",
+        "meadow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The gnarly, twisty oak trees finally put on their green clothes. They're always the last ones to dress up!"
+    },
+    {
+      "id": "canada_west_w16_pacific_chorus_frog",
+      "species": "Pacific Tree Frog",
+      "scientificName": "Pseudacris regilla",
+      "description": "Tree frogs still calling from ponds but chorus fading as breeding season winds down",
+      "habitats": [
+        "pond",
+        "stream"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The pond frogs are getting quieter now. Their singing season is slowing down, but you can still hear a few"
+    },
+    {
+      "id": "canada_west_w16_orange_crowned_warbler",
+      "species": "Orange-crowned Warbler",
+      "scientificName": "Leiothlypis celata",
+      "description": "Orange-crowned warblers arriving and singing their rapid trilling song from shrubs and low trees",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A little yellow-green bird buzzes a fast trill from inside a bush. It just arrived from far away Mexico!"
+    }
+  ],
+  "17": [
+    {
+      "id": "canada_west_w17_camas_lily",
+      "species": "Common Camas",
+      "scientificName": "Camassia quamash",
+      "description": "Camas meadows reaching full bloom, entire fields turned brilliant blue-purple on Vancouver Island and Gulf Islands",
+      "habitats": [
+        "meadow",
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The meadow looks like a blue-purple ocean. First Nations people tended these beautiful flowers for thousands of years!"
+    },
+    {
+      "id": "canada_west_w17_salmonberry_fruit",
+      "species": "Salmonberry",
+      "scientificName": "Rubus spectabilis",
+      "description": "First salmonberries ripening to golden-orange and deep red, the earliest wild berry of the season",
+      "habitats": [
+        "woodland",
+        "stream",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The first berries of summer! Salmonberries come in orange and red. They look like tiny bumpy jewels"
+    },
+    {
+      "id": "canada_west_w17_osprey",
+      "species": "Osprey",
+      "scientificName": "Pandion haliaetus",
+      "description": "Ospreys settled on nests, spectacular fishing dives with talons extended into lakes and rivers",
+      "habitats": [
+        "coast",
+        "stream",
+        "pond"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The fishing hawk circles, circles, then folds its wings and crashes into the water. Up it comes with a fish in its claws!"
+    },
+    {
+      "id": "canada_west_w17_rhododendron",
+      "species": "Rhododendron",
+      "scientificName": "Rhododendron macrophyllum",
+      "description": "First native rhododendrons beginning to bloom in coastal forests, large trusses of pink flowers",
+      "habitats": [
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Big round bunches of pink flowers open up on dark green bushes. Each bunch is like a bouquet!"
+    },
+    {
+      "id": "canada_west_w17_swainsons_thrush",
+      "species": "Swainson's Thrush",
+      "scientificName": "Catharus ustulatus",
+      "description": "Swainson's thrush arriving and beginning its ethereal upward-spiralling song at dusk in deep forest",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "At sunset in the forest, a bird sings a magical song that spirals up, up, up like a musical staircase!"
+    },
+    {
+      "id": "canada_west_w17_bumble_bee",
+      "species": "Yellow-faced Bumble Bee",
+      "scientificName": "Bombus vosnesenskii",
+      "description": "Bumble bee colonies growing, workers foraging busily on rhododendron, salmonberry, and garden flowers",
+      "habitats": [
+        "garden",
+        "meadow",
+        "hedgerow",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Busy fuzzy bees buzz from flower to flower, their back legs loaded with bright yellow pollen saddlebags!"
+    }
+  ],
+  "18": [
+    {
+      "id": "canada_west_w18_camas_lily",
+      "species": "Common Camas",
+      "scientificName": "Camassia quamash",
+      "description": "Camas at peak bloom, meadows a sea of blue-purple, culturally significant to Coast Salish and other First Nations",
+      "habitats": [
+        "meadow",
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Stand in the middle of the blue meadow and pretend you're swimming. The flower ocean stretches everywhere!"
+    },
+    {
+      "id": "canada_west_w18_rhododendron",
+      "species": "Rhododendron",
+      "scientificName": "Rhododendron macrophyllum",
+      "description": "Native and garden rhododendrons blooming profusely, huge flower trusses in shades of pink, purple, and white",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Giant balls of flowers in every colour burst from dark green bushes. It's like the garden is having a party!"
+    },
+    {
+      "id": "canada_west_w18_barn_swallow",
+      "species": "Barn Swallow",
+      "scientificName": "Hirundo rustica",
+      "description": "Barn swallows building mud nests under eaves and bridges, swooping low over fields for insects",
+      "habitats": [
+        "meadow",
+        "urban",
+        "pond",
+        "stream"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The swallows carry tiny balls of mud in their beaks and stick them together to build a cup-shaped nest!"
+    },
+    {
+      "id": "canada_west_w18_swainsons_thrush",
+      "species": "Swainson's Thrush",
+      "scientificName": "Catharus ustulatus",
+      "description": "Swainson's thrush in full song at dawn and dusk, upward-spiralling flute-like phrases from the canopy",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Close your eyes at sunset and listen. A bird plays a flute that goes up and up like climbing a rainbow!"
+    },
+    {
+      "id": "canada_west_w18_salmonberry_fruit",
+      "species": "Salmonberry",
+      "scientificName": "Rubus spectabilis",
+      "description": "Salmonberries ripening along trails, golden-orange and ruby-red drupelets soft and juicy",
+      "habitats": [
+        "woodland",
+        "stream",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Pick a ripe salmonberry and it falls apart in your fingers. Pop it in your mouth for a sweet juicy treat!"
+    },
+    {
+      "id": "canada_west_w18_bigleaf_maple",
+      "species": "Bigleaf Maple",
+      "scientificName": "Acer macrophyllum",
+      "description": "Bigleaf maples in full canopy, trunks covered in licorice fern and moss, helicopter seeds dangling",
+      "habitats": [
+        "woodland",
+        "stream",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Look at the mossy maple trunk. Tiny ferns grow right on the bark! It's a garden growing on a tree!"
+    }
+  ],
+  "19": [
+    {
+      "id": "canada_west_w19_camas_lily",
+      "species": "Common Camas",
+      "scientificName": "Camassia quamash",
+      "description": "Camas still blooming strongly in meadows, seed pods beginning to form on earliest flowers",
+      "habitats": [
+        "meadow",
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Some camas flowers are turning into green seed pods while others are still bright purple. Nature recycles!"
+    },
+    {
+      "id": "canada_west_w19_nootka_rose",
+      "species": "Nootka Rose",
+      "scientificName": "Rosa nutkana",
+      "description": "First Nootka rose buds swelling in hedgerows and forest edges, getting ready to open",
+      "habitats": [
+        "hedgerow",
+        "woodland",
+        "meadow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Fat pink buds on thorny stems are getting ready to pop open into beautiful wild roses!"
+    },
+    {
+      "id": "canada_west_w19_osprey",
+      "species": "Osprey",
+      "scientificName": "Pandion haliaetus",
+      "description": "Ospreys incubating eggs on platform nests, one parent always standing guard while the other hunts fish",
+      "habitats": [
+        "coast",
+        "stream",
+        "pond"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The osprey sits patiently on its big stick nest keeping eggs warm, while its partner brings home fresh fish!"
+    },
+    {
+      "id": "canada_west_w19_red_breasted_sapsucker",
+      "species": "Red-breasted Sapsucker",
+      "scientificName": "Sphyrapicus ruber",
+      "description": "Red-breasted sapsuckers drilling neat rows of holes in tree bark and lapping up the flowing sap",
+      "habitats": [
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A red-headed woodpecker drills tiny holes in neat rows and licks up the sweet tree juice like a lollipop!"
+    },
+    {
+      "id": "canada_west_w19_foxglove",
+      "species": "Foxglove",
+      "scientificName": "Digitalis purpurea",
+      "description": "Foxglove rosettes growing vigorously in forest clearings and roadsides, tall flower spikes beginning to push up",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "meadow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Tall green towers are shooting up. Soon they'll be covered in purple bell flowers that fit over your fingertip!"
+    },
+    {
+      "id": "canada_west_w19_swainsons_thrush",
+      "species": "Swainson's Thrush",
+      "scientificName": "Catharus ustulatus",
+      "description": "Swainson's thrush singing their upward-spiralling song from deep forest at dawn and dusk",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The forest flute bird plays its magical rising song. It sounds like the music is climbing up a ladder!"
+    }
+  ],
+  "20": [
+    {
+      "id": "canada_west_w20_nootka_rose",
+      "species": "Nootka Rose",
+      "scientificName": "Rosa nutkana",
+      "description": "Nootka roses blooming in hedgerows and along trails, large single pink flowers with golden centres",
+      "habitats": [
+        "hedgerow",
+        "woodland",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Wild pink roses open along the path. Lean in and smell one, it's the sweetest perfume in the forest!"
+    },
+    {
+      "id": "canada_west_w20_foxglove",
+      "species": "Foxglove",
+      "scientificName": "Digitalis purpurea",
+      "description": "Foxglove spikes starting to bloom from the bottom up, purple bell-shaped flowers with spotted throats",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "meadow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A tall tower of purple bells opens from the bottom up. Peek inside one and see the spotted pattern!"
+    },
+    {
+      "id": "canada_west_w20_rhododendron",
+      "species": "Rhododendron",
+      "scientificName": "Rhododendron macrophyllum",
+      "description": "Native rhododendrons at peak in coastal forests, massive pink flower clusters glowing in the shade",
+      "habitats": [
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "In the shade of the big trees, huge round flower bouquets glow pink like lanterns in the forest!"
+    },
+    {
+      "id": "canada_west_w20_black_bear",
+      "species": "Black Bear",
+      "scientificName": "Ursus americanus",
+      "description": "Black bears active in coastal forests, grazing on fresh grass, skunk cabbage leaves, and emerging berries",
+      "habitats": [
+        "woodland",
+        "meadow",
+        "stream"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Bears are out munching on green grass and plants after their long winter nap. They're very hungry!"
+    },
+    {
+      "id": "canada_west_w20_bald_eagle_chicks",
+      "species": "Bald Eagle",
+      "scientificName": "Haliaeetus leucocephalus",
+      "description": "Bald eagle chicks hatching in massive nests, fluffy grey down visible when parents come and go",
+      "habitats": [
+        "coast",
+        "stream",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Baby eagles are fuzzy grey fluffballs sitting in a nest the size of a bathtub. Both parents bring them fish!"
+    },
+    {
+      "id": "canada_west_w20_cedar_waxwing",
+      "species": "Cedar Waxwing",
+      "scientificName": "Bombycilla cedrorum",
+      "description": "Cedar waxwings arriving in sleek flocks, silky plumage with waxy red wing tips, feeding on insects",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A flock of fancy birds with black masks and smooth hair-like feathers. They look like tiny superheroes!"
+    }
+  ],
+  "21": [
+    {
+      "id": "canada_west_w21_nootka_rose",
+      "species": "Nootka Rose",
+      "scientificName": "Rosa nutkana",
+      "description": "Nootka roses in full bloom along hedgerows and forest edges, their sweet scent filling the air",
+      "habitats": [
+        "hedgerow",
+        "woodland",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Every hedge is dotted with sweet-smelling pink roses. Bees crawl inside and come out dusted in golden pollen!"
+    },
+    {
+      "id": "canada_west_w21_foxglove",
+      "species": "Foxglove",
+      "scientificName": "Digitalis purpurea",
+      "description": "Foxglove at peak, tall purple spires standing in forest clearings and along roadsides",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "meadow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Tall towers of purple bells reach up to your waist. Bumble bees climb right inside each bell for nectar!"
+    },
+    {
+      "id": "canada_west_w21_blackberry_flower",
+      "species": "Himalayan Blackberry",
+      "scientificName": "Rubus armeniacus",
+      "description": "Invasive Himalayan blackberry covering waste ground with white and pink flowers, visited heavily by bees",
+      "habitats": [
+        "hedgerow",
+        "urban",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Thorny blackberry bushes burst into white flowers. This summer they'll turn into the yummiest berries!"
+    },
+    {
+      "id": "canada_west_w21_swainsons_thrush",
+      "species": "Swainson's Thrush",
+      "scientificName": "Catharus ustulatus",
+      "description": "Swainson's thrush singing at peak intensity, the soundtrack of Pacific Northwest summer evenings",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "As the sun sets, the forest fills with the most beautiful rising flute song. It's pure magic!"
+    },
+    {
+      "id": "canada_west_w21_pacific_tree_frog",
+      "species": "Pacific Tree Frog",
+      "scientificName": "Pseudacris regilla",
+      "description": "Tadpoles developing in ponds, tiny dark wrigglers with feathery external gills",
+      "habitats": [
+        "pond"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Look in the pond. Hundreds of tiny dark tadpoles wriggle around like beans with tails!"
+    },
+    {
+      "id": "canada_west_w21_dragonfly",
+      "species": "Blue Dasher Dragonfly",
+      "scientificName": "Pachydiplax longipennis",
+      "description": "First dragonflies emerging near ponds, hovering and darting over the water surface hunting mosquitoes",
+      "habitats": [
+        "pond",
+        "stream",
+        "meadow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A helicopter bug with see-through wings hovers over the pond. It can fly forward, backward, and sideways!"
+    }
+  ],
+  "22": [
+    {
+      "id": "canada_west_w22_nootka_rose",
+      "species": "Nootka Rose",
+      "scientificName": "Rosa nutkana",
+      "description": "Wild roses still blooming beautifully, petals beginning to drop on the warmest days",
+      "habitats": [
+        "hedgerow",
+        "woodland",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Pink rose petals fall softly to the ground. Collect them gently and smell the sweetness in your palm"
+    },
+    {
+      "id": "canada_west_w22_foxglove",
+      "species": "Foxglove",
+      "scientificName": "Digitalis purpurea",
+      "description": "Foxglove at peak height, some spires over 150cm tall, new flowers opening at the top while lower ones set seed",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "meadow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The foxgloves are taller than you! Look how flowers bloom at the top while seeds grow at the bottom"
+    },
+    {
+      "id": "canada_west_w22_blackberry_flower",
+      "species": "Himalayan Blackberry",
+      "scientificName": "Rubus armeniacus",
+      "description": "Blackberry in full flower, white and pink blossoms covering every hedgerow and waste ground",
+      "habitats": [
+        "hedgerow",
+        "urban",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "So many white flowers on the blackberry bushes. Each one is a promise of a juicy berry later!"
+    },
+    {
+      "id": "canada_west_w22_orca",
+      "species": "Orca (Killer Whale)",
+      "scientificName": "Orcinus orca",
+      "description": "Resident and transient orca pods beginning to be spotted in the Salish Sea and Georgia Strait",
+      "habitats": [
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Look out to sea. You might spot a big black fin slicing through the water! That's an orca, the ocean's wolf!"
+    },
+    {
+      "id": "canada_west_w22_cedar_waxwing",
+      "species": "Cedar Waxwing",
+      "scientificName": "Bombycilla cedrorum",
+      "description": "Cedar waxwings passing berries beak to beak while perched in a row, their famous sharing behaviour",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "These polite birds sit in a row and pass a berry down the line, beak to beak. They share their food!"
+    },
+    {
+      "id": "canada_west_w22_pacific_tree_frog",
+      "species": "Pacific Tree Frog",
+      "scientificName": "Pseudacris regilla",
+      "description": "Tadpoles growing rapidly in warm ponds, some developing tiny hind leg buds",
+      "habitats": [
+        "pond"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The tadpoles are growing back legs! Tiny bumps poke out near their tails. They're becoming frogs!"
+    }
+  ],
+  "23": [
+    {
+      "id": "canada_west_w23_blackberry_flower",
+      "species": "Himalayan Blackberry",
+      "scientificName": "Rubus armeniacus",
+      "description": "Blackberry flowers fading and tiny green fruits beginning to form in clusters",
+      "habitats": [
+        "hedgerow",
+        "urban",
+        "meadow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The white flowers are dropping petals and leaving behind hard green bumpy berries. They need more sun to ripen!"
+    },
+    {
+      "id": "canada_west_w23_nootka_rose",
+      "species": "Nootka Rose",
+      "scientificName": "Rosa nutkana",
+      "description": "Wild roses fading, the first small green rose hips forming where flowers were",
+      "habitats": [
+        "hedgerow",
+        "woodland",
+        "meadow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The pink petals have fallen off and left behind a little green ball. That's a baby rose hip growing!"
+    },
+    {
+      "id": "canada_west_w23_orca",
+      "species": "Orca (Killer Whale)",
+      "scientificName": "Orcinus orca",
+      "description": "Orca pods more frequently seen in the Salish Sea, following salmon runs through the straits",
+      "habitats": [
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Black-and-white orcas swim together in family groups. Baby orcas stay right next to their mums!"
+    },
+    {
+      "id": "canada_west_w23_dragonfly",
+      "species": "Dragonflies",
+      "description": "Multiple dragonfly species active around ponds and streams, iridescent wings glinting in June sun",
+      "habitats": [
+        "pond",
+        "stream",
+        "meadow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Dragonflies zoom around the pond like tiny helicopters. Their wings sparkle in the sunshine like glass!"
+    },
+    {
+      "id": "canada_west_w23_bald_eagle_fledgling",
+      "species": "Bald Eagle",
+      "scientificName": "Haliaeetus leucocephalus",
+      "description": "Eagle chicks growing rapidly, standing in the nest and flapping wings, beginning to look like real eagles",
+      "habitats": [
+        "coast",
+        "stream",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Baby eagles stand up in their big nest and flap their wings like they're practicing, almost ready to fly!"
+    },
+    {
+      "id": "canada_west_w23_ocean_spray",
+      "species": "Ocean Spray",
+      "scientificName": "Holodiscus discolor",
+      "description": "Ocean spray bursting into plumes of tiny creamy-white flowers, drooping clusters decorating forest edges",
+      "habitats": [
+        "woodland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Creamy white flower sprays droop from the branches like frozen waterfalls. They smell like honey!"
+    }
+  ],
+  "24": [
+    {
+      "id": "canada_west_w24_ocean_spray",
+      "species": "Ocean Spray",
+      "scientificName": "Holodiscus discolor",
+      "description": "Ocean spray at peak bloom, masses of creamy flower plumes along roadsides and forest openings",
+      "habitats": [
+        "woodland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The bushes are draped in creamy-white flower curtains that smell sweet and drift in the warm breeze!"
+    },
+    {
+      "id": "canada_west_w24_orca",
+      "species": "Orca (Killer Whale)",
+      "scientificName": "Orcinus orca",
+      "description": "Orcas actively hunting in the straits, dramatic breaching and spy-hopping visible from shore",
+      "habitats": [
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "An orca leaps right out of the water (splash!) twisting in the air before crashing back down!"
+    },
+    {
+      "id": "canada_west_w24_foxglove",
+      "species": "Foxglove",
+      "scientificName": "Digitalis purpurea",
+      "description": "Foxglove still blooming at the top of tall spires, lower flowers setting seed in brown capsules",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "meadow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The foxglove tower still has purple bells opening at the very tip-top, even as seeds rattle below!"
+    },
+    {
+      "id": "canada_west_w24_dragonfly",
+      "species": "Dragonflies",
+      "description": "Dragonflies patrolling territories along pond edges, darting and hovering with incredible agility",
+      "habitats": [
+        "pond",
+        "stream",
+        "meadow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Watch a dragonfly guard its favourite spot on the pond. It chases away every other dragonfly that comes close!"
+    },
+    {
+      "id": "canada_west_w24_thimbleberry",
+      "species": "Thimbleberry",
+      "scientificName": "Rubus parviflorus",
+      "description": "Thimbleberry bushes covered in large white flowers in forest clearings, big maple-like leaves",
+      "habitats": [
+        "woodland",
+        "stream"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Papery white flowers bloom above huge fuzzy leaves. Feel how soft the leaves are, like green velvet!"
+    },
+    {
+      "id": "canada_west_w24_harbour_seal",
+      "species": "Harbour Seal",
+      "scientificName": "Phoca vitulina",
+      "description": "Harbour seals pupping on rocky islets and beaches, spotted pups resting beside their mothers",
+      "habitats": [
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Baby seals with spotted coats lie on the rocks with their mums. They have the biggest, roundest eyes!"
+    }
+  ],
+  "25": [
+    {
+      "id": "canada_west_w25_blackberry_green",
+      "species": "Himalayan Blackberry",
+      "scientificName": "Rubus armeniacus",
+      "description": "Green blackberries developing in clusters, hard and sour, still weeks away from ripening",
+      "habitats": [
+        "hedgerow",
+        "urban",
+        "meadow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The berries are still green and hard as marbles. Don't eat them yet, they need more sunshine to sweeten up!"
+    },
+    {
+      "id": "canada_west_w25_ocean_spray",
+      "species": "Ocean Spray",
+      "scientificName": "Holodiscus discolor",
+      "description": "Ocean spray flowers fading from creamy white to tan, the dried plumes persisting on branches",
+      "habitats": [
+        "woodland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The white flower sprays are drying to golden-brown and rattling in the breeze like paper streamers"
+    },
+    {
+      "id": "canada_west_w25_orca",
+      "species": "Orca (Killer Whale)",
+      "scientificName": "Orcinus orca",
+      "description": "Orca pods actively foraging in Georgia Strait and around the San Juan Islands, tall dorsal fins visible",
+      "habitats": [
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A whole family of orcas swims past. Count the tall black fins cutting through the glittering water!"
+    },
+    {
+      "id": "canada_west_w25_osprey",
+      "species": "Osprey",
+      "scientificName": "Pandion haliaetus",
+      "description": "Osprey chicks visible in nests, parents making frequent fishing trips to feed hungry young",
+      "habitats": [
+        "coast",
+        "stream",
+        "pond"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Fuzzy osprey chicks peek over the edge of their nest and squeak for more fish, so hungry all the time!"
+    },
+    {
+      "id": "canada_west_w25_thimbleberry",
+      "species": "Thimbleberry",
+      "scientificName": "Rubus parviflorus",
+      "description": "First thimbleberries beginning to ripen, soft red berries shaped like little thimbles",
+      "habitats": [
+        "woodland",
+        "stream"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Red velvety berries shaped like tiny hats. Pick one gently and pop it on your fingertip like a thimble!"
+    },
+    {
+      "id": "canada_west_w25_bald_eagle_fledgling",
+      "species": "Bald Eagle",
+      "scientificName": "Haliaeetus leucocephalus",
+      "description": "Young eagles nearly fully feathered, branching out along nest tree limbs and making short test flights",
+      "habitats": [
+        "coast",
+        "stream",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The young eagle hops to the edge of the nest, spreads its wings, and takes a big brave leap. It can fly!"
+    }
+  ],
+  "26": [
+    {
+      "id": "canada_west_w26_blackberry_ripening",
+      "species": "Himalayan Blackberry",
+      "scientificName": "Rubus armeniacus",
+      "description": "First blackberries turning from green to red, still not yet ripe, the first dark ones still a couple weeks away",
+      "habitats": [
+        "hedgerow",
+        "urban",
+        "meadow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The berries are blushing red now. Getting closer! But wait for them to turn shiny black before you eat one"
+    },
+    {
+      "id": "canada_west_w26_thimbleberry",
+      "species": "Thimbleberry",
+      "scientificName": "Rubus parviflorus",
+      "description": "Thimbleberries ripening along forest trails, soft dome-shaped red berries that collapse when picked",
+      "habitats": [
+        "woodland",
+        "stream"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "These soft red berries squish flat in your hand. Eat them right away because they don't keep! So delicious!"
+    },
+    {
+      "id": "canada_west_w26_orca",
+      "species": "Orca (Killer Whale)",
+      "scientificName": "Orcinus orca",
+      "description": "Orcas highly active in the straits, both resident salmon-eating pods and transient seal-hunting pods",
+      "habitats": [
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Orcas blast out misty breaths (pssshh!) and you can see the spray hang in the air before they dive deep"
+    },
+    {
+      "id": "canada_west_w26_dragonfly",
+      "species": "Dragonflies",
+      "description": "Dragonflies abundant along ponds and lakeshores, hawking insects in warm summer air",
+      "habitats": [
+        "pond",
+        "stream",
+        "meadow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Dragonflies are everywhere! Watch them catch tiny bugs right out of the air, better than any fighter jet!"
+    },
+    {
+      "id": "canada_west_w26_black_bear",
+      "species": "Black Bear",
+      "scientificName": "Ursus americanus",
+      "description": "Black bears browsing on berries, grasses, and insects, sometimes seen in suburban areas near forests",
+      "habitats": [
+        "woodland",
+        "meadow",
+        "stream"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Bears love berries as much as you do! They use their long tongues to scoop them off the bushes"
+    },
+    {
+      "id": "canada_west_w26_western_tiger_swallowtail",
+      "species": "Western Tiger Swallowtail",
+      "scientificName": "Papilio rutulus",
+      "description": "Western tiger swallowtail butterflies gliding through gardens and along streams, bright yellow with black stripes",
+      "habitats": [
+        "garden",
+        "stream",
+        "meadow",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A big yellow butterfly with black tiger stripes floats through the garden. It has little tail streamers too!"
+    }
+  ],
+  "27": [
+    {
+      "id": "canada_west_w27_blackberry_ripening",
+      "species": "Himalayan Blackberry",
+      "scientificName": "Rubus armeniacus",
+      "description": "First blackberries turning dark and beginning to ripen, the earliest ones sweet on south-facing brambles",
+      "habitats": [
+        "hedgerow",
+        "urban",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The first shiny black berries are ready! Pull one gently. If it falls off easily, pop it in your mouth. So sweet!"
+    },
+    {
+      "id": "canada_west_w27_thimbleberry",
+      "species": "Thimbleberry",
+      "scientificName": "Rubus parviflorus",
+      "description": "Thimbleberries at peak ripeness in forest shade, soft red berries falling apart in the hand",
+      "habitats": [
+        "woodland",
+        "stream"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Thimbleberries are so ripe they practically jump into your hand. Eat them on the trail, they taste like summer!"
+    },
+    {
+      "id": "canada_west_w27_oregon_grape",
+      "species": "Oregon Grape",
+      "scientificName": "Mahonia aquifolium",
+      "description": "Oregon grape berries turning dusty blue-purple, tart clusters hanging beneath holly-like leaves",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Purple-blue berries covered in dusty coating hang in bunches. They look like tiny grapes but taste super sour!"
+    },
+    {
+      "id": "canada_west_w27_humpback_whale",
+      "species": "Humpback Whale",
+      "scientificName": "Megaptera novaeangliae",
+      "description": "Humpback whales increasingly common in BC waters, lunge-feeding on herring and krill near shore",
+      "habitats": [
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A whale as big as a school bus blasts water from its blowhole, whoosh, you can see it from far away!"
+    },
+    {
+      "id": "canada_west_w27_western_tiger_swallowtail",
+      "species": "Western Tiger Swallowtail",
+      "scientificName": "Papilio rutulus",
+      "description": "Tiger swallowtails visiting garden flowers and mud puddles, gathering minerals from damp earth",
+      "habitats": [
+        "garden",
+        "stream",
+        "meadow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Big yellow butterflies gather at a mud puddle to sip. It's a butterfly party at the water cooler!"
+    },
+    {
+      "id": "canada_west_w27_cedar_waxwing",
+      "species": "Cedar Waxwing",
+      "scientificName": "Bombycilla cedrorum",
+      "description": "Cedar waxwings nesting late, feeding on abundant summer berries and catching insects for their young",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The masked berry-birds are busy feeding their babies. They give high-pitched whistles as they fly by!"
+    }
+  ],
+  "28": [
+    {
+      "id": "canada_west_w28_blackberry",
+      "species": "Himalayan Blackberry",
+      "scientificName": "Rubus armeniacus",
+      "description": "Blackberries ripening fast in the July heat, dark glossy drupelets in sunny hedgerows",
+      "habitats": [
+        "hedgerow",
+        "urban",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Blackberry season! Your fingers turn purple picking the fat juicy berries. Save some for a pie!"
+    },
+    {
+      "id": "canada_west_w28_humpback_whale",
+      "species": "Humpback Whale",
+      "scientificName": "Megaptera novaeangliae",
+      "description": "Humpback whales feeding regularly in BC waters, sometimes breaching spectacularly near shore",
+      "habitats": [
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A giant whale leaps out of the ocean and crashes back down, the biggest belly flop in the world!"
+    },
+    {
+      "id": "canada_west_w28_oregon_grape",
+      "species": "Oregon Grape",
+      "scientificName": "Mahonia aquifolium",
+      "description": "Oregon grape berries at peak, dusty blue-purple clusters attracting birds and bears",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Bunches of dusty purple berries dangle below spiky leaves. Birds gobble them up like candy!"
+    },
+    {
+      "id": "canada_west_w28_orca",
+      "species": "Orca (Killer Whale)",
+      "scientificName": "Orcinus orca",
+      "description": "Peak orca season in the Salish Sea, whale-watching boats following pods through the islands",
+      "habitats": [
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The biggest orcas have dorsal fins taller than you. Watch them surface, blow mist, and dive again!"
+    },
+    {
+      "id": "canada_west_w28_dragonfly",
+      "species": "Dragonflies",
+      "description": "Dragonflies at peak abundance, darners and skimmers hunting over every pond and lake",
+      "habitats": [
+        "pond",
+        "stream",
+        "meadow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Giant blue dragonflies zoom past like tiny fighter jets, catching mosquitoes before you can even blink!"
+    },
+    {
+      "id": "canada_west_w28_osprey",
+      "species": "Osprey",
+      "scientificName": "Pandion haliaetus",
+      "description": "Osprey chicks nearly fledged, young birds exercising wings on nest platform before first flights",
+      "habitats": [
+        "coast",
+        "stream",
+        "pond"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Young ospreys flap their wings on the nest like they're doing jumping jacks, almost time for their first flight!"
+    }
+  ],
+  "29": [
+    {
+      "id": "canada_west_w29_blackberry",
+      "species": "Himalayan Blackberry",
+      "scientificName": "Rubus armeniacus",
+      "description": "Peak blackberry season, bushes heavy with dark ripe fruit in every hedgerow and vacant lot",
+      "habitats": [
+        "hedgerow",
+        "urban",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "So many berries your bucket overflows! The biggest, fattest ones hide in the middle where it's hardest to reach"
+    },
+    {
+      "id": "canada_west_w29_humpback_whale",
+      "species": "Humpback Whale",
+      "scientificName": "Megaptera novaeangliae",
+      "description": "Humpbacks bubble-net feeding in groups, creating curtains of bubbles to trap schools of herring",
+      "habitats": [
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Whales blow a ring of bubbles underwater to trap fish, then lunge up through the middle with mouths wide open!"
+    },
+    {
+      "id": "canada_west_w29_dragonfly",
+      "species": "Dragonflies",
+      "description": "Late summer dragonflies including meadowhawks beginning to appear in reddish tones",
+      "habitats": [
+        "pond",
+        "stream",
+        "meadow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "New red dragonflies are joining the blue ones. The pond is like a colourful air show!"
+    },
+    {
+      "id": "canada_west_w29_fireweed",
+      "species": "Fireweed",
+      "scientificName": "Chamaenerion angustifolium",
+      "description": "Fireweed at peak bloom in clearings and roadsides, tall magenta spires lighting up the landscape",
+      "habitats": [
+        "meadow",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Tall pink-purple towers line the road. They say when fireweed blooms reach the top, summer is almost over!"
+    },
+    {
+      "id": "canada_west_w29_black_bear",
+      "species": "Black Bear",
+      "scientificName": "Ursus americanus",
+      "description": "Black bears gorging on berries in preparation for winter, eating up to 20,000 berries per day",
+      "habitats": [
+        "woodland",
+        "meadow",
+        "stream"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Bears eat berries all day long to get fat for winter. Imagine eating 20,000 berries in one day!"
+    },
+    {
+      "id": "canada_west_w29_bald_eagle",
+      "species": "Bald Eagle",
+      "scientificName": "Haliaeetus leucocephalus",
+      "description": "Young eagles learning to fish, making clumsy attempts while parents soar overhead",
+      "habitats": [
+        "coast",
+        "stream"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Teenage eagles practice fishing. They splash and miss a lot, but keep trying until they catch one!"
+    }
+  ],
+  "30": [
+    {
+      "id": "canada_west_w30_blackberry",
+      "species": "Himalayan Blackberry",
+      "scientificName": "Rubus armeniacus",
+      "description": "Blackberries still at peak, the warmest hedgerows producing the sweetest fruit in the dry summer heat",
+      "habitats": [
+        "hedgerow",
+        "urban",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The berries warmed by the sun taste the sweetest. Eat the warm black ones right off the bush. Yum!"
+    },
+    {
+      "id": "canada_west_w30_fireweed",
+      "species": "Fireweed",
+      "scientificName": "Chamaenerion angustifolium",
+      "description": "Fireweed blooming higher up the stalk, lower flowers setting fluffy white seed heads",
+      "habitats": [
+        "meadow",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Pink flowers at the top, fluffy white seeds at the bottom. The plant is half flower, half cotton candy!"
+    },
+    {
+      "id": "canada_west_w30_humpback_whale",
+      "species": "Humpback Whale",
+      "scientificName": "Megaptera novaeangliae",
+      "description": "Humpback whales abundant in coastal BC, tail flukes visible as they dive deep for fish",
+      "habitats": [
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The whale lifts its huge tail straight up before a deep dive. Every tail has a different pattern, like a fingerprint!"
+    },
+    {
+      "id": "canada_west_w30_oregon_grape",
+      "species": "Oregon Grape",
+      "scientificName": "Mahonia aquifolium",
+      "description": "Oregon grape berries fully ripe, dark blue-purple with a dusty bloom, popular with birds",
+      "habitats": [
+        "woodland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The blue berries are being eaten fast by hungry birds. Rub the dusty coating off to see the dark purple underneath!"
+    },
+    {
+      "id": "canada_west_w30_barn_swallow",
+      "species": "Barn Swallow",
+      "scientificName": "Hirundo rustica",
+      "description": "Barn swallow families with fledglings, young birds perching in rows on wires being fed by parents",
+      "habitats": [
+        "meadow",
+        "urban",
+        "pond"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Baby swallows sit on a wire in a row, mouths wide open, as mum and dad zoom back and forth with bugs!"
+    },
+    {
+      "id": "canada_west_w30_western_tiger_swallowtail",
+      "species": "Western Tiger Swallowtail",
+      "scientificName": "Papilio rutulus",
+      "description": "Tiger swallowtails still gliding through gardens, their numbers beginning to thin as summer wanes",
+      "habitats": [
+        "garden",
+        "stream",
+        "meadow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The big yellow-and-black butterflies are still floating around. Enjoy them now before they disappear!"
+    }
+  ],
+  "31": [
+    {
+      "id": "canada_west_w31_blackberry",
+      "species": "Himalayan Blackberry",
+      "scientificName": "Rubus armeniacus",
+      "description": "Blackberry season winding down, the best fruit picked over but still good berries on north-facing slopes",
+      "habitats": [
+        "hedgerow",
+        "urban",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Hunt for the last hidden berries in the shady spots. The treasure hunt is half the fun!"
+    },
+    {
+      "id": "canada_west_w31_fireweed",
+      "species": "Fireweed",
+      "scientificName": "Chamaenerion angustifolium",
+      "description": "Fireweed flowers reaching the top of the stalk, the old saying goes: when fireweed tops out, summer ends in six weeks",
+      "habitats": [
+        "meadow",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The pink flowers reached the tippy top of the plant. The old timers say that means summer is counting down!"
+    },
+    {
+      "id": "canada_west_w31_humpback_whale",
+      "species": "Humpback Whale",
+      "scientificName": "Megaptera novaeangliae",
+      "description": "Humpbacks continuing to feed in rich coastal waters, sometimes seen very close to shore",
+      "habitats": [
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A whale surfaces so close to the beach you can hear it breathe (pfffhhh!) like a giant snoring!"
+    },
+    {
+      "id": "canada_west_w31_red_huckleberry",
+      "species": "Red Huckleberry",
+      "scientificName": "Vaccinium parvifolium",
+      "description": "Red huckleberries ripe in the forest understory, translucent red jewels on bright green bushes growing from nurse logs",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Tiny red berries glow like rubies in the forest shade. They grow right on top of old rotten logs!"
+    },
+    {
+      "id": "canada_west_w31_great_blue_heron",
+      "species": "Great Blue Heron",
+      "scientificName": "Ardea herodias",
+      "description": "Young great blue herons fledged from rookeries, gangly juveniles learning to fish on their own",
+      "habitats": [
+        "stream",
+        "coast",
+        "pond"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Clumsy young herons wade in the shallows, stabbing at fish and missing. They're still learning!"
+    },
+    {
+      "id": "canada_west_w31_dragonfly",
+      "species": "Meadowhawk Dragonfly",
+      "scientificName": "Sympetrum spp.",
+      "description": "Red meadowhawk dragonflies common along paths and fences, perching with wings forward in warm sun",
+      "habitats": [
+        "pond",
+        "meadow",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Little red dragonflies sit on fence posts warming themselves in the sunshine. They're so bright they glow!"
+    }
+  ],
+  "32": [
+    {
+      "id": "canada_west_w32_blackberry",
+      "species": "Himalayan Blackberry",
+      "scientificName": "Rubus armeniacus",
+      "description": "Late blackberries still available in shaded spots, some berries drying on the vine in the August heat",
+      "habitats": [
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The last berries of summer are hiding in the shade. They might be small but they're extra sweet!"
+    },
+    {
+      "id": "canada_west_w32_fireweed_seed",
+      "species": "Fireweed",
+      "scientificName": "Chamaenerion angustifolium",
+      "description": "Fireweed setting seed, fluffy white plumes drifting through the air like summer snowflakes",
+      "habitats": [
+        "meadow",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "White fluff fills the air like snow in summer! Each tiny parachute carries a seed to a new home"
+    },
+    {
+      "id": "canada_west_w32_red_huckleberry",
+      "species": "Red Huckleberry",
+      "scientificName": "Vaccinium parvifolium",
+      "description": "Red huckleberries still available in the forest, tart and flavourful, favoured by grouse and bears",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Pop a huckleberry in your mouth (zap!) it's tart and sweet and makes your tongue tingle!"
+    },
+    {
+      "id": "canada_west_w32_humpback_whale",
+      "species": "Humpback Whale",
+      "scientificName": "Megaptera novaeangliae",
+      "description": "Humpback whales still feeding actively in BC waters, preparing for their migration south",
+      "habitats": [
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The whales are eating as much as they can. They're fattening up for a very long swim south!"
+    },
+    {
+      "id": "canada_west_w32_bald_eagle",
+      "species": "Bald Eagle",
+      "scientificName": "Haliaeetus leucocephalus",
+      "description": "Eagles soaring over late-summer landscape, juvenile eagles dark brown without the white head markings",
+      "habitats": [
+        "coast",
+        "stream",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Young eagles are all dark brown. It takes them four years to grow the famous white head and tail!"
+    },
+    {
+      "id": "canada_west_w32_wasp",
+      "species": "Yellowjacket Wasp",
+      "scientificName": "Vespula pensylvanica",
+      "description": "Yellowjackets increasingly bold at picnics and around garbage, late-summer colonies at peak size",
+      "habitats": [
+        "urban",
+        "garden",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Buzzy yellow-and-black wasps want your sandwich! Stay calm and they'll usually fly away on their own"
+    }
+  ],
+  "33": [
+    {
+      "id": "canada_west_w33_fireweed_seed",
+      "species": "Fireweed",
+      "scientificName": "Chamaenerion angustifolium",
+      "description": "Fireweed pods splitting open, releasing clouds of silky white seeds into the warm August wind",
+      "habitats": [
+        "meadow",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Thousands of tiny white parachutes float through the sunny air. Catch one and make a wish!"
+    },
+    {
+      "id": "canada_west_w33_blackberry_fading",
+      "species": "Himalayan Blackberry",
+      "scientificName": "Rubus armeniacus",
+      "description": "Blackberry season ending, remaining fruit drying on the canes, birds finishing off the last berries",
+      "habitats": [
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The last wrinkly berries are left for the birds. Blackberry season is saying goodbye for this year"
+    },
+    {
+      "id": "canada_west_w33_salmon_early",
+      "species": "Chinook Salmon",
+      "scientificName": "Oncorhynchus tshawytscha",
+      "description": "Early chinook salmon beginning their journey upstream, the first scouts of the great salmon runs to come",
+      "habitats": [
+        "stream",
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The first big salmon are swimming up the rivers. They've crossed the whole Pacific Ocean to come home!"
+    },
+    {
+      "id": "canada_west_w33_red_huckleberry",
+      "species": "Red Huckleberry",
+      "scientificName": "Vaccinium parvifolium",
+      "description": "Red huckleberries fading, the last berries being gobbled up by thrushes and bears",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The huckleberry bushes are almost bare. The birds and bears beat you to the last ones!"
+    },
+    {
+      "id": "canada_west_w33_great_blue_heron",
+      "species": "Great Blue Heron",
+      "scientificName": "Ardea herodias",
+      "description": "Great blue herons fishing in shallows and on rocky shores, standing perfectly still in golden late-summer light",
+      "habitats": [
+        "stream",
+        "coast",
+        "pond"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The heron stands like a grey statue in the golden evening light (then zap!) a fish dinner in one snap!"
+    },
+    {
+      "id": "canada_west_w33_spider_web",
+      "species": "Garden Spider",
+      "scientificName": "Araneus diadematus",
+      "description": "Large orb-weaving spiders building impressive webs in gardens, dewdrops revealing intricate silk patterns",
+      "habitats": [
+        "garden",
+        "hedgerow",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Huge spider webs sparkle with morning dew. Each one is a work of art that took all night to build!"
+    }
+  ],
+  "34": [
+    {
+      "id": "canada_west_w34_salmon_chinook",
+      "species": "Chinook Salmon",
+      "scientificName": "Oncorhynchus tshawytscha",
+      "description": "Chinook salmon swimming upstream in larger numbers, their dark backs visible in shallow riffles",
+      "habitats": [
+        "stream"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Big salmon fight their way up the river. You can see their backs poking out in the shallow parts!"
+    },
+    {
+      "id": "canada_west_w34_rosehip",
+      "species": "Nootka Rose Hips",
+      "scientificName": "Rosa nutkana",
+      "description": "Wild rose hips turning orange-red on hedgerow bushes, plump and full of vitamin C",
+      "habitats": [
+        "hedgerow",
+        "woodland",
+        "meadow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The roses have turned into little red balls. Birds love them, and people can make jam from them too!"
+    },
+    {
+      "id": "canada_west_w34_spider_web",
+      "species": "Garden Spider",
+      "scientificName": "Araneus diadematus",
+      "description": "Large cross spiders at peak, spectacular orb webs strung between bushes, heavy with morning dew",
+      "habitats": [
+        "garden",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Each web is a perfect wheel of silk threads. The fat spider sits in the middle waiting for a fly to get stuck!"
+    },
+    {
+      "id": "canada_west_w34_barn_swallow",
+      "species": "Barn Swallow",
+      "scientificName": "Hirundo rustica",
+      "description": "Barn swallows gathering on wires in large groups, getting ready for their long migration south",
+      "habitats": [
+        "meadow",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Hundreds of swallows line up on the wires like notes on a music sheet. They're planning their big trip south!"
+    },
+    {
+      "id": "canada_west_w34_bald_eagle",
+      "species": "Bald Eagle",
+      "scientificName": "Haliaeetus leucocephalus",
+      "description": "Eagles beginning to gather near salmon streams, anticipating the autumn runs",
+      "habitats": [
+        "stream",
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Eagles are showing up along the rivers. They know the salmon are coming and they want front-row seats!"
+    },
+    {
+      "id": "canada_west_w34_wasp",
+      "species": "Yellowjacket Wasp",
+      "scientificName": "Vespula pensylvanica",
+      "description": "Yellowjackets at peak boldness, desperate for sugar as their colony begins to break down",
+      "habitats": [
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The wasps are extra pesky right now because they're really hungry. Cover your juice and stay still!"
+    }
+  ],
+  "35": [
+    {
+      "id": "canada_west_w35_salmon_coho",
+      "species": "Coho Salmon",
+      "scientificName": "Oncorhynchus kisutch",
+      "description": "Coho salmon beginning to enter coastal rivers, their silver bodies turning darker as they push upstream",
+      "habitats": [
+        "stream",
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Silver salmon are arriving from the ocean. Watch them leap up the rapids like fishy superheroes!"
+    },
+    {
+      "id": "canada_west_w35_rosehip",
+      "species": "Nootka Rose Hips",
+      "scientificName": "Rosa nutkana",
+      "description": "Rose hips turning deep red-orange, standing out brightly against the still-green hedgerows",
+      "habitats": [
+        "hedgerow",
+        "woodland",
+        "meadow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Shiny red-orange balls dot the hedges like Christmas decorations put up early by the plants!"
+    },
+    {
+      "id": "canada_west_w35_mushroom_early",
+      "species": "Chanterelle Mushroom",
+      "scientificName": "Cantharellus formosus",
+      "description": "First Pacific golden chanterelles appearing in coastal forests after late-summer rains",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Golden trumpet-shaped mushrooms peek through the forest floor. They smell like apricots!"
+    },
+    {
+      "id": "canada_west_w35_bigleaf_maple",
+      "species": "Bigleaf Maple",
+      "scientificName": "Acer macrophyllum",
+      "description": "First hints of yellow appearing on bigleaf maples, the earliest trees showing autumn stress from dry summer",
+      "habitats": [
+        "woodland",
+        "stream",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Some maple leaves are going yellow at the edges. The trees are getting tired from the long hot summer"
+    },
+    {
+      "id": "canada_west_w35_bald_eagle",
+      "species": "Bald Eagle",
+      "scientificName": "Haliaeetus leucocephalus",
+      "description": "Eagles increasingly common along salmon streams, perching on snags and watching the water intently",
+      "habitats": [
+        "stream",
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "More and more eagles line up along the river like fans at a game. The salmon feast is about to begin!"
+    },
+    {
+      "id": "canada_west_w35_meadowhawk",
+      "species": "Meadowhawk Dragonfly",
+      "scientificName": "Sympetrum spp.",
+      "description": "Red meadowhawk dragonflies perching on warm rocks and fence posts in the late-summer sunshine",
+      "habitats": [
+        "pond",
+        "meadow",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Ruby-red dragonflies bask on sunny rocks. They're soaking up the last warm days before autumn!"
+    }
+  ],
+  "36": [
+    {
+      "id": "canada_west_w36_salmon_run",
+      "species": "Salmon (Multiple Species)",
+      "scientificName": "Oncorhynchus spp.",
+      "description": "Salmon runs intensifying, chinook, coho, and pink salmon pushing up rivers, bodies changing colour as they near spawning grounds",
+      "habitats": [
+        "stream"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The rivers are full of salmon! Their bodies turn red and green as they swim home to where they were born"
+    },
+    {
+      "id": "canada_west_w36_bigleaf_maple",
+      "species": "Bigleaf Maple",
+      "scientificName": "Acer macrophyllum",
+      "description": "Bigleaf maples beginning to turn golden yellow, the first autumn colour in the Pacific Northwest",
+      "habitats": [
+        "woodland",
+        "stream",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The giant maple leaves are turning golden like coins. Hold one up to the sun and see it glow!"
+    },
+    {
+      "id": "canada_west_w36_chanterelle",
+      "species": "Chanterelle Mushroom",
+      "scientificName": "Cantharellus formosus",
+      "description": "Chanterelles emerging in coastal Douglas fir forests, golden funnel shapes pushing through moss and needles",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Golden trumpet mushrooms push through the mossy forest floor. They smell fruity and wonderful!"
+    },
+    {
+      "id": "canada_west_w36_bald_eagle",
+      "species": "Bald Eagle",
+      "scientificName": "Haliaeetus leucocephalus",
+      "description": "Bald eagles congregating along salmon streams, snatching fish from the shallows and perching in riverside trees",
+      "habitats": [
+        "stream",
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Eagles swoop down and grab salmon right out of the river with their huge talons. Splash and they're gone!"
+    },
+    {
+      "id": "canada_west_w36_barn_swallow_departure",
+      "species": "Barn Swallow",
+      "scientificName": "Hirundo rustica",
+      "description": "Last barn swallows departing for Central and South America, wires and skies emptying out",
+      "habitats": [
+        "meadow",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The swallows are leaving! Wave goodbye. They'll fly all the way to South America and back again next spring"
+    },
+    {
+      "id": "canada_west_w36_spider_web",
+      "species": "Garden Spider",
+      "scientificName": "Araneus diadematus",
+      "description": "Spider webs everywhere in September mist, orb weavers at their largest size of the year",
+      "habitats": [
+        "garden",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Walk through the misty garden and you'll see webs everywhere, sparkling with tiny water diamonds!"
+    }
+  ],
+  "37": [
+    {
+      "id": "canada_west_w37_salmon_run",
+      "species": "Salmon (Multiple Species)",
+      "scientificName": "Oncorhynchus spp.",
+      "description": "Salmon runs at peak intensity, rivers alive with spawning fish, the defining ecological event of the Pacific Northwest",
+      "habitats": [
+        "stream"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "So many salmon you could almost walk across the river on their backs! They splash and leap everywhere"
+    },
+    {
+      "id": "canada_west_w37_bigleaf_maple",
+      "species": "Bigleaf Maple",
+      "scientificName": "Acer macrophyllum",
+      "description": "Bigleaf maples turning brilliant gold, enormous leaves fluttering down and carpeting the ground",
+      "habitats": [
+        "woodland",
+        "stream",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Giant golden leaves float down like dinner plates. Catch one! It might be bigger than your face!"
+    },
+    {
+      "id": "canada_west_w37_chanterelle",
+      "species": "Chanterelle Mushroom",
+      "scientificName": "Cantharellus formosus",
+      "description": "Chanterelle season building after autumn rains, golden fungi dotting the forest floor under conifers",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The forest floor is sprinkled with golden treasure. Chanterelle mushrooms smell like peaches and pepper!"
+    },
+    {
+      "id": "canada_west_w37_vine_maple",
+      "species": "Vine Maple",
+      "scientificName": "Acer circinatum",
+      "description": "Vine maples turning vivid orange and red in forest understory, one of the most colourful autumn trees",
+      "habitats": [
+        "woodland",
+        "stream"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Small maple trees in the forest light up in orange and red like little campfires among the green!"
+    },
+    {
+      "id": "canada_west_w37_bald_eagle",
+      "species": "Bald Eagle",
+      "scientificName": "Haliaeetus leucocephalus",
+      "description": "Dozens of eagles gathering at productive salmon streams, perching in trees and feasting",
+      "habitats": [
+        "stream"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Count the eagles, 5, 10, 20, they're everywhere along the river having the biggest fish dinner ever!"
+    },
+    {
+      "id": "canada_west_w37_dark_eyed_junco",
+      "species": "Dark-eyed Junco",
+      "scientificName": "Junco hyemalis",
+      "description": "Dark-eyed juncos returning to lowland gardens and parks for winter, flashing white tail feathers",
+      "habitats": [
+        "garden",
+        "urban",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The little grey snowbirds are back! Watch for the flash of white feathers when they fly from bush to bush"
+    }
+  ],
+  "38": [
+    {
+      "id": "canada_west_w38_salmon_spawning",
+      "species": "Salmon (Multiple Species)",
+      "scientificName": "Oncorhynchus spp.",
+      "description": "Salmon actively spawning, females digging redds in gravel while males fight for position, the air thick with the smell of fish",
+      "habitats": [
+        "stream"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Mama salmon uses her tail to dig a nest in the gravel. She flaps so hard the stones fly! Then she lays her eggs"
+    },
+    {
+      "id": "canada_west_w38_vine_maple",
+      "species": "Vine Maple",
+      "scientificName": "Acer circinatum",
+      "description": "Vine maples at peak autumn colour, fiery orange-red against the dark green of conifers",
+      "habitats": [
+        "woodland",
+        "stream"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The little maples blaze orange and red like torches in the dark green forest, autumn's own campfires!"
+    },
+    {
+      "id": "canada_west_w38_chanterelle",
+      "species": "Chanterelle Mushroom",
+      "scientificName": "Cantharellus formosus",
+      "description": "Chanterelle mushrooms abundant after September rains, the most prized wild mushroom of the Pacific Northwest",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Golden chanterelles are popping up everywhere after the rain. They look like little upside-down umbrellas!"
+    },
+    {
+      "id": "canada_west_w38_bigleaf_maple",
+      "species": "Bigleaf Maple",
+      "scientificName": "Acer macrophyllum",
+      "description": "Bigleaf maple leaves falling in golden showers, creating thick rustling carpets along forest trails",
+      "habitats": [
+        "woodland",
+        "stream",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Crunch crunch! Kick through the golden carpet of giant leaves. They're almost too big to fit in your hand!"
+    },
+    {
+      "id": "canada_west_w38_bald_eagle",
+      "species": "Bald Eagle",
+      "scientificName": "Haliaeetus leucocephalus",
+      "description": "Eagles feasting at salmon streams, sometimes dozens in a single tree, a spectacular autumn gathering",
+      "habitats": [
+        "stream"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "One tree has ten eagles in it! They're all waiting their turn to swoop down and grab a salmon"
+    },
+    {
+      "id": "canada_west_w38_varied_thrush",
+      "species": "Varied Thrush",
+      "scientificName": "Ixoreus naevius",
+      "description": "Varied thrush returning to lowland forests and gardens for winter, their haunting whistle heard again",
+      "habitats": [
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A beautiful orange-and-grey bird whistles one long spooky note from the misty trees. Winter is coming!"
+    }
+  ],
+  "39": [
+    {
+      "id": "canada_west_w39_salmon_spawning",
+      "species": "Chum Salmon",
+      "scientificName": "Oncorhynchus keta",
+      "description": "Chum salmon arriving in streams, their bodies developing dramatic green and purple tiger stripes",
+      "habitats": [
+        "stream"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "These salmon turn into green-and-purple striped tigers! Their teeth grow into scary fangs for fighting"
+    },
+    {
+      "id": "canada_west_w39_vine_maple",
+      "species": "Vine Maple",
+      "scientificName": "Acer circinatum",
+      "description": "Vine maples dropping their colourful leaves, forest floor scattered with orange-red confetti",
+      "habitats": [
+        "woodland",
+        "stream"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Red and orange leaves drift down from the vine maples like nature's confetti. Scoop up a handful!"
+    },
+    {
+      "id": "canada_west_w39_chanterelle",
+      "species": "Chanterelle Mushroom",
+      "scientificName": "Cantharellus formosus",
+      "description": "Peak chanterelle season in coastal forests, experienced foragers harvesting baskets of golden fungi",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The forest floor is a treasure hunt. Golden mushrooms hide under ferns and fallen leaves. Can you spot them?"
+    },
+    {
+      "id": "canada_west_w39_bald_eagle",
+      "species": "Bald Eagle",
+      "scientificName": "Haliaeetus leucocephalus",
+      "description": "Eagle concentrations growing along salmon rivers, the autumn gathering building to its peak",
+      "habitats": [
+        "stream"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The eagle convention gets bigger every day. They come from hundreds of kilometres away for the salmon feast!"
+    },
+    {
+      "id": "canada_west_w39_mushroom_variety",
+      "species": "Hedgehog Mushroom",
+      "scientificName": "Hydnum repandum",
+      "description": "Hedgehog mushrooms appearing alongside chanterelles, creamy-orange caps with tiny teeth underneath instead of gills",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Flip this mushroom over and feel underneath. Instead of lines it has tiny soft teeth like a hedgehog belly!"
+    },
+    {
+      "id": "canada_west_w39_varied_thrush",
+      "species": "Varied Thrush",
+      "scientificName": "Ixoreus naevius",
+      "description": "Varied thrush now common in lowland parks and gardens, singing their eerie single-note whistle",
+      "habitats": [
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "One long ghostly whistle rings through the rainy garden. The autumn bird is back to sing in the fog!"
+    }
+  ],
+  "40": [
+    {
+      "id": "canada_west_w40_salmon_dying",
+      "species": "Salmon (Multiple Species)",
+      "scientificName": "Oncorhynchus spp.",
+      "description": "Spent salmon dying after spawning, their decaying bodies fertilizing the forest, a circle of life moment",
+      "habitats": [
+        "stream"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The salmon's journey is over. Their bodies feed the trees and baby fish, keeping the circle of life going"
+    },
+    {
+      "id": "canada_west_w40_bigleaf_maple",
+      "species": "Bigleaf Maple",
+      "scientificName": "Acer macrophyllum",
+      "description": "Bigleaf maples nearly bare, huge golden leaves piled deep along trails and in gutters",
+      "habitats": [
+        "woodland",
+        "stream",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Wade through knee-deep piles of giant golden leaves, swish swish. They crunch and rustle under your feet!"
+    },
+    {
+      "id": "canada_west_w40_chanterelle",
+      "species": "Chanterelle Mushroom",
+      "scientificName": "Cantharellus formosus",
+      "description": "Chanterelles still fruiting in the damp October forest, season continuing with steady autumn rains",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The rain keeps the golden mushrooms popping up. The forest floor is a treasure chest that refills itself!"
+    },
+    {
+      "id": "canada_west_w40_bald_eagle",
+      "species": "Bald Eagle",
+      "scientificName": "Haliaeetus leucocephalus",
+      "description": "Huge gatherings of bald eagles along salmon rivers, some streams hosting hundreds of birds",
+      "habitats": [
+        "stream"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Hundreds of eagles in one place! Every tree branch, every rock, every sandbar has an eagle sitting on it!"
+    },
+    {
+      "id": "canada_west_w40_dark_eyed_junco",
+      "species": "Dark-eyed Junco",
+      "scientificName": "Junco hyemalis",
+      "description": "Juncos common in gardens and parks, hopping on the ground and flashing white tail feathers",
+      "habitats": [
+        "garden",
+        "urban",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Cute grey birds with white flashing tails hop around in the fallen leaves. They're here for winter!"
+    },
+    {
+      "id": "canada_west_w40_banana_slug",
+      "species": "Banana Slug",
+      "scientificName": "Ariolimax columbianus",
+      "description": "Banana slugs active again with autumn rains, bright yellow bodies crossing forest trails",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The banana slugs are back! The rain woke them up. They leave sparkly silver trails across every log"
+    }
+  ],
+  "41": [
+    {
+      "id": "canada_west_w41_salmon_spawning",
+      "species": "Chum Salmon",
+      "scientificName": "Oncorhynchus keta",
+      "description": "Chum salmon still spawning in coastal streams, green-and-purple striped bodies fighting in the shallows",
+      "habitats": [
+        "stream"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Stripy green-and-purple salmon still splashing in the creek. They never give up even when they're tired!"
+    },
+    {
+      "id": "canada_west_w41_chanterelle",
+      "species": "Chanterelle Mushroom",
+      "scientificName": "Cantharellus formosus",
+      "description": "Chanterelles still available but season beginning to slow, the best specimens found in sheltered spots",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Fewer golden trumpets now. The mushroom treasure hunt is getting harder but the prizes are still there!"
+    },
+    {
+      "id": "canada_west_w41_bald_eagle",
+      "species": "Bald Eagle",
+      "scientificName": "Haliaeetus leucocephalus",
+      "description": "Eagles continuing to feast on salmon, some streams attracting spectacular concentrations",
+      "habitats": [
+        "stream"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Eagles carry big salmon in their claws and fly to a perch to eat. The fish is almost as big as the eagle!"
+    },
+    {
+      "id": "canada_west_w41_oyster_mushroom",
+      "species": "Oyster Mushroom",
+      "scientificName": "Pleurotus ostreatus",
+      "description": "Oyster mushrooms fruiting in overlapping clusters on dead and dying alder and maple trees",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Stacked shelves of white mushrooms grow out of a dead tree like little stairs. They smell like the sea!"
+    },
+    {
+      "id": "canada_west_w41_varied_thrush",
+      "species": "Varied Thrush",
+      "scientificName": "Ixoreus naevius",
+      "description": "Varied thrush common in lowland forests and gardens, their single-note whistle the soundtrack of autumn rain",
+      "habitats": [
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "In the rain, one bird sings one note that sounds like the forest itself is humming, so beautiful and sad"
+    },
+    {
+      "id": "canada_west_w41_rosehip",
+      "species": "Nootka Rose Hips",
+      "scientificName": "Rosa nutkana",
+      "description": "Rose hips deep red and softening with frosts, an important food source for overwintering birds",
+      "habitats": [
+        "hedgerow",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The red rose hips are soft and squishy now. Birds peck them open to eat the seeds inside!"
+    }
+  ],
+  "42": [
+    {
+      "id": "canada_west_w42_salmon_dying",
+      "species": "Salmon (Multiple Species)",
+      "scientificName": "Oncorhynchus spp.",
+      "description": "Salmon carcasses lining stream banks, a dramatic but essential nutrient transfer from ocean to forest",
+      "habitats": [
+        "stream"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The salmon's journey is done. Their bodies become food for eagles, bears, and even the trees!"
+    },
+    {
+      "id": "canada_west_w42_mushroom_season",
+      "species": "Chanterelle Mushroom",
+      "scientificName": "Cantharellus formosus",
+      "description": "Late chanterelles and other woodland fungi still fruiting in the wet October forest",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The last golden chanterelles hide under wet leaves. You have to look extra carefully to find them now!"
+    },
+    {
+      "id": "canada_west_w42_bald_eagle",
+      "species": "Bald Eagle",
+      "scientificName": "Haliaeetus leucocephalus",
+      "description": "Eagles still concentrated at salmon rivers, some birds beginning to disperse as fish runs wind down",
+      "habitats": [
+        "stream",
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The eagles are still at the river buffet. They've been eating fish for weeks and look very well-fed!"
+    },
+    {
+      "id": "canada_west_w42_moss_revival",
+      "species": "Forest Moss",
+      "description": "Mosses reviving with autumn rains after summer dormancy, tree trunks and rocks turning vivid green again",
+      "habitats": [
+        "woodland",
+        "wall_fence"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The rain wakes up the moss! It turns from dry brown to squishy bright green, like magic green paint!"
+    },
+    {
+      "id": "canada_west_w42_oyster_mushroom",
+      "species": "Oyster Mushroom",
+      "scientificName": "Pleurotus ostreatus",
+      "description": "Oyster mushrooms at peak on dead wood, beautiful overlapping white-to-grey shelves",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "White mushroom shelves stack up the side of a dead tree. They look like stairs for a fairy!"
+    },
+    {
+      "id": "canada_west_w42_dark_eyed_junco",
+      "species": "Dark-eyed Junco",
+      "scientificName": "Junco hyemalis",
+      "description": "Juncos in large winter flocks, twittering calls as they forage together through leaf litter",
+      "habitats": [
+        "garden",
+        "urban",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A gang of grey birds with white belly flashes hops through the leaves together, chattering away!"
+    }
+  ],
+  "43": [
+    {
+      "id": "canada_west_w43_mushroom_season",
+      "species": "Hedgehog Mushroom",
+      "scientificName": "Hydnum repandum",
+      "description": "Hedgehog mushrooms at peak in coastal forests, pale orange caps with distinctive tooth-like spines underneath",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "This mushroom has soft tiny teeth under its cap instead of lines, like a friendly hedgehog belly!"
+    },
+    {
+      "id": "canada_west_w43_salmon_late",
+      "species": "Chum Salmon",
+      "scientificName": "Oncorhynchus keta",
+      "description": "Late chum salmon still entering streams, the last wave of the autumn spawning season",
+      "habitats": [
+        "stream"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The last brave salmon are still swimming upstream. They're the final runners in nature's marathon!"
+    },
+    {
+      "id": "canada_west_w43_moss_revival",
+      "species": "Forest Moss",
+      "description": "Moss intensely green and lush after weeks of autumn rain, coating every surface in the forest",
+      "habitats": [
+        "woodland",
+        "wall_fence",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The whole forest is wrapped in thick green velvet. Press your hand into the moss and feel the squish!"
+    },
+    {
+      "id": "canada_west_w43_bald_eagle",
+      "species": "Bald Eagle",
+      "scientificName": "Haliaeetus leucocephalus",
+      "description": "Eagles dispersing from salmon streams back to coastal territories, still fishing along rivers and shores",
+      "habitats": [
+        "stream",
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The eagle party is winding down. The well-fed birds fly home to their favourite trees along the coast"
+    },
+    {
+      "id": "canada_west_w43_varied_thrush",
+      "species": "Varied Thrush",
+      "scientificName": "Ixoreus naevius",
+      "description": "Varied thrush a constant presence in rainy autumn forests, foraging on the ground and singing from the canopy",
+      "habitats": [
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The orange-bellied bird hops through the wet leaves, stops to listen, then sings one long whispery note"
+    },
+    {
+      "id": "canada_west_w43_banana_slug",
+      "species": "Banana Slug",
+      "scientificName": "Ariolimax columbianus",
+      "description": "Banana slugs very active in the wet autumn forest, some individuals as long as a ruler",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The banana slugs are huge right now. Some are as long as a ruler! They leave shiny silver highways on every log"
+    }
+  ],
+  "44": [
+    {
+      "id": "canada_west_w44_mushroom_season",
+      "species": "Oyster Mushroom",
+      "scientificName": "Pleurotus ostreatus",
+      "description": "Oyster mushrooms still fruiting on dead wood, handling the colder temperatures well",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "White mushroom shelves keep growing on dead trees even as it gets cold. They don't mind the chill!"
+    },
+    {
+      "id": "canada_west_w44_varied_thrush",
+      "species": "Varied Thrush",
+      "scientificName": "Ixoreus naevius",
+      "description": "Varied thrush singing regularly in lowland forests and gardens, the quintessential sound of BC's wet season",
+      "habitats": [
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "One long ringing note floats through the November fog. The varied thrush is the voice of the rainy forest"
+    },
+    {
+      "id": "canada_west_w44_moss_carpet",
+      "species": "Forest Moss",
+      "description": "Moss at its most luxuriant, entire tree trunks and stumps buried under thick emerald carpets",
+      "habitats": [
+        "woodland",
+        "wall_fence",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The forest looks like it's been painted in every shade of green. Soft squishy moss covers everything!"
+    },
+    {
+      "id": "canada_west_w44_dark_eyed_junco",
+      "species": "Dark-eyed Junco",
+      "scientificName": "Junco hyemalis",
+      "description": "Juncos abundant in winter flocks, their tinkling calls and flashing white tails a constant in gardens",
+      "habitats": [
+        "garden",
+        "urban",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The little grey snowbirds are everywhere! They hop-hop-hop on the ground and tinkle like tiny bells"
+    },
+    {
+      "id": "canada_west_w44_salmon_carcass",
+      "species": "Salmon (Spent)",
+      "scientificName": "Oncorhynchus spp.",
+      "description": "Salmon carcasses decomposing along stream banks, feeding the forest ecosystem through the winter",
+      "habitats": [
+        "stream"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The salmon gave everything to have their babies. Now their bodies feed the trees and the bugs and the river"
+    },
+    {
+      "id": "canada_west_w44_anna_hummingbird",
+      "species": "Anna's Hummingbird",
+      "scientificName": "Calypte anna",
+      "description": "Anna's hummingbirds still active at garden feeders and winter-flowering plants as other hummingbirds have migrated",
+      "habitats": [
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "While all the other hummingbirds flew south, Anna's hummingbird stays. It's tough enough for winters here!"
+    }
+  ],
+  "45": [
+    {
+      "id": "canada_west_w45_mushroom_late",
+      "species": "Winter Chanterelle",
+      "scientificName": "Craterellus tubaeformis",
+      "description": "Winter chanterelles (yellowfoot) appearing in damp conifer forests, thin-capped brown-and-yellow fungi",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Skinny brown-and-yellow mushrooms cluster on the forest floor. They're the cold-weather cousins of chanterelles!"
+    },
+    {
+      "id": "canada_west_w45_varied_thrush",
+      "species": "Varied Thrush",
+      "scientificName": "Ixoreus naevius",
+      "description": "Varied thrush singing from misty cedars and hemlocks, the haunting whistle echoing through November rain",
+      "habitats": [
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "One ghostly whistle hangs in the foggy air, the most magical sound in the whole rainy forest"
+    },
+    {
+      "id": "canada_west_w45_moss_carpet",
+      "species": "Forest Moss",
+      "description": "Moss spectacularly lush in the November rains, every surface in the forest softened in green",
+      "habitats": [
+        "woodland",
+        "wall_fence"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The rain makes the moss puff up like a green sponge. Squeeze some gently and watch the water drip out!"
+    },
+    {
+      "id": "canada_west_w45_stellers_jay",
+      "species": "Steller's Jay",
+      "scientificName": "Cyanocitta stelleri",
+      "description": "Steller's jays caching acorns and seeds for winter, busy and noisy in forest and garden",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The crested blue jay stuffs seeds in hiding spots and yells at everyone. It's the noisiest bird in the forest!"
+    },
+    {
+      "id": "canada_west_w45_great_blue_heron",
+      "species": "Great Blue Heron",
+      "scientificName": "Ardea herodias",
+      "description": "Great blue herons stalking winter shorelines, grey silhouettes in the November mist",
+      "habitats": [
+        "coast",
+        "stream",
+        "pond"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A tall grey ghost stands in the misty water, perfectly still, patient, waiting for a fish to swim by"
+    },
+    {
+      "id": "canada_west_w45_banana_slug",
+      "species": "Banana Slug",
+      "scientificName": "Ariolimax columbianus",
+      "description": "Banana slugs still active in the mild November forest, crossing trails after every rainfall",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Step carefully on the trail. Big yellow slugs are everywhere after the rain, leaving sparkly paths!"
+    }
+  ],
+  "46": [
+    {
+      "id": "canada_west_w46_winter_chanterelle",
+      "species": "Winter Chanterelle",
+      "scientificName": "Craterellus tubaeformis",
+      "description": "Winter chanterelles (yellowfoot) at peak in wet conifer forests, growing in large troops among moss",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Troops of little brown-and-yellow mushrooms march across the mossy forest floor like a tiny army!"
+    },
+    {
+      "id": "canada_west_w46_varied_thrush",
+      "species": "Varied Thrush",
+      "scientificName": "Ixoreus naevius",
+      "description": "Varied thrush a fixture of the rainy November forest, singing and foraging on the wet ground",
+      "habitats": [
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Rain patters on the leaves, and through it you hear one clear, beautiful note. The forest is singing back"
+    },
+    {
+      "id": "canada_west_w46_bald_eagle",
+      "species": "Bald Eagle",
+      "scientificName": "Haliaeetus leucocephalus",
+      "description": "Bald eagles back on coastal and riverside territories, fishing and scavenging through the dark months",
+      "habitats": [
+        "coast",
+        "stream"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The white-headed eagle sits on a bare branch above the grey water, watching for fish with its super-sharp eyes"
+    },
+    {
+      "id": "canada_west_w46_annas_hummingbird",
+      "species": "Anna's Hummingbird",
+      "scientificName": "Calypte anna",
+      "description": "Anna's hummingbirds visiting garden feeders and late-blooming flowers, puffing up feathers against the cold",
+      "habitats": [
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The hummingbird puffs up its feathers like a tiny green ball to stay warm. It visits the feeder even in rain!"
+    },
+    {
+      "id": "canada_west_w46_sword_fern",
+      "species": "Sword Fern",
+      "scientificName": "Polystichum munitum",
+      "description": "Sword ferns lush and green on the forest floor, evergreen fronds catching raindrops",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "touch",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The sword ferns stay green all year! Listen to the rain drumming on their big fronds like tiny drums"
+    },
+    {
+      "id": "canada_west_w46_spotted_towhee",
+      "species": "Spotted Towhee",
+      "scientificName": "Pipilo maculatus",
+      "description": "Spotted towhees noisily scratching through leaf litter under hedges, rusty flanks flashing",
+      "habitats": [
+        "hedgerow",
+        "garden",
+        "woodland"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Who's making all that scratching noise in the bushes? A black-and-orange bird does a backwards kick-dance in the leaves!"
+    }
+  ],
+  "47": [
+    {
+      "id": "canada_west_w47_winter_chanterelle",
+      "species": "Winter Chanterelle",
+      "scientificName": "Craterellus tubaeformis",
+      "description": "Winter chanterelles still abundant in wet forests, the season's most reliable late mushroom",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Even in November the forest gives gifts. Little yellow-stemmed mushrooms cluster everywhere in the moss!"
+    },
+    {
+      "id": "canada_west_w47_oyster_mushroom",
+      "species": "Oyster Mushroom",
+      "scientificName": "Pleurotus ostreatus",
+      "description": "Oyster mushrooms continuing to fruit on dead wood through late autumn, tolerating cold and wet",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "White mushroom shelves keep growing on old logs even as winter comes. They're the toughest mushrooms around!"
+    },
+    {
+      "id": "canada_west_w47_annas_hummingbird",
+      "species": "Anna's Hummingbird",
+      "scientificName": "Calypte anna",
+      "description": "Anna's hummingbirds singing their scratchy courtship song even in November, establishing winter territories",
+      "habitats": [
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Can you believe it? The hummingbird is singing in November rain! It's picking its favourite garden already"
+    },
+    {
+      "id": "canada_west_w47_varied_thrush",
+      "species": "Varied Thrush",
+      "scientificName": "Ixoreus naevius",
+      "description": "Varied thrush visiting berry bushes and leaf litter in gardens, the orange breast bright against grey skies",
+      "habitats": [
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The orange-bellied bird is a bright spot on a grey day. It hops through the garden like a little sunrise!"
+    },
+    {
+      "id": "canada_west_w47_western_red_cedar",
+      "species": "Western Red Cedar",
+      "scientificName": "Thuja plicata",
+      "description": "Western red cedars standing strong in winter rain, their drooping branches shedding water beautifully",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "smell",
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The big cedar tree sheds rain from its droopy branches like a living umbrella. Smell the spicy wood!"
+    },
+    {
+      "id": "canada_west_w47_red_breasted_nuthatch",
+      "species": "Red-breasted Nuthatch",
+      "scientificName": "Sitta canadensis",
+      "description": "Nuthatches busy at garden feeders and on tree trunks, creeping headfirst down bark with nasal calls",
+      "habitats": [
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A tiny bird walks down the tree trunk upside-down. No other bird does that! It goes \"yank yank yank\"!"
+    }
+  ],
+  "48": [
+    {
+      "id": "canada_west_w48_winter_chanterelle",
+      "species": "Winter Chanterelle",
+      "scientificName": "Craterellus tubaeformis",
+      "description": "Winter chanterelles still fruiting in mild coastal forests, the last mushroom hurrah before deep winter",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The little yellowfoot mushrooms are still poking up through the moss, the very last mushrooms of autumn!"
+    },
+    {
+      "id": "canada_west_w48_bald_eagle",
+      "species": "Bald Eagle",
+      "scientificName": "Haliaeetus leucocephalus",
+      "description": "Bald eagles fishing along the coast and rivers, sometimes gathering at late salmon runs",
+      "habitats": [
+        "coast",
+        "stream"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The eagle sits proud on a branch above the grey ocean, its white head the brightest thing in the whole sky"
+    },
+    {
+      "id": "canada_west_w48_moss_carpet",
+      "species": "Forest Moss",
+      "description": "Moss at peak winter glory, every tree, rock, and stump cushioned in thick emerald green",
+      "habitats": [
+        "woodland",
+        "wall_fence",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The whole forest is a green wonderland. Every log, every rock, every branch wears a thick mossy coat!"
+    },
+    {
+      "id": "canada_west_w48_varied_thrush",
+      "species": "Varied Thrush",
+      "scientificName": "Ixoreus naevius",
+      "description": "Varied thrush singing through the darkening days, the eerie whistle more haunting than ever in early winter",
+      "habitats": [
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "As the days get short, one beautiful whistle rings through the dark forest. The winter singer is here"
+    },
+    {
+      "id": "canada_west_w48_stellers_jay",
+      "species": "Steller's Jay",
+      "scientificName": "Cyanocitta stelleri",
+      "description": "Steller's jays visiting feeders and scavenging boldly, their dark blue plumage vivid against grey skies",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The bossy blue jay with the spiky crest screams from the feeder: \"This is my peanut! Go away!\""
+    },
+    {
+      "id": "canada_west_w48_dark_eyed_junco",
+      "species": "Dark-eyed Junco",
+      "scientificName": "Junco hyemalis",
+      "description": "Juncos in busy winter flocks, foraging under feeders and in garden leaf litter",
+      "habitats": [
+        "garden",
+        "urban",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A flock of snowbirds bounces under the bird feeder, pecking up all the seeds the bigger birds dropped!"
+    }
+  ],
+  "49": [
+    {
+      "id": "canada_west_w49_bald_eagle",
+      "species": "Bald Eagle",
+      "scientificName": "Haliaeetus leucocephalus",
+      "description": "Bald eagles prominent along rivers and coast, white heads and tails standing out against dark winter skies",
+      "habitats": [
+        "coast",
+        "stream"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Even on the greyest day, the eagle's white head shines like a beacon from the top of a tall tree"
+    },
+    {
+      "id": "canada_west_w49_annas_hummingbird",
+      "species": "Anna's Hummingbird",
+      "scientificName": "Calypte anna",
+      "description": "Anna's hummingbirds surviving December cold by torpor at night, active at feeders during the day",
+      "habitats": [
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "This amazing tiny bird sleeps so deeply in the cold it looks frozen, then wakes up in the morning and buzzes to the feeder!"
+    },
+    {
+      "id": "canada_west_w49_varied_thrush",
+      "species": "Varied Thrush",
+      "scientificName": "Ixoreus naevius",
+      "description": "Varied thrush singing its winter song from rain-dark conifers, an iconic Pacific Northwest winter sound",
+      "habitats": [
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The forest is dark and dripping. And then one beautiful note rings out, clear as a bell. That's the thrush!"
+    },
+    {
+      "id": "canada_west_w49_sword_fern",
+      "species": "Sword Fern",
+      "scientificName": "Polystichum munitum",
+      "description": "Sword ferns standing green and proud through December rain, the eternal green of the coastal forest floor",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "While other plants sleep for winter, the sword ferns stay wide awake and bright green. They love the rain!"
+    },
+    {
+      "id": "canada_west_w49_douglas_fir",
+      "species": "Douglas Fir",
+      "scientificName": "Pseudotsuga menziesii",
+      "description": "Douglas fir trees towering over the winter forest, their distinctive cones with mouse-tail bracts littering the ground",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "touch",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Pick up a Douglas fir cone. See the tiny mouse tails sticking out between the scales? Mice hiding in the cone!"
+    },
+    {
+      "id": "canada_west_w49_spotted_towhee",
+      "species": "Spotted Towhee",
+      "scientificName": "Pipilo maculatus",
+      "description": "Towhees noisily scratching through winter leaf litter with their trademark two-footed backward hop",
+      "habitats": [
+        "hedgerow",
+        "garden",
+        "woodland"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Scratch scratch scratch. Something's making a huge racket in the leaves! It's just a towhee doing its leaf dance"
+    }
+  ],
+  "50": [
+    {
+      "id": "canada_west_w50_bald_eagle",
+      "species": "Bald Eagle",
+      "scientificName": "Haliaeetus leucocephalus",
+      "description": "Bald eagles fishing and soaring along the December coast, some birds beginning courtship behaviour",
+      "habitats": [
+        "coast",
+        "stream"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Two eagles fly side by side over the winter ocean. They're already starting to think about building a nest!"
+    },
+    {
+      "id": "canada_west_w50_annas_hummingbird",
+      "species": "Anna's Hummingbird",
+      "scientificName": "Calypte anna",
+      "description": "Anna's hummingbirds singing even in December, males performing dive displays on milder days",
+      "habitats": [
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The hummingbird doesn't care that it's December. It sings a buzzy song and does diving tricks in the winter sunshine!"
+    },
+    {
+      "id": "canada_west_w50_moss_carpet",
+      "species": "Forest Moss",
+      "description": "Moss at its most intensely green in the December rains, the forest floor a carpet of emerald",
+      "habitats": [
+        "woodland",
+        "wall_fence",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The greenest green you've ever seen! December moss is so bright it almost seems to glow in the rain"
+    },
+    {
+      "id": "canada_west_w50_varied_thrush",
+      "species": "Varied Thrush",
+      "scientificName": "Ixoreus naevius",
+      "description": "Varied thrush visiting garden berry bushes and singing from hemlock and cedar branches in winter rain",
+      "habitats": [
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A flash of orange hops onto the berry bush. Then the thrush flies to a tree and sings its winter lullaby"
+    },
+    {
+      "id": "canada_west_w50_western_red_cedar",
+      "species": "Western Red Cedar",
+      "scientificName": "Thuja plicata",
+      "description": "Western red cedars majestic in winter rain, their drooping sprays of scale-like leaves dripping with moisture",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "smell",
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Rub a cedar leaf between your fingers. The spicy, woody smell is like opening a treasure chest on a rainy day!"
+    },
+    {
+      "id": "canada_west_w50_great_blue_heron",
+      "species": "Great Blue Heron",
+      "scientificName": "Ardea herodias",
+      "description": "Great blue herons hunting in winter shallows, hunched against the cold, patient as statues",
+      "habitats": [
+        "coast",
+        "stream",
+        "pond"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The big grey heron stands perfectly still in the cold water, rain dripping off its beak, so patient!"
+    }
+  ],
+  "51": [
+    {
+      "id": "canada_west_w51_bald_eagle",
+      "species": "Bald Eagle",
+      "scientificName": "Haliaeetus leucocephalus",
+      "description": "Eagles soaring on winter thermals, pairs returning to traditional nesting territories",
+      "habitats": [
+        "coast",
+        "stream",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The eagles are going back to their favourite trees. They use the same nest year after year!"
+    },
+    {
+      "id": "canada_west_w51_annas_hummingbird",
+      "species": "Anna's Hummingbird",
+      "scientificName": "Calypte anna",
+      "description": "Anna's hummingbirds brave the shortest days, visiting feeders frequently in the limited daylight hours",
+      "habitats": [
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The tiny hummingbird has to eat every 10 minutes to stay alive in winter. What a brave little bird!"
+    },
+    {
+      "id": "canada_west_w51_varied_thrush",
+      "species": "Varied Thrush",
+      "scientificName": "Ixoreus naevius",
+      "description": "Varied thrush singing through the darkest week of the year, its ethereal whistle the sound of winter solstice",
+      "habitats": [
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "On the shortest, darkest day of the year, the thrush still sings. One clear note says everything will be okay"
+    },
+    {
+      "id": "canada_west_w51_sword_fern",
+      "species": "Sword Fern",
+      "scientificName": "Polystichum munitum",
+      "description": "Sword ferns evergreen and lush on the forest floor, their symmetrical fronds a constant through every season",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The sword ferns never change. They're the steady, reliable friends of the forest, green through rain, cold, and everything!"
+    },
+    {
+      "id": "canada_west_w51_dark_eyed_junco",
+      "species": "Dark-eyed Junco",
+      "scientificName": "Junco hyemalis",
+      "description": "Winter junco flocks foraging actively in garden leaf litter and under feeders in short December days",
+      "habitats": [
+        "garden",
+        "urban",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The snowbirds hop and peck all day because winter days are short. They need to eat fast before dark!"
+    },
+    {
+      "id": "canada_west_w51_banana_slug",
+      "species": "Banana Slug",
+      "scientificName": "Ariolimax columbianus",
+      "description": "Banana slugs still active in the mild coastal forest, slowing down but not yet dormant",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Even in December, yellow banana slugs slide along on mild days. They're the slowest winter hikers!"
+    }
+  ],
+  "52": [
+    {
+      "id": "canada_west_w52_bald_eagle",
+      "species": "Bald Eagle",
+      "scientificName": "Haliaeetus leucocephalus",
+      "description": "Bald eagles on winter territories, some pairs already repairing nests for the coming breeding season",
+      "habitats": [
+        "coast",
+        "stream",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The eagle pair starts fixing up their huge nest already. They add new sticks while snow falls around them!"
+    },
+    {
+      "id": "canada_west_w52_annas_hummingbird",
+      "species": "Anna's Hummingbird",
+      "scientificName": "Calypte anna",
+      "description": "Anna's hummingbirds at garden feeders on the last days of the year, their iridescent gorgets flashing even in low winter light",
+      "habitats": [
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A tiny jewel visits the feeder on the last day of the year, pink throat flashing like a Christmas light!"
+    },
+    {
+      "id": "canada_west_w52_varied_thrush",
+      "species": "Varied Thrush",
+      "scientificName": "Ixoreus naevius",
+      "description": "Varied thrush singing from rain-soaked conifers as the year ends, the quintessential BC winter sound",
+      "habitats": [
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The year ends with the thrush's beautiful whistle echoing through the misty forest. Goodnight, old year!"
+    },
+    {
+      "id": "canada_west_w52_moss_carpet",
+      "species": "Forest Moss",
+      "description": "Moss at full winter glory, the coastal rainforest draped in endless shades of green despite the season",
+      "habitats": [
+        "woodland",
+        "wall_fence",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "While the rest of the world looks grey and bare, the mossy forest stays green as ever, nature's winter miracle!"
+    },
+    {
+      "id": "canada_west_w52_stellers_jay",
+      "species": "Steller's Jay",
+      "scientificName": "Cyanocitta stelleri",
+      "description": "Steller's jays bright and noisy at garden feeders, caching peanuts and seeds for the lean months ahead",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The bold blue jay grabs a peanut and flies off to hide it in a secret spot. It remembers hundreds of hiding places!"
+    },
+    {
+      "id": "canada_west_w52_douglas_fir",
+      "species": "Douglas Fir",
+      "scientificName": "Pseudotsuga menziesii",
+      "description": "Douglas fir standing tall as the year turns, ancient evergreen sentinels of the Pacific Northwest",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The giant Douglas fir has watched hundreds of years go by. Tip your head back and say happy new year to the tree!"
+    }
+  ]
+}

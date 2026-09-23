@@ -1,0 +1,110 @@
+{
+  "$comment": [
+    "The citations we are allowed to print (#464). Every objective a session cites must appear",
+    "here byte-identical, and scripts/standards-lint.mjs enforces that.",
+    "",
+    "Why this file exists. `standards[].text` is published statutory wording that we QUOTE to a",
+    "teacher so she can justify a lesson to her head. A quote that drifts is worse than no quote:",
+    "it cites something no government ever published, and it does so in the one place we asked her",
+    "to trust us. Unlike the founder's own copy, which scripts/verbatim-fidelity.mjs holds against",
+    "its source rows, an external citation had no source to check against — so nothing could catch",
+    "a paraphrase. Three had already drifted in a single pack before this file existed:",
+    "  'observe changes across the four seasons'  -> statutory text uses the numeral, '4 seasons'",
+    "  K-ESS3-1 'plants or animals'               -> published text reads 'plants and animals'",
+    "",
+    "Adding an entry is a research task, not a typing task. Fetch the published source, copy the",
+    "wording exactly, and record where and when it was read. Never add an entry from memory, and",
+    "never adjust an entry to match a session — the citation is the fixed thing; the mapping is",
+    "what moves.",
+    "",
+    "England publishes no per-objective codes. The programme of study carries none; 'Sc2/2.1a'",
+    "style codes come from commercial schemes numbering the statute themselves. So `code` here is",
+    "the real addressable unit: the year and the statutory subheading. Several objectives share a",
+    "code, which is correct and is why entries are matched on code and text together."
+  ],
+  "sources": {
+    "england": {
+      "title": "National curriculum in England: science programmes of study",
+      "url": "https://www.gov.uk/government/publications/national-curriculum-in-england-science-programmes-of-study/national-curriculum-in-england-science-programmes-of-study",
+      "scope": "The statutory bullets only. The non-statutory guidance beside them is not citable. Working scientifically is statutory too and is published per key stage, not per year, so it is cited as \"Key stage 1 · Working scientifically\" and \"Years 3 and 4 · Working scientifically\" (the statute's \"Lower key stage 2 – years 3 and 4\"); those bullets and Year 4 living things were read 2026-09-07.",
+      "read": "2026-08-28"
+    },
+    "ngss": {
+      "title": "Next Generation Science Standards, performance expectations",
+      "url": "https://www.nextgenscience.org/",
+      "scope": "The performance expectation sentence as published. Clarification statements are not carried.",
+      "read": "2026-08-28"
+    },
+    "england-art-and-design": {
+      "title": "National curriculum in England: art and design programmes of study",
+      "url": "https://www.gov.uk/government/publications/national-curriculum-in-england-art-and-design-programmes-of-study/national-curriculum-in-england-art-and-design-programmes-of-study",
+      "scope": "The key stage 1 statutory bullets only. Cited under system \"england\" with the code \"Key stage 1 · Art and design\", because the subject publishes no per-year subheadings.",
+      "read": "2026-09-04"
+    },
+    "england-english": {
+      "title": "National curriculum in England: English programmes of study",
+      "url": "https://www.gov.uk/government/publications/national-curriculum-in-england-english-programmes-of-study/national-curriculum-in-england-english-programmes-of-study",
+      "scope": "The statutory spoken language bullets for years 1 to 6 only. Cited under system \"england\" with the code \"Years 1 to 6 · Spoken language\", the span the statute itself gives them.",
+      "read": "2026-09-04"
+    },
+    "england-mathematics": {
+      "title": "National curriculum in England: mathematics programmes of study",
+      "url": "https://www.gov.uk/government/publications/national-curriculum-in-england-mathematics-programmes-of-study/national-curriculum-in-england-mathematics-programmes-of-study",
+      "scope": "The statutory bullets only. Cited under system \"england\" with the year and the statutory subheading, \"Year 2 · Statistics\", the same shape as science.",
+      "read": "2026-09-07"
+    },
+    "england-design-and-technology": {
+      "title": "National curriculum in England: design and technology programmes of study",
+      "url": "https://www.gov.uk/government/publications/national-curriculum-in-england-design-and-technology-programmes-of-study/national-curriculum-in-england-design-and-technology-programmes-of-study",
+      "scope": "The key stage 1 statutory bullets only. Cited under system \"england\" with the code \"Key stage 1 · Design and technology\", because the subject publishes no per-year subheadings.",
+      "read": "2026-09-07"
+    }
+  },
+  "objectives": [
+    {"system":"england","code":"Year 1 · Plants","text":"identify and name a variety of common wild and garden plants, including deciduous and evergreen trees"},
+    {"system":"england","code":"Year 1 · Plants","text":"identify and describe the basic structure of a variety of common flowering plants, including trees"},
+    {"system":"england","code":"Year 1 · Animals, including humans","text":"identify and name a variety of common animals including fish, amphibians, reptiles, birds and mammals"},
+    {"system":"england","code":"Year 1 · Seasonal changes","text":"observe changes across the 4 seasons"},
+    {"system":"england","code":"Year 1 · Seasonal changes","text":"observe and describe weather associated with the seasons and how day length varies"},
+    {"system":"england","code":"Year 2 · Living things and their habitats","text":"explore and compare the differences between things that are living, dead, and things that have never been alive"},
+    {"system":"england","code":"Year 2 · Living things and their habitats","text":"identify that most living things live in habitats to which they are suited and describe how different habitats provide for the basic needs of different kinds of animals and plants, and how they depend on each other"},
+    {"system":"england","code":"Year 2 · Living things and their habitats","text":"identify and name a variety of plants and animals in their habitats, including microhabitats"},
+    {"system":"england","code":"Year 2 · Living things and their habitats","text":"describe how animals obtain their food from plants and other animals, using the idea of a simple food chain, and identify and name different sources of food"},
+    {"system":"england","code":"Year 2 · Plants","text":"observe and describe how seeds and bulbs grow into mature plants"},
+    {"system":"england","code":"Year 2 · Plants","text":"find out and describe how plants need water, light and a suitable temperature to grow and stay healthy"},
+    {"system":"england","code":"Year 2 · Animals, including humans","text":"find out about and describe the basic needs of animals, including humans, for survival (water, food and air)"},
+    {"system":"england","code":"Year 3 · Plants","text":"explore the part that flowers play in the life cycle of flowering plants, including pollination, seed formation and seed dispersal"},
+    {"system":"england","code":"Year 3 · Rocks","text":"recognise that soils are made from rocks and organic matter"},
+    {"system":"england","code":"Year 3 · Light","text":"recognise that they need light in order to see things and that dark is the absence of light"},
+    {"system":"england","code":"Year 4 · Living things and their habitats","text":"explore and use classification keys to help group, identify and name a variety of living things in their local and wider environment"},
+    {"system":"england","code":"Year 4 · States of matter","text":"observe that some materials change state when they are heated or cooled, and measure or research the temperature at which this happens in degrees Celsius (°C)"},
+    {"system":"england","code":"Year 4 · States of matter","text":"identify the part played by evaporation and condensation in the water cycle and associate the rate of evaporation with temperature"},
+    {"system":"england","code":"Key stage 1 · Art and design","text":"to use a range of materials creatively to design and make products"},
+    {"system":"england","code":"Key stage 1 · Art and design","text":"to develop a wide range of art and design techniques in using colour, pattern, texture, line, shape, form and space"},
+    {"system":"england","code":"Years 1 to 6 · Spoken language","text":"give well-structured descriptions, explanations and narratives for different purposes, including for expressing feelings"},
+    {"system":"england","code":"Years 1 to 6 · Spoken language","text":"participate in discussions, presentations, performances, role play/improvisations and debates"},
+    {"system":"england","code":"Key stage 1 · Working scientifically","text":"asking simple questions and recognising that they can be answered in different ways"},
+    {"system":"england","code":"Key stage 1 · Working scientifically","text":"observing closely, using simple equipment"},
+    {"system":"england","code":"Key stage 1 · Working scientifically","text":"identifying and classifying"},
+    {"system":"england","code":"Key stage 1 · Working scientifically","text":"using their observations and ideas to suggest answers to questions"},
+    {"system":"england","code":"Key stage 1 · Working scientifically","text":"gathering and recording data to help in answering questions"},
+    {"system":"england","code":"Years 3 and 4 · Working scientifically","text":"asking relevant questions and using different types of scientific enquiries to answer them"},
+    {"system":"england","code":"Years 3 and 4 · Working scientifically","text":"making systematic and careful observations and, where appropriate, taking accurate measurements using standard units, using a range of equipment, including thermometers and data loggers"},
+    {"system":"england","code":"Year 4 · Living things and their habitats","text":"recognise that environments can change and that this can sometimes pose dangers to living things"},
+    {"system":"england","code":"Year 2 · Statistics","text":"interpret and construct simple pictograms, tally charts, block diagrams and tables"},
+    {"system":"england","code":"Year 2 · Measurement","text":"compare and order lengths, mass, volume/capacity and record the results using >, < and ="},
+    {"system":"england","code":"Years 1 to 6 · Spoken language","text":"ask relevant questions to extend their understanding and knowledge"},
+    {"system":"england","code":"Years 1 to 6 · Spoken language","text":"articulate and justify answers, arguments and opinions"},
+    {"system":"england","code":"Key stage 1 · Design and technology","text":"design purposeful, functional, appealing products for themselves and other users based on design criteria"},
+    {"system":"england","code":"Key stage 1 · Design and technology","text":"select from and use a range of tools and equipment to perform practical tasks [for example, cutting, shaping, joining and finishing]"},
+    {"system":"england","code":"Key stage 1 · Design and technology","text":"select from and use a wide range of materials and components, including construction materials, textiles and ingredients, according to their characteristics"},
+    {"system":"england","code":"Key stage 1 · Design and technology","text":"evaluate their ideas and products against design criteria"},
+    {"system":"england","code":"Key stage 1 · Art and design","text":"to use drawing, painting and sculpture to develop and share their ideas, experiences and imagination"},
+    {"system":"england","code":"Year 1 · Animals, including humans","text":"describe and compare the structure of a variety of common animals (fish, amphibians, reptiles, birds and mammals including pets)"},
+    {"system":"england","code":"Year 5 · Living things and their habitats","text":"describe the differences in the life cycles of a mammal, an amphibian, an insect and a bird"},
+    {"system":"ngss","code":"K-LS1-1","text":"Use observations to describe patterns of what plants and animals (including humans) need to survive."},
+    {"system":"ngss","code":"K-ESS2-1","text":"Use and share observations of local weather conditions to describe patterns over time."},
+    {"system":"ngss","code":"K-ESS3-1","text":"Use a model to represent the relationship between the needs of different plants and animals (including humans) and the places they live."},
+    {"system":"ngss","code":"2-LS4-1","text":"Make observations of plants and animals to compare the diversity of life in different habitats."}
+  ]
+}

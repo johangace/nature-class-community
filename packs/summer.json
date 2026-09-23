@@ -1,0 +1,1076 @@
+{
+  "id": "summer",
+  "title": "Summer term",
+  "subject": "Nature study",
+  "ageBand": "4-6",
+  "sessions": [
+    {
+      "id": "summer-w1-counting-life",
+      "sheetTemplate": "life-survey",
+      "title": "Counting life",
+      "prompt": "What's living in our grounds?",
+      "topic": "Take ten slow steps, count every living thing you find, then work out together what makes something alive.",
+      "topicTags": [
+        "minibeasts",
+        "plants",
+        "senses"
+      ],
+      "labels": [
+        "biodiversity",
+        "science"
+      ],
+      "validity": {
+        "universal": true
+      },
+      "objective": "Notice everything that is alive around you and begin to work out what it means to be living - breathing, growing, reproducing, dying.",
+      "childWorkSummary": "In a small boundary, children point to living things and count together. They do not need to identify species.",
+      "namedSkill": "looking and listening",
+      "conditionNotes": [
+        {
+          "when": [
+            "windy"
+          ],
+          "teacher": "Begin with looking along a sheltered edge; move the listening round there once the class has counted.",
+          "child": "The wind is strong today. Small living things tuck in out of the wind, so we will count along a sheltered edge first."
+        },
+        {
+          "when": [
+            "still"
+          ],
+          "teacher": "The small flyers stay close to the flowers and the sounds carry in calm air, so the count and the listening can both happen where you stand.",
+          "child": "The air is still today. Sounds carry when it is still, so we will count with our ears as well as our eyes."
+        }
+      ],
+      "kit": [],
+      "durationMin": 20,
+      "settle": false,
+      "nodeSeq": 37,
+      "phases": [
+        {
+          "nid": "p1",
+          "key": "count-1",
+          "title": "Count",
+          "mode": "work",
+          "materialPurpose": "open-count",
+          "childTask": "Within ten steps, point to each different living thing and count together. You do not need to know its name.",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "nid": "b5",
+              "type": "conditions-line",
+              "fallbackText": "Look at the sky together before you set off. Whatever it's doing, name it out loud."
+            },
+            {
+              "nid": "b6",
+              "type": "teacher-note",
+              "text": "Set the boundary first: ten steps from where you stand, no further. Pairs work well."
+            },
+            {
+              "nid": "b7",
+              "type": "say-aloud",
+              "text": "Count everything that's alive within ten steps."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t2",
+              "when": "If they say there's nothing here...",
+              "then": "Crouch down with them. Grass, moss, a weed in a crack. The small things count."
+            },
+            {
+              "nid": "t3",
+              "when": "If they race to finish first...",
+              "then": "Ask them to prove each one: what tells you it's alive?"
+            },
+            {
+              "nid": "t4",
+              "when": "If the counting turns into arguing...",
+              "then": "Count together as one group, pointing as you go."
+            }
+          ]
+        },
+        {
+          "nid": "p8",
+          "key": "see-2",
+          "title": "See",
+          "mode": "work",
+          "materialPurpose": "open-count",
+          "childTask": "Look up, down and close to the ground. Add a living thing only when the group can point to it.",
+          "durationMin": 4,
+          "blocks": [
+            {
+              "nid": "b11",
+              "type": "teacher-note",
+              "text": "Encourage children to look up, down, under..."
+            },
+            {
+              "nid": "b12",
+              "type": "say-aloud",
+              "text": "What can you see?"
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t9",
+              "when": "If they only name big things...",
+              "then": "Ask for the smallest living thing they can find."
+            },
+            {
+              "nid": "t10",
+              "when": "If eyes wander to each other instead...",
+              "then": "Try a silent minute: point, don't speak."
+            }
+          ]
+        },
+        {
+          "nid": "p13",
+          "key": "hear-3",
+          "title": "Hear",
+          "mode": "work",
+          "materialPurpose": "open-count",
+          "childTask": "Pause and listen. If a sound came from something living, add it to the count.",
+          "durationMin": 3,
+          "blocks": [
+            {
+              "nid": "b15",
+              "type": "teacher-note",
+              "text": "Try thirty seconds of complete silence first. The longer the quiet, the more they hear."
+            },
+            {
+              "nid": "b16",
+              "type": "say-aloud",
+              "text": "What can you hear?"
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t14",
+              "when": "If they say they hear nothing...",
+              "then": "Cup hands behind ears and wait thirty more seconds. Traffic does not count: what else?"
+            }
+          ]
+        },
+        {
+          "nid": "p17",
+          "key": "alive-4",
+          "title": "Alive",
+          "mode": "gather",
+          "materialPurpose": "open-count",
+          "durationMin": 4,
+          "blocks": [
+            {
+              "nid": "b19",
+              "type": "teacher-note",
+              "text": "Let them argue. A fallen leaf, a seed, moss on a wall: alive or not? The wondering is the learning."
+            },
+            {
+              "nid": "b20",
+              "type": "say-aloud",
+              "text": "What is telling you it's alive?"
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t18",
+              "when": "If they are unsure about a leaf on the ground...",
+              "then": "Ask: was it alive? Is the tree it came from alive? Both answers teach."
+            }
+          ]
+        },
+        {
+          "nid": "p21",
+          "key": "living-5",
+          "title": "Living",
+          "mode": "gather",
+          "materialPurpose": "open-count",
+          "durationMin": 4,
+          "blocks": [
+            {
+              "nid": "b23",
+              "type": "teacher-note",
+              "text": "Four signs they can test anything against. Try them on a bird, a tree, a stone."
+            },
+            {
+              "nid": "b24",
+              "type": "say-aloud",
+              "text": "What does it mean to be living: breathing, growing, reproducing, dying."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t22",
+              "when": "If the words feel too big...",
+              "then": "Act them out: breathe in, stretch tall and grow, drift like a seed, flop down."
+            }
+          ]
+        },
+        {
+          "nid": "p25",
+          "key": "circle",
+          "title": "Circle",
+          "mode": "gather",
+          "blocks": [
+            {
+              "nid": "b26",
+              "type": "circle-question",
+              "text": "What was the most surprising living thing you found?"
+            },
+            {
+              "nid": "b27",
+              "type": "teacher-note",
+              "text": "Let a few children share with the whole circle."
+            },
+            {
+              "nid": "b28",
+              "type": "circle-question",
+              "text": "Was anything hard to decide: alive or not alive?"
+            },
+            {
+              "nid": "b29",
+              "type": "teacher-note",
+              "text": "A feather, a seed, a fallen leaf. Hard cases make the best thinking."
+            },
+            {
+              "nid": "b30",
+              "type": "circle-question",
+              "text": "How many living things do you think share our whole school grounds?"
+            },
+            {
+              "nid": "b31",
+              "type": "teacher-note",
+              "text": "No right answer. Big guesses welcome."
+            },
+            {
+              "nid": "b32",
+              "type": "named-skill",
+              "skill": "looking and listening"
+            }
+          ]
+        }
+      ],
+      "standards": [
+        {
+          "system": "england",
+          "code": "Year 2 · Living things and their habitats",
+          "text": "explore and compare the differences between things that are living, dead, and things that have never been alive"
+        },
+        {
+          "system": "ngss",
+          "code": "2-LS4-1",
+          "text": "Make observations of plants and animals to compare the diversity of life in different habitats."
+        }
+      ],
+      "childSheet": [
+        {
+          "nid": "b33",
+          "type": "sheet-title",
+          "title": "Counting life",
+          "nameLine": "These living things were found by"
+        },
+        {
+          "nid": "b34",
+          "type": "collage-zone",
+          "hint": "Draw every living thing you found in your ten steps. The tiny ones too."
+        },
+        {
+          "nid": "b35",
+          "type": "notice-line",
+          "prompt": "The living thing that surprised you most:"
+        },
+        {
+          "nid": "b36",
+          "type": "notice-line",
+          "prompt": "Something you could not decide about: alive, or not alive?"
+        },
+        {
+          "nid": "b37",
+          "type": "parent-line",
+          "text": "For home: today we took ten steps outside and found more life than anyone expected. Ask me the four signs of being alive: breathing, growing, reproducing, dying. Then try them on something in our house."
+        }
+      ],
+      "preparation": "Nothing to bring. Walk out as you are.",
+      "spaceNeeded": "Any outdoor spot with ten steps of room: a playground corner, a grass edge, a quiet stretch of pavement.",
+      "primer": {
+        "summary": "Children count everything alive within ten steps of where they stand, then begin to work out what makes something living: breathing, growing, reproducing, dying.",
+        "why": "Naming what is alive is the first step to caring about it. A child who has counted dozens of living things in one corner of the playground never sees \"nothing\" there again."
+      },
+      "celebration": {
+        "emoji": "🔍",
+        "headline": "Your class found life everywhere.",
+        "keepsake": "Ten steps. More life than anyone expected.",
+        "nextWeekTease": "Next week: minibeast hunting."
+      },
+      "topicLine": "Today is about noticing everything that is alive in our grounds and counting it.",
+      "seasonNote": {
+        "teacher": "The grounds are packed with living things in summer: plants in full growth, insects active, birds feeding young. A small boundary holds plenty to point at, without anyone needing to name it.",
+        "child": "In summer, so much is alive and growing. We are going to count everything living inside our little patch."
+      }
+    },
+    {
+      "id": "summer-w2-minibeast-hunting",
+      "sheetTemplate": "minibeast-study",
+      "title": "Minibeast hunting",
+      "prompt": "Minibeast hunting.",
+      "doorQuestion": "What minibeasts do you know? Can you name them?",
+      "doorQuestions": [
+        {
+          "question": "What minibeasts do you know? Can you name them?",
+          "species": "choose"
+        },
+        {
+          "question": "What is your favourite minibeast and why?",
+          "species": "choose"
+        },
+        {
+          "question": "Why do you think minibeasts matter to our planet?",
+          "pictures": {
+            "purpose": "example",
+            "items": [
+              {
+                "src": "/lesson-examples/bee-pollen.webp",
+                "alt": "A bumblebee dusted all over with yellow pollen, on a yellow flower",
+                "caption": "Bees carry pollen from flower to flower, and that is how many plants make seeds and fruit."
+              },
+              {
+                "src": "/lesson-examples/woodlice.webp",
+                "alt": "Woodlice gathered in cracks in a piece of decaying wood",
+                "caption": "Woodlice eat dead wood and fallen leaves, and turn them back into soil."
+              },
+              {
+                "src": "/lesson-examples/earthworm-soil.webp",
+                "alt": "An earthworm on dark soil between dry stalks, under green leaves",
+                "caption": "Worms tunnel through the soil and let air and water in, so roots can grow."
+              },
+              {
+                "src": "/lesson-examples/ladybird-aphids.webp",
+                "alt": "A red ladybird with black spots on a green stem, with small green aphids above it",
+                "caption": "Ladybirds eat the aphids that would eat our plants."
+              }
+            ]
+          }
+        }
+      ],
+      "topic": "Hunt for minibeasts in soil, under logs and in bushes. Look closely, ask questions, and put every creature back.",
+      "topicTags": [
+        "minibeasts",
+        "soil"
+      ],
+      "primaryTopic": "minibeasts",
+      "labels": [
+        "biodiversity",
+        "science"
+      ],
+      "validity": {
+        "universal": true
+      },
+      "objective": "Look closely at minibeasts and discover that all creatures have special roles to help our planet stay alive.",
+      "namedSkill": "looking and touching",
+      "kit": [
+        "Bug pots or viewers",
+        "Magnifying glasses"
+      ],
+      "durationMin": 20,
+      "settle": true,
+      "nodeSeq": 31,
+      "phases": [
+        {
+          "nid": "p1",
+          "key": "engage-1",
+          "title": "Engage",
+          "blocks": [
+            {
+              "nid": "b2",
+              "type": "conditions-line",
+              "fallbackText": "Look at the sky together before you set off. Whatever it's doing, name it out loud."
+            },
+            {
+              "nid": "b3",
+              "type": "teacher-note",
+              "text": "Allow children to raise their hands to give feedback."
+            },
+            {
+              "type": "say-aloud",
+              "text": "If you were the size of a woodlouse, where would you hide?",
+              "nid": "b31"
+            },
+            {
+              "nid": "b4",
+              "type": "say-aloud",
+              "text": "What minibeasts do you know? Can you name them?"
+            },
+            {
+              "nid": "b5",
+              "type": "say-aloud",
+              "text": "What is your favourite minibeast and why?"
+            }
+          ]
+        },
+        {
+          "nid": "p6",
+          "key": "explore-2",
+          "title": "Explore",
+          "blocks": [
+            {
+              "nid": "b7",
+              "type": "teacher-note",
+              "text": "Give children 10 minutes to explore their outdoor space, using only their senses."
+            },
+            {
+              "nid": "b8",
+              "type": "say-aloud",
+              "text": "Take 10 minutes to explore. Look under logs, on leaves, in trees, and up in the sky.",
+              "adaptsToPlace": true
+            }
+          ]
+        },
+        {
+          "nid": "p9",
+          "key": "identify-3",
+          "title": "Identify",
+          "blocks": [
+            {
+              "nid": "b10",
+              "type": "teacher-note",
+              "text": "Bring the class back to the circle. Let them discuss in partners or raise their hands."
+            },
+            {
+              "nid": "b11",
+              "type": "say-aloud",
+              "text": "What minibeasts did you find in our grounds?"
+            },
+            {
+              "nid": "b12",
+              "type": "say-aloud",
+              "text": "How did you identify them?"
+            },
+            {
+              "nid": "b13",
+              "type": "say-aloud",
+              "text": "How many legs did they have?"
+            },
+            {
+              "nid": "b14",
+              "type": "say-aloud",
+              "text": "Did they have wings to fly?"
+            },
+            {
+              "nid": "b15",
+              "type": "say-aloud",
+              "text": "Where did they live?"
+            }
+          ]
+        },
+        {
+          "nid": "p16",
+          "key": "appreciate-4",
+          "title": "Appreciate",
+          "blocks": [
+            {
+              "nid": "b17",
+              "type": "teacher-note",
+              "text": "Allow your class to go back to a spot in your grounds to thank the minibeasts."
+            },
+            {
+              "nid": "b18",
+              "type": "say-aloud",
+              "text": "Go back to a quiet spot and thank a minibeast. They play an important part in keeping our planet alive."
+            }
+          ]
+        },
+        {
+          "nid": "p19",
+          "key": "circle",
+          "title": "Circle",
+          "blocks": [
+            {
+              "nid": "b20",
+              "type": "circle-question",
+              "text": "Carry your minibeast back to where you found it and say a quiet goodbye."
+            },
+            {
+              "nid": "b21",
+              "type": "teacher-note",
+              "text": "We borrow, we look, we give back. The whole lesson in one move."
+            },
+            {
+              "nid": "b22",
+              "type": "circle-question",
+              "text": "What job was your minibeast doing for our planet?"
+            },
+            {
+              "nid": "b23",
+              "type": "teacher-note",
+              "text": "Any guess counts as thinking like a scientist."
+            },
+            {
+              "nid": "b24",
+              "type": "circle-question",
+              "text": "Which minibeast would you like to be for a day, and why?"
+            },
+            {
+              "nid": "b25",
+              "type": "named-skill",
+              "skill": "looking and touching"
+            }
+          ]
+        }
+      ],
+      "standards": [
+        {
+          "system": "england",
+          "code": "Year 2 · Living things and their habitats",
+          "text": "identify and name a variety of plants and animals in their habitats, including microhabitats"
+        },
+        {
+          "system": "england",
+          "code": "Year 2 · Living things and their habitats",
+          "text": "identify that most living things live in habitats to which they are suited and describe how different habitats provide for the basic needs of different kinds of animals and plants, and how they depend on each other"
+        },
+        {
+          "system": "ngss",
+          "code": "2-LS4-1",
+          "text": "Make observations of plants and animals to compare the diversity of life in different habitats."
+        }
+      ],
+      "childSheet": [
+        {
+          "nid": "b26",
+          "type": "sheet-title",
+          "title": "Minibeast hunting",
+          "nameLine": "This minibeast was met by"
+        },
+        {
+          "nid": "b27",
+          "type": "collage-zone",
+          "hint": "Draw the minibeast you met. Give it every leg it had, and every wing."
+        },
+        {
+          "nid": "b28",
+          "type": "notice-line",
+          "prompt": "Where your minibeast was living, and where you put it back:"
+        },
+        {
+          "nid": "b29",
+          "type": "notice-line",
+          "prompt": "The job your minibeast was doing for our planet:"
+        },
+        {
+          "nid": "b30",
+          "type": "parent-line",
+          "text": "For home: today we lifted logs and looked in the soil and met the minibeasts underneath, then put every single one of them back exactly where it was. Ask me how many legs mine had, and what its job is."
+        }
+      ],
+      "preparation": "Bring the bug pots or viewers and magnifying glasses. If you can, check your patch the day before: lift a log, see who is home.",
+      "spaceNeeded": "Soil, a log, a bush or a tree. Any patch where small creatures hide.",
+      "primer": {
+        "summary": "Children hunt for minibeasts in soil, under logs and in bushes, look closely at legs, wings and homes, and learn that every creature has a special role.",
+        "why": "Minibeasts are the easiest wild animals for children to meet up close. Handling them gently is a first lesson in respect for living things: gentle hands, quiet voices, and everything goes back exactly where it was found."
+      },
+      "celebration": {
+        "emoji": "🐞",
+        "headline": "You met the neighbours.",
+        "keepsake": "Legs were counted. Wings were found. Every creature went home again.",
+        "nextWeekTease": "Next week: A5 leaf collage."
+      },
+      "conditionNotes": [
+        {
+          "when": [
+            "still"
+          ],
+          "teacher": "The minibeasts will be out from under things rather than deep down while the air is calm, so lift slowly and look before anything moves.",
+          "child": "The air is still today. We think small creatures like a quiet day, so we might meet one under a log."
+        },
+        {
+          "when": [
+            "wet"
+          ],
+          "teacher": "The soil creatures come up towards the surface after rain, so the first lifted log or leaf is likely to be busy and the bug pots should be open before you lift.",
+          "child": "The rain has soaked the ground. Worms and woodlice come up when it is wet, so we will lift a leaf and look."
+        }
+      ],
+      "topicLine": "Today we are going to talk about minibeasts and go hunting for them.",
+      "seasonNote": {
+        "teacher": "Minibeasts are out and busy in any mild season: in summer they are on the plants and in the grass, and in autumn they move under leaves and logs to feed on what has fallen. Look where it is damp and sheltered, and the season decides who turns up.",
+        "child": "Small creatures live all around us, under leaves, logs and stones. We are going to look for them carefully and put them back."
+      }
+    },
+    {
+      "id": "summer-w3-a5-leaf-collage",
+      "sheetTemplate": "a5-collage",
+      "title": "A5 leaf collage",
+      "prompt": "Create art with nature.",
+      "doorQuestion": "Of the leaves on the ground, which two are the most different?",
+      "topic": "Collect leaves outside, then glue them into patterns and pictures on A5 paper.",
+      "topicTags": [
+        "trees",
+        "art"
+      ],
+      "primaryTopic": "trees",
+      "labels": [
+        "art",
+        "science"
+      ],
+      "validity": {
+        "universal": true
+      },
+      "objective": "Create art with nature, taking influence from what the children see around them.",
+      "childWorkSummary": "Children choose fallen leaves, notice shape, colour and texture, arrange before gluing, then share one material choice.",
+      "namedSkill": "touching and looking",
+      "kit": [
+        "Glue sticks",
+        "A5 paper",
+        "Leaves the children collect"
+      ],
+      "durationMin": 20,
+      "settle": false,
+      "nodeSeq": 28,
+      "phases": [
+        {
+          "nid": "p1",
+          "key": "collect-1",
+          "title": "Collect",
+          "mode": "present",
+          "blocks": [
+            {
+              "nid": "b2",
+              "type": "conditions-line",
+              "fallbackText": "Look at the sky together before you set off. Whatever it's doing, name it out loud."
+            },
+            {
+              "nid": "b3",
+              "type": "teacher-note",
+              "text": "Ask children to gather fallen leaves and petals from the ground — ones that have already fallen."
+            },
+            {
+              "nid": "b4",
+              "type": "say-aloud",
+              "text": "Let's go outside to collect leaves and petals from the ground, in a variety of shades and colours."
+            }
+          ]
+        },
+        {
+          "nid": "p5",
+          "key": "create-2",
+          "title": "Create",
+          "mode": "work",
+          "childTask": "Bring the fallen materials you collected to the dry making place. Lay them out and notice their shapes, colours and textures.",
+          "blocks": [
+            {
+              "nid": "b6",
+              "type": "teacher-note",
+              "text": "Gather the children back inside. Let them take their time with this."
+            },
+            {
+              "nid": "b7",
+              "type": "say-aloud",
+              "text": "Take a seat. Using the materials you collected, create a collage of something you saw in nature."
+            }
+          ]
+        },
+        {
+          "nid": "p8",
+          "key": "glue-3",
+          "title": "Glue",
+          "mode": "work",
+          "childTask": "Arrange your leaves first. Turn, tear and overlap them. Glue only when the arrangement feels ready.",
+          "blocks": [
+            {
+              "nid": "b9",
+              "type": "teacher-note",
+              "text": "Give the class ideas, drawing on what they saw in nature."
+            },
+            {
+              "nid": "b10",
+              "type": "say-aloud",
+              "text": "You can cut and stick pieces of leaves into different patterns or shapes."
+            },
+            {
+              "nid": "b11",
+              "type": "say-aloud",
+              "text": "Perhaps you want to make an insect, a flower, or a landscape?"
+            }
+          ]
+        },
+        {
+          "nid": "p12",
+          "key": "present-4",
+          "title": "Present",
+          "mode": "gather",
+          "blocks": [
+            {
+              "nid": "b13",
+              "type": "teacher-note",
+              "text": "Ask if anyone wants to show their art to the rest of the class."
+            },
+            {
+              "nid": "b14",
+              "type": "say-aloud",
+              "text": "What did you make?"
+            },
+            {
+              "nid": "b15",
+              "type": "say-aloud",
+              "text": "How did you use your natural materials to create different parts of your piece?"
+            },
+            {
+              "nid": "b16",
+              "type": "say-aloud",
+              "text": "What inspired you in nature to make this?"
+            }
+          ]
+        },
+        {
+          "nid": "p17",
+          "key": "circle",
+          "title": "Circle",
+          "mode": "gather",
+          "blocks": [
+            {
+              "nid": "b18",
+              "type": "circle-question",
+              "text": "Show your collage to a partner. What can they see in it?"
+            },
+            {
+              "nid": "b19",
+              "type": "circle-question",
+              "text": "Which leaf was your favourite, and where did it come from?"
+            },
+            {
+              "nid": "b20",
+              "type": "teacher-note",
+              "text": "Shape, colour, size, smell. Descriptive language lives here."
+            },
+            {
+              "nid": "b21",
+              "type": "circle-question",
+              "text": "What will happen to the leaves we did not use?"
+            },
+            {
+              "nid": "b22",
+              "type": "teacher-note",
+              "text": "Back to the earth. Nothing in nature is wasted."
+            },
+            {
+              "nid": "b23",
+              "type": "named-skill",
+              "skill": "touching and looking"
+            }
+          ]
+        }
+      ],
+      "childSheet": [
+        {
+          "nid": "b24",
+          "type": "sheet-title",
+          "title": "Made of this place",
+          "nameLine": "This was made by"
+        },
+        {
+          "nid": "b25",
+          "type": "collage-zone",
+          "hint": "Stick your leaves and petals here. Cut them, tear them, turn them into something you saw outside."
+        },
+        {
+          "nid": "b26",
+          "type": "match-strip",
+          "prompt": "Whose leaves did you use? Find the trees they fell from:",
+          "cards": [
+            {
+              "name": "the oak",
+              "clue": "wavy edges, like little waves"
+            },
+            {
+              "name": "the birch",
+              "clue": "a little teardrop"
+            },
+            {
+              "name": "the maple",
+              "clue": "five points, like a hand"
+            }
+          ]
+        },
+        {
+          "nid": "b27",
+          "type": "notice-line",
+          "prompt": "What your collage is, and what each part used to be:"
+        },
+        {
+          "nid": "b28",
+          "type": "parent-line",
+          "text": "For home: I made this outside today, out of leaves and petals that had already fallen. Ask me what each part used to be, and where the leaves we did not use have gone."
+        }
+      ],
+      "preparation": "Glue sticks and A5 paper in a bag. One sheet per child, plus a few spares.",
+      "materialFallback": "If there are not enough safe fallen leaves outside, bring a prepared set and tell the children these leaves were collected earlier. Never pick leaves from a living tree for this lesson.",
+      "spaceNeeded": "Anywhere with fallen leaves, and a dry spot to sit and stick.",
+      "primer": {
+        "summary": "Children collect leaves outside and glue them into patterns and pictures on A5 paper, taking influence from what they can see around them.",
+        "why": "Making art with found nature asks children to look twice: once at the leaf, once at the world. The picture is theirs; the materials belong to the place."
+      },
+      "celebration": {
+        "emoji": "🍃",
+        "headline": "Art, straight from the ground.",
+        "keepsake": "Leaves became trees, clouds, birds and insects. Made entirely of this place.",
+        "nextWeekTease": "Next week: our Earth's magnificent trees."
+      },
+      "topicLine": "Leaves are our art materials today, and we are making a collage with them.",
+      "seasonNote": {
+        "teacher": "Leaves are plentiful in every season but change what they offer: summer gives green leaves dropped by wind and full-leaf trees to compare them with; autumn gives colour and dry crunch. Use what is on the ground this week.",
+        "child": "There are fallen leaves to find whatever the season. We are going to pick some up and make a picture with them."
+      }
+    },
+    {
+      "id": "summer-w4-our-earths-magnificent-trees",
+      "sheetTemplate": "tree-study",
+      "title": "Our Earth's magnificent trees",
+      "prompt": "Why are trees so important for our existence?",
+      "topic": "Walk among your trees, talk about why they matter, and end by thanking one.",
+      "topicTags": [
+        "minibeasts",
+        "trees"
+      ],
+      "primaryTopic": "trees",
+      "labels": [
+        "climate action",
+        "science"
+      ],
+      "validity": {
+        "universal": true
+      },
+      "objective": "Understand why trees matter for our existence (humans) and for the other creatures on our planet.",
+      "namedSkill": "looking and touching",
+      "kit": [],
+      "durationMin": 20,
+      "settle": true,
+      "nodeSeq": 29,
+      "phases": [
+        {
+          "nid": "p1",
+          "key": "walk-1",
+          "title": "Walk",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "nid": "b3",
+              "type": "conditions-line",
+              "fallbackText": "Look at the sky together before you set off. Whatever it's doing, name it out loud."
+            },
+            {
+              "nid": "b4",
+              "type": "teacher-note",
+              "text": "Bark, leaves, height, shape. How many different trees can the class spot?"
+            },
+            {
+              "nid": "b5",
+              "type": "say-aloud",
+              "text": "Walk around your outside space, taking note of all the different trees you can see."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t2",
+              "when": "If they say all trees look the same...",
+              "then": "Touch two different barks. Smooth or rough? Same or different?"
+            }
+          ]
+        },
+        {
+          "nid": "p6",
+          "key": "discuss-2",
+          "title": "Discuss",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "nid": "b8",
+              "type": "teacher-note",
+              "text": "Prompt children to discuss amongst themselves. They produce the air we need to breathe (oxygen)."
+            },
+            {
+              "nid": "b9",
+              "type": "say-aloud",
+              "text": "Why are trees so important for our existence (humans)?"
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t7",
+              "when": "If the discussion stalls...",
+              "then": "Hold your breath for three seconds together. Where does the next breath come from? Trees made part of it."
+            }
+          ]
+        },
+        {
+          "nid": "p10",
+          "key": "creatures-3",
+          "title": "Creatures",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "nid": "b12",
+              "type": "teacher-note",
+              "text": "e.g. birds for homes and food (nuts & fruit), insects."
+            },
+            {
+              "nid": "b13",
+              "type": "say-aloud",
+              "text": "What other creatures on our planet need trees to live?"
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t11",
+              "when": "If they only say birds...",
+              "then": "Look closer: who is walking on the trunk? Who is under the bark?"
+            }
+          ]
+        },
+        {
+          "nid": "p14",
+          "key": "imagine-4",
+          "title": "Imagine",
+          "durationMin": 4,
+          "blocks": [
+            {
+              "nid": "b16",
+              "type": "teacher-note",
+              "text": "Sit with the question. Let the silence do some of the teaching."
+            },
+            {
+              "nid": "b17",
+              "type": "say-aloud",
+              "text": "If there were no trees on our planet, would we be alive?"
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t15",
+              "when": "If a child gets worried...",
+              "then": "That worry is care. Tell them: that is exactly why we look after trees."
+            }
+          ]
+        },
+        {
+          "nid": "p18",
+          "key": "circle",
+          "title": "Circle",
+          "blocks": [
+            {
+              "nid": "b19",
+              "type": "circle-question",
+              "text": "Ask all children to hug and thank the tree."
+            },
+            {
+              "nid": "b20",
+              "type": "circle-question",
+              "text": "What did the bark feel like?"
+            },
+            {
+              "nid": "b21",
+              "type": "circle-question",
+              "text": "What would you say to this tree if it could hear you?"
+            },
+            {
+              "nid": "b22",
+              "type": "teacher-note",
+              "text": "Some children will whisper it to themselves. That counts."
+            },
+            {
+              "nid": "b23",
+              "type": "named-skill",
+              "skill": "looking and touching"
+            }
+          ]
+        }
+      ],
+      "standards": [
+        {
+          "system": "england",
+          "code": "Year 2 · Living things and their habitats",
+          "text": "identify that most living things live in habitats to which they are suited and describe how different habitats provide for the basic needs of different kinds of animals and plants, and how they depend on each other"
+        },
+        {
+          "system": "england",
+          "code": "Year 1 · Plants",
+          "text": "identify and name a variety of common wild and garden plants, including deciduous and evergreen trees"
+        },
+        {
+          "system": "ngss",
+          "code": "K-LS1-1",
+          "text": "Use observations to describe patterns of what plants and animals (including humans) need to survive."
+        }
+      ],
+      "childSheet": [
+        {
+          "nid": "b24",
+          "type": "sheet-title",
+          "title": "The tree I thanked",
+          "nameLine": "This tree was thanked by"
+        },
+        {
+          "nid": "b25",
+          "type": "collage-zone",
+          "hint": "Draw the tree you hugged. Its bark, its branches, and whoever lives in it."
+        },
+        {
+          "nid": "b26",
+          "type": "match-strip",
+          "prompt": "Whose tree was yours? Find it by its leaf:",
+          "cards": [
+            {
+              "name": "the oak",
+              "clue": "wavy edges, and bark with deep cracks"
+            },
+            {
+              "name": "the birch",
+              "clue": "a little teardrop, and pale peeling bark"
+            },
+            {
+              "name": "the maple",
+              "clue": "five points like a hand, and seeds with wings"
+            }
+          ]
+        },
+        {
+          "nid": "b27",
+          "type": "notice-line",
+          "prompt": "What the bark felt like under your hands:"
+        },
+        {
+          "nid": "b28",
+          "type": "notice-line",
+          "prompt": "What you would say to your tree if it could hear you:"
+        },
+        {
+          "nid": "b29",
+          "type": "parent-line",
+          "text": "For home: today we walked among our trees and worked out why we need them. Ask me where our next breath comes from, and who else lives in a tree."
+        }
+      ],
+      "preparation": "Nothing to bring.",
+      "conditionNotes": [
+        {
+          "when": [
+            "wet"
+          ],
+          "teacher": "The bark has gone dark and its smell has come up, so today the trees are worth putting a hand on.",
+          "child": "The rain has made the bark dark. Wet bark smells stronger, so we will stand close and take a breath."
+        }
+      ],
+      "spaceNeeded": "Anywhere you can see trees, even over a fence. One tree you can reach for the closing.",
+      "primer": {
+        "summary": "Children walk among the trees of their outside space and talk about why trees matter: for the air we breathe and for the creatures that live in and around them.",
+        "why": "A child who has thanked a tree treats trees differently. This session turns the biggest living things on the school grounds from scenery into neighbours."
+      },
+      "celebration": {
+        "emoji": "🌳",
+        "headline": "You thanked the trees.",
+        "keepsake": "The air we breathe, the homes above us. Today the class said thank you."
+      },
+      "topicLine": "Trees are our subject today, and why they matter so much to us and to other creatures.",
+      "seasonNote": {
+        "teacher": "Trees in full summer leaf are doing their biggest work of the year: making shade, holding water, feeding insects and sheltering birds. Standing under one now is the clearest way to feel why they matter.",
+        "child": "In summer the trees are full and busy, giving shade and homes to lots of creatures. We are going to think about why trees matter."
+      }
+    }
+  ]
+}

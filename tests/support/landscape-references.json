@@ -1,0 +1,284 @@
+{
+  "soilContext": {
+    "provider": "soilgrids",
+    "evidenceKind": "modelled-soil-context",
+    "scope": "reference-cell-only",
+    "center": {
+      "latitude": 51.51,
+      "longitude": -0.165
+    },
+    "localSoilMeasured": false,
+    "silent": false,
+    "reference": {
+      "id": "regents-park",
+      "name": "Regent's Park reference cell",
+      "center": {
+        "latitude": 51.5315,
+        "longitude": -0.1535
+      },
+      "footprint": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.15560046011828538,
+              51.53044583299148
+            ],
+            [
+              -0.15224511758455317,
+              51.53044583299148
+            ],
+            [
+              -0.15325650436871285,
+              51.53286210426479
+            ],
+            [
+              -0.15661195944959116,
+              51.53286210426479
+            ],
+            [
+              -0.15560046011828538,
+              51.53044583299148
+            ]
+          ]
+        ]
+      },
+      "distanceKm": 2.52
+    },
+    "product": "SoilGrids250m 2.0",
+    "modelVintage": null,
+    "spatialResolutionM": 250,
+    "retrievedAt": "2026-09-07T16:05:14.250843+00:00",
+    "refreshAfter": "2027-03-06T16:05:14.250843+00:00",
+    "properties": [
+      {
+        "property": "phh2o",
+        "depthCm": [
+          0,
+          5
+        ],
+        "unit": "pH",
+        "mean": 6.1,
+        "q05": 3.8,
+        "q95": 7.9,
+        "receipts": [
+          {
+            "coverageId": "phh2o_0-5cm_Q0.05",
+            "url": "https://maps.isric.org/mapserv?map=%2Fmap%2Fphh2o.map&SERVICE=WCS&VERSION=2.0.1&REQUEST=GetCoverage&COVERAGEID=phh2o_0-5cm_Q0.05&FORMAT=GEOTIFF_INT16&SUBSET=X%281092750%2C1093000%29&SUBSET=Y%285696000%2C5696250%29&SUBSETTINGCRS=http%3A%2F%2Fwww.opengis.net%2Fdef%2Fcrs%2FEPSG%2F0%2F152160&OUTPUTCRS=http%3A%2F%2Fwww.opengis.net%2Fdef%2Fcrs%2FEPSG%2F0%2F152160",
+            "sha256": "9236bb757a872594fde77b36322d8a5312bc237bb0ac4905435152ad893438a6",
+            "bytes": 471
+          },
+          {
+            "coverageId": "phh2o_0-5cm_mean",
+            "url": "https://maps.isric.org/mapserv?map=%2Fmap%2Fphh2o.map&SERVICE=WCS&VERSION=2.0.1&REQUEST=GetCoverage&COVERAGEID=phh2o_0-5cm_mean&FORMAT=GEOTIFF_INT16&SUBSET=X%281092750%2C1093000%29&SUBSET=Y%285696000%2C5696250%29&SUBSETTINGCRS=http%3A%2F%2Fwww.opengis.net%2Fdef%2Fcrs%2FEPSG%2F0%2F152160&OUTPUTCRS=http%3A%2F%2Fwww.opengis.net%2Fdef%2Fcrs%2FEPSG%2F0%2F152160",
+            "sha256": "fb47583ecedee5bbddefb944e4dbcc70e6dca6736238b2c48676f8610e6666dd",
+            "bytes": 470
+          },
+          {
+            "coverageId": "phh2o_0-5cm_Q0.95",
+            "url": "https://maps.isric.org/mapserv?map=%2Fmap%2Fphh2o.map&SERVICE=WCS&VERSION=2.0.1&REQUEST=GetCoverage&COVERAGEID=phh2o_0-5cm_Q0.95&FORMAT=GEOTIFF_INT16&SUBSET=X%281092750%2C1093000%29&SUBSET=Y%285696000%2C5696250%29&SUBSETTINGCRS=http%3A%2F%2Fwww.opengis.net%2Fdef%2Fcrs%2FEPSG%2F0%2F152160&OUTPUTCRS=http%3A%2F%2Fwww.opengis.net%2Fdef%2Fcrs%2FEPSG%2F0%2F152160",
+            "sha256": "c7160229bedeed27cff4636c7db0fa18f05866ceeb2bf42672e91c3ffc38fc15",
+            "bytes": 470
+          }
+        ]
+      },
+      {
+        "property": "phh2o",
+        "depthCm": [
+          5,
+          15
+        ],
+        "unit": "pH",
+        "mean": 6.5,
+        "q05": 4.1,
+        "q95": 7.9,
+        "receipts": [
+          {
+            "coverageId": "phh2o_5-15cm_Q0.05",
+            "url": "https://maps.isric.org/mapserv?map=%2Fmap%2Fphh2o.map&SERVICE=WCS&VERSION=2.0.1&REQUEST=GetCoverage&COVERAGEID=phh2o_5-15cm_Q0.05&FORMAT=GEOTIFF_INT16&SUBSET=X%281092750%2C1093000%29&SUBSET=Y%285696000%2C5696250%29&SUBSETTINGCRS=http%3A%2F%2Fwww.opengis.net%2Fdef%2Fcrs%2FEPSG%2F0%2F152160&OUTPUTCRS=http%3A%2F%2Fwww.opengis.net%2Fdef%2Fcrs%2FEPSG%2F0%2F152160",
+            "sha256": "892f60c92e21fbf88517dd090088e30a505ebcf1a8c31eeaab9869ecdadebc7d",
+            "bytes": 471
+          },
+          {
+            "coverageId": "phh2o_5-15cm_mean",
+            "url": "https://maps.isric.org/mapserv?map=%2Fmap%2Fphh2o.map&SERVICE=WCS&VERSION=2.0.1&REQUEST=GetCoverage&COVERAGEID=phh2o_5-15cm_mean&FORMAT=GEOTIFF_INT16&SUBSET=X%281092750%2C1093000%29&SUBSET=Y%285696000%2C5696250%29&SUBSETTINGCRS=http%3A%2F%2Fwww.opengis.net%2Fdef%2Fcrs%2FEPSG%2F0%2F152160&OUTPUTCRS=http%3A%2F%2Fwww.opengis.net%2Fdef%2Fcrs%2FEPSG%2F0%2F152160",
+            "sha256": "7375d8ea152fc673c2c61f8fdd2ed157aa6da820167855fe0eb2d444ff59f1a0",
+            "bytes": 470
+          },
+          {
+            "coverageId": "phh2o_5-15cm_Q0.95",
+            "url": "https://maps.isric.org/mapserv?map=%2Fmap%2Fphh2o.map&SERVICE=WCS&VERSION=2.0.1&REQUEST=GetCoverage&COVERAGEID=phh2o_5-15cm_Q0.95&FORMAT=GEOTIFF_INT16&SUBSET=X%281092750%2C1093000%29&SUBSET=Y%285696000%2C5696250%29&SUBSETTINGCRS=http%3A%2F%2Fwww.opengis.net%2Fdef%2Fcrs%2FEPSG%2F0%2F152160&OUTPUTCRS=http%3A%2F%2Fwww.opengis.net%2Fdef%2Fcrs%2FEPSG%2F0%2F152160",
+            "sha256": "c7160229bedeed27cff4636c7db0fa18f05866ceeb2bf42672e91c3ffc38fc15",
+            "bytes": 470
+          }
+        ]
+      }
+    ],
+    "license": "CC-BY-4.0",
+    "termsUrl": "https://docs.isric.org/globaldata/soilgrids/SoilGrids_faqs_02.html",
+    "attribution": "SoilGrids 2.0, ISRIC — World Soil Information (CC BY 4.0). Contains modified SoilGrids data."
+  },
+  "vegetationComparison": {
+    "provider": "copernicus-sentinel-2",
+    "evidenceKind": "satellite-derived-vegetation",
+    "scope": "reference-plot-only",
+    "center": {
+      "latitude": 51.51,
+      "longitude": -0.165
+    },
+    "localPhenophaseConfirmed": false,
+    "silent": false,
+    "reference": {
+      "id": "hyde-park-plot",
+      "name": "Hyde Park 100 m reference plot",
+      "center": {
+        "latitude": 51.51,
+        "longitude": -0.165
+      },
+      "footprint": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.16566253112440799,
+              51.50954708390835
+            ],
+            [
+              -0.1642233382993765,
+              51.509512273690646
+            ],
+            [
+              -0.16416753796541994,
+              51.51041034271532
+            ],
+            [
+              -0.16560675901734467,
+              51.51044515404594
+            ],
+            [
+              -0.16566253112440799,
+              51.50954708390835
+            ]
+          ]
+        ]
+      },
+      "distanceKm": 0
+    },
+    "product": "Sentinel-2 L2A COG",
+    "index": "NDVI",
+    "spatialResolutionM": 20,
+    "spectralResolutionM": 10,
+    "areaM2": 10000,
+    "retrievedAt": "2026-09-07T16:13:44.053241+00:00",
+    "refreshAfter": "2026-12-06T16:13:44.053241+00:00",
+    "license": "Copernicus-free-open",
+    "termsUrl": "https://sentinels.copernicus.eu/documents/247904/690755/Sentinel_Data_Legal_Notice",
+    "attribution": "Contains modified Copernicus Sentinel data (2026), processed from Sentinel-2 L2A COGs via Element 84 Earth Search.",
+    "quality": {
+      "acceptedScl": [
+        4,
+        5
+      ],
+      "commonValidPixels": 25,
+      "totalPixels": 25,
+      "minCommonValidPixels": 20,
+      "smallSchoolyardSupported": false,
+      "cloudsAndShadowsExcluded": true
+    },
+    "comparison": {
+      "from": "2026-07-31T11:06:52.609000Z",
+      "to": "2026-08-25T11:17:03.468000Z",
+      "fromMean": 0.686359,
+      "toMean": 0.669478,
+      "delta": -0.01688
+    },
+    "scenes": [
+      {
+        "sceneId": "S2C_T30UXC_20260731T105620_L2A",
+        "observedAt": "2026-07-31T11:06:52.609000Z",
+        "sceneCloudCoverPct": 11.492726,
+        "catalogUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-2-c1-l2a/items/S2C_T30UXC_20260731T105620_L2A",
+        "validPixels": 25,
+        "assets": {
+          "red": {
+            "url": "https://e84-earth-search-sentinel-data.s3.us-west-2.amazonaws.com/sentinel-2-c1-l2a/30/U/XC/2026/7/S2C_T30UXC_20260731T105620_L2A/B04.tif",
+            "rasterBands": [
+              {
+                "nodata": 0,
+                "data_type": "uint16",
+                "spatial_resolution": 10,
+                "scale": 0.0001,
+                "offset": -0.1
+              }
+            ]
+          },
+          "nir": {
+            "url": "https://e84-earth-search-sentinel-data.s3.us-west-2.amazonaws.com/sentinel-2-c1-l2a/30/U/XC/2026/7/S2C_T30UXC_20260731T105620_L2A/B08.tif",
+            "rasterBands": [
+              {
+                "nodata": 0,
+                "data_type": "uint16",
+                "spatial_resolution": 10,
+                "scale": 0.0001,
+                "offset": -0.1
+              }
+            ]
+          },
+          "scl": {
+            "url": "https://e84-earth-search-sentinel-data.s3.us-west-2.amazonaws.com/sentinel-2-c1-l2a/30/U/XC/2026/7/S2C_T30UXC_20260731T105620_L2A/SCL.tif",
+            "rasterBands": [
+              {
+                "nodata": 0,
+                "data_type": "uint8",
+                "spatial_resolution": 20
+              }
+            ]
+          }
+        }
+      },
+      {
+        "sceneId": "S2A_T30UXC_20260825T110817_L2A",
+        "observedAt": "2026-08-25T11:17:03.468000Z",
+        "sceneCloudCoverPct": 12.544487,
+        "catalogUrl": "https://earth-search.aws.element84.com/v1/collections/sentinel-2-c1-l2a/items/S2A_T30UXC_20260825T110817_L2A",
+        "validPixels": 25,
+        "assets": {
+          "red": {
+            "url": "https://e84-earth-search-sentinel-data.s3.us-west-2.amazonaws.com/sentinel-2-c1-l2a/30/U/XC/2026/8/S2A_T30UXC_20260825T110817_L2A/B04.tif",
+            "rasterBands": [
+              {
+                "nodata": 0,
+                "data_type": "uint16",
+                "spatial_resolution": 10,
+                "scale": 0.0001,
+                "offset": -0.1
+              }
+            ]
+          },
+          "nir": {
+            "url": "https://e84-earth-search-sentinel-data.s3.us-west-2.amazonaws.com/sentinel-2-c1-l2a/30/U/XC/2026/8/S2A_T30UXC_20260825T110817_L2A/B08.tif",
+            "rasterBands": [
+              {
+                "nodata": 0,
+                "data_type": "uint16",
+                "spatial_resolution": 10,
+                "scale": 0.0001,
+                "offset": -0.1
+              }
+            ]
+          },
+          "scl": {
+            "url": "https://e84-earth-search-sentinel-data.s3.us-west-2.amazonaws.com/sentinel-2-c1-l2a/30/U/XC/2026/8/S2A_T30UXC_20260825T110817_L2A/SCL.tif",
+            "rasterBands": [
+              {
+                "nodata": 0,
+                "data_type": "uint8",
+                "spatial_resolution": 20
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

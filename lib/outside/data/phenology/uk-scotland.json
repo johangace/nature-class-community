@@ -1,0 +1,5765 @@
+{
+  "1": [
+    {
+      "id": "uk_scotland_w1_ptarmigan",
+      "species": "Ptarmigan",
+      "scientificName": "Lagopus muta",
+      "description": "Ptarmigan in white winter plumage on high mountain tops, nearly invisible against snow",
+      "habitats": [
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "low",
+      "childFriendlyNote": "A bird that turns white in winter to hide in the snow. Can you spot it? It's almost invisible!"
+    },
+    {
+      "id": "uk_scotland_w1_red_deer",
+      "species": "Red Deer",
+      "scientificName": "Cervus elaphus",
+      "description": "Red deer herds in glens, stags in bachelor groups after rut",
+      "habitats": [
+        "grassland",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "Big deer with velvety antlers. They huddle together in the cold glens"
+    },
+    {
+      "id": "uk_scotland_w1_snow_bunting",
+      "species": "Snow Bunting",
+      "scientificName": "Plectrophenax nivalis",
+      "description": "Snow buntings on high ground and coastal fields, flashing white wing patches",
+      "habitats": [
+        "grassland",
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "childFriendlyNote": "Little birds that flash white when they fly. They love cold weather and snow!"
+    },
+    {
+      "id": "uk_scotland_w1_frost_and_ice",
+      "species": "Frost and Ice",
+      "description": "Hard frost and ice on lochs, intricate ice patterns on puddles and windows",
+      "habitats": [
+        "urban",
+        "garden",
+        "pond",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "Puddles freeze into incredible patterns. Hold a piece of ice up to the light and see it sparkle"
+    },
+    {
+      "id": "uk_scotland_w1_redwing",
+      "species": "Redwing",
+      "scientificName": "Turdus iliacus",
+      "description": "Redwing flocks in hawthorn hedges and open fields",
+      "habitats": [
+        "hedgerow",
+        "grassland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Winter visiting thrushes. Look for the red patch under their wings"
+    }
+  ],
+  "2": [
+    {
+      "id": "uk_scotland_w2_ptarmigan",
+      "species": "Ptarmigan",
+      "scientificName": "Lagopus muta",
+      "description": "Ptarmigan in white winter plumage on high mountain tops, nearly invisible against snow",
+      "habitats": [
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "low",
+      "childFriendlyNote": "A bird that turns white in winter to hide in the snow. Can you spot it? It's almost invisible!"
+    },
+    {
+      "id": "uk_scotland_w2_red_deer",
+      "species": "Red Deer",
+      "scientificName": "Cervus elaphus",
+      "description": "Red deer herds in glens, stags in bachelor groups after rut",
+      "habitats": [
+        "grassland",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "Big deer with velvety antlers. They huddle together in the cold glens"
+    },
+    {
+      "id": "uk_scotland_w2_snow_bunting",
+      "species": "Snow Bunting",
+      "scientificName": "Plectrophenax nivalis",
+      "description": "Snow buntings on high ground and coastal fields, flashing white wing patches",
+      "habitats": [
+        "grassland",
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "childFriendlyNote": "Little birds that flash white when they fly. They love cold weather and snow!"
+    },
+    {
+      "id": "uk_scotland_w2_frost_and_ice",
+      "species": "Frost and Ice",
+      "description": "Hard frost and ice on lochs, intricate ice patterns on puddles and windows",
+      "habitats": [
+        "urban",
+        "garden",
+        "pond",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "Puddles freeze into incredible patterns. Hold a piece of ice up to the light and see it sparkle"
+    },
+    {
+      "id": "uk_scotland_w2_redwing",
+      "species": "Redwing",
+      "scientificName": "Turdus iliacus",
+      "description": "Redwing flocks in hawthorn hedges and open fields",
+      "habitats": [
+        "hedgerow",
+        "grassland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Winter visiting thrushes. Look for the red patch under their wings"
+    }
+  ],
+  "3": [
+    {
+      "id": "uk_scotland_w3_ptarmigan",
+      "species": "Ptarmigan",
+      "scientificName": "Lagopus muta",
+      "description": "Ptarmigan in white winter plumage on high mountain tops, nearly invisible against snow",
+      "habitats": [
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "low",
+      "childFriendlyNote": "A bird that turns white in winter to hide in the snow. Can you spot it? It's almost invisible!"
+    },
+    {
+      "id": "uk_scotland_w3_red_deer",
+      "species": "Red Deer",
+      "scientificName": "Cervus elaphus",
+      "description": "Red deer herds in glens, stags in bachelor groups after rut",
+      "habitats": [
+        "grassland",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "Big deer with velvety antlers. They huddle together in the cold glens"
+    },
+    {
+      "id": "uk_scotland_w3_snow_bunting",
+      "species": "Snow Bunting",
+      "scientificName": "Plectrophenax nivalis",
+      "description": "Snow buntings on high ground and coastal fields, flashing white wing patches",
+      "habitats": [
+        "grassland",
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "childFriendlyNote": "Little birds that flash white when they fly. They love cold weather and snow!"
+    },
+    {
+      "id": "uk_scotland_w3_frost_and_ice",
+      "species": "Frost and Ice",
+      "description": "Hard frost and ice on lochs, intricate ice patterns on puddles and windows",
+      "habitats": [
+        "urban",
+        "garden",
+        "pond",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "Puddles freeze into incredible patterns. Hold a piece of ice up to the light and see it sparkle"
+    },
+    {
+      "id": "uk_scotland_w3_redwing",
+      "species": "Redwing",
+      "scientificName": "Turdus iliacus",
+      "description": "Redwing flocks in hawthorn hedges and open fields",
+      "habitats": [
+        "hedgerow",
+        "grassland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Winter visiting thrushes. Look for the red patch under their wings"
+    }
+  ],
+  "4": [
+    {
+      "id": "uk_scotland_w4_ptarmigan",
+      "species": "Ptarmigan",
+      "scientificName": "Lagopus muta",
+      "description": "Ptarmigan in white winter plumage on high mountain tops, nearly invisible against snow",
+      "habitats": [
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "low",
+      "childFriendlyNote": "A bird that turns white in winter to hide in the snow. Can you spot it? It's almost invisible!"
+    },
+    {
+      "id": "uk_scotland_w4_red_deer",
+      "species": "Red Deer",
+      "scientificName": "Cervus elaphus",
+      "description": "Red deer herds in glens, stags in bachelor groups after rut",
+      "habitats": [
+        "grassland",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "Big deer with velvety antlers. They huddle together in the cold glens"
+    },
+    {
+      "id": "uk_scotland_w4_snow_bunting",
+      "species": "Snow Bunting",
+      "scientificName": "Plectrophenax nivalis",
+      "description": "Snow buntings on high ground and coastal fields, flashing white wing patches",
+      "habitats": [
+        "grassland",
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "childFriendlyNote": "Little birds that flash white when they fly. They love cold weather and snow!"
+    },
+    {
+      "id": "uk_scotland_w4_frost_and_ice",
+      "species": "Frost and Ice",
+      "description": "Hard frost and ice on lochs, intricate ice patterns on puddles and windows",
+      "habitats": [
+        "urban",
+        "garden",
+        "pond",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "Puddles freeze into incredible patterns. Hold a piece of ice up to the light and see it sparkle"
+    },
+    {
+      "id": "uk_scotland_w4_redwing",
+      "species": "Redwing",
+      "scientificName": "Turdus iliacus",
+      "description": "Redwing flocks in hawthorn hedges and open fields",
+      "habitats": [
+        "hedgerow",
+        "grassland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Winter visiting thrushes. Look for the red patch under their wings"
+    },
+    {
+      "id": "uk_scotland_w4_hazel_catkins",
+      "species": "Hazel Catkins",
+      "scientificName": "Corylus avellana",
+      "description": "Hazel catkins lengthening in sheltered glens",
+      "habitats": [
+        "woodland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Yellow dangly tails on bare branches, nature's first sign that spring is coming"
+    }
+  ],
+  "5": [
+    {
+      "id": "uk_scotland_w5_ptarmigan",
+      "species": "Ptarmigan",
+      "scientificName": "Lagopus muta",
+      "description": "Ptarmigan in white winter plumage on high mountain tops, nearly invisible against snow",
+      "habitats": [
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "low",
+      "childFriendlyNote": "A bird that turns white in winter to hide in the snow. Can you spot it? It's almost invisible!"
+    },
+    {
+      "id": "uk_scotland_w5_red_deer",
+      "species": "Red Deer",
+      "scientificName": "Cervus elaphus",
+      "description": "Deer moving to lower ground, browsing on heather and grass",
+      "habitats": [
+        "grassland",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "Big deer with velvety antlers. They huddle together in the cold glens"
+    },
+    {
+      "id": "uk_scotland_w5_snow_bunting",
+      "species": "Snow Bunting",
+      "scientificName": "Plectrophenax nivalis",
+      "description": "Snow buntings on high ground and coastal fields, flashing white wing patches",
+      "habitats": [
+        "grassland",
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "childFriendlyNote": "Little birds that flash white when they fly. They love cold weather and snow!"
+    },
+    {
+      "id": "uk_scotland_w5_redwing",
+      "species": "Redwing",
+      "scientificName": "Turdus iliacus",
+      "description": "Redwing flocks in hawthorn hedges and open fields",
+      "habitats": [
+        "hedgerow",
+        "grassland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Winter visiting thrushes. Look for the red patch under their wings"
+    },
+    {
+      "id": "uk_scotland_w5_hazel_catkins",
+      "species": "Hazel Catkins",
+      "scientificName": "Corylus avellana",
+      "description": "Hazel catkins lengthening in sheltered glens",
+      "habitats": [
+        "woodland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Yellow dangly tails on bare branches, nature's first sign that spring is coming"
+    },
+    {
+      "id": "uk_scotland_w5_snowdrop",
+      "species": "Snowdrop",
+      "scientificName": "Galanthus nivalis",
+      "description": "Snowdrops opening in sheltered spots, gardens and policy woodlands",
+      "habitats": [
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Brave little white flowers push through cold earth. They don't mind the Scottish frost!"
+    },
+    {
+      "id": "uk_scotland_w5_grey_heron",
+      "species": "Grey Heron",
+      "scientificName": "Ardea cinerea",
+      "description": "Herons returning to heronries, nesting activity beginning early",
+      "habitats": [
+        "pond",
+        "stream",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A tall grey bird standing still as a statue by the water. Then snap it grabs a fish!"
+    }
+  ],
+  "6": [
+    {
+      "id": "uk_scotland_w6_red_deer",
+      "species": "Red Deer",
+      "scientificName": "Cervus elaphus",
+      "description": "Deer moving to lower ground, browsing on heather and grass",
+      "habitats": [
+        "grassland",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "Big deer with velvety antlers. They huddle together in the cold glens"
+    },
+    {
+      "id": "uk_scotland_w6_snow_bunting",
+      "species": "Snow Bunting",
+      "scientificName": "Plectrophenax nivalis",
+      "description": "Snow buntings on high ground and coastal fields, flashing white wing patches",
+      "habitats": [
+        "grassland",
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "childFriendlyNote": "Little birds that flash white when they fly. They love cold weather and snow!"
+    },
+    {
+      "id": "uk_scotland_w6_redwing",
+      "species": "Redwing",
+      "scientificName": "Turdus iliacus",
+      "description": "Redwing flocks in hawthorn hedges and open fields",
+      "habitats": [
+        "hedgerow",
+        "grassland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Winter visiting thrushes. Look for the red patch under their wings"
+    },
+    {
+      "id": "uk_scotland_w6_hazel_catkins",
+      "species": "Hazel Catkins",
+      "scientificName": "Corylus avellana",
+      "description": "Hazel catkins shedding pollen",
+      "habitats": [
+        "woodland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Yellow dangly tails on bare branches, nature's first sign that spring is coming"
+    },
+    {
+      "id": "uk_scotland_w6_snowdrop",
+      "species": "Snowdrop",
+      "scientificName": "Galanthus nivalis",
+      "description": "Snowdrops opening in sheltered spots, gardens and policy woodlands",
+      "habitats": [
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Brave little white flowers push through cold earth. They don't mind the Scottish frost!"
+    },
+    {
+      "id": "uk_scotland_w6_grey_heron",
+      "species": "Grey Heron",
+      "scientificName": "Ardea cinerea",
+      "description": "Herons returning to heronries, nesting activity beginning early",
+      "habitats": [
+        "pond",
+        "stream",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A tall grey bird standing still as a statue by the water. Then snap it grabs a fish!"
+    },
+    {
+      "id": "uk_scotland_w6_winter_fungi",
+      "species": "Winter Fungi",
+      "description": "Jelly ear and velvet shank still fruiting in mild spells",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Wobbly brown shapes on dead branches. They feel rubbery and squidgy"
+    }
+  ],
+  "7": [
+    {
+      "id": "uk_scotland_w7_red_deer",
+      "species": "Red Deer",
+      "scientificName": "Cervus elaphus",
+      "description": "Deer moving to lower ground, browsing on heather and grass",
+      "habitats": [
+        "grassland",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "Big deer with velvety antlers. They huddle together in the cold glens"
+    },
+    {
+      "id": "uk_scotland_w7_hazel_catkins",
+      "species": "Hazel Catkins",
+      "scientificName": "Corylus avellana",
+      "description": "Hazel catkins shedding pollen",
+      "habitats": [
+        "woodland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Yellow dangly tails on bare branches, nature's first sign that spring is coming"
+    },
+    {
+      "id": "uk_scotland_w7_snowdrop",
+      "species": "Snowdrop",
+      "scientificName": "Galanthus nivalis",
+      "description": "Snowdrop displays at peak",
+      "habitats": [
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Brave little white flowers push through cold earth. They don't mind the Scottish frost!"
+    },
+    {
+      "id": "uk_scotland_w7_grey_heron",
+      "species": "Grey Heron",
+      "scientificName": "Ardea cinerea",
+      "description": "Herons returning to heronries, nesting activity beginning early",
+      "habitats": [
+        "pond",
+        "stream",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A tall grey bird standing still as a statue by the water. Then snap it grabs a fish!"
+    },
+    {
+      "id": "uk_scotland_w7_winter_fungi",
+      "species": "Winter Fungi",
+      "description": "Jelly ear and velvet shank still fruiting in mild spells",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Wobbly brown shapes on dead branches. They feel rubbery and squidgy"
+    },
+    {
+      "id": "uk_scotland_w7_ptarmigan",
+      "species": "Ptarmigan",
+      "scientificName": "Lagopus muta",
+      "description": "Ptarmigan moulting from white winter to grey-brown spring plumage on mountain tops",
+      "habitats": [
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "low",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The bird that changes clothes! Swapping its white winter coat for a speckly brown one"
+    }
+  ],
+  "8": [
+    {
+      "id": "uk_scotland_w8_red_deer",
+      "species": "Red Deer",
+      "scientificName": "Cervus elaphus",
+      "description": "Deer moving to lower ground, browsing on heather and grass",
+      "habitats": [
+        "grassland",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "Big deer with velvety antlers. They huddle together in the cold glens"
+    },
+    {
+      "id": "uk_scotland_w8_snowdrop",
+      "species": "Snowdrop",
+      "scientificName": "Galanthus nivalis",
+      "description": "Snowdrop displays at peak",
+      "habitats": [
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Brave little white flowers push through cold earth. They don't mind the Scottish frost!"
+    },
+    {
+      "id": "uk_scotland_w8_grey_heron",
+      "species": "Grey Heron",
+      "scientificName": "Ardea cinerea",
+      "description": "Herons returning to heronries, nesting activity beginning early",
+      "habitats": [
+        "pond",
+        "stream",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A tall grey bird standing still as a statue by the water. Then snap it grabs a fish!"
+    },
+    {
+      "id": "uk_scotland_w8_winter_fungi",
+      "species": "Winter Fungi",
+      "description": "Jelly ear and velvet shank still fruiting in mild spells",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Wobbly brown shapes on dead branches. They feel rubbery and squidgy"
+    },
+    {
+      "id": "uk_scotland_w8_crocus",
+      "species": "Crocus",
+      "scientificName": "Crocus vernus",
+      "description": "Crocuses emerging in parks and gardens",
+      "habitats": [
+        "garden",
+        "urban",
+        "playing_field"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Purple and golden cups open in the sunshine, like little chalices for fairy drinks"
+    },
+    {
+      "id": "uk_scotland_w8_great_tit",
+      "species": "Great Tit",
+      "scientificName": "Parus major",
+      "description": "Great tit calling \"tea-cher, tea-cher\" in brightening days",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A cheerful bird calls \"tea-cher!\" over and over from the tops of trees"
+    },
+    {
+      "id": "uk_scotland_w8_ptarmigan",
+      "species": "Ptarmigan",
+      "scientificName": "Lagopus muta",
+      "description": "Ptarmigan moulting from white winter to grey-brown spring plumage on mountain tops",
+      "habitats": [
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "low",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The bird that changes clothes! Swapping its white winter coat for a speckly brown one"
+    }
+  ],
+  "9": [
+    {
+      "id": "uk_scotland_w9_snowdrop",
+      "species": "Snowdrop",
+      "scientificName": "Galanthus nivalis",
+      "description": "Snowdrops fading",
+      "habitats": [
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Brave little white flowers push through cold earth. They don't mind the Scottish frost!"
+    },
+    {
+      "id": "uk_scotland_w9_crocus",
+      "species": "Crocus",
+      "scientificName": "Crocus vernus",
+      "description": "Crocuses emerging in parks and gardens",
+      "habitats": [
+        "garden",
+        "urban",
+        "playing_field"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Purple and golden cups open in the sunshine, like little chalices for fairy drinks"
+    },
+    {
+      "id": "uk_scotland_w9_common_frog",
+      "species": "Common Frog",
+      "scientificName": "Rana temporaria",
+      "description": "Frogs arriving at ponds, first spawn in sheltered locations",
+      "habitats": [
+        "pond",
+        "stream",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Wobbly jelly blobs appear in the pond. Each black dot is a tiny frog waiting to hatch"
+    },
+    {
+      "id": "uk_scotland_w9_great_tit",
+      "species": "Great Tit",
+      "scientificName": "Parus major",
+      "description": "Great tit calling \"tea-cher, tea-cher\" in brightening days",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A cheerful bird calls \"tea-cher!\" over and over from the tops of trees"
+    },
+    {
+      "id": "uk_scotland_w9_daffodil",
+      "species": "Daffodil",
+      "scientificName": "Narcissus pseudonarcissus",
+      "description": "Daffodil shoots and early blooms",
+      "habitats": [
+        "garden",
+        "urban",
+        "woodland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Golden trumpets nod in the Scottish breeze. Spring has arrived at last!"
+    },
+    {
+      "id": "uk_scotland_w9_ptarmigan",
+      "species": "Ptarmigan",
+      "scientificName": "Lagopus muta",
+      "description": "Ptarmigan moulting from white winter to grey-brown spring plumage on mountain tops",
+      "habitats": [
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "low",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The bird that changes clothes! Swapping its white winter coat for a speckly brown one"
+    }
+  ],
+  "10": [
+    {
+      "id": "uk_scotland_w10_crocus",
+      "species": "Crocus",
+      "scientificName": "Crocus vernus",
+      "description": "Crocuses at peak",
+      "habitats": [
+        "garden",
+        "urban",
+        "playing_field"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Purple and golden cups open in the sunshine, like little chalices for fairy drinks"
+    },
+    {
+      "id": "uk_scotland_w10_common_frog",
+      "species": "Common Frog",
+      "scientificName": "Rana temporaria",
+      "description": "Frogs arriving at ponds, first spawn in sheltered locations",
+      "habitats": [
+        "pond",
+        "stream",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Wobbly jelly blobs appear in the pond. Each black dot is a tiny frog waiting to hatch"
+    },
+    {
+      "id": "uk_scotland_w10_great_tit",
+      "species": "Great Tit",
+      "scientificName": "Parus major",
+      "description": "Great tit calling \"tea-cher, tea-cher\" in brightening days",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A cheerful bird calls \"tea-cher!\" over and over from the tops of trees"
+    },
+    {
+      "id": "uk_scotland_w10_daffodil",
+      "species": "Daffodil",
+      "scientificName": "Narcissus pseudonarcissus",
+      "description": "Daffodil shoots and early blooms",
+      "habitats": [
+        "garden",
+        "urban",
+        "woodland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Golden trumpets nod in the Scottish breeze. Spring has arrived at last!"
+    },
+    {
+      "id": "uk_scotland_w10_oystercatcher",
+      "species": "Oystercatcher",
+      "scientificName": "Haematopus ostralegus",
+      "description": "Oystercatchers arriving on inland fields and coasts, piping calls",
+      "habitats": [
+        "coast",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A smart black and white bird with a bright orange beak. It makes a loud piping sound"
+    },
+    {
+      "id": "uk_scotland_w10_ptarmigan",
+      "species": "Ptarmigan",
+      "scientificName": "Lagopus muta",
+      "description": "Ptarmigan moulting from white winter to grey-brown spring plumage on mountain tops",
+      "habitats": [
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "low",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The bird that changes clothes! Swapping its white winter coat for a speckly brown one"
+    }
+  ],
+  "11": [
+    {
+      "id": "uk_scotland_w11_crocus",
+      "species": "Crocus",
+      "scientificName": "Crocus vernus",
+      "description": "Crocuses fading",
+      "habitats": [
+        "garden",
+        "urban",
+        "playing_field"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Purple and golden cups open in the sunshine, like little chalices for fairy drinks"
+    },
+    {
+      "id": "uk_scotland_w11_common_frog",
+      "species": "Common Frog",
+      "scientificName": "Rana temporaria",
+      "description": "Frogs arriving at ponds, first spawn in sheltered locations",
+      "habitats": [
+        "pond",
+        "stream",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Wobbly jelly blobs appear in the pond. Each black dot is a tiny frog waiting to hatch"
+    },
+    {
+      "id": "uk_scotland_w11_great_tit",
+      "species": "Great Tit",
+      "scientificName": "Parus major",
+      "description": "Great tit calling \"tea-cher, tea-cher\" in brightening days",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A cheerful bird calls \"tea-cher!\" over and over from the tops of trees"
+    },
+    {
+      "id": "uk_scotland_w11_daffodil",
+      "species": "Daffodil",
+      "scientificName": "Narcissus pseudonarcissus",
+      "description": "Daffodils in full golden flower",
+      "habitats": [
+        "garden",
+        "urban",
+        "woodland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Golden trumpets nod in the Scottish breeze. Spring has arrived at last!"
+    },
+    {
+      "id": "uk_scotland_w11_oystercatcher",
+      "species": "Oystercatcher",
+      "scientificName": "Haematopus ostralegus",
+      "description": "Oystercatchers arriving on inland fields and coasts, piping calls",
+      "habitats": [
+        "coast",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A smart black and white bird with a bright orange beak. It makes a loud piping sound"
+    }
+  ],
+  "12": [
+    {
+      "id": "uk_scotland_w12_common_frog",
+      "species": "Common Frog",
+      "scientificName": "Rana temporaria",
+      "description": "Frogspawn plentiful in lochan margins",
+      "habitats": [
+        "pond",
+        "stream",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Wobbly jelly blobs appear in the pond. Each black dot is a tiny frog waiting to hatch"
+    },
+    {
+      "id": "uk_scotland_w12_great_tit",
+      "species": "Great Tit",
+      "scientificName": "Parus major",
+      "description": "Great tit calling \"tea-cher, tea-cher\" in brightening days",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A cheerful bird calls \"tea-cher!\" over and over from the tops of trees"
+    },
+    {
+      "id": "uk_scotland_w12_daffodil",
+      "species": "Daffodil",
+      "scientificName": "Narcissus pseudonarcissus",
+      "description": "Daffodils in full golden flower",
+      "habitats": [
+        "garden",
+        "urban",
+        "woodland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Golden trumpets nod in the Scottish breeze. Spring has arrived at last!"
+    },
+    {
+      "id": "uk_scotland_w12_oystercatcher",
+      "species": "Oystercatcher",
+      "scientificName": "Haematopus ostralegus",
+      "description": "Oystercatchers arriving on inland fields and coasts, piping calls",
+      "habitats": [
+        "coast",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A smart black and white bird with a bright orange beak. It makes a loud piping sound"
+    }
+  ],
+  "13": [
+    {
+      "id": "uk_scotland_w13_common_frog",
+      "species": "Common Frog",
+      "scientificName": "Rana temporaria",
+      "description": "Frogspawn plentiful in lochan margins",
+      "habitats": [
+        "pond",
+        "stream",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Wobbly jelly blobs appear in the pond. Each black dot is a tiny frog waiting to hatch"
+    },
+    {
+      "id": "uk_scotland_w13_great_tit",
+      "species": "Great Tit",
+      "scientificName": "Parus major",
+      "description": "Great tit calling \"tea-cher, tea-cher\" in brightening days",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "A cheerful bird calls \"tea-cher!\" over and over from the tops of trees"
+    },
+    {
+      "id": "uk_scotland_w13_blackthorn",
+      "species": "Blackthorn",
+      "scientificName": "Prunus spinosa",
+      "description": "Blackthorn starting to flower in sheltered hedgerows",
+      "habitats": [
+        "hedgerow",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "White blossom covers dark thorny branches. It blooms before any leaves appear"
+    },
+    {
+      "id": "uk_scotland_w13_oystercatcher",
+      "species": "Oystercatcher",
+      "scientificName": "Haematopus ostralegus",
+      "description": "Oystercatchers establishing territories",
+      "habitats": [
+        "coast",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A smart black and white bird with a bright orange beak. It makes a loud piping sound"
+    },
+    {
+      "id": "uk_scotland_w13_buff_tailed_bumblebee",
+      "species": "Buff-tailed Bumblebee",
+      "scientificName": "Bombus terrestris",
+      "description": "Queen bumblebees emerging from hibernation in lowland Scotland",
+      "habitats": [
+        "garden",
+        "hedgerow",
+        "meadow",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Big fuzzy queens buzz slowly between flowers. They need lots of food after sleeping all winter"
+    }
+  ],
+  "14": [
+    {
+      "id": "uk_scotland_w14_common_frog",
+      "species": "Common Frog",
+      "scientificName": "Rana temporaria",
+      "description": "Early tadpoles hatching",
+      "habitats": [
+        "pond",
+        "stream",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Wobbly jelly blobs appear in the pond. Each black dot is a tiny frog waiting to hatch"
+    },
+    {
+      "id": "uk_scotland_w14_great_tit",
+      "species": "Great Tit",
+      "scientificName": "Parus major",
+      "description": "Great tit calling \"tea-cher, tea-cher\" in brightening days",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "A cheerful bird calls \"tea-cher!\" over and over from the tops of trees"
+    },
+    {
+      "id": "uk_scotland_w14_blackthorn",
+      "species": "Blackthorn",
+      "scientificName": "Prunus spinosa",
+      "description": "Blackthorn starting to flower in sheltered hedgerows",
+      "habitats": [
+        "hedgerow",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "White blossom covers dark thorny branches. It blooms before any leaves appear"
+    },
+    {
+      "id": "uk_scotland_w14_oystercatcher",
+      "species": "Oystercatcher",
+      "scientificName": "Haematopus ostralegus",
+      "description": "Oystercatchers establishing territories",
+      "habitats": [
+        "coast",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A smart black and white bird with a bright orange beak. It makes a loud piping sound"
+    },
+    {
+      "id": "uk_scotland_w14_brimstone_butterfly",
+      "species": "Brimstone Butterfly",
+      "scientificName": "Gonepteryx rhamni",
+      "description": "First brimstones on warm sheltered days",
+      "habitats": [
+        "hedgerow",
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "low",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A bright yellow butterfly that looks like a flying leaf, rare this far north"
+    },
+    {
+      "id": "uk_scotland_w14_chiffchaff",
+      "species": "Chiffchaff",
+      "scientificName": "Phylloscopus collybita",
+      "description": "First chiffchaffs singing in lowland Scotland",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "This tiny traveler sings \"chiff-chaff\" after flying all the way from Africa!"
+    },
+    {
+      "id": "uk_scotland_w14_buff_tailed_bumblebee",
+      "species": "Buff-tailed Bumblebee",
+      "scientificName": "Bombus terrestris",
+      "description": "Queen bumblebees emerging from hibernation in lowland Scotland",
+      "habitats": [
+        "garden",
+        "hedgerow",
+        "meadow",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Big fuzzy queens buzz slowly between flowers. They need lots of food after sleeping all winter"
+    }
+  ],
+  "15": [
+    {
+      "id": "uk_scotland_w15_blackthorn",
+      "species": "Blackthorn",
+      "scientificName": "Prunus spinosa",
+      "description": "Blackthorn at peak in lowland Scotland",
+      "habitats": [
+        "hedgerow",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "White blossom covers dark thorny branches. It blooms before any leaves appear"
+    },
+    {
+      "id": "uk_scotland_w15_oystercatcher",
+      "species": "Oystercatcher",
+      "scientificName": "Haematopus ostralegus",
+      "description": "Oystercatcher pairs nesting",
+      "habitats": [
+        "coast",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "A smart black and white bird with a bright orange beak. It makes a loud piping sound"
+    },
+    {
+      "id": "uk_scotland_w15_brimstone_butterfly",
+      "species": "Brimstone Butterfly",
+      "scientificName": "Gonepteryx rhamni",
+      "description": "First brimstones on warm sheltered days",
+      "habitats": [
+        "hedgerow",
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "low",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A bright yellow butterfly that looks like a flying leaf, rare this far north"
+    },
+    {
+      "id": "uk_scotland_w15_chiffchaff",
+      "species": "Chiffchaff",
+      "scientificName": "Phylloscopus collybita",
+      "description": "First chiffchaffs singing in lowland Scotland",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "This tiny traveler sings \"chiff-chaff\" after flying all the way from Africa!"
+    },
+    {
+      "id": "uk_scotland_w15_buff_tailed_bumblebee",
+      "species": "Buff-tailed Bumblebee",
+      "scientificName": "Bombus terrestris",
+      "description": "Queens foraging on early spring flowers",
+      "habitats": [
+        "garden",
+        "hedgerow",
+        "meadow",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Big fuzzy queens buzz slowly between flowers. They need lots of food after sleeping all winter"
+    }
+  ],
+  "16": [
+    {
+      "id": "uk_scotland_w16_blackthorn",
+      "species": "Blackthorn",
+      "scientificName": "Prunus spinosa",
+      "description": "Blackthorn at peak in lowland Scotland",
+      "habitats": [
+        "hedgerow",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "White blossom covers dark thorny branches. It blooms before any leaves appear"
+    },
+    {
+      "id": "uk_scotland_w16_oystercatcher",
+      "species": "Oystercatcher",
+      "scientificName": "Haematopus ostralegus",
+      "description": "Oystercatcher pairs nesting",
+      "habitats": [
+        "coast",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "A smart black and white bird with a bright orange beak. It makes a loud piping sound"
+    },
+    {
+      "id": "uk_scotland_w16_brimstone_butterfly",
+      "species": "Brimstone Butterfly",
+      "scientificName": "Gonepteryx rhamni",
+      "description": "Brimstones active along woodland edges",
+      "habitats": [
+        "hedgerow",
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "low",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A bright yellow butterfly that looks like a flying leaf, rare this far north"
+    },
+    {
+      "id": "uk_scotland_w16_chiffchaff",
+      "species": "Chiffchaff",
+      "scientificName": "Phylloscopus collybita",
+      "description": "First chiffchaffs singing in lowland Scotland",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "This tiny traveler sings \"chiff-chaff\" after flying all the way from Africa!"
+    },
+    {
+      "id": "uk_scotland_w16_buff_tailed_bumblebee",
+      "species": "Buff-tailed Bumblebee",
+      "scientificName": "Bombus terrestris",
+      "description": "Queens foraging on early spring flowers",
+      "habitats": [
+        "garden",
+        "hedgerow",
+        "meadow",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Big fuzzy queens buzz slowly between flowers. They need lots of food after sleeping all winter"
+    }
+  ],
+  "17": [
+    {
+      "id": "uk_scotland_w17_blackthorn",
+      "species": "Blackthorn",
+      "scientificName": "Prunus spinosa",
+      "description": "Blackthorn going over",
+      "habitats": [
+        "hedgerow",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "White blossom covers dark thorny branches. It blooms before any leaves appear"
+    },
+    {
+      "id": "uk_scotland_w17_brimstone_butterfly",
+      "species": "Brimstone Butterfly",
+      "scientificName": "Gonepteryx rhamni",
+      "description": "Brimstones active along woodland edges",
+      "habitats": [
+        "hedgerow",
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "low",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A bright yellow butterfly that looks like a flying leaf, rare this far north"
+    },
+    {
+      "id": "uk_scotland_w17_chiffchaff",
+      "species": "Chiffchaff",
+      "scientificName": "Phylloscopus collybita",
+      "description": "Chiffchaff song spreading through woodlands",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "This tiny traveler sings \"chiff-chaff\" after flying all the way from Africa!"
+    },
+    {
+      "id": "uk_scotland_w17_puffin",
+      "species": "Puffin",
+      "scientificName": "Fratercula arctica",
+      "description": "Puffins returning to Scottish island colonies",
+      "habitats": [
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Clown-faced seabirds with rainbow beaks waddle on clifftops. They look like tiny penguins!"
+    }
+  ],
+  "18": [
+    {
+      "id": "uk_scotland_w18_brimstone_butterfly",
+      "species": "Brimstone Butterfly",
+      "scientificName": "Gonepteryx rhamni",
+      "description": "Brimstone sightings declining",
+      "habitats": [
+        "hedgerow",
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "low",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "A bright yellow butterfly that looks like a flying leaf, rare this far north"
+    },
+    {
+      "id": "uk_scotland_w18_chiffchaff",
+      "species": "Chiffchaff",
+      "scientificName": "Phylloscopus collybita",
+      "description": "Chiffchaff song spreading through woodlands",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "This tiny traveler sings \"chiff-chaff\" after flying all the way from Africa!"
+    },
+    {
+      "id": "uk_scotland_w18_scottish_bluebell",
+      "species": "Scottish Bluebell",
+      "scientificName": "Campanula rotundifolia",
+      "description": "Scottish bluebells (harebells) starting to appear on grassy banks",
+      "habitats": [
+        "grassland",
+        "coast",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Tiny blue bells nod on hair-thin stems. The Scottish bluebell is different from the English one"
+    },
+    {
+      "id": "uk_scotland_w18_swallow",
+      "species": "Swallow",
+      "scientificName": "Hirundo rustica",
+      "description": "First swallows arriving in lowland Scotland",
+      "habitats": [
+        "grassland",
+        "pond",
+        "stream",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "They're here! Swallows zoom over the fields. Imagine flying from Africa to Scotland!"
+    },
+    {
+      "id": "uk_scotland_w18_puffin",
+      "species": "Puffin",
+      "scientificName": "Fratercula arctica",
+      "description": "Puffins returning to Scottish island colonies",
+      "habitats": [
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Clown-faced seabirds with rainbow beaks waddle on clifftops. They look like tiny penguins!"
+    }
+  ],
+  "19": [
+    {
+      "id": "uk_scotland_w19_chiffchaff",
+      "species": "Chiffchaff",
+      "scientificName": "Phylloscopus collybita",
+      "description": "Chiffchaff song spreading through woodlands",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "This tiny traveler sings \"chiff-chaff\" after flying all the way from Africa!"
+    },
+    {
+      "id": "uk_scotland_w19_scottish_bluebell",
+      "species": "Scottish Bluebell",
+      "scientificName": "Campanula rotundifolia",
+      "description": "Scottish bluebells (harebells) starting to appear on grassy banks",
+      "habitats": [
+        "grassland",
+        "coast",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Tiny blue bells nod on hair-thin stems. The Scottish bluebell is different from the English one"
+    },
+    {
+      "id": "uk_scotland_w19_swallow",
+      "species": "Swallow",
+      "scientificName": "Hirundo rustica",
+      "description": "First swallows arriving in lowland Scotland",
+      "habitats": [
+        "grassland",
+        "pond",
+        "stream",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "They're here! Swallows zoom over the fields. Imagine flying from Africa to Scotland!"
+    },
+    {
+      "id": "uk_scotland_w19_puffin",
+      "species": "Puffin",
+      "scientificName": "Fratercula arctica",
+      "description": "Puffins returning to Scottish island colonies",
+      "habitats": [
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Clown-faced seabirds with rainbow beaks waddle on clifftops. They look like tiny penguins!"
+    },
+    {
+      "id": "uk_scotland_w19_cherry_blossom",
+      "species": "Cherry Blossom",
+      "scientificName": "Prunus avium",
+      "description": "Cherry blossom opening in towns and parks",
+      "habitats": [
+        "urban",
+        "garden",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Pink snow! Cherry petals drift down when the wind blows"
+    },
+    {
+      "id": "uk_scotland_w19_dawn_chorus",
+      "species": "Dawn Chorus",
+      "kind": "event",
+      "description": "Dawn chorus building in Scottish woodlands",
+      "habitats": [
+        "woodland",
+        "garden",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Before the sun rises, the birds sing the most amazing concert. It's worth getting up early!"
+    },
+    {
+      "id": "uk_scotland_w19_cuckoo",
+      "species": "Cuckoo",
+      "scientificName": "Cuculus canorus",
+      "description": "First cuckoos calling in Scotland",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "grassland"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A bird that says its own name (\"cuck-oo!\") and sneakily lays eggs in other birds' nests"
+    }
+  ],
+  "20": [
+    {
+      "id": "uk_scotland_w20_chiffchaff",
+      "species": "Chiffchaff",
+      "scientificName": "Phylloscopus collybita",
+      "description": "Song declining during nesting",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "This tiny traveler sings \"chiff-chaff\" after flying all the way from Africa!"
+    },
+    {
+      "id": "uk_scotland_w20_scottish_bluebell",
+      "species": "Scottish Bluebell",
+      "scientificName": "Campanula rotundifolia",
+      "description": "Scottish bluebells (harebells) starting to appear on grassy banks",
+      "habitats": [
+        "grassland",
+        "coast",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Tiny blue bells nod on hair-thin stems. The Scottish bluebell is different from the English one"
+    },
+    {
+      "id": "uk_scotland_w20_swallow",
+      "species": "Swallow",
+      "scientificName": "Hirundo rustica",
+      "description": "Swallows establishing at nest sites",
+      "habitats": [
+        "grassland",
+        "pond",
+        "stream",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "They're here! Swallows zoom over the fields. Imagine flying from Africa to Scotland!"
+    },
+    {
+      "id": "uk_scotland_w20_puffin",
+      "species": "Puffin",
+      "scientificName": "Fratercula arctica",
+      "description": "Puffins nesting, fishing for sandeels, colourful beaks on display",
+      "habitats": [
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Clown-faced seabirds with rainbow beaks waddle on clifftops. They look like tiny penguins!"
+    },
+    {
+      "id": "uk_scotland_w20_cherry_blossom",
+      "species": "Cherry Blossom",
+      "scientificName": "Prunus avium",
+      "description": "Cherry blossom opening in towns and parks",
+      "habitats": [
+        "urban",
+        "garden",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Pink snow! Cherry petals drift down when the wind blows"
+    },
+    {
+      "id": "uk_scotland_w20_dawn_chorus",
+      "species": "Dawn Chorus",
+      "kind": "event",
+      "description": "Dawn chorus building in Scottish woodlands",
+      "habitats": [
+        "woodland",
+        "garden",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Before the sun rises, the birds sing the most amazing concert. It's worth getting up early!"
+    },
+    {
+      "id": "uk_scotland_w20_cuckoo",
+      "species": "Cuckoo",
+      "scientificName": "Cuculus canorus",
+      "description": "First cuckoos calling in Scotland",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "grassland"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A bird that says its own name (\"cuck-oo!\") and sneakily lays eggs in other birds' nests"
+    }
+  ],
+  "21": [
+    {
+      "id": "uk_scotland_w21_scottish_bluebell",
+      "species": "Scottish Bluebell",
+      "scientificName": "Campanula rotundifolia",
+      "description": "Delicate blue bells nodding on thin stems",
+      "habitats": [
+        "grassland",
+        "coast",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Tiny blue bells nod on hair-thin stems. The Scottish bluebell is different from the English one"
+    },
+    {
+      "id": "uk_scotland_w21_puffin",
+      "species": "Puffin",
+      "scientificName": "Fratercula arctica",
+      "description": "Puffins nesting, fishing for sandeels, colourful beaks on display",
+      "habitats": [
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Clown-faced seabirds with rainbow beaks waddle on clifftops. They look like tiny penguins!"
+    },
+    {
+      "id": "uk_scotland_w21_cherry_blossom",
+      "species": "Cherry Blossom",
+      "scientificName": "Prunus avium",
+      "description": "Cherry blossom at peak",
+      "habitats": [
+        "urban",
+        "garden",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Pink snow! Cherry petals drift down when the wind blows"
+    },
+    {
+      "id": "uk_scotland_w21_dawn_chorus",
+      "species": "Dawn Chorus",
+      "kind": "event",
+      "description": "Dawn chorus building in Scottish woodlands",
+      "habitats": [
+        "woodland",
+        "garden",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Before the sun rises, the birds sing the most amazing concert. It's worth getting up early!"
+    },
+    {
+      "id": "uk_scotland_w21_cuckoo",
+      "species": "Cuckoo",
+      "scientificName": "Cuculus canorus",
+      "description": "Cuckoo heard across moorland and woodland edge",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "grassland"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A bird that says its own name (\"cuck-oo!\") and sneakily lays eggs in other birds' nests"
+    },
+    {
+      "id": "uk_scotland_w21_hawthorn",
+      "species": "Hawthorn",
+      "scientificName": "Crataegus monogyna",
+      "description": "Hawthorn beginning to bloom in lowland Scotland",
+      "habitats": [
+        "hedgerow",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Sweet-smelling white flowers cover every hedge. Summer is almost here"
+    },
+    {
+      "id": "uk_scotland_w21_common_swift",
+      "species": "Common Swift",
+      "scientificName": "Apus apus",
+      "description": "Swifts arriving over Scottish towns",
+      "habitats": [
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Screaming dark birds zoom past at incredible speed. They eat, sleep and drink while flying!"
+    }
+  ],
+  "22": [
+    {
+      "id": "uk_scotland_w22_scottish_bluebell",
+      "species": "Scottish Bluebell",
+      "scientificName": "Campanula rotundifolia",
+      "description": "Delicate blue bells nodding on thin stems",
+      "habitats": [
+        "grassland",
+        "coast",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Tiny blue bells nod on hair-thin stems. The Scottish bluebell is different from the English one"
+    },
+    {
+      "id": "uk_scotland_w22_puffin",
+      "species": "Puffin",
+      "scientificName": "Fratercula arctica",
+      "description": "Puffins nesting, fishing for sandeels, colourful beaks on display",
+      "habitats": [
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Clown-faced seabirds with rainbow beaks waddle on clifftops. They look like tiny penguins!"
+    },
+    {
+      "id": "uk_scotland_w22_dawn_chorus",
+      "species": "Dawn Chorus",
+      "kind": "event",
+      "description": "Dawn chorus at peak: blackbird, song thrush, robin, wren",
+      "habitats": [
+        "woodland",
+        "garden",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Before the sun rises, the birds sing the most amazing concert. It's worth getting up early!"
+    },
+    {
+      "id": "uk_scotland_w22_cuckoo",
+      "species": "Cuckoo",
+      "scientificName": "Cuculus canorus",
+      "description": "Cuckoo heard across moorland and woodland edge",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "grassland"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A bird that says its own name (\"cuck-oo!\") and sneakily lays eggs in other birds' nests"
+    },
+    {
+      "id": "uk_scotland_w22_hawthorn",
+      "species": "Hawthorn",
+      "scientificName": "Crataegus monogyna",
+      "description": "Hawthorn beginning to bloom in lowland Scotland",
+      "habitats": [
+        "hedgerow",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Sweet-smelling white flowers cover every hedge. Summer is almost here"
+    },
+    {
+      "id": "uk_scotland_w22_common_swift",
+      "species": "Common Swift",
+      "scientificName": "Apus apus",
+      "description": "Swifts arriving over Scottish towns",
+      "habitats": [
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Screaming dark birds zoom past at incredible speed. They eat, sleep and drink while flying!"
+    },
+    {
+      "id": "uk_scotland_w22_cow_parsley",
+      "species": "Cow Parsley",
+      "scientificName": "Anthriscus sylvestris",
+      "description": "Cow parsley flowering along roadsides",
+      "habitats": [
+        "hedgerow",
+        "grassland",
+        "stream"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Frothy white lace lines every lane and country road"
+    }
+  ],
+  "23": [
+    {
+      "id": "uk_scotland_w23_scottish_bluebell",
+      "species": "Scottish Bluebell",
+      "scientificName": "Campanula rotundifolia",
+      "description": "Bluebells still flowering",
+      "habitats": [
+        "grassland",
+        "coast",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Tiny blue bells nod on hair-thin stems. The Scottish bluebell is different from the English one"
+    },
+    {
+      "id": "uk_scotland_w23_puffin",
+      "species": "Puffin",
+      "scientificName": "Fratercula arctica",
+      "description": "Puffins nesting, fishing for sandeels, colourful beaks on display",
+      "habitats": [
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Clown-faced seabirds with rainbow beaks waddle on clifftops. They look like tiny penguins!"
+    },
+    {
+      "id": "uk_scotland_w23_dawn_chorus",
+      "species": "Dawn Chorus",
+      "kind": "event",
+      "description": "Dawn chorus at peak: blackbird, song thrush, robin, wren",
+      "habitats": [
+        "woodland",
+        "garden",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Before the sun rises, the birds sing the most amazing concert. It's worth getting up early!"
+    },
+    {
+      "id": "uk_scotland_w23_cuckoo",
+      "species": "Cuckoo",
+      "scientificName": "Cuculus canorus",
+      "description": "Cuckoo heard across moorland and woodland edge",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "grassland"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A bird that says its own name (\"cuck-oo!\") and sneakily lays eggs in other birds' nests"
+    },
+    {
+      "id": "uk_scotland_w23_hawthorn",
+      "species": "Hawthorn",
+      "scientificName": "Crataegus monogyna",
+      "description": "Hawthorn hedgerows white with blossom",
+      "habitats": [
+        "hedgerow",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Sweet-smelling white flowers cover every hedge. Summer is almost here"
+    },
+    {
+      "id": "uk_scotland_w23_common_swift",
+      "species": "Common Swift",
+      "scientificName": "Apus apus",
+      "description": "Swifts arriving over Scottish towns",
+      "habitats": [
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Screaming dark birds zoom past at incredible speed. They eat, sleep and drink while flying!"
+    },
+    {
+      "id": "uk_scotland_w23_cow_parsley",
+      "species": "Cow Parsley",
+      "scientificName": "Anthriscus sylvestris",
+      "description": "Cow parsley at peak",
+      "habitats": [
+        "hedgerow",
+        "grassland",
+        "stream"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Frothy white lace lines every lane and country road"
+    }
+  ],
+  "24": [
+    {
+      "id": "uk_scotland_w24_scottish_bluebell",
+      "species": "Scottish Bluebell",
+      "scientificName": "Campanula rotundifolia",
+      "description": "Bluebells still flowering",
+      "habitats": [
+        "grassland",
+        "coast",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Tiny blue bells nod on hair-thin stems. The Scottish bluebell is different from the English one"
+    },
+    {
+      "id": "uk_scotland_w24_puffin",
+      "species": "Puffin",
+      "scientificName": "Fratercula arctica",
+      "description": "Puffins nesting, fishing for sandeels, colourful beaks on display",
+      "habitats": [
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Clown-faced seabirds with rainbow beaks waddle on clifftops. They look like tiny penguins!"
+    },
+    {
+      "id": "uk_scotland_w24_dawn_chorus",
+      "species": "Dawn Chorus",
+      "kind": "event",
+      "description": "Dawn chorus beginning to fade",
+      "habitats": [
+        "woodland",
+        "garden",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Before the sun rises, the birds sing the most amazing concert. It's worth getting up early!"
+    },
+    {
+      "id": "uk_scotland_w24_hawthorn",
+      "species": "Hawthorn",
+      "scientificName": "Crataegus monogyna",
+      "description": "Hawthorn hedgerows white with blossom",
+      "habitats": [
+        "hedgerow",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Sweet-smelling white flowers cover every hedge. Summer is almost here"
+    },
+    {
+      "id": "uk_scotland_w24_common_swift",
+      "species": "Common Swift",
+      "scientificName": "Apus apus",
+      "description": "Swifts screaming around buildings on warm evenings",
+      "habitats": [
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Screaming dark birds zoom past at incredible speed. They eat, sleep and drink while flying!"
+    },
+    {
+      "id": "uk_scotland_w24_cow_parsley",
+      "species": "Cow Parsley",
+      "scientificName": "Anthriscus sylvestris",
+      "description": "Cow parsley at peak",
+      "habitats": [
+        "hedgerow",
+        "grassland",
+        "stream"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Frothy white lace lines every lane and country road"
+    },
+    {
+      "id": "uk_scotland_w24_elder",
+      "species": "Elder",
+      "scientificName": "Sambucus nigra",
+      "description": "Elderflower opening in sheltered locations",
+      "habitats": [
+        "hedgerow",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Flat plates of creamy-white flowers that smell sweet and fizzy"
+    }
+  ],
+  "25": [
+    {
+      "id": "uk_scotland_w25_puffin",
+      "species": "Puffin",
+      "scientificName": "Fratercula arctica",
+      "description": "Puffins nesting, fishing for sandeels, colourful beaks on display",
+      "habitats": [
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Clown-faced seabirds with rainbow beaks waddle on clifftops. They look like tiny penguins!"
+    },
+    {
+      "id": "uk_scotland_w25_dawn_chorus",
+      "species": "Dawn Chorus",
+      "kind": "event",
+      "description": "Dawn chorus beginning to fade",
+      "habitats": [
+        "woodland",
+        "garden",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Before the sun rises, the birds sing the most amazing concert. It's worth getting up early!"
+    },
+    {
+      "id": "uk_scotland_w25_cuckoo",
+      "species": "Cuckoo",
+      "scientificName": "Cuculus canorus",
+      "description": "Cuckoo calls becoming rarer",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "grassland"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "A bird that says its own name (\"cuck-oo!\") and sneakily lays eggs in other birds' nests"
+    },
+    {
+      "id": "uk_scotland_w25_common_swift",
+      "species": "Common Swift",
+      "scientificName": "Apus apus",
+      "description": "Swifts screaming around buildings on warm evenings",
+      "habitats": [
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Screaming dark birds zoom past at incredible speed. They eat, sleep and drink while flying!"
+    },
+    {
+      "id": "uk_scotland_w25_elder",
+      "species": "Elder",
+      "scientificName": "Sambucus nigra",
+      "description": "Elderflower opening in sheltered locations",
+      "habitats": [
+        "hedgerow",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Flat plates of creamy-white flowers that smell sweet and fizzy"
+    },
+    {
+      "id": "uk_scotland_w25_dog_rose",
+      "species": "Dog Rose",
+      "scientificName": "Rosa canina",
+      "description": "Dog roses opening in hedgerows",
+      "habitats": [
+        "hedgerow"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Simple pink flowers with a lovely smell climb through the hedges"
+    },
+    {
+      "id": "uk_scotland_w25_foxglove",
+      "species": "Foxglove",
+      "scientificName": "Digitalis purpurea",
+      "description": "Foxglove towers rising in glens and clearings",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Tall purple towers of bell flowers. Look inside for the spots! But never touch, they're poisonous"
+    }
+  ],
+  "26": [
+    {
+      "id": "uk_scotland_w26_puffin",
+      "species": "Puffin",
+      "scientificName": "Fratercula arctica",
+      "description": "Puffins nesting, fishing for sandeels, colourful beaks on display",
+      "habitats": [
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Clown-faced seabirds with rainbow beaks waddle on clifftops. They look like tiny penguins!"
+    },
+    {
+      "id": "uk_scotland_w26_common_swift",
+      "species": "Common Swift",
+      "scientificName": "Apus apus",
+      "description": "Swifts screaming around buildings on warm evenings",
+      "habitats": [
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Screaming dark birds zoom past at incredible speed. They eat, sleep and drink while flying!"
+    },
+    {
+      "id": "uk_scotland_w26_elder",
+      "species": "Elder",
+      "scientificName": "Sambucus nigra",
+      "description": "Elderflower at peak",
+      "habitats": [
+        "hedgerow",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Flat plates of creamy-white flowers that smell sweet and fizzy"
+    },
+    {
+      "id": "uk_scotland_w26_dog_rose",
+      "species": "Dog Rose",
+      "scientificName": "Rosa canina",
+      "description": "Dog roses opening in hedgerows",
+      "habitats": [
+        "hedgerow"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Simple pink flowers with a lovely smell climb through the hedges"
+    },
+    {
+      "id": "uk_scotland_w26_foxglove",
+      "species": "Foxglove",
+      "scientificName": "Digitalis purpurea",
+      "description": "Foxglove towers rising in glens and clearings",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Tall purple towers of bell flowers. Look inside for the spots! But never touch, they're poisonous"
+    },
+    {
+      "id": "uk_scotland_w26_common_hawker",
+      "species": "Common Hawker",
+      "scientificName": "Aeshna juncea",
+      "description": "Common hawker dragonflies emerging at lochs",
+      "habitats": [
+        "pond",
+        "stream",
+        "meadow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Big blue dragonflies patrol the loch like tiny helicopters. They lived underwater for years before flying!"
+    },
+    {
+      "id": "uk_scotland_w26_red_clover",
+      "species": "Red Clover",
+      "scientificName": "Trifolium pratense",
+      "description": "Red clover flowering in meadows and field edges",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Pink pompom flowers with a sweet smell. Bees love them and you can taste the nectar"
+    }
+  ],
+  "27": [
+    {
+      "id": "uk_scotland_w27_puffin",
+      "species": "Puffin",
+      "scientificName": "Fratercula arctica",
+      "description": "Puffins nesting, fishing for sandeels, colourful beaks on display",
+      "habitats": [
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Clown-faced seabirds with rainbow beaks waddle on clifftops. They look like tiny penguins!"
+    },
+    {
+      "id": "uk_scotland_w27_common_swift",
+      "species": "Common Swift",
+      "scientificName": "Apus apus",
+      "description": "Swifts screaming around buildings on warm evenings",
+      "habitats": [
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Screaming dark birds zoom past at incredible speed. They eat, sleep and drink while flying!"
+    },
+    {
+      "id": "uk_scotland_w27_elder",
+      "species": "Elder",
+      "scientificName": "Sambucus nigra",
+      "description": "Elderflower at peak",
+      "habitats": [
+        "hedgerow",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Flat plates of creamy-white flowers that smell sweet and fizzy"
+    },
+    {
+      "id": "uk_scotland_w27_dog_rose",
+      "species": "Dog Rose",
+      "scientificName": "Rosa canina",
+      "description": "Dog roses at peak",
+      "habitats": [
+        "hedgerow"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Simple pink flowers with a lovely smell climb through the hedges"
+    },
+    {
+      "id": "uk_scotland_w27_foxglove",
+      "species": "Foxglove",
+      "scientificName": "Digitalis purpurea",
+      "description": "Foxglove towers rising in glens and clearings",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Tall purple towers of bell flowers. Look inside for the spots! But never touch, they're poisonous"
+    },
+    {
+      "id": "uk_scotland_w27_common_hawker",
+      "species": "Common Hawker",
+      "scientificName": "Aeshna juncea",
+      "description": "Common hawker dragonflies emerging at lochs",
+      "habitats": [
+        "pond",
+        "stream",
+        "meadow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Big blue dragonflies patrol the loch like tiny helicopters. They lived underwater for years before flying!"
+    },
+    {
+      "id": "uk_scotland_w27_red_clover",
+      "species": "Red Clover",
+      "scientificName": "Trifolium pratense",
+      "description": "Red clover flowering in meadows and field edges",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Pink pompom flowers with a sweet smell. Bees love them and you can taste the nectar"
+    }
+  ],
+  "28": [
+    {
+      "id": "uk_scotland_w28_common_swift",
+      "species": "Common Swift",
+      "scientificName": "Apus apus",
+      "description": "Swifts screaming around buildings on warm evenings",
+      "habitats": [
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Screaming dark birds zoom past at incredible speed. They eat, sleep and drink while flying!"
+    },
+    {
+      "id": "uk_scotland_w28_dog_rose",
+      "species": "Dog Rose",
+      "scientificName": "Rosa canina",
+      "description": "Dog roses at peak",
+      "habitats": [
+        "hedgerow"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Simple pink flowers with a lovely smell climb through the hedges"
+    },
+    {
+      "id": "uk_scotland_w28_foxglove",
+      "species": "Foxglove",
+      "scientificName": "Digitalis purpurea",
+      "description": "Foxgloves at peak, purple spires in Scottish woodland",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Tall purple towers of bell flowers. Look inside for the spots! But never touch, they're poisonous"
+    },
+    {
+      "id": "uk_scotland_w28_common_hawker",
+      "species": "Common Hawker",
+      "scientificName": "Aeshna juncea",
+      "description": "Common hawker dragonflies emerging at lochs",
+      "habitats": [
+        "pond",
+        "stream",
+        "meadow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Big blue dragonflies patrol the loch like tiny helicopters. They lived underwater for years before flying!"
+    },
+    {
+      "id": "uk_scotland_w28_red_clover",
+      "species": "Red Clover",
+      "scientificName": "Trifolium pratense",
+      "description": "Red clover flowering in meadows and field edges",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Pink pompom flowers with a sweet smell. Bees love them and you can taste the nectar"
+    },
+    {
+      "id": "uk_scotland_w28_meadow_brown",
+      "species": "Meadow Brown",
+      "scientificName": "Maniola jurtina",
+      "description": "Meadow browns emerging in grassland",
+      "habitats": [
+        "meadow",
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Brown butterflies bob lazily over the grass. They have a little eye-spot to scare predators"
+    },
+    {
+      "id": "uk_scotland_w28_bramble_flowers",
+      "species": "Bramble Flowers",
+      "scientificName": "Rubus fruticosus",
+      "description": "Bramble flowering in hedgerows",
+      "habitats": [
+        "hedgerow",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Pink and white flowers on prickly bushes. Each one will become a blackberry!"
+    }
+  ],
+  "29": [
+    {
+      "id": "uk_scotland_w29_common_swift",
+      "species": "Common Swift",
+      "scientificName": "Apus apus",
+      "description": "Swifts screaming around buildings on warm evenings",
+      "habitats": [
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Screaming dark birds zoom past at incredible speed. They eat, sleep and drink while flying!"
+    },
+    {
+      "id": "uk_scotland_w29_foxglove",
+      "species": "Foxglove",
+      "scientificName": "Digitalis purpurea",
+      "description": "Foxgloves at peak, purple spires in Scottish woodland",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Tall purple towers of bell flowers. Look inside for the spots! But never touch, they're poisonous"
+    },
+    {
+      "id": "uk_scotland_w29_common_hawker",
+      "species": "Common Hawker",
+      "scientificName": "Aeshna juncea",
+      "description": "Dragonflies patrolling lochs and bogland",
+      "habitats": [
+        "pond",
+        "stream",
+        "meadow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Big blue dragonflies patrol the loch like tiny helicopters. They lived underwater for years before flying!"
+    },
+    {
+      "id": "uk_scotland_w29_red_clover",
+      "species": "Red Clover",
+      "scientificName": "Trifolium pratense",
+      "description": "Clover at peak with bumbles visiting",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Pink pompom flowers with a sweet smell. Bees love them and you can taste the nectar"
+    },
+    {
+      "id": "uk_scotland_w29_meadow_brown",
+      "species": "Meadow Brown",
+      "scientificName": "Maniola jurtina",
+      "description": "Meadow browns emerging in grassland",
+      "habitats": [
+        "meadow",
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Brown butterflies bob lazily over the grass. They have a little eye-spot to scare predators"
+    },
+    {
+      "id": "uk_scotland_w29_heather",
+      "species": "Heather",
+      "scientificName": "Calluna vulgaris",
+      "description": "Heather beginning to flower on moors and highlands",
+      "habitats": [
+        "grassland",
+        "coast"
+      ],
+      "senses": [
+        "sight",
+        "smell",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The hills turn purple! It's the heather. Breathe in the honey smell and listen to a million bees humming"
+    },
+    {
+      "id": "uk_scotland_w29_bramble_flowers",
+      "species": "Bramble Flowers",
+      "scientificName": "Rubus fruticosus",
+      "description": "Bramble flowering in hedgerows",
+      "habitats": [
+        "hedgerow",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Pink and white flowers on prickly bushes. Each one will become a blackberry!"
+    }
+  ],
+  "30": [
+    {
+      "id": "uk_scotland_w30_puffin",
+      "species": "Puffin",
+      "scientificName": "Fratercula arctica",
+      "description": "Puffins preparing to leave colonies",
+      "habitats": [
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Clown-faced seabirds with rainbow beaks waddle on clifftops. They look like tiny penguins!"
+    },
+    {
+      "id": "uk_scotland_w30_common_swift",
+      "species": "Common Swift",
+      "scientificName": "Apus apus",
+      "description": "Swifts departing early from Scotland",
+      "habitats": [
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Screaming dark birds zoom past at incredible speed. They eat, sleep and drink while flying!"
+    },
+    {
+      "id": "uk_scotland_w30_common_hawker",
+      "species": "Common Hawker",
+      "scientificName": "Aeshna juncea",
+      "description": "Dragonflies patrolling lochs and bogland",
+      "habitats": [
+        "pond",
+        "stream",
+        "meadow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Big blue dragonflies patrol the loch like tiny helicopters. They lived underwater for years before flying!"
+    },
+    {
+      "id": "uk_scotland_w30_red_clover",
+      "species": "Red Clover",
+      "scientificName": "Trifolium pratense",
+      "description": "Clover at peak with bumbles visiting",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Pink pompom flowers with a sweet smell. Bees love them and you can taste the nectar"
+    },
+    {
+      "id": "uk_scotland_w30_meadow_brown",
+      "species": "Meadow Brown",
+      "scientificName": "Maniola jurtina",
+      "description": "Meadow browns emerging in grassland",
+      "habitats": [
+        "meadow",
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Brown butterflies bob lazily over the grass. They have a little eye-spot to scare predators"
+    },
+    {
+      "id": "uk_scotland_w30_heather",
+      "species": "Heather",
+      "scientificName": "Calluna vulgaris",
+      "description": "Heather beginning to flower on moors and highlands",
+      "habitats": [
+        "grassland",
+        "coast"
+      ],
+      "senses": [
+        "sight",
+        "smell",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The hills turn purple! It's the heather. Breathe in the honey smell and listen to a million bees humming"
+    },
+    {
+      "id": "uk_scotland_w30_bramble_flowers",
+      "species": "Bramble Flowers",
+      "scientificName": "Rubus fruticosus",
+      "description": "Bramble blossom at peak",
+      "habitats": [
+        "hedgerow",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Pink and white flowers on prickly bushes. Each one will become a blackberry!"
+    }
+  ],
+  "31": [
+    {
+      "id": "uk_scotland_w31_common_swift",
+      "species": "Common Swift",
+      "scientificName": "Apus apus",
+      "description": "Swifts departing early from Scotland",
+      "habitats": [
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Screaming dark birds zoom past at incredible speed. They eat, sleep and drink while flying!"
+    },
+    {
+      "id": "uk_scotland_w31_foxglove",
+      "species": "Foxglove",
+      "scientificName": "Digitalis purpurea",
+      "description": "Upper bells still opening",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Tall purple towers of bell flowers. Look inside for the spots! But never touch, they're poisonous"
+    },
+    {
+      "id": "uk_scotland_w31_common_hawker",
+      "species": "Common Hawker",
+      "scientificName": "Aeshna juncea",
+      "description": "Dragonflies patrolling lochs and bogland",
+      "habitats": [
+        "pond",
+        "stream",
+        "meadow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Big blue dragonflies patrol the loch like tiny helicopters. They lived underwater for years before flying!"
+    },
+    {
+      "id": "uk_scotland_w31_meadow_brown",
+      "species": "Meadow Brown",
+      "scientificName": "Maniola jurtina",
+      "description": "Meadow browns common in lowlands",
+      "habitats": [
+        "meadow",
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Brown butterflies bob lazily over the grass. They have a little eye-spot to scare predators"
+    },
+    {
+      "id": "uk_scotland_w31_heather",
+      "species": "Heather",
+      "scientificName": "Calluna vulgaris",
+      "description": "Heather beginning to flower on moors and highlands",
+      "habitats": [
+        "grassland",
+        "coast"
+      ],
+      "senses": [
+        "sight",
+        "smell",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The hills turn purple! It's the heather. Breathe in the honey smell and listen to a million bees humming"
+    },
+    {
+      "id": "uk_scotland_w31_grasshopper",
+      "species": "Grasshopper",
+      "scientificName": "Chorthippus brunneus",
+      "description": "Grasshoppers loud on sunny afternoons",
+      "habitats": [
+        "grassland",
+        "meadow"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Listen for the scratchy chirp in sunny grass. Grasshoppers play leg-violins!"
+    },
+    {
+      "id": "uk_scotland_w31_bramble_flowers",
+      "species": "Bramble Flowers",
+      "scientificName": "Rubus fruticosus",
+      "description": "Bramble blossom at peak",
+      "habitats": [
+        "hedgerow",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Pink and white flowers on prickly bushes. Each one will become a blackberry!"
+    }
+  ],
+  "32": [
+    {
+      "id": "uk_scotland_w32_common_swift",
+      "species": "Common Swift",
+      "scientificName": "Apus apus",
+      "description": "Swifts departing early from Scotland",
+      "habitats": [
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Screaming dark birds zoom past at incredible speed. They eat, sleep and drink while flying!"
+    },
+    {
+      "id": "uk_scotland_w32_common_hawker",
+      "species": "Common Hawker",
+      "scientificName": "Aeshna juncea",
+      "description": "Numbers declining",
+      "habitats": [
+        "pond",
+        "stream",
+        "meadow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Big blue dragonflies patrol the loch like tiny helicopters. They lived underwater for years before flying!"
+    },
+    {
+      "id": "uk_scotland_w32_meadow_brown",
+      "species": "Meadow Brown",
+      "scientificName": "Maniola jurtina",
+      "description": "Meadow browns common in lowlands",
+      "habitats": [
+        "meadow",
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Brown butterflies bob lazily over the grass. They have a little eye-spot to scare predators"
+    },
+    {
+      "id": "uk_scotland_w32_heather",
+      "species": "Heather",
+      "scientificName": "Calluna vulgaris",
+      "description": "Heather at peak. Scottish highlands and moors turned purple",
+      "habitats": [
+        "grassland",
+        "coast"
+      ],
+      "senses": [
+        "sight",
+        "smell",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The hills turn purple! It's the heather. Breathe in the honey smell and listen to a million bees humming"
+    },
+    {
+      "id": "uk_scotland_w32_grasshopper",
+      "species": "Grasshopper",
+      "scientificName": "Chorthippus brunneus",
+      "description": "Grasshoppers loud on sunny afternoons",
+      "habitats": [
+        "grassland",
+        "meadow"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Listen for the scratchy chirp in sunny grass. Grasshoppers play leg-violins!"
+    },
+    {
+      "id": "uk_scotland_w32_blackberry",
+      "species": "Blackberry",
+      "scientificName": "Rubus fruticosus",
+      "description": "First blackberries ripening in sunny spots",
+      "habitats": [
+        "hedgerow",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "smell",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Free wild fruit! The black shiny ones are sweet. Your tongue turns purple!"
+    },
+    {
+      "id": "uk_scotland_w32_rosehip",
+      "species": "Rosehip",
+      "scientificName": "Rosa canina",
+      "description": "Rosehips turning red in hedgerows",
+      "habitats": [
+        "hedgerow"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Shiny red berries on rose bushes. Birds eat them all winter"
+    }
+  ],
+  "33": [
+    {
+      "id": "uk_scotland_w33_common_swift",
+      "species": "Common Swift",
+      "scientificName": "Apus apus",
+      "description": "Swifts departing early from Scotland",
+      "habitats": [
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Screaming dark birds zoom past at incredible speed. They eat, sleep and drink while flying!"
+    },
+    {
+      "id": "uk_scotland_w33_common_hawker",
+      "species": "Common Hawker",
+      "scientificName": "Aeshna juncea",
+      "description": "Numbers declining",
+      "habitats": [
+        "pond",
+        "stream",
+        "meadow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Big blue dragonflies patrol the loch like tiny helicopters. They lived underwater for years before flying!"
+    },
+    {
+      "id": "uk_scotland_w33_meadow_brown",
+      "species": "Meadow Brown",
+      "scientificName": "Maniola jurtina",
+      "description": "Numbers declining",
+      "habitats": [
+        "meadow",
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Brown butterflies bob lazily over the grass. They have a little eye-spot to scare predators"
+    },
+    {
+      "id": "uk_scotland_w33_heather",
+      "species": "Heather",
+      "scientificName": "Calluna vulgaris",
+      "description": "Heather at peak. Scottish highlands and moors turned purple",
+      "habitats": [
+        "grassland",
+        "coast"
+      ],
+      "senses": [
+        "sight",
+        "smell",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The hills turn purple! It's the heather. Breathe in the honey smell and listen to a million bees humming"
+    },
+    {
+      "id": "uk_scotland_w33_blackberry",
+      "species": "Blackberry",
+      "scientificName": "Rubus fruticosus",
+      "description": "First blackberries ripening in sunny spots",
+      "habitats": [
+        "hedgerow",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "smell",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Free wild fruit! The black shiny ones are sweet. Your tongue turns purple!"
+    },
+    {
+      "id": "uk_scotland_w33_rosehip",
+      "species": "Rosehip",
+      "scientificName": "Rosa canina",
+      "description": "Rosehips turning red in hedgerows",
+      "habitats": [
+        "hedgerow"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Shiny red berries on rose bushes. Birds eat them all winter"
+    },
+    {
+      "id": "uk_scotland_w33_harvest_spider",
+      "species": "Harvest Spider",
+      "scientificName": "Opiliones",
+      "description": "Harvestmen visible on walls and vegetation",
+      "habitats": [
+        "garden",
+        "wall_fence",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Tiny body on long bouncy legs. They walk like they're on stilts!"
+    }
+  ],
+  "34": [
+    {
+      "id": "uk_scotland_w34_meadow_brown",
+      "species": "Meadow Brown",
+      "scientificName": "Maniola jurtina",
+      "description": "Numbers declining",
+      "habitats": [
+        "meadow",
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Brown butterflies bob lazily over the grass. They have a little eye-spot to scare predators"
+    },
+    {
+      "id": "uk_scotland_w34_heather",
+      "species": "Heather",
+      "scientificName": "Calluna vulgaris",
+      "description": "Heather at peak. Scottish highlands and moors turned purple",
+      "habitats": [
+        "grassland",
+        "coast"
+      ],
+      "senses": [
+        "sight",
+        "smell",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The hills turn purple! It's the heather. Breathe in the honey smell and listen to a million bees humming"
+    },
+    {
+      "id": "uk_scotland_w34_blackberry",
+      "species": "Blackberry",
+      "scientificName": "Rubus fruticosus",
+      "description": "First blackberries ripening in sunny spots",
+      "habitats": [
+        "hedgerow",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "smell",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Free wild fruit! The black shiny ones are sweet. Your tongue turns purple!"
+    },
+    {
+      "id": "uk_scotland_w34_rosehip",
+      "species": "Rosehip",
+      "scientificName": "Rosa canina",
+      "description": "Bright red rosehips decorating hedgerows",
+      "habitats": [
+        "hedgerow"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Shiny red berries on rose bushes. Birds eat them all winter"
+    },
+    {
+      "id": "uk_scotland_w34_horse_chestnut",
+      "species": "Horse Chestnut",
+      "scientificName": "Aesculus hippocastanum",
+      "description": "Conkers beginning to fall from trees",
+      "habitats": [
+        "urban",
+        "garden",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Split open the spiky green ball. The conker inside is the shiniest thing ever"
+    },
+    {
+      "id": "uk_scotland_w34_garden_spider",
+      "species": "Garden Spider",
+      "scientificName": "Araneus diadematus",
+      "description": "Orb webs appearing with dew, garden spiders growing large",
+      "habitats": [
+        "garden",
+        "hedgerow",
+        "wall_fence"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Sparkling diamond webs every morning. The spider rebuilds every single day"
+    },
+    {
+      "id": "uk_scotland_w34_swallow_gathering",
+      "species": "Swallow Gathering",
+      "kind": "event",
+      "scientificName": "Hirundo rustica",
+      "description": "Swallows massing on wires for migration south",
+      "habitats": [
+        "grassland",
+        "urban",
+        "pond"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Hundreds sit on the wires chattering. Tomorrow they start their huge journey to Africa!"
+    }
+  ],
+  "35": [
+    {
+      "id": "uk_scotland_w35_blackberry",
+      "species": "Blackberry",
+      "scientificName": "Rubus fruticosus",
+      "description": "Peak blackberry season in Scotland",
+      "habitats": [
+        "hedgerow",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "smell",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Free wild fruit! The black shiny ones are sweet. Your tongue turns purple!"
+    },
+    {
+      "id": "uk_scotland_w35_rosehip",
+      "species": "Rosehip",
+      "scientificName": "Rosa canina",
+      "description": "Bright red rosehips decorating hedgerows",
+      "habitats": [
+        "hedgerow"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Shiny red berries on rose bushes. Birds eat them all winter"
+    },
+    {
+      "id": "uk_scotland_w35_horse_chestnut",
+      "species": "Horse Chestnut",
+      "scientificName": "Aesculus hippocastanum",
+      "description": "Conkers beginning to fall from trees",
+      "habitats": [
+        "urban",
+        "garden",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Split open the spiky green ball. The conker inside is the shiniest thing ever"
+    },
+    {
+      "id": "uk_scotland_w35_garden_spider",
+      "species": "Garden Spider",
+      "scientificName": "Araneus diadematus",
+      "description": "Orb webs appearing with dew, garden spiders growing large",
+      "habitats": [
+        "garden",
+        "hedgerow",
+        "wall_fence"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Sparkling diamond webs every morning. The spider rebuilds every single day"
+    },
+    {
+      "id": "uk_scotland_w35_swallow_gathering",
+      "species": "Swallow Gathering",
+      "kind": "event",
+      "scientificName": "Hirundo rustica",
+      "description": "Swallows massing on wires for migration south",
+      "habitats": [
+        "grassland",
+        "urban",
+        "pond"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Hundreds sit on the wires chattering. Tomorrow they start their huge journey to Africa!"
+    },
+    {
+      "id": "uk_scotland_w35_ivy",
+      "species": "Ivy",
+      "scientificName": "Hedera helix",
+      "description": "Ivy flowering, attracting late-season insects",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "wall_fence",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "smell",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Buzzing green flowers where bees and butterflies have their last feast before winter"
+    },
+    {
+      "id": "uk_scotland_w35_pedunculate_oak",
+      "species": "Pedunculate Oak",
+      "scientificName": "Quercus robur",
+      "description": "Acorns ripening and falling",
+      "habitats": [
+        "woodland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Little brown nuts in cups rain down from the oaks. Each one could grow into a mighty tree"
+    }
+  ],
+  "36": [
+    {
+      "id": "uk_scotland_w36_blackberry",
+      "species": "Blackberry",
+      "scientificName": "Rubus fruticosus",
+      "description": "Peak blackberry season in Scotland",
+      "habitats": [
+        "hedgerow",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "smell",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Free wild fruit! The black shiny ones are sweet. Your tongue turns purple!"
+    },
+    {
+      "id": "uk_scotland_w36_rosehip",
+      "species": "Rosehip",
+      "scientificName": "Rosa canina",
+      "description": "Bright red rosehips decorating hedgerows",
+      "habitats": [
+        "hedgerow"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Shiny red berries on rose bushes. Birds eat them all winter"
+    },
+    {
+      "id": "uk_scotland_w36_harvest_spider",
+      "species": "Harvest Spider",
+      "scientificName": "Opiliones",
+      "description": "Harvest spiders abundant",
+      "habitats": [
+        "garden",
+        "wall_fence",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Tiny body on long bouncy legs. They walk like they're on stilts!"
+    },
+    {
+      "id": "uk_scotland_w36_horse_chestnut",
+      "species": "Horse Chestnut",
+      "scientificName": "Aesculus hippocastanum",
+      "description": "Conkers beginning to fall from trees",
+      "habitats": [
+        "urban",
+        "garden",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Split open the spiky green ball. The conker inside is the shiniest thing ever"
+    },
+    {
+      "id": "uk_scotland_w36_garden_spider",
+      "species": "Garden Spider",
+      "scientificName": "Araneus diadematus",
+      "description": "Orb webs appearing with dew, garden spiders growing large",
+      "habitats": [
+        "garden",
+        "hedgerow",
+        "wall_fence"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Sparkling diamond webs every morning. The spider rebuilds every single day"
+    },
+    {
+      "id": "uk_scotland_w36_autumn_colour",
+      "species": "Autumn Colour",
+      "description": "Early autumn colour appearing, birch turning gold first",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Scottish autumn is magical: golden birch, red rowan, and orange beech light up the glens"
+    },
+    {
+      "id": "uk_scotland_w36_ivy",
+      "species": "Ivy",
+      "scientificName": "Hedera helix",
+      "description": "Ivy flowering, attracting late-season insects",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "wall_fence",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "smell",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Buzzing green flowers where bees and butterflies have their last feast before winter"
+    }
+  ],
+  "37": [
+    {
+      "id": "uk_scotland_w37_harvest_spider",
+      "species": "Harvest Spider",
+      "scientificName": "Opiliones",
+      "description": "Harvest spiders abundant",
+      "habitats": [
+        "garden",
+        "wall_fence",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Tiny body on long bouncy legs. They walk like they're on stilts!"
+    },
+    {
+      "id": "uk_scotland_w37_horse_chestnut",
+      "species": "Horse Chestnut",
+      "scientificName": "Aesculus hippocastanum",
+      "description": "Peak conker collection time",
+      "habitats": [
+        "urban",
+        "garden",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Split open the spiky green ball. The conker inside is the shiniest thing ever"
+    },
+    {
+      "id": "uk_scotland_w37_garden_spider",
+      "species": "Garden Spider",
+      "scientificName": "Araneus diadematus",
+      "description": "Spectacular dew-draped webs at dawn",
+      "habitats": [
+        "garden",
+        "hedgerow",
+        "wall_fence"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Sparkling diamond webs every morning. The spider rebuilds every single day"
+    },
+    {
+      "id": "uk_scotland_w37_red_deer_rut",
+      "species": "Red Deer Rut",
+      "kind": "event",
+      "scientificName": "Cervus elaphus",
+      "description": "Red deer rut beginning, stags roaring across glens",
+      "habitats": [
+        "grassland",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Huge stags with giant antlers roar across the glen like lions. You can hear them from far away!"
+    },
+    {
+      "id": "uk_scotland_w37_autumn_colour",
+      "species": "Autumn Colour",
+      "description": "Early autumn colour appearing, birch turning gold first",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Scottish autumn is magical: golden birch, red rowan, and orange beech light up the glens"
+    },
+    {
+      "id": "uk_scotland_w37_ivy",
+      "species": "Ivy",
+      "scientificName": "Hedera helix",
+      "description": "Ivy flowering, attracting late-season insects",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "wall_fence",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "smell",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Buzzing green flowers where bees and butterflies have their last feast before winter"
+    },
+    {
+      "id": "uk_scotland_w37_pedunculate_oak",
+      "species": "Pedunculate Oak",
+      "scientificName": "Quercus robur",
+      "description": "Acorns ripening and falling",
+      "habitats": [
+        "woodland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Little brown nuts in cups rain down from the oaks. Each one could grow into a mighty tree"
+    }
+  ],
+  "38": [
+    {
+      "id": "uk_scotland_w38_harvest_spider",
+      "species": "Harvest Spider",
+      "scientificName": "Opiliones",
+      "description": "Harvest spiders abundant",
+      "habitats": [
+        "garden",
+        "wall_fence",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Tiny body on long bouncy legs. They walk like they're on stilts!"
+    },
+    {
+      "id": "uk_scotland_w38_horse_chestnut",
+      "species": "Horse Chestnut",
+      "scientificName": "Aesculus hippocastanum",
+      "description": "Peak conker collection time",
+      "habitats": [
+        "urban",
+        "garden",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Split open the spiky green ball. The conker inside is the shiniest thing ever"
+    },
+    {
+      "id": "uk_scotland_w38_garden_spider",
+      "species": "Garden Spider",
+      "scientificName": "Araneus diadematus",
+      "description": "Spectacular dew-draped webs at dawn",
+      "habitats": [
+        "garden",
+        "hedgerow",
+        "wall_fence"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Sparkling diamond webs every morning. The spider rebuilds every single day"
+    },
+    {
+      "id": "uk_scotland_w38_red_deer_rut",
+      "species": "Red Deer Rut",
+      "kind": "event",
+      "scientificName": "Cervus elaphus",
+      "description": "Red deer rut beginning, stags roaring across glens",
+      "habitats": [
+        "grassland",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Huge stags with giant antlers roar across the glen like lions. You can hear them from far away!"
+    },
+    {
+      "id": "uk_scotland_w38_ivy",
+      "species": "Ivy",
+      "scientificName": "Hedera helix",
+      "description": "Ivy in full bloom, crucial autumn nectar source",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "wall_fence",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "smell",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Buzzing green flowers where bees and butterflies have their last feast before winter"
+    },
+    {
+      "id": "uk_scotland_w38_pedunculate_oak",
+      "species": "Pedunculate Oak",
+      "scientificName": "Quercus robur",
+      "description": "Squirrels and jays busy caching acorns",
+      "habitats": [
+        "woodland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Little brown nuts in cups rain down from the oaks. Each one could grow into a mighty tree"
+    },
+    {
+      "id": "uk_scotland_w38_grey_squirrel",
+      "species": "Grey Squirrel",
+      "scientificName": "Sciurus carolinensis",
+      "description": "Squirrels gathering and burying nuts for winter",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Squirrels race about with cheeks stuffed with nuts. They're busy stocking their winter larder"
+    }
+  ],
+  "39": [
+    {
+      "id": "uk_scotland_w39_red_deer_rut",
+      "species": "Red Deer Rut",
+      "kind": "event",
+      "scientificName": "Cervus elaphus",
+      "description": "Red deer rut beginning, stags roaring across glens",
+      "habitats": [
+        "grassland",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Huge stags with giant antlers roar across the glen like lions. You can hear them from far away!"
+    },
+    {
+      "id": "uk_scotland_w39_autumn_colour",
+      "species": "Autumn Colour",
+      "description": "Peak autumn colour across Scotland, spectacular glens",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Scottish autumn is magical: golden birch, red rowan, and orange beech light up the glens"
+    },
+    {
+      "id": "uk_scotland_w39_ivy",
+      "species": "Ivy",
+      "scientificName": "Hedera helix",
+      "description": "Ivy in full bloom, crucial autumn nectar source",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "wall_fence",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "smell",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Buzzing green flowers where bees and butterflies have their last feast before winter"
+    },
+    {
+      "id": "uk_scotland_w39_pedunculate_oak",
+      "species": "Pedunculate Oak",
+      "scientificName": "Quercus robur",
+      "description": "Squirrels and jays busy caching acorns",
+      "habitats": [
+        "woodland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Little brown nuts in cups rain down from the oaks. Each one could grow into a mighty tree"
+    },
+    {
+      "id": "uk_scotland_w39_fly_agaric",
+      "species": "Fly Agaric",
+      "scientificName": "Amanita muscaria",
+      "description": "Fly agaric appearing under birch in Scottish woodlands",
+      "habitats": [
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Red cap, white spots: the classic fairy-tale toadstool, found under birch trees"
+    },
+    {
+      "id": "uk_scotland_w39_fieldfare",
+      "species": "Fieldfare",
+      "scientificName": "Turdus pilaris",
+      "description": "Fieldfares arriving from Scandinavia to Scottish coasts and fields",
+      "habitats": [
+        "hedgerow",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Big chattering groups fly from Scandinavia across the cold North Sea to spend winter here"
+    },
+    {
+      "id": "uk_scotland_w39_grey_squirrel",
+      "species": "Grey Squirrel",
+      "scientificName": "Sciurus carolinensis",
+      "description": "Squirrels gathering and burying nuts for winter",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Squirrels race about with cheeks stuffed with nuts. They're busy stocking their winter larder"
+    }
+  ],
+  "40": [
+    {
+      "id": "uk_scotland_w40_red_deer_rut",
+      "species": "Red Deer Rut",
+      "kind": "event",
+      "scientificName": "Cervus elaphus",
+      "description": "Rut at peak, stags bellowing and clashing antlers",
+      "habitats": [
+        "grassland",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Huge stags with giant antlers roar across the glen like lions. You can hear them from far away!"
+    },
+    {
+      "id": "uk_scotland_w40_autumn_colour",
+      "species": "Autumn Colour",
+      "description": "Peak autumn colour across Scotland, spectacular glens",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Scottish autumn is magical: golden birch, red rowan, and orange beech light up the glens"
+    },
+    {
+      "id": "uk_scotland_w40_ivy",
+      "species": "Ivy",
+      "scientificName": "Hedera helix",
+      "description": "Ivy in full bloom, crucial autumn nectar source",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "wall_fence",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "smell",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Buzzing green flowers where bees and butterflies have their last feast before winter"
+    },
+    {
+      "id": "uk_scotland_w40_fly_agaric",
+      "species": "Fly Agaric",
+      "scientificName": "Amanita muscaria",
+      "description": "Fly agaric appearing under birch in Scottish woodlands",
+      "habitats": [
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Red cap, white spots: the classic fairy-tale toadstool, found under birch trees"
+    },
+    {
+      "id": "uk_scotland_w40_fieldfare",
+      "species": "Fieldfare",
+      "scientificName": "Turdus pilaris",
+      "description": "Fieldfares arriving from Scandinavia to Scottish coasts and fields",
+      "habitats": [
+        "hedgerow",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Big chattering groups fly from Scandinavia across the cold North Sea to spend winter here"
+    },
+    {
+      "id": "uk_scotland_w40_grey_squirrel",
+      "species": "Grey Squirrel",
+      "scientificName": "Sciurus carolinensis",
+      "description": "Squirrels gathering and burying nuts for winter",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Squirrels race about with cheeks stuffed with nuts. They're busy stocking their winter larder"
+    },
+    {
+      "id": "uk_scotland_w40_starling_murmuration",
+      "species": "Starling Murmuration",
+      "kind": "event",
+      "scientificName": "Sturnus vulgaris",
+      "description": "Starling murmurations forming at dusk",
+      "habitats": [
+        "urban",
+        "grassland",
+        "coast"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A living cloud of birds swoops and swirls, thousands moving as one, making incredible shapes"
+    }
+  ],
+  "41": [
+    {
+      "id": "uk_scotland_w41_red_deer_rut",
+      "species": "Red Deer Rut",
+      "kind": "event",
+      "scientificName": "Cervus elaphus",
+      "description": "Rut at peak, stags bellowing and clashing antlers",
+      "habitats": [
+        "grassland",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Huge stags with giant antlers roar across the glen like lions. You can hear them from far away!"
+    },
+    {
+      "id": "uk_scotland_w41_autumn_colour",
+      "species": "Autumn Colour",
+      "description": "Leaves falling fast with autumn gales",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Scottish autumn is magical: golden birch, red rowan, and orange beech light up the glens"
+    },
+    {
+      "id": "uk_scotland_w41_ivy",
+      "species": "Ivy",
+      "scientificName": "Hedera helix",
+      "description": "Ivy flowers fading",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "wall_fence",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "smell",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Buzzing green flowers where bees and butterflies have their last feast before winter"
+    },
+    {
+      "id": "uk_scotland_w41_fly_agaric",
+      "species": "Fly Agaric",
+      "scientificName": "Amanita muscaria",
+      "description": "Fungi season at peak, many species in woodlands",
+      "habitats": [
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Red cap, white spots: the classic fairy-tale toadstool, found under birch trees"
+    },
+    {
+      "id": "uk_scotland_w41_fieldfare",
+      "species": "Fieldfare",
+      "scientificName": "Turdus pilaris",
+      "description": "Fieldfares arriving from Scandinavia to Scottish coasts and fields",
+      "habitats": [
+        "hedgerow",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Big chattering groups fly from Scandinavia across the cold North Sea to spend winter here"
+    },
+    {
+      "id": "uk_scotland_w41_grey_squirrel",
+      "species": "Grey Squirrel",
+      "scientificName": "Sciurus carolinensis",
+      "description": "Squirrels gathering and burying nuts for winter",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Squirrels race about with cheeks stuffed with nuts. They're busy stocking their winter larder"
+    },
+    {
+      "id": "uk_scotland_w41_starling_murmuration",
+      "species": "Starling Murmuration",
+      "kind": "event",
+      "scientificName": "Sturnus vulgaris",
+      "description": "Starling murmurations forming at dusk",
+      "habitats": [
+        "urban",
+        "grassland",
+        "coast"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A living cloud of birds swoops and swirls, thousands moving as one, making incredible shapes"
+    }
+  ],
+  "42": [
+    {
+      "id": "uk_scotland_w42_red_deer_rut",
+      "species": "Red Deer Rut",
+      "kind": "event",
+      "scientificName": "Cervus elaphus",
+      "description": "Rut at peak, stags bellowing and clashing antlers",
+      "habitats": [
+        "grassland",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Huge stags with giant antlers roar across the glen like lions. You can hear them from far away!"
+    },
+    {
+      "id": "uk_scotland_w42_autumn_colour",
+      "species": "Autumn Colour",
+      "description": "Leaves falling fast with autumn gales",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Scottish autumn is magical: golden birch, red rowan, and orange beech light up the glens"
+    },
+    {
+      "id": "uk_scotland_w42_ivy",
+      "species": "Ivy",
+      "scientificName": "Hedera helix",
+      "description": "Ivy flowers fading",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "wall_fence",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "smell",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Buzzing green flowers where bees and butterflies have their last feast before winter"
+    },
+    {
+      "id": "uk_scotland_w42_fly_agaric",
+      "species": "Fly Agaric",
+      "scientificName": "Amanita muscaria",
+      "description": "Fungi season at peak, many species in woodlands",
+      "habitats": [
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Red cap, white spots: the classic fairy-tale toadstool, found under birch trees"
+    },
+    {
+      "id": "uk_scotland_w42_fieldfare",
+      "species": "Fieldfare",
+      "scientificName": "Turdus pilaris",
+      "description": "Fieldfare flocks well established, stripping rowan and hawthorn berries",
+      "habitats": [
+        "hedgerow",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Big chattering groups fly from Scandinavia across the cold North Sea to spend winter here"
+    },
+    {
+      "id": "uk_scotland_w42_grey_squirrel",
+      "species": "Grey Squirrel",
+      "scientificName": "Sciurus carolinensis",
+      "description": "Squirrels gathering and burying nuts for winter",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Squirrels race about with cheeks stuffed with nuts. They're busy stocking their winter larder"
+    },
+    {
+      "id": "uk_scotland_w42_starling_murmuration",
+      "species": "Starling Murmuration",
+      "kind": "event",
+      "scientificName": "Sturnus vulgaris",
+      "description": "Starling murmurations forming at dusk",
+      "habitats": [
+        "urban",
+        "grassland",
+        "coast"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A living cloud of birds swoops and swirls, thousands moving as one, making incredible shapes"
+    }
+  ],
+  "43": [
+    {
+      "id": "uk_scotland_w43_red_deer_rut",
+      "species": "Red Deer Rut",
+      "kind": "event",
+      "scientificName": "Cervus elaphus",
+      "description": "Rut winding down, stags exhausted",
+      "habitats": [
+        "grassland",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Huge stags with giant antlers roar across the glen like lions. You can hear them from far away!"
+    },
+    {
+      "id": "uk_scotland_w43_fly_agaric",
+      "species": "Fly Agaric",
+      "scientificName": "Amanita muscaria",
+      "description": "Fungi season at peak, many species in woodlands",
+      "habitats": [
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Red cap, white spots: the classic fairy-tale toadstool, found under birch trees"
+    },
+    {
+      "id": "uk_scotland_w43_fieldfare",
+      "species": "Fieldfare",
+      "scientificName": "Turdus pilaris",
+      "description": "Fieldfare flocks well established, stripping rowan and hawthorn berries",
+      "habitats": [
+        "hedgerow",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Big chattering groups fly from Scandinavia across the cold North Sea to spend winter here"
+    },
+    {
+      "id": "uk_scotland_w43_starling_murmuration",
+      "species": "Starling Murmuration",
+      "kind": "event",
+      "scientificName": "Sturnus vulgaris",
+      "description": "Spectacular murmurations over Scottish reedbeds and towns",
+      "habitats": [
+        "urban",
+        "grassland",
+        "coast"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A living cloud of birds swoops and swirls, thousands moving as one, making incredible shapes"
+    },
+    {
+      "id": "uk_scotland_w43_tawny_owl",
+      "species": "Tawny Owl",
+      "scientificName": "Strix aluco",
+      "description": "Tawny owls calling to claim territories",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "\"Twit\" calls one, \"twoo\" answers another. They're telling each other \"this is my patch!\""
+    },
+    {
+      "id": "uk_scotland_w43_bare_trees",
+      "species": "Bare Trees",
+      "description": "Trees bare early in Scotland, skeletal branches reveal nests and lichen",
+      "habitats": [
+        "woodland",
+        "urban",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "Bare branches make beautiful patterns against the sky. Scottish trees are tough!"
+    },
+    {
+      "id": "uk_scotland_w43_wren",
+      "species": "Wren",
+      "scientificName": "Troglodytes troglodytes",
+      "description": "Wrens calling from dykes and hedgerows despite the cold",
+      "habitats": [
+        "hedgerow",
+        "woodland",
+        "garden",
+        "wall_fence"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "The tiniest bird with the biggest voice: wrens shout even in howling Scottish wind"
+    }
+  ],
+  "44": [
+    {
+      "id": "uk_scotland_w44_red_deer_rut",
+      "species": "Red Deer Rut",
+      "kind": "event",
+      "scientificName": "Cervus elaphus",
+      "description": "Rut winding down, stags exhausted",
+      "habitats": [
+        "grassland",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Huge stags with giant antlers roar across the glen like lions. You can hear them from far away!"
+    },
+    {
+      "id": "uk_scotland_w44_fly_agaric",
+      "species": "Fly Agaric",
+      "scientificName": "Amanita muscaria",
+      "description": "Fungi declining with frosts",
+      "habitats": [
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Red cap, white spots: the classic fairy-tale toadstool, found under birch trees"
+    },
+    {
+      "id": "uk_scotland_w44_fieldfare",
+      "species": "Fieldfare",
+      "scientificName": "Turdus pilaris",
+      "description": "Fieldfare flocks well established, stripping rowan and hawthorn berries",
+      "habitats": [
+        "hedgerow",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Big chattering groups fly from Scandinavia across the cold North Sea to spend winter here"
+    },
+    {
+      "id": "uk_scotland_w44_starling_murmuration",
+      "species": "Starling Murmuration",
+      "kind": "event",
+      "scientificName": "Sturnus vulgaris",
+      "description": "Spectacular murmurations over Scottish reedbeds and towns",
+      "habitats": [
+        "urban",
+        "grassland",
+        "coast"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A living cloud of birds swoops and swirls, thousands moving as one, making incredible shapes"
+    },
+    {
+      "id": "uk_scotland_w44_tawny_owl",
+      "species": "Tawny Owl",
+      "scientificName": "Strix aluco",
+      "description": "Tawny owls calling to claim territories",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "\"Twit\" calls one, \"twoo\" answers another. They're telling each other \"this is my patch!\""
+    },
+    {
+      "id": "uk_scotland_w44_bare_trees",
+      "species": "Bare Trees",
+      "description": "Trees bare early in Scotland, skeletal branches reveal nests and lichen",
+      "habitats": [
+        "woodland",
+        "urban",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "Bare branches make beautiful patterns against the sky. Scottish trees are tough!"
+    },
+    {
+      "id": "uk_scotland_w44_wren",
+      "species": "Wren",
+      "scientificName": "Troglodytes troglodytes",
+      "description": "Wrens calling from dykes and hedgerows despite the cold",
+      "habitats": [
+        "hedgerow",
+        "woodland",
+        "garden",
+        "wall_fence"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "The tiniest bird with the biggest voice: wrens shout even in howling Scottish wind"
+    }
+  ],
+  "45": [
+    {
+      "id": "uk_scotland_w45_red_deer_rut",
+      "species": "Red Deer Rut",
+      "kind": "event",
+      "scientificName": "Cervus elaphus",
+      "description": "Rut winding down, stags exhausted",
+      "habitats": [
+        "grassland",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Huge stags with giant antlers roar across the glen like lions. You can hear them from far away!"
+    },
+    {
+      "id": "uk_scotland_w45_fly_agaric",
+      "species": "Fly Agaric",
+      "scientificName": "Amanita muscaria",
+      "description": "Fungi declining with frosts",
+      "habitats": [
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Red cap, white spots: the classic fairy-tale toadstool, found under birch trees"
+    },
+    {
+      "id": "uk_scotland_w45_fieldfare",
+      "species": "Fieldfare",
+      "scientificName": "Turdus pilaris",
+      "description": "Fieldfare flocks well established, stripping rowan and hawthorn berries",
+      "habitats": [
+        "hedgerow",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Big chattering groups fly from Scandinavia across the cold North Sea to spend winter here"
+    },
+    {
+      "id": "uk_scotland_w45_starling_murmuration",
+      "species": "Starling Murmuration",
+      "kind": "event",
+      "scientificName": "Sturnus vulgaris",
+      "description": "Spectacular murmurations over Scottish reedbeds and towns",
+      "habitats": [
+        "urban",
+        "grassland",
+        "coast"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A living cloud of birds swoops and swirls, thousands moving as one, making incredible shapes"
+    },
+    {
+      "id": "uk_scotland_w45_tawny_owl",
+      "species": "Tawny Owl",
+      "scientificName": "Strix aluco",
+      "description": "Tawny owls calling to claim territories",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "\"Twit\" calls one, \"twoo\" answers another. They're telling each other \"this is my patch!\""
+    },
+    {
+      "id": "uk_scotland_w45_bare_trees",
+      "species": "Bare Trees",
+      "description": "Trees bare early in Scotland, skeletal branches reveal nests and lichen",
+      "habitats": [
+        "woodland",
+        "urban",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "Bare branches make beautiful patterns against the sky. Scottish trees are tough!"
+    },
+    {
+      "id": "uk_scotland_w45_wren",
+      "species": "Wren",
+      "scientificName": "Troglodytes troglodytes",
+      "description": "Wrens calling from dykes and hedgerows despite the cold",
+      "habitats": [
+        "hedgerow",
+        "woodland",
+        "garden",
+        "wall_fence"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "The tiniest bird with the biggest voice: wrens shout even in howling Scottish wind"
+    }
+  ],
+  "46": [
+    {
+      "id": "uk_scotland_w46_fly_agaric",
+      "species": "Fly Agaric",
+      "scientificName": "Amanita muscaria",
+      "description": "Fungi declining with frosts",
+      "habitats": [
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Red cap, white spots: the classic fairy-tale toadstool, found under birch trees"
+    },
+    {
+      "id": "uk_scotland_w46_fieldfare",
+      "species": "Fieldfare",
+      "scientificName": "Turdus pilaris",
+      "description": "Fieldfare flocks well established, stripping rowan and hawthorn berries",
+      "habitats": [
+        "hedgerow",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Big chattering groups fly from Scandinavia across the cold North Sea to spend winter here"
+    },
+    {
+      "id": "uk_scotland_w46_starling_murmuration",
+      "species": "Starling Murmuration",
+      "kind": "event",
+      "scientificName": "Sturnus vulgaris",
+      "description": "Spectacular murmurations over Scottish reedbeds and towns",
+      "habitats": [
+        "urban",
+        "grassland",
+        "coast"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A living cloud of birds swoops and swirls, thousands moving as one, making incredible shapes"
+    },
+    {
+      "id": "uk_scotland_w46_tawny_owl",
+      "species": "Tawny Owl",
+      "scientificName": "Strix aluco",
+      "description": "Tawny owl hooting through long dark evenings",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "\"Twit\" calls one, \"twoo\" answers another. They're telling each other \"this is my patch!\""
+    },
+    {
+      "id": "uk_scotland_w46_bare_trees",
+      "species": "Bare Trees",
+      "description": "Trees bare early in Scotland, skeletal branches reveal nests and lichen",
+      "habitats": [
+        "woodland",
+        "urban",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "Bare branches make beautiful patterns against the sky. Scottish trees are tough!"
+    },
+    {
+      "id": "uk_scotland_w46_wren",
+      "species": "Wren",
+      "scientificName": "Troglodytes troglodytes",
+      "description": "Wrens calling from dykes and hedgerows despite the cold",
+      "habitats": [
+        "hedgerow",
+        "woodland",
+        "garden",
+        "wall_fence"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "The tiniest bird with the biggest voice: wrens shout even in howling Scottish wind"
+    }
+  ],
+  "47": [
+    {
+      "id": "uk_scotland_w47_fieldfare",
+      "species": "Fieldfare",
+      "scientificName": "Turdus pilaris",
+      "description": "Fieldfares present through Scottish winter",
+      "habitats": [
+        "hedgerow",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Big chattering groups fly from Scandinavia across the cold North Sea to spend winter here"
+    },
+    {
+      "id": "uk_scotland_w47_starling_murmuration",
+      "species": "Starling Murmuration",
+      "kind": "event",
+      "scientificName": "Sturnus vulgaris",
+      "description": "Spectacular murmurations over Scottish reedbeds and towns",
+      "habitats": [
+        "urban",
+        "grassland",
+        "coast"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A living cloud of birds swoops and swirls, thousands moving as one, making incredible shapes"
+    },
+    {
+      "id": "uk_scotland_w47_tawny_owl",
+      "species": "Tawny Owl",
+      "scientificName": "Strix aluco",
+      "description": "Tawny owl hooting through long dark evenings",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "\"Twit\" calls one, \"twoo\" answers another. They're telling each other \"this is my patch!\""
+    },
+    {
+      "id": "uk_scotland_w47_bare_trees",
+      "species": "Bare Trees",
+      "description": "Trees bare early in Scotland, skeletal branches reveal nests and lichen",
+      "habitats": [
+        "woodland",
+        "urban",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "Bare branches make beautiful patterns against the sky. Scottish trees are tough!"
+    },
+    {
+      "id": "uk_scotland_w47_wren",
+      "species": "Wren",
+      "scientificName": "Troglodytes troglodytes",
+      "description": "Wrens calling from dykes and hedgerows despite the cold",
+      "habitats": [
+        "hedgerow",
+        "woodland",
+        "garden",
+        "wall_fence"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "The tiniest bird with the biggest voice: wrens shout even in howling Scottish wind"
+    }
+  ],
+  "48": [
+    {
+      "id": "uk_scotland_w48_fieldfare",
+      "species": "Fieldfare",
+      "scientificName": "Turdus pilaris",
+      "description": "Fieldfares present through Scottish winter",
+      "habitats": [
+        "hedgerow",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Big chattering groups fly from Scandinavia across the cold North Sea to spend winter here"
+    },
+    {
+      "id": "uk_scotland_w48_starling_murmuration",
+      "species": "Starling Murmuration",
+      "kind": "event",
+      "scientificName": "Sturnus vulgaris",
+      "description": "Spectacular murmurations over Scottish reedbeds and towns",
+      "habitats": [
+        "urban",
+        "grassland",
+        "coast"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A living cloud of birds swoops and swirls, thousands moving as one, making incredible shapes"
+    },
+    {
+      "id": "uk_scotland_w48_tawny_owl",
+      "species": "Tawny Owl",
+      "scientificName": "Strix aluco",
+      "description": "Tawny owl hooting through long dark evenings",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "\"Twit\" calls one, \"twoo\" answers another. They're telling each other \"this is my patch!\""
+    },
+    {
+      "id": "uk_scotland_w48_wren",
+      "species": "Wren",
+      "scientificName": "Troglodytes troglodytes",
+      "description": "Wrens calling from dykes and hedgerows despite the cold",
+      "habitats": [
+        "hedgerow",
+        "woodland",
+        "garden",
+        "wall_fence"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "The tiniest bird with the biggest voice: wrens shout even in howling Scottish wind"
+    }
+  ],
+  "49": [
+    {
+      "id": "uk_scotland_w49_fieldfare",
+      "species": "Fieldfare",
+      "scientificName": "Turdus pilaris",
+      "description": "Fieldfares present through Scottish winter",
+      "habitats": [
+        "hedgerow",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Big chattering groups fly from Scandinavia across the cold North Sea to spend winter here"
+    },
+    {
+      "id": "uk_scotland_w49_starling_murmuration",
+      "species": "Starling Murmuration",
+      "kind": "event",
+      "scientificName": "Sturnus vulgaris",
+      "description": "Murmurations continuing through winter",
+      "habitats": [
+        "urban",
+        "grassland",
+        "coast"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "A living cloud of birds swoops and swirls, thousands moving as one, making incredible shapes"
+    },
+    {
+      "id": "uk_scotland_w49_holly",
+      "species": "Holly",
+      "scientificName": "Ilex aquifolium",
+      "description": "Holly berries bright red, important winter bird food",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Spiky leaves with bright red berries. It stays green all year while other trees go bare"
+    },
+    {
+      "id": "uk_scotland_w49_european_robin",
+      "species": "European Robin",
+      "scientificName": "Erithacus rubecula",
+      "description": "Robins singing fiercely from perches, defending winter territories",
+      "habitats": [
+        "garden",
+        "hedgerow",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The brave robin sings even on the shortest, coldest days. Its red breast glows like a tiny fire"
+    },
+    {
+      "id": "uk_scotland_w49_red_deer",
+      "species": "Red Deer",
+      "scientificName": "Cervus elaphus",
+      "description": "Red deer in winter herds, moving to lower ground",
+      "habitats": [
+        "grassland",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "Majestic deer with huge antlers stand proud against the snowy Scottish hills"
+    },
+    {
+      "id": "uk_scotland_w49_snow_bunting",
+      "species": "Snow Bunting",
+      "scientificName": "Plectrophenax nivalis",
+      "description": "Snow buntings on coastal fields and mountain edges",
+      "habitats": [
+        "coast",
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "childFriendlyNote": "White and brown birds that love the cold. They flash white wings as they fly over snowy ground"
+    }
+  ],
+  "50": [
+    {
+      "id": "uk_scotland_w50_fieldfare",
+      "species": "Fieldfare",
+      "scientificName": "Turdus pilaris",
+      "description": "Fieldfares present through Scottish winter",
+      "habitats": [
+        "hedgerow",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Big chattering groups fly from Scandinavia across the cold North Sea to spend winter here"
+    },
+    {
+      "id": "uk_scotland_w50_starling_murmuration",
+      "species": "Starling Murmuration",
+      "kind": "event",
+      "scientificName": "Sturnus vulgaris",
+      "description": "Murmurations continuing through winter",
+      "habitats": [
+        "urban",
+        "grassland",
+        "coast"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "A living cloud of birds swoops and swirls, thousands moving as one, making incredible shapes"
+    },
+    {
+      "id": "uk_scotland_w50_holly",
+      "species": "Holly",
+      "scientificName": "Ilex aquifolium",
+      "description": "Holly berries bright red, important winter bird food",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Spiky leaves with bright red berries. It stays green all year while other trees go bare"
+    },
+    {
+      "id": "uk_scotland_w50_european_robin",
+      "species": "European Robin",
+      "scientificName": "Erithacus rubecula",
+      "description": "Robins singing fiercely from perches, defending winter territories",
+      "habitats": [
+        "garden",
+        "hedgerow",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The brave robin sings even on the shortest, coldest days. Its red breast glows like a tiny fire"
+    },
+    {
+      "id": "uk_scotland_w50_red_deer",
+      "species": "Red Deer",
+      "scientificName": "Cervus elaphus",
+      "description": "Red deer in winter herds, moving to lower ground",
+      "habitats": [
+        "grassland",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "Majestic deer with huge antlers stand proud against the snowy Scottish hills"
+    },
+    {
+      "id": "uk_scotland_w50_snow_bunting",
+      "species": "Snow Bunting",
+      "scientificName": "Plectrophenax nivalis",
+      "description": "Snow buntings on coastal fields and mountain edges",
+      "habitats": [
+        "coast",
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "childFriendlyNote": "White and brown birds that love the cold. They flash white wings as they fly over snowy ground"
+    }
+  ],
+  "51": [
+    {
+      "id": "uk_scotland_w51_fieldfare",
+      "species": "Fieldfare",
+      "scientificName": "Turdus pilaris",
+      "description": "Fieldfares present through Scottish winter",
+      "habitats": [
+        "hedgerow",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Big chattering groups fly from Scandinavia across the cold North Sea to spend winter here"
+    },
+    {
+      "id": "uk_scotland_w51_starling_murmuration",
+      "species": "Starling Murmuration",
+      "kind": "event",
+      "scientificName": "Sturnus vulgaris",
+      "description": "Murmurations continuing through winter",
+      "habitats": [
+        "urban",
+        "grassland",
+        "coast"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "A living cloud of birds swoops and swirls, thousands moving as one, making incredible shapes"
+    },
+    {
+      "id": "uk_scotland_w51_holly",
+      "species": "Holly",
+      "scientificName": "Ilex aquifolium",
+      "description": "Holly berries bright red, important winter bird food",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Spiky leaves with bright red berries. It stays green all year while other trees go bare"
+    },
+    {
+      "id": "uk_scotland_w51_european_robin",
+      "species": "European Robin",
+      "scientificName": "Erithacus rubecula",
+      "description": "Robins singing fiercely from perches, defending winter territories",
+      "habitats": [
+        "garden",
+        "hedgerow",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The brave robin sings even on the shortest, coldest days. Its red breast glows like a tiny fire"
+    },
+    {
+      "id": "uk_scotland_w51_red_deer",
+      "species": "Red Deer",
+      "scientificName": "Cervus elaphus",
+      "description": "Red deer in winter herds, moving to lower ground",
+      "habitats": [
+        "grassland",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "Majestic deer with huge antlers stand proud against the snowy Scottish hills"
+    },
+    {
+      "id": "uk_scotland_w51_snow_bunting",
+      "species": "Snow Bunting",
+      "scientificName": "Plectrophenax nivalis",
+      "description": "Snow buntings on coastal fields and mountain edges",
+      "habitats": [
+        "coast",
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "childFriendlyNote": "White and brown birds that love the cold. They flash white wings as they fly over snowy ground"
+    },
+    {
+      "id": "uk_scotland_w51_winter_solstice",
+      "species": "Winter Solstice",
+      "kind": "event",
+      "description": "Shortest day, only about 6 hours of daylight in northern Scotland",
+      "habitats": [
+        "urban",
+        "garden",
+        "playing_field"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "The very shortest day. In Scotland it's dark by 3pm! But tomorrow the light starts coming back"
+    }
+  ],
+  "52": [
+    {
+      "id": "uk_scotland_w52_fieldfare",
+      "species": "Fieldfare",
+      "scientificName": "Turdus pilaris",
+      "description": "Fieldfares present through Scottish winter",
+      "habitats": [
+        "hedgerow",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Big chattering groups fly from Scandinavia across the cold North Sea to spend winter here"
+    },
+    {
+      "id": "uk_scotland_w52_starling_murmuration",
+      "species": "Starling Murmuration",
+      "kind": "event",
+      "scientificName": "Sturnus vulgaris",
+      "description": "Murmurations continuing through winter",
+      "habitats": [
+        "urban",
+        "grassland",
+        "coast"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "A living cloud of birds swoops and swirls, thousands moving as one, making incredible shapes"
+    },
+    {
+      "id": "uk_scotland_w52_holly",
+      "species": "Holly",
+      "scientificName": "Ilex aquifolium",
+      "description": "Holly berries bright red, important winter bird food",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Spiky leaves with bright red berries. It stays green all year while other trees go bare"
+    },
+    {
+      "id": "uk_scotland_w52_european_robin",
+      "species": "European Robin",
+      "scientificName": "Erithacus rubecula",
+      "description": "Robins singing fiercely from perches, defending winter territories",
+      "habitats": [
+        "garden",
+        "hedgerow",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The brave robin sings even on the shortest, coldest days. Its red breast glows like a tiny fire"
+    },
+    {
+      "id": "uk_scotland_w52_red_deer",
+      "species": "Red Deer",
+      "scientificName": "Cervus elaphus",
+      "description": "Red deer in winter herds, moving to lower ground",
+      "habitats": [
+        "grassland",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "Majestic deer with huge antlers stand proud against the snowy Scottish hills"
+    },
+    {
+      "id": "uk_scotland_w52_snow_bunting",
+      "species": "Snow Bunting",
+      "scientificName": "Plectrophenax nivalis",
+      "description": "Snow buntings on coastal fields and mountain edges",
+      "habitats": [
+        "coast",
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "childFriendlyNote": "White and brown birds that love the cold. They flash white wings as they fly over snowy ground"
+    },
+    {
+      "id": "uk_scotland_w52_winter_solstice",
+      "species": "Winter Solstice",
+      "kind": "event",
+      "description": "Shortest day, only about 6 hours of daylight in northern Scotland",
+      "habitats": [
+        "urban",
+        "garden",
+        "playing_field"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "The very shortest day. In Scotland it's dark by 3pm! But tomorrow the light starts coming back"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+.gallery { display: grid; gap: 12px; }
+.grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; max-width: 36rem; }
+.animal { display: grid; gap: 8px; border: 0; padding: 0; background: none; color: var(--ink); font: inherit; text-align: center; cursor: pointer; }
+.animal img { display: block; width: 100%; aspect-ratio: 1; object-fit: contain; border-radius: 12px; }
+.animal span { font-size: var(--size-2); }
+.animal:focus-visible { outline: 2px solid var(--living); outline-offset: 4px; }
+@media (max-width: 600px) { .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.making { display: flex; flex-wrap: wrap; gap: 20px; }
+.step { flex: 0 1 clamp(14rem, 36vw, 20rem); width: 100%; max-width: min(100%, 20rem); margin: 0; display: grid; gap: 8px; }
+.step img { width: 100%; aspect-ratio: 1; object-fit: contain; border-radius: 12px; }
+.step figcaption { color: var(--ink); font-size: var(--size-2); }
+
+/* Every lesson picture is a touch target, including examples and how-to steps. */
+.pictureButton {
+  display: block;
+  width: 100%;
+  min-width: 0;
+  border: 0;
+  padding: 0;
+  background: transparent;
+  cursor: zoom-in;
+  border-radius: 12px;
+}
+.pictureButton img { display: block; }
+.pictureButton:focus-visible { outline: 2px solid var(--living); outline-offset: 4px; }
+@media (max-width: 40rem) {
+  .making { gap: 16px; }
+  .step { flex-basis: 100%; max-width: 100%; }
+  .step img { max-height: 35dvh; }
+}

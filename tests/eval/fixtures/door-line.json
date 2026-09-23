@@ -1,0 +1,14 @@
+[
+  { "specimens": [{ "name": "Wood Pigeon", "kind": "bird", "photographed": true, "safetyNote": null }],
+    "claim": "seen-here", "lessonTitle": "Trees and their leaves",
+    "lexicon": ["Wood Pigeon", "Rock Dove", "Grey Squirrel", "Oak", "Bramble", "Nettle", "Hoverfly", "Blackbird"] },
+  { "specimens": [{ "name": "Hoverfly", "kind": "insect", "photographed": true, "safetyNote": null }, { "name": "Bramble", "kind": "plant", "photographed": false, "safetyNote": "Bramble has thorns" }],
+    "claim": "usually-around", "lessonTitle": "Minibeast hunt",
+    "lexicon": ["Wood Pigeon", "Rock Dove", "Grey Squirrel", "Oak", "Bramble", "Nettle", "Hoverfly", "Blackbird"] },
+  { "specimens": [{ "name": "Grey Squirrel", "kind": "mammal", "photographed": true, "safetyNote": null }, { "name": "Oak", "kind": "plant", "photographed": true, "safetyNote": null }, { "name": "Blackbird", "kind": "bird", "photographed": false, "safetyNote": null }],
+    "claim": "seen-here", "lessonTitle": "What lives in a tree",
+    "lexicon": ["Wood Pigeon", "Rock Dove", "Grey Squirrel", "Oak", "Bramble", "Nettle", "Hoverfly", "Blackbird"] },
+  { "specimens": [{ "name": "Nettle", "kind": "plant", "photographed": true, "safetyNote": "Nettle stings" }],
+    "claim": "usually-around", "lessonTitle": "Plants that protect themselves",
+    "lexicon": ["Wood Pigeon", "Rock Dove", "Grey Squirrel", "Oak", "Bramble", "Nettle", "Hoverfly", "Blackbird"] }
+]

@@ -1,0 +1,755 @@
+/*
+ * TODAY — the home screen (#323, redesigned on #341).
+ *
+ * Its own module, not globals.css. globals.css is 7,574 lines with 129 colour
+ * literals and no spacing tokens (#290), and every value tuned in it has been
+ * re-tuned in a media query somewhere below it — four separate bugs where a
+ * base rule looked right and silently failed at phone width.
+ *
+ * ── ONE GROUND (#341) ──────────────────────────────────────────────────────
+ *
+ * Johan, on the build this replaces: "there are so many colored cards here...
+ * background should have the same colors. U can use outlines or something
+ * similar to pic 4 but not like this... this is an ipad first experience".
+ *
+ * He was right and the count says so: the page carried FOUR grounds stacked —
+ * cream page, off-white read, full-bleed sand lesson, grey-green footer. It is
+ * now ONE paper from the top of the page to the bottom, and the structure is
+ * carried by outline, hairline and air instead.
+ *
+ * Grounds 4 -> 1. The primary outline is spent on the LESSON; a much smaller
+ * pill outline identifies the local-nature doorway as a button. SAND IS
+ * RETIRED FROM THIS SCREEN. Green survives in actions and links.
+ *
+ * ── iPAD FIRST, AND THE MEASUREMENTS ARE RE-DERIVED ────────────────────────
+ *
+ * The build this replaces was measured in a 375px phone frame and the numbers
+ * came out wrong on the device it is actually used on. The measure is 800px
+ * here, which is 720px of content, and portrait and landscape share it.
+ *
+ * ── VERTICAL RHYTHM: THREE ESCALATING STEPS, AND IT IS MEANT TO BE COUNTABLE
+ *
+ * 20px from the day to its sentence, 40px from the sentence to the lesson,
+ * 56px to part two. Separation by space and hairline rather than by colour is
+ * the whole device, so the steps have to be legible as steps.
+ *
+ * GREP EVERY DECLARATION OF A PROPERTY BEFORE CHANGING ONE. Four values in the
+ * last build were tuned once here and silently re-tuned in a query below.
+ */
+
+.today {
+  /* The palette Johan approved on the teacher journey, and no other colour.
+     `--paper` is deliberately NOT redefined here. It is the product's ground
+     rather than this screen's, and a local copy of it is what let the body and
+     the content column drift into two creams (#355). The primary ink now comes
+     from globals for the same reason. */
+  --ink-soft: #63684f;
+  --green: var(--action);
+  --green-deep: var(--living);
+
+  /* THE OUTLINE. 1.5px at .22 measures 1.51:1 against the paper. The hairline
+     value (.14) measures 1.29:1, and 1px is one and a half device pixels on a
+     2x iPad, so glare eats it. If it disappears on a real iPad near a window
+     the answer is rgba(71,76,63,.35) — and never a fill, never a
+     shadow, never a tint. It is one value, and the block is de-risked besides:
+     28px of air outside it and 28px of padding inside, so if the line goes
+     what remains is still a generously inset block that groups. */
+  --outline: rgba(71, 76, 63, 0.22);
+  --faint: rgba(71, 76, 63, 0.13);
+
+  /* Air as a system: 8 / 16 / 24 / 40 / 64, and nothing between them. */
+  --s1: 0.5rem;
+  --s2: 1rem;
+  --s3: 1.5rem;
+  --s4: 2.5rem;
+  --s5: 4rem;
+
+  --gutter: clamp(20px, 5vw, 40px);
+
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 0 2rem;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--text);
+  min-height: 100vh;
+}
+
+/* AppNav mounts the signed-in head beside Today's padded content blocks, so it
+   needs the same local gutter instead of inheriting the viewport edge. */
+.today > :global(.app-shell-head) {
+  padding: 0 var(--gutter);
+}
+
+/* ── THE TOP ROW: greeting left, weather right (2026-09-02) ─────────────────
+   Johan: "put this in one line, weather on the right". One flex row that
+   wraps: the intro and the sky block share the first line, and everything
+   that follows the sky block in `TodayDay` — the sentence, the quiet line,
+   the invite — takes the full measure beneath. `.main` already carries the
+   page gutter, so the intro drops its own. */
+.top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: var(--s3);
+}
+
+/* `1 1 0`, not `auto`: on a phone the greeting yields width to the sky block
+   and wraps to two lines, rather than pushing the weather onto a second row. */
+.todayIntro {
+  flex: 1 1 0;
+  min-width: 0;
+  padding: var(--s3) 0 var(--s1);
+}
+
+.top > .invite,
+.top > .quiet,
+.top > .readBlock {
+  flex-basis: 100%;
+}
+
+.top > .hold {
+  flex: 0 0 auto;
+  margin-left: auto;
+}
+
+.top .holdDay {
+  margin-top: 0;
+  height: 64px;
+}
+
+.greeting {
+  margin: 0;
+  font-family: var(--display);
+  font-size: var(--size-5);
+  font-weight: var(--weight-display);
+  line-height: 1.1;
+  color: var(--ink);
+}
+
+.context {
+  margin: var(--s1) 0 0;
+  font-size: var(--size-1);
+  font-weight: var(--weight-medium);
+  color: var(--ink-soft);
+  letter-spacing: 0.01em;
+}
+
+.setupTasks {
+  margin: 0 var(--gutter) var(--s3);
+  padding: var(--s3) 0;
+  border-block: 1px solid var(--faint);
+}
+
+/* The heading carries its own space below it. It used to sit in a .setupHeading
+   wrapper that grouped it with an eyebrow; the eyebrow went, and the wrapper's
+   rule went with it, leaving the heading flush against the list. One element,
+   one margin. */
+.setupTitle {
+  margin: 0 0 var(--s2);
+  font-family: var(--display);
+  font-size: var(--size-3);
+  line-height: 1.2;
+}
+
+.setupList {
+  display: grid;
+  gap: var(--s1);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.setupTask {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 0.75rem;
+  min-height: 3rem;
+}
+
+.setupCopy {
+  display: grid;
+  min-width: 0;
+  color: var(--ink-soft);
+  font-size: var(--size-1);
+  line-height: 1.35;
+}
+
+.setupCopy strong {
+  color: var(--ink);
+  font-weight: var(--weight-strong);
+}
+
+.setupTask > a {
+  color: var(--green-deep);
+  font-size: var(--size-1);
+  font-weight: var(--weight-strong);
+  text-underline-offset: 0.2em;
+}
+
+/* A plain block in portrait. It exists so that ONE media query can turn it
+   into two columns in landscape without any other markup moving. */
+/* The gutter lives here so the two columns and the lesson under them share
+   one edge. Children carry none of their own, which is what stops the grid
+   gap and the page gutter compounding into a different inset per block. */
+.main {
+  display: block;
+  padding: 0 var(--gutter);
+}
+
+/* ── part one: the day ──────────────────────────────────────────────────── */
+
+.day {
+  flex: 0 0 auto;
+  min-width: 0;
+  margin-left: auto;
+}
+
+/* ── THE SKY BLOCK ──────────────────────────────────────────────────────
+   One block on the page's own paper. No card, no fill, no band of its own
+   colour — that is the whole point of the ground rule, and a weather widget
+   is exactly where it would have been broken first. */
+/* A VERTICAL STACK, NOT A ROW ACROSS (#355 follow-up).
+   Johan, twice now: "it has to be undr". The readings sit under one another —
+   sky mark and temperature, the condition and wind beneath them, the ground
+   beneath that — and the sentence follows the block rather than sitting beside
+   any of it.
+
+   Both times this block has been spread sideways it was to fill a column that
+   had been handed to it. That is backwards, and the column rule below now
+   follows from the block instead: the day takes the width its stack needs and
+   the species take the rest. */
+.sky {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--s3);
+}
+
+.skyReading {
+  min-width: 0;
+}
+
+/* ONE LINE, AND ONLY THE MARK IS ON THE RAIL (#355).
+   Johan: "temperature and cloud should be 1 line". This reverses b9563ff,
+   which stacked them — and it reverses it properly rather than reopening the
+   bug that commit fixed. Sharing a line put the temperature at x=94.8 while
+   every other reading sat at x=40, so the block had a second left edge.
+
+   THE TEMPERATURE IS A FOLLOWER, NOT A RAIL ELEMENT, and that is the whole
+   resolution. Only the FIRST element of a line lands on the rail. Fredoka's
+   figures carry their own sidebearings and a "1" sits differently in its
+   advance from a "2", so a temperature pinned to the rail would shift the
+   page's left edge every time the weather went from 9 degrees to 29. It sits
+   14px right of the mark instead and is read as attached to it.
+
+   That still reads as aligned, because the eye follows the LEFT-MOST INK down
+   the page and every block's first element is on 50. See app/SkyMark.tsx for
+   the other half: the mark's box on the rail is not the mark's ink on the
+   rail, and the eight drawings differ by 6.6 units in where their ink starts. */
+.skyMark {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 14px;
+  color: var(--ink-soft);
+}
+
+/* 56px, DECLARED ONCE AND OVERRIDDEN NOWHERE (#355).
+   Johan: "make the weather card bigger". It grew from 40 with the mark above
+   it, 44 to 64, holding the prototype's own proportion between the two — its
+   tile draws the mark about one and a half times the height of the number, and
+   64 to 56 is that ratio at this scale.
+   It has nowhere left to shrink, which is the stated trade: the phone page is
+   longer rather than the number being smaller. */
+/* OFF THE PROSE SCALE, DELIBERATELY (#382). This and `.degScale` below are not
+   type steps -- they are dimensions of one drawn object. The note above is the
+   ruling: the number is sized to the sky mark beside it at the prototype's own
+   ratio, so it answers to that mark, not to the scale the sentences use.
+   Snapping it to a step would break the proportion Johan approved. */
+.temp {
+  font-family: var(--display);
+  font-weight: var(--weight-display);
+  font-size: 56px;
+  line-height: 1;
+  color: var(--ink);
+  white-space: nowrap;
+}
+
+/* THE DEGREE MARK, DRAWN WITH THE SAME PEN as the mark beside it: a 10px
+   ring at 2px, not the `°` character. The character carries Nunito's own
+   sidebearing and weight and would visibly not be the same line as the mark,
+   and that one detail is what makes the number and the icon read as one
+   object instead of two things next to each other. */
+.degRing {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  border: 2.5px solid currentColor;
+  border-radius: 50%;
+  margin-left: 6px;
+  transform: translateY(-25px);
+}
+
+/* A bare 18 is a puzzle in Phoenix, so the scale letter always travels. */
+.degScale {
+  display: inline-block;
+  margin-left: 3px;
+  font-size: 27px;
+  color: var(--ink-soft);
+  transform: translateY(-13px);
+}
+
+/* The quantities: digits and words, never a glyph. */
+.reading {
+  font-size: var(--size-3);
+  line-height: 1.2;
+  color: var(--ink);
+}
+
+/* THE LABEL IS THE LICENCE, NOT A CAPTION. No unlabelled glyph on this
+   screen, ever: delete the word and the mark has to go with it. */
+.readingLabel {
+  margin-top: 0.35rem;
+  font-size: var(--size-1);
+  line-height: 1.35;
+  color: var(--ink-soft);
+}
+
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ONE PARAGRAPH, ONE SIZE, NO FRAME. The observed weather and the reason today
+   suits this lesson are one thought, and the frame around the second half was
+   what made it read as a verdict on the first. */
+.readBlock {
+  min-width: 0;
+  margin-top: var(--s2);
+}
+
+/* The prototype's own label over the read. Green, small, and it is what makes
+   this a block rather than a loose sentence. */
+/* The prototype's live mark. Drawn, 7px, on the label's own baseline — green
+   as a MARK, never as a ground. */
+.liveDot {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  margin-right: 7px;
+  border-radius: 50%;
+  background: var(--green);
+  vertical-align: 1px;
+}
+
+.readLabel {
+  margin-bottom: 0.5rem;
+  font-size: var(--size-1);
+  font-weight: var(--weight-strong);
+  letter-spacing: 0.03em;
+  color: var(--green-deep);
+}
+
+/* THE SENTENCE FOLLOWS THE BLOCK, across the full measure (#355), AND IT IS
+   QUIETER NOW (2026-09-08).
+
+   Johan: "the top slot can become smaller and less relevant. we can add the
+   lesson note on the runner inside with a conditions or something label only
+   when we have it". The authored note left this slot for the runner, so what
+   is left here is the composed read and only that — a standing description of
+   the morning rather than a headline that changes job with the weather.
+
+   One step down the scale (--size-4 to --size-3) and --ink-soft in place of
+   --ink. Both are tokens: the step is the scale's own next value, not a
+   number chosen to look right, so a change to the scale still moves this. The
+   sky mark and the temperature above it are untouched — they are what she
+   reads when she is only reading one thing. */
+.read {
+  margin-top: 0;
+  font-size: var(--size-3);
+  line-height: 1.45;
+  letter-spacing: -0.005em;
+  color: var(--ink-soft);
+}
+
+.quiet {
+  margin-top: var(--s3);
+  font-size: var(--size-1);
+  line-height: 1.6;
+  color: var(--ink-soft);
+}
+
+.invite {
+  min-width: 0;
+}
+
+.inviteHead {
+  font-family: var(--display);
+  font-weight: var(--weight-display);
+  font-size: var(--size-3);
+  line-height: 1.25;
+}
+
+.inviteBody {
+  margin-top: var(--s1);
+  font-size: var(--size-1);
+  line-height: 1.55;
+  color: var(--ink-soft);
+}
+
+/* ── the lesson: the one block with an edge ─────────────────────────────── */
+
+.lesson {
+  margin: 40px 0 0;
+  padding: 28px;
+  border: 1.5px solid var(--outline);
+  border-radius: 16px;
+}
+
+.door + .lesson,
+.doorHold + .lesson {
+  margin-top: var(--s3);
+}
+
+.eyebrow {
+  font-size: var(--size-2);
+  font-weight: var(--weight-strong);
+  letter-spacing: 0.03em;
+  color: var(--ink-soft);
+}
+
+/* THE NAME LEADS, and it has NO MEASURE CAP. The 18ch cap it replaces was a
+   phone value surviving into an iPad frame: it put a 29-character name on
+   three lines with empty paper to its right. 38px over the 656px inside the
+   outline holds about 33 characters, so the name sits on one line. */
+.title {
+  margin-top: 0.6rem;
+  font-family: var(--display);
+  font-weight: var(--weight-display);
+  font-size: clamp(28px, 5vw, 38px);
+  line-height: 1.12;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+}
+
+/* The question, under the name and smaller than it. Different jobs: the
+   question is the spine of the runner where the class argues about it; here
+   she is identifying which lesson this is. */
+/* THE MEASURE, IN THE UNIT THAT DEFINES IT (#355).
+   Capping the page is not enough on its own: the lesson block spans both
+   columns, so at 1080 its 15px prose ran about 134 characters a line, which is
+   roughly twice the top of the comfortable range. `ch` is the honest unit here
+   because the browser computes it from each element's own font and size, so
+   the question at 22px and the topic at 15px both scale together rather than
+   needing two hand-tuned pixel values that drift the moment a size changes.
+
+   THE VALUES ARE MEASURED, AND `ch` IS NOT A CHARACTER. The CSS `ch` unit is
+   the width of the "0" glyph, which in Nunito is wider than the average
+   lowercase letter: measured on the running page, 15px Nunito gives 9.0px per
+   `ch` but 7.45px per actual character, so a 66ch cap rendered 80 characters
+   a line — still over the range it was meant to hold it inside. These numbers
+   are set from that measurement and land both lines around 70. */
+.question {
+  max-width: 52ch;
+  margin-top: 0.5rem;
+  font-size: var(--size-3);
+  line-height: 1.3;
+  color: var(--ink);
+}
+
+.lessonMeta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 16px;
+  margin-top: 0.5rem;
+}
+
+.meta {
+  margin: 0;
+  font-size: var(--size-2);
+  color: var(--ink-soft);
+}
+
+/* What the class actually does, where the objective used to be. */
+.topic {
+  max-width: 58ch;
+  margin-top: var(--s3);
+  font-size: var(--size-2);
+  line-height: 1.55;
+  color: var(--ink);
+}
+
+.subjectTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.subjectTags li {
+  padding: 4px 10px;
+  border-radius: 6px;
+  background: var(--plate-teacher);
+  color: var(--ink-soft);
+  font-size: var(--size-1);
+}
+
+.sessionActions {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 16px;
+  margin-top: var(--s3);
+}
+
+.start, .runSession {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 64px;
+  padding: 12px 16px;
+  border: 1.5px solid var(--green);
+  border-radius: 12px;
+  font-family: var(--display);
+  font-weight: var(--weight-display);
+  font-size: var(--size-2);
+  text-align: center;
+  text-decoration: none;
+}
+
+.start { background: var(--green); color: var(--action-ink); }
+.runSession { color: var(--green-deep); }
+.sessionActions svg { flex-shrink: 0; }
+.sessionActions a:focus-visible, .preparation summary:focus-visible {
+  outline: 3px solid var(--green);
+  outline-offset: 4px;
+}
+
+@media (max-width: 480px) {
+  .sessionActions { grid-template-columns: 1fr 1fr; gap: 10px; }
+  .start, .runSession { padding: 12px 8px; gap: 7px; font-size: var(--size-1); }
+}
+
+/* THE DOOR — compact, explicit, and attached to the weather read. The small
+   face stack comes first and the label sits beside it, so this reads as one
+   button preview rather than as another species section. */
+.door {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  max-width: 100%;
+  min-height: 42px;
+  margin-top: var(--s3);
+  padding: 6px 12px 6px 7px;
+  border: 1px solid var(--outline);
+  border-radius: 999px;
+  background: var(--plate-spoken);
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.door:hover {
+  border-color: var(--ink);
+}
+
+.door:focus-visible {
+  outline: 3px solid color-mix(in srgb, var(--green) 32%, transparent);
+  outline-offset: 3px;
+}
+
+.doorWords {
+  flex: 0 1 auto;
+  min-width: 0;
+  font-size: var(--size-1);
+  font-weight: var(--weight-strong);
+  line-height: 1.3;
+}
+
+.doorFaces {
+  display: flex;
+  flex: none;
+}
+
+/* 28px keeps the crops identifiable while making the three faces read as one
+   small preview. The paper ring makes each overlap legible. */
+.doorFace {
+  position: relative;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 0 0 2px var(--paper), 0 1px 4px rgba(51, 38, 32, 0.18);
+}
+
+.doorFace + .doorFace {
+  margin-left: -9px;
+}
+
+.doorFace img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.doorChev {
+  flex: none;
+  width: 14px;
+  opacity: 0.85;
+}
+
+.doorlink {
+  display: inline-block;
+  margin-top: var(--s3);
+  font-size: var(--size-1);
+  font-weight: var(--weight-medium);
+  color: var(--green-deep);
+  text-decoration: none;
+}
+
+.signedOut {
+  margin-top: var(--s3);
+  font-size: var(--size-1);
+  color: var(--ink-soft);
+}
+
+/* ══ THE HOLD, WHILE THE READS ARE STILL OUT ═══════════════════════════════
+ *
+ * Johan, on the running app: *"the experience refreshes and is empty on every
+ * reload.. and looks broken.. maybe show the cards or allocate the space"*.
+ *
+ * MEASURED CAUSE, NOT A TASTE NOTE. Both Suspense boundaries on this page were
+ * `fallback={null}`. The shell painted the date and the lesson with two
+ * zero-height holes above them, and the day and the species row injected
+ * afterwards and pushed the lesson down. Timed against a cold process: the
+ * shell arrived at 15.39s and the read at 16.81s, signed out with no
+ * coordinates — and that window is wider on a located class, because
+ * Pointmoon's own budget is ten seconds and the seasonal read is seventeen API
+ * calls. The reads themselves resolve: 200, a real sentence, real species.
+ *
+ * A SHIMMER CLAIMS THAT SOMETHING IS LOADING. IT NEVER CLAIMS A VALUE. No grey
+ * bar shaped like a temperature that resolves into a different temperature, no
+ * placeholder species names. The shapes hold the space the real blocks take
+ * and carry the same radii and the same gaps, so the hold and the finished
+ * block are one design language rather than two.
+ *
+ * IT IS TRANSIENT, AND THAT IS WHY IT IS NOT A FILL. "No fills" is the
+ * standing ruling for the finished page and it is not bent here: nothing on
+ * this page has a ground of its own once the data lands. A block that resolves
+ * with nothing to say collapses — the hold is the fallback element, so it is
+ * gone the moment the boundary resolves, whether it resolved to content or to
+ * silence. There is no state where this shimmers forever.
+ */
+.hold {
+  min-width: 0;
+}
+
+.holdBlock,
+.holdBar,
+.doorHold {
+  background: rgba(71, 76, 63, 0.07);
+  border-radius: 10px;
+  background-image: linear-gradient(
+    100deg,
+    rgba(71, 76, 63, 0) 20%,
+    rgba(71, 76, 63, 0.05) 50%,
+    rgba(71, 76, 63, 0) 80%
+  );
+  background-size: 220% 100%;
+  background-repeat: no-repeat;
+  animation: holdSweep 1.6s linear infinite;
+}
+
+@keyframes holdSweep {
+  from {
+    background-position: 160% 0;
+  }
+  to {
+    background-position: -60% 0;
+  }
+}
+
+/* A classroom product. Reduced motion gets the reserved space and the tone,
+   and no movement at all. */
+@media (prefers-reduced-motion: reduce) {
+  .holdBlock,
+  .holdBar,
+  .doorHold {
+    animation: none;
+    background-image: none;
+  }
+}
+
+/* The day: one shape the height of the stack it is holding — 44px mark, the
+   40px temperature under it, the ground reading and its label. Measured at
+   191px on an 820 iPad, so this reserves the block rather than guessing it. */
+.holdDay {
+  width: 132px;
+  height: 191px;
+  margin-top: 28px;
+}
+
+.doorHold {
+  width: min(290px, 100%);
+  height: 42px;
+  margin-top: var(--s3);
+  border-radius: 999px;
+}
+
+.srOnlyHold {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/*
+ * ── NO MEDIA QUERY ON THIS SURFACE ────────────────────────────────────────
+ *
+ * Johan: "maybe hierarchy weather first top + the line lower then species".
+ * With the weather at the top, the sentence under it and the species after
+ * that, there is nothing left for a second column to solve — so the whole
+ * `@media (min-width: 700px)` block is gone, and the 1080px cap with it.
+ *
+ * THE PAGE IS 800px AT EVERY WIDTH. The design lead reached the same place
+ * independently and measured why the columns had to go: 700px handed a 12.9"
+ * iPad in portrait a two-column layout its species column could not hold, and
+ * a second column is also how a page acquires a second left edge — which is
+ * what Johan was looking at when he wrote "pls make sure it is well aligned".
+ *
+ * One column also means the phone stopped being a special case. A stack in a
+ * 335px measure is the same object as a stack in a 720px one.
+ */
+
+/* Temporary while real teachers test (#644): the quiet door to /feedback,
+   last on the page, in the context line's own soft voice. The link wears
+   the writing green like every quiet link out of a page (.classes-foot a),
+   named --living directly because --leaf is retiring. */
+.feedbackFoot {
+  padding: var(--s2) var(--gutter) var(--s3);
+  font-size: var(--size-1);
+  color: var(--ink-soft);
+}
+
+.feedbackFoot a {
+  font-weight: var(--weight-strong);
+  color: var(--living);
+}

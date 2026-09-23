@@ -1,0 +1,397 @@
+/* ── THE COLUMN (#870) ──────────────────────────────────────────────────────
+ *
+ * Johan, on the shipped page: "NO other pages have streched this wide...
+ * usually we are centered not left".
+ *
+ * He is right and it was measurable. This page ran at 1120px while every
+ * surface beside it holds a reading measure and centres it: the primer 38rem,
+ * the live guide and the narrated preview 44rem, the legacy plan page 880px.
+ * At 1120px on a laptop the column fills the viewport, so there is no visible
+ * gutter and the page reads as flush left rather than as a centred column —
+ * which is exactly what he described.
+ *
+ * It takes the RUNNER'S measure, 44rem, rather than a new number. The door on
+ * this page opens into that surface, and a teacher who crosses it should not
+ * watch the column jump width underneath her. One measure on both sides of the
+ * threshold.
+ *
+ * Text stays left-aligned inside the centred column, as it is on the primer,
+ * the preview and the runner. Centred running text is not a convention this
+ * product has anywhere. */
+.page {
+  --edge: clamp(1.25rem, 6vw, 2.5rem);
+  --measure: 44rem;
+
+  min-height: 100vh;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-text), sans-serif;
+}
+
+.topbar {
+  width: min(var(--measure), calc(100% - 2 * var(--edge)));
+  min-height: 72px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  border-bottom: 1px solid var(--hairline-soft);
+  color: var(--ink-soft);
+  font-size: var(--size-1);
+  font-weight: var(--weight-medium);
+}
+
+.lessonHead {
+  width: min(var(--measure), calc(100% - 2 * var(--edge)));
+  margin: 0 auto;
+  padding: clamp(42px, 7vw, 76px) 0 clamp(34px, 5vw, 52px);
+}
+
+/* TWO STATE LABELS, ONE VOICE (2026-09-02). "Before class" heads the
+   preparation rows and "With your class" heads the door; Johan asked for the
+   first to be clear, and clear here means a heading on the display face at
+   the row-action size, in ink, not a small tinted eyebrow. Both share it so
+   the page reads as two named halves. */
+.stateLabel,
+.thresholdLabel {
+  margin: clamp(28px, 4vw, 40px) 0 14px;
+  font-family: var(--font-display), sans-serif;
+  font-size: var(--size-4);
+  font-weight: var(--weight-medium);
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+}
+
+.stateLabel {
+  margin-top: clamp(24px, 3.5vw, 34px);
+  margin-bottom: 4px;
+}
+
+.eyebrow {
+  margin: 0 0 10px;
+  color: var(--ink-soft);
+  font-size: var(--size-1);
+  font-weight: var(--weight-strong);
+  letter-spacing: 0.02em;
+}
+
+.lessonHead h1 {
+  margin: 0;
+  font-family: var(--font-display), sans-serif;
+  font-size: clamp(2.55rem, 6vw, 4.9rem);
+  font-weight: var(--weight-medium);
+  line-height: 0.98;
+  letter-spacing: -0.035em;
+}
+
+.summary {
+  margin: 22px 0 0;
+  font-size: clamp(1.05rem, 2vw, 1.25rem);
+  line-height: 1.55;
+}
+
+.facts {
+  margin: 14px 0 0;
+  color: var(--ink-soft);
+  font-size: var(--size-1);
+}
+
+/*
+ * TODAY'S CONDITIONS (2026-09-08). Johan, on this screen: "i said somewhere
+ * here i dont see the line".
+ *
+ * The block brings its own type and its own mark from
+ * `app/conditions-note.module.css`, so this rule sets only the measure —
+ * nothing here restyles the note. One block, one set of type rules, wherever
+ * it renders.
+ *
+ * NO MARGIN OF ITS OWN, and that is what makes the empty case free. The space
+ * above it is `.lessonHead`'s bottom padding and the space below it is
+ * `.stateLabel`'s top margin, both of which exist whether this draws or not.
+ * On a day with no note the page is byte-for-byte the page it was.
+ */
+.conditions {
+  width: min(var(--measure), calc(100% - 2 * var(--edge)));
+  margin: 0 auto;
+}
+
+/* The lesson-specific species arrive on the first screen opened from Today,
+   rather than being buried several steps into the live guide. This is a
+   compact field-guide row, not another card: small circular references, names
+   beside them, and the whole specimen opens its credited profile. */
+.lookFors {
+  width: min(var(--measure), calc(100% - 2 * var(--edge)));
+  margin: 0 auto;
+  padding-bottom: clamp(18px, 3vw, 28px);
+}
+
+.lookFors h2 {
+  margin: 0 0 14px;
+  font-family: var(--font-display), sans-serif;
+  font-size: var(--size-3);
+  font-weight: var(--weight-medium);
+  line-height: 1.25;
+  color: var(--ink);
+}
+
+.lookFors ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px clamp(22px, 5vw, 42px);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.lookFor {
+  display: inline-flex;
+  align-items: center;
+  gap: 11px;
+  min-height: var(--touch);
+  color: var(--ink);
+  font-family: var(--font-display), sans-serif;
+  font-size: var(--size-2);
+  font-weight: var(--weight-medium);
+  text-decoration: none;
+}
+
+.lookFor:hover > span:last-child {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.lookFor:focus-visible {
+  outline: 3px solid color-mix(in srgb, var(--living) 28%, transparent);
+  outline-offset: 3px;
+  border-radius: 999px;
+}
+
+.lookForPhoto {
+  width: 52px;
+  height: 52px;
+  flex: none;
+  overflow: hidden;
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px var(--paper), 0 1px 5px rgb(51 38 32 / 18%);
+}
+
+.lookForPhoto img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ── PREPARATION, AS FIELD ROWS (#870) ──────────────────────────────────────
+ *
+ * Preparation sits in the open (#832) — that is not what changed. What changed
+ * is its shape. This was a four-column strip cut by vertical hairlines, and
+ * Johan turned it down: "I do NOT like the horizontal presentation.. it looks
+ * like we went backgward.. would rather have them horizontal. and clear with
+ * icons".
+ *
+ * So the ARRANGEMENT stops being horizontal and each BUTTON starts being one:
+ * a wide bar, glyph left, name, the one fact that decides the tap, chevron.
+ *
+ * Three things the strip got wrong and this does not:
+ *
+ *   ONE SHAPE AT EVERY WIDTH. The strip was `repeat(auto-fit, minmax(220px,
+ *   1fr))` and collapsed to a stack under 760px, so its horizontal arrangement
+ *   was desktop-only — reviewed on a laptop, never seen by a teacher on a
+ *   phone in a corridor. There is no width branch below for these rows, on
+ *   purpose. The one media query left touches the page gutter, not the shape.
+ *
+ *   NO VERTICAL RULES. Four upright hairlines drew a table on a product whose
+ *   standing rule is that a coloured or ruled edge around content is chrome.
+ *   Horizontal rules between stacked rows are a list, which is what this is.
+ *
+ *   ORDER THE EYE CAN FOLLOW. Equal columns gave four unequal tools equal
+ *   weight. Stacked rows are read top to bottom in the order she needs them:
+ *   hear it, understand it, check the ground, put it on paper.
+ *
+ * Each preparation tool has its own row and destination. A stretched link
+ * makes the full row tappable while keeping its label and caption together. */
+.prepRows {
+  width: min(var(--measure), calc(100% - 2 * var(--edge)));
+  margin: 0 auto;
+  padding-bottom: 84px;
+  display: flex;
+  flex-direction: column;
+}
+
+.prepRow {
+  position: relative;
+  min-height: var(--touch);
+  display: grid;
+  grid-template-columns: 48px minmax(0, 1fr) auto;
+  /* Top-aligned, not centred. "What to bring" carries authored preparation
+     text that runs to four lines on a phone, and a centred glyph drifts away
+     from the name it labels as the row grows. Anchored at the top it stays
+     beside the name at every length. */
+  align-items: start;
+  gap: 18px;
+  padding: 14px 4px 14px 0;
+  border-bottom: 1px solid var(--hairline-soft);
+}
+
+/* The glyph says WHAT the tool is; the wash behind it says WHO it is for, and
+   reuses the audience plates rather than inventing a colour. Colour stays
+   state, never decoration (the type + ink rulings). */
+.glyph {
+  width: 46px;
+  height: 46px;
+  display: grid;
+  place-items: center;
+  border-radius: 13px;
+  background: var(--plate-teacher);
+  color: var(--ink);
+}
+
+.glyphSpoken { background: var(--plate-spoken); }
+
+.rowText { min-width: 0; }
+
+.rowAction {
+  display: inline-block;
+  font-family: var(--font-display), sans-serif;
+  font-size: var(--size-3);
+  font-weight: var(--weight-medium);
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  text-decoration: none;
+}
+
+/* The stretched hit area. */
+.rowAction::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+
+.rowText > p {
+  margin: 3px 0 0;
+  color: var(--ink-soft);
+  font-size: var(--size-1);
+  line-height: 1.45;
+}
+
+.rowText > p strong { color: var(--ink); }
+
+/* Anything else in the row that can be pressed sits above the stretched
+   layer. Same z-index, later in the document, so it takes the overlap.
+
+   :not(.rowAction) IS THE WHOLE RULE. Without it this selector also caught
+   the row's own link — .rowAction is a child of .rowText too — and gave it
+   `position: relative`. That made .rowAction the containing block for its own
+   `inset: 0` pseudo-element, so the stretched hit area stopped covering the
+   row and collapsed onto the words, which is exactly the tap target the
+   comment above says this row must not have. The row read as whole-row
+   pressable and behaved as text-only, and only a miss on a phone shows it. */
+.rowText :is(a, button):not(.rowAction) {
+  position: relative;
+  z-index: 1;
+}
+
+.rowText > p a {
+  color: var(--living);
+  font-weight: var(--weight-strong);
+}
+
+.chevron {
+  align-self: center;
+  display: grid;
+  place-items: center;
+  padding-right: 4px;
+  color: var(--ink-soft);
+}
+
+.prepRow:hover .rowAction,
+.prepRow:focus-within .rowAction { color: var(--living); }
+.prepRow:hover .chevron { color: var(--ink); }
+
+/* The one threshold. Everything above it is a state the teacher is already
+   in; this is the only door, and it is still the only filled surface on the
+   page. The glyph makes it read as a door from across a room without adding a
+   second colour to do it. */
+.threshold {
+  width: min(var(--measure), calc(100% - 2 * var(--edge)));
+  margin: 0 auto;
+  padding-bottom: clamp(20px, 3vw, 32px);
+}
+
+
+/* One lesson entry, with the small offline action below it. */
+.doorRow {
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+/* Offline access is a quiet secondary action beside the teaching heading. */
+.thresholdHead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 4px 16px;
+  margin: clamp(28px, 4vw, 40px) 0 14px;
+}
+.thresholdHead .thresholdLabel { margin: 0; }
+.thresholdHead .doorOffline { padding-top: 0; }
+.doorOffline button {
+  min-height: 44px;
+  padding: 4px 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  font-size: var(--size-1);
+  font-weight: var(--weight-medium);
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+.start {
+  min-height: 58px;
+  flex: 1 1 260px;
+  padding: 12px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  border-radius: 999px;
+  background: var(--action);
+  color: var(--action-ink);
+  font-family: var(--font-display), sans-serif;
+  font-size: var(--size-3);
+  font-weight: var(--weight-medium);
+  text-decoration: none;
+}
+
+.start svg { flex: none; }
+
+.start:hover { filter: brightness(0.92); }
+
+.thresholdNote {
+  margin: 14px 0 0;
+  color: var(--ink-soft);
+  font-size: var(--size-1);
+  line-height: 1.5;
+}
+
+/* The gutter narrows on a phone. The rows do not change shape, because they
+   were drawn to be the same design at both ends. */
+@media (max-width: 760px) {
+  .lessonHead { padding-top: 36px; }
+  .prepRows { padding-bottom: 56px; }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .rowAction,
+  .chevron,
+  .start { transition: color 140ms ease, background-color 140ms ease, filter 140ms ease; }
+}

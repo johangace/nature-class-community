@@ -1,0 +1,356 @@
+.page {
+  min-height: 100vh;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-text), sans-serif;
+}
+
+.shell {
+  width: min(100%, 46rem);
+  margin: 0 auto;
+  padding: 1.25rem 1rem 4rem;
+}
+
+.masthead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  min-height: 3.75rem;
+  border-bottom: 1px solid var(--hairline-soft);
+}
+
+.brand {
+  display: inline-flex;
+  min-height: var(--touch-secondary);
+  align-items: center;
+  color: var(--living);
+  font-family: var(--font-display), sans-serif;
+  font-size: var(--size-3);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.signal {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--ink-2);
+  font-size: var(--size-1);
+}
+
+.signal::before {
+  width: 0.55rem;
+  height: 0.55rem;
+  border: 1px solid currentcolor;
+  border-radius: 50%;
+  content: "";
+}
+
+.hero {
+  padding: 3rem 0 2rem;
+}
+
+.eyebrow {
+  margin: 0 0 0.5rem;
+  color: var(--ink-2);
+  font-size: var(--size-1);
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+.hero h1,
+.sectionHeading h1,
+.sectionHeading h2,
+.lessonHeader h2,
+.reading h1 {
+  margin: 0;
+  font-family: var(--font-display), sans-serif;
+  font-weight: 600;
+  line-height: 1.08;
+}
+
+.hero h1 {
+  max-width: 18ch;
+  font-size: clamp(2.25rem, 10vw, 4rem);
+}
+
+.hero > p:last-child {
+  max-width: 38rem;
+  margin: 1rem 0 0;
+  color: var(--ink-2);
+  font-size: var(--size-2);
+  line-height: 1.55;
+}
+
+.shelf,
+.departure,
+.lessonDoor,
+.localRecord,
+.reading {
+  border-top: 1px solid var(--hairline);
+  padding: 2rem 0;
+}
+
+.sectionHeading {
+  margin-bottom: 1.25rem;
+}
+
+.sectionHeading h1,
+.sectionHeading h2 {
+  font-size: var(--size-5);
+}
+
+.lessonList {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.lessonLink {
+  display: flex;
+  min-height: 3.75rem;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  border-bottom: 1px solid var(--hairline-soft);
+  color: inherit;
+  text-decoration: none;
+}
+
+.lessonLink[aria-current="page"] {
+  color: var(--living);
+  font-weight: 700;
+}
+
+.lessonLink span:last-child {
+  color: var(--ink-2);
+}
+
+.readinessRows {
+  display: flex;
+  flex-direction: column;
+}
+
+.readinessRow {
+  display: flex;
+  gap: 0.75rem;
+  border-bottom: 1px solid var(--hairline-soft);
+  padding: 1rem 0;
+}
+
+.statusMark {
+  display: inline-flex;
+  width: 1.5rem;
+  height: 1.5rem;
+  flex: 0 0 1.5rem;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--living);
+  border-radius: 50%;
+  color: var(--living);
+  font-size: var(--size-1);
+  line-height: 1;
+}
+
+.readinessRow h3,
+.conditions h3,
+.wifiBoundary h3 {
+  margin: 0;
+  font-family: var(--font-display), sans-serif;
+  font-size: var(--size-2);
+  font-weight: 600;
+}
+
+.readinessRow p,
+.conditions p,
+.wifiBoundary p,
+.wifiBoundary li,
+.localRecord p {
+  margin: 0.3rem 0 0;
+  color: var(--ink-2);
+  line-height: 1.45;
+}
+
+.secondaryAction,
+.textLink {
+  display: inline-flex;
+  min-height: var(--touch-secondary);
+  align-items: center;
+  margin-top: 0.75rem;
+  border: 1px solid var(--action);
+  border-radius: var(--radius-pill);
+  padding: 0 1rem;
+  background: transparent;
+  color: var(--living);
+  font: inherit;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.secondaryAction:disabled {
+  border-color: var(--hairline);
+  color: var(--ink-3);
+  cursor: not-allowed;
+}
+
+.readinessRow .actionNote {
+  margin-top: 0.4rem;
+  font-size: var(--size-1);
+}
+
+.conditions {
+  margin-top: 1.5rem;
+  border-left: 0.25rem solid var(--amber);
+  padding-left: 1rem;
+}
+
+.conditions .observation {
+  color: var(--ink);
+  font-family: var(--font-display), sans-serif;
+  font-size: var(--size-4);
+  line-height: 1.3;
+}
+
+.conditions .receipt {
+  margin-top: 0.75rem;
+  font-size: var(--size-1);
+}
+
+.wifiBoundary {
+  margin-top: 2rem;
+  border-top: 1px solid var(--hairline-soft);
+  padding-top: 1.5rem;
+}
+
+.wifiBoundary ul {
+  margin: 0.75rem 0 0;
+  padding-left: 1.25rem;
+}
+
+.wifiBoundary li + li {
+  margin-top: 0.5rem;
+}
+
+.wifiBoundary > p:last-child {
+  margin-top: 1rem;
+  font-size: var(--size-1);
+}
+
+.lessonHeader {
+  margin-bottom: 1.5rem;
+}
+
+.lessonHeader h2,
+.reading h1 {
+  font-size: clamp(2rem, 8vw, 3.25rem);
+}
+
+.lessonQuestion {
+  margin: 0.75rem 0 0;
+  color: var(--ink-2);
+  font-size: var(--size-3);
+  line-height: 1.45;
+}
+
+.primaryAction {
+  display: inline-flex;
+  width: 100%;
+  min-height: var(--touch);
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: var(--radius-pill);
+  padding: 0.75rem 1.25rem;
+  background: var(--action);
+  color: var(--action-ink);
+  font: inherit;
+  font-size: var(--size-2);
+  font-weight: 800;
+  text-align: center;
+  text-decoration: none;
+}
+
+.localRecord h2 {
+  margin: 0;
+  font-family: var(--font-display), sans-serif;
+  font-size: var(--size-4);
+  font-weight: 600;
+}
+
+.localReceipt {
+  border-left: 0.25rem solid var(--living);
+  padding-left: 0.75rem;
+  color: var(--ink) !important;
+  font-weight: 700;
+}
+
+.quietLink {
+  display: inline-flex;
+  min-height: var(--touch-secondary);
+  align-items: center;
+  color: var(--living);
+  font-weight: 700;
+}
+
+.lessonLink:focus-visible,
+.secondaryAction:focus-visible,
+.textLink:focus-visible,
+.primaryAction:focus-visible,
+.quietLink:focus-visible,
+.brand:focus-visible {
+  outline: 0.2rem solid var(--amber);
+  outline-offset: 0.2rem;
+}
+
+.reading h2 {
+  margin: 2rem 0 0.5rem;
+  font-family: var(--font-display), sans-serif;
+  font-size: var(--size-3);
+}
+
+.reading p,
+.reading li {
+  line-height: 1.55;
+}
+
+.reading dl {
+  margin: 1.5rem 0 0;
+}
+
+.reading dt {
+  font-weight: 800;
+}
+
+.reading dd {
+  margin: 0.25rem 0 1rem;
+  color: var(--ink-2);
+}
+
+.notice {
+  padding: 4rem 0;
+  color: var(--ink-2);
+  line-height: 1.5;
+}
+
+@media (min-width: 48rem) {
+  .shell {
+    padding-inline: 2rem;
+  }
+
+  .hero {
+    padding-block: 4rem 3rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .page,
+  .page *,
+  .page *::before,
+  .page *::after {
+    scroll-behavior: auto !important;
+    transition: none !important;
+  }
+}

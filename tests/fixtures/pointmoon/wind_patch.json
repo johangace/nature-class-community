@@ -1,0 +1,22 @@
+{
+  "schemaVersion": "field-truth@1.1.0",
+  "facts": {
+    "fieldSnapshot": {
+      "weather": {
+        "current": {
+          "skyCondition": "partly-cloudy",
+          "windKph": 46,
+          "felt": {
+            "apparentC": 14
+          }
+        }
+      },
+      "observations": {
+        "nearby": [],
+        "birds": {
+          "notable": []
+        }
+      }
+    }
+  }
+}

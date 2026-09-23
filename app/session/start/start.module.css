@@ -1,0 +1,39 @@
+.page {
+  min-height: 100dvh;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--text);
+  padding: 24px clamp(24px, 5vw, 48px) 64px;
+  display: flex;
+  flex-direction: column;
+}
+
+.back { color: var(--ink-soft); text-decoration: none; align-self: flex-start; padding: 12px 0; }
+.back:hover { color: var(--ink); text-decoration: underline; }
+.content { width: min(100%, 44rem); margin: auto; padding: 56px 0; }
+.lesson { color: var(--ink-soft); font-size: var(--size-2); margin: 0 0 16px; }
+.content h1 { font-family: var(--display); font-size: var(--size-6); font-weight: var(--weight-display); line-height: 1.15; margin: 0 0 32px; }
+.choices { display: flex; flex-wrap: wrap; gap: 16px; }
+.choice {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex: 1 1 280px;
+  min-width: 0;
+  min-height: 116px;
+  padding: 24px;
+  border: 1px solid var(--ink-soft);
+  border-radius: 20px;
+  color: var(--ink);
+  background: transparent;
+  text-decoration: none;
+}
+.choice:hover { background: var(--plate-teacher); border-color: var(--ink); }
+.choice > svg { flex: none; }
+.label { display: flex; flex-direction: column; gap: 8px; flex: 1; }
+.label strong { font-family: var(--display); font-size: var(--size-3); font-weight: var(--weight-medium); }
+.label > span { font-size: var(--size-1); line-height: 1.5; }
+.note { color: var(--ink-soft); font-size: var(--size-1); line-height: 1.5; margin: 24px 0 0; }
+
+.switchNote { display: flex; align-items: center; flex-wrap: wrap; gap: 10px; color: var(--ink-soft); font-size: var(--size-1); line-height: 1.5; margin: 16px 0 0; }
+.toggleExample { display: inline-flex; align-items: center; gap: 6px; border: 1px solid var(--hairline); border-radius: 999px; padding: 5px 10px; white-space: nowrap; color: var(--ink); }

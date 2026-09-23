@@ -1,0 +1,2289 @@
+{
+  "id": "autumn-starter",
+  "title": "Autumn starter",
+  "subject": "Nature study",
+  "ageBand": "4-6",
+  "sessions": [
+    {
+      "id": "leaves-and-their-trees",
+      "prompt": "Which tree did your leaf come from?",
+      "title": "Leaves and their trees",
+      "topic": "Autumn leaves and the trees they come from",
+      "topicTags": [
+        "trees",
+        "seasons",
+        "art"
+      ],
+      "primaryTopic": "trees",
+      "labels": [
+        "science",
+        "art"
+      ],
+      "validity": {
+        "requiresSeason": [
+          "autumn"
+        ],
+        "requiresDriver": [
+          "deciduous-leaf-fall"
+        ]
+      },
+      "objective": "Meet and name leaves from common trees, and notice how they differ",
+      "childWorkSummary": "Children pick leaves up from the ground only, notice the shape, edges and colour of each one, and gather a few, then bring them back to make an A5 collage.",
+      "namedSkill": "naming and noticing",
+      "kit": [
+        "A5 card, one per child",
+        "glue sticks",
+        "collecting baskets or paper bags",
+        "hand wipes"
+      ],
+      "durationMin": 35,
+      "nodeSeq": 36,
+      "phases": [
+        {
+          "nid": "p1",
+          "key": "settle",
+          "title": "Settle",
+          "durationMin": 2,
+          "blocks": [
+            {
+              "nid": "b2",
+              "type": "say-aloud",
+              "text": "Before we go out, let's be still for a moment. Take one slow breath with me. Today we're going to meet the trees that live near us, and get to know their leaves."
+            },
+            {
+              "nid": "b3",
+              "type": "conditions-line",
+              "fallbackText": "Look at the sky together before you set off. Whatever it's doing, name it out loud."
+            },
+            {
+              "nid": "b4",
+              "type": "teacher-note",
+              "text": "Gather at the door or the edge of your outdoor space, voices low. Take the slow breath yourself, visibly. The settle sets the register for the whole session."
+            }
+          ]
+        },
+        {
+          "nid": "p5",
+          "key": "collect",
+          "title": "Collect",
+          "durationMin": 12,
+          "blocks": [
+            {
+              "nid": "b9",
+              "type": "demo",
+              "move": "The gentle pick-up",
+              "steps": [
+                {
+                  "text": "Lift one leaf from the ground, never from the branch.",
+                  "mark": "m-lift"
+                },
+                {
+                  "text": "Turn it over.",
+                  "mark": "m-turn"
+                }
+              ],
+              "look": "Meet both sides.",
+              "materials": [
+                "a fallen leaf",
+                "collecting basket"
+              ]
+            },
+            {
+              "nid": "b10",
+              "type": "say-aloud",
+              "text": "When a leaf on the ground catches your eye, say hello to it. Notice its shape, its edges, its colour. If you like it, it can come with us in your basket.",
+              "abilityVariants": {
+                "y2": "When a leaf catches your eye, pick it up and get to know it. Trace its edge with your finger. Does its shape remind you of a tree you already know? Collect the leaves you could introduce to a friend."
+              }
+            },
+            {
+              "nid": "b11",
+              "type": "teacher-note",
+              "text": "Ground-only collecting keeps the trees whole and keeps this session repeatable all autumn. Name the trees casually as you walk: oak, maple, birch. Children absorb a name fastest when they hear it beside the real leaf."
+            },
+            {
+              "nid": "b12",
+              "type": "conditions-line",
+              "fallbackText": "However today looks, there are leaves waiting. The freshest colours are often at the edge of the path."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t6",
+              "when": "Someone snaps a leaf from a branch",
+              "then": "No telling off. Kneel to the ground together: the ground is the leaf shop, and the tree is still using the ones it holds."
+            },
+            {
+              "nid": "t7",
+              "when": "A few children fill a basket in a minute and say they're done",
+              "then": "Turn them into choosers: ask each to pick their three favourite leaves and lay the rest back for the birds."
+            },
+            {
+              "nid": "t8",
+              "when": "Somebody won't touch the leaves",
+              "then": "Offer the basket as a job. Carrying counts as collecting; hands can join in later, or not at all today."
+            }
+          ],
+          "conditionVariants": [
+            {
+              "nid": "v13",
+              "when": "wet",
+              "phase": {
+                "nid": "p14",
+                "key": "collect-wet",
+                "title": "Collect (wet day)",
+                "durationMin": 12,
+                "blocks": [
+                  {
+                    "nid": "b15",
+                    "type": "say-aloud",
+                    "text": "Rain makes the colours deeper. Let's look under the big trees, where it's drier. Wet leaves shine like they've just been painted. Say hello to the shiniest one you can find."
+                  },
+                  {
+                    "nid": "b16",
+                    "type": "demo",
+                    "move": "The rain shake",
+                    "steps": [
+                      {
+                        "text": "Hold a wet leaf by its stem.",
+                        "mark": "m-stem"
+                      },
+                      {
+                        "text": "One gentle shake, then into the basket.",
+                        "mark": "m-shake"
+                      }
+                    ],
+                    "materials": [
+                      "a wet fallen leaf",
+                      "collecting basket"
+                    ]
+                  },
+                  {
+                    "nid": "b36",
+                    "type": "teacher-note",
+                    "text": "Ground-only collecting keeps the trees whole and keeps this session repeatable all autumn. Name the trees casually as you walk: oak, maple, birch. Children absorb a name fastest when they hear it beside the real leaf."
+                  },
+                  {
+                    "nid": "b17",
+                    "type": "teacher-note",
+                    "text": "Keep the collecting loop short and close to shelter. Wet leaves glue surprisingly well once patted on a sleeve or a cloth, so don't skip the collage. Watch footing on smooth paths."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "nid": "p18",
+          "key": "create",
+          "title": "Create & glue",
+          "durationMin": 15,
+          "blocks": [
+            {
+              "nid": "b22",
+              "type": "teacher-note",
+              "text": "Set up before you call the children over: one A5 card each, glue sticks along the table, all the collected leaves pooled in the middle so every child chooses from the shared gathering."
+            },
+            {
+              "nid": "b23",
+              "type": "demo",
+              "move": "The dab and press",
+              "steps": [
+                {
+                  "text": "Dab the glue onto the card, never onto the leaf.",
+                  "mark": "m-dab"
+                },
+                {
+                  "text": "Lay the leaf down.",
+                  "mark": "m-leafdown"
+                },
+                {
+                  "text": "Hold it still for one slow breath while they watch.",
+                  "mark": "m-press"
+                }
+              ],
+              "materials": [
+                "A5 card",
+                "glue stick",
+                "a leaf"
+              ]
+            },
+            {
+              "nid": "b24",
+              "type": "say-aloud",
+              "text": "Choose the leaves that want to be in your picture. Lay them on your card first and move them around. When it looks right to you, glue them down. There's no wrong picture."
+            },
+            {
+              "nid": "b25",
+              "type": "teacher-note",
+              "text": "Circulate and ask about the leaves, not the layout: \"Which tree do you think this one came from?\" Keep a small pool of spare leaves for anyone whose favourite tears."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t19",
+              "when": "Glue is going on leaves, tables, sleeves",
+              "then": "Show the dab again on one card, slowly, with everyone watching: one dab where the leaf will lie, then the leaf on top."
+            },
+            {
+              "nid": "t20",
+              "when": "A child says their picture is wrong",
+              "then": "Say what you see instead: name one colour or one shape in it. Leaves have no wrong way to sit."
+            },
+            {
+              "nid": "t21",
+              "when": "Finished-in-a-flash hands are waving",
+              "then": "Send them back to the leaf pile for one more: a leaf nobody else has chosen yet."
+            }
+          ]
+        },
+        {
+          "nid": "p26",
+          "key": "circle",
+          "title": "Circle",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "nid": "b27",
+              "type": "say-aloud",
+              "text": "Bring your collage to the circle and set it down in front of you where everyone can see it."
+            },
+            {
+              "nid": "b28",
+              "type": "circle-question",
+              "text": "Point to the leaf you got to know best today. Can you say the name of the tree it came from, or give it a name of your own?"
+            },
+            {
+              "nid": "b29",
+              "type": "named-skill",
+              "skill": "naming and noticing"
+            },
+            {
+              "nid": "b30",
+              "type": "teacher-note",
+              "text": "Close by naming what you noticed the children doing: \"I saw people turning leaves over to meet both sides.\" Naming the skill out loud is how it sticks."
+            }
+          ]
+        }
+      ],
+      "standards": [
+        {
+          "system": "england",
+          "code": "Year 1 · Plants",
+          "text": "identify and name a variety of common wild and garden plants, including deciduous and evergreen trees"
+        }
+      ],
+      "childSheet": [
+        {
+          "nid": "b31",
+          "type": "sheet-title",
+          "title": "The leaf collage",
+          "nameLine": "This collage was made by"
+        },
+        {
+          "nid": "b32",
+          "type": "collage-zone",
+          "hint": "Stick your leaves here. Big ones, small ones, torn ones, favourites."
+        },
+        {
+          "nid": "b33",
+          "type": "match-strip",
+          "prompt": "Whose leaf is this? Trees you might meet:",
+          "cards": [
+            {
+              "name": "the oak",
+              "clue": "wavy edges, like little waves"
+            },
+            {
+              "name": "the birch",
+              "clue": "a little teardrop"
+            },
+            {
+              "name": "the maple",
+              "clue": "five fingers, like a hand"
+            }
+          ]
+        },
+        {
+          "nid": "b34",
+          "type": "notice-line",
+          "prompt": "One thing you noticed outside today:"
+        },
+        {
+          "nid": "b35",
+          "type": "parent-line",
+          "text": "For home: we met the trees near us today. Ask me whose leaf this is. I know."
+        }
+      ],
+      "primer": {
+        "summary": "In autumn, deciduous trees let their leaves go, and the ground fills with them. This session sends the class out to meet those leaves and the trees they came from. Children pick leaves up from the ground only, notice the shape, edges and colour of each one, and gather a few, then bring them back to make an A5 collage. Along the way they hear the tree names spoken casually beside the real leaves, which is how the names stick.",
+        "why": "For young children, a leaf is a first, holdable piece of a tree. Meeting leaves up close, and hearing oak, maple and birch said out loud beside them, is the beginning of knowing the trees in their own grounds by name. Because they collect only from the ground, the trees stay whole and the session can be repeated all autumn. The collage gives every child something of their own to carry home.",
+        "glossary": [
+          {
+            "term": "Leaf",
+            "definition": "The flat green part of a plant or tree that catches sunlight to make the plant's food.",
+            "forChildren": "A leaf is the flat part of a tree that drinks up sunshine to feed the tree. In autumn, the leaves change colour and float down to the ground."
+          },
+          {
+            "term": "Deciduous",
+            "definition": "A tree that drops all its leaves in autumn and grows new ones in spring, like oak, maple and birch.",
+            "forChildren": "Some trees let all their leaves go in autumn and stand bare in winter. Then in spring they grow brand new ones. Those are the ones that fill the ground for us to meet."
+          },
+          {
+            "term": "Collage",
+            "definition": "A picture made by arranging and gluing down real materials, like leaves, rather than drawing it.",
+            "forChildren": "A collage is a picture you make by sticking real things down, like your leaves, instead of drawing. You move them around until it looks right to you."
+          }
+        ],
+        "childFriendlyExamples": [
+          "When a leaf on the ground catches your eye, say hello to it. Turn it over and meet both sides. Look at its shape, its edges, its colour. No two are exactly the same.",
+          "Leaves come from the ground, never from the branch. The tree is still using the ones it holds. The ground is the leaf shop, and it is full today.",
+          "Lay your leaves on your card and move them around first. When it looks right to you, glue them down. There is no wrong picture, it is yours."
+        ]
+      },
+      "topicLine": "Today we are picking up leaves and finding out which trees they came from.",
+      "seasonNote": {
+        "teacher": "Leaves are on the ground now in a range of colours and stages, which is why this session belongs to autumn: it is the one season when a tree's leaves can be gathered without picking. Early in the term there are fewer down and more still on the tree to compare them with.",
+        "child": "It is autumn, and the trees are letting their leaves go. We are going to pick some up and work out which tree they came from."
+      }
+    },
+    {
+      "id": "seed-searchers",
+      "sheetTemplate": "seed-study",
+      "prompt": "How does each seed travel?",
+      "title": "Seed searchers",
+      "topic": "Seeds on plants, where they come from, and how they travel",
+      "topicTags": [
+        "plants",
+        "trees",
+        "seasons"
+      ],
+      "primaryTopic": "plants",
+      "labels": [
+        "biodiversity",
+        "science"
+      ],
+      "validity": {
+        "requiresSeason": [
+          "autumn"
+        ],
+        "requiresDriver": [
+          "seed-dispersal"
+        ]
+      },
+      "objective": "Investigate how plants make their seeds, and discuss how seeds travel to new places and grow into new plants",
+      "childWorkSummary": "Children talk about what a seed is, then search the grounds for plants and find where their seeds are, collect four kinds of seed in pairs, drop each one from up high to see how it travels, and draw what they saw.",
+      "namedSkill": "wondering how",
+      "kit": [
+        "pots to gather seeds, one per pair",
+        "paper and pencils, one set per pair",
+        "hand wipes"
+      ],
+      "durationMin": 40,
+      "spaceNeeded": "Grounds with plants going to seed, and trees with seeds on the ground beneath them",
+      "settle": true,
+      "primer": {
+        "summary": "Seeds on plants and how they come to be there. Indoors first: what is a seed, and have you ever found one. Then outside, children search the grounds for plants, find where the seeds are, and work out how seeds arrive in a place. In pairs they collect four kinds of seed and test how each one travels: one holds it as high as they can and lets go, the other watches and says what it did. They draw their seeds and write how each one travelled, and the circle names what decides a seed's journey.",
+        "why": "Every plant in the grounds got there somehow, and watching a seed spin, float or drop from a child's own hand is how seeds travelling stops being a fact and becomes something they saw. For the teacher: seeds travel in four main ways. Wind: dandelion, sycamore helicopters. Animals: burrs stick to fur, berries are eaten and the seeds pass through. Water: some seeds float, a coconut for one. Mechanical: pea and gorse pods fling their seeds out when they dry and split. You do not need to identify every seed correctly. The value of this lesson is in the investigating and reasoning, not in naming species perfectly.",
+        "glossary": [
+          {
+            "term": "seed",
+            "definition": "The part a plant makes that can grow into a new plant.",
+            "forChildren": "A seed is a tiny parcel with a new plant folded up inside."
+          },
+          {
+            "term": "mature",
+            "definition": "Fully grown. A plant makes its seeds when it is mature.",
+            "forChildren": "A grown-up plant. That is when it makes its seeds."
+          },
+          {
+            "term": "winged seed",
+            "definition": "A seed with a papery wing, shaped to spin and be carried by the wind.",
+            "forChildren": "A seed with a wing that spins as it falls, like a little helicopter."
+          },
+          {
+            "term": "seed dispersal",
+            "definition": "How seeds get away from the parent plant: by wind, water, animals, or the plant flinging them out.",
+            "forChildren": "A seed's journey away from home."
+          }
+        ],
+        "childFriendlyExamples": [
+          "A dandelion makes its seeds when it is grown up, and the wind carries them away.",
+          "Hold your seed up high and let go. Watch what it does on the way down."
+        ]
+      },
+      "nodeSeq": 48,
+      "phases": [
+        {
+          "nid": "p1",
+          "key": "introduce",
+          "title": "Introduce",
+          "mode": "present",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "nid": "b3",
+              "type": "say-aloud",
+              "text": "We are going on a seed hunt today."
+            },
+            {
+              "nid": "b4",
+              "type": "say-aloud",
+              "text": "What is a seed?"
+            },
+            {
+              "nid": "b5",
+              "type": "say-aloud",
+              "text": "Have you ever found a seed before? What did it look like?"
+            },
+            {
+              "nid": "b6",
+              "type": "teacher-note",
+              "text": "Outside, we will search for seeds and test how they travel from the plant."
+            },
+            {
+              "nid": "b7",
+              "type": "conditions-line",
+              "fallbackText": "Check the wind together before you set off: hold up a hand, or watch what the highest branches are doing."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t2",
+              "when": "Nobody knows what a seed is",
+              "then": "Hold up an apple pip or a sunflower seed. A tiny parcel with a new plant folded up inside."
+            }
+          ]
+        },
+        {
+          "nid": "p8",
+          "key": "explore",
+          "title": "Explore",
+          "mode": "work",
+          "childTask": "Search the grounds for plants. Find where the seeds are on each one.",
+          "durationMin": 10,
+          "blocks": [
+            {
+              "nid": "b11",
+              "type": "teacher-note",
+              "text": "Give each pair a pot. Point them toward trees, shrubs and flowerbeds to search."
+            },
+            {
+              "nid": "b12",
+              "type": "say-aloud",
+              "text": "Take ten minutes to search for plants in our grounds."
+            },
+            {
+              "nid": "b13",
+              "type": "say-aloud",
+              "text": "What can you see on this plant?"
+            },
+            {
+              "nid": "b14",
+              "type": "say-aloud",
+              "text": "Can you find where the seeds are on this plant?"
+            },
+            {
+              "nid": "b15",
+              "type": "say-aloud",
+              "text": "How do plants make their seeds?"
+            },
+            {
+              "nid": "b16",
+              "type": "teacher-note",
+              "text": "When a plant is mature it makes seeds. A dandelion is the easy one to show."
+            },
+            {
+              "nid": "b17",
+              "type": "say-aloud",
+              "text": "Can you see any seeds that have fallen from the trees on the ground?"
+            },
+            {
+              "nid": "b18",
+              "type": "say-aloud",
+              "text": "How do you think this seed arrived here?"
+            },
+            {
+              "nid": "b19",
+              "type": "teacher-note",
+              "text": "Wind, rolling, a bird or an animal, or in animal poo. All of those are right."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t9",
+              "when": "Nobody can find a seed on a plant",
+              "then": "Go to the plant that has finished flowering. Where the flower was is where the seeds are."
+            },
+            {
+              "nid": "t10",
+              "when": "One child finds everything and others find nothing",
+              "then": "Make the big finder a guide: their job is leading a friend to a plant that looks promising."
+            }
+          ],
+          "conditionVariants": [
+            {
+              "nid": "v20",
+              "when": "windy",
+              "phase": {
+                "nid": "p21",
+                "key": "explore-windy",
+                "title": "Explore (windy day)",
+                "mode": "work",
+                "childTask": "Stand still near a big tree and watch for seeds flying. Then search the ground on the side the wind blows towards.",
+                "durationMin": 10,
+                "blocks": [
+                  {
+                    "nid": "b22",
+                    "type": "say-aloud",
+                    "text": "The wind is doing the work today. Stand still near a big tree for a moment. Is anything flying?"
+                  },
+                  {
+                    "nid": "b23",
+                    "type": "say-aloud",
+                    "text": "Now search the ground on the side the wind blows towards. That is where today's seeds land."
+                  },
+                  {
+                    "nid": "b24",
+                    "type": "teacher-note",
+                    "text": "Keep the group on the sheltered side of large trees and away from any dead limbs."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "nid": "p25",
+          "key": "collect",
+          "title": "Collect",
+          "mode": "work",
+          "childTask": "In partners, collect four types of seed and put them in your pot.",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "nid": "b27",
+              "type": "say-aloud",
+              "text": "In partners, can you collect four types of seed and place them in your pot?"
+            },
+            {
+              "nid": "b28",
+              "type": "say-aloud",
+              "text": "Try to collect different shapes: some winged, some heavy, some feathered, some flat."
+            },
+            {
+              "nid": "b29",
+              "type": "teacher-note",
+              "text": "Seeds from the ground, or ones that come away at a touch. Nothing pulled off a living plant."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t26",
+              "when": "A pair has four of the same seed",
+              "then": "Keep one and swap the rest with another pair. Four different shapes is the point."
+            }
+          ]
+        },
+        {
+          "nid": "p30",
+          "key": "experiment",
+          "title": "Experiment",
+          "mode": "work",
+          "childTask": "Test how each seed travels with your partner. Draw your seeds and write how each one travelled.",
+          "durationMin": 10,
+          "blocks": [
+            {
+              "nid": "b33",
+              "type": "say-aloud",
+              "text": "Now test how your seed travels with a partner."
+            },
+            {
+              "nid": "b34",
+              "type": "conditions-line",
+              "fallbackText": "If there is any breeze, take the drop test into it and watch which seeds get carried."
+            },
+            {
+              "nid": "b35",
+              "type": "demo",
+              "move": "The drop test",
+              "steps": [
+                {
+                  "text": "One of you holds the seed up as high as you can.",
+                  "mark": "m-high"
+                },
+                {
+                  "text": "Let go.",
+                  "mark": "m-letgo"
+                },
+                {
+                  "text": "The other one watches, and says how it travelled through the air."
+                }
+              ],
+              "look": "Did it spin, float, drop or roll?",
+              "materials": [
+                "the seeds in your pot"
+              ]
+            },
+            {
+              "nid": "b36",
+              "type": "say-aloud",
+              "text": "Draw your seeds, and write how each one travelled.",
+              "abilityVariants": {
+                "reception": "Draw your seed. Tell your partner how it travelled."
+              }
+            },
+            {
+              "nid": "b37",
+              "type": "teacher-note",
+              "text": "Let the drops repeat. Swap roles so both children hold and both children watch."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t31",
+              "when": "The drops turn into throwing",
+              "then": "Show it with your own hand: seeds get let go, never thrown. Hold yours high, open your fingers, watch."
+            },
+            {
+              "nid": "t32",
+              "when": "A seed just drops straight down",
+              "then": "That is its journey. Heavy and round means it lands under its tree and rolls. Ask where it would end up on a slope."
+            }
+          ]
+        },
+        {
+          "nid": "p38",
+          "key": "circle",
+          "title": "Circle time",
+          "mode": "gather",
+          "durationMin": 10,
+          "blocks": [
+            {
+              "nid": "b39",
+              "type": "circle-question",
+              "text": "Discuss with your partner: what decides the way a seed travels?"
+            },
+            {
+              "nid": "b40",
+              "type": "teacher-note",
+              "text": "Size, weight and shape."
+            },
+            {
+              "nid": "b41",
+              "type": "circle-question",
+              "text": "Can anyone name any of the seeds they tested today?"
+            },
+            {
+              "nid": "b42",
+              "type": "say-aloud",
+              "text": "Seeds travel four ways: on the wind, on water, with animals, or flung out by the plant itself."
+            },
+            {
+              "nid": "b43",
+              "type": "named-skill",
+              "skill": "wondering how"
+            }
+          ]
+        }
+      ],
+      "childSheet": [
+        {
+          "nid": "b44",
+          "type": "sheet-title",
+          "title": "Seed searchers",
+          "nameLine": "These seeds were tested by"
+        },
+        {
+          "nid": "b45",
+          "type": "collage-zone",
+          "hint": "Draw your four seeds here, or glue one that finished its journey with you."
+        },
+        {
+          "nid": "b46",
+          "type": "match-strip",
+          "prompt": "Whose seed is this? Meet the seeds and how they travel:",
+          "cards": [
+            {
+              "name": "the sycamore",
+              "clue": "wings that spin like a helicopter"
+            },
+            {
+              "name": "the oak",
+              "clue": "an acorn sitting in its own little cup"
+            },
+            {
+              "name": "the dandelion",
+              "clue": "a feather that floats on the wind"
+            }
+          ]
+        },
+        {
+          "nid": "b47",
+          "type": "notice-line",
+          "prompt": "How my seed travelled:"
+        },
+        {
+          "nid": "b48",
+          "type": "parent-line",
+          "text": "For home: we found seeds on plants and dropped them to see how they travel. Ask me which seed flew."
+        }
+      ],
+      "standards": [
+        {
+          "system": "england",
+          "code": "Year 1 · Plants",
+          "text": "identify and name a variety of common wild and garden plants, including deciduous and evergreen trees"
+        },
+        {
+          "system": "england",
+          "code": "Year 2 · Plants",
+          "text": "find out and describe how plants need water, light and a suitable temperature to grow and stay healthy"
+        },
+        {
+          "system": "england",
+          "code": "Year 3 · Plants",
+          "text": "explore the part that flowers play in the life cycle of flowering plants, including pollination, seed formation and seed dispersal"
+        },
+        {
+          "system": "england",
+          "code": "Key stage 1 · Working scientifically",
+          "text": "observing closely, using simple equipment"
+        },
+        {
+          "system": "england",
+          "code": "Key stage 1 · Working scientifically",
+          "text": "gathering and recording data to help in answering questions"
+        },
+        {
+          "system": "england",
+          "code": "Years 1 to 6 · Spoken language",
+          "text": "ask relevant questions to extend their understanding and knowledge"
+        }
+      ],
+      "celebration": {
+        "headline": "You found the seeds and tested how they travel",
+        "emoji": "🌱",
+        "keepsake": "Four seeds, four journeys, drawn by you."
+      },
+      "connectionToLast": "You met the minibeasts under the logs and leaves. Now find what the plants send out: the seeds, and how each one travels.",
+      "conditionNotes": [
+        {
+          "when": [
+            "windy"
+          ],
+          "teacher": "The winged seeds are travelling today, so start under the tallest trees and watch what comes down before collecting from the ground.",
+          "child": "The wind is strong today. Some seeds have wings to ride the wind, so we will watch what the wind is carrying."
+        },
+        {
+          "when": [
+            "still"
+          ],
+          "teacher": "The winged seeds stay on the branch without wind and the fallers are what the ground offers, so ask how each found seed would travel on a windy day.",
+          "child": "The air is still today. The winged seeds are waiting for a wind, so we will look at the ones that fell."
+        }
+      ],
+      "topicLine": "Today is about seeds, where they hide on plants and how they travel.",
+      "seasonNote": {
+        "teacher": "Plants are at the giving-away stage of the year: seeds, nuts, fruits and fluffy heads are ripe and ready to leave, so a search finds them on the plant and just below it. Later in autumn more have already gone, and the hunt moves to the ground.",
+        "child": "Autumn is when plants let go of their seeds. We are going to search for where the seeds are and watch how each one travels."
+      },
+      "openingPictures": {
+        "purpose": "example",
+        "items": [
+          {
+            "src": "/lesson-examples/seed-head.webp",
+            "alt": "A close-up of a grass seed head held between fingers",
+            "caption": "A grass seed head"
+          },
+          {
+            "src": "/lesson-examples/cone.webp",
+            "alt": "A fallen cone lying on grass",
+            "caption": "A cone"
+          },
+          {
+            "src": "/lesson-examples/fluffy-seed-heads.webp",
+            "alt": "Fluffy seed heads among dry flower stems",
+            "caption": "Fluffy seed heads"
+          }
+        ]
+      }
+    },
+    {
+      "id": "animal-leaf-masks",
+      "sheetTemplate": "animal-mask",
+      "prompt": "Which animal will you be, and what is its story?",
+      "doorQuestion": "Which animal will you be today?",
+      "title": "Animal leaf masks",
+      "topic": "Sorting fallen leaves, making an animal mask from them, and telling its story",
+      "topicTags": [
+        "trees",
+        "art",
+        "seasons"
+      ],
+      "primaryTopic": "trees",
+      "labels": [
+        "art",
+        "storytelling"
+      ],
+      "validity": {
+        "requiresSeason": [
+          "autumn"
+        ],
+        "requiresDriver": [
+          "deciduous-leaf-fall"
+        ]
+      },
+      "objective": "Make an animal mask using nature and begin to tell a story about your chosen animal",
+      "childWorkSummary": "Children talk about their favourite garden animal and whether it comes out by day or by night, collect fallen leaves outside, sort them, make an animal mask, put it on and tell the class a short story about their animal.",
+      "namedSkill": "telling a story",
+      "kit": [
+        "mask template, printed, one per child",
+        "pots or paper bags to gather leaves",
+        "glue sticks",
+        "scissors",
+        "string",
+        "a few photos of common animals: fox, hedgehog, owl, robin"
+      ],
+      "durationMin": 40,
+      "preparation": "Print the mask template, one per child. Have a few photos of common animals ready to show: fox, hedgehog, owl, robin.",
+      "spaceNeeded": "Ground with fallen leaves, and a table for making",
+      "settle": true,
+      "primer": {
+        "summary": "Children collect a variety of leaves outside to create an animal mask they can wear, then show it and tell a story about their chosen animal. One session, three hats. The science hat: collect fallen leaves and sort them by colour, shape and size. The maker hat: turn the sorted leaves into an animal mask. The storyteller hat: put the mask on and tell the class who you are.",
+        "why": "Sorting is the start of thinking like a scientist. Making the mask puts leaves in their hands. Telling the story puts the animal in their words. For the teacher: most of the animals children choose to mask, fox, owl, hedgehog, badger, are common in gardens and hedgerows in the UK, so this is a natural link to a short talk about nocturnal and daytime animals. Foxes and hedgehogs are mainly nocturnal, active at night. Robins and squirrels are diurnal, active in the day. A simple, memorable distinction for young children.",
+        "glossary": [
+          {
+            "term": "sorting",
+            "definition": "Putting things into groups by what they share.",
+            "forChildren": "Giving every leaf a team to belong to."
+          },
+          {
+            "term": "texture",
+            "definition": "How a surface feels: smooth, rough, crackly, soft.",
+            "forChildren": "What your fingers find out that your eyes cannot."
+          },
+          {
+            "term": "nocturnal",
+            "definition": "Active at night and resting in the day.",
+            "forChildren": "Awake at night, like a fox or a hedgehog."
+          },
+          {
+            "term": "diurnal",
+            "definition": "Active in the day and resting at night.",
+            "forChildren": "Awake in the day, like a robin or a squirrel."
+          }
+        ],
+        "childFriendlyExamples": [
+          "Every leaf on the ground can be a piece of an animal.",
+          "Every mask has a voice inside it, waiting to be heard."
+        ]
+      },
+      "nodeSeq": 49,
+      "phases": [
+        {
+          "nid": "p1",
+          "key": "introduce",
+          "title": "Introduce",
+          "mode": "present",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "nid": "b3",
+              "type": "say-aloud",
+              "text": "Today, you get to become an animal."
+            },
+            {
+              "nid": "b4",
+              "type": "say-aloud",
+              "text": "What is your favourite garden animal?"
+            },
+            {
+              "nid": "b5",
+              "type": "say-aloud",
+              "text": "Does it come out in the day, or at night?"
+            },
+            {
+              "nid": "b6",
+              "type": "teacher-note",
+              "text": "Show the photos for inspiration: fox, hedgehog, owl, robin. The mask will be made from things we collect outside."
+            },
+            {
+              "nid": "b7",
+              "type": "conditions-line",
+              "fallbackText": "Look at the ground under the nearest tree together before you go: are the leaves dry and crisp, or dark and wet?"
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t2",
+              "when": "Everyone picks the same animal",
+              "then": "That is fine. Thirty foxes tell thirty stories. Ask what makes theirs different."
+            }
+          ]
+        },
+        {
+          "nid": "p8",
+          "key": "collect",
+          "title": "Collect",
+          "mode": "work",
+          "childTask": "Collect leaves from the ground. Different colours, shapes and sizes.",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "nid": "b10",
+              "type": "say-aloud",
+              "text": "Find leaves on the ground. Different colours, shapes and sizes."
+            },
+            {
+              "nid": "b11",
+              "type": "teacher-note",
+              "text": "Only leaves that have already fallen. Nothing picked from a living plant."
+            },
+            {
+              "nid": "b12",
+              "type": "teacher-note",
+              "text": "Collect at least thirty as a class. Better too many than not enough."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t9",
+              "when": "They only pick the big shiny ones",
+              "then": "Ask for the smallest leaf they can find."
+            }
+          ],
+          "conditionVariants": [
+            {
+              "nid": "v13",
+              "when": "wet",
+              "phase": {
+                "nid": "p14",
+                "key": "collect-wet",
+                "title": "Collect (wet day)",
+                "mode": "work",
+                "childTask": "Collect shiny wet leaves from under the big trees.",
+                "durationMin": 5,
+                "blocks": [
+                  {
+                    "nid": "b15",
+                    "type": "say-aloud",
+                    "text": "Rain makes the leaves shiny. Collect under the big trees where it is drier."
+                  },
+                  {
+                    "nid": "b49",
+                    "type": "teacher-note",
+                    "text": "Only leaves that have already fallen. Nothing picked from a living plant."
+                  },
+                  {
+                    "nid": "b16",
+                    "type": "teacher-note",
+                    "text": "Pat wet leaves on a sleeve before gluing. They stick fine."
+                  }
+                ]
+              }
+            }
+          ],
+          "pictures": {
+            "purpose": "how-to",
+            "items": [
+              {
+                "src": "/lesson-illustrations/animal-masks/collect.webp",
+                "alt": "A hand picking up a fallen leaf beside a basket of leaves",
+                "caption": "Collect fallen leaves"
+              }
+            ]
+          },
+          "authorNotes": "Use the authored wet alternative as a starting point, preserving the fallen-leaves-only boundary from the base. Keep the five-minute collect close and brief in distance. Ask for enough leaves to make the masks, rather than preserving thirty as a target regardless of the class. Wet leaves need a hand underneath them. The existing wet wording assumes big trees and a drier spot: do not carry that assumption into the prepared day without supporting site context. A drier side of a trunk or wall may help if the teacher says one is available."
+        },
+        {
+          "nid": "p17",
+          "key": "sort",
+          "title": "Sort",
+          "mode": "work",
+          "childTask": "Pour your leaves out. Sort them: big and small, smooth and rough, then by colour.",
+          "durationMin": 4,
+          "blocks": [
+            {
+              "nid": "b19",
+              "type": "say-aloud",
+              "text": "Pour your leaves out. Big ones here, small ones there."
+            },
+            {
+              "nid": "b20",
+              "type": "say-aloud",
+              "text": "Now by touch: smooth on one side, rough and crackly on the other."
+            },
+            {
+              "nid": "b21",
+              "type": "say-aloud",
+              "text": "Last one: line up the colours, green to yellow to orange to brown."
+            },
+            {
+              "nid": "b22",
+              "type": "teacher-note",
+              "text": "The colour line is a timeline. Green fell this week, brown fell long ago."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t18",
+              "when": "A leaf fits no team",
+              "then": "That is a find. Give it its own spot and ask what team it needs."
+            }
+          ],
+          "authorNotes": "Sorting can move to an available indoor table while coats drip. Keep the four minutes and the sequence of size, touch and colour. Let the children notice how the wet leaves look and feel rather than promise a colour effect before they have looked. The timeline line is source teaching text; a weather change is not a reason to rewrite the teaching objective."
+        },
+        {
+          "nid": "p23",
+          "key": "create",
+          "title": "Create",
+          "mode": "work",
+          "childTask": "Cut out your mask. Choose an animal. Stick leaves on to make its face.",
+          "durationMin": 12,
+          "blocks": [
+            {
+              "nid": "b26",
+              "type": "say-aloud",
+              "text": "Which animal are you going to be?"
+            },
+            {
+              "nid": "b27",
+              "type": "demo",
+              "move": "Cut and stick",
+              "steps": [
+                {
+                  "text": "Cut out the mask, following the lines."
+                },
+                {
+                  "text": "Choose your animal."
+                },
+                {
+                  "text": "Stick leaves on for fur, feathers, ears and whiskers."
+                }
+              ],
+              "look": "Hold it up. Who is it?",
+              "materials": [
+                "mask template",
+                "scissors",
+                "glue stick",
+                "leaves"
+              ]
+            },
+            {
+              "nid": "b28",
+              "type": "say-aloud",
+              "text": "Look at your teams. Which leaves make the ears? Which make the fur?"
+            },
+            {
+              "nid": "b29",
+              "type": "teacher-note",
+              "text": "Keep the animal photos on display. Make suggestions, then give them time to be creative."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t24",
+              "when": "A child cannot choose an animal",
+              "then": "Point at the photos: fox, owl, hedgehog, robin. Pick one. The mask can change its mind later."
+            },
+            {
+              "nid": "t25",
+              "when": "Cutting is slow",
+              "then": "Cut the eye holes for them and let them do the outline."
+            }
+          ],
+          "pictures": {
+            "purpose": "how-to",
+            "items": [
+              {
+                "src": "/lesson-illustrations/animal-masks/cut.webp",
+                "alt": "Hands cutting around the rounded mask template",
+                "caption": "Cut out your mask"
+              },
+              {
+                "src": "/lesson-illustrations/animal-masks/decorate.webp",
+                "alt": "Hands arranging leaves around the mask, keeping the eye openings clear",
+                "caption": "Arrange your leaves, then glue"
+              }
+            ]
+          },
+          "authorNotes": "Cutting and gluing needs a dry work surface. In rain, use available cover or an indoor space the teacher has confirmed. Pat leaves dry before gluing. Keep the twelve minutes, the mask template, the kit and the choice of animal. Do not assume wet leaves will stick successfully without drying them."
+        },
+        {
+          "nid": "p30",
+          "key": "show-tell",
+          "title": "Show and tell",
+          "mode": "gather",
+          "durationMin": 8,
+          "stretch": "Older children add what their animal eats and who it hides from.",
+          "blocks": [
+            {
+              "nid": "b33",
+              "type": "say-aloud",
+              "text": "Put your mask on. I will go first."
+            },
+            {
+              "nid": "b34",
+              "type": "say-aloud",
+              "text": "I am a fox. I live in the city. I come out at night to hunt for food. In the day I hide and rest."
+            },
+            {
+              "nid": "b35",
+              "type": "teacher-note",
+              "text": "Help each child build a sentence like that one: I am, I live, I come out."
+            },
+            {
+              "nid": "b36",
+              "type": "say-aloud",
+              "text": "Now you. Who are you, and how did you make your mask?"
+            },
+            {
+              "nid": "b37",
+              "type": "teacher-note",
+              "text": "Give each child their turn. A shy one can say just the first line."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t31",
+              "when": "Thirty turns will not fit",
+              "then": "Pairs first, then five volunteers for the whole class."
+            },
+            {
+              "nid": "t32",
+              "when": "A child will not wear the mask",
+              "then": "Hold it up in front, like a puppet."
+            }
+          ],
+          "authorNotes": "Standing still and speaking in rain makes this part harder. Use confirmed cover or an available indoor space. Keep the eight minutes, the teacher going first, the first-person model sentence and every child having a chance to speak. Weather may change where they stand, not what this part is for."
+        },
+        {
+          "nid": "p38",
+          "key": "circle",
+          "title": "Circle time",
+          "mode": "gather",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "nid": "b39",
+              "type": "circle-question",
+              "text": "Did you enjoy making your masks?"
+            },
+            {
+              "nid": "b40",
+              "type": "circle-question",
+              "text": "What have you learnt today about different animals?"
+            },
+            {
+              "nid": "b41",
+              "type": "say-aloud",
+              "text": "Some animals come out at night, like the fox and the hedgehog. Some come out in the day, like the robin and the squirrel. Hold up your mask if your animal is a night animal."
+            },
+            {
+              "nid": "b42",
+              "type": "teacher-note",
+              "text": "Keep the masks. They can come out again whenever an animal turns up in a lesson."
+            },
+            {
+              "nid": "b43",
+              "type": "named-skill",
+              "skill": "telling a story"
+            }
+          ],
+          "authorNotes": "Keep the six minutes and both of the teacher’s circle questions. An available indoor space is fine. If they arrive wet, they can sit with the masks on the table rather than on their faces. No new rain explanation is needed in the questions."
+        }
+      ],
+      "childSheet": [
+        {
+          "nid": "b44",
+          "type": "sheet-title",
+          "title": "My animal mask",
+          "nameLine": "This mask was made by"
+        },
+        {
+          "nid": "b45",
+          "type": "collage-zone",
+          "hint": "Stick one spare leaf here."
+        },
+        {
+          "nid": "b46",
+          "type": "notice-line",
+          "prompt": "I am a"
+        },
+        {
+          "nid": "b47",
+          "type": "notice-line",
+          "prompt": "I come out in the day or at night:"
+        },
+        {
+          "nid": "b48",
+          "type": "parent-line",
+          "text": "For home: we made animal masks from leaves and told their stories. Ask me to be my animal."
+        }
+      ],
+      "standards": [
+        {
+          "system": "england",
+          "code": "Key stage 1 · Art and design",
+          "text": "to use a range of materials creatively to design and make products"
+        },
+        {
+          "system": "england",
+          "code": "Key stage 1 · Art and design",
+          "text": "to develop a wide range of art and design techniques in using colour, pattern, texture, line, shape, form and space"
+        },
+        {
+          "system": "england",
+          "code": "Year 1 · Seasonal changes",
+          "text": "observe changes across the 4 seasons"
+        },
+        {
+          "system": "england",
+          "code": "Years 1 to 6 · Spoken language",
+          "text": "give well-structured descriptions, explanations and narratives for different purposes, including for expressing feelings"
+        },
+        {
+          "system": "england",
+          "code": "Years 1 to 6 · Spoken language",
+          "text": "participate in discussions, presentations, performances, role play/improvisations and debates"
+        },
+        {
+          "system": "england",
+          "code": "Years 1 to 6 · Spoken language",
+          "text": "articulate and justify answers, arguments and opinions"
+        }
+      ],
+      "celebration": {
+        "headline": "You sorted the leaves, made an animal, and told its story",
+        "emoji": "🦊",
+        "keepsake": "Thirty masks, thirty stories."
+      },
+      "connectionToLast": "You found the seeds and tested how they travel. Now the leaves that fell become animals, and the animals tell their stories.",
+      "topicLine": "This lesson is about making an animal mask out of leaves and telling its story.",
+      "seasonNote": {
+        "teacher": "Fallen leaves are abundant and varied through autumn, and the ones on the ground are the raw material for the masks. Dry days give crisper, easier leaves; after rain they are softer and darker, which changes the look but not the lesson.",
+        "child": "Autumn leaves are on the ground in lots of shapes and colours. We are going to turn some of them into animal masks."
+      },
+      "doorQuestions": [
+        {
+          "question": "Which animal will you be today?",
+          "pictures": {
+            "purpose": "choose-from",
+            "items": [
+              {
+                "src": "/lesson-illustrations/animal-masks/fox.webp",
+                "alt": "Illustration of a fox",
+                "caption": "Fox"
+              },
+              {
+                "src": "/lesson-illustrations/animal-masks/hedgehog.webp",
+                "alt": "Illustration of a hedgehog",
+                "caption": "Hedgehog"
+              },
+              {
+                "src": "/lesson-illustrations/animal-masks/owl.webp",
+                "alt": "Illustration of an owl",
+                "caption": "Owl"
+              },
+              {
+                "src": "/lesson-illustrations/animal-masks/rabbit.webp",
+                "alt": "Illustration of a rabbit",
+                "caption": "Rabbit"
+              }
+            ]
+          }
+        }
+      ],
+      "authorNotes": "Rain changes where this class works, not the lesson: collect fallen leaves, sort them, make an animal mask and speak as that animal. Keep the current six parts in order and all forty minutes: introduce five, collect five, sort four, create twelve, show and tell eight, circle six. These notes describe an adaptation to rain at the planned teaching hour, not a claim that rain is forecast. A shorter collect loop means less distance, not fewer minutes. The class may work under cover or indoors only where the teacher has confirmed access; no note establishes that shelter, a tree, a dry wall or an indoor room exists here. If the context is missing, state the assumption for the teacher to resolve.\n\nThe composer may change where the class stands, how far the collect loop goes, the collect quantity, and wording that preserves the lesson. Keep the purpose, the six-part order, every phase minute, the kit, the fallen-leaves-only boundary, the first-person model sentence, both circle questions and the source citations. The weather does not change which animal a child chooses. Keep quantities consistent with making a mask and any worksheet. These are author intentions for the whole-day judge to consider alongside truth and safety; they are not a substitute for its judgment."
+    },
+    {
+      "id": "meet-your-tree",
+      "prompt": "Choosing a tree to visit all year.",
+      "doorQuestion": "Which tree here would you want to visit every month for a year?",
+      "title": "Meet your tree",
+      "topic": "Choosing and greeting the class's own tree",
+      "topicTags": [
+        "trees"
+      ],
+      "labels": [
+        "science"
+      ],
+      "validity": {
+        "universal": true
+      },
+      "objective": "Choose the class's own tree, greet it properly, and begin a friendship that can last all year",
+      "namedSkill": "greeting and returning",
+      "kit": [
+        "a length of wool or soft ribbon",
+        "hand wipes"
+      ],
+      "durationMin": 35,
+      "nodeSeq": 35,
+      "phases": [
+        {
+          "nid": "p1",
+          "key": "settle",
+          "title": "Settle",
+          "durationMin": 2,
+          "blocks": [
+            {
+              "nid": "b2",
+              "type": "say-aloud",
+              "text": "Be still with me for one breath. Today is a special one: we're going to choose a tree to be our class's own tree. Not just any tree. Ours. We'll visit it again and again, and watch what it does all year."
+            },
+            {
+              "nid": "b3",
+              "type": "conditions-line",
+              "fallbackText": "Notice today's weather on the way out; it becomes part of the story of the day we met our tree."
+            },
+            {
+              "nid": "b4",
+              "type": "teacher-note",
+              "text": "If your grounds have few trees, walk the candidates yourself beforehand and steer the choosing between two or three. The children still make the choice; you set the shortlist."
+            }
+          ]
+        },
+        {
+          "nid": "p5",
+          "key": "choose",
+          "title": "Choose",
+          "durationMin": 12,
+          "blocks": [
+            {
+              "nid": "b8",
+              "type": "say-aloud",
+              "text": "Let's visit the trees that live here and see which one wants to be ours. Stand under each one. Look up through its branches. Touch its coat. Which tree feels like it belongs to us, and we to it?",
+              "abilityVariants": {
+                "y2": "We're choosing carefully, like choosing a friend. Visit each tree and gather its clues: how it stands, what its coat feels like, what lives around its feet, what you can see through its branches. Then we'll choose together, and be able to say why."
+              }
+            },
+            {
+              "nid": "b9",
+              "type": "teacher-note",
+              "text": "Give each candidate tree a real visit: a minute standing under it, hands on bark, faces up. Then choose together at the last tree; a show of hands is fine, and a tie can be settled by which tree is easiest to visit often. The choosing matters more than the choice."
+            },
+            {
+              "nid": "b10",
+              "type": "conditions-line",
+              "fallbackText": "Today's sky is part of the choosing: watch how each tree meets it."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t6",
+              "when": "The class splits between two trees and won't settle",
+              "then": "Visit each finalist once more with a quiet minute under it, then vote with feet. The other tree stays a friend."
+            },
+            {
+              "nid": "t7",
+              "when": "A child campaigns for a tree far from the classroom",
+              "then": "Name what they love about it, then remind everyone what our tree needs: to live where we can visit it every week."
+            }
+          ]
+        },
+        {
+          "nid": "p11",
+          "key": "greet",
+          "title": "Greet",
+          "durationMin": 15,
+          "blocks": [
+            {
+              "nid": "b14",
+              "type": "say-aloud",
+              "text": "This is our tree now, so let's greet it properly. Make a ring around it and hold hands. Now come close and lay your hands on its coat. Look all the way up. Be quiet for one breath and listen to what our tree sounds like."
+            },
+            {
+              "nid": "b15",
+              "type": "demo",
+              "move": "The wool ring",
+              "steps": [
+                {
+                  "text": "Wrap the wool once around the trunk, together."
+                },
+                {
+                  "text": "Tie it loose and low, like a scarf."
+                }
+              ],
+              "materials": [
+                "a length of wool or soft ribbon"
+              ]
+            },
+            {
+              "nid": "b16",
+              "type": "say-aloud",
+              "text": "It says: this tree is known."
+            },
+            {
+              "nid": "b17",
+              "type": "say-aloud",
+              "text": "Every friend has a name. What shall we call our tree? Say your ideas out loud, and let's listen for the name that fits.",
+              "abilityVariants": {
+                "reception": "Our tree needs a name, like a friend. What shall we call it? Say your idea out loud."
+              }
+            },
+            {
+              "nid": "b18",
+              "type": "teacher-note",
+              "text": "Tie the wool loosely; it must never bite the bark, and take it home at the end of the year. Write the chosen name down where the class can see it back inside. From now on, use the name: not \"the tree\", but theirs."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t12",
+              "when": "The ring won't hold hands or won't hold still",
+              "then": "Shrink the job: everyone's hand flat on the trunk at once counts as the ring."
+            },
+            {
+              "nid": "t13",
+              "when": "Name ideas get sillier and sillier",
+              "then": "Let the silly ones land and keep them all; then read the list back slowly under the tree and listen for the one that fits."
+            }
+          ],
+          "conditionVariants": [
+            {
+              "nid": "v19",
+              "when": "wet",
+              "phase": {
+                "nid": "p20",
+                "key": "greet-wet",
+                "title": "Greet (wet day)",
+                "durationMin": 15,
+                "blocks": [
+                  {
+                    "nid": "b21",
+                    "type": "say-aloud",
+                    "text": "Our tree doesn't mind the rain; it drinks it. Come under its branches and feel how it shelters us. Is it drier here, under our tree? Listen to the rain landing on its leaves above us."
+                  },
+                  {
+                    "nid": "b22",
+                    "type": "demo",
+                    "move": "The shelter test",
+                    "steps": [
+                      {
+                        "text": "Hold out one open palm inside the canopy.",
+                        "mark": "m-canopy"
+                      },
+                      {
+                        "text": "One breath later, step out and hold it in the open.",
+                        "mark": "m-open"
+                      }
+                    ],
+                    "look": "Compare the two palms.",
+                    "materials": []
+                  },
+                  {
+                    "nid": "b23",
+                    "type": "say-aloud",
+                    "text": "The difference is the tree's roof."
+                  },
+                  {
+                    "nid": "b35",
+                    "type": "teacher-note",
+                    "text": "Tie the wool loosely; it must never bite the bark, and take it home at the end of the year. Write the chosen name down where the class can see it back inside. From now on, use the name: not \"the tree\", but theirs."
+                  },
+                  {
+                    "nid": "b24",
+                    "type": "teacher-note",
+                    "text": "A wet greeting is often the most memorable one: the tree does something for the class on day one. Keep the naming; it can happen under the canopy with rain around. Tie the wool as usual, and head in a little early if hands are cold."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "nid": "p25",
+          "key": "circle",
+          "title": "Circle",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "nid": "b26",
+              "type": "say-aloud",
+              "text": "Circle up where we can still see our tree."
+            },
+            {
+              "nid": "b27",
+              "type": "circle-question",
+              "text": "How will you know our tree next time you see it? Tell us one clue you'll use, so you could find it even in the dark of winter."
+            },
+            {
+              "nid": "b28",
+              "type": "named-skill",
+              "skill": "greeting and returning"
+            },
+            {
+              "nid": "b29",
+              "type": "teacher-note",
+              "text": "Close with the promise of return: \"We'll visit again and see what our tree has been doing.\" The friendship is the point; every later session can begin or end with a one-minute hello to the class tree."
+            }
+          ]
+        }
+      ],
+      "standards": [
+        {
+          "system": "england",
+          "code": "Year 1 · Plants",
+          "text": "identify and name a variety of common wild and garden plants, including deciduous and evergreen trees"
+        },
+        {
+          "system": "england",
+          "code": "Year 1 · Plants",
+          "text": "identify and describe the basic structure of a variety of common flowering plants, including trees"
+        }
+      ],
+      "childSheet": [
+        {
+          "nid": "b30",
+          "type": "sheet-title",
+          "title": "Our tree",
+          "nameLine": "This picture of our tree was drawn by"
+        },
+        {
+          "nid": "b31",
+          "type": "collage-zone",
+          "hint": "Draw our tree here, just the way you saw it today: its coat, its branches, its wool scarf."
+        },
+        {
+          "nid": "b32",
+          "type": "match-strip",
+          "prompt": "How will you know our tree again? Tick the clues you'll use:",
+          "cards": [
+            {
+              "name": "its coat",
+              "clue": "the feel and pattern of its bark"
+            },
+            {
+              "name": "its shape",
+              "clue": "the way it stands and holds its branches"
+            },
+            {
+              "name": "its place",
+              "clue": "what it lives next to"
+            }
+          ]
+        },
+        {
+          "nid": "b33",
+          "type": "notice-line",
+          "prompt": "Our tree's name, and who it was chosen by:"
+        },
+        {
+          "nid": "b34",
+          "type": "parent-line",
+          "text": "For home: our class chose our own tree today and gave it a name. Ask me its name and how I'll know it when I see it."
+        }
+      ],
+      "connectionToLast": "You have met the trees by leaf, by bark and by seed. Now choose one to be the class's own, greet it properly, and begin a friendship that can last all year.",
+      "primer": {
+        "summary": "This session turns getting to know trees into a lasting friendship. The class visits the trees in their grounds, stands under each one, looks up through its branches and touches its coat, then chooses together the tree that will be their own. They greet it: a ring of held hands around the trunk, flat hands on the bark, one quiet breath of listening, and they give it a name. A loose loop of wool, tied like a scarf, marks the tree as known. From now on, the class visits their tree again and again and watches what it does all year.",
+        "why": "A named, chosen tree gives a class a single living thing to return to across the whole year, and returning is where real nature connection grows. Watching one tree bud, leaf, fruit and fall teaches the seasons more deeply than any single lesson can. The choosing, the greeting and the naming make the tree theirs, and a tree you have named and greeted is a tree you notice and care for. The friendship is the point.",
+        "glossary": [
+          {
+            "term": "Greeting",
+            "definition": "A friendly way of saying hello and showing you have noticed and welcomed someone, or something.",
+            "forChildren": "A greeting is how you say a proper hello. We greet our tree with a ring of hands, a quiet breath, and its very own name."
+          },
+          {
+            "term": "Species",
+            "definition": "A particular kind of living thing. An oak is one species of tree, a birch is another.",
+            "forChildren": "A species is a kind of thing. An oak is one kind of tree, a birch is another kind. Our class tree is its own special kind, and now it is ours."
+          },
+          {
+            "term": "Canopy",
+            "definition": "The leafy top of a tree, made of all its branches and leaves spread out overhead.",
+            "forChildren": "The canopy is the leafy roof of a tree, high above your head. Stand under your tree and look up through the canopy to see the sky through the leaves."
+          },
+          {
+            "term": "Returning",
+            "definition": "Coming back to the same place again and again to see how it has changed over time.",
+            "forChildren": "Returning means coming back to visit our tree over and over. Each time we return, we see what it has been doing, growing, changing, resting. That is how we stay friends."
+          }
+        ],
+        "childFriendlyExamples": [
+          "Stand under each tree and look up through its branches. Touch its coat. Which tree feels like it belongs to us, and we to it? That is the one to choose together.",
+          "Make a ring around our tree and hold hands. Come close, lay your hands on its coat, look all the way up, and be quiet for one breath to hear what our tree sounds like.",
+          "Every friend has a name. Say your ideas out loud, and listen for the name that fits. From now on it is not the tree, it is ours, and we will visit it all year."
+        ]
+      },
+      "topicLine": "Our lesson today is about choosing one tree to be our class tree all year.",
+      "seasonNote": {
+        "teacher": "A tree met in autumn is a tree about to change: over the coming weeks it drops its leaves and shows its shape, and visits through the year see it bare, then budding, then in full leaf. Starting the friendship now gives the class the whole cycle to watch.",
+        "child": "Trees change with the seasons. We are going to choose one tree to visit all year and see what it does."
+      }
+    },
+    {
+      "id": "nature-recycling-system",
+      "sheetTemplate": "leaf-sequence",
+      "prompt": "What happens to a leaf after it falls?",
+      "title": "Nature recycling system",
+      "topic": "Autumn, what happens to a fallen leaf, and the creatures that break it down",
+      "topicTags": [
+        "soil",
+        "seasons",
+        "minibeasts"
+      ],
+      "primaryTopic": "soil",
+      "labels": [
+        "sustainability",
+        "science"
+      ],
+      "validity": {
+        "requiresSeason": [
+          "autumn"
+        ],
+        "requiresDriver": [
+          "deciduous-leaf-fall"
+        ]
+      },
+      "objective": "Observe seasonal changes in plants, and explore what happens to fallen leaves as they decompose and how nutrients are returned to the soil",
+      "childWorkSummary": "Children talk about what tells them it is autumn and what decompose means, then go out to find fallen leaves at different stages of breaking down, line up five from just fallen to most decomposed, and search close by for the worms, insects and fungi doing the work.",
+      "namedSkill": "looking closely",
+      "kit": [
+        "hand lenses or a magnifying glass, if you have them",
+        "hand wipes"
+      ],
+      "durationMin": 40,
+      "spaceNeeded": "Ground with fallen leaves, and somewhere damp to look under them: a hedge bottom, a log, the base of a wall",
+      "settle": true,
+      "conditionNotes": [
+        {
+          "when": [
+            "wet"
+          ],
+          "teacher": "Expect a busy hunt today: the decomposers come up close to the surface, so the first leaves you lift will have company.",
+          "child": "The rain has brought the small creatures up near the top, so the first leaves we lift will have company."
+        }
+      ],
+      "primer": {
+        "summary": "What happens to a leaf after it falls. Indoors first, children say what tells them it is autumn, then meet the word decompose: after a leaf falls it slowly breaks down, with help from friendly garden creatures. Outside they find leaves at different stages of breaking down and line up five, from just fallen to most decomposed. Then they search close by for the worms, insects and fungi doing the work, and hear the idea that carries the lesson: in nature, nothing is wasted.",
+        "why": "Where does a fallen leaf go is a question a five-year-old can investigate to the end, on the ground under their own feet. The answer, that small living things break the leaf down and the goodness goes back into the soil for new plants, is the start of understanding how nature recycles. For the teacher: decomposers (fungi and bacteria) and detritivores (worms, woodlice, centipedes) work together to break down dead material. Detritivores shred it into smaller pieces, and decomposers break it down further. This releases nutrients like nitrogen back into the soil, which growing plants take in through their roots. It is a continuous nutrient cycle, not waste.",
+        "glossary": [
+          {
+            "term": "decompose",
+            "definition": "To slowly break down into simpler material, with the help of living things.",
+            "forChildren": "When something dead slowly breaks into tiny pieces, with help from small creatures."
+          },
+          {
+            "term": "decomposer",
+            "definition": "A living thing that feeds on dead material and breaks it down: fungi and bacteria.",
+            "forChildren": "The tiny rotters that finish a leaf off. Fungi are on the team."
+          },
+          {
+            "term": "detritivore",
+            "definition": "A creature that eats dead material and shreds it into smaller pieces: worms, woodlice, centipedes.",
+            "forChildren": "The shredders. Worms and woodlice chew a leaf into little bits."
+          },
+          {
+            "term": "nutrients",
+            "definition": "The goodness in soil that plants take in through their roots to grow.",
+            "forChildren": "The food in the soil that plants drink up through their roots."
+          }
+        ],
+        "childFriendlyExamples": [
+          "In nature, nothing is wasted. A fallen leaf becomes food for the soil.",
+          "A worm is not yucky. A worm is helping the leaf turn back into soil."
+        ]
+      },
+      "nodeSeq": 36,
+      "phases": [
+        {
+          "nid": "p1",
+          "key": "introduce",
+          "title": "Introduce",
+          "mode": "present",
+          "durationMin": 10,
+          "blocks": [
+            {
+              "nid": "b3",
+              "type": "say-aloud",
+              "text": "What season is it right now?"
+            },
+            {
+              "nid": "b4",
+              "type": "say-aloud",
+              "text": "How do you know it is autumn?"
+            },
+            {
+              "nid": "b5",
+              "type": "teacher-note",
+              "text": "No wrong answers. If nobody says the trees, point at one."
+            },
+            {
+              "nid": "b6",
+              "type": "conditions-line",
+              "fallbackText": "Look at the ground under the nearest tree together: is it bare, or already covered in leaves?"
+            },
+            {
+              "nid": "b7",
+              "type": "say-aloud",
+              "text": "What happens to a leaf after it falls off a tree?"
+            },
+            {
+              "nid": "b8",
+              "type": "say-aloud",
+              "text": "Do you know what the word decompose means?"
+            },
+            {
+              "nid": "b9",
+              "type": "teacher-note",
+              "text": "Keep it simple: after a leaf falls it slowly breaks down, with help from some friendly garden creatures. Worms, woodlice, centipedes."
+            },
+            {
+              "nid": "b10",
+              "type": "say-aloud",
+              "text": "How do you think bugs help a leaf break down?"
+            },
+            {
+              "nid": "b11",
+              "type": "teacher-note",
+              "text": "They eat parts of the leaf."
+            },
+            {
+              "nid": "b12",
+              "type": "say-aloud",
+              "text": "Where do you think the leaf goes once it is all broken down?"
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t2",
+              "when": "The answers stop at brown leaves and cold",
+              "then": "Ask what the trees looked like in summer. The difference is the answer."
+            }
+          ]
+        },
+        {
+          "nid": "p13",
+          "key": "explore",
+          "title": "Explore",
+          "mode": "work",
+          "childTask": "Find fallen leaves at different stages of decomposition. Sort five of them into an order, from just fallen to most decomposed.",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b16",
+              "type": "say-aloud",
+              "text": "Can you find leaves in different stages of decomposition?"
+            },
+            {
+              "nid": "b17",
+              "type": "say-aloud",
+              "text": "Sort five leaves you have found into an order, from just fallen to most decomposed."
+            },
+            {
+              "nid": "b18",
+              "type": "demo",
+              "move": "The leaf line-up",
+              "steps": [
+                {
+                  "text": "Lay your five leaves in a row on the ground."
+                },
+                {
+                  "text": "Just fallen at one end. Most decomposed at the other."
+                },
+                {
+                  "text": "Move them until the row tells the story."
+                }
+              ],
+              "look": "Which leaf has been on the ground the longest?",
+              "materials": [
+                "five fallen leaves"
+              ]
+            },
+            {
+              "nid": "b19",
+              "type": "teacher-note",
+              "text": "Leaves from the ground only. The oldest ones are under the fresh ones, and under hedges and along walls."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t14",
+              "when": "Every leaf they bring is fresh and whole",
+              "then": "Send them to the bottom of a hedge or the base of a wall, where last year's leaves are still lying."
+            },
+            {
+              "nid": "t15",
+              "when": "A leaf is only a skeleton of veins",
+              "then": "That is a find. It goes at the far end of the row, and ask what happened to the rest of it."
+            }
+          ]
+        },
+        {
+          "nid": "p20",
+          "key": "investigate",
+          "title": "Investigate",
+          "mode": "work",
+          "childTask": "Search for signs of decomposition: worms, insects and fungi close to the leaves.",
+          "durationMin": 12,
+          "blocks": [
+            {
+              "nid": "b23",
+              "type": "say-aloud",
+              "text": "Search for signs of decomposition."
+            },
+            {
+              "nid": "b24",
+              "type": "say-aloud",
+              "text": "Can you find worms, insects or fungi close by?"
+            },
+            {
+              "nid": "b25",
+              "type": "teacher-note",
+              "text": "Urge them to take a closer look: under the leaves, in the soil, along the edge of a log. Lift a leaf like a lid and lower it back the same way."
+            },
+            {
+              "nid": "b26",
+              "type": "say-aloud",
+              "text": "In nature, nothing is wasted. Fallen leaves break down and return nutrients to the soil, helping new plants grow."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t21",
+              "when": "Someone wants to pick up a worm",
+              "then": "Look, do not lift. The worm is at work, and it stays where it was found."
+            },
+            {
+              "nid": "t22",
+              "when": "Someone is scared of the creatures",
+              "then": "Give them the spotting job from standing height: how many helpers can you see from up there?"
+            }
+          ]
+        },
+        {
+          "nid": "p27",
+          "key": "circle",
+          "title": "Circle time",
+          "mode": "gather",
+          "durationMin": 10,
+          "blocks": [
+            {
+              "nid": "b28",
+              "type": "circle-question",
+              "text": "What did you discover today?"
+            },
+            {
+              "nid": "b29",
+              "type": "teacher-note",
+              "text": "Introduce the idea of nature's recycling system: the leaf falls, the creatures break it down, the soil gets the goodness, a new plant grows."
+            },
+            {
+              "nid": "b30",
+              "type": "circle-question",
+              "text": "How can we help nature, by composting and leaving leaves to break down?"
+            },
+            {
+              "nid": "b31",
+              "type": "say-aloud",
+              "text": "The shredders and the rotters work as a team. Worms and woodlice chew the leaf into bits, fungi finish the job, and the goodness goes back into the soil."
+            },
+            {
+              "nid": "b32",
+              "type": "named-skill",
+              "skill": "looking closely"
+            }
+          ]
+        }
+      ],
+      "childSheet": [
+        {
+          "nid": "b33",
+          "type": "sheet-title",
+          "title": "Nature recycling system",
+          "nameLine": "These leaves were found by"
+        },
+        {
+          "nid": "b34",
+          "type": "collage-zone",
+          "hint": "Stick your most decomposed leaf here, or draw it."
+        },
+        {
+          "nid": "b35",
+          "type": "notice-line",
+          "prompt": "Something I found helping a leaf break down:"
+        },
+        {
+          "nid": "b36",
+          "type": "parent-line",
+          "text": "For home: we found out what happens to a leaf after it falls. Ask me who helps it break down."
+        }
+      ],
+      "standards": [
+        {
+          "system": "england",
+          "code": "Year 1 · Seasonal changes",
+          "text": "observe changes across the 4 seasons"
+        },
+        {
+          "system": "england",
+          "code": "Year 2 · Living things and their habitats",
+          "text": "explore and compare the differences between things that are living, dead, and things that have never been alive"
+        },
+        {
+          "system": "england",
+          "code": "Year 4 · Living things and their habitats",
+          "text": "recognise that environments can change and that this can sometimes pose dangers to living things"
+        },
+        {
+          "system": "england",
+          "code": "Key stage 1 · Working scientifically",
+          "text": "observing closely, using simple equipment"
+        },
+        {
+          "system": "england",
+          "code": "Key stage 1 · Working scientifically",
+          "text": "using their observations and ideas to suggest answers to questions"
+        },
+        {
+          "system": "england",
+          "code": "Years 3 and 4 · Working scientifically",
+          "text": "making systematic and careful observations and, where appropriate, taking accurate measurements using standard units, using a range of equipment, including thermometers and data loggers"
+        }
+      ],
+      "celebration": {
+        "headline": "You found out where the fallen leaves go",
+        "emoji": "🍂",
+        "keepsake": "Five leaves in a row, from just fallen to nearly soil."
+      },
+      "connectionToLast": "You turned fallen leaves into animal masks. Now follow the leaves that stayed on the ground: where do they go?",
+      "topicLine": "In this lesson we find out what happens to a leaf after it falls to the ground.",
+      "seasonNote": {
+        "teacher": "Fallen leaves are at every stage at once through autumn, from just down to nearly soil, and the worms, insects and fungi that break them down are most active while the ground is still mild and damp. Early in the term the fresh end of the line is easy to find; later, the decayed end is.",
+        "child": "Leaves are falling, and the ground is turning them back into soil. We are going to find leaves at every stage of breaking down."
+      }
+    },
+    {
+      "id": "conker-acorn-maths-trail",
+      "sheetTemplate": "maths-record",
+      "prompt": "Which is easier to find, conkers or acorns?",
+      "title": "Conker and acorn maths trail",
+      "topic": "Conkers and acorns, the trees they fall from, and collecting, sorting, counting and comparing them",
+      "topicTags": [
+        "trees",
+        "seasons"
+      ],
+      "primaryTopic": "trees",
+      "labels": [
+        "maths",
+        "science"
+      ],
+      "validity": {
+        "requiresSeason": [
+          "autumn"
+        ],
+        "requiresDriver": [
+          "seed-dispersal"
+        ],
+        "requiresCountry": [
+          "GB"
+        ]
+      },
+      "objective": "Collect, sort, count and compare conkers and acorns as a hands-on measuring and data activity",
+      "childWorkSummary": "Children talk about which tree a conker and an acorn come from, then go out in pairs to collect fallen ones, sort them into two groups and then by size, measure the biggest and smallest across the middle, count each kind, and total the class finds in one tally chart.",
+      "namedSkill": "sorting and comparing",
+      "kit": [
+        "collection bags or pots, one per pair",
+        "a ruler or a piece of string for measuring",
+        "chalk or hoops for sorting circles, if you have them"
+      ],
+      "durationMin": 40,
+      "preparation": "Check the day before that there are conkers or acorns on the ground. Bring one of each to show indoors if you can.",
+      "materialFallback": "No horse chestnut or oak within reach: sort and count any two kinds of fallen seed you can find, sycamore keys and beech nuts for instance. The maths is the same.",
+      "spaceNeeded": "Ground under a horse chestnut or an oak, with conkers or acorns already fallen",
+      "settle": true,
+      "primer": {
+        "summary": "Children collect conkers and acorns from the school grounds, then sort, count and compare them using simple maths skills. Introduce indoors, collect and sort outside, then a circle to total everyone's finds in one class tally chart.",
+        "why": "Conkers come from horse chestnut trees, and acorns come from oak trees: a simple, useful fact if children ask which tree their seed came from. Both are seeds that mainly fall straight down or roll, rather than being carried by the wind, which is why they are often found in dense clusters under a single tree. A nice discussion point after the maths.",
+        "glossary": [
+          {
+            "term": "conker",
+            "definition": "The seed of the horse chestnut tree, shiny and brown, inside a green spiky case.",
+            "forChildren": "A conker comes from a horse chestnut tree."
+          },
+          {
+            "term": "acorn",
+            "definition": "The seed of the oak tree, sitting in its own little cup.",
+            "forChildren": "An acorn comes from an oak tree."
+          },
+          {
+            "term": "tally chart",
+            "definition": "A way of counting by making a mark for each one, in groups of five.",
+            "forChildren": "Counting with lines: four lines, then a gate across them makes five."
+          }
+        ],
+        "childFriendlyExamples": [
+          "Every conker on the ground fell from the tree above it.",
+          "Two piles, then the biggest and the smallest, then count them all."
+        ]
+      },
+      "nodeSeq": 34,
+      "phases": [
+        {
+          "nid": "p1",
+          "key": "introduce",
+          "title": "Introduce",
+          "mode": "present",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "nid": "b3",
+              "type": "say-aloud",
+              "text": "Do you know the difference between a conker and an acorn?"
+            },
+            {
+              "nid": "b4",
+              "type": "say-aloud",
+              "text": "Which tree do you think a conker comes from? What about an acorn?"
+            },
+            {
+              "nid": "b5",
+              "type": "teacher-note",
+              "text": "Conkers come from horse chestnut trees. Acorns come from oak trees. Pass one of each round if you have them."
+            },
+            {
+              "nid": "b6",
+              "type": "say-aloud",
+              "text": "Today we are going on a trail to find, sort and measure them."
+            },
+            {
+              "nid": "b7",
+              "type": "conditions-line",
+              "fallbackText": "Look at the ground under the nearest big tree together: is anything lying there that fell from it?"
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t2",
+              "when": "Nobody has heard of a conker",
+              "then": "Pass one round. Shiny, brown, heavy in the hand. The name arrives with the object."
+            }
+          ]
+        },
+        {
+          "nid": "p8",
+          "key": "collect",
+          "title": "Collect",
+          "mode": "work",
+          "childTask": "In pairs, collect fallen conkers and acorns in your bag or pot.",
+          "durationMin": 10,
+          "blocks": [
+            {
+              "nid": "b12",
+              "type": "teacher-note",
+              "text": "Search for conkers and acorns already on the ground. Nothing picked from the trees."
+            },
+            {
+              "nid": "b13",
+              "type": "say-aloud",
+              "text": "In pairs, collect conkers and acorns from the ground. As many as you can find."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t9",
+              "when": "A pair finds only acorns",
+              "then": "That is a result. Ask why this tree gave them acorns and no conkers."
+            },
+            {
+              "nid": "t10",
+              "when": "Conkers are still in their spiky cases",
+              "then": "Cases are opened by adult hands. Inside is the conker, sometimes two."
+            },
+            {
+              "nid": "t11",
+              "when": "It has rained",
+              "then": "Wet conkers are slippery and shine. Dry hands on a sleeve before measuring."
+            }
+          ]
+        },
+        {
+          "nid": "p14",
+          "key": "sort-measure",
+          "title": "Sort and measure",
+          "mode": "work",
+          "childTask": "Sort your collection into conkers and acorns, then by size. Measure your biggest and smallest across the middle.",
+          "durationMin": 10,
+          "blocks": [
+            {
+              "nid": "b16",
+              "type": "say-aloud",
+              "text": "In pairs, sort your collection into two groups: conkers and acorns."
+            },
+            {
+              "nid": "b17",
+              "type": "say-aloud",
+              "text": "Now sort them again by size, smallest to largest."
+            },
+            {
+              "nid": "b18",
+              "type": "teacher-note",
+              "text": "Chalk two circles on the ground, or lay out two hoops, if sorting on the ground helps."
+            },
+            {
+              "nid": "b19",
+              "type": "demo",
+              "move": "Measure across the middle",
+              "steps": [
+                {
+                  "text": "Find your biggest conker and your smallest."
+                },
+                {
+                  "text": "Lay the ruler or the string across the middle of each one."
+                },
+                {
+                  "text": "Say how much bigger the big one is."
+                }
+              ],
+              "look": "Is your biggest acorn bigger than your smallest conker?",
+              "materials": [
+                "a ruler or a piece of string",
+                "your conkers and acorns"
+              ]
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t15",
+              "when": "The two piles are the same size",
+              "then": "Ask which pile would win if the biggest of each had a race down a slope, then measure to check."
+            }
+          ]
+        },
+        {
+          "nid": "p20",
+          "key": "count",
+          "title": "Count",
+          "mode": "work",
+          "childTask": "Count how many of each kind you found. Keep your two numbers for the class total.",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "nid": "b22",
+              "type": "say-aloud",
+              "text": "Count how many of each kind you found. Keep your two numbers ready for the class total."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t21",
+              "when": "Counting runs past twenty",
+              "then": "Count in fives with a tally: four lines and a gate."
+            }
+          ]
+        },
+        {
+          "nid": "p23",
+          "key": "circle",
+          "title": "Circle time",
+          "mode": "gather",
+          "durationMin": 10,
+          "blocks": [
+            {
+              "nid": "b24",
+              "type": "say-aloud",
+              "text": "Let us put all our numbers together. Tell me your conkers first, then your acorns."
+            },
+            {
+              "nid": "b25",
+              "type": "teacher-note",
+              "text": "Combine everyone's totals on the board into one big class tally chart."
+            },
+            {
+              "nid": "b26",
+              "type": "circle-question",
+              "text": "Which was easier to find, conkers or acorns? Why do you think that is?"
+            },
+            {
+              "nid": "b27",
+              "type": "circle-question",
+              "text": "What could you use a conker or an acorn for?"
+            },
+            {
+              "nid": "b28",
+              "type": "teacher-note",
+              "text": "Conkers and acorns fall straight down and roll, so they gather under their own tree. That is why one tree gives so many."
+            },
+            {
+              "nid": "b29",
+              "type": "named-skill",
+              "skill": "sorting and comparing"
+            }
+          ]
+        }
+      ],
+      "childSheet": [
+        {
+          "nid": "b30",
+          "type": "sheet-title",
+          "title": "Conker and acorn maths trail",
+          "nameLine": "These were counted by"
+        },
+        {
+          "nid": "b31",
+          "type": "collage-zone",
+          "hint": "Draw your biggest conker and your smallest acorn, side by side."
+        },
+        {
+          "nid": "b32",
+          "type": "notice-line",
+          "prompt": "How many conkers we found:"
+        },
+        {
+          "nid": "b33",
+          "type": "notice-line",
+          "prompt": "How many acorns we found:"
+        },
+        {
+          "nid": "b34",
+          "type": "parent-line",
+          "text": "For home: we collected conkers and acorns, sorted them by size and counted them in a class tally. Ask me which was easier to find."
+        }
+      ],
+      "standards": [
+        {
+          "system": "england",
+          "code": "Year 2 · Statistics",
+          "text": "interpret and construct simple pictograms, tally charts, block diagrams and tables"
+        },
+        {
+          "system": "england",
+          "code": "Year 2 · Measurement",
+          "text": "compare and order lengths, mass, volume/capacity and record the results using >, < and ="
+        },
+        {
+          "system": "england",
+          "code": "Year 1 · Plants",
+          "text": "identify and name a variety of common wild and garden plants, including deciduous and evergreen trees"
+        },
+        {
+          "system": "england",
+          "code": "Key stage 1 · Working scientifically",
+          "text": "gathering and recording data to help in answering questions"
+        }
+      ],
+      "celebration": {
+        "headline": "You collected, sorted and counted a whole tree's worth of seeds",
+        "emoji": "🌰",
+        "keepsake": "Two piles, one tally chart, and the biggest conker of the day."
+      },
+      "connectionToLast": "You followed the fallen leaves into the soil. Now the trees drop something heavier: conkers and acorns, ready to be sorted and counted.",
+      "conditionNotes": [
+        {
+          "when": [
+            "windy"
+          ],
+          "teacher": "A windy night brings conkers and acorns down, so the ground under the trees is at its fullest today.",
+          "child": "The wind has been shaking the trees, so there are more conkers and acorns on the ground today."
+        }
+      ],
+      "topicLine": "Today is about conkers and acorns: finding them, sorting them and counting them.",
+      "seasonNote": {
+        "teacher": "Conkers and acorns drop from late September into October, and the ground under a horse chestnut or an oak is thickest after a windy night. Early in the term many cases are still closed; by half term most have fallen and the squirrels are working through them.",
+        "child": "Autumn is when the conkers and acorns drop. We are going to find them, sort them and count them."
+      }
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "$note": [
+    "#549 · What a shared prompt fragment must still SAY after an edit.",
+    "",
+    "prompts/lockfile.json pins what the text IS: it notices any byte change and",
+    "makes you bump a version. It cannot notice that the text stopped doing its",
+    "job. On 2026-08-26 the age-positioning sweep (#538, first head) rewrote the",
+    "house voice's register anchor into a sentence pointing at a class that",
+    "nature-grounding-line is never told, and the lockfile was perfectly in step",
+    "with the damage.",
+    "",
+    "So: a fragment reached by more than one prompt declares the promises it",
+    "makes to all of them, and validate-prompts.mjs checks each promise against",
+    "the fragment itself, naming every prompt that inherits it. Checking the",
+    "COMPOSED text instead was tried first and is strictly weaker — with the",
+    "register anchor cut out, nature-grounding-line stayed green on \"use the",
+    "general words a child knows\", a line about naming species, and that is the",
+    "one prompt the anchor matters most to.",
+    "",
+    "Each promise is written as a SHAPE, not a sentence. `anyOf` holds",
+    "alternative regexes for the same contract, and every one of them requires",
+    "two things to sit inside one sentence rather than requiring particular",
+    "words. That is the whole design tension: a literal substring assert would",
+    "go red on any honest rewording, and a single-keyword assert would be",
+    "satisfied by leaving the keyword in a sentence that no longer says",
+    "anything. A within-sentence binding of two required ideas survives rewording",
+    "and cannot be satisfied by a leftover word.",
+    "",
+    "Adding a promise here is cheap and permanent. Deleting one should be a",
+    "paragraph in a PR body, not a line in a diff."
+  ],
+  "fragments": {
+    "house-rules": [
+      {
+        "name": "register-anchor",
+        "why": "The house voice is the only thing telling the model what language level to write at. nature-grounding-line's own output is read ALOUD to children, and it inherits its whole register from this paragraph — it has no age band of its own to fall back on. An edit that drops the anchor leaves the model to pick a register from the rest of the prompt, which is written for adults.",
+        "shape": "a register word bound, inside one sentence, to the audience that register is for",
+        "$words": [
+          "#608 · which words count as naming a register, and which were refused.",
+          "",
+          "ADDED. `level` — \"write at a level a Reception child can follow\" is an",
+          "honest anchor with no other register word in it, and the contract",
+          "rejected it. `pitch`, but only in its verb frame (`pitch it at`,",
+          "`pitch for`), because that frame is the one that means \"set the level",
+          "of\"; the bare noun means vocal frequency.",
+          "",
+          "REFUSED, and measured rather than argued. `tone` is warmth, not",
+          "vocabulary level. The experiment that settles it is REPLACEMENT, not",
+          "deletion: deleting the anchor stays red either way, because the",
+          "surviving \"warmly\" is not the token `tone`. But rewrite the anchor",
+          "as \"in a warm tone the children in front of you will like\" and the",
+          "fragment is red today and green with `tone` admitted — an edit that",
+          "swapped a register for a mood would ship. \"Keep a warm tone with the",
+          "children\" is the same shape and is pinned red. `grade` is a mark in",
+          "British English, and",
+          "the American reading sense only works in \"grade level\", which `level`",
+          "now covers: admitting it would pass \"grade the children's work",
+          "kindly\". Bare `pitch` would pass \"never speak to the children in a",
+          "high pitch\". All three are the leftover-keyword failure this contract",
+          "exists to refuse."
+        ],
+        "anyOf": [
+          "\\b(register|language|vocabulary|wording|words|reading age|level|pitch(?:ed|ing)?\\s+(?:it\\s+|them\\s+|this\\s+)?(?:at|for|to))\\b[^.!?\\n]{0,40}?\\b(child|children|class|classes|pupil|pupils|infants?|[a-z]+-year-olds?|year \\d)\\b",
+          "\\b(child|children|class|pupil|pupils|infants?|[a-z]+-year-olds?)\\b[^.!?\\n]{0,40}?\\b(register|language|vocabulary|wording|reading age|level)\\b"
+        ]
+      },
+      {
+        "name": "never-speaks-to-the-children",
+        "why": "Rule 1 of epic #25, and the reason every helper in this product is a drafter rather than a narrator: the AI never addresses the class, it hands the teacher words she chooses to say. Three prompts inherit that boundary from this one paragraph and state it nowhere else.",
+        "shape": "a negation bound, inside one sentence, to speaking to the children",
+        "anyOf": [
+          "\\b(never|not|do not|don't|does not|doesn't)\\b[^.!?\\n]{0,40}?\\bspeak(s|ing)?\\b[^.!?\\n]{0,30}?\\b(child|children|class|pupils)\\b",
+          "\\b(never|not|do not|don't|does not|doesn't)\\b[^.!?\\n]{0,40}?\\b(address(es|ing)?|talk(s|ing)?)\\b[^.!?\\n]{0,30}?\\b(child|children|class|pupils)\\b"
+        ]
+      },
+      {
+        "name": "teacher-may-change-it",
+        "why": "#756 · GUIDE, NOT SCRIPT. The first real teacher session (2026-08-31) named this unprompted, and it matches what she had said before she saw the app: \"not sure i want to be told what to do more to help me run it\", and \"People like to learn from people\". Without this clause the house voice says whose VOICE the drafted words are and nothing says whose LESSON it is, which leaves every drafter free to read as a stage direction a teacher performs. Three prompts inherit this paragraph and state it nowhere else.",
+        "shape": "the teacher's freedom to reshape or set aside what you draft, bound inside one sentence to the draft itself",
+        "$words": [
+          "#756 · why this is not satisfied by the sentence that was already there.",
+          "",
+          "The paragraph has said \"you only draft words the teacher will choose to",
+          "say in her own voice\" since before this promise existed. That is a claim",
+          "about VOICE — whose mouth the words come out of — and it was true on the",
+          "day a teacher told us the product still felt like being told what to do.",
+          "So the contract deliberately does NOT admit `choose`, `own` or `voice`:",
+          "admitting any of them would make the promise green against the exact text",
+          "that predates it, and a contract that is already kept by the status quo",
+          "asserts nothing. Pinned in tests/unit/prompter-principles.spec.ts against",
+          "the verbatim pre-#756 paragraph.",
+          "",
+          "ADMITTED: the words for what she may do to the draft — `free to`,",
+          "`hers to`, `reshape`, `rework`, `adapt`, `alter`, `set aside`,",
+          "`make it her own`, `take or leave`, and `she can/may` followed by a verb",
+          "of change. Each has to sit within one sentence of a word for the DRAFT",
+          "itself (`draft`, `suggestion`, `offer`), so a leftover verb in a sentence",
+          "about something else — \"adapt the lesson to the weather\" — cannot keep",
+          "the promise on its own."
+        ],
+        "anyOf": [
+          "\\b(draft|drafts|drafted|suggestion|suggestions|offer)\\b[^.!?\\n]{0,80}?\\b(free to|hers to|reshape[sd]?|rework(?:s|ed)?|adapts?|alters?|set (?:it |them )?aside|make (?:it|them) her own|take or leave|she (?:can|may) (?:change|drop|replace|ignore|rewrite))\\b",
+          "\\b(free to|hers to|reshape[sd]?|rework(?:s|ed)?|adapts?|alters?|set (?:it |them )?aside|make (?:it|them) her own|take or leave|she (?:can|may) (?:change|drop|replace|ignore|rewrite))\\b[^.!?\\n]{0,80}?\\b(draft|drafts|drafted|suggestion|suggestions|offer)\\b"
+        ]
+      }
+    ],
+    "child-wonder": [
+      {
+        "name": "story-for-children",
+        "why": "#756 · FACTS < STORIES. The same teacher session, on children: \"children like a WOW factor, a fun fact.. Children like storytelling.. turn the lessons into stories.\" This fragment is the only place either drafter is told that a true thing reaches a five-year-old as a happening rather than as a label. nature-grounding-line's whole output is read aloud to a class, and lesson-support's sayAloud is too, so an edit that quietly turns this paragraph back into a style note costs the one instruction that is about the children rather than about the sentence.",
+        "shape": "a story word bound, inside one sentence, to the children it is for",
+        "anyOf": [
+          "\\b(child|children|pupils?|four-year-old|five-year-old|six-year-old)\\b[^.!?\\n]{0,60}?\\b(story|stories|storytelling|tale|tales)\\b",
+          "\\b(story|stories|storytelling|tale|tales)\\b[^.!?\\n]{0,60}?\\b(child|children|pupils?|four-year-old|five-year-old|six-year-old)\\b"
+        ]
+      },
+      {
+        "name": "story-made-of-given-facts",
+        "why": "#756 · the half that keeps the other half honest. \"Tell it as a story\" is an invitation to embellish, and the measured history of this repo is that a prompt asked for colour will supply it (nature-grounding-line v2 named two species as an example and produced exactly those two in 15 of 26 runs). So the fragment states where the story's materials come from in the same breath as asking for the story. An edit that keeps the storytelling and drops the sourcing would leave nature-grounding-line asking a model to be vivid with no stated place to be vivid FROM.",
+        "shape": "what the story is made of bound, inside one sentence, to the facts the model was given",
+        "anyOf": [
+          "\\b(comes?|come|drawn|taken|built|made)\\b[^.!?\\n]{0,40}?\\bfacts?\\b",
+          "\\bfacts?\\b[^.!?\\n]{0,40}?\\b(you were given|you are given|given to you|supplied|provided)\\b"
+        ]
+      }
+    ],
+    "hands-in": [
+      {
+        "name": "hands-for-children",
+        "why": "#791 · KINESTHETIC LEARNERS. The third thing the first real teacher named in the same breath as #756's two (2026-08-31): \"Nature is great for kinesthetic learners, working with the land, learning thru touch.\" #756 folded in what the adult should be SAYING; this is the one about what the children should be DOING while she says it. Without it, every drafter in this repo is told how the words should sound and nothing says whether anything reaches a child's hands. lesson-support's own task rules already reach for a bounded movement and for a smaller way into the authored moment, and neither of them says \"in their hands\". Held to ONE sentence of the fragment on purpose, so a tidying pass that keeps the paragraph and loses the point goes red.",
+        "shape": "a physical handling word bound, inside one sentence, to the children it is about",
+        "$words": [
+          "#791 · what this promise catches, what it deliberately does not, and why",
+          "the second list is as important as the first.",
+          "",
+          "THE THREAT MODEL, stated rather than assumed. Read the $note at the top of",
+          "this file: these contracts exist because on 2026-08-26 an age-positioning",
+          "SWEEP rewrote the house voice's register anchor into a sentence pointing at",
+          "a class nature-grounding-line is never told, and the lockfile was perfectly",
+          "in step with the damage. That is what this mechanism is for — an honest edit",
+          "that erodes a promise: a tidying pass, a shortening, a sweep. It is not for",
+          "an author who sets out to write a fragment saying the opposite of its own",
+          "principle, because that author is stopped by the review that catches",
+          "everything else.",
+          "",
+          "This was settled the hard way. Seven review passes on PR #1212 produced",
+          "thirty-one accepted findings, and the last four rounds were entirely new",
+          "wordings that kept a promise while meaning its opposite — `lacks`,",
+          "`relinquishes`, `delegates`, `authority may be held`, `authority still may",
+          "be held`; `while`, `when`, `see`, `observed`, `point to their hands`. Every",
+          "fix was correct and the sequence did not converge, because there is no",
+          "finite list of ways to write \"the children watched somebody else do it\" and",
+          "`missingContracts` evaluates regexes: it cannot establish subjecthood, and",
+          "it cannot ask whether a noun names a physical thing. An independent review",
+          "of that question agreed, in those terms, and the shapes were simplified back",
+          "to what they can actually keep.",
+          "",
+          "WHAT IT CATCHES: the fragment losing its point. The tidying mutation in",
+          "tests/unit/prompter-principles.spec.ts — the opening sentence shortened to",
+          "\"Children come to a thing in more than one way\" — goes red, and the",
+          "companion promise stays green, so the two report separately. Neither",
+          "fragment that predates this one keeps it, which is the #756 discipline: a",
+          "contract already kept by the status quo asserts nothing.",
+          "",
+          "ADMITTED: the verbs for what a child does with a thing once it is theirs —",
+          "`hold`, `pick up`, `turn over`, `carry`, `lift`.",
+          "",
+          "REFUSED, and these two are kept because an honest edit really produces",
+          "them:",
+          "  · `touch` and `feel` on their own. Both are already true of a child",
+          "    standing still with a palm on bark, and the 2026-09-14 audit found 20 of",
+          "    294 shipped phases are exactly that. A softening pass turning \"hold\"",
+          "    into \"touch\" is the ordinary edit this refuses.",
+          "  · a handling verb whose object is DIRECTLY one of a named list of",
+          "    abstractions — moment, story, idea, memory, breath, thought, feeling,",
+          "    silence, attention, question, answer, word, name — with at most a",
+          "    determiner between. \"Hold the moment of change\" is not a strawman: it is",
+          "    a real sentence in `autumn-w5-colours`, which the same audit scores EYES",
+          "    and calls the phase that most deserved a hands label and did not earn",
+          "    it, and a tidying pass reaches for exactly that register.",
+          "",
+          "    THAT IS THE WHOLE OF IT, and the wording matters because an earlier",
+          "    draft of this block said \"a handling verb with an abstract object is",
+          "    refused\", which is a semantic claim this cannot make: \"Children hold on",
+          "    to the story\", \"Children carry the lesson with them\" and \"Children lift",
+          "    the mood\" all keep the promise. They are pinned green below with the",
+          "    other out-of-scope wordings. A check and the prose beside it disagreeing",
+          "    is the single most common defect in this file's review history, and the",
+          "    prose has been the wrong one every time.",
+          "",
+          "OUT OF SCOPE BY DESIGN, listed so nobody rediscovers them and thinks the",
+          "guard is broken: \"Children should watch while the teacher holds a leaf\",",
+          "\"Children see Alice hold a leaf\", \"Children observed Alice holding a leaf\",",
+          "\"Children never hold anything in their hands\", and the figurative wordings\nthe named list does not reach — \"hold on to the story\", \"carry the lesson\nwith them\", \"lift the mood\". Each keeps this promise. Each",
+          "is a deliberate inversion, not an erosion, and each is pinned GREEN in the",
+          "suite so the boundary is a decision on the record rather than a gap. If one",
+          "of them ever ships, review is what should have stopped it."
+        ],
+        "anyOf": [
+          "\\b(?:child|children|pupils?|infants?|[a-z]+-year-olds?)\\b[^.!?\\n]{0,60}?\\b(?:hold(?:s|ing)?|held|pick(?:s|ed|ing)?(?:\\s+(?:it|them|one|this|that))?\\s+up|turn(?:s|ed|ing)?(?:\\s+(?:it|them|one|this|that))?\\s+over|carr(?:y|ies|ied|ying)|lift(?:s|ed|ing)?)(?!\\s+(?:the\\s+|a\\s+|their\\s+|its\\s+|his\\s+|her\\s+|your\\s+)?(?:moment|moments|story|stories|idea|ideas|memory|memories|breath|thought|thoughts|feeling|feelings|silence|attention|question|questions|answer|answers|words?|name|names)\\b)",
+          "\\b(?:hold(?:s|ing)?|held|pick(?:s|ed|ing)?(?:\\s+(?:it|them|one|this|that))?\\s+up|turn(?:s|ed|ing)?(?:\\s+(?:it|them|one|this|that))?\\s+over|carr(?:y|ies|ied|ying)|lift(?:s|ed|ing)?)(?!\\s+(?:the\\s+|a\\s+|their\\s+|its\\s+|his\\s+|her\\s+|your\\s+)?(?:moment|moments|story|stories|idea|ideas|memory|memories|breath|thought|thoughts|feeling|feelings|silence|attention|question|questions|answer|answers|words?|name|names)\\b)[^.!?\\n]{0,60}?\\b(?:child|children|pupils?|infants?|[a-z]+-year-olds?)\\b"
+        ]
+      },
+      {
+        "name": "handling-deferred-to-the-authored-lesson",
+        "why": "#791 · the half that keeps the other half honest, and it is not a formality. lesson-support's own contract already refuses a draft that tells children to handle something unknown or unfamiliar, and docs/PROMPT_TEMPLATE.md holds this repo's one measurement of putting a positive hands instruction where a safety rule was: door-line scored 25/30 against a 26/30 baseline with safety refusals rising from 3 to 5, and it was reverted. So the paragraph that asks for hands says in the same breath whose call it is what may be picked up. An edit that keeps the invitation and drops the deferral leaves lesson-support asking a model to put things in children's hands with nothing saying which things — which is the exact shape of the reverted door-line variant.",
+        "shape": "what may be handled bound, inside one sentence, to the authored lesson's authority over it",
+        "anyOf": [
+          "\\b(?:pick(?:ed|s)? up|handled?|handling|held|touch(?:ed|es)?)\\b[^.!?\\n]{0,60}?\\b(?:authored|the lesson|lesson[’']?s? own)\\b[^.!?\\n]{0,40}?\\b(?:call|says?|said|decides?|governs?|authority|rules?|states?|sets?)\\b",
+          "\\b(?:authored|the lesson|lesson[’']?s? own)\\b[^.!?\\n]{0,40}?\\b(?:call|says?|said|decides?|governs?|authority|rules?|states?|sets?)\\b[^.!?\\n]{0,60}?\\b(?:pick(?:ed|s)? up|handled?|handling|held|touch(?:ed|es)?)\\b"
+        ],
+        "$words": [
+          "#791 · the half that keeps the other half honest, and it is not a",
+          "formality. lesson-support's own contract already refuses a draft that tells",
+          "children to handle something unknown or unfamiliar, and",
+          "docs/PROMPT_TEMPLATE.md holds this repo's one measurement of putting a",
+          "positive hands instruction where a safety rule was: door-line scored 25/30",
+          "against a 26/30 baseline with safety refusals rising from 3 to 5, and it was",
+          "reverted. So the paragraph that asks for hands says in the same breath whose",
+          "call it is what may be picked up.",
+          "",
+          "WHAT IT CATCHES: the deferral being dropped. Cutting the closing sentence",
+          "goes red here and leaves `hands-for-children` green, so an edit that keeps",
+          "the invitation and loses the deferral reports as exactly that — which is the",
+          "shape of the reverted door-line variant.",
+          "",
+          "SAME THREAT MODEL AS ITS SIBLING, and the same conclusion. Four review",
+          "rounds added four families of denial to this shape — particles, taking-away",
+          "verbs (`lacks`), giving-away verbs (`relinquishes`), transfer (`delegates`)",
+          "— plus a permission frame and an authority-object guard, and each round",
+          "found a fifth way. All of it is gone. These contracts guard an honest edit",
+          "that erodes a promise, not a sentence written to mean its opposite, and an",
+          "independent review agreed in those terms.",
+          "",
+          "OUT OF SCOPE BY DESIGN, pinned green in the suite rather than left to be",
+          "rediscovered: \"The authored lesson has no authority over what children pick",
+          "up\", \"...lacks authority...\", \"...relinquishes authority...\", \"...delegates",
+          "its authority...\", \"...states that authority may be held by the assistant\".",
+          "Every one of them keeps this promise, every one is a deliberate inversion,",
+          "and review is the thing that stops those."
+        ]
+      }
+    ]
+  }
+}

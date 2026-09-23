@@ -1,0 +1,646 @@
+/*
+ * Building your world.
+ *
+ * A CSS module rather than a block in globals.css, deliberately. globals.css is
+ * being rewritten right now by T1 (#231), whose whole theme is deleting boxes
+ * and coloured edges, and it is also uncommitted in the founder's own working
+ * tree. Appending to it from a parallel session is how two people end up
+ * merging stylesheets by hand.
+ *
+ * The rules below are already typeset rather than boxed, per T1: options are
+ * words with a rule under them, sections are separated by space and a hairline,
+ * and nothing is defined by a border or a fill. When T1 lands its system this
+ * should fold into it rather than being reconciled against it.
+ */
+
+.page {
+  max-width: 46rem;
+  margin: 0 auto;
+  padding: 1.5rem 1.25rem 6rem;
+}
+
+.eyebrow {
+  font-size: var(--size-1);
+  letter-spacing: 0.09em;
+  text-transform: lowercase;
+  color: var(--ink-3);
+  margin: 0 0 0.6rem;
+}
+
+/* `.head` is on an <h2>. It carried `font-weight: normal`, which strips the
+   element back to 400 — the same weight as the paragraph directly beneath it —
+   and it inherited the body face because it never asked for the display one.
+   So this page had no typographic hierarchy at all: heading and body copy were
+   the same face at the same weight, separated only by 0.35rem of size. That is
+   not restraint, it is a missing declaration. */
+.head {
+  font-family: var(--display);
+  /* "This is the week you are teaching into" wrapped with "into" alone on the
+     second line at phone width. The column (46rem) is wider than the title
+     needs on a desktop, so no measure can fix this -- at 390px the viewport
+     binds, not the measure. `pretty` is the tool that actually applies: it
+     pulls a word back rather than evening the halves. */
+  text-wrap: pretty;
+  font-size: var(--size-4);
+  /* The DISPLAY register's bold, not the text register's. This shipped as
+     --weight-strong, which is 700 -- a weight Fredoka is not served at (its
+     variable range is 300..700 and nothing else in the product asks the
+     display face for more than 600). So /world's title was the one heading
+     reaching for a weight outside its own face. */
+  font-weight: var(--weight-medium);
+  margin: 0 0 0.2rem;
+}
+
+.said {
+  color: var(--ink-soft);
+  margin: 0 0 1rem;
+}
+
+/* Class choice and place choice are two different decisions (#827). This
+   block names the class whose reference is being changed, then keeps the
+   reusable profiles in one reading column rather than turning Grounds into a
+   settings dashboard. */
+.assignment {
+  margin: 1.6rem 0 2rem;
+  padding: 1.25rem 0;
+  border-block: 1px solid var(--hairline);
+}
+
+.change summary {
+  width: max-content;
+  min-height: var(--touch);
+  display: flex;
+  align-items: center;
+  color: var(--living);
+  font-weight: var(--weight-strong);
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.chooser {
+  margin-top: 1rem;
+}
+
+.chooser fieldset {
+  border: 0;
+  padding: 0;
+  margin: 0 0 1rem;
+}
+
+.chooser legend {
+  font-family: var(--display);
+  font-size: var(--size-3);
+  font-weight: var(--weight-medium);
+  margin-bottom: 0.5rem;
+}
+
+.choice {
+  display: grid;
+  grid-template-columns: 1.4rem minmax(0, 1fr);
+  gap: 0.75rem;
+  padding: 0.8rem 0;
+  border-top: 1px solid var(--hairline-soft);
+  cursor: pointer;
+}
+
+.choice input {
+  width: 1.1rem;
+  height: 1.1rem;
+  margin-top: 0.15rem;
+  accent-color: var(--living);
+}
+
+.choice strong,
+.choice small {
+  display: block;
+}
+
+.choice small {
+  color: var(--ink-3);
+  font-size: var(--size-1);
+}
+
+.create {
+  display: grid;
+  gap: 0.65rem;
+  margin-top: 1.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--hairline);
+}
+
+.create label {
+  display: grid;
+  gap: 0.35rem;
+  color: var(--ink-2);
+  font-size: var(--size-1);
+  font-weight: var(--weight-strong);
+}
+
+.src {
+  font-size: var(--size-1);
+  color: var(--ink-3);
+  margin: 0.6rem 0 0;
+}
+
+.zoom {
+  padding: 1.6rem 0 1.4rem;
+  border-top: 1px solid var(--hairline);
+}
+
+/* Zoom one: what is about, this week. */
+.life,
+.seen {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.life li {
+  margin: 0 0 0.35rem;
+}
+
+/* COLOURED TEXT IS RESERVED, NOT A DEFAULT (#382). Johan, looking at this
+   block rendered in charcoal: "lets keep colorful texts a bit more spare ony
+   when necessary".
+
+   The ink-green exists and is the only green allowed to be a word, but a list
+   of three species all set in it is decoration, which is the thing this whole
+   pass removes. Green as text is for STATE -- the chosen thing, the one door,
+   the value that changed -- never for a CATEGORY of content. A species name is
+   a category, so it is plain ink, and its qualifier stays a step quieter.
+
+   `.opt.on` below keeps the ink-green, because a chosen option is a state and
+   that is precisely the necessary case. */
+.species {
+  color: var(--ink);
+  margin-right: 0.6rem;
+}
+
+.where {
+  font-style: italic;
+  color: var(--ink-3);
+  font-size: var(--size-2);
+}
+
+.seen li {
+  margin: 0 0 0.3rem;
+}
+
+/* The teacher's answers: words, not chips. */
+.opts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.15rem 1rem;
+  margin: 0.4rem 0 0;
+}
+
+.opt {
+  appearance: none;
+  background: none;
+  border: 0;
+  border-bottom: 1.5px solid transparent;
+  padding: 0.15rem 0.1rem 0.2rem;
+  font: inherit;
+  color: var(--ink-3);
+  cursor: pointer;
+  /* A comfortable target on a staffroom iPad without drawing a box. */
+  min-height: 2.4rem;
+}
+
+.opt:hover {
+  color: inherit;
+}
+
+/* The chosen option is a word with a rule under it. BOTH take --living: if the
+   word took the deep green and its own underline took the fill green, this one
+   element would be wearing two greens, which is the exact thing this ticket
+   exists to stop. */
+.opt.on {
+  color: var(--living);
+  border-bottom-color: var(--living);
+}
+
+.opt.on::before {
+  content: "✓ ";
+}
+
+.opt:focus-visible {
+  outline: 2px solid var(--living);
+  outline-offset: 3px;
+}
+
+/* Her own words. */
+.notes {
+  margin: 1.4rem 0 0;
+}
+
+.notes label {
+  display: block;
+  font-size: var(--size-1);
+  color: var(--berry);
+  margin: 0 0 0.35rem;
+}
+
+.noterow {
+  display: flex;
+  gap: 0.75rem;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+
+.noterow input {
+  flex: 1 1 15rem;
+  font: inherit;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid var(--hairline);
+  padding: 0.35rem 0.1rem;
+  min-height: 2.4rem;
+}
+
+.noterow input:focus {
+  outline: 0;
+  border-bottom-color: var(--berry);
+}
+
+.noterow button {
+  appearance: none;
+  background: none;
+  border: 0;
+  border-bottom: 1.5px solid currentColor;
+  font: inherit;
+  color: var(--berry);
+  cursor: pointer;
+  padding: 0.15rem 0.1rem;
+  min-height: 2.4rem;
+}
+
+.noterow button:disabled {
+  color: var(--ink-3);
+  border-bottom-color: transparent;
+  cursor: default;
+}
+
+.notelist {
+  list-style: none;
+  padding: 0;
+  margin: 0.8rem 0 0;
+}
+
+.notelist li {
+  display: flex;
+  gap: 0.75rem;
+  align-items: baseline;
+  margin: 0 0 0.35rem;
+}
+
+.notelist li span {
+  font-style: italic;
+  color: var(--ink-soft);
+}
+
+.notelist li button {
+  appearance: none;
+  background: none;
+  border: 0;
+  font: inherit;
+  font-size: var(--size-1);
+  color: var(--ink-3);
+  cursor: pointer;
+  text-decoration: underline;
+  padding: 0.2rem;
+}
+
+.actions {
+  display: flex;
+  gap: 1.25rem;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 2rem 0 0;
+  padding-top: 1.4rem;
+  border-top: 1px solid var(--hairline);
+}
+
+.skip {
+  appearance: none;
+  background: none;
+  border: 0;
+  font: inherit;
+  color: var(--ink-3);
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 0.4rem;
+}
+
+.saved {
+  color: var(--living);
+  margin: 0.9rem 0 0;
+}
+
+/* The teacher-authored half is one changeable Grounds profile. The restrained
+   outline distinguishes editable testimony from live place readings above it;
+   it does not turn each question inside WorldBuilder into another card. */
+.profile {
+  margin-top: 2rem;
+  padding: 1.25rem;
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius);
+}
+
+.profileHead {
+  margin-bottom: 0.3rem;
+}
+
+@media (max-width: 30rem) {
+  .profile {
+    padding: 1rem;
+  }
+}
+
+/* The read half: zooms one and two, above her answers. */
+.read {
+  margin: 0 0 0.5rem;
+}
+
+/*
+ * Photographs of the area. A row of pictures under a line of type, no cards,
+ * no borders, no tray — the picture is the object, per T1 (#231).
+ *
+ * Scrolls sideways on a phone rather than reflowing into a grid: a teacher
+ * flicks through these the way she would flick through a contact sheet, and a
+ * grid of small squares reads as a gallery widget, which is chrome.
+ */
+.shots {
+  list-style: none;
+  margin: 0.75rem 0 0;
+  padding: 0 0 0.35rem;
+  display: flex;
+  gap: 1.1rem;
+  overflow-x: auto;
+  scroll-snap-type: x proximity;
+  -webkit-overflow-scrolling: touch;
+}
+
+.shot {
+  flex: 0 0 auto;
+  width: min(15rem, 62vw);
+  scroll-snap-align: start;
+}
+
+/* Leading the page (#751): the same row, given the size that says look at
+   this first. No hairline above it either — nothing sits above it to be
+   separated from. */
+.zoomLead {
+  border-top: none;
+  padding-top: 0.4rem;
+}
+
+.shotsLead .shot {
+  width: min(21rem, 80vw);
+}
+
+.shotsLead .shot img {
+  height: 13rem;
+}
+
+.shot img {
+  display: block;
+  width: 100%;
+  height: 9.5rem;
+  object-fit: cover;
+  /* The only radius in here: enough to read as a photograph rather than as a
+     tile, not enough to read as a card. */
+  border-radius: 2px;
+}
+
+.shotname {
+  margin: 0.4rem 0 0;
+  font-size: var(--size-2);
+  line-height: 1.3;
+}
+
+.shotcredit {
+  margin: 0.15rem 0 0;
+  font-size: var(--size-1);
+  line-height: 1.35;
+  color: var(--ink-3);
+}
+
+.shotcredit a {
+  color: inherit;
+}
+
+/*
+ * Zoom zero: the assistant chat (#280). One free-form box, one plain-language
+ * confidence, and two words per candidate ("Add this" / "Not quite"). No
+ * chat-bubble styling — this is one exchange, read top to bottom, not a
+ * running conversation — so it keeps the same typographic, chrome-free
+ * register as the pills below it rather than inventing a new visual language
+ * for one section.
+ */
+.chat {
+  border-top: none;
+  padding-top: 0;
+}
+
+/*
+ * The camera, leading (#751).
+ *
+ * It shipped as a second underlined word under the textarea, indistinguishable
+ * from "Add" — the same weight as every other quiet control on the page, for
+ * the action Johan asked to make the important one ("more importance on photos
+ * etc.", teacher session 2026-08-31). It is now the first control on the step
+ * and the only one on this surface that reads as a button.
+ *
+ * Still chrome-free in the T1 sense: no card, no tray, no fill. The weight
+ * comes from size and a full-strength rule, not from a box drawn around a
+ * region of the page.
+ */
+.photoLead {
+  margin: 1rem 0 0;
+}
+
+.photoButton {
+  appearance: none;
+  background: none;
+  border: 0;
+  border-bottom: 2px solid var(--living);
+  font-family: var(--display);
+  font-size: var(--size-3);
+  font-weight: var(--weight-medium);
+  color: var(--living);
+  cursor: pointer;
+  padding: 0.3rem 0.15rem 0.35rem;
+  /* A gloved thumb on a playground iPad, not a mouse pointer indoors. */
+  min-height: 3rem;
+}
+
+.photoButton:disabled {
+  color: var(--ink-3);
+  border-bottom-color: var(--hairline);
+  cursor: default;
+}
+
+.photoButton:focus-visible {
+  outline: 2px solid var(--living);
+  outline-offset: 3px;
+}
+
+/* Typing is the alternative, and says so in one plain line. */
+.orType {
+  margin: 1.6rem 0 0;
+}
+
+.orTypeLabel {
+  display: block;
+  font-size: var(--size-1);
+  color: var(--ink-3);
+  margin: 0 0 0.15rem;
+}
+
+.chatRow {
+  display: flex;
+  gap: 0.75rem;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  margin: 0.6rem 0 0;
+}
+
+.chatInput {
+  flex: 1 1 20rem;
+  font: inherit;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid var(--hairline);
+  padding: 0.5rem 0.1rem;
+  resize: vertical;
+  min-height: 3.6rem;
+}
+
+.chatInput:focus {
+  outline: 0;
+  border-bottom-color: var(--berry);
+}
+
+.chatSend {
+  appearance: none;
+  background: none;
+  border: 0;
+  border-bottom: 1.5px solid currentColor;
+  font: inherit;
+  color: var(--berry);
+  cursor: pointer;
+  padding: 0.15rem 0.1rem;
+  min-height: 2.4rem;
+  white-space: nowrap;
+}
+
+.chatSend:disabled {
+  color: var(--ink-3);
+  border-bottom-color: transparent;
+  cursor: default;
+}
+
+.chatNote {
+  font-size: var(--size-1);
+  color: var(--ink-3);
+  margin: 0.7rem 0 0;
+}
+
+.candidates {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0;
+}
+
+.candidate {
+  display: flex;
+  gap: 1rem;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0.6rem 0;
+  border-top: 1px solid var(--hairline);
+}
+
+.candidateValue {
+  margin: 0;
+  color: var(--ink-soft);
+}
+
+.candidateQuote {
+  margin: 0.15rem 0 0;
+  font-style: italic;
+  font-size: var(--size-1);
+  color: var(--ink-3);
+}
+
+.candidateActions {
+  display: flex;
+  gap: 0.9rem;
+  flex-shrink: 0;
+}
+
+.candidateActions button {
+  appearance: none;
+  background: none;
+  border: 0;
+  font: inherit;
+  font-size: var(--size-1);
+  color: var(--living);
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 0.2rem;
+}
+
+.candidateActions button:last-child {
+  color: var(--ink-3);
+}
+
+/*
+ * The stepped walk (#654). `solo` is on the root when a host renders one
+ * question per screen: the section is the screen, so the hairline that
+ * separated it from its neighbours has nothing to separate, and the head
+ * takes the wizard's own register rather than a section's.
+ */
+.solo .zoom {
+  border-top: none;
+  /* One question owns the screen, so it gets more air than a stacked
+     section would (#654, Johan: "make more space around content too"). */
+  padding-top: 1rem;
+  padding-bottom: 2.2rem;
+}
+
+.solo .head {
+  font-size: var(--size-5);
+  line-height: 1.14;
+  letter-spacing: -0.012em;
+}
+
+/*
+ * The listening beat (#654): candidates rise one at a time, each 120ms after
+ * the last (the delay is set inline per item). `both` holds an item invisible
+ * until its turn, which is what makes a stagger read as arrival rather than
+ * as flicker. Same 320ms ease-out as the product's own start-rise.
+ */
+.candidate {
+  animation: candidate-rise 320ms ease-out both;
+}
+
+@keyframes candidate-rise {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.currentLocation { margin: 20px 0 28px; }
+.currentLocation :global(.loc) { display: flex; flex-direction: column; align-items: flex-start; gap: 12px; }
+.currentLocation :global(.loc-btn) { min-height: var(--touch-secondary); display: inline-flex; align-items: center; padding: 0.35rem 0.85rem; border: 1.5px solid var(--outline); border-radius: 999px; background: none; color: var(--ink); font-family: var(--text); font-size: var(--size-1); font-weight: var(--weight-strong); }
+.currentLocation :global(.loc-note) { max-width: 34ch; margin: 0; color: var(--ink-soft); font-size: var(--size-1); font-style: normal; line-height: 1.35; }
+.currentLocation :global(.loc-search) { width: min(100%, 34ch); }

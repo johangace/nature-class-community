@@ -1,0 +1,156 @@
+.page { background: var(--paper); color: var(--ink); font-family: var(--text); font-size: var(--size-2); line-height: 1.65; }
+.page h1, .page h2, .page h3 { font-family: var(--display); font-weight: var(--weight-display); line-height: 1.15; text-wrap: balance; }
+.page h1 { font-size: clamp(2.6rem, 5.5vw, 4.8rem); margin: 16px 0 24px; }
+.page h2 { font-size: clamp(var(--size-5), 3vw, var(--size-6)); margin: 0 0 24px; }
+.page h3 { font-size: var(--size-4); margin: 0 0 14px; }
+.page p { max-width: 70ch; margin: 0 0 18px; }
+.page a { text-underline-offset: 4px; }
+.header, .hero, .section, .close, .footer { width: min(1120px, calc(100% - 48px)); margin-inline: auto; }
+.header { min-height: 96px; display: flex; align-items: center; justify-content: space-between; gap: 24px; border-bottom: 1px solid var(--hairline-soft); }
+.header nav, .footer nav { display: flex; flex-wrap: wrap; align-items: center; gap: 16px; }
+.header nav a, .footer nav a { min-height: 44px; display: inline-flex; align-items: center; }
+.header [aria-current] { outline: 1px solid var(--hairline); outline-offset: 4px; border-radius: 4px; }
+.hero { padding-block: clamp(48px, 6vw, 80px) 36px; }
+.hero > div { display: grid; grid-template-columns: 1.15fr .85fr; column-gap: 64px; align-items: start; }
+.hero h1 { font-size: clamp(48px, 5.9vw, 84px); line-height: .95; letter-spacing: -.045em; margin: 22px 0 0; }
+.heroCopy { padding-top: 34px; }
+.action { gap: 8px; }
+.kicker { color: var(--ink-soft); font-weight: var(--weight-strong); font-size: var(--size-1); }
+.lead { font-size: var(--size-3); }
+.action { display: inline-flex; align-items: center; min-height: 48px; padding: 12px 24px; border-radius: 100px; background: var(--action); color: var(--action-ink) !important; text-decoration: none; font-weight: var(--weight-strong); margin-bottom: 16px; }
+.caption { font-size: var(--size-1); color: var(--ink-soft); }
+.section { padding-block: clamp(40px, 6vw, 72px); scroll-margin-top: 24px; }
+.columns { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; }
+.support { background: var(--plate-teacher); padding: 16px 0; }
+.support .section + .section { border-top: 1px solid var(--hairline); }
+.context { padding: 28px; margin-top: 28px; background: var(--plate-weather); border-radius: 8px 48px 8px 8px; }
+.page details { border-top: 1px solid var(--hairline); padding: 18px 0; }
+.page summary { cursor: pointer; font-weight: var(--weight-strong); min-height: 28px; }
+.page details p { margin-top: 18px; }
+.close { padding: 36px; margin-block: 36px; background: var(--plate-spoken); border-radius: 8px 64px 8px 8px; box-sizing: border-box; }
+.footer { padding-block: 40px; border-top: 1px solid var(--hairline); }
+.footer p { margin-top: 20px; font-size: var(--size-1); }
+.skip { position: absolute; left: 16px; top: -100px; padding: 12px; background: var(--paper); z-index: 10; }
+.skip:focus { top: 12px; }
+@media (max-width: 760px) {
+  .header { flex-wrap: wrap; gap: 8px 16px; padding-block: 16px; }
+  .header > nav:first-of-type { order: 3; width: 100%; font-size: var(--size-1); }
+  .hero { padding-block: 36px; }
+  .hero > div { display: block; }
+  .hero h1 { margin-bottom: 24px; }
+  .columns { grid-template-columns: 1fr; gap: 20px; }
+  .section { padding-block: 32px; }
+  .close { padding: 24px; }
+}
+
+.photoStrip { width: min(1120px, calc(100% - 48px)); margin: 0 auto clamp(48px, 7vw, 96px); display: grid; grid-template-columns: 1.5fr 1fr 1fr; gap: 20px; }
+.stripPhoto { margin: 0; position: relative; height: clamp(230px, 28vw, 360px); overflow: hidden; }
+.stripPhoto img { object-fit: cover; }
+.offer { background: var(--plate-weather); padding-block: clamp(48px, 7vw, 88px); }
+.offerInner { width: min(1120px, calc(100% - 48px)); margin: auto; display: grid; grid-template-columns: 1.35fr .8fr; gap: 64px; align-items: center; }
+.features { display: grid; grid-template-columns: 1fr 1fr; gap: 24px 32px; margin-block: 32px; }
+.features h3 { font-size: var(--size-3); }
+.features p { font-size: var(--size-1); margin: 0; }
+.productPhoto { margin: 0; }
+.productPhoto figcaption { font-size: var(--size-1); margin-top: 16px; color: var(--ink-soft); }
+@media (max-width: 760px) {
+  .photoStrip { gap: 12px; grid-template-columns: 1.4fr 1fr; }
+  .stripPhoto { height: 230px; border-radius: 20px 70px 20px 20px; }
+  .stripPhoto:last-child { display: none; }
+  .offerInner { grid-template-columns: 1fr; gap: 32px; }
+  .productPhoto { max-width: 380px; margin-inline: auto; }
+}
+@media (max-width: 400px) { .features { grid-template-columns: 1fr; } }
+
+.photoSection { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: center; }
+.editorialPhoto { margin: 0; min-height: 380px; position: relative; overflow: hidden; }
+.editorialPhoto img { object-fit: cover; }
+@media (max-width: 760px) { .photoSection { grid-template-columns: 1fr; gap: 28px; } .heroCopy { padding-top: 0; } .editorialPhoto { min-height: 300px; } }
+.header nav a, .footer nav a { text-decoration: none; font-weight: var(--weight-medium); }
+.header nav a:hover, .footer nav a:hover { color: var(--living); }
+
+.benefitRows > div { display: grid; grid-template-columns: .75fr 1.25fr; gap: 32px; padding-block: 24px; border-top: 1px solid var(--hairline-soft); }
+.benefitRows h3 { font-size: var(--size-3); }
+.benefitRows p { margin: 0; }
+@media (max-width: 760px) { .benefitRows > div { grid-template-columns: 1fr; gap: 8px; } }
+
+/* Schools hero: the promise and two ways in on the left, a real school garden on the right. */
+.schoolHero { width: min(1120px, calc(100% - 48px)); margin-inline: auto; display: grid; grid-template-columns: 1.05fr .95fr; gap: 56px; align-items: center; padding-block: clamp(40px, 6vw, 72px) clamp(32px, 5vw, 56px); }
+.schoolHero h1 { font-size: clamp(44px, 5.4vw, 76px); line-height: .98; letter-spacing: -.045em; margin: 20px 0 24px; }
+.schoolHero h1 span { color: var(--sky); }
+.schoolHeroCopy .lead { max-width: 30ch; line-height: 1.5; margin-bottom: 28px; }
+.heroActions { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 24px; }
+.heroActions .action { margin-bottom: 0; }
+.quietLink { min-height: 48px; display: inline-flex; align-items: center; font-weight: var(--weight-medium); color: var(--ink); }
+.schoolHeroCopy .caption { margin-top: 20px; }
+.schoolHeroPhoto { position: relative; margin: 0; height: clamp(320px, 38vw, 480px); overflow: hidden; border-radius: 24px 140px 24px 24px; }
+.schoolHeroPhoto img { object-fit: cover; }
+
+/* Four things the school gets, each with the glyph the product uses for it. */
+.featureList { list-style: none; margin: 8px 0 0; padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 32px; }
+.featureList li { border-top: 1px solid var(--hairline); padding-top: 24px; color: var(--sky); }
+.featureList h3 { color: var(--ink); font-size: var(--size-3); margin: 18px 0 8px; }
+.featureList p { color: var(--ink-soft); font-size: var(--size-1); line-height: 1.55; margin: 0; }
+
+/* A leader's first questions on the teacher plate, answered in the open. */
+.questionBand { background: var(--plate-teacher); border-radius: 24px; padding-inline: clamp(24px, 4vw, 48px); box-sizing: border-box; }
+.questions { margin: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px 48px; }
+.questions > div { border-top: 1px solid var(--hairline); padding-top: 20px; }
+.questions dt { font-family: var(--display); font-weight: var(--weight-display); font-size: var(--size-4); line-height: 1.25; }
+.questions dd { margin: 10px 0 0; color: var(--ink-soft); }
+
+.close { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 32px; align-items: end; background: var(--sky); color: var(--surface); }
+.close p { color: var(--surface); }
+.closeAction { display: inline-flex; align-items: center; gap: 12px; min-height: 48px; padding: 12px 24px; border-radius: 100px; background: var(--surface); color: var(--sky) !important; font-weight: var(--weight-strong); text-decoration: none; white-space: nowrap; }
+
+/* The Climate Action Plan case: grounds photo beside the pitch, then the funding door under it. */
+.climatePlan { display: grid; grid-template-columns: .8fr 1.2fr; gap: 56px; align-items: center; }
+.climatePhoto { position: relative; margin: 0; height: clamp(260px, 30vw, 380px); overflow: hidden; border-radius: 24px 24px 24px 120px; }
+.climatePhoto img { object-fit: cover; }
+.climatePlan h2 { margin: 14px 0 18px; }
+.climatePlan p:not([class]) { color: var(--ink-soft); }
+
+/* The funding door on the Schools page: an outlined plate with one way in. */
+.fundingBand { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 32px; align-items: end; border: 1px solid var(--hairline); border-radius: 24px; padding-inline: clamp(24px, 4vw, 48px); box-sizing: border-box; }
+.fundingBand h2 { margin: 12px 0 12px; }
+.fundingBand p:last-child { margin: 0; color: var(--ink-soft); }
+.fundingBand .action { margin: 0; white-space: nowrap; }
+
+/* Nature Park package: three stages, each a short list. */
+.stages { list-style: none; margin: 32px 0 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 32px; }
+.stages > li { border-top: 1px solid var(--hairline); padding-top: 24px; color: var(--living); }
+.stages h3 { color: var(--ink); font-size: var(--size-4); margin: 16px 0 12px; }
+.stages ul { margin: 0; padding-left: 1.1em; color: var(--ink); display: grid; gap: 10px; font-size: var(--size-1); line-height: 1.55; }
+.stageNotes { margin-top: 40px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+@media (max-width: 760px) { .stageNotes { grid-template-columns: 1fr; } }
+.page .stageNote { margin: 0; max-width: none; padding: 20px 24px; background: var(--plate-teacher); border-radius: 16px; }
+
+@media (max-width: 760px) {
+  .climatePlan { grid-template-columns: 1fr; gap: 28px; }
+  .climatePhoto { height: 240px; border-bottom-left-radius: 80px; }
+  .fundingBand { grid-template-columns: 1fr; align-items: start; }
+  .fundingBand .action { white-space: normal; }
+  .stages { grid-template-columns: 1fr; gap: 20px; }
+}
+
+@media (max-width: 1020px) { .featureList { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 760px) {
+  .schoolHero { grid-template-columns: 1fr; gap: 28px; }
+  .schoolHeroPhoto { height: 280px; border-top-right-radius: 90px; }
+  .questions { grid-template-columns: 1fr; gap: 20px; }
+  .close { grid-template-columns: 1fr; align-items: start; }
+}
+@media (max-width: 480px) { .featureList { grid-template-columns: 1fr; gap: 20px; } }
+
+/* Children page intro: one promise above the activity stories moved from the landing. */
+.childrenHero { padding-block: clamp(48px, 7vw, 88px) 0; box-sizing: border-box; }
+.childrenHero h1 { font-size: clamp(44px, 5.6vw, 80px); line-height: .98; letter-spacing: -.045em; margin: 20px 0 24px; max-width: 14ch; }
+.childrenHero h1 span { color: var(--living); }
+.childrenHero .lead { max-width: 36ch; }
+/* The stories follow the intro closely; the landing section's own top space is for a page without an h1 above it. */
+.childrenHero + * { padding-top: clamp(24px, 4vw, 48px); }
+
+/* Schools pages take the school blue for their buttons, the same ground as the
+   landing's schools card (Johan, 2026-09-14); Parents keeps the green action. */
+.schoolPage .action { background: var(--sky); color: var(--surface) !important; }
+.schoolPage .action:focus-visible { outline: 3px solid var(--sky); outline-offset: 4px; }

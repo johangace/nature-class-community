@@ -1,0 +1,362 @@
+{
+  "provider": "globi",
+  "evidenceKind": "published-relationship",
+  "use": "question-to-investigate",
+  "status": "unresolved",
+  "reason": "no-eligible-evidence",
+  "snapshotId": "globi-72a4d146fc803d81",
+  "retrievedAt": "2026-09-07T18:27:47.577320Z",
+  "refreshAfter": "2026-10-07T18:27:47.577320Z",
+  "coverage": {
+    "requestedTaxa": 2,
+    "matchedTaxa": 2,
+    "complete": false,
+    "scope": "reviewed-20-taxon-subset",
+    "byTaxon": [
+      {
+        "scientificName": "Turdus migratorius",
+        "retained": 10,
+        "interactionTypes": [
+          "eats"
+        ],
+        "sampledRows": 760,
+        "eligibleBeforeRefutations": 74,
+        "screenedOutRows": 686,
+        "refutedRows": 0,
+        "duplicateRows": 10,
+        "cappedRows": 54,
+        "legacyRetained": 0,
+        "datasetReferenceRetained": 10
+      },
+      {
+        "scientificName": "Poecile atricapillus",
+        "retained": 2,
+        "interactionTypes": [
+          "eats"
+        ],
+        "sampledRows": 748,
+        "eligibleBeforeRefutations": 3,
+        "screenedOutRows": 745,
+        "refutedRows": 0,
+        "duplicateRows": 1,
+        "cappedRows": 0,
+        "legacyRetained": 0,
+        "datasetReferenceRetained": 2
+      }
+    ]
+  },
+  "quality": {
+    "taxonMatch": "exact-scientific-name",
+    "refutations": "checked-snapshot",
+    "refutationArchiveUrl": "https://zenodo.org/records/20546682/files/refuted-interactions.tsv.gz",
+    "refutationSha256": "674e5b069992ab8a7fe98d76d0b9eb531c90c3ca267f434d14aa44a72ebbf8d6",
+    "localInteractionConfirmed": false
+  },
+  "entries": [],
+  "datasetReferences": {
+    "status": "resolved",
+    "reason": "snapshot-subset",
+    "entries": [
+      {
+        "id": "globi:408b271057e14268662a5dac",
+        "sourceTaxon": {
+          "scientificName": "Poecile atricapillus",
+          "externalId": "COL:4KSBV"
+        },
+        "interactionType": "eats",
+        "targetTaxon": {
+          "scientificName": "Archips fumiferana",
+          "externalId": "ITIS:117861"
+        },
+        "evidenceKind": "published-relationship",
+        "spatialScope": "study-context-only",
+        "studyLocation": null,
+        "eventDate": "1949-01-01T00:00:00Z",
+        "studyCitation": "Mitchell, R. T. 1952. Consumption of Spruce Budworms by Birds in a Maine Spruce-Fir Forest. Journal of Forestry 50(5):387-389.",
+        "studyUrl": null,
+        "datasetId": "hurlbertlab/dietdatabase",
+        "datasetCitation": "Hurlbert, A. H., Olsen, A. M., Sawyer, M. M., and Winner, P. M. 2021. Avian Diet Database. https://doi.org/10.5281/zenodo.5151056",
+        "datasetArchiveUrl": "https://zenodo.org/records/12683972/files/hurlbertlab/dietdatabase-v.1.0.8.zip",
+        "license": "CC-BY-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "retrievedAt": "2026-09-07T18:27:47.577320Z",
+        "citationBasis": "dataset-archive"
+      },
+      {
+        "id": "globi:42b7ae3f57e17876e9357111",
+        "sourceTaxon": {
+          "scientificName": "Poecile atricapillus",
+          "externalId": "COL:4KSBV"
+        },
+        "interactionType": "eats",
+        "targetTaxon": {
+          "scientificName": "Lymantria dispar",
+          "externalId": "ITIS:709249"
+        },
+        "evidenceKind": "published-relationship",
+        "spatialScope": "study-context-only",
+        "studyLocation": null,
+        "eventDate": "1985-06-01T00:00:00Z",
+        "studyCitation": "Cooper, R. J. 1988. Dietary relationships among insectivorous birds of an eastern deciduous forest. Doctoral Dissertation. West Viriginia University.",
+        "studyUrl": null,
+        "datasetId": "hurlbertlab/dietdatabase",
+        "datasetCitation": "Hurlbert, A. H., Olsen, A. M., Sawyer, M. M., and Winner, P. M. 2021. Avian Diet Database. https://doi.org/10.5281/zenodo.5151056",
+        "datasetArchiveUrl": "https://zenodo.org/records/12683972/files/hurlbertlab/dietdatabase-v.1.0.8.zip",
+        "license": "CC-BY-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "retrievedAt": "2026-09-07T18:27:47.577320Z",
+        "citationBasis": "dataset-archive"
+      },
+      {
+        "id": "globi:059619df52739921654e6bda",
+        "sourceTaxon": {
+          "scientificName": "Turdus migratorius",
+          "externalId": "WD:Q460967"
+        },
+        "interactionType": "eats",
+        "targetTaxon": {
+          "scientificName": "Archips fumiferana",
+          "externalId": "ITIS:117861"
+        },
+        "evidenceKind": "published-relationship",
+        "spatialScope": "study-context-only",
+        "studyLocation": null,
+        "eventDate": "1950-01-01T00:00:00Z",
+        "studyCitation": "Mitchell, R. T. 1952. Consumption of Spruce Budworms by Birds in a Maine Spruce-Fir Forest. Journal of Forestry 50(5):387-389.",
+        "studyUrl": null,
+        "datasetId": "hurlbertlab/dietdatabase",
+        "datasetCitation": "Hurlbert, A. H., Olsen, A. M., Sawyer, M. M., and Winner, P. M. 2021. Avian Diet Database. https://doi.org/10.5281/zenodo.5151056",
+        "datasetArchiveUrl": "https://zenodo.org/records/12683972/files/hurlbertlab/dietdatabase-v.1.0.8.zip",
+        "license": "CC-BY-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "retrievedAt": "2026-09-07T18:27:47.577320Z",
+        "citationBasis": "dataset-archive"
+      },
+      {
+        "id": "globi:8c8318bcf23eb09854ecf141",
+        "sourceTaxon": {
+          "scientificName": "Turdus migratorius",
+          "externalId": "WD:Q460967"
+        },
+        "interactionType": "eats",
+        "targetTaxon": {
+          "scientificName": "Buprestis aurulenta",
+          "externalId": "ITIS:188444"
+        },
+        "evidenceKind": "published-relationship",
+        "spatialScope": "study-context-only",
+        "studyLocation": null,
+        "eventDate": "1962-12-01T00:00:00Z",
+        "studyCitation": "Otvos, I. S. and R. W. Stark. 1985. Arthropod food of some forest-inhabiting birds. Canadian Entomologist 117:971-990.",
+        "studyUrl": null,
+        "datasetId": "hurlbertlab/dietdatabase",
+        "datasetCitation": "Hurlbert, A. H., Olsen, A. M., Sawyer, M. M., and Winner, P. M. 2021. Avian Diet Database. https://doi.org/10.5281/zenodo.5151056",
+        "datasetArchiveUrl": "https://zenodo.org/records/12683972/files/hurlbertlab/dietdatabase-v.1.0.8.zip",
+        "license": "CC-BY-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "retrievedAt": "2026-09-07T18:27:47.577320Z",
+        "citationBasis": "dataset-archive"
+      },
+      {
+        "id": "globi:6ed69cba4c9fa4f2f56f06ff",
+        "sourceTaxon": {
+          "scientificName": "Turdus migratorius",
+          "externalId": "WD:Q460967"
+        },
+        "interactionType": "eats",
+        "targetTaxon": {
+          "scientificName": "Dendroctonus valens",
+          "externalId": "ITIS:114924"
+        },
+        "evidenceKind": "published-relationship",
+        "spatialScope": "study-context-only",
+        "studyLocation": null,
+        "eventDate": "1962-12-01T00:00:00Z",
+        "studyCitation": "Otvos, I. S. and R. W. Stark. 1985. Arthropod food of some forest-inhabiting birds. Canadian Entomologist 117:971-990.",
+        "studyUrl": null,
+        "datasetId": "hurlbertlab/dietdatabase",
+        "datasetCitation": "Hurlbert, A. H., Olsen, A. M., Sawyer, M. M., and Winner, P. M. 2021. Avian Diet Database. https://doi.org/10.5281/zenodo.5151056",
+        "datasetArchiveUrl": "https://zenodo.org/records/12683972/files/hurlbertlab/dietdatabase-v.1.0.8.zip",
+        "license": "CC-BY-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "retrievedAt": "2026-09-07T18:27:47.577320Z",
+        "citationBasis": "dataset-archive"
+      },
+      {
+        "id": "globi:3fbf4f9213f1ad621f871348",
+        "sourceTaxon": {
+          "scientificName": "Turdus migratorius",
+          "externalId": "WD:Q460967"
+        },
+        "interactionType": "eats",
+        "targetTaxon": {
+          "scientificName": "Schinus molle",
+          "externalId": "ITIS:28811"
+        },
+        "evidenceKind": "published-relationship",
+        "spatialScope": "study-context-only",
+        "studyLocation": null,
+        "eventDate": "1914-01-01T00:00:00Z",
+        "studyCitation": "Beal, F. E. L. 1915. Food of the robins and bluebirds of the United States. Bulletin of the U.S. Department of Agriculture 171:1-31.",
+        "studyUrl": null,
+        "datasetId": "hurlbertlab/dietdatabase",
+        "datasetCitation": "Hurlbert, A. H., Olsen, A. M., Sawyer, M. M., and Winner, P. M. 2021. Avian Diet Database. https://doi.org/10.5281/zenodo.5151056",
+        "datasetArchiveUrl": "https://zenodo.org/records/12683972/files/hurlbertlab/dietdatabase-v.1.0.8.zip",
+        "license": "CC-BY-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "retrievedAt": "2026-09-07T18:27:47.577320Z",
+        "citationBasis": "dataset-archive"
+      },
+      {
+        "id": "globi:81703204e1096e193795b72e",
+        "sourceTaxon": {
+          "scientificName": "Turdus migratorius",
+          "externalId": "WD:Q460967"
+        },
+        "interactionType": "eats",
+        "targetTaxon": {
+          "scientificName": "Smilax bona-nox",
+          "externalId": "ITIS:43341"
+        },
+        "evidenceKind": "published-relationship",
+        "spatialScope": "study-context-only",
+        "studyLocation": null,
+        "eventDate": "1914-01-01T00:00:00Z",
+        "studyCitation": "Beal, F. E. L. 1915. Food of the robins and bluebirds of the United States. Bulletin of the U.S. Department of Agriculture 171:1-31.",
+        "studyUrl": null,
+        "datasetId": "hurlbertlab/dietdatabase",
+        "datasetCitation": "Hurlbert, A. H., Olsen, A. M., Sawyer, M. M., and Winner, P. M. 2021. Avian Diet Database. https://doi.org/10.5281/zenodo.5151056",
+        "datasetArchiveUrl": "https://zenodo.org/records/12683972/files/hurlbertlab/dietdatabase-v.1.0.8.zip",
+        "license": "CC-BY-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "retrievedAt": "2026-09-07T18:27:47.577320Z",
+        "citationBasis": "dataset-archive"
+      },
+      {
+        "id": "globi:00b1a507b6c4a81a6430d07b",
+        "sourceTaxon": {
+          "scientificName": "Turdus migratorius",
+          "externalId": "WD:Q460967"
+        },
+        "interactionType": "eats",
+        "targetTaxon": {
+          "scientificName": "Arhyssus nigristernum",
+          "externalId": "EOL:609979"
+        },
+        "evidenceKind": "published-relationship",
+        "spatialScope": "study-context-only",
+        "studyLocation": null,
+        "eventDate": "1914-01-01T00:00:00Z",
+        "studyCitation": "Beal, F. E. L. 1915. Food of the robins and bluebirds of the United States. Bulletin of the U.S. Department of Agriculture 171:1-31.",
+        "studyUrl": null,
+        "datasetId": "hurlbertlab/dietdatabase",
+        "datasetCitation": "Hurlbert, A. H., Olsen, A. M., Sawyer, M. M., and Winner, P. M. 2021. Avian Diet Database. https://doi.org/10.5281/zenodo.5151056",
+        "datasetArchiveUrl": "https://zenodo.org/records/12683972/files/hurlbertlab/dietdatabase-v.1.0.8.zip",
+        "license": "CC-BY-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "retrievedAt": "2026-09-07T18:27:47.577320Z",
+        "citationBasis": "dataset-archive"
+      },
+      {
+        "id": "globi:859ce5577b098176637f5a00",
+        "sourceTaxon": {
+          "scientificName": "Turdus migratorius",
+          "externalId": "WD:Q460967"
+        },
+        "interactionType": "eats",
+        "targetTaxon": {
+          "scientificName": "Melia azedarach",
+          "externalId": "ITIS:29024"
+        },
+        "evidenceKind": "published-relationship",
+        "spatialScope": "study-context-only",
+        "studyLocation": null,
+        "eventDate": "1914-01-01T00:00:00Z",
+        "studyCitation": "Beal, F. E. L. 1915. Food of the robins and bluebirds of the United States. Bulletin of the U.S. Department of Agriculture 171:1-31.",
+        "studyUrl": null,
+        "datasetId": "hurlbertlab/dietdatabase",
+        "datasetCitation": "Hurlbert, A. H., Olsen, A. M., Sawyer, M. M., and Winner, P. M. 2021. Avian Diet Database. https://doi.org/10.5281/zenodo.5151056",
+        "datasetArchiveUrl": "https://zenodo.org/records/12683972/files/hurlbertlab/dietdatabase-v.1.0.8.zip",
+        "license": "CC-BY-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "retrievedAt": "2026-09-07T18:27:47.577320Z",
+        "citationBasis": "dataset-archive"
+      },
+      {
+        "id": "globi:38cfe3c1ba045b6b9a6fd8af",
+        "sourceTaxon": {
+          "scientificName": "Turdus migratorius",
+          "externalId": "WD:Q460967"
+        },
+        "interactionType": "eats",
+        "targetTaxon": {
+          "scientificName": "Myodocha serripes",
+          "externalId": "ITIS:108081"
+        },
+        "evidenceKind": "published-relationship",
+        "spatialScope": "study-context-only",
+        "studyLocation": null,
+        "eventDate": "1914-01-01T00:00:00Z",
+        "studyCitation": "Beal, F. E. L. 1915. Food of the robins and bluebirds of the United States. Bulletin of the U.S. Department of Agriculture 171:1-31.",
+        "studyUrl": null,
+        "datasetId": "hurlbertlab/dietdatabase",
+        "datasetCitation": "Hurlbert, A. H., Olsen, A. M., Sawyer, M. M., and Winner, P. M. 2021. Avian Diet Database. https://doi.org/10.5281/zenodo.5151056",
+        "datasetArchiveUrl": "https://zenodo.org/records/12683972/files/hurlbertlab/dietdatabase-v.1.0.8.zip",
+        "license": "CC-BY-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "retrievedAt": "2026-09-07T18:27:47.577320Z",
+        "citationBasis": "dataset-archive"
+      },
+      {
+        "id": "globi:793febf56e07241ad79c99f1",
+        "sourceTaxon": {
+          "scientificName": "Turdus migratorius",
+          "externalId": "WD:Q460967"
+        },
+        "interactionType": "eats",
+        "targetTaxon": {
+          "scientificName": "Arachnis zuni",
+          "externalId": "ITIS:937880"
+        },
+        "evidenceKind": "published-relationship",
+        "spatialScope": "study-context-only",
+        "studyLocation": null,
+        "eventDate": "1914-01-01T00:00:00Z",
+        "studyCitation": "Beal, F. E. L. 1915. Food of the robins and bluebirds of the United States. Bulletin of the U.S. Department of Agriculture 171:1-31.",
+        "studyUrl": null,
+        "datasetId": "hurlbertlab/dietdatabase",
+        "datasetCitation": "Hurlbert, A. H., Olsen, A. M., Sawyer, M. M., and Winner, P. M. 2021. Avian Diet Database. https://doi.org/10.5281/zenodo.5151056",
+        "datasetArchiveUrl": "https://zenodo.org/records/12683972/files/hurlbertlab/dietdatabase-v.1.0.8.zip",
+        "license": "CC-BY-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "retrievedAt": "2026-09-07T18:27:47.577320Z",
+        "citationBasis": "dataset-archive"
+      },
+      {
+        "id": "globi:d5cce6f69257b7034a2e1d55",
+        "sourceTaxon": {
+          "scientificName": "Turdus migratorius",
+          "externalId": "WD:Q460967"
+        },
+        "interactionType": "eats",
+        "targetTaxon": {
+          "scientificName": "Melanoplus devastator",
+          "externalId": "ITIS:102213"
+        },
+        "evidenceKind": "published-relationship",
+        "spatialScope": "study-context-only",
+        "studyLocation": null,
+        "eventDate": "1914-01-01T00:00:00Z",
+        "studyCitation": "Beal, F. E. L. 1915. Food of the robins and bluebirds of the United States. Bulletin of the U.S. Department of Agriculture 171:1-31.",
+        "studyUrl": null,
+        "datasetId": "hurlbertlab/dietdatabase",
+        "datasetCitation": "Hurlbert, A. H., Olsen, A. M., Sawyer, M. M., and Winner, P. M. 2021. Avian Diet Database. https://doi.org/10.5281/zenodo.5151056",
+        "datasetArchiveUrl": "https://zenodo.org/records/12683972/files/hurlbertlab/dietdatabase-v.1.0.8.zip",
+        "license": "CC-BY-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "retrievedAt": "2026-09-07T18:27:47.577320Z",
+        "citationBasis": "dataset-archive"
+      }
+    ]
+  }
+}

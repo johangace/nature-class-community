@@ -1,0 +1,1798 @@
+{
+  "id": "autumn-garden",
+  "title": "The autumn garden",
+  "subject": "Nature study",
+  "ageBand": "4-7",
+  "collection": {
+    "id": "plant-environment",
+    "label": "Plant environment"
+  },
+  "sessions": [
+    {
+      "id": "garden-w1-autumn-detectives",
+      "prompt": "How do we know autumn has arrived?",
+      "doorQuestion": "From where you are standing, what is one thing that was not here in summer?",
+      "title": "Autumn detectives",
+      "topic": "Finding the evidence that the season has changed",
+      "topicTags": [
+        "seasons",
+        "senses"
+      ],
+      "primaryTopic": "seasons",
+      "validity": {
+        "requiresSeason": [
+          "autumn"
+        ],
+        "requiresDriver": [
+          "deciduous-leaf-fall"
+        ]
+      },
+      "objective": "Notice and name the changes autumn has made to the garden, using all the senses",
+      "childWorkSummary": "Children walk the garden as detectives, gather evidence that the season has changed with their eyes, ears, hands and noses, and start a nature journal with one drawing of something they noticed themselves.",
+      "namedSkill": "noticing change",
+      "kit": [
+        "one journal or folded paper booklet per child",
+        "pencils and crayons",
+        "a small bag or basket for evidence"
+      ],
+      "durationMin": 45,
+      "preparation": "Walk the space yourself the day before and find three changes worth being led to: a tree turning, a patch of fallen leaves, a plant dying back. You will not point them out; you will steer the wander past them.",
+      "spaceNeeded": "Any outdoor space with at least one plant or tree in it",
+      "settle": true,
+      "primer": {
+        "summary": "Autumn is the most visible season: leaves turn and fall, air cools, rain and wind pick up, plants die back and animals change what they do. This first session does not teach any of that. It sends children out as detectives to find the evidence themselves, then opens the journal they will keep all term. Everything later in the pack grows from what they notice today.",
+        "why": "A child who is told it is autumn learns a word. A child who finds autumn, in a colder railing or a yellowing leaf, learns that looking works. That confidence is the foundation for every investigation that follows.",
+        "glossary": [
+          {
+            "term": "evidence",
+            "definition": "Something you can see, hear, feel or smell that shows a thing is true.",
+            "forChildren": "A clue. Detectives collect clues."
+          },
+          {
+            "term": "season",
+            "definition": "One of the year's repeating chapters, each with its own weather and its own jobs for plants and animals.",
+            "forChildren": "The year has chapters, like a book. We are in the autumn chapter."
+          }
+        ],
+        "childFriendlyExamples": [
+          "The trees are getting undressed for winter.",
+          "Summer is packing up. What has it already put away?"
+        ]
+      },
+      "nodeSeq": 27,
+      "phases": [
+        {
+          "nid": "p1",
+          "key": "brief",
+          "title": "The detective brief",
+          "mode": "present",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "nid": "b2",
+              "type": "say-aloud",
+              "text": "Something has been changing our garden. It came quietly, without asking anyone. Today you are detectives, and your job is to find the evidence. Real detectives use everything: eyes, ears, hands, noses."
+            },
+            {
+              "nid": "b3",
+              "type": "teacher-note",
+              "text": "Resist naming autumn yourself. The word should arrive from a child, or wait. The mystery frame only works while the answer is theirs to find."
+            },
+            {
+              "nid": "b4",
+              "type": "conditions-line",
+              "fallbackText": "Whatever the sky is doing right now is part of the evidence. Name it together before you set off."
+            }
+          ]
+        },
+        {
+          "nid": "p5",
+          "key": "hunt",
+          "title": "The evidence hunt",
+          "mode": "work",
+          "childTask": "Find as much evidence as you can that the garden is changing. Collect what the ground offers; point at what it does not.",
+          "durationMin": 16,
+          "blocks": [
+            {
+              "nid": "b8",
+              "type": "say-aloud",
+              "text": "Walk slowly. When you find a clue, stop and really meet it. Is it a colour? A sound? Something under your shoes? Collect it if the ground gives it to you, and point it out if it is still attached."
+            },
+            {
+              "nid": "b9",
+              "type": "say-aloud",
+              "text": "Now close your eyes for a moment where you stand. What can you hear? What can you smell? Detectives trust every sense.",
+              "abilityVariants": {
+                "y2": "Find one clue nobody else has found yet. The best detectives look where nobody else is looking: up high, down low, underneath."
+              }
+            },
+            {
+              "nid": "b10",
+              "type": "teacher-note",
+              "text": "Steer the wander past the three changes you scouted, without pointing. Kneel beside whoever finds one and ask what they think happened here. The question does more than the answer."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t6",
+              "when": "Someone says there is nothing to find",
+              "then": "Shrink the world: hand them a leaf and ask what colour it was in summer. One clue starts the engine."
+            },
+            {
+              "nid": "t7",
+              "when": "The collecting turns into armfuls",
+              "then": "Turn them into curators: each detective keeps their three best pieces of evidence and returns the rest to the ground where it was working."
+            }
+          ],
+          "conditionVariants": [
+            {
+              "nid": "v11",
+              "when": "wet",
+              "phase": {
+                "nid": "p12",
+                "key": "hunt-wet",
+                "title": "The evidence hunt (wet day)",
+                "mode": "work",
+                "childTask": "Rain is evidence too. Find what the rain is changing right now.",
+                "durationMin": 16,
+                "blocks": [
+                  {
+                    "nid": "b13",
+                    "type": "say-aloud",
+                    "text": "Today the weather itself is a clue. Rain is one of autumn's helpers. Find a puddle that was not here in summer. Find where the water goes. Smell the air: rain wakes the smell of the soil."
+                  },
+                  {
+                    "nid": "b14",
+                    "type": "teacher-note",
+                    "text": "Keep the loop short and near shelter. Wet evidence still comes inside: a shiny leaf, a dripping seed head. The journal drawing can be of the puddle."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "nid": "p15",
+          "key": "journal",
+          "title": "Open the case file",
+          "mode": "work",
+          "childTask": "Draw one piece of evidence you found yourself. This journal is yours for the whole season.",
+          "durationMin": 14,
+          "blocks": [
+            {
+              "nid": "b16",
+              "type": "teacher-note",
+              "text": "Hand out the journals with some ceremony: this is a detective's case file, and it will be kept all term. Date the first page together."
+            },
+            {
+              "nid": "b17",
+              "type": "demo",
+              "move": "The slow look, then draw",
+              "steps": [
+                {
+                  "text": "Put your evidence on the table in front of you."
+                },
+                {
+                  "text": "Look at it for three slow breaths before your pencil moves."
+                },
+                {
+                  "text": "Draw what you actually see, not what you remember."
+                }
+              ],
+              "look": "Notice one thing about it you had not seen outside.",
+              "materials": [
+                "a piece of collected evidence",
+                "journal",
+                "pencil"
+              ]
+            },
+            {
+              "nid": "b18",
+              "type": "say-aloud",
+              "text": "Draw your favourite clue. It does not need to be neat. It needs to be yours."
+            }
+          ]
+        },
+        {
+          "nid": "p19",
+          "key": "circle",
+          "title": "The detectives report",
+          "mode": "gather",
+          "durationMin": 7,
+          "blocks": [
+            {
+              "nid": "b20",
+              "type": "circle-question",
+              "text": "What is your best piece of evidence that the season is changing?"
+            },
+            {
+              "nid": "b21",
+              "type": "circle-question",
+              "text": "What do you think the garden will look like when winter comes?"
+            },
+            {
+              "nid": "b22",
+              "type": "teacher-note",
+              "text": "Write two or three of their winter predictions somewhere you can keep. Session eight returns to them, and children meeting their own September guesses in December is one of the best moments in the pack."
+            },
+            {
+              "nid": "b23",
+              "type": "named-skill",
+              "skill": "noticing change"
+            }
+          ]
+        }
+      ],
+      "childSheet": [
+        {
+          "nid": "b24",
+          "type": "sheet-title",
+          "title": "The detective's evidence",
+          "nameLine": "This case was investigated by"
+        },
+        {
+          "nid": "b25",
+          "type": "collage-zone",
+          "hint": "Draw or stick your best clue that autumn has arrived."
+        },
+        {
+          "nid": "b26",
+          "type": "notice-line",
+          "prompt": "One sound or smell I noticed outside:"
+        },
+        {
+          "nid": "b27",
+          "type": "parent-line",
+          "text": "For home: we were detectives today, hunting for evidence that the season is changing. Ask me for my best clue."
+        }
+      ],
+      "standards": [
+        {
+          "system": "england",
+          "code": "Year 1 · Seasonal changes",
+          "text": "observe changes across the 4 seasons"
+        }
+      ],
+      "celebration": {
+        "headline": "You found the evidence: autumn is here, and you proved it yourselves",
+        "emoji": "🍂",
+        "keepsake": "Nobody told this class it was autumn. They found out.",
+        "nextWeekTease": "Next time, one single clue gets the full investigation: the leaf."
+      },
+      "topicLine": "Today we are detectives, looking for clues that autumn has arrived in our garden.",
+      "seasonNote": {
+        "teacher": "The garden is only just starting to change: a few leaves turning, fruit and seed on the ground, cooler mornings. Early evidence is small, so the detectives will need to look closely rather than expect a carpet of gold.",
+        "child": "It is early autumn. The garden is starting to change a little bit at a time, and we are going to look for the clues."
+      }
+    },
+    {
+      "id": "garden-w3-elements",
+      "prompt": "What is changing the garden: earth, air or water?",
+      "doorQuestion": "Stand still for a moment. What can you feel moving the garden right now?",
+      "title": "Earth, air and water",
+      "topic": "The forces working on the autumn garden",
+      "topicTags": [
+        "weather",
+        "soil",
+        "senses"
+      ],
+      "primaryTopic": "weather",
+      "validity": {
+        "requiresSeason": [
+          "autumn"
+        ]
+      },
+      "objective": "Investigate how soil, wind and water are each changing the garden, and find autumn's warm colours",
+      "childWorkSummary": "Children work through three short investigations: digging into what the soil holds, testing the wind with ribbons to find the windiest place, and following where rain and water go, then close with a hunt for autumn's warm colours.",
+      "namedSkill": "investigating",
+      "kit": [
+        "ribbons or light scarves, one per pair",
+        "hand trowels or old spoons",
+        "magnifying glasses if you have them",
+        "a colour card of warm colours: red, orange, yellow, gold, brown"
+      ],
+      "durationMin": 50,
+      "preparation": "Fill a jar with water the day before in case it has not rained: a poured puddle is an honest stand-in for a rained one. Check your digging patch is free of glass and litter.",
+      "spaceNeeded": "A patch of open soil you may dig in, plus somewhere the wind can reach",
+      "connectionToLast": "The leaves did not sort themselves onto the ground. Today we meet the forces that have been moving and changing them.",
+      "settle": true,
+      "conditionNotes": [
+        {
+          "when": [
+            "windy"
+          ],
+          "teacher": "Let the air investigation lead today: the wind is outside doing the demonstrations for you, and the ribbons will barely need an introduction.",
+          "child": "The wind is strong today. We cannot see it, but the ribbons can, so we will let them show us where it goes."
+        },
+        {
+          "when": [
+            "wet"
+          ],
+          "teacher": "The water investigation has the garden to itself today, so give it the longest turn and follow where the rain runs and where it soaks in.",
+          "child": "Rain is falling on the garden. We will follow where the water runs and where it sinks into the ground."
+        }
+      ],
+      "primer": {
+        "summary": "Three short investigations in one session: earth, air and water, each met with hands and senses rather than words. Children dig gently into soil to find what lives and hides there, give the invisible wind a shape with ribbons, and follow what rain changes. A closing colour hunt gathers autumn's warm palette. The framing is honest science: these are the forces working on the garden, not magic.",
+        "why": "Wind and decay are abstractions to a five year old until a ribbon snaps sideways or a trowel turns up a worm. Giving each force a hands-on moment turns the season's machinery into something a child has personally touched.",
+        "glossary": [
+          {
+            "term": "soil",
+            "definition": "The living top layer of the ground, made of broken rock, old plants and countless small creatures.",
+            "forChildren": "The ground's kitchen, where old leaves get turned back into food for plants."
+          },
+          {
+            "term": "sheltered",
+            "definition": "Protected from wind and weather.",
+            "forChildren": "A hiding place from the wind."
+          }
+        ],
+        "childFriendlyExamples": [
+          "You cannot see the wind, but you can see what it does. The ribbon is the wind's handwriting.",
+          "Rain does not disappear. It goes somewhere. Our job is to follow it."
+        ]
+      },
+      "nodeSeq": 26,
+      "phases": [
+        {
+          "nid": "p1",
+          "key": "earth",
+          "title": "Earth: what the ground holds",
+          "mode": "work",
+          "childTask": "Dig gently and find out who and what lives in the soil. Put everything back the way you found it.",
+          "durationMin": 12,
+          "blocks": [
+            {
+              "nid": "b2",
+              "type": "say-aloud",
+              "text": "First force: the earth itself. Dig gently and see what the ground is keeping: roots, stones, seeds, old leaves turning dark, maybe someone small and alive."
+            },
+            {
+              "nid": "b3",
+              "type": "demo",
+              "move": "The gentle turn",
+              "steps": [
+                {
+                  "text": "Slide the trowel in slowly, a little way from where you will look."
+                },
+                {
+                  "text": "Turn one small scoop over onto the ground beside the hole."
+                },
+                {
+                  "text": "Look first with eyes only. Then one soft finger."
+                }
+              ],
+              "look": "Anyone alive gets watched, never picked up, and their roof put carefully back.",
+              "materials": [
+                "trowel",
+                "a patch of soil"
+              ]
+            },
+            {
+              "nid": "b4",
+              "type": "say-aloud",
+              "text": "Who lives in the soil? Look under the leaves lying on top too. The dark crumbly bits were leaves once. Something is turning them into soil.",
+              "adaptsToPlace": true
+            },
+            {
+              "nid": "b5",
+              "type": "teacher-note",
+              "text": "The dark crumbly layer is the whole of session four in miniature. Do not explain it yet; just make sure hands meet it. Everything dug up goes back: the patch should look undisturbed when you leave."
+            }
+          ]
+        },
+        {
+          "nid": "p6",
+          "key": "air",
+          "title": "Air: hunting the wind",
+          "mode": "work",
+          "childTask": "Use your ribbon to find the windiest place in the garden, and the stillest.",
+          "durationMin": 12,
+          "blocks": [
+            {
+              "nid": "b8",
+              "type": "say-aloud",
+              "text": "Second force: the air. You cannot see wind, but your ribbon can. Hold it up. Where does it dance hardest? Go and find the windiest place in our garden."
+            },
+            {
+              "nid": "b9",
+              "type": "say-aloud",
+              "text": "Now the opposite hunt: find a place where your ribbon goes completely to sleep. Somewhere the wind cannot reach."
+            },
+            {
+              "nid": "b10",
+              "type": "teacher-note",
+              "text": "The sleeping ribbon matters as much as the dancing one: sheltered and exposed is exactly the distinction the animals need in session seven. Name the still places warmly: this is where you would put a nest."
+            },
+            {
+              "nid": "b11",
+              "type": "say-aloud",
+              "text": "Watch a tree in the wind. Does the trunk move, or just the branches and leaves? Which parts of the tree does the wind win against?",
+              "abilityVariants": {
+                "y2": "Make a wind map in your head: strongest place, stillest place. Why is the still place still? What is standing between it and the wind?"
+              }
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t7",
+              "when": "There is no wind at all today",
+              "then": "Become the wind: run with the ribbons, then walk with them, then creep. The garden's sheltered corners can still be found by asking where fallen leaves have gathered deepest."
+            }
+          ]
+        },
+        {
+          "nid": "p12",
+          "key": "water",
+          "title": "Water: following the rain",
+          "mode": "work",
+          "childTask": "Find what water is changing in the garden: puddles, damp soil, wet leaves. Follow where it goes.",
+          "durationMin": 10,
+          "blocks": [
+            {
+              "nid": "b13",
+              "type": "say-aloud",
+              "text": "Third force: water. Find its fingerprints: a puddle, dark damp soil, drops still holding onto a leaf. Feel a wet leaf and a dry leaf. What has the water changed?"
+            },
+            {
+              "nid": "b14",
+              "type": "teacher-note",
+              "text": "If the week has been dry, pour your jar of water slowly onto a patch of soil and watch it together: where does it go? The question is honest either way, and disappearing-into-the-ground is the answer that links water to roots."
+            }
+          ],
+          "conditionVariants": [
+            {
+              "nid": "v15",
+              "when": "wet",
+              "phase": {
+                "nid": "p16",
+                "key": "water-wet",
+                "title": "Water: it is here right now",
+                "mode": "work",
+                "childTask": "The rain is doing its work this minute. Catch it, follow it, find where it collects.",
+                "durationMin": 10,
+                "blocks": [
+                  {
+                    "nid": "b17",
+                    "type": "say-aloud",
+                    "text": "We do not have to imagine this force today: it is working right now. Hold out a hand and catch some. Follow a trickle. Find where the garden's water likes to collect, and smell the air while you are there."
+                  },
+                  {
+                    "nid": "b18",
+                    "type": "teacher-note",
+                    "text": "A genuinely rainy version of this session beats the dry one. Give the water phase the wind phase's minutes if the class is gripped."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "nid": "p19",
+          "key": "colours",
+          "title": "The warm colour hunt",
+          "mode": "gather",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b20",
+              "type": "say-aloud",
+              "text": "The three forces have repainted our garden. Last hunt of the day: find autumn's warm colours. Red, orange, yellow, gold, brown. Bring back one small fallen thing for each colour you can."
+            },
+            {
+              "nid": "b21",
+              "type": "circle-question",
+              "text": "Which force do you think is changing our garden the most: earth, air or water?"
+            },
+            {
+              "nid": "b22",
+              "type": "named-skill",
+              "skill": "investigating"
+            }
+          ]
+        }
+      ],
+      "childSheet": [
+        {
+          "nid": "b23",
+          "type": "sheet-title",
+          "title": "The three forces",
+          "nameLine": "This investigation was led by"
+        },
+        {
+          "nid": "b24",
+          "type": "collage-zone",
+          "hint": "Stick or draw one warm-coloured find for each colour you spotted."
+        },
+        {
+          "nid": "b25",
+          "type": "notice-line",
+          "prompt": "The windiest place in our garden is:"
+        },
+        {
+          "nid": "b26",
+          "type": "parent-line",
+          "text": "For home: we investigated what earth, air and water are each doing to the garden. Ask me where the wind sleeps."
+        }
+      ],
+      "standards": [
+        {
+          "system": "england",
+          "code": "Year 1 · Seasonal changes",
+          "text": "observe and describe weather associated with the seasons and how day length varies"
+        },
+        {
+          "system": "ngss",
+          "code": "K-ESS2-1",
+          "text": "Use and share observations of local weather conditions to describe patterns over time."
+        }
+      ],
+      "celebration": {
+        "headline": "You met the three forces that are repainting the garden",
+        "emoji": "🌬️",
+        "keepsake": "The ribbon is the wind's handwriting, and this class can read it.",
+        "nextWeekTease": "Next time we solve the biggest mystery so far: where do all the fallen leaves actually go?"
+      },
+      "topicLine": "Today is about the soil, the wind and the water, and what each one is doing to the garden.",
+      "seasonNote": {
+        "teacher": "Soil, wind and rain work hardest on the garden in autumn: leaves are coming down, the ground is softening and the weather is doing more of the moving than it did in summer. Whichever force is busiest today, the garden will show it.",
+        "child": "In autumn the wind, the rain and the ground are all changing the garden. We are going to look at what each one is doing."
+      }
+    },
+    {
+      "id": "garden-w4-leaf-to-soil",
+      "prompt": "Where does a fallen leaf go?",
+      "doorQuestion": "The leaves that fell last year are not lying here in a pile. Where did they go?",
+      "title": "From leaf to soil",
+      "topic": "Decomposition, decomposers and building the class compost",
+      "topicTags": [
+        "soil",
+        "minibeasts",
+        "trees",
+        "seasons"
+      ],
+      "primaryTopic": "soil",
+      "validity": {
+        "requiresSeason": [
+          "autumn"
+        ],
+        "requiresDriver": [
+          "deciduous-leaf-fall"
+        ]
+      },
+      "objective": "Discover that dead leaves are broken down by living things, and build a class compost to watch it happen",
+      "childWorkSummary": "Children hunt for decomposers under leaves and logs, then build the class compost in layers of brown and green material, water it, and open the compost diary they will keep for the rest of the season.",
+      "namedSkill": "watching change over time",
+      "kit": [
+        "a compost bin, bay or large container with drainage",
+        "collected fallen leaves and dry plant material",
+        "fruit and vegetable scraps saved from snack time",
+        "a watering can",
+        "the class journals, for the first compost diary page"
+      ],
+      "durationMin": 50,
+      "preparation": "Choose the compost's spot in advance: on soil if possible, reachable in wet shoes, visible enough that visiting it stays easy. Save fruit and vegetable scraps from snack for a few days beforehand. Nothing cooked, no meat, no dairy.",
+      "spaceNeeded": "A corner for a compost bin or heap, and ground with leaf litter or logs to search under",
+      "connectionToLast": "We found dark crumbly soil that was once leaves, and we never said how. Today we catch the workers doing it.",
+      "settle": true,
+      "conditionNotes": [
+        {
+          "when": [
+            "wet"
+          ],
+          "teacher": "Expect a good decomposer hunt today: rain calls the recycling crew up close to the surface, so the lifted leaves will be busy.",
+          "child": "The rain has soaked the ground. Worms and woodlice come up when it is wet, so we will look under the leaves."
+        },
+        {
+          "when": [
+            "dry"
+          ],
+          "teacher": "The decomposers go down out of sight when the ground is dry, so lift the damper leaves at the bottom of the pile and water the compost well once it is built.",
+          "child": "The ground is dry today. The small recyclers hide deeper when it is dry, so we will look under the damp leaves at the bottom."
+        }
+      ],
+      "primer": {
+        "summary": "The pack's turning point. Children hold a fresh leaf and a skeleton leaf, ask what happens between the two, and go hunting for the answer: the decomposers, worms, woodlice, beetles and fungi that break dead material down. Then the class builds its own compost in layers of brown and green, waters it, and opens a compost diary that will be revisited for the rest of the season. Nature's recycling system stops being a diagram and becomes a corner of their own garden.",
+        "why": "Where does a fallen leaf go is one of the first genuinely big questions a child can investigate to the end. The answer, that nothing in the garden is wasted and small living things run the whole recycling system, is the heart of everything this pack teaches.",
+        "glossary": [
+          {
+            "term": "decomposition",
+            "definition": "The breaking down of dead plants and animals into simpler material that returns to the soil.",
+            "forChildren": "How the garden takes old dead things apart and turns them back into soil."
+          },
+          {
+            "term": "decomposer",
+            "definition": "A living thing that feeds on dead material and breaks it down: worms, woodlice, fungi and many creatures too small to see.",
+            "forChildren": "The garden's recycling crew. Worms and woodlice are on the team."
+          },
+          {
+            "term": "compost",
+            "definition": "A managed heap of plant material that decomposers turn into rich dark food for the soil.",
+            "forChildren": "A restaurant we build for the recycling crew."
+          }
+        ],
+        "childFriendlyExamples": [
+          "Nothing in the garden goes in the bin. Everything gets taken apart and used again.",
+          "A worm is not yucky. A worm is a gardener who works for free."
+        ]
+      },
+      "nodeSeq": 23,
+      "phases": [
+        {
+          "nid": "p1",
+          "key": "mystery",
+          "title": "The mystery of the missing leaves",
+          "mode": "present",
+          "durationMin": 7,
+          "blocks": [
+            {
+              "nid": "b2",
+              "type": "say-aloud",
+              "text": "Here is a fresh leaf. Every autumn, thousands like it fall here. So why are we not buried in leaves up to the windows? Somewhere between falling and disappearing, something happens to every single leaf. Today we find out what."
+            },
+            {
+              "nid": "b3",
+              "type": "teacher-note",
+              "text": "If the ground offers one, show a leaf skeleton or a half-rotted leaf beside the fresh one: the same object at two points in time. Let the gap between them do the asking."
+            },
+            {
+              "nid": "b4",
+              "type": "say-aloud",
+              "text": "What do you think this leaf will look like by spring?"
+            }
+          ]
+        },
+        {
+          "nid": "p5",
+          "key": "hunt",
+          "title": "The decomposer hunt",
+          "mode": "work",
+          "childTask": "Look under leaves and around logs for the small creatures that take dead things apart. Watch them; do not collect them.",
+          "durationMin": 13,
+          "blocks": [
+            {
+              "nid": "b8",
+              "type": "say-aloud",
+              "text": "The leaf-eaters are hiding right under our feet. Lift the wet leaves gently. Look beside the logs and in the dark damp places. Worms, woodlice, beetles, and the little threads of fungi: this is the recycling crew.",
+              "adaptsToPlace": true
+            },
+            {
+              "nid": "b9",
+              "type": "demo",
+              "move": "The lift and look",
+              "steps": [
+                {
+                  "text": "Lift a handful of wet leaves like a lid, slowly."
+                },
+                {
+                  "text": "Look underneath with eyes only. Count who is home."
+                },
+                {
+                  "text": "Lower the lid gently back so their roof is just as it was."
+                }
+              ],
+              "look": "The creatures stay in their home. We are visitors, not collectors.",
+              "materials": [
+                "leaf litter",
+                "curious eyes"
+              ]
+            },
+            {
+              "nid": "b10",
+              "type": "teacher-note",
+              "text": "Damp and dark is where the crew works, so send the hunt there. Every find gets the same question: what do you think it eats? The answer, dead stuff, is the whole lesson arriving by itself."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t6",
+              "when": "Someone is scared of the creatures",
+              "then": "Give them the counting job from standing height: how many workers can you see from up there? Closeness is optional; membership of the hunt is not."
+            },
+            {
+              "nid": "t7",
+              "when": "Someone wants to keep a worm",
+              "then": "Flip the frame: the worm is at work, and taking it home means firing a gardener. Watch it clock back in under the leaves instead."
+            }
+          ]
+        },
+        {
+          "nid": "p11",
+          "key": "build",
+          "title": "Build the class compost",
+          "mode": "work",
+          "childTask": "Build the compost in layers: brown, green, a sprinkle of soil, then water. You are building a restaurant for the recycling crew.",
+          "durationMin": 15,
+          "blocks": [
+            {
+              "nid": "b12",
+              "type": "say-aloud",
+              "text": "We have met the recycling crew. Now we build them a restaurant, in layers, like a lasagne. Watch how one layer goes on, then we all build together."
+            },
+            {
+              "nid": "b13",
+              "type": "demo",
+              "move": "The lasagne of layers",
+              "steps": [
+                {
+                  "text": "A thick armful of brown: dry leaves and small twigs."
+                },
+                {
+                  "text": "A thinner layer of green: the scraps we saved."
+                },
+                {
+                  "text": "A sprinkle of soil or old compost, like a dusting of flour."
+                },
+                {
+                  "text": "Water it gently until it is damp as a wrung sponge, not a puddle."
+                }
+              ],
+              "look": "The heap should look like stripes if you could slice it.",
+              "materials": [
+                "compost bin or bay",
+                "brown material",
+                "green scraps",
+                "soil",
+                "watering can"
+              ]
+            },
+            {
+              "nid": "b14",
+              "type": "teacher-note",
+              "text": "Balance and air are the two adult jobs: roughly more brown than green, and no squashing the heap flat. Nothing cooked, no meat, no dairy, ever. Everyone should get at least one handful into the heap; the compost has to be theirs."
+            }
+          ]
+        },
+        {
+          "nid": "p15",
+          "key": "diary",
+          "title": "Open the compost diary",
+          "mode": "gather",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b16",
+              "type": "say-aloud",
+              "text": "The restaurant is open. Draw our compost in your journal exactly as it looks today, because it will not stay like this. We will visit every week and catch it changing."
+            },
+            {
+              "nid": "b17",
+              "type": "circle-question",
+              "text": "What do you think we will find when we visit the compost next week? And in the spring?"
+            },
+            {
+              "nid": "b18",
+              "type": "teacher-note",
+              "text": "The diary is the pack's long game: five minutes at the heap each week, one line or drawing per visit. What has changed, what has disappeared, who is visiting. Date every entry. By spring the diary is proof that the class watched dead leaves become soil."
+            },
+            {
+              "nid": "b19",
+              "type": "named-skill",
+              "skill": "watching change over time"
+            }
+          ]
+        }
+      ],
+      "childSheet": [
+        {
+          "nid": "b20",
+          "type": "sheet-title",
+          "title": "The compost diary begins",
+          "nameLine": "This compost is watched by"
+        },
+        {
+          "nid": "b21",
+          "type": "collage-zone",
+          "hint": "Draw our compost heap on its very first day. Show the layers."
+        },
+        {
+          "nid": "b22",
+          "type": "notice-line",
+          "prompt": "A decomposer I met today:"
+        },
+        {
+          "nid": "b23",
+          "type": "parent-line",
+          "text": "For home: we built a compost heap and met the creatures that turn dead leaves into soil. Ask me who is on the recycling crew."
+        }
+      ],
+      "standards": [
+        {
+          "system": "ngss",
+          "code": "K-LS1-1",
+          "text": "Use observations to describe patterns of what plants and animals (including humans) need to survive."
+        }
+      ],
+      "celebration": {
+        "headline": "You solved the mystery of the missing leaves and hired the recycling crew",
+        "emoji": "🪱",
+        "keepsake": "This class built a restaurant for worms, and the worms are coming.",
+        "nextWeekTease": "Next time the garden becomes a laboratory: potions, predictions and things that float."
+      },
+      "topicLine": "This lesson is about where a fallen leaf goes, and the tiny creatures that eat it.",
+      "seasonNote": {
+        "teacher": "Fallen leaves are piling up now, which is exactly the material a compost needs and the reason the decomposers under them are so busy this season. The garden is doing the same job on its own, one leaf layer at a time.",
+        "child": "Leaves are falling and piling up in the garden. Small creatures are already eating them, and we are going to look for those creatures."
+      }
+    },
+    {
+      "id": "garden-w5-potion-lab",
+      "prompt": "What happens when we mix materials from nature?",
+      "doorQuestion": "Look at what the ground is offering today. Which find do you predict will float, and which will sink?",
+      "title": "The nature potion lab",
+      "topic": "Predicting, mixing and observing with natural materials and water",
+      "topicTags": [
+        "water",
+        "senses",
+        "plants"
+      ],
+      "primaryTopic": "water",
+      "validity": {
+        "universal": true
+      },
+      "objective": "Make predictions and test them by mixing natural materials with water, using scientific words for what happens",
+      "childWorkSummary": "Children collect safe fallen materials, predict what each will do in water, then mix and stir their own nature potions, testing floating and sinking, colour change and texture change, and reporting what actually happened against what they predicted.",
+      "namedSkill": "predicting and checking",
+      "kit": [
+        "clear jars or cups, one per child or pair",
+        "water in jugs",
+        "stirring sticks or spoons",
+        "trays to contain spills",
+        "hand wipes"
+      ],
+      "durationMin": 50,
+      "preparation": "Half-fill the jugs before the session and set the trays out: a potion lab with dry tables at the start keeps the mixing as the event. Know your space's plants; the collecting rule is fallen material only, nothing picked, nothing from bins.",
+      "spaceNeeded": "A table or bench that can get wet, near where fallen material can be collected",
+      "connectionToLast": "The compost is our slow experiment. Today we run fast ones: what happens in minutes instead of months.",
+      "settle": true,
+      "primer": {
+        "summary": "The garden becomes a laboratory. Children collect safe fallen materials, and before anything touches water, they predict: float or sink? Will the water change colour? Then they mix, stir, observe and report what actually happened. The science is the loop itself: predict, test, look, say what you found. A closing beat of imaginative play, naming the potion, keeps the wonder without muddying the method.",
+        "why": "Prediction is the move that turns play into science. A child who says out loud what they expect, and then watches, has run a real experiment, and being cheerfully wrong teaches the most valuable lesson in the room: looking beats guessing.",
+        "glossary": [
+          {
+            "term": "predict",
+            "definition": "To say what you think will happen, before it happens.",
+            "forChildren": "A guess you make out loud before you look."
+          },
+          {
+            "term": "observe",
+            "definition": "To watch carefully and notice what actually happens.",
+            "forChildren": "Looking so hard you could tell someone who was not there."
+          },
+          {
+            "term": "float and sink",
+            "definition": "To rest on top of water, or to drop below it.",
+            "forChildren": "Does it ride on the water like a boat, or dive like a stone?"
+          }
+        ],
+        "childFriendlyExamples": [
+          "Scientists guess first on purpose. Then the water tells them the truth.",
+          "A wrong prediction is not a mistake. It is a surprise you earned."
+        ]
+      },
+      "nodeSeq": 25,
+      "phases": [
+        {
+          "nid": "p1",
+          "key": "gather",
+          "title": "Gather the ingredients",
+          "mode": "work",
+          "childTask": "Collect a small handful of fallen ingredients: leaves, petals, grass, a pinch of soil, twigs, seeds.",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b2",
+              "type": "say-aloud",
+              "text": "Every laboratory needs ingredients, and ours are lying on the ground: fallen leaves, dropped petals, grass, a twig, a seed, one pinch of soil. Only what the ground gives. Nothing gets picked, and nothing goes near our mouths."
+            },
+            {
+              "nid": "b3",
+              "type": "teacher-note",
+              "text": "Restate the two safety rules while hands are still empty: fallen only, and potions are for looking, never drinking. Said now, once, cheerfully, they hold all session."
+            }
+          ]
+        },
+        {
+          "nid": "p4",
+          "key": "predict",
+          "title": "Predictions first",
+          "mode": "present",
+          "durationMin": 9,
+          "blocks": [
+            {
+              "nid": "b5",
+              "type": "say-aloud",
+              "text": "Before anything touches the water: scientists guess first, out loud, on purpose. Hold up your leaf. Float or sink? Say it."
+            },
+            {
+              "nid": "b6",
+              "type": "say-aloud",
+              "text": "Now the rest of your ingredients. Your twig: float or sink? Your seed? Your pinch of soil?"
+            },
+            {
+              "nid": "b7",
+              "type": "say-aloud",
+              "text": "And the big one: will anything change the water's colour? Lock your guess in."
+            },
+            {
+              "nid": "b8",
+              "type": "teacher-note",
+              "text": "Collect a few predictions loudly enough that the room hears them: the payoff in the next phase needs the guesses on record. Model being wrong with relish yourself: predict something confidently, be wrong, be delighted."
+            },
+            {
+              "nid": "b9",
+              "type": "say-aloud",
+              "text": "There is no wrong guess before the test. There is only what the water says afterwards.",
+              "abilityVariants": {
+                "y2": "Make one prediction you are sure of and one you are truly not sure of. The unsure one is the better experiment. Why?"
+              }
+            }
+          ]
+        },
+        {
+          "nid": "p10",
+          "key": "mix",
+          "title": "The potion lab",
+          "mode": "work",
+          "childTask": "Test your predictions: add each ingredient, watch, stir, and see what changes. Then let the potion rest and look again.",
+          "durationMin": 18,
+          "blocks": [
+            {
+              "nid": "b13",
+              "type": "demo",
+              "move": "One at a time, watch between",
+              "steps": [
+                {
+                  "text": "Add one ingredient to your jar. Just one."
+                },
+                {
+                  "text": "Watch before you touch: float or sink? Was your guess right?"
+                },
+                {
+                  "text": "Add the next. Then stir, slowly, and watch everything move."
+                }
+              ],
+              "look": "The soil is the star: watch the water change when it goes in, and watch where it settles when the potion rests.",
+              "materials": [
+                "jar of water",
+                "collected ingredients",
+                "stirring stick"
+              ]
+            },
+            {
+              "nid": "b14",
+              "type": "say-aloud",
+              "text": "Say what you see, like a scientist: it floats, it sinks, the water is turning brown, the leaf feels different now it is wet. What actually happened? Was the water right, or were you?"
+            },
+            {
+              "nid": "b15",
+              "type": "teacher-note",
+              "text": "Feed the vocabulary while it has something to grip: predict, observe, compare, float, sink, change, texture. Words land when the thing they name is in front of the child. The wet leaf against the dry leaf is texture change made touchable."
+            },
+            {
+              "nid": "b16",
+              "type": "say-aloud",
+              "text": "Now let your potion rest while we tidy the lab. At the very end, come back for one last look: what changed while you were not watching?"
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t11",
+              "when": "A potion becomes soup: everything in at once",
+              "then": "No rescue needed, just a pivot: that jar becomes the mystery potion, and its owner reports the biggest change they can find in it."
+            },
+            {
+              "nid": "t12",
+              "when": "Someone lifts a jar toward their face",
+              "then": "Noses above the jar are allowed: smelling is observing. Repeat the drinking rule as a lab rule, not a telling off: no scientist drinks the experiment."
+            }
+          ]
+        },
+        {
+          "nid": "p17",
+          "key": "name",
+          "title": "Name the potion",
+          "mode": "gather",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b18",
+              "type": "say-aloud",
+              "text": "Every great potion needs a name and a power. Look at what you actually made: its colour, what floats in it, how it moves. Let the potion tell you its name."
+            },
+            {
+              "nid": "b19",
+              "type": "circle-question",
+              "text": "What is your potion called, what does it do, and what surprised you when you made it?"
+            },
+            {
+              "nid": "b20",
+              "type": "teacher-note",
+              "text": "The naming is the imagination beat and it has done its job in two minutes; hold the last minute for the surprise question, which is the science walking out of the door with them. Potions get poured onto the compost afterwards: even the experiment feeds the recycling crew."
+            },
+            {
+              "nid": "b21",
+              "type": "named-skill",
+              "skill": "predicting and checking"
+            }
+          ]
+        }
+      ],
+      "childSheet": [
+        {
+          "nid": "b22",
+          "type": "sheet-title",
+          "title": "My nature potion",
+          "nameLine": "This potion was brewed by"
+        },
+        {
+          "nid": "b23",
+          "type": "collage-zone",
+          "hint": "Draw your potion in its jar. Show what floated and what sank."
+        },
+        {
+          "nid": "b24",
+          "type": "notice-line",
+          "prompt": "My potion is called:"
+        },
+        {
+          "nid": "b25",
+          "type": "parent-line",
+          "text": "For home: we made nature potions today and guessed what would float before we looked. Ask me what surprised me."
+        }
+      ],
+      "standards": [],
+      "celebration": {
+        "headline": "You predicted, you tested, and the water told you the truth",
+        "emoji": "🧪",
+        "keepsake": "Thirty potions, and every single one an experiment with a name.",
+        "nextWeekTease": "Next time the garden feeds us for real: harvesting, making and tasting."
+      },
+      "topicLine": "Today we are mixing things from nature with water to see what happens.",
+      "seasonNote": {
+        "teacher": "Fallen leaves, seeds, petals and bits of bark are on the ground in every colour through autumn, all safe to gather without picking anything living. Later in the season the leaves are wetter and darker, which changes what the potions do.",
+        "child": "Autumn leaves the garden full of fallen things to collect. We are going to gather some from the ground and mix them with water."
+      }
+    },
+    {
+      "id": "garden-w6-garden-to-table",
+      "prompt": "How does the garden feed us?",
+      "doorQuestion": "Of everything growing here, what could actually be eaten, and which part of the plant is it?",
+      "title": "From garden to table",
+      "topic": "Harvesting, preparing and sharing seasonal food",
+      "topicTags": [
+        "plants",
+        "seasons"
+      ],
+      "primaryTopic": "plants",
+      "validity": {
+        "requiresSeason": [
+          "autumn"
+        ]
+      },
+      "objective": "Harvest or handle seasonal food, prepare a simple dish together, and trace where the scraps go next",
+      "childWorkSummary": "Children identify what is edible and ready in the garden or harvest basket, then wash, tear, cut and mix a simple seasonal dish with child-safe tools, counting and measuring as they go, sharing it fairly, and carrying the scraps to the class compost.",
+      "namedSkill": "making and sharing",
+      "kit": [
+        "seasonal produce from the garden, or a harvest basket brought in: apples, root vegetables, salad leaves, whatever is ready where you are",
+        "child-safe knives and chopping boards",
+        "large mixing bowl and spoons",
+        "cups or plates for sharing",
+        "soap and water or wipes for hands first"
+      ],
+      "durationMin": 55,
+      "preparation": "Decide the dish by what is actually ready: a chopped fruit salad, a leaf-and-crunch salad, or simply apples cut and shared count fully. Check allergies before the session. Wash produce beforehand if your water access outside is limited. If your garden grows no food yet, a market basket is an honest harvest: the questions of what part of the plant this is all still work.",
+      "spaceNeeded": "A wipeable table for food preparation, and access to handwashing",
+      "connectionToLast": "Our potions were for looking only. Today the garden makes us something we really can eat.",
+      "settle": true,
+      "primer": {
+        "summary": "The garden becomes a kitchen. Children identify what is edible and which part of the plant it is, then wash, tear, cut and mix a simple seasonal dish with child-safe tools. Counting and measuring live naturally in the cooking, fair sharing lives in the serving, and the scraps close the loop: they go to the class compost, where the recycling crew is waiting. Food stops being something from a packet and becomes part of the cycle the class has been watching for weeks.",
+        "why": "Eating something you harvested and prepared yourself is one of childhood's durable memories, and it quietly carries the pack's biggest idea: the same garden that feeds the worms feeds us, and nothing is wasted.",
+        "glossary": [
+          {
+            "term": "harvest",
+            "definition": "Gathering food that has finished growing and is ready to eat.",
+            "forChildren": "Collecting the food the garden has finished making."
+          },
+          {
+            "term": "seasonal",
+            "definition": "Food that is naturally ready at this time of year, in this place.",
+            "forChildren": "What the garden is serving right now. The menu changes with the seasons."
+          }
+        ],
+        "childFriendlyExamples": [
+          "A carrot is a root, an apple is a fruit, a lettuce is leaves. When you eat, you are always eating a part of a plant.",
+          "The peels are not rubbish. They are the recycling crew's dinner."
+        ]
+      },
+      "nodeSeq": 22,
+      "phases": [
+        {
+          "nid": "p1",
+          "key": "harvest",
+          "title": "The harvest",
+          "mode": "work",
+          "childTask": "Find or unpack what is ready to eat. For each food, work out which part of the plant it is.",
+          "durationMin": 12,
+          "blocks": [
+            {
+              "nid": "b2",
+              "type": "say-aloud",
+              "text": "Today the garden feeds us. First job: what here can actually be eaten, and is it ready? For everything we gather, one question: which part of the plant are we holding? A root? A leaf? A fruit? A seed?"
+            },
+            {
+              "nid": "b3",
+              "type": "teacher-note",
+              "text": "The nothing-goes-in-mouths-yet rule holds through the harvest: eating waits for clean hands and the table. If your harvest is a brought-in basket, unpack it slowly item by item and ask where each one grew: on a tree, under the ground, on a bush."
+            },
+            {
+              "nid": "b4",
+              "type": "say-aloud",
+              "text": "How did this food get here? Someone planted a seed, the plant grew all summer, and autumn finished it. We are eating months of work.",
+              "abilityVariants": {
+                "y2": "Sort the harvest into plant parts: roots together, leaves together, fruits together. Which team has the most? Which food was the hardest to place?"
+              }
+            }
+          ]
+        },
+        {
+          "nid": "p5",
+          "key": "make",
+          "title": "The making",
+          "mode": "work",
+          "childTask": "Wash, tear, cut and mix. Everyone's hands help make the dish.",
+          "durationMin": 22,
+          "blocks": [
+            {
+              "nid": "b8",
+              "type": "teacher-note",
+              "text": "Hands washed first, boards out, one job per child to start: washers, tearers, cutters, mixers, and rotate. The dish does not matter; the making does. Keep every scrap and peel in one bowl, visibly: it has a journey to finish later."
+            },
+            {
+              "nid": "b9",
+              "type": "demo",
+              "move": "The claw and the slow saw",
+              "steps": [
+                {
+                  "text": "Curl the holding hand into a claw, fingertips tucked away like a sleeping hedgehog."
+                },
+                {
+                  "text": "The knife hand saws slowly. Slow cuts are strong cuts."
+                },
+                {
+                  "text": "Pieces go in the big bowl. Peels and ends go in the scrap bowl."
+                }
+              ],
+              "look": "Watch a cut piece: the inside of a food looks different from its outside.",
+              "materials": [
+                "child-safe knife",
+                "chopping board",
+                "washed produce",
+                "scrap bowl"
+              ]
+            },
+            {
+              "nid": "b10",
+              "type": "say-aloud",
+              "text": "Cooks count and cooks measure. How many apples went in? Is the bowl half full or nearly whole? Do we have more red pieces or more green?"
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t6",
+              "when": "Someone will not touch or taste the food",
+              "then": "Every job counts as cooking: stirring, counting, serving. Tasting is invited, never required, and watching this dish get made is often what changes next month's answer."
+            },
+            {
+              "nid": "t7",
+              "when": "The cutting queue gets restless",
+              "then": "Split the waiting into jobs that matter: scrap-bowl monitor, table wiper, cup counter for the sharing. A restless queue is a staffing problem, not a behaviour problem."
+            }
+          ]
+        },
+        {
+          "nid": "p11",
+          "key": "share",
+          "title": "The sharing",
+          "mode": "gather",
+          "durationMin": 10,
+          "blocks": [
+            {
+              "nid": "b12",
+              "type": "say-aloud",
+              "text": "The cooks eat together. Before we do: how do we share this so it is fair? Count the cups, count the cooks. Fair means everyone gets their share of what everyone made."
+            },
+            {
+              "nid": "b13",
+              "type": "circle-question",
+              "text": "What did we eat today, and which part of the plant was it?"
+            },
+            {
+              "nid": "b14",
+              "type": "teacher-note",
+              "text": "Let the fair-sharing problem be genuinely theirs to solve, counting included. Eat together, unhurried; this is the session's celebration and it needs no dressing up."
+            }
+          ]
+        },
+        {
+          "nid": "p15",
+          "key": "scraps",
+          "title": "The scraps go home",
+          "mode": "gather",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "nid": "b16",
+              "type": "say-aloud",
+              "text": "One last job, and it closes a circle: the peels and ends go to our compost. The recycling crew turns them into soil, the soil feeds the plants, and the plants will feed us again. Seed, plant, harvest, food, scraps, soil, seed. Round and round."
+            },
+            {
+              "nid": "b17",
+              "type": "teacher-note",
+              "text": "Walk the scrap bowl to the compost together and add it as green material with a handful of brown on top. This is the food cycle taught in thirty seconds by a bowl of peelings; say the loop out loud as they layer it in."
+            },
+            {
+              "nid": "b18",
+              "type": "named-skill",
+              "skill": "making and sharing"
+            }
+          ]
+        }
+      ],
+      "childSheet": [
+        {
+          "nid": "b19",
+          "type": "sheet-title",
+          "title": "The garden fed us",
+          "nameLine": "This cook's name is"
+        },
+        {
+          "nid": "b20",
+          "type": "collage-zone",
+          "hint": "Draw the dish we made together. Label one ingredient with the part of the plant it is."
+        },
+        {
+          "nid": "b21",
+          "type": "notice-line",
+          "prompt": "My job in the kitchen was:"
+        },
+        {
+          "nid": "b22",
+          "type": "parent-line",
+          "text": "For home: we harvested, made and shared real food today, and the scraps went to our compost. Ask me which part of the plant I ate."
+        }
+      ],
+      "standards": [
+        {
+          "system": "ngss",
+          "code": "K-LS1-1",
+          "text": "Use observations to describe patterns of what plants and animals (including humans) need to survive."
+        }
+      ],
+      "celebration": {
+        "headline": "You harvested it, you made it, you shared it, and nothing was wasted",
+        "emoji": "🍎",
+        "keepsake": "The scraps went to the worms, and the cooks knew exactly why.",
+        "nextWeekTease": "We have eaten our autumn feast. Next time: what are the garden's animals doing about winter?"
+      },
+      "topicLine": "Our lesson today is about how the garden feeds us, and we are making something to eat.",
+      "seasonNote": {
+        "teacher": "The garden's harvest is ready in autumn: the last fruit and the root and leaf crops that grew all summer, with the growing season closing behind them. What is ready changes across the term, so use whatever the garden or the harvest basket holds this week.",
+        "child": "The garden has been growing food all summer, and autumn is when a lot of it is ready. We are going to see what we can eat."
+      }
+    },
+    {
+      "id": "garden-w7-winter-ready",
+      "prompt": "How do animals prepare for winter?",
+      "doorQuestion": "If you had to spend the whole winter outside in this garden, what would you need?",
+      "title": "Getting ready for winter",
+      "topic": "How wildlife prepares for winter: food, shelter and different strategies",
+      "topicTags": [
+        "minibeasts",
+        "birds",
+        "seasons"
+      ],
+      "primaryTopic": "minibeasts",
+      "validity": {
+        "requiresSeason": [
+          "autumn"
+        ]
+      },
+      "objective": "Discover the different ways animals prepare for winter, and improve the garden as a winter home",
+      "childWorkSummary": "Children plan their own imaginary winter outside to discover what every animal needs, hunt the garden for winter food and shelter, then build or improve real wildlife habitats: leaf piles, log piles and sheltered corners.",
+      "namedSkill": "caring for wildlife",
+      "kit": [
+        "gathered leaves and small branches for habitat building",
+        "a few logs or large sticks if the site has none",
+        "gloves for moving woody material"
+      ],
+      "durationMin": 50,
+      "preparation": "Scout a corner that can honestly stay untidy through winter, and clear it with whoever manages the site: a habitat that gets tidied away in November teaches the wrong lesson twice.",
+      "spaceNeeded": "A quiet corner that can be left wild over winter, plus ground to search",
+      "connectionToLast": "The garden fed us. Now the cold is coming, and the garden's animals have no cupboards and no coats. What is their plan?",
+      "settle": true,
+      "conditionNotes": [
+        {
+          "when": [
+            "cold"
+          ],
+          "teacher": "The cold air is asking today's question for you: the class will feel what the animals are up against before you say a word.",
+          "child": "It is cold today. The animals in our garden feel it too, and they have no coats, so we will make them warm places."
+        }
+      ],
+      "primer": {
+        "summary": "Winter is coming and the garden's animals have no houses, no shops and no coats. Children start by planning their own imaginary winter outside, which surfaces the real list: food, water, shelter, warmth, safety. They hunt the garden for winter food and sheltered places, meet the different strategies animals use, storing food, sleeping deeply, staying busy, flying away, and then do something real about it: building leaf piles, log piles and quiet corners that make the garden a better winter home. Not every animal hibernates; difference is the point.",
+        "why": "This is where noticing becomes caring. A child who has built a leaf pile for hedgehogs or beetles has crossed from watching nature to helping it, and an untidy corner defended for the animals' sake reframes what a good garden even is.",
+        "glossary": [
+          {
+            "term": "hibernation",
+            "definition": "A deep winter sleep in which an animal's body slows right down to save energy until spring.",
+            "forChildren": "A super-sleep that lasts most of the winter. Slower than any nap."
+          },
+          {
+            "term": "migration",
+            "definition": "A long journey some animals make to spend winter somewhere warmer with more food.",
+            "forChildren": "Some birds pack up and fly to a warmer garden far away."
+          },
+          {
+            "term": "shelter",
+            "definition": "A place that protects an animal from cold, wind, rain and danger.",
+            "forChildren": "An animal's winter den: dry, hidden and out of the wind."
+          }
+        ],
+        "childFriendlyExamples": [
+          "Animals have three winter plans: store food and stay busy, sleep through the whole thing, or leave. Which would you pick?",
+          "A messy corner is not lazy gardening. It is somebody's bedroom."
+        ]
+      },
+      "nodeSeq": 25,
+      "phases": [
+        {
+          "nid": "p1",
+          "key": "plan",
+          "title": "Your winter outside",
+          "mode": "present",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b2",
+              "type": "say-aloud",
+              "text": "Imagine you had to spend the whole winter outside, right here. No house, no shops, no coat cupboard. What would you need? Think, then tell me your survival plan."
+            },
+            {
+              "nid": "b3",
+              "type": "teacher-note",
+              "text": "Gather their answers into the real list as they come: food, water, shelter, warmth, safety. Write or chant it back. Every animal in the garden is solving exactly this list right now, and now the class owns the problem."
+            },
+            {
+              "nid": "b4",
+              "type": "say-aloud",
+              "text": "The garden's animals are solving this puzzle right now, and they have different plans. Some store food and stay busy all winter. Some eat and eat now, then sleep the winter away in a super-sleep called hibernation."
+            },
+            {
+              "nid": "b5",
+              "type": "say-aloud",
+              "text": "Some birds fly away to warmer places. And many small creatures just find a safe crack or a leaf pile and wait quietly for spring. Four plans: store, sleep, fly, hide."
+            }
+          ]
+        },
+        {
+          "nid": "p6",
+          "key": "hunt",
+          "title": "The winter shopping trip",
+          "mode": "work",
+          "childTask": "Be an animal getting ready for winter: find the food the garden still offers, and the sheltered places you would sleep.",
+          "durationMin": 14,
+          "blocks": [
+            {
+              "nid": "b8",
+              "type": "say-aloud",
+              "text": "Time to shop like an animal. What food is the garden still offering? Seeds, berries, fallen fruit, insects hiding in the leaves. Fill your imaginary larder.",
+              "adaptsToPlace": true
+            },
+            {
+              "nid": "b9",
+              "type": "teacher-note",
+              "text": "Berries stay on the bush, looking only; the food hunt is a stocktake, not a harvest."
+            },
+            {
+              "nid": "b10",
+              "type": "say-aloud",
+              "text": "Larder full? Now find your winter bedroom: a place that is dry, hidden and out of the wind. Remember where the ribbons went to sleep."
+            },
+            {
+              "nid": "b11",
+              "type": "teacher-note",
+              "text": "The wind-map memory from session three does real work here: the still places the ribbons found are exactly where an animal would sleep."
+            },
+            {
+              "nid": "b12",
+              "type": "say-aloud",
+              "text": "Found a good winter bedroom? Do not touch it or move in: somebody real may already have. Point it out and tell us what makes it good.",
+              "abilityVariants": {
+                "y2": "Rate your winter bedroom like an animal estate agent: is it dry? Hidden? Out of the wind? Near food? Score it out of four and defend your score."
+              }
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t7",
+              "when": "Someone finds a real sleeping creature under leaves or bark",
+              "then": "Jackpot, handled gently: one quiet look, roof back on, and the find becomes the day's story. A disturbed sleeper spends energy it saved for winter, so the kindest move is the quick one."
+            }
+          ]
+        },
+        {
+          "nid": "p13",
+          "key": "build",
+          "title": "Build the winter homes",
+          "mode": "work",
+          "childTask": "Make the garden a better winter home: build a leaf pile, add to the log pile, leave a corner properly wild.",
+          "durationMin": 20,
+          "blocks": [
+            {
+              "nid": "b15",
+              "type": "say-aloud",
+              "text": "We know what the animals need, so let us actually help. Leaf piles are winter duvets: beetles, and in some gardens bigger sleepers too, spend all winter inside them. Logs are apartment blocks for small creatures. Our job is to build them and then leave them alone."
+            },
+            {
+              "nid": "b16",
+              "type": "demo",
+              "move": "The winter duvet",
+              "steps": [
+                {
+                  "text": "Choose the quiet corner, out of the wind, that we agreed can stay wild."
+                },
+                {
+                  "text": "Pile leaves thickly: a thin scatter is a rug, a deep pile is a duvet."
+                },
+                {
+                  "text": "Lean sticks or a log against the pile so the wind cannot undo the work."
+                },
+                {
+                  "text": "Step back. From now on this is their place, not ours."
+                }
+              ],
+              "look": "It should look a little messy. That is what finished looks like.",
+              "materials": [
+                "gathered leaves",
+                "sticks or a log",
+                "a corner that can stay wild"
+              ]
+            },
+            {
+              "nid": "b17",
+              "type": "teacher-note",
+              "text": "Say the strange truth out loud: we usually tidy the garden, and today we are untidying it on purpose, because a too-tidy garden has nowhere to sleep. The hands-off rule after building matters; a checked-daily leaf pile is a disturbed one. Watching from a distance is the winter sport."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t14",
+              "when": "Someone wants to check inside the pile the moment it is built",
+              "then": "Give the urge a job: they become the pile's guard, whose whole role is making sure nobody, including themselves, unmakes the bedroom."
+            }
+          ]
+        },
+        {
+          "nid": "p18",
+          "key": "circle",
+          "title": "The winter plans",
+          "mode": "gather",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "nid": "b19",
+              "type": "circle-question",
+              "text": "If you were an animal in our garden, what would your winter plan be: store food, super-sleep, fly away or hide and wait?"
+            },
+            {
+              "nid": "b20",
+              "type": "circle-question",
+              "text": "What did we build today, and who do you hope moves in?"
+            },
+            {
+              "nid": "b21",
+              "type": "named-skill",
+              "skill": "caring for wildlife"
+            }
+          ]
+        }
+      ],
+      "childSheet": [
+        {
+          "nid": "b22",
+          "type": "sheet-title",
+          "title": "The winter home we built",
+          "nameLine": "This wildlife helper is"
+        },
+        {
+          "nid": "b23",
+          "type": "collage-zone",
+          "hint": "Draw the winter home we made, and the animal you hope moves in."
+        },
+        {
+          "nid": "b24",
+          "type": "notice-line",
+          "prompt": "My winter plan as an animal would be:"
+        },
+        {
+          "nid": "b25",
+          "type": "parent-line",
+          "text": "For home: we built winter homes for the garden's animals today. Ask me why a messy corner can be the kindest kind of garden."
+        }
+      ],
+      "standards": [
+        {
+          "system": "ngss",
+          "code": "K-ESS3-1",
+          "text": "Use a model to represent the relationship between the needs of different plants and animals (including humans) and the places they live."
+        }
+      ],
+      "celebration": {
+        "headline": "You untidied the garden on purpose, and now somebody has a winter home",
+        "emoji": "🦔",
+        "keepsake": "This class knows a messy corner is somebody's bedroom, and they built it themselves.",
+        "nextWeekTease": "Last time: we lay every clue on the table and connect the whole season into one big circle."
+      },
+      "topicLine": "Animals are getting ready for the cold, and today we find out how our garden can help.",
+      "seasonNote": {
+        "teacher": "Animals are preparing for the cold right now: eating, storing and looking for shelter while there is still food about, so a leaf pile or log pile built this term is ready when winter arrives. Later in autumn the need is more urgent and the signs easier to spot.",
+        "child": "Winter is coming and the animals know it. We are going to make the garden a good place for them to shelter and find food."
+      }
+    },
+    {
+      "id": "garden-w8-everything-connected",
+      "prompt": "How is everything we explored connected?",
+      "doorQuestion": "Pick any two things we met this season, a leaf and a worm, the rain and the compost. Can you find the thread between them?",
+      "title": "Everything is connected",
+      "topic": "Connecting the season's discoveries into one living cycle",
+      "topicTags": [
+        "seasons",
+        "soil"
+      ],
+      "primaryTopic": "seasons",
+      "validity": {
+        "requiresSeason": [
+          "autumn"
+        ]
+      },
+      "objective": "Connect the season's discoveries into one cycle, and see that people are part of the garden's system",
+      "childWorkSummary": "Children revisit their journals, their compost and their winter homes, then build the class's big autumn cycle together, physically arranging the season's pieces into one connected circle, and contribute their favourite discovery to a shared display.",
+      "namedSkill": "connecting ideas",
+      "kit": [
+        "the class journals, complete with the season's entries",
+        "large paper or a cleared floor space for the cycle",
+        "the season's keepsakes: drawings, pressed leaves, photographs if you took them",
+        "card and pencils for the cycle's stations"
+      ],
+      "durationMin": 50,
+      "preparation": "Gather the season's physical trail before the session: journals, any kept artwork, the winter predictions you wrote down in session one. Visit the compost yourself so you know what state it is in; several weeks on, there should be honest change to find.",
+      "spaceNeeded": "The compost and winter homes to revisit, plus floor or wall space for the big cycle",
+      "connectionToLast": "We have met every piece: leaves, forces, decomposers, food, animals. Today we find the threads that tie them into one thing.",
+      "settle": true,
+      "primer": {
+        "summary": "The closing session builds one thing: the connection. Children revisit the compost diary and their journals, check on the winter homes, and then lay the whole season out as a physical cycle: leaves fall, leaves shelter and feed creatures, decomposers break them down, nutrients return to the soil, soil grows plants, plants feed animals and people, seasons turn, and it all begins again. The class walks their own evidence around the circle and finds there is no starting point and no waste anywhere in it. It ends with each child adding their favourite discovery to a shared display: our autumn garden, made of what they actually found.",
+        "why": "Eight sessions of separate wonders become one understanding here: the garden is a system, everything in it is used again, and people, who ate from it, composted into it and built homes for its animals, are inside the circle, not outside it. Systems thinking, at age five, built from things they touched.",
+        "glossary": [
+          {
+            "term": "cycle",
+            "definition": "A chain of events that goes around and returns to where it began, again and again.",
+            "forChildren": "A story that ends where it starts, so it never really ends."
+          },
+          {
+            "term": "connected",
+            "definition": "Joined so that each part affects the others.",
+            "forChildren": "Holding hands. When one moves, the others feel it."
+          }
+        ],
+        "childFriendlyExamples": [
+          "The leaf fed the worm, the worm made the soil, the soil grew the apple, and you ate it. You are in the circle too.",
+          "Try to find the start of a circle. You cannot. That is the trick the garden plays."
+        ]
+      },
+      "nodeSeq": 26,
+      "phases": [
+        {
+          "nid": "p1",
+          "key": "revisit",
+          "title": "Walk the evidence",
+          "mode": "work",
+          "childTask": "Visit the compost and the winter homes, and find what has changed since we started.",
+          "durationMin": 12,
+          "blocks": [
+            {
+              "nid": "b2",
+              "type": "say-aloud",
+              "text": "Detectives, one last walk through the case, and bring your journal: it remembers September better than we do. First stop, the compost. What has changed? What has disappeared? Who is visiting?"
+            },
+            {
+              "nid": "b3",
+              "type": "say-aloud",
+              "text": "Second stop: past the winter homes we built, looking from a distance like polite neighbours. Any signs that somebody moved in?"
+            },
+            {
+              "nid": "b4",
+              "type": "teacher-note",
+              "text": "The compost is the star witness: weeks on, the class's own eyes can confirm the leaves are becoming something else. Read a September journal page aloud beside the November reality. If you kept the winter predictions from session one, produce them here."
+            }
+          ],
+          "conditionVariants": [
+            {
+              "nid": "v5",
+              "when": "wet",
+              "phase": {
+                "nid": "p6",
+                "key": "revisit-wet",
+                "title": "Walk the evidence (wet day)",
+                "mode": "work",
+                "childTask": "A quick wet-weather visit to the compost: one look, one finding each, then back to build the cycle indoors.",
+                "durationMin": 8,
+                "blocks": [
+                  {
+                    "nid": "b7",
+                    "type": "say-aloud",
+                    "text": "Quick visit in the rain, and notice: the rain is watering our compost for us. One look each: name one thing that has changed since we built it. Then we take the season indoors."
+                  },
+                  {
+                    "nid": "b8",
+                    "type": "teacher-note",
+                    "text": "Bank the saved minutes for the cycle build, which works fully indoors with journals and keepsakes."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "nid": "p9",
+          "key": "cycle",
+          "title": "Build the big circle",
+          "mode": "work",
+          "childTask": "Lay the season out as one big circle: falling leaves, sheltered creatures, the recycling crew, new soil, growing plants, fed animals and people, and around again.",
+          "durationMin": 18,
+          "blocks": [
+            {
+              "nid": "b11",
+              "type": "say-aloud",
+              "text": "Every piece of our season goes on the floor: leaves falling, leaves hiding creatures, the recycling crew at work, new soil, plants growing from it, plants feeding animals and feeding us, the seasons turning, winter on its way. Now, how do the pieces join? Let us build it as a circle and see."
+            },
+            {
+              "nid": "b12",
+              "type": "demo",
+              "move": "Walking the circle",
+              "steps": [
+                {
+                  "text": "Lay the season's pieces in a big ring: drawings, pressed leaves, journal pages."
+                },
+                {
+                  "text": "Walk the ring slowly, saying each connection out loud: the leaf falls, the worm eats it, the soil grows..."
+                },
+                {
+                  "text": "Keep walking past where you started. Notice nobody tells you to stop."
+                }
+              ],
+              "look": "Try to point at the beginning of the circle. There is not one. That is the discovery.",
+              "materials": [
+                "the season's drawings and keepsakes",
+                "floor or wall space"
+              ]
+            },
+            {
+              "nid": "b13",
+              "type": "teacher-note",
+              "text": "Let the children place the pieces and argue the joins; wrong placements that get corrected by their neighbours are the thinking happening out loud. The one join worth insisting on if nobody finds it: where do people go? We ate from it and composted into it, so we go inside the circle, not outside."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t10",
+              "when": "The circle stalls into a straight line with an end",
+              "then": "Ask what happens to the last piece: winter comes, and then? Spring's place in the ring usually gets the line to bite its own tail."
+            }
+          ]
+        },
+        {
+          "nid": "p14",
+          "key": "reflect",
+          "title": "The season in our own words",
+          "mode": "gather",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b15",
+              "type": "circle-question",
+              "text": "What surprised you most this season?"
+            },
+            {
+              "nid": "b16",
+              "type": "circle-question",
+              "text": "In September, we guessed what winter would look like. Were we right?"
+            },
+            {
+              "nid": "b17",
+              "type": "circle-question",
+              "text": "How are people part of the garden?"
+            },
+            {
+              "nid": "b18",
+              "type": "teacher-note",
+              "text": "Three questions is plenty; let answers breathe rather than chasing all of them around the whole circle. The people question is the one this whole pack was for."
+            }
+          ]
+        },
+        {
+          "nid": "p19",
+          "key": "display",
+          "title": "Our autumn garden",
+          "mode": "work",
+          "childTask": "Add your favourite discovery of the whole season to our shared display.",
+          "durationMin": 10,
+          "blocks": [
+            {
+              "nid": "b20",
+              "type": "say-aloud",
+              "text": "Last job of the season: our shared display, called Our autumn garden. Every detective contributes their single favourite discovery: a drawing, a journal page, a pressed leaf, a sentence we write down for you. When it is up, it is the whole season, made by all of us."
+            },
+            {
+              "nid": "b21",
+              "type": "teacher-note",
+              "text": "The display is the pack's public artefact: drawings, observations, leaves, photographs and the children's own words, each with its finder's name. It tells visiting parents what happened here better than any summary. The journals go home when it is done: they were the children's all along."
+            },
+            {
+              "nid": "b22",
+              "type": "named-skill",
+              "skill": "connecting ideas"
+            }
+          ]
+        }
+      ],
+      "childSheet": [
+        {
+          "nid": "b23",
+          "type": "sheet-title",
+          "title": "My autumn circle",
+          "nameLine": "This season was explored by"
+        },
+        {
+          "nid": "b24",
+          "type": "collage-zone",
+          "hint": "Draw the circle: leaf, creature, soil, plant, and you. Join them with arrows."
+        },
+        {
+          "nid": "b25",
+          "type": "notice-line",
+          "prompt": "My favourite discovery this season was:"
+        },
+        {
+          "nid": "b26",
+          "type": "parent-line",
+          "text": "For home: we joined our whole season into one big circle today, and found out people are inside it. Ask me where a fallen leaf ends up."
+        }
+      ],
+      "standards": [
+        {
+          "system": "england",
+          "code": "Year 1 · Seasonal changes",
+          "text": "observe changes across the 4 seasons"
+        },
+        {
+          "system": "ngss",
+          "code": "2-LS4-1",
+          "text": "Make observations of plants and animals to compare the diversity of life in different habitats."
+        }
+      ],
+      "celebration": {
+        "headline": "You joined a whole season into one circle, and found yourselves inside it",
+        "emoji": "🌍",
+        "keepsake": "Ask this class where a fallen leaf goes and they will tell you: nowhere. It just becomes the next thing.",
+        "nextWeekTease": "The garden is going to sleep now. When it wakes, the circle keeps turning, and so do we."
+      },
+      "topicLine": "In this lesson we join up everything we found this autumn into one big circle.",
+      "seasonNote": {
+        "teacher": "The season's pieces are all out at once at the end of autumn: bare or nearly bare branches, leaf litter softening into soil, the compost warming, the winter homes built. The cycle the class puts together is one they can see in the garden around them.",
+        "child": "Autumn is nearly over. The leaves fell, the garden ate them, and now it is getting ready to rest. We are going to join it all together."
+      }
+    }
+  ]
+}

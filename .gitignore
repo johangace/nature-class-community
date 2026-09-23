@@ -1,0 +1,21 @@
+node_modules
+.next/
+out/
+*.tsbuildinfo
+.DS_Store
+.env*
+!.env.example
+next-env.d.ts
+.vercel
+.claude/*
+!.claude/settings.json
+
+# Serwist service worker build output
+/public/sw.js
+/public/sw.js.map
+/public/swe-worker-*.js
+
+# Playwright
+/test-results/
+/playwright-report/
+/playwright/.cache/

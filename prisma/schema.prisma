@@ -1,0 +1,671 @@
+// Nature Class data model.
+//
+// Deliberately minimal, and deliberately childless: there is no child record
+// of any kind anywhere in this schema, by design. The only person we store is
+// the teacher (User). A Class is a teacher's group and a location (so the
+// runner's conditions line can be grounded per school). A SessionCompletion is
+// the teacher's own report that a session ran, carrying a teacher-reported
+// optional headcount integer — never a per-child row. This is how "zero child
+// PII" is enforced at the schema, not just in policy.
+//
+// Auth tables (Better Auth: Account, Session, Verification, Passkey) arrive
+// additively in the auth ticket and attach to User by userId — nothing here
+// needs to change for that.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  // Neon: DATABASE_URL is the pooled connection the app uses at runtime;
+  // DIRECT_URL is the unpooled connection Prisma Migrate needs. Both come
+  // from the Neon dashboard. See README "Database setup".
+  url       = env("DATABASE_URL")
+  directUrl = env("DATABASE_URL_UNPOOLED")
+}
+
+/// A teacher. The only human this product stores. Sign-in (magic link + passkey)
+/// hangs off this model via the Better Auth adapter tables below.
+model User {
+  id            String   @id @default(cuid())
+  email         String   @unique
+  name          String?
+  emailVerified Boolean  @default(false)
+  image         String?
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+  /// The invite link's cohort code (#821), a neutral label such as
+  /// `autumn-a`, never a school name. Set once, at onboarding, from a link
+  /// she arrived through; null for an organic sign-up. Never overwritten.
+  inviteCohort  String?
+
+  classes     Class[]
+  groundsProfiles Grounds[]
+  sessions    Session[]
+  accounts    Account[]
+  passkeys    Passkey[]
+  aiRateLimit AiRateLimit?
+  preparedLessons PreparedLesson[]
+
+  @@map("user")
+}
+
+/// A teacher's class: a name, the year group, the school, and the school's
+/// location. The location grounds the runner's live conditions line per site
+/// (the demo path uses a default location until a class supplies one).
+model Class {
+  id        String   @id @default(cuid())
+  name      String
+  yearGroup String
+  // Onboarding audience and age are independent of authored lesson ability.
+  groupType String?
+  ageRange  String?
+  // Null means Automatic from school location; us/uk are teacher overrides.
+  englishLocale String?
+  school    String
+  lat       Float?
+  lng       Float?
+  // The class's grounds — the habitats the teacher says are actually out
+  // there (trees, meadow, hedgerow, pond, playground, coast). Optional and
+  // empty-by-default so the onboarding flow completes gracefully with it
+  // skipped; it tunes Outside-now's "what to look for" now and future species
+  // layers later. Teacher-entered place facts only — no child data.
+  grounds   String[] @default([])
+  // The class's climate group, derived from its coordinates at the location
+  // save (lib/outside/climate.ts): "tropical" | "arid" | "subtropical" |
+  // "mediterranean" | "oceanic" | "continental" | "polar". A Koppen-style tag
+  // at group granularity, and the thing that picks which seasonal expectations
+  // a school reads — the 15-region coordinate map alone calls Phoenix
+  // mountain-west, which is a Rocky-mountain calendar for a Sonoran desert.
+  // Nullable: a class saved before this landed, or one with no coordinates,
+  // has no tag and every surface falls back to deriving it from lat/lng.
+  // A place fact about the school, not about anyone in it.
+  climate   String?
+  // ---- LearnerContext (#205, office#330 wave 1) ----------------------------
+  // Nature Class owns pedagogy keyed by LEARNER; Pointmoon owns world truth
+  // keyed by place. These three are the learner half that has to live on the
+  // class row, and all three are nullable because wave 1 declares slots and
+  // enters no data — a declared-empty column renders as silence, an absent one
+  // gets invented into.
+  //
+  // The jurisdiction this class is taught under: whose standards, whose policy
+  // guidance, whose term structure. NEVER DERIVED FROM LOCALE, and never from
+  // the year-group vocabulary either. Phoenix and Sacramento share `us` and
+  // differ on every dimension that keys off a legal boundary, so a jurisdiction
+  // guessed from anything else is a wrong answer wearing a right one's clothes.
+  // Null until a teacher supplies it (J5 prefills term dates per jurisdiction,
+  // which is the flow that will set this).
+  jurisdiction String?
+  // The ability band this class is taught at, as its own axis (J2, adopted):
+  // age and ability are ORTHOGONAL. A four-year-old and a seven-year-old are
+  // not the same reader, and neither are two seven-year-olds. Null means
+  // nobody has set one and the band derives from yearGroup, which reproduces
+  // today's behaviour exactly — see lib/learner-context.ts.
+  abilityBand  String?
+  // The shape of the hour this class can actually give. Null until set; no
+  // default is derivable from anything currently stored, and a guessed session
+  // shape would quietly reshape a lesson a teacher never asked to reshape.
+  sessionShape String?
+  // ---- The school's own world (#277, dimension 7) --------------------------
+  // Two halves, kept apart on purpose, because they are known in different
+  // ways and must never render as each other. Same discipline as the cast's
+  // recorded-vs-regional tiers.
+  //
+  // WHAT SHE SAID. The features inside the grounds that no map can see: a pond
+  // in a courtyard, a log pile, a wild corner nobody mows. Vocabulary in
+  // app/start/vocab.ts. Teacher-stated wins over anything derived, always,
+  // because she is standing in it.
+  siteFeatures String[] @default([])
+  // Her own words for anything our vocabulary has no box for ("the bit behind
+  // the bike sheds where the nettles are"). A place fact, never a lesson or a
+  // person: this is why it lives on the class row and nowhere near a
+  // completion. Empty rather than null when she added nothing.
+  siteNotes    String[] @default([])
+  // How far a class can actually get. Decides what a lesson may ask for, so a
+  // hard-surface-only school is never offered a session that needs a meadow.
+  reach        String?
+  // WHAT THE MAP SAID. The Pointmoon `outdoor.place.*` read for these
+  // coordinates, stored verbatim as returned, with the stamp of when. Derived,
+  // never teacher-stated, and refreshed on its own TTL rather than frozen at
+  // onboarding (Johan 2026-08-17: nothing hardcoded, seasonally fresh).
+  // Null means we have not looked or the read was thin, which renders as
+  // silence rather than as an empty schoolyard.
+  placeRead    Json?
+  placeReadAt  DateTime?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  teacherId String
+  teacher   User   @relation(fields: [teacherId], references: [id], onDelete: Cascade)
+
+  // The reusable physical place this class uses (#827). Nullable only for a
+  // safe additive rollout: the migration backfills every existing class with
+  // its own lossless Grounds copy before setting this reference, and all new
+  // classes create one in the same write path.
+  groundsId      String?
+  groundsProfile Grounds? @relation(fields: [groundsId], references: [id], onDelete: SetNull)
+
+  completions   SessionCompletion[]
+  pointmoonReads PointmoonRead[]
+  cast          CastMember[]
+  worldFacts    WorldFact[]
+
+  @@index([teacherId])
+  @@index([groundsId])
+  @@map("class")
+}
+
+/// One physical school place that one or more classes can use. A Grounds row
+/// belongs to exactly one teacher account today; that ownership boundary is
+/// checked again on every assignment, so a posted id cannot cross accounts.
+///
+/// The legacy place columns remain on Class for the additive deployment and
+/// rollback window. New reads prefer this record and writes mirror back to
+/// every linked class until a later, separately verified contraction removes
+/// the old columns.
+model Grounds {
+  id           String    @id @default(cuid())
+  name         String
+  school       String
+  lat          Float?
+  lng          Float?
+  habitats     String[]  @default([])
+  climate      String?
+  siteFeatures String[]  @default([])
+  siteNotes    String[]  @default([])
+  reach        String?
+  placeRead    Json?
+  placeReadAt  DateTime?
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime  @updatedAt
+
+  teacherId String
+  teacher   User    @relation(fields: [teacherId], references: [id], onDelete: Cascade)
+  classes   Class[]
+
+  @@index([teacherId])
+  @@map("grounds")
+}
+
+/// One place fact extracted from the teacher's own free-form words in the
+/// onboarding assistant chat (#280), and the provenance that travels with it.
+///
+/// The teacher's raw sentence is never stored as a lesson or a completion —
+/// only here, on a row hung off the class, the same discipline `siteNotes`
+/// already keeps. What survives is the STRUCTURE she confirmed, plus the
+/// fragment of her own words it was read from, so a place fact and its
+/// source are never separable later. The assistant "listens, it does not
+/// know": every row here starts as a model's candidate reading of one
+/// sentence and only becomes fact once she confirms it — `status` is
+/// "pending" until she acts, and nothing pending is ever surfaced to a
+/// lesson.
+///
+/// This table is the PROVENANCE LEDGER, not a second source of truth for what
+/// a lesson reads. A confirmed row is mirrored onto `Class.siteFeatures`,
+/// `Class.siteNotes` or `Class.reach` (same write path `setWorld` already
+/// uses) so every existing reader — `lib/place-context.ts`, `/world`, the
+/// grounds step — keeps working unchanged. This ledger exists so a
+/// teacher-stated fact and any future map-derived or observed one can be told
+/// apart later, same discipline as the cast's recorded/regional tiers.
+model WorldFact {
+  id String @id @default(cuid())
+
+  /// The extracted claim: a SITE_FEATURES value when it mapped to our
+  /// vocabulary, a REACH_OPTIONS id when `kind` is "reach", or her own words
+  /// (mirrors what would sit in siteNotes) when nothing in our vocabulary
+  /// fit. Set once, by the model, at extraction; only her decision below
+  /// changes what happens to it next.
+  value String
+  /// Which mirror column this fact belongs to on confirmation: "feature"
+  /// (Class.siteFeatures), "note" (Class.siteNotes), or "reach" (Class.reach).
+  kind String
+
+  /// The sentence or fragment of her own words this was extracted FROM,
+  /// verbatim and capped, so a confirmed fact can always be traced to what
+  /// she actually typed. Never shown to anyone but her; never fed to a model
+  /// as someone else's fact.
+  sourceText String
+
+  /// "teacher-stated", always, today — the model listens to her chat, it does
+  /// not know anything on its own (#280). Kept as its own field rather than
+  /// assumed so a future map-derived or observed row on this same ledger
+  /// renders honestly apart from this one, without a schema change.
+  provenance String @default("teacher-stated")
+  /// The model's own confidence that this extraction reflects what she said,
+  /// 0 to 1. Shown to her in plain words before she decides, never used to
+  /// auto-confirm anything.
+  confidence Float
+
+  /// "pending" until she acts on the candidate, then "confirmed" or
+  /// "rejected". A rejected fact is kept rather than deleted, so the ledger
+  /// also shows what she corrected, not only what she accepted outright.
+  status String @default("pending")
+
+  extractedAt DateTime  @default(now())
+  decidedAt   DateTime?
+
+  classId String
+  class   Class  @relation(fields: [classId], references: [id], onDelete: Cascade)
+
+  @@index([classId, status])
+  @@map("world_fact")
+}
+
+/// One night's Pointmoon read for one class's coordinates, stored verbatim.
+///
+/// This is the REPLAY CORPUS (#172 workstream A, approved P0). Every selection
+/// rule the cast resolver applies — multi-year recurrence, child-findability
+/// ranking, in-season gating, safety — is a judgement about a payload. Without
+/// the payloads kept, a rule can only ever be tuned against whatever the API
+/// happens to return today, which is how a product ends up calibrated on
+/// anecdote. Recording first, calibrating second, is not optional here.
+///
+/// The payload is stored AS RETURNED, not distilled: a field nobody reads today
+/// is exactly the field a future rule will need, and it cannot be recovered
+/// once the night has passed. schemaVersion travels with it so a corpus spanning
+/// a Pointmoon contract change is still readable.
+///
+/// A FAILED read is recorded too, as a row with a null payload. Silence is
+/// data: a location that goes quiet for a week is a finding about coverage, and
+/// a corpus that only holds successes cannot show it. This is the same honesty
+/// rule the surfaces run on, kept at the storage layer.
+///
+/// No child data: a class id, the school's own coordinates, and what Pointmoon
+/// said about the wildlife near them.
+model PointmoonRead {
+  id String @id @default(cuid())
+
+  // The coordinates actually sent, after the same ~100m rounding the class row
+  // stores. Held on the read itself rather than joined from the class, so a
+  // school that later moves its pin does not silently rewrite what its earlier
+  // reads were reads OF.
+  lat Float
+  lng Float
+
+  // The whole field-truth response, verbatim. Null when the read failed —
+  // the row still exists, and that is the point.
+  payload Json?
+  // Pointmoon's own version stamp from the payload ("field-truth@1.1.0"), when
+  // it carried one. Null on a failed read, or one that predates the stamp.
+  schemaVersion String?
+  // Why a null payload is null, in a few plain words ("fetch failed",
+  // "no facts in response"). Null when the read succeeded.
+  failureReason String?
+
+  // When the read was taken. The corpus is ordered by this.
+  takenAt DateTime @default(now())
+
+  classId String
+  class   Class  @relation(fields: [classId], references: [id], onDelete: Cascade)
+
+  @@index([classId, takenAt])
+  @@index([takenAt])
+  @@map("pointmoon_read")
+}
+
+/// One resolved member of a class's cast: a species this class can actually
+/// expect to meet, or one whose absence is worth naming.
+///
+/// Resolved from a single Pointmoon read plus the regional phenology by
+/// lib/cast/resolve.ts, following the selection recipe on #167. Every row
+/// carries the evidence that earned it a place — how many years it has been
+/// recorded here, how its current numbers compare to its own history — so a
+/// surface can state its honesty tier rather than implying certainty it does
+/// not have.
+///
+/// Stored rather than computed per request, deliberately: a cast that changed
+/// under a teacher mid-term would make the class's shared vocabulary unstable,
+/// and a child who learnt to find one thing would find it gone. It refreshes
+/// when someone asks it to, never silently.
+///
+/// Nothing here is invented. Every name, photo and count traces to a returned
+/// token; when the evidence is thin the cast is SHORTER, never padded.
+model CastMember {
+  id String @id @default(cuid())
+
+  commonName     String
+  scientificName String?
+  /// Real photo (iNaturalist, via Pointmoon). Null when none was returned —
+  /// the surfaces then show the name without a picture rather than a stand-in.
+  photoUrl       String?
+  /// The release contract travels with the URL. Any missing field makes the
+  /// renderer use the plate rather than guessing at rights or provenance.
+  photoCreator   String?
+  photoRole      String?
+  photoAttribution String?
+  photoLicense   String?
+  photoSourceUrl String?
+  photoObservationId String?
+  /// iNaturalist iconic taxon (Insecta, Aves, Plantae...), when reported.
+  iconicTaxon    String?
+
+  /// How this member earned its place, and therefore what may be claimed of it:
+  ///   "recorded" — actually observed near here in the recent window, with
+  ///                multi-year history behind it. "Seen near here."
+  ///   "regional" — in season for this region per the phenology file, not
+  ///                observed in this read. "Usually around at this time."
+  /// Never upgraded from regional to recorded. The tiers are the whole point.
+  honestyTier String
+
+  /// The recent observation window the read covered, in days, when the payload
+  /// reported one. Null for a regional member, which has no sighting window.
+  lastSeenWindow Int?
+  /// How many distinct years this species has been recorded near here. The
+  /// recurrence gate: 2 or more is what earns an ordinary place.
+  yearsObserved  Int?
+  /// Its own historical average count for this place and window — the baseline
+  /// the current numbers are read against, never a promise of what will appear.
+  historicalAvgCount Int?
+
+  /// Look-don't-touch phrasing for a species that can sting, bite, or poison.
+  /// Null for the ordinary majority. Present means the surfaces MUST show it.
+  safetyNote String?
+
+  /// Position in the resolved cast, 0 first. Findability order, not importance.
+  sortRank Int
+
+  /// True for a striking absence: a species with a strong multi-year record
+  /// here that this read did NOT return. Carried so the closing line can say
+  /// what today did not hold. Absent members are stored alongside present ones
+  /// and excluded from the cast the finding surfaces show.
+  absent Boolean @default(false)
+
+  /// When this cast was resolved. Every member of one resolution shares it, so
+  /// a refresh is a clean generation rather than a merge.
+  resolvedAt DateTime @default(now())
+
+  classId String
+  class   Class  @relation(fields: [classId], references: [id], onDelete: Cascade)
+
+  @@index([classId, absent, sortRank])
+  @@map("cast_member")
+}
+
+/// A teacher's report that a session ran. It may carry a teacher-reported
+/// headcount — the minutes-outside tally aggregates only rows where one was
+/// offered. No child record: headcount is a number, never a roster.
+model SessionCompletion {
+  id        String    @id @default(cuid())
+  sessionId String
+  startedAt DateTime  @default(now())
+  endedAt   DateTime?
+  headcount Int?
+  // The teacher's own reflection at the close, teacher-reported.
+  //
+  // The four TAP fields below are tokens from lib/reflection.ts, re-validated
+  // against that closed vocabulary before they are written, and they must stay
+  // that way: they are the fields the term summary counts, and counting only
+  // works over a fixed set of words. Never widen one of them to a plain string.
+  //
+  // `note` is different, and is the one open field on this model — see its own
+  // comment below. It was added deliberately on a founder call (#347), which
+  // means this model no longer holds "no child PII" as a property of its shape.
+  // The protection is now the retention rule and the teacher's own judgement,
+  // not the schema. Anything reading this model for research, export or
+  // analytics must treat `note` as potentially personal data and leave it out
+  // unless it has a reason not to.
+  //
+  // How the session went: "calm" | "energised" | "connected" | "mixed" |
+  // "difficult". Rows written before this vocabulary landed hold the earlier
+  // three words ("landed-well" | "hard-going"); the journal still reads them.
+  mood       String?
+  // What happened out there — multi-select, so a list of tokens. Empty rather
+  // than null when skipped: an absent list and an empty one say the same thing.
+  happenings String[]
+  // "Shape Nature Class", the fellowship's evidence taps.
+  // Timing: "more-time" | "just-right" | "shorter".
+  timing     String?
+  // What the class wants more of: "arts" | "identification" | "gardening" | "making".
+  moreOf     String?
+  // "Anything else?" — the teacher's own words, free text, optional (#347).
+  //
+  // The prototype's notebook had this and this build deliberately did not; it
+  // is back on Johan's call. It is the only field here that is not a token,
+  // and the only one a name could be written into. Consequences, stated where
+  // the column is rather than in a policy document nobody opens:
+  //
+  //  - It is never counted, aggregated, or fed to a model. lib/journal.ts
+  //    reads the taps and not this, so the term summary cannot quote a child.
+  //  - It is bounded (2000 chars) and trimmed; empty becomes NULL rather than
+  //    an empty string, so "she wrote nothing" and "she cleared it" agree.
+  //  - It belongs to the teacher who wrote it and is shown only back to her,
+  //    on her own journal, behind her own session.
+  //
+  // If a surface ever needs to leave this school — an export, a research
+  // extract, a support tool — this column is the one that has to be answered
+  // for first.
+  note       String?
+  // Client-generated idempotency key: one value per logged completion, stable
+  // across the runner's offline retries. The unique index makes a retry of an
+  // already-committed completion a no-op upsert instead of a second row, so a
+  // network drop after the server commits but before the client hears back
+  // cannot double-count minutes-outside (the north-star metric). Nullable so
+  // pre-existing rows (which have no key) are untouched; Postgres allows many
+  // NULLs under a unique index.
+  clientKey String?   @unique
+
+  classId String
+  class   Class  @relation(fields: [classId], references: [id], onDelete: Cascade)
+
+  @@index([classId])
+  @@index([sessionId])
+  @@map("session_completion")
+}
+
+/// A teacher's AI call ledger: the cross-instance replacement for the
+/// module-level `Map` that guarded /api/lesson-support and nothing else
+/// (office#332). That Map's 12-per-60-seconds ceiling only held inside one
+/// serverless instance's memory, so under any fan-out the effective limit was
+/// 12 × however many instances happened to be warm.
+///
+/// One row per teacher. `attempts` holds the timestamps still inside the
+/// current sliding window; every check in lib/ai/rate-limit.ts prunes it
+/// before deciding, so the row never grows unbounded. Every AI-calling route
+/// shares this table through that one helper — nothing else should read or
+/// write it directly.
+model AiRateLimit {
+  teacherId String     @id
+  attempts  DateTime[]
+  updatedAt DateTime   @updatedAt
+
+  teacher User @relation(fields: [teacherId], references: [id], onDelete: Cascade)
+
+  @@map("ai_rate_limit")
+}
+
+// ---------------------------------------------------------------------------
+// Better Auth adapter tables.
+//
+// These carry sign-in state, not product data: a login Session (distinct from
+// SessionCompletion above — Better Auth's word for a signed-in device), the
+// Account rows a provider creates, Verification tokens (the magic link's token
+// lives here), and registered Passkeys (Face ID / Touch ID on iPad). Shapes
+// match Better Auth's required schema exactly; the field names are Better
+// Auth's, so the tables keep their default (unmapped) names.
+// ---------------------------------------------------------------------------
+
+/// A signed-in device/session (Better Auth). Long-lived by config — a teacher
+/// standing at the school gate must never be logged out mid-session.
+model Session {
+  id        String   @id @default(cuid())
+  expiresAt DateTime
+  token     String   @unique
+  ipAddress String?
+  userAgent String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  userId String
+  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@map("session")
+}
+
+/// A provider account linked to a user (Better Auth). For magic link + passkey
+/// there are no passwords; this row records the sign-in method linkage.
+model Account {
+  id                    String    @id @default(cuid())
+  accountId             String
+  providerId            String
+  userId                String
+  accessToken           String?
+  refreshToken          String?
+  idToken               String?
+  accessTokenExpiresAt  DateTime?
+  refreshTokenExpiresAt DateTime?
+  scope                 String?
+  password              String?
+  createdAt             DateTime  @default(now())
+  updatedAt             DateTime  @updatedAt
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@map("account")
+}
+
+/// A short-lived verification value (Better Auth). The magic-link token lives
+/// here until it's consumed or expires.
+model Verification {
+  id         String   @id @default(cuid())
+  identifier String
+  value      String
+  expiresAt  DateTime
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  @@index([identifier])
+  @@map("verification")
+}
+
+/// A registered passkey (Better Auth passkey plugin). The everyday sign-in on
+/// iPad: Face ID / Touch ID. No secret lives here beyond the public key.
+model Passkey {
+  id           String    @id @default(cuid())
+  name         String?
+  publicKey    String
+  userId       String
+  credentialID String
+  counter      Int
+  deviceType   String
+  backedUp     Boolean
+  transports   String?
+  createdAt    DateTime? @default(now())
+  aaguid       String?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@map("passkey")
+}
+
+/// One passkey ceremony, as it ended. Written by /api/passkey-report.
+///
+/// The passkey path has been reported broken three times since #45 and has
+/// never once been diagnosed, because every failure lands in a console on a
+/// device we do not hold. The library gives a precise code for each way a
+/// ceremony can end; this is where those codes come to be counted, so the
+/// decision to keep, demote, or retire the path is made on what devices
+/// actually did rather than on how it felt.
+///
+/// SUCCESSES ARE RECORDED TOO. A pile of failure codes with no denominator
+/// cannot say whether the path is broken or merely used; the ratio is the
+/// finding. (Same reasoning as the Pointmoon corpus: silence is data.)
+///
+/// NOTHING HERE IDENTIFIES A TEACHER. No user id, no email, no address, no
+/// raw user-agent string — only the coarse platform and browser family the
+/// codes have to be read against. A row says "an iPad on Safari cancelled at
+/// enrolment", never who was holding it.
+model PasskeyCeremony {
+  id          String   @id @default(cuid())
+  createdAt   DateTime @default(now())
+  /// Where it was offered: sign-in, sign-in-autofill, today-strip, onboarding.
+  surface     String
+  /// What was attempted: use an existing passkey, or enrol a new one.
+  act         String
+  /// How it ended: ok, already, cancelled, unavailable, failed.
+  outcome     String
+  /// The library's own error code, when the ceremony produced one.
+  code        String?
+  /// For a failure, our reading of it: wrong-host or unknown.
+  reason      String?
+  /// Coarse device family only: ios, android, macos, windows, other.
+  platform    String
+  /// Coarse browser family only: safari, chrome, firefox, edge, other.
+  browser     String
+  /// The platform said it could save a passkey (or did not say).
+  canSave     Boolean?
+  /// Conditional mediation was available for the autofill offer.
+  conditional Boolean?
+
+  @@index([createdAt])
+  @@map("passkey_ceremony")
+}
+
+/// Private server memory for a single composition attempt. A retry with the
+/// same teacher/request key can read it but cannot invoke the composer again.
+/// Source/context/proposal snapshots are immutable once recorded. Acceptance
+/// and later revisions are separate operations, never render-time writes.
+model PreparedLesson {
+  id String @id
+  teacherId String
+  requestKey String
+  sessionId String
+  inputHash String
+  sourceRevision String
+  contextRevision String
+  sourceSnapshot Json
+  contextSnapshot Json
+  status String @default("pending")
+  proposalRevision String?
+  proposalSnapshot Json?
+  composedSession Json?
+  failureCode String?
+  sourceDependencies PreparedSourceDependency[]
+  usageClass String @default("production")
+  evaluationDataset String?
+  evaluationSplit String?
+  decisions PreparationDecision[]
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  teacher User @relation(fields: [teacherId], references: [id], onDelete: Cascade)
+
+  @@unique([teacherId, requestKey])
+  @@index([teacherId, sessionId])
+  @@map("prepared_lesson")
+}
+
+/// The values actually consumed by a whole-day composition. Kept with the
+/// immutable attempt; staleness compares these values with current source.
+model PreparedSourceDependency {
+  preparedId String
+  address String
+  source Json
+  valueRevision String
+  preparation PreparedLesson @relation(fields: [preparedId], references: [id], onDelete: Cascade)
+
+  @@id([preparedId, address])
+  @@index([address, valueRevision])
+  @@map("prepared_source_dependency")
+}
+
+/// Append-only teacher decisions. Ownership and lesson/context come from the
+/// preparation, never from caller-supplied copies of those attributes.
+model PreparationDecision {
+  id String @id
+  preparedId String
+  requestKey String
+  payloadHash String
+  decision String
+  reasonCode String
+  decidedRevision String
+  note Json?
+  createdAt DateTime @default(now())
+  preparation PreparedLesson @relation(fields: [preparedId], references: [id], onDelete: Cascade)
+
+  @@unique([preparedId, requestKey])
+  @@index([preparedId, createdAt])
+  @@map("preparation_decision")
+}

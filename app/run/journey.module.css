@@ -1,0 +1,2747 @@
+/*
+ * THE HYBRID JOURNEY'S OWN LAYER (nc#302; pilot for nc#290).
+ *
+ * Deliberately NOT in globals.css: that file is 7,574 lines where a media
+ * query at :7312 silently beats a rule at :3819. This module is the closed
+ * set the spec asks for — six type roles, a five-step space scale, Field Ink
+ * colours, and the three-zone frame where horizontal padding belongs to the
+ * ZONE and never the element. Engine-rendered block classes are restyled via
+ * :global inside the scoped root, so pack content keeps its one renderer.
+ */
+
+.journey {
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 40px;
+  --space-5: 64px;
+  --edge: clamp(1rem, 4vw, 3rem);
+  --measure: 44rem;
+  /* The light runner has one selected green (#747). The role names remain so
+     their jobs stay explicit, but both resolve through the design-system value
+     rather than keeping a softer local green that drifted from the landing. */
+  --tone-green: var(--living);
+  --tone-green-soft: var(--living);
+  --card: var(--paper);
+
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--text);
+}
+
+/* ── the three-zone frame ──────────────────────────────────────────────── */
+
+.head,
+.body,
+.foot {
+  padding-inline: var(--edge);
+  width: 100%;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-2);
+  padding-block: var(--space-2);
+  max-width: calc(var(--measure) + 2 * var(--edge));
+  margin-inline: auto;
+}
+
+/* The clock takes the middle of the head and says what it is underneath
+   itself, so no label competes with it (#325). Tabular figures so the minute
+   digit does not shift the whole number sideways every second. */
+
+.clock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.1;
+}
+
+.clockTime {
+  font-family: var(--display);
+  font-weight: var(--weight-medium);
+  font-size: var(--size-5);
+  font-variant-numeric: tabular-nums;
+  color: var(--ink);
+}
+
+.clockOf {
+  font-size: var(--size-1);
+  font-weight: var(--weight-strong);
+  color: var(--ink-soft);
+}
+
+.clockPaused .clockTime {
+  color: var(--ink-soft);
+}
+
+.clockPaused .clockOf {
+  color: var(--tone-green-soft);
+}
+
+.headRight {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.body {
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: var(--space-3);
+  padding-block: var(--space-3);
+  max-width: calc(var(--measure) + 2 * var(--edge));
+  margin-inline: auto;
+}
+
+/*
+ * THE ACTION STAYS REACHABLE (#1079).
+ *
+ * `.foot` was an ordinary block at the end of the flow, so on any screen
+ * taller than the viewport the next button scrolled out of sight — true today
+ * on every long runner screen, not only the ones a wrapping board makes
+ * longer. A teacher then hunts for the control she was about to press, in
+ * front of a class.
+ *
+ * Sticky rather than fixed: it pins while there is more below and settles at
+ * the end of the document, so a screen that already fits is laid out exactly
+ * as it was. It needs its own background because the body scrolls underneath
+ * it, and the fade above it is the cue that there is more — shown only when
+ * there IS more (`data-more`, from `useScrollCue`). A permanent gradient on a
+ * screen with nothing below it reads as a rendering fault.
+ */
+/*
+ * FULL WIDTH (Johan, 2026-09-08: "the static part at the end should be full
+ * width"). The foot used to be capped at the measure like the body, so on any
+ * screen wider than 44rem its paper stopped short of the edges and the body
+ * scrolled past it on both sides, a strip narrower than the page. The paper
+ * now spans the page; the CONTENT keeps the measure, centred by the padding
+ * (the larger of the edge and the room either side of the measure).
+ */
+.foot {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: var(--space-2);
+  padding-block: var(--space-3) var(--space-4);
+  padding-inline: max(var(--edge), calc((100% - var(--measure)) / 2));
+  position: sticky;
+  bottom: 0;
+  background: var(--paper);
+}
+
+.journey[data-more="true"] .foot::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 100%;
+  height: var(--space-4);
+  background: linear-gradient(to top, var(--paper), transparent);
+  pointer-events: none;
+}
+
+/*
+ * AN ARROW, NOT ONLY A FADE (Johan, 2026-09-08: "we need an arrow somewhere
+ * to indicate scrollability"). The fade said "something is under here" only
+ * to someone who already knew to read a fade. A chevron in the fade says
+ * "down". Same gate: only while there IS more; it nudges gently, and holds
+ * still for anyone who asked motion to stop.
+ */
+.journey[data-more="true"] .foot::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% + 14px);
+  width: 12px;
+  height: 12px;
+  border-right: 2.5px solid var(--ink-soft);
+  border-bottom: 2.5px solid var(--ink-soft);
+  transform: translate(-50%, 0) rotate(45deg);
+  pointer-events: none;
+  animation: scrollNudge 1.6s ease-in-out infinite;
+}
+
+@keyframes scrollNudge {
+  0%,
+  100% {
+    transform: translate(-50%, 0) rotate(45deg);
+  }
+  50% {
+    transform: translate(-50%, 6px) rotate(45deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .journey[data-more="true"] .foot::after {
+    animation: none;
+  }
+}
+
+/* ── type roles ────────────────────────────────────────────────────────── */
+
+/*
+ * The driving question. The one line she carries outside in her head, and the
+ * sentence she will actually say to the class, so it sits between the title
+ * and the objective at a size that says "read this one".
+ *
+ * `--ink-soft` rather than the title's near-black, and deliberately NOT the
+ * brown: `--slate` (#5f4426) is marked retired from the lesson surfaces at
+ * the top of globals.css, pointing here. Reaching for it would have quietly
+ * reopened a decision somebody already made.
+ */
+/* text-wrap: PRETTY, never BALANCE (#382). Johan: "i dont like the 2 line
+   artificial breaking in titles, excesive line breaks".
+
+   These two values are opposites and only one of them is the complaint.
+   `balance` EVENS a title into halves of near-equal length -- measured on the
+   same string, 318/175 px ragged becomes 267/226 evened. That is what makes a
+   wrap read as a decision somebody made rather than a line running out, and it
+   is exactly what he is objecting to.
+
+   `pretty` does the other thing: it leaves the break where it falls and only
+   prevents the last line being a single orphaned word. It is the same
+   complaint one step removed -- a title ending on a lone "into" reads badly for
+   the same reason -- and fixing it does not even anything.
+
+   Progressive enhancement: where unsupported this is simply ragged, which is
+   the correct fallback and better than what shipped. */
+.tQuestion {
+  margin: 0;
+  font-size: clamp(1.15rem, 2.6vw, 1.4rem);
+  line-height: 1.35;
+  text-wrap: pretty;
+  color: var(--ink-soft);
+}
+
+/* text-wrap: PRETTY, never BALANCE (#382). Johan: "i dont like the 2 line
+   artificial breaking in titles, excesive line breaks".
+
+   These two values are opposites and only one of them is the complaint.
+   `balance` EVENS a title into halves of near-equal length -- measured on the
+   same string, 318/175 px ragged becomes 267/226 evened. That is what makes a
+   wrap read as a decision somebody made rather than a line running out, and it
+   is exactly what he is objecting to.
+
+   `pretty` does the other thing: it leaves the break where it falls and only
+   prevents the last line being a single orphaned word. It is the same
+   complaint one step removed -- a title ending on a lone "into" reads badly for
+   the same reason -- and fixing it does not even anything.
+
+   Progressive enhancement: where unsupported this is simply ragged, which is
+   the correct fallback and better than what shipped. */
+.tHero {
+  font-family: var(--display);
+  font-weight: var(--weight-medium);
+  font-size: clamp(2rem, 5.4vw, 2.8rem);
+  line-height: 1.1;
+  text-wrap: pretty;
+  margin: 0;
+}
+
+/*
+ * THE DOOR'S TITLE (#342). One role, used once, and the only green on that
+ * page.
+ *
+ * `.tHero` and `.spoken` resolved 0.65rem apart in the same face and the same
+ * near-black, which reads as one indecisive headline rather than two ranked
+ * ones. Size alone could not fix it without shrinking `.spoken`, and `.spoken`
+ * is the read-this-aloud register the settle cards and every teaching line
+ * share — a smaller one at the door would rank the door below a settle card.
+ *
+ * SO SIZE DOES ALL OF IT, AND THE INK STAYS CHARCOAL. The first cut spent the
+ * module's green here and Johan ruled it out: *"i dont like the green titles
+ * better charcoal if anything"*. The green is not needed, which is the honest
+ * reading of that: the gap is now 1.75rem rather than 0.65rem, so the two
+ * headlines rank on size alone and the page keeps one ink. Green stays what it
+ * was, the colour of the thing you press.
+ */
+/* text-wrap: PRETTY, never BALANCE (#382). Johan: "i dont like the 2 line
+   artificial breaking in titles, excesive line breaks".
+
+   These two values are opposites and only one of them is the complaint.
+   `balance` EVENS a title into halves of near-equal length -- measured on the
+   same string, 318/175 px ragged becomes 267/226 evened. That is what makes a
+   wrap read as a decision somebody made rather than a line running out, and it
+   is exactly what he is objecting to.
+
+   `pretty` does the other thing: it leaves the break where it falls and only
+   prevents the last line being a single orphaned word. It is the same
+   complaint one step removed -- a title ending on a lone "into" reads badly for
+   the same reason -- and fixing it does not even anything.
+
+   Progressive enhancement: where unsupported this is simply ragged, which is
+   the correct fallback and better than what shipped. */
+.doorTitle {
+  font-family: var(--display);
+  font-weight: var(--weight-medium);
+  font-size: clamp(2.5rem, 7.4vw, 3.9rem);
+  line-height: 1.03;
+  letter-spacing: -0.012em;
+  text-wrap: pretty;
+  color: var(--ink);
+  margin: 0;
+}
+
+/*
+ * THE DAY'S CONDITIONS AT THE THRESHOLD (#672). The grounded sentence has been
+ * composed on every session start for months and this surface rendered none of
+ * it; it lands here, under the lesson's name, as the frame for the evidence and
+ * the question below.
+ *
+ * Ambience, not a step — the same posture the scroll's `.run-arrival` takes.
+ * The block brings its own type from `.conditions-text` (globals.css: flat,
+ * upright, --ink-soft, and a 3rem left inset for the amber "look around" mark
+ * in the margin), so this rule sets only the space around it and pulls its
+ * measure back level with the rest of the column. Nothing here restyles the
+ * sentence: one block, one set of type rules, wherever it renders.
+ */
+.doorConditions {
+  margin: 0;
+  max-width: 34rem;
+}
+
+.doorConditions :global(.conditions-text) {
+  max-width: none;
+}
+
+/*
+ * THE BRIEF'S LEAD (#342). What the children actually do, promoted out of the
+ * definition list. Above the body size and below the question, so the page
+ * reads question → what happens → what it is for, in that order, at three
+ * distinct sizes rather than one.
+ *
+ * No max-width, unlike `.tBody`'s 54ch. The column is already the module's
+ * 44rem measure, and a second cap inside it was what broke "count / together"
+ * across two lines on an iPad — Johan's "too many lines breaks".
+ */
+.lead {
+  font-size: var(--size-3);
+  line-height: 1.55;
+  color: var(--ink);
+  margin: 0;
+}
+
+.tSect {
+  font-family: var(--display);
+  font-weight: var(--weight-medium);
+  font-size: var(--size-4);
+  margin: 0;
+  color: var(--tone-green-soft);
+}
+
+.tEyebrow {
+  font-size: var(--size-1);
+  font-weight: var(--weight-strong);
+  /* Sentence case. The letter-spacing carries the small-caption voice; the
+     uppercase transform is the standing product rule, and caps-lint fails CI
+     on it. Third time an eyebrow has arrived with one (see #300). */
+  letter-spacing: 0.1em;
+  color: var(--ink-soft);
+}
+
+.tBody {
+  font-size: var(--size-2);
+  line-height: 1.6;
+  color: var(--ink-2);
+  margin: 0;
+  max-width: 54ch;
+}
+
+.tMeta {
+  font-size: var(--size-1);
+  font-weight: var(--weight-strong);
+  color: var(--ink-soft);
+  font-variant-numeric: tabular-nums;
+}
+
+/* ── controls ──────────────────────────────────────────────────────────── */
+
+.cta,
+.quiet {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  min-height: 56px;
+  padding: 0 30px;
+  border-radius: 999px;
+  font-family: var(--text);
+  font-weight: var(--weight-strong);
+  font-size: var(--size-3);
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+}
+
+.cta {
+  background: var(--action);
+  color: var(--action-ink);
+  box-shadow: 0 2px 0 rgb(47 51 28 / 25%);
+}
+
+.quiet {
+  background: transparent;
+  color: var(--ink-2);
+  border: 1.5px solid var(--hairline);
+  font-weight: var(--weight-strong);
+}
+
+.iconBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  border: none;
+  background: transparent;
+  color: var(--ink-2);
+  font-size: var(--size-3);
+  cursor: pointer;
+}
+
+.iconBtn:hover {
+  background: rgb(47 51 28 / 6%);
+}
+
+/* ── the way back (#752) ───────────────────────────────────────────────────
+ *
+ * The first real teacher to run this app: the navigation back
+ * and forth between prompts is clunky, and Circle time and the other parts
+ * have no way back to the previous prompt. This is that way back.
+ *
+ * The action row holds the reversal beside the thing it reverses: back on the
+ * left, the forward CTA in the middle, and an empty slot mirroring the back on
+ * the right so the primary button stays centred and does not shift sideways
+ * between a screen that has a previous step and one that does not.
+ *
+ * Inside `.foot` the CTA keeps the full width it has always had, minus the two
+ * slots — the big glove-sized target a teacher aims at in a field is not
+ * something a new control gets to shrink. The settle card's own row is outside
+ * `.foot`, so its pill keeps its intrinsic width, which is the arrangement
+ * that card has always had.
+ */
+
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  width: 100%;
+}
+
+.foot .actions .cta {
+  flex: 1;
+}
+
+/*
+ * THE REFLECTION'S SAVE ROW, IN THE FOOT (Johan, 2026-09-08: "finish here
+ * should also be static"). LogSession portals its `.reflection-actions`
+ * here; the card's own rule drew a hairline and padding above it, which are
+ * the foot's job now.
+ */
+.reflectActions {
+  flex: 1;
+  min-width: 0;
+}
+.reflectActions :global(.reflection-actions) {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.actionSlot {
+  flex: 0 0 44px;
+  width: 44px;
+  height: 44px;
+}
+
+/* A hairline ring, so the arrow reads as a control standing beside the primary
+   pill rather than as a stray glyph on the paper. The same move `.playAloud`
+   makes for the same reason, on the same 44px outdoor tap target (#268) every
+   other icon control on this surface keeps. `.iconBtn` sets `border: none`, so
+   this rule has to sit after it — equal specificity, source order decides. */
+.backStep {
+  flex: 0 0 44px;
+  border: 1.5px solid var(--hairline);
+}
+
+/* `--hairline` is not redefined inside this module's `.outdoor` scope (only
+   the `--o-*` names are, see #452/#453), so inheriting it here would draw a
+   dark ring on dark ground and lose the control entirely. */
+.outdoor .backStep {
+  border-color: rgb(244 238 216 / 34%);
+}
+
+/* ── intro page ────────────────────────────────────────────────────────── */
+
+.runEntryList {
+  margin: var(--space-2) 0 0;
+  padding: 0;
+  list-style: none;
+  border-top: 1px solid var(--hairline);
+}
+
+.runEntryList li {
+  min-height: 68px;
+  display: grid;
+  grid-template-columns: 34px 1fr;
+  align-items: center;
+  gap: var(--space-2);
+  border-bottom: 1px solid var(--hairline);
+}
+
+.runEntryList li > span {
+  width: 28px;
+  height: 28px;
+  display: grid;
+  place-items: center;
+  border: 1.5px solid var(--hairline);
+  border-radius: 50%;
+  color: var(--ink-soft);
+  font-size: var(--size-1);
+  font-weight: var(--weight-strong);
+}
+
+.runEntryList li div {
+  display: grid;
+  gap: 2px;
+}
+
+.runEntryList strong {
+  font-size: var(--size-2);
+}
+
+.runEntryList small {
+  color: var(--ink-soft);
+  font-size: var(--size-1);
+  line-height: 1.35;
+}
+
+.introDoors {
+  display: flex;
+  flex-direction: column;
+}
+
+.door {
+  display: flex;
+  /* Centred, not baseline: the door now carries a mark beside its label and a
+     baseline would hang the mark off the first line of text. */
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-2);
+  padding-block: var(--space-2);
+  border-top: 1px solid var(--hairline);
+  text-decoration: none;
+  color: inherit;
+}
+
+.door:last-child {
+  border-bottom: 1px solid var(--hairline);
+}
+
+/* Offline is a capability of this lesson, not a second lesson hierarchy. */
+.offlineControlScope {
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 40px;
+  --edge: clamp(1rem, 4vw, 3rem);
+  --measure: 44rem;
+  --tone-green-soft: var(--living);
+  --card: var(--paper);
+
+  display: contents;
+}
+
+.offlineControlRow {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--space-1) var(--space-2);
+  padding-top: var(--space-2);
+}
+
+.offlineControl {
+  min-height: 44px;
+  padding-inline: 16px;
+  border: 1.5px solid var(--hairline);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--ink-2);
+  font: inherit;
+  font-size: var(--size-1);
+  font-weight: var(--weight-strong);
+  cursor: pointer;
+}
+
+.connectionNotice {
+  color: var(--ink-soft);
+  font-size: var(--size-1);
+}
+
+/*
+ * How long and which skill: a caption, not a row of cells. The separator is
+ * drawn by CSS so a session with no named skill does not ship a dangling
+ * middot, which is what joining them in the markup would have cost.
+ */
+.facts {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  align-items: baseline;
+  margin: 0;
+}
+
+.facts > * + *::before {
+  content: "·";
+  margin-right: 0.5rem;
+  color: var(--ink-soft);
+  opacity: 0.55;
+}
+
+/* ── settle flashcards ─────────────────────────────────────────────────── */
+
+.dots {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--hairline);
+}
+
+.dotDone {
+  background: var(--tone-green-soft);
+}
+
+.dotNow {
+  width: 22px;
+  border-radius: 999px;
+  background: var(--action);
+}
+
+.settleCard {
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: var(--space-3);
+  border: 1px solid rgb(110 122 69 / 25%);
+  background: rgb(110 122 69 / 5%);
+  border-radius: 28px;
+  padding: var(--space-4) var(--space-4);
+}
+
+/* ── phase pages ───────────────────────────────────────────────────────── */
+
+/* The part strip as chips: a filled ground per state, because on a bright
+   playground a weight change and a 2px underline are not three states — they
+   are one grey row. 44px is the app's own outdoor tap minimum (#268). */
+
+/* THE WHOLE SHAPE, OR IT IS NOT A MAP (#457).
+   Six chips measure 532px inside a 390px phone, so Living and Circle sat off
+   the right edge — and this row's scrollbar is hidden on purpose, so nothing
+   on screen said it continued. A teacher could not see how much lesson was
+   left, and could not reach the last two parts without discovering a gesture
+   the design had made invisible.
+   Wrapping is the fix rather than a fade or an arrow: it costs one row of
+   vertical space at phone width and returns every part, in order, reachable by
+   the tap that is already the interaction. The chips keep their size and their
+   44px outdoor tap target (#268), which was the reason they would not fit. */
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  overflow-x: auto;
+  scrollbar-width: none;
+  padding-inline: var(--edge);
+  padding-block: 0 var(--space-1);
+  max-width: calc(var(--measure) + 2 * var(--edge));
+  margin-inline: auto;
+  width: 100%;
+}
+
+.tabs::-webkit-scrollbar {
+  display: none;
+}
+
+.tab {
+  flex: none;
+  white-space: nowrap;
+  font-family: var(--text);
+  font-size: var(--size-2);
+  font-weight: var(--weight-strong);
+  min-height: 44px;
+  padding: 0 1.1rem;
+  border: none;
+  border-radius: 14px;
+  cursor: pointer;
+  background: rgb(110 122 69 / 8%);
+  color: var(--ink-soft);
+}
+
+.tabDone {
+  background: rgb(110 122 69 / 20%);
+  color: var(--ink-2);
+}
+
+.tabNow {
+  background: var(--action);
+  color: var(--action-ink);
+  font-weight: var(--weight-strong);
+}
+
+.progressRow {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+/* ── the moment: engine blocks restyled inside this layer only ─────────── */
+
+.moment {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.moment :global(.say-aloud-text) {
+  font-family: var(--display);
+  font-weight: var(--weight-medium);
+  font-size: clamp(1.6rem, 4.6vw, 2.15rem);
+  line-height: 1.25;
+}
+
+.moment :global(.voice-quoted) {
+  padding-left: 2.4rem;
+}
+
+.spoken {
+  font-family: var(--display);
+  font-weight: var(--weight-medium);
+  font-size: clamp(1.6rem, 4.6vw, 2.15rem);
+  line-height: 1.25;
+  color: var(--ink);
+  margin: 0;
+}
+
+/* Johan on the live page: "font in new ui is too small". The room this is
+   read in is a playground at arm's length, where 21px/1.6 sits on the acuity
+   limit (the nc#232 measurements) — a teacher note is a thing she reads
+   standing up, not a caption. */
+/* No mark (#343). globals.css:882 settled this once for the scrolled
+   surface and the hybrid reintroduced a worse glyph: a filled ring that
+   belongs to no stroke system and reads as nothing. The register is already
+   carried, because the line beside this one has display type and green
+   speech marks — the note is the one without them. One vocabulary. */
+.note {
+  font-size: var(--size-3);
+  line-height: 1.5;
+  color: var(--ink-2);
+  max-width: 46ch;
+  margin: 0;
+}
+
+/*
+ * THE CONDITIONS NOTE MOVED OUT (2026-09-08). Johan, on the lesson page: "i
+ * said somewhere here i dont see the line" — the note now reads on the lesson
+ * page as well as here, so `.conditionNote`, `.conditionLabel`,
+ * `.conditionMark` and the note's own type live in
+ * `app/conditions-note.module.css` beside the component that draws them. Two
+ * surfaces copying one block is how a block becomes two blocks.
+ */
+
+/*
+ * WHAT THIS SURFACE STILL OWNS: the measure and the reading distance
+ * (2026-09-08).
+ *
+ * Johan, on the lesson page: "expand it broader. idk why u havent put it full
+ * width like the rest." The shared block was carrying `max-width: 46ch` --
+ * THIS surface's prose measure -- inside the shared type rule, so it narrowed
+ * a page whose column is set elsewhere. The cap was not wrong, it was in the
+ * wrong file. It is stated here now, on the surface it belongs to, level with
+ * `.note` beside it so the season note and the conditions note keep one edge.
+ *
+ * The step up to `--size-3` is the same argument. Johan on the live page:
+ * "font in new ui is too small". This is read standing in a playground at
+ * arm's length, where 21px/1.6 sits on the acuity limit (the nc#232
+ * measurements). The lesson page is read seated and keeps the body register.
+ */
+.conditionNoteMeasure {
+  max-width: 46ch;
+}
+
+/* The sentence, which is the wrapper's second and last paragraph (the first
+   is the label). A descendant selector on purpose: it outranks the shared
+   module's own `.note` rule by specificity rather than by which stylesheet
+   happens to be written out first, which between two CSS modules is not a
+   thing this file gets to know. */
+.conditionNoteMeasure > p:last-of-type {
+  font-size: var(--size-3);
+  line-height: 1.5;
+}
+
+.quote {
+  color: var(--tone-green-soft);
+  font-weight: var(--weight-strong);
+}
+
+/* ── play aloud (nc#358) ───────────────────────────────────────────────── */
+
+/*
+ * A mark beside the sentence, not a component the sentence lives inside.
+ * Johan: "the play button should be more subtle maybe without the bar.. maybe
+ * just play aloud or a smaller play button on the side of the sentence?"
+ *
+ * So: no plate, no border, no rule, no label, no second colour. The one loud
+ * thing on this screen is still the words she says. See app/run/PlayAloud.tsx
+ * for why it is a glyph rather than the words, and for how something this
+ * quiet stays hittable with cold hands.
+ */
+
+/* The row carries the spoken line's own type size so the glyph's top padding
+   below scales with the sentence it belongs to, on a phone and on a tablet
+   alike. `.spoken` re-declares its size, so nothing here changes the words. */
+.spokenRow {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-1);
+  font-size: clamp(1.6rem, 4.6vw, 2.15rem);
+}
+
+/*
+ * A RING, AT THE END OF THE SENTENCE.
+ *
+ * Johan: "put the button in a circle or something should be at the end of the
+ * sentence not the beginning". The bare mark it replaces was quiet enough but
+ * it led the line — a teacher's eye reached a control before it reached the
+ * words she was about to say. Trailing the closing quote, it reads the way a
+ * full stop does: the sentence finishes, then the option appears.
+ *
+ * The ring is what makes that legible without a label. A loose triangle after
+ * a quotation mark is punctuation-shaped and easy to miss; enclosed, it is
+ * obviously a thing to press. This is not the enclosure #231 and #232 removed
+ * — a 44px ring around a glyph is not a padded strip under the line — and it
+ * is drawn in a hairline rather than a fill so it sits under the type in
+ * weight rather than beside it.
+ *
+ * 44px on both axes, the touch floor exactly. Outdoors, one hand, standing up,
+ * in glare: the ring is now the target rather than an invisible box around a
+ * smaller mark, so what she aims at is what she can see. The glyph inside is
+ * 18px, because a 24px triangle in a 44px ring crowds it.
+ *
+ * `vertical-align: middle` and an em-based margin so it travels with the type
+ * scale — this line is clamp(1.6rem, 4.6vw, 2.15rem) and larger again outdoors,
+ * and a control pinned in px would drift off the baseline as the sentence grew.
+ */
+.playAloud {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  margin-left: 0.28em;
+  vertical-align: middle;
+  border: 1.5px solid var(--hairline);
+  border-radius: 50%;
+  background: transparent;
+  color: var(--action);
+  cursor: pointer;
+  /* The play triangle's mass sits left of its bounding box, so centring it
+     geometrically reads as centred a little left. Optical, not arithmetic. */
+  text-indent: 2px;
+}
+
+/* Stop is symmetrical; the nudge above would push it visibly off centre. */
+.playAloud[aria-label="Stop"] {
+  text-indent: 0;
+}
+
+.playAloud:active {
+  opacity: 0.6;
+}
+
+/* ── entities ──────────────────────────────────────────────────────────── */
+
+.entity {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  text-decoration: underline dotted rgb(47 51 28 / 45%);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+
+.sheetScrim {
+  position: fixed;
+  inset: 0;
+  background: rgb(29 34 19 / 35%);
+  z-index: 30;
+  border: none;
+  width: 100%;
+  cursor: default;
+}
+
+.sheet {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 31;
+  max-height: 55dvh;
+  overflow-y: auto;
+  background: var(--card);
+  border-radius: 24px 24px 0 0;
+  box-shadow: 0 -18px 50px rgb(47 51 28 / 22%);
+  padding: var(--space-3) var(--edge) var(--space-4);
+}
+
+.sheetInner {
+  max-width: var(--measure);
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.sheetPhoto {
+  width: 88px;
+  height: 88px;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+/* ── assist ────────────────────────────────────────────────────────────── */
+
+/* Standing directly above the primary action now, at its width, so it reads
+   as the smaller of two things she can do here rather than a footnote to the
+   teaching text (#326). */
+.assistAsk {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  background: none;
+  border: 1.5px solid var(--hairline);
+  border-radius: 999px;
+  padding: 0 22px;
+  min-height: 52px;
+  font-size: var(--size-3);
+  font-weight: var(--weight-strong);
+  color: var(--tone-green-soft);
+  cursor: pointer;
+  align-self: stretch;
+}
+
+.assistAsk svg {
+  flex: none;
+  width: 22px;
+  height: 22px;
+}
+
+/* ── the Teacher's assistant sheet (#378) ──────────────────────────────── */
+
+/* The chrome door: the only accented thing in the head. A quiet ring says
+   "this one is different" without a word; the slow pulse makes it findable
+   without nagging. */
+.assistSpark {
+  color: var(--tone-green);
+  border: 1.5px solid rgb(76 125 56 / 55%);
+  border-radius: 50%;
+  position: relative;
+}
+
+.outdoor .assistSpark {
+  color: var(--tj-green-pale);
+  border-color: rgb(201 226 168 / 55%);
+}
+
+@keyframes assistPing {
+  0%, 70%, 100% { box-shadow: 0 0 0 0 rgb(76 125 56 / 0%); }
+  80% { box-shadow: 0 0 0 5px rgb(76 125 56 / 20%); }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .assistSpark {
+    animation: assistPing 3s ease-out infinite;
+  }
+}
+
+/* Only the answer area scrolls; the question stays within thumb reach. */
+.assistSheet {
+  /* Johan: the assistant is a cream sheet in either lesson mode (#1121). */
+  --assist-surface: #fdfaf0;
+  --ink: var(--sheet-ink);
+  --ink-soft: var(--sheet-quiet);
+  --tone-green-soft: var(--sheet-ink);
+  --hairline: rgb(28 24 16 / 28%);
+  --card: #ffffff;
+  --action: var(--sheet-ink);
+  --action-ink: var(--assist-surface);
+  --assist-viewport-height: 100dvh;
+  --assist-viewport-top: 0px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: calc(var(--assist-viewport-top) + var(--assist-viewport-height) * 0.08);
+  height: calc(var(--assist-viewport-height) * 0.92);
+  z-index: 31;
+  overflow: hidden;
+  background: var(--assist-surface);
+  color: var(--ink);
+  border-radius: 24px 24px 0 0;
+  border-top: 1px solid var(--hairline);
+  box-shadow: 0 -18px 60px rgb(0 0 0 / 45%);
+  padding: var(--space-2) var(--edge) max(var(--space-2), env(safe-area-inset-bottom));
+}
+
+.assistInner {
+  height: 100%;
+  min-height: 0;
+  gap: var(--space-2);
+}
+
+.assistDock {
+  flex: 0 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding-top: var(--space-2);
+  border-top: 1px solid var(--hairline);
+}
+
+.assistEmpty {
+  margin: auto 0;
+  color: var(--ink-soft);
+  font-size: var(--size-2);
+  line-height: 1.55;
+}
+
+.assistSheetHead {
+  flex: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-2);
+}
+
+.assistClose {
+  width: 44px;
+  height: 44px;
+  border: none;
+  border-radius: 50%;
+  background: rgb(47 51 28 / 8%);
+  color: var(--ink);
+  font-size: var(--size-2);
+  cursor: pointer;
+  flex: none;
+}
+
+/* Keep the sheet control in its header, independent of the older inline helper. */
+.assistSheet .assistSheetHead .assistClose {
+  position: static;
+  width: 44px;
+  height: 44px;
+  background: color-mix(in srgb, var(--card) 55%, transparent);
+  color: var(--ink);
+}
+
+.assistOptions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 3px;
+  margin: -3px;
+}
+
+.assistOptions button {
+  flex: none;
+  white-space: nowrap;
+}
+
+.assistOptions button {
+  min-height: 44px;
+  padding: 0.5rem 1rem;
+  border: 1px solid color-mix(in srgb, var(--ink) 55%, var(--assist-surface));
+  border-radius: 999px;
+  background: transparent;
+  font: inherit;
+  font-size: var(--size-1);
+  color: var(--ink);
+  cursor: pointer;
+}
+
+.assistOptions button:hover:not(:disabled) {
+  background: var(--card);
+  border-color: var(--ink-soft);
+}
+
+.assistOptions button:disabled,
+.assistQuestion button:disabled {
+  opacity: 0.55;
+  cursor: default;
+}
+
+.assistSheet .assistSheetHead .tSect {
+  font-family: var(--text);
+  font-size: var(--size-3);
+  font-weight: var(--weight-strong);
+  color: var(--ink);
+}
+
+.assistQuestion {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.assistQuestion label {
+  font-weight: var(--weight-strong);
+  font-size: var(--size-1);
+}
+
+.assistComposer {
+  display: flex;
+  align-items: flex-end;
+  gap: 0.5rem;
+  padding: 0.6rem;
+  border: 1px solid color-mix(in srgb, var(--ink) 55%, var(--assist-surface));
+  border-radius: 12px;
+  background: color-mix(in srgb, var(--card) 55%, transparent);
+}
+
+.assistComposer:focus-within {
+  border-color: var(--action);
+  box-shadow: 0 0 0 2px var(--action);
+}
+
+.assistQuestion textarea {
+  flex: 1;
+  min-width: 0;
+  font: inherit;
+  font-size: var(--size-2);
+  line-height: 1.5;
+  padding: 0.2rem 0.35rem;
+  border: none;
+  border-radius: 4px;
+  background: transparent;
+  color: inherit;
+  resize: none;
+  max-height: 6rem;
+}
+
+.assistQuestion textarea::placeholder {
+  color: var(--ink-soft);
+  opacity: 1;
+}
+
+/* The composer supplies a single focus ring around input and send. */
+.assistQuestion textarea:focus-visible {
+  outline: none;
+  box-shadow: none;
+}
+
+.assistQuestion button {
+  flex: none;
+  min-height: 44px;
+  padding: 0 16px;
+  border: none;
+  border-radius: 8px;
+  background: var(--action);
+  color: var(--action-ink);
+  font: inherit;
+  font-weight: var(--weight-strong);
+  cursor: pointer;
+}
+
+/* The thread: answers land one under the other, each with the small label of
+   the option that asked. No bubbles — this is a page, not a chat app. */
+.assistThread {
+  flex: 1;
+  min-height: min(120px, 25dvh);
+  overflow-y: auto;
+  overscroll-behavior-y: contain;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  overflow-wrap: anywhere;
+}
+
+.assistEntry {
+  flex: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  padding-top: var(--space-2);
+  border-top: 1px solid var(--hairline);
+}
+
+.assistLabel {
+  margin: 0;
+  font-size: var(--size-1);
+  font-weight: var(--weight-strong);
+  letter-spacing: 0.02em;
+  color: var(--tone-green-soft);
+}
+
+.assistBody {
+  margin: 0;
+  font-size: var(--size-2);
+  line-height: 1.55;
+}
+
+.assistSay {
+  display: grid;
+  gap: 0.5rem;
+  padding-block: 0.5rem;
+}
+
+.assistSpoken {
+  margin: 0;
+  padding-left: var(--space-2);
+  border-left: 2px solid var(--tone-green-soft);
+  font-family: var(--text);
+  font-weight: var(--weight-medium);
+  font-size: var(--size-2);
+  line-height: 1.6;
+}
+
+.assistTier {
+  margin: 0;
+  font-size: var(--size-1);
+  font-weight: var(--weight-strong);
+  color: var(--tone-green-soft);
+}
+
+/* The record receipt on a regional hazard: quiet, and in the honesty voice —
+   it qualifies the claim rather than decorating it. */
+.assistWhence {
+  font-size: var(--size-1);
+  font-style: italic;
+  color: var(--ink-soft);
+}
+
+.assistHandoff {
+  margin: 0;
+  font-size: var(--size-1);
+  color: var(--ink-soft);
+}
+
+/* Her own photograph, at once, so the wait has something in it. */
+.assistPhoto {
+  width: 100%;
+  max-height: 32dvh;
+  object-fit: contain;
+  object-position: left center;
+  border-radius: 14px;
+}
+
+.assistStatus {
+  margin: 0;
+  font-size: var(--size-2);
+  color: var(--ink-soft);
+}
+
+/* ── field photographs (#375) ──────────────────────────────────────────── */
+
+/* The row: a few small named photographs a teacher taps to hold one up. Sits
+   in the teaching body without becoming a card system — round thumbs, the
+   name under each, nothing else. */
+.photoRow {
+  display: flex;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+}
+
+.lookFors {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.lookFors > p {
+  margin: 0;
+}
+
+.photoThumb {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  font: inherit;
+  color: inherit;
+  min-height: 44px;
+}
+
+.photoThumb img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid rgb(47 51 28 / 18%);
+}
+
+.photoThumb span {
+  font-size: var(--size-1);
+  font-weight: var(--weight-strong);
+  color: var(--ink-soft);
+}
+
+.outdoor .photoThumb span {
+  color: rgb(244 238 216 / 78%);
+}
+
+.outdoor .photoThumb img {
+  border-color: rgb(244 238 216 / 30%);
+}
+
+/* The viewer: one photograph at the size the moment needs, on the dark ground
+   the outdoor runner already lives on. Swiping is a scroll-snap track, so a
+   thumb in a glove can drag rather than aim. */
+.viewer {
+  position: fixed;
+  inset: 0;
+  z-index: 40;
+  display: flex;
+  flex-direction: column;
+  background: var(--grounded);
+  color: var(--caption);
+}
+
+.viewerTrack {
+  flex: 1 1 auto;
+  min-height: 0;
+  padding-top: calc(60px + env(safe-area-inset-top));
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  overscroll-behavior-x: contain;
+}
+
+.viewerItem {
+  flex: 0 0 100%;
+  max-width: none;
+  overflow-y: auto;
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  min-width: 0;
+}
+
+.viewerItem img {
+  flex: 1 0 auto;
+  height: 60%;
+  min-height: 0;
+  width: 100%;
+  object-fit: contain;
+}
+
+.viewerCaption {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  padding: var(--space-2) var(--edge) var(--space-3);
+}
+
+.viewerCaption strong {
+  font-family: var(--display);
+  font-weight: var(--weight-medium);
+  font-size: var(--size-4);
+}
+
+.viewerCaption em {
+  font-style: italic;
+  font-size: var(--size-2);
+  color: rgb(244 238 216 / 70%);
+}
+
+/* The claim above the name, in the preparation strip's own words: this is the
+   honesty tier, not decoration. */
+.viewerEvidence {
+  font-size: var(--size-1);
+  font-weight: var(--weight-strong);
+  text-transform: none;
+  color: var(--tj-green-pale);
+}
+
+.viewerCredit {
+  font-size: var(--size-1);
+  color: rgb(244 238 216 / 55%);
+}
+
+.viewerHint {
+  margin: 0;
+  padding: 0 var(--edge) var(--space-1);
+  font-size: var(--size-1);
+  color: rgb(244 238 216 / 55%);
+}
+
+.viewerClose {
+  position: absolute;
+  top: max(var(--space-2), env(safe-area-inset-top));
+  right: max(var(--edge), env(safe-area-inset-right));
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: none;
+  background: rgb(244 238 216 / 14%);
+  color: var(--caption);
+  font-size: var(--size-3);
+  cursor: pointer;
+}
+
+/* ── circle page ───────────────────────────────────────────────────────── */
+
+.circleCard {
+  background: var(--card);
+  border-radius: 20px;
+  padding: var(--space-3);
+  box-shadow: 0 10px 30px rgb(47 51 28 / 8%);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.circleCard :global(.say-aloud-text) {
+  font-family: var(--display);
+  font-weight: var(--weight-medium);
+  font-size: clamp(1.3rem, 3.6vw, 1.7rem);
+  line-height: 1.3;
+}
+
+.circleCard :global(.voice-quoted) {
+  padding-left: 2.2rem;
+}
+
+.circleList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+/* ── ask it another way (#390) ─────────────────────────────────────────────
+ *
+ * THE ROW IS ONE ROW, and the cut from five options to three is what makes
+ * that true. `1fr 1fr 1fr` at 375px with the zone's own padding leaves about
+ * 109px a chip; a fourth takes each to about 79px, which is where these
+ * labels start truncating. The row is quiet chrome under the teacher's note,
+ * never a second thing competing with the question above it.
+ */
+
+.askAnother {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  padding-top: var(--space-1);
+  border-top: 1px solid var(--hairline-soft);
+}
+
+.askAnotherLead {
+  font-size: var(--size-1);
+  font-weight: var(--weight-strong);
+  color: var(--ink-soft);
+}
+
+.askAnotherRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: var(--space-1);
+}
+
+.askAnotherChip {
+  min-height: var(--touch-secondary);
+  padding: 0.4rem 0.5rem;
+  border: 1.5px solid var(--hairline);
+  border-radius: var(--radius-pill);
+  background: none;
+  font: inherit;
+  font-size: var(--size-1);
+  color: var(--ink-2);
+  cursor: pointer;
+}
+
+.askAnotherChip:disabled {
+  opacity: 0.55;
+  cursor: default;
+}
+
+.askAnotherQuiet {
+  font-size: var(--size-1);
+  color: var(--ink-soft);
+}
+
+/* Her own plate colour for spoken words, so an alternative reads as something
+   said aloud before she has decided to take it. */
+.askAnotherOffer {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  padding: var(--space-2);
+  border-radius: var(--radius);
+  background: var(--plate-spoken);
+}
+
+.askAnotherOfferText {
+  font-family: var(--display);
+  font-weight: var(--weight-medium);
+  font-size: var(--size-3);
+  line-height: 1.3;
+  color: var(--ink);
+}
+
+.askAnotherUse {
+  align-self: flex-start;
+  min-height: var(--touch-secondary);
+  padding: 0.4rem 1rem;
+  border: none;
+  border-radius: var(--radius-pill);
+  background: var(--action);
+  color: var(--action-ink);
+  font: inherit;
+  font-size: var(--size-1);
+  font-weight: var(--weight-strong);
+  cursor: pointer;
+}
+
+.askAnotherBack {
+  align-self: flex-start;
+  min-height: var(--touch-secondary);
+  padding: 0;
+  border: none;
+  background: none;
+  font: inherit;
+  font-size: var(--size-1);
+  color: var(--ink-soft);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* ── celebration ───────────────────────────────────────────────────────── */
+
+.celebrate {
+  /* The ground the gradient settles on; the foot and its fade stand on it. */
+  --celebrate-ground: #46552c;
+  background: radial-gradient(ellipse 120% 90% at 50% 20%, #5a6b3a 0%, var(--celebrate-ground) 70%);
+  color: var(--caption);
+}
+
+.celebrate .tEyebrow {
+  color: rgb(244 238 216 / 70%);
+}
+
+.celebrateBody {
+  align-items: center;
+  text-align: center;
+}
+
+.keepsake {
+  font-style: italic;
+  font-size: var(--size-3);
+  line-height: 1.6;
+  background: rgb(244 238 216 / 10%);
+  border-radius: 18px;
+  padding: var(--space-3);
+  max-width: 34em;
+  margin: 0;
+}
+
+.celebrate .cta {
+  background: var(--caption);
+  color: var(--ink);
+}
+
+/* The foot's own paper (#1079) does not belong on the celebration (Johan,
+   2026-09-08: "done should not have this color"): the cream pill stands on
+   the green, so the foot and its fade take the gradient's ground. */
+.celebrate .foot {
+  background: var(--celebrate-ground);
+}
+.celebrate[data-more="true"] .foot::before {
+  background: linear-gradient(to top, var(--celebrate-ground), transparent);
+}
+.celebrate[data-more="true"] .foot::after {
+  border-color: var(--caption);
+}
+
+/* ── outdoor mode (returned by ruling): dark, glare-proof, glove-sized ─── */
+
+/* ── OUTDOOR MODE IS A SCOPE, NOT A SCATTER (#382) ───────────────────────
+   These seven values were painted as literals across forty-odd declarations
+   below, and they are now declared once here and referenced.
+
+   THEY ARE DECLARED LOCALLY AND THAT IS DELIBERATE, NOT AN OVERSIGHT.
+   globals.css already has an outdoor token scope at `.run.outdoor`, and reusing
+   it here would be wrong in a way that does not show up until a teacher is
+   standing in a field. This component renders a main element carrying the module's journey and outdoor classes
+   with CSS-module classes (HybridJourney.tsx:969) — it is never inside `.run`,
+   so `.run.outdoor` does not apply to it. Writing `color: var(--ink)` in this
+   block would resolve against the LIGHT :root and paint #474c3f charcoal ink
+   on a near-black ground, on the one screen nobody looks at indoors.
+
+   So the migration here is literal to IDENTICALLY-VALUED token, never literal
+   to semantically-tidier token. Every value below is exactly what this file
+   already painted. Johan on outdoor mode: "i like the outdoor mode we have so
+   wouldnt change much in there in terms of colors" — so nothing here changes,
+   and the point of the scope is that the next change is possible at all.
+
+   (That there are two separate runners with two separate outdoor modes is the
+   real debt. Naming it is the first step to merging it; merging it is not this
+   ticket, because merging it changes pixels.) */
+.outdoor {
+  --o-ground: #1d2213;
+  --o-raised: #2a3220;
+  --o-ink: #f4eed8;
+  --o-ink-soft: #d8d3b8;   /* the note: warmer, not dimmer — the dark ground
+                              already eats a step of contrast before glare does */
+  --o-ink-quiet: #c9c3a6;
+  --o-action: #9cc47e;     /* the action accent, outdoor register */
+  --o-action-pale: #c9e2a8;
+
+  /* The seventeen tokens that used to be transcribed here now come from
+     globals.css's single outdoor register, which this element opts into with
+     data-outdoor (#442). Two copies of one register is what let the spoken
+     plate and the teacher note ship unreadable; the copy is gone rather than
+     kept in step by hand. The --o-* names above are this file's own
+     vocabulary and stay. */
+
+  background: radial-gradient(ellipse 120% 90% at 50% 0%, var(--o-raised) 0%, var(--o-ground) 60%);
+  color: var(--o-ink);
+}
+
+.outdoor .tMeta {
+  color: rgb(244 238 216 / 45%);
+}
+
+.outdoor .tab {
+  background: rgb(244 238 216 / 8%);
+  color: rgb(244 238 216 / 55%);
+}
+
+.outdoor .tabDone {
+  background: rgb(156 196 126 / 22%);
+  color: rgb(244 238 216 / 80%);
+}
+
+.outdoor .tabNow {
+  background: var(--o-action);
+  color: var(--o-ground);
+}
+
+.outdoor .clockTime {
+  color: var(--o-ink);
+}
+
+.outdoor .clockOf {
+  color: rgb(244 238 216 / 55%);
+}
+
+.outdoor .clockPaused .clockTime {
+  color: rgb(244 238 216 / 55%);
+}
+
+.outdoor .clockPaused .clockOf {
+  color: var(--o-action);
+}
+
+.outdoor .quote {
+  color: var(--o-action);
+}
+
+/* Grounding wears the outdoor register now, and these two are the parts of it
+   the register did not already cover. `--tone-green-soft` is `--living`
+   (#4c7d38), which globals.css does NOT restate under `[data-outdoor]` — the
+   same 3.3:1 gap #442 found under `--action` and fixed there. The settle card
+   painted a green wash and a green hairline for a cream ground; on the dark
+   one it reads as a smudge. Both take this file's own outdoor vocabulary. */
+.outdoor .tSect {
+  color: var(--o-action-pale);
+}
+
+.outdoor .settleCard {
+  border-color: rgb(244 238 216 / 18%);
+  background: rgb(244 238 216 / 6%);
+}
+
+
+.outdoor .spoken {
+  color: var(--o-ink);
+  font-size: clamp(1.8rem, 5.2vw, 2.5rem);
+}
+
+/* The dark ground eats a step of contrast before the glare does, so the note
+   takes a warmer ink here rather than a dimmer one. */
+.outdoor .note {
+  color: var(--o-ink-soft);
+}
+
+.outdoor .iconBtn {
+  color: var(--o-ink-quiet);
+}
+
+.outdoor .dot {
+  background: rgb(244 238 216 / 25%);
+}
+
+.outdoor .dotDone {
+  background: rgb(156 196 126 / 70%);
+}
+
+.outdoor .dotNow {
+  background: var(--o-action);
+}
+
+.outdoor .cta {
+  background: var(--o-action);
+  color: var(--o-ground);
+  box-shadow: 0 2px 0 rgb(0 0 0 / 35%);
+}
+
+.outdoor .assistAsk {
+  color: var(--o-ink-soft);
+  border-color: rgb(244 238 216 / 30%);
+}
+
+.outdoor .entity {
+  text-decoration-color: rgb(201 226 168 / 60%);
+  color: var(--o-action-pale);
+}
+
+/* The ring in the outdoor register: the accent of the primary button above it,
+   and a ring drawn from the same ink at low alpha. `--hairline` is not
+   redefined inside this module's `.outdoor` scope (only the `--o-*` names are,
+   see #452/#453), so inheriting it here would draw a dark ring on dark ground
+   and lose the control entirely. */
+.outdoor .playAloud {
+  color: var(--o-action);
+  border-color: rgb(244 238 216 / 34%);
+}
+
+/* The dark ground takes the bigger spoken type (see `.outdoor .spoken`), so
+   the row that positions the mark against it has to grow with it. */
+.outdoor .spokenRow {
+  font-size: clamp(1.8rem, 5.2vw, 2.5rem);
+}
+
+/* Circle time takes the outdoor register now, and these are the two values on
+   that page painted as literals for a cream ground: the closed question's fill
+   and the ring on its mark. Everything else there reads through `--paper` and
+   the `--ink-*` family, which globals.css restates under `[data-outdoor]`, so
+   it followed on its own. Found by looking at the page in the mode rather than
+   by reading the file — a cream plate under pale-green type is not a thing a
+   grep for `.outdoor` would have turned up. */
+.outdoor .circleClosed {
+  background: rgb(244 238 216 / 8%);
+}
+
+.outdoor .qMark {
+  border-color: var(--o-action);
+  color: var(--o-action);
+}
+
+.outdoor .circleClosed .qMark {
+  border-color: rgb(244 238 216 / 22%);
+  color: var(--o-ink-quiet);
+}
+
+.outdoorToggle {
+  border: 1.5px solid var(--hairline);
+  background: transparent;
+  color: inherit;
+  border-radius: 999px;
+  min-height: 36px;
+  padding: 0 14px;
+  font-size: var(--size-1);
+  font-weight: var(--weight-strong);
+  cursor: pointer;
+}
+
+.outdoor .outdoorToggle {
+  border-color: rgb(244 238 216 / 35%);
+}
+
+/* ── paused (#325) ─────────────────────────────────────────────────────── */
+
+/* Pause covers the lesson rather than sitting beside it: the class has gone
+   somewhere else and so has she, and the only two things she does next are
+   here. End lives inside this card and nowhere on the teaching surface, so
+   ending is never one mis-tap from the line she is reading. */
+
+.pausedScrim {
+  position: fixed;
+  inset: 0;
+  z-index: 40;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--edge);
+  background: rgb(29 34 19 / 55%);
+  backdrop-filter: blur(3px);
+}
+
+.pausedCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: var(--space-2);
+  width: min(30rem, 100%);
+  padding: var(--space-4) var(--space-3);
+  border-radius: 28px;
+  background: var(--card);
+  color: var(--ink);
+  box-shadow: 0 24px 60px rgb(29 34 19 / 35%);
+}
+
+.pausedClock {
+  font-family: var(--display);
+  font-weight: var(--weight-medium);
+  font-size: clamp(3rem, 12vw, 4rem);
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+  margin: 0;
+  color: var(--ink);
+}
+
+.pausedWord {
+  font-family: var(--display);
+  font-weight: var(--weight-medium);
+  font-size: var(--size-4);
+  margin: 0;
+  color: var(--tone-green-soft);
+}
+
+.pausedCard .cta,
+.pausedCard .quiet {
+  align-self: stretch;
+}
+
+.pausedCard .cta {
+  margin-top: var(--space-2);
+}
+
+/* Outdoor is a promise about glare, and a cream card in the middle of a dark
+   one breaks it. The pause takes the same ground, raised. */
+.outdoor .pausedCard {
+  background: var(--o-raised);
+  color: var(--o-ink);
+  box-shadow: 0 24px 60px rgb(0 0 0 / 50%);
+}
+
+.outdoor .pausedClock {
+  color: var(--o-ink);
+}
+
+.outdoor .pausedWord {
+  color: var(--o-action);
+}
+
+.outdoor .pausedCard .tBody {
+  color: var(--o-ink-soft);
+}
+
+.outdoor .pausedCard .quiet {
+  color: var(--o-ink);
+  border-color: rgb(244 238 216 / 35%);
+}
+
+/* The celebration's own ground: the clock is the total the class was out
+   for, not a number still running. */
+.celebrate .clockTime {
+  color: var(--o-ink);
+}
+
+.celebrate .clockOf {
+  color: rgb(244 238 216 / 65%);
+}
+
+/* ── circle accordion ──────────────────────────────────────────────────── */
+
+.circleClosed {
+  background: rgb(253 250 240 / 70%);
+  box-shadow: none;
+}
+
+.qToggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-2);
+  width: 100%;
+  background: none;
+  border: none;
+  padding: 0;
+  text-align: left;
+  cursor: pointer;
+  min-height: 44px;
+}
+
+.qText {
+  font-family: var(--display);
+  font-weight: var(--weight-medium);
+  font-size: clamp(1.25rem, 3.4vw, 1.6rem);
+  line-height: 1.3;
+  color: var(--ink);
+}
+
+.circleClosed .qText {
+  color: var(--ink-2);
+}
+
+.qMark {
+  flex: none;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 2px solid var(--tone-green);
+  color: var(--tone-green);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: var(--weight-strong);
+  font-size: var(--size-3);
+}
+
+.circleClosed .qMark {
+  border-color: rgb(47 51 28 / 22%);
+  color: var(--ink-soft);
+}
+
+/* ── the assist, dressed for the page it stands on (nc#235) ────────────── */
+
+.assistBox {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.assistBox :global(.lesson-support-heading) h2 {
+  font-family: var(--text);
+  font-size: var(--size-1);
+  font-weight: var(--weight-strong);
+  /* Sentence case. Fourth eyebrow today to arrive with an uppercase
+     transform; the spacing is what carries the small-caption voice. */
+  letter-spacing: 0.1em;
+  color: var(--ink-soft);
+  margin: 0;
+}
+
+.assistBox :global(.lesson-support-actions) {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.assistBox :global(.lesson-support-actions button) {
+  min-height: 44px;
+  padding: 0 18px;
+  border-radius: 999px;
+  border: 1.5px solid var(--hairline);
+  background: transparent;
+  color: var(--ink-2);
+  font-weight: var(--weight-strong);
+  font-size: var(--size-2);
+  cursor: pointer;
+}
+
+.assistBox :global(.lesson-support-actions button[aria-pressed="true"]) {
+  background: var(--card);
+  border-color: var(--action);
+  color: var(--ink);
+}
+
+.assistBox :global(.lesson-support-form) {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.assistBox :global(.lesson-support-form textarea),
+.assistBox :global(.lesson-support-form input) {
+  border: 1.5px solid var(--hairline);
+  border-radius: 14px;
+  background: var(--card);
+  color: var(--ink);
+  font: inherit;
+  font-size: var(--size-2);
+  padding: 0.8rem 1rem;
+  min-height: 72px;
+}
+
+.assistBox :global(.lesson-support-form button) {
+  min-height: 48px;
+  padding: 0 24px;
+  border-radius: 999px;
+  border: none;
+  background: var(--action);
+  color: var(--action-ink);
+  font-weight: var(--weight-strong);
+  font-size: var(--size-2);
+  cursor: pointer;
+  align-self: flex-start;
+}
+
+.assistBox :global(.lesson-support-status) {
+  font-size: var(--size-2);
+  font-weight: var(--weight-medium);
+  color: var(--ink-soft);
+  margin: 0;
+}
+
+/* The draft wears the for-you register on a paper card — and its text is
+   INK in both lights, because the card is paper whatever the sky does. */
+.assistBox :global(.lesson-support-draft) {
+  background: var(--card);
+  border-radius: 18px;
+  padding: var(--space-3);
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.assistBox :global(.lesson-support-draft) h3 {
+  font-family: var(--display);
+  font-weight: var(--weight-medium);
+  font-size: var(--size-3);
+  color: var(--ink);
+  margin: 0;
+}
+
+.assistBox :global(.lesson-support-draft) p,
+.assistBox :global(.lesson-support-draft) small {
+  color: var(--ink-2);
+  font-size: var(--size-2);
+  line-height: 1.55;
+  margin: 0;
+}
+
+.assistBox :global(.lesson-support-draft) blockquote {
+  font-family: var(--display);
+  font-weight: var(--weight-medium);
+  font-size: var(--size-3);
+  line-height: 1.35;
+  color: var(--ink);
+  margin: 0;
+  padding-left: 1rem;
+  border-left: 3px solid var(--tone-green);
+}
+
+.assistBox {
+  position: relative;
+  padding-right: 40px;
+}
+
+.assistClose {
+  position: absolute;
+  top: -4px;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  background: transparent;
+  color: var(--ink-soft);
+  font-size: var(--size-2);
+  cursor: pointer;
+}
+
+.assistClose:hover {
+  background: rgb(47 51 28 / 8%);
+}
+
+/* On the night ground, the frame's own text lightens; the paper card and
+   everything on it stays ink. */
+.outdoor .assistBox :global(.lesson-support-heading) h2,
+.outdoor .assistBox :global(.lesson-support-status),
+.outdoor .assistClose {
+  color: var(--o-ink-quiet);
+}
+
+.outdoor .assistBox :global(.lesson-support-actions button) {
+  border-color: rgb(244 238 216 / 30%);
+  color: var(--caption);
+}
+
+.outdoor .assistBox :global(.lesson-support-actions button[aria-pressed="true"]) {
+  background: rgb(244 238 216 / 12%);
+  border-color: var(--o-action);
+  color: var(--o-ink);
+}
+
+.outdoor .assistBox :global(.lesson-support-form textarea),
+.outdoor .assistBox :global(.lesson-support-form input) {
+  background: rgb(244 238 216 / 10%);
+  border-color: rgb(244 238 216 / 25%);
+  color: var(--o-ink);
+}
+
+.outdoor .assistBox :global(.lesson-support-form button) {
+  background: var(--o-action);
+  color: var(--o-ground);
+}
+
+/*
+ * RUN-IN HEADS (#342), which replace `.brief`'s stack and the two-column band
+ * that briefly replaced it.
+ *
+ * `.brief` set four labelled prose blocks at one width, one weight and one
+ * rhythm — Johan's "monotone". The first fix moved two of them out and put the
+ * survivors in COLUMNS, and that was the mistake: "too many lines breaks..
+ * dont do 2 columns". Halving the measure broke every sentence twice as often,
+ * and "a quiet / stretch of pavement" became three lines of a sentence that is
+ * one.
+ *
+ * The second cut ran the label INTO the paragraph to save the line it spent,
+ * and Johan ruled on that too: *"title up then text paragraph new line"*. So
+ * the label goes back over its paragraph, which is what it always wanted to be
+ * — a small heading — and the fix for the line breaks is the one that was
+ * always the real fix: THE PARAGRAPH KEEPS THE WHOLE MEASURE. The columns were
+ * the fault, not the stacking.
+ *
+ * T1 (#231) still holds underneath: no boxes and no rules between rows. What
+ * separates them is the label's weight and the space above it.
+ */
+.notes {
+  margin: 0;
+  display: grid;
+  gap: var(--space-3);
+}
+
+.notes > div {
+  display: grid;
+  gap: 0.2rem;
+}
+
+/*
+ * The labels are charcoal, not the accent. The first cut put them in
+ * `--tone-green-soft` to break the monotone with colour and Johan ruled it
+ * out: *"i dont like the green titles better charcoal if anything"*. What
+ * breaks the monotone is the hierarchy above them — hero, question, lead, body
+ * at four sizes — and a ruled band under them. Colour was doing typography's
+ * job again.
+ */
+.notes dt {
+  font-size: var(--size-1);
+  font-weight: var(--weight-strong);
+  letter-spacing: 0.08em;
+  color: var(--ink-soft);
+  margin: 0;
+}
+
+.notes dd {
+  margin: 0;
+  font-size: var(--size-2);
+  line-height: 1.6;
+  color: var(--ink-2);
+}
+
+/*
+ * The two facts that can still cancel the lesson — what ground she needs and
+ * what she carries — held between hairlines so they read as a different KIND
+ * of information from the prose above. Hairlines and nothing else: no tint,
+ * no card, no tray. The lesson is one book page.
+ */
+.practical {
+  gap: var(--space-2);
+  padding-block: var(--space-3);
+  border-top: 1px solid var(--hairline);
+  border-bottom: 1px solid var(--hairline);
+}
+
+/* The doors draw their own top rule, which landed 15px under the band's
+   bottom one and read as a double rule nobody had drawn. When they follow the
+   band directly the band's line is the one they share. */
+.practical + .introDoors .door:first-child {
+  border-top: 0;
+}
+
+/*
+ * The doors gain a mark. `align-items: center` replaces the baseline
+ * alignment the text-only version used, so the mark sits with the label
+ * instead of hanging off its first line.
+ */
+.doorMark {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-self: center;
+  color: var(--ink-soft);
+}
+
+/*
+ * THE ONE ROW THAT PLAYS (#575).
+ *
+ * Three of these rows open a document to read at her own pace. The fourth
+ * starts a voice and moves on its own. Drawn identically, a teacher scanning
+ * the doorway has no way to tell which is which, and the row only earns its
+ * place if she finds it in the seconds she has.
+ *
+ * So the mark takes the action colour and is filled (see `Mark` in
+ * HybridJourney), and its label takes the same. Everything structural stays:
+ * the row, its position above Pre-reading, the arrow, the rule above and
+ * below. This is not a banner over the list and not a second primary action
+ * competing with "Settle everyone" (renamed from "Settle the class" in #467)
+ * — it is one row in the list, drawn as the control it is rather than as the
+ * links it sits with.
+ */
+.doorMarkPlay {
+  color: var(--action);
+}
+
+.doorPlay strong {
+  color: var(--action);
+}
+
+.doorText {
+  flex: 1 1 auto;
+}
+
+/* The door's label sits on its own line above its description. That was two
+   hard <br /> elements in HybridJourney (#382); it is structure, so it belongs
+   in the stylesheet. `.doorText` is `flex: 1 1 auto` and NOT a column, so
+   simply deleting the breaks would have run "Pre-reading" into the sentence
+   after it -- the break was doing real work and needed replacing, not removing. */
+.doorText strong {
+  display: block;
+}
+
+/* ── the door slot: what is standing outside ────────────────────────────────────
+ *
+ * Introduce today's evidence half (#324).
+ *
+ * Named `slot*` and not `door*`: this module already has a `.door` — the
+ * pre-reading and print doors on the intro screen — and the first draft of
+ * this block reused the name. The strip silently inherited that rule's
+ * `align-items: center` and its top hairline, which is how the heading came
+ * out centred over a rule nobody had drawn. Two meanings of "door" in one
+ * stylesheet is one too many. #233 supplies the rule that shapes this block:
+ * small labeled list entities, never a count-responsive specimen gallery. One
+ * thing that clears the evidence bar stays the same size as three; the list
+ * follows the available width without promoting any photograph into a hero.
+ */
+
+.slot {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.slotRow {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr));
+  gap: 0.75rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.slotItem {
+  display: grid;
+  grid-template-columns: 4.75rem minmax(0, 1fr);
+  grid-template-rows: auto auto;
+  column-gap: 0.75rem;
+  row-gap: 0.15rem;
+  min-width: 0;
+  padding: 0.65rem;
+  border: 1px solid var(--hairline);
+  border-radius: 14px;
+  background: var(--card);
+}
+
+/* The picture and the name are ONE tap target through to the species profile
+   (#341). It carries no colour, underline or chevron of its own. The affordance
+   is the whole entity moving under the thumb, plus a real focus ring for the
+   keyboard. */
+.slotLink {
+  grid-column: 1 / -1;
+  grid-row: 1;
+  display: grid;
+  grid-template-columns: 4.75rem minmax(0, 1fr);
+  gap: 0.75rem;
+  align-items: center;
+  min-width: 0;
+  color: inherit;
+  text-decoration: none;
+  border-radius: 12px;
+}
+
+.slotLink:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 3px;
+}
+
+@media (hover: hover) {
+  .slotLink:hover .slotName {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+}
+
+.slotLink:active {
+  transform: scale(0.985);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .slotLink:active {
+    transform: none;
+  }
+}
+
+/* `position: relative` is load-bearing: the field-guide plate is `inset: 0`
+   and needs a positioned box to fill, or it escapes to the nearest one. */
+.slotPlate {
+  grid-column: 1;
+  grid-row: 1;
+  position: relative;
+  width: 4.75rem;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  border-radius: 10px;
+  background: var(--card);
+}
+
+.slotPlate img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slotName {
+  grid-column: 2;
+  grid-row: 1;
+  font-family: var(--display);
+  font-weight: var(--weight-medium);
+  font-size: var(--size-2);
+  line-height: 1.25;
+  margin: 0;
+}
+
+/* Either the credit, or what the drawing actually is. Both are the same kind
+   of statement — this is where the picture came from and what it proves — so
+   they are set the same way rather than one being furniture and one a caption. */
+.slotNote {
+  grid-column: 2;
+  grid-row: 2;
+  font-size: var(--size-1);
+  line-height: 1.4;
+  color: var(--ink-soft);
+  margin: 0;
+}
+
+/*
+ * The joining sentence (#342). Body weight in the teacher's own ink, sitting
+ * between the caption and the pictures: it is the one line on this half that
+ * is prose rather than evidence, and it earns the full measure because it is
+ * read aloud in one breath.
+ */
+.slotLine {
+  font-size: var(--size-2);
+  line-height: 1.55;
+  color: var(--ink);
+  margin: 0;
+}
+
+.slotGap {
+  font-size: var(--size-2);
+  line-height: 1.55;
+  color: var(--ink-soft);
+  margin: 0;
+}
+
+/*
+ * The ask is a zone, not a paragraph. One hairline above it, which is what
+ * Sophia's sheet drew between the evidence half and the question half — and
+ * it does the same work when there is no evidence at all, holding the
+ * question off the title instead of letting the two stack as one block.
+ */
+.slotAsk {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  padding-top: var(--space-3);
+  border-top: 1px solid var(--hairline);
+}
+
+/*
+ * THE OTHER DOOR ON THE DOORSTEP (#1004). "Before the class" is the nav above;
+ * this names what the button under it opens. Same eyebrow, same body, a
+ * hairline to say the list has ended.
+ */
+.withClass {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  margin-top: var(--space-3);
+  padding-top: var(--space-3);
+  border-top: 1px solid var(--hairline-soft);
+}
+
+/*
+ * THE CHILD LINE UNDER THE NAME (#1004). One clause a child can hold, in the
+ * reading ink, between the name and the credit. Not the spoken register: it is
+ * read off the board, not performed.
+ */
+.slotItem {
+  grid-template-rows: auto auto auto;
+}
+.slotChild {
+  grid-column: 2;
+  grid-row: 2;
+  font-size: var(--size-2);
+  line-height: 1.4;
+  color: var(--ink);
+  margin: 0;
+}
+.slotItem .slotNote {
+  grid-row: 3;
+}
+.slotButton {
+  appearance: none;
+  border: 0;
+  background: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+.boardHint {
+  font-size: var(--size-1);
+  color: var(--ink-soft);
+  margin: 0;
+}
+.viewerPlate {
+  width: min(60vw, 60vh);
+  aspect-ratio: 1 / 1;
+}
+
+/*
+ * THE BOARD (#1004, D3): a display mode of the introduction screens, never a
+ * second route. REDRAWN 2026-09-08. Johan: "the presentation mode is not
+ * cool at all... just expands the screen and makes these texts bigger". It
+ * was the guide with the notes hidden and the type scaled. Presented, it is
+ * now a SLIDE: the browser gone (fullscreen, asked for on the press), the
+ * head reduced to the beat and the way back, the words centred at a size the
+ * carpet can read, the pictures wide, no quotation marks (Johan: "on the
+ * presentation mode one the quotation marks are not needed" — the marks say
+ * "this is said" to the TEACHER, and the class is simply spoken to), and the
+ * action a pill rather than a bar across the room.
+ *
+ * In the product's own colours. A dark register for "live" was rejected on
+ * 2 September ("does not respect our colors"); paper and ink stay, and what
+ * makes it a presentation is what is NOT on it.
+ */
+.journey[data-display="board"] {
+  --measure: 72rem;
+}
+.journey[data-display="board"] .boardHead {
+  padding-block: var(--space-1) 0;
+}
+.boardPager {
+  font-family: var(--display);
+  font-weight: var(--weight-medium);
+  font-size: var(--size-2);
+  color: var(--ink-soft);
+  font-variant-numeric: tabular-nums;
+}
+.journey[data-display="board"] .body {
+  align-items: center;
+  text-align: center;
+  gap: var(--space-4);
+  padding-block: var(--space-3) var(--space-4);
+}
+.journey[data-display="board"] .tEyebrow {
+  font-size: var(--size-2);
+}
+.journey[data-display="board"] .doorTitle {
+  font-size: clamp(2.5rem, 6vw, 5rem);
+  max-width: 14em;
+}
+.journey[data-display="board"] .lead {
+  font-size: clamp(1.5rem, 2.8vw, 2.25rem);
+  max-width: 30em;
+}
+/* The demo's one honest line (#877) is a sibling of the body, not inside it,
+   so the body's centring never reached it. */
+.journey[data-display="board"] > .lead {
+  text-align: center;
+  margin-inline: auto;
+  padding-inline: var(--edge);
+}
+.journey[data-display="board"] .spoken {
+  font-size: clamp(2rem, 4.2vw, 3.6rem);
+  line-height: 1.2;
+  max-width: 22em;
+}
+.journey[data-display="board"] .quote {
+  display: none;
+}
+.journey[data-display="board"] .doorConditions {
+  font-size: clamp(1.25rem, 2vw, 1.75rem);
+  max-width: 34em;
+  text-align: left;
+}
+.journey[data-display="board"] .note,
+.journey[data-display="board"] .tBody,
+.journey[data-display="board"] .slotLine,
+.journey[data-display="board"] .slotGap {
+  font-size: clamp(1.25rem, 2vw, 1.75rem);
+  max-width: 34em;
+}
+/* Everything inside the card section centres too (Johan, 2026-09-08: "the
+   other elements are not centered in presentation mode"): the section is a
+   column of its own, and a centred body does not reach into it. */
+.journey[data-display="board"] .slot {
+  width: 100%;
+  align-items: center;
+}
+/* A centred column shrink-wraps its children, and a picture section whose
+   figures are sized as fractions of it then has no width at all: the
+   woodlice photograph under the first question rendered as its caption
+   alone. Sections take the column; text inside them still centres. */
+.journey[data-display="board"] .body > section {
+  width: 100%;
+}
+/* The lesson's own pictures, presented: centred, and larger than the 220px
+   thumbnails the guide keeps beside the teacher's thumb. */
+.journey[data-display="board"] .body > section :global(figure):not(.viewerItem) {
+  flex-basis: 22rem;
+  max-width: 24rem;
+}
+.journey[data-display="board"] .body > section:has(:global(figure)) {
+  justify-content: center;
+}
+/* A pill, not a bar: the control is the teacher's, and on a board the class
+   reads a full-width green band as part of the slide. */
+.journey[data-display="board"] .foot {
+  padding-block: var(--space-2) var(--space-3);
+}
+.journey[data-display="board"] .foot .actions .cta {
+  flex: 0 1 auto;
+  min-width: min(20rem, 100%);
+}
+/*
+ * THE BOARD WRAPS, IT DOES NOT CAP (#1079), AND A SHORT ROW SITS IN THE
+ * MIDDLE (2026-09-08). Three hardcoded columns was the layout half of a
+ * fixed count: a fourth creature had nowhere to go. An `auto-fill` grid
+ * wrapped, but it also laid empty tracks to the right of three cards on a
+ * wide board, so a glance's row hung off the left edge of a centred slide.
+ * A wrapping flex row holds every card at one size above the floor a child
+ * can use (#350), wraps the eighth, and centres whatever is left over.
+ */
+.journey[data-display="board"] .slotRow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.25rem;
+}
+.journey[data-display="board"] .slotRow > .slotItem {
+  flex: 0 1 17rem;
+  min-width: 14rem;
+  max-width: 100%;
+}
+.journey[data-display="board"] .slotItem,
+.journey[data-display="board"] .slotLink {
+  grid-template-columns: minmax(0, 1fr);
+}
+.journey[data-display="board"] .slotItem {
+  grid-template-rows: auto auto auto;
+  padding: 0.9rem;
+  text-align: left;
+}
+.journey[data-display="board"] .slotPlate {
+  grid-column: 1;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  border-radius: 12px;
+}
+.journey[data-display="board"] .slotName {
+  grid-column: 1;
+  grid-row: auto;
+  font-size: clamp(1.125rem, 2vw, 1.5rem);
+  margin-top: 0.4rem;
+}
+.journey[data-display="board"] .slotChild {
+  grid-column: 1;
+  grid-row: 2;
+  font-size: clamp(1rem, 1.6vw, 1.25rem);
+}
+.journey[data-display="board"] .slotItem .slotNote {
+  grid-column: 1;
+  grid-row: 3;
+  font-size: var(--size-1);
+}
+/*
+ * UNDER THE QUESTION, FOUR ACROSS (Johan, 2026-09-08: "a 4x4 grid with
+ * bigger pics might be better"). The 9rem thumbnails were sized so the
+ * question stayed the thing on the board; on a real board they read as a
+ * strip of stamps and eight of them ran to five-and-three. Four across, each
+ * card a quarter of the measure, so a child walking up sees the creature
+ * and not the label; two across on a phone.
+ */
+.journey[data-display="board"] .slotRow[data-compact="true"] {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1.25rem;
+}
+.journey[data-display="board"] .slotRow[data-compact="true"] > .slotItem {
+  min-width: 0;
+}
+.journey[data-display="board"] .slotRow[data-compact="true"] .slotPlate {
+  aspect-ratio: 1 / 1;
+}
+.journey[data-display="board"] .slotRow[data-compact="true"] .slotName {
+  font-size: clamp(1.125rem, 1.8vw, 1.5rem);
+}
+@media (max-width: 48rem) {
+  .journey[data-display="board"] .slotRow[data-compact="true"] {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/*
+ * HOW THIS GETS ONTO THE BOARD (Johan, 2026-09-08: "is it clear to teacher
+ * that they can connect this to the interactive board?"). One quiet line
+ * under the first screen's action, in the guide only.
+ */
+.presentHint {
+  font-size: var(--size-1);
+  line-height: 1.5;
+  color: var(--ink-soft);
+  text-align: center;
+  max-width: 44ch;
+  margin: 0 auto;
+}
+
+/*
+ * CARDS IN THE HAND TOO (Johan, 2026-09-06): the picture leads and the name
+ * sits under it, two across on a phone, three on a tablet. No caption row.
+ */
+.slotRow {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 9rem), 1fr));
+  gap: 0.75rem;
+}
+/* A stacked card, not a nested grid: a 1fr track inside a 1fr track with
+   nothing intrinsic in it resolved to 0px and the picture had no box
+   (Johan, 2026-09-06: "the images seem to be gone"). */
+.slotItem {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  padding: 0.6rem;
+}
+.slotLink {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  width: 100%;
+}
+.slotPlate {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+}
+.slotName {
+  margin: 0;
+}
+
+/*
+ * THE PRESENT BUTTON (Johan, 2026-09-06: "I don't see present button"). A
+ * labelled pill in the head, the one control on the introduction screens
+ * that changes who the screen is for. Pressed, it reads "Guide" and the
+ * pill fills, so the state is visible from across a classroom.
+ */
+.presentBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  padding: 0 16px;
+  border-radius: 999px;
+  border: 1px solid var(--ink);
+  background: transparent;
+  color: var(--ink);
+  font-family: var(--display);
+  font-weight: var(--weight-medium);
+  font-size: var(--size-2);
+  cursor: pointer;
+}
+.presentBtn[aria-pressed="true"] {
+  background: var(--ink);
+  color: var(--paper);
+}
+.presentBtn:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 3px;
+}
+
+/* Handheld frame: preserve the reading width and leave room for the lesson. */
+.journey > .lead {
+  width: 100%;
+  max-width: calc(var(--measure) + 2 * var(--edge));
+  padding-inline: var(--edge);
+  margin-inline: auto;
+}
+.head, .body, .foot { min-width: 0; }
+.body > * { min-width: 0; }
+.cta, .quiet { min-width: 0; overflow-wrap: anywhere; }
+.foot { padding-bottom: max(var(--space-3), env(safe-area-inset-bottom)); }
+.viewerCaption { padding-bottom: max(var(--space-3), env(safe-area-inset-bottom)); }
+
+@media (max-width: 64rem) and (orientation: portrait) {
+  .body { justify-content: flex-start; }
+}
+
+@media (max-width: 40rem) {
+  .head { gap: var(--space-1); padding-block: var(--space-1); flex-wrap: wrap; }
+  .headRight { gap: 0.25rem; margin-left: auto; flex-wrap: wrap; }
+  .body { justify-content: flex-start; gap: var(--space-2); padding-block: var(--space-2); }
+  .foot { gap: var(--space-1); padding-top: var(--space-2); }
+  .actions { gap: var(--space-1); }
+  .actions > .actionSlot:last-child { display: none; }
+  .cta, .quiet { padding-inline: 16px; font-size: var(--size-2); }
+  .doorTitle { font-size: clamp(2rem, 8vw, 2.5rem); }
+  .presentHint { text-align: left; }
+  .journey[data-display="board"] .slotRow[data-compact="true"] { gap: 0.75rem; }
+  .journey[data-display="board"] .slotItem { padding: 0.5rem; }
+  .journey[data-display="board"] .foot .actions .cta { min-width: 0; flex: 1; }
+}
+
+@media (max-height: 32rem) and (orientation: landscape) {
+  .body, .journey[data-display="board"] .body { justify-content: flex-start; padding-block: var(--space-2); }
+  .foot, .journey[data-display="board"] .foot { position: static; padding-block: var(--space-1); }
+}
+
+/* A species picture and its child-readable story share one scrolling view. */
+.speciesViewerItem { padding-top: var(--space-2); }
+.speciesViewerItem > img { flex: 0 0 auto; height: min(42dvh, 26rem); }
+.speciesViewerItem .viewerCaption { width: 100%; max-width: 44rem; margin-inline: auto; gap: 1rem; }
+@media (min-width: 60rem) and (orientation: landscape) {
+  .speciesViewerItem { flex-direction: row; align-items: flex-start; gap: var(--space-3); padding: var(--space-3) var(--edge); }
+  .speciesViewerItem > img { width: 45%; height: 70dvh; position: sticky; top: 0; }
+  .speciesViewerItem .viewerCaption { flex: 1; min-width: 0; padding-inline: 0; }
+}
+
+.speciesExplore { min-height: 44px; padding: 0.5rem 1rem; border: 1px solid currentColor; border-radius: 999px; background: transparent; color: inherit; font: inherit; cursor: pointer; }
+.speciesExplore:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }

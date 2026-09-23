@@ -1,0 +1,70 @@
+{
+  "provider": "globi",
+  "evidenceKind": "published-relationship",
+  "status": "resolved",
+  "reason": "snapshot-subset",
+  "snapshotId": "globi-8e681da13d40e93a",
+  "retrievedAt": "2026-09-07T12:45:22.273775Z",
+  "refreshAfter": "2026-10-07T12:45:22.273775Z",
+  "coverage": {
+    "complete": false,
+    "scope": "reviewed-20-taxon-subset"
+  },
+  "quality": {
+    "taxonMatch": "exact-scientific-name",
+    "refutations": "checked-snapshot",
+    "refutationArchiveUrl": "https://zenodo.org/records/20546682/files/refuted-interactions.tsv.gz",
+    "refutationSha256": "674e5b069992ab8a7fe98d76d0b9eb531c90c3ca267f434d14aa44a72ebbf8d6",
+    "localInteractionConfirmed": false
+  },
+  "entries": [
+    {
+      "id": "globi:fabba407fa7195996ee86a5a",
+      "sourceTaxon": {
+        "scientificName": "Crataegus monogyna",
+        "externalId": "COL:6BB5X"
+      },
+      "interactionType": "flowersVisitedBy",
+      "targetTaxon": {
+        "scientificName": "Xylota abiens",
+        "externalId": "WD:Q14331670"
+      },
+      "evidenceKind": "published-relationship",
+      "spatialScope": "study-context-only",
+      "studyLocation": null,
+      "eventDate": null,
+      "studyCitation": "Redhead, J.W.; Coombes, C.F.; Dean, H.J.; Dyer, R.; Oliver, T.H.; Pocock, M.J.O.; Rorke, S.L.; Vanbergen, A.J.; Woodcock, B.A.; Pywell, R.F. (2018). Plant-pollinator interactions database for construction of potential networks. NERC Environmental Information Data Centre. https://doi.org/10.5285/6d8d5cb5-bd54-4da7-903a-15bd4bbd531b. Accessed at <https://github.com/zedomel/redhead2018/archive/89ca7296078cce01a293813e509700d6c05faabc.zip> on 01 Sep 2026.",
+      "studyUrl": "https://doi.org/10.5285/6d8d5cb5-bd54-4da7-903a-15bd4bbd531b",
+      "datasetId": "zedomel/redhead2018",
+      "datasetCitation": "Redhead, J.W.; Coombes, C.F.; Dean, H.J.; Dyer, R.; Oliver, T.H.; Pocock, M.J.O.; Rorke, S.L.; Vanbergen, A.J.; Woodcock, B.A.; Pywell, R.F. (2018). Plant-pollinator interactions database for construction of potential networks. NERC Environmental Information Data Centre. https://doi.org/10.5285/6d8d5cb5-bd54-4da7-903a-15bd4bbd531b",
+      "datasetArchiveUrl": "https://github.com/zedomel/redhead2018/archive/89ca7296078cce01a293813e509700d6c05faabc.zip",
+      "license": "OGL-UK-3.0",
+      "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+      "retrievedAt": "2026-09-07T12:45:22.273775Z"
+    },
+    {
+      "id": "globi:933719e41ef588471e1ee4dc",
+      "sourceTaxon": {
+        "scientificName": "Bombus terrestris",
+        "externalId": "NCBI:30195"
+      },
+      "interactionType": "visitsFlowersOf",
+      "targetTaxon": {
+        "scientificName": "Meconopsis cambrica",
+        "externalId": "NCBI:248829"
+      },
+      "evidenceKind": "published-relationship",
+      "spatialScope": "study-context-only",
+      "studyLocation": null,
+      "eventDate": null,
+      "studyCitation": "Redhead, J.W.; Coombes, C.F.; Dean, H.J.; Dyer, R.; Oliver, T.H.; Pocock, M.J.O.; Rorke, S.L.; Vanbergen, A.J.; Woodcock, B.A.; Pywell, R.F. (2018). Plant-pollinator interactions database for construction of potential networks. NERC Environmental Information Data Centre. https://doi.org/10.5285/6d8d5cb5-bd54-4da7-903a-15bd4bbd531b. Accessed at <https://github.com/zedomel/redhead2018/archive/89ca7296078cce01a293813e509700d6c05faabc.zip> on 01 Sep 2026.",
+      "studyUrl": "https://doi.org/10.5285/6d8d5cb5-bd54-4da7-903a-15bd4bbd531b",
+      "datasetId": "zedomel/redhead2018",
+      "datasetCitation": "Redhead, J.W.; Coombes, C.F.; Dean, H.J.; Dyer, R.; Oliver, T.H.; Pocock, M.J.O.; Rorke, S.L.; Vanbergen, A.J.; Woodcock, B.A.; Pywell, R.F. (2018). Plant-pollinator interactions database for construction of potential networks. NERC Environmental Information Data Centre. https://doi.org/10.5285/6d8d5cb5-bd54-4da7-903a-15bd4bbd531b",
+      "datasetArchiveUrl": "https://github.com/zedomel/redhead2018/archive/89ca7296078cce01a293813e509700d6c05faabc.zip",
+      "license": "OGL-UK-3.0",
+      "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+      "retrievedAt": "2026-09-07T12:45:22.273775Z"
+    }
+  ]
+}

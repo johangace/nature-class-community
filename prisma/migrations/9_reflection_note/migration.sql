@@ -1,0 +1,11 @@
+-- "Anything else?" — the teacher's own words at the close (#347).
+--
+-- Additive and nullable: every existing completion keeps its meaning, and a
+-- row written by a client that predates this column is indistinguishable from
+-- one where the teacher wrote nothing. No backfill, because there is nothing
+-- truthful to backfill it with.
+--
+-- This is the first free-text column on session_completion. See the model
+-- comment in prisma/schema.prisma for what that changes about how this table
+-- may be read.
+ALTER TABLE "session_completion" ADD COLUMN "note" TEXT;

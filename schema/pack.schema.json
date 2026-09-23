@@ -1,0 +1,541 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://nature-class.dev/schema/pack.schema.json",
+  "title": "Nature Class pack, v1",
+  "description": "A curriculum pack: sessions of ordered phases, each phase ordered blocks of typed kinds. Mirrors schema/pack.ts (zod), which is the source of truth. The two are held in step by scripts/schema-mirror-lint.mjs, which compares field sets, required sets and enum members and names any field they disagree about; hand-edit this file only alongside the zod change it mirrors.",
+  "type": "object",
+  "required": ["id", "title", "subject", "ageBand", "sessions"],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "title": { "type": "string", "minLength": 1 },
+    "subject": { "type": "string", "minLength": 1 },
+    "ageBand": { "type": "string", "minLength": 1 },
+    "collection": { "$ref": "#/$defs/collection" },
+    "sessions": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/session" }
+    }
+  },
+  "$defs": {
+    "session": {
+      "type": "object",
+      "required": ["id", "title", "topic", "objective", "namedSkill", "kit", "durationMin", "phases"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "authorNotes": { "type": "string", "description": "Plain author context for composition, not a spoken instruction." },
+        "title": { "type": "string", "minLength": 1 },
+        "prompt": {
+          "description": "The driving question a teacher asks (\"What's living in our grounds?\"), shown under the title on the season list. Not always a question and never normalised into one: it ships exactly as authored, statements and full stops included. Optional so packs that predate the field still validate.",
+          "type": "string",
+          "minLength": 1
+        },
+        "doorQuestion": {
+          "description": "The door question (#324): the one thing the class is asked before they go out, authored with the lesson. Unchanging across signal levels because it points at what is in front of the class rather than at what we know. Where absent, the introduce-today surface falls back to `prompt` only when `prompt` is already a question.",
+          "type": "string",
+          "minLength": 1
+        },
+        "topicLine": {
+          "description": "The first thing the class reads on the introduction's topic screen: one child-facing sentence on what today is about. House copy, authored per lesson, never composed.",
+          "type": "string",
+          "minLength": 1
+        },
+        "seasonNote": {
+          "description": "How this topic sits in this time of year, always shown on the introduction's day screen: `teacher` for the adult (home, Today), `child` said to the class. Authored whole; the weather-specific conditionNotes speak on top of it.",
+          "type": "object",
+          "required": ["teacher", "child"],
+          "additionalProperties": false,
+          "properties": {
+            "teacher": { "type": "string", "minLength": 1 },
+            "child": { "type": "string", "minLength": 1 }
+          }
+        },
+        "doorQuestions": {
+          "description": "The introduction's questions in order (#1004), one screen each, leading with the door question. One or two by review. Where absent, the introduction asks `doorQuestion` alone. Each entry says what belongs beside its own question (#1078): authored `pictures` hold the slot against the live species board, and `species` says how many creatures the moment wants when none are authored.",
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["question"],
+            "properties": {
+              "question": { "type": "string", "minLength": 1 },
+              "pictures": {
+                "description": "One authored picture set anchored to ONE moment (#1078). `purpose` decides what may be claimed and how it renders: \"example\" is a photograph of the thing being discussed and makes no claim about this place; \"how-to\" is a step in making something and goes with the demonstration; \"choose-from\" is explicitly imaginative and tappable. Species evidence is deliberately not authorable: it is resolved live, tiered and credited, and authoring it would be authoring a claim about a place.",
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["purpose", "items"],
+                "properties": {
+                  "purpose": { "enum": ["example", "how-to", "choose-from"] },
+                  "items": {
+                    "type": "array",
+                    "minItems": 1,
+                    "items": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": ["src", "alt"],
+                      "properties": {
+                        "src": { "type": "string", "minLength": 1 },
+                        "alt": { "type": "string", "minLength": 1 },
+                        "caption": { "type": "string", "minLength": 1 }
+                      }
+                    }
+                  }
+                }
+              },
+              "species": { "enum": ["glance", "choose"] }
+            }
+          }
+        },
+        "openingPictures": {
+          "description": "One authored picture set anchored to ONE moment (#1078). `purpose` decides what may be claimed and how it renders: \"example\" is a photograph of the thing being discussed and makes no claim about this place; \"how-to\" is a step in making something and goes with the demonstration; \"choose-from\" is explicitly imaginative and tappable. Species evidence is deliberately not authorable: it is resolved live, tiered and credited, and authoring it would be authoring a claim about a place.",
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["purpose", "items"],
+          "properties": {
+            "purpose": { "enum": ["example", "how-to", "choose-from"] },
+            "items": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["src", "alt"],
+                "properties": {
+                  "src": { "type": "string", "minLength": 1 },
+                  "alt": { "type": "string", "minLength": 1 },
+                  "caption": { "type": "string", "minLength": 1 }
+                }
+              }
+            }
+          }
+        },
+        "topic": { "type": "string", "minLength": 1 },
+        "topicTags": { "type": "array", "items": { "enum": ["minibeasts", "birds", "trees", "plants", "animals", "seasons", "soil", "water", "weather", "art", "senses"] } },
+        "primaryTopic": {
+          "description": "Which of this session's topicTags the lesson is actually about (#339), so the introduce-today door stands on the right kind of thing: a trees lesson shows trees. Explicit rather than tag order, because order is read nowhere else. A single-tag session needs none. Absent means today's behaviour. Must be one of this session's own topicTags.",
+          "enum": ["minibeasts", "birds", "trees", "plants", "animals", "seasons", "soil", "water", "weather", "art", "senses"]
+        },
+        "labels": {
+          "description": "One or two subject labels, shown beside the session on the season shelf: what kind of learning it is, in the words a head or a parent uses. Distinct from topicTags, which say what is outside.",
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 2,
+          "uniqueItems": true,
+          "items": { "enum": ["science", "biodiversity", "sustainability", "climate action", "making", "art", "storytelling", "maths"] }
+        },
+        "validity": { "$ref": "#/$defs/validity" },
+        "objective": { "type": "string", "minLength": 1 },
+        "childWorkSummary": { "type": "string", "minLength": 1 },
+        "namedSkill": { "type": "string", "minLength": 1 },
+        "kit": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+        "durationMin": { "type": "number", "exclusiveMinimum": 0 },
+        "preparation": { "type": "string", "minLength": 1 },
+        "conditionNotes": {
+          "description": "The hinge (#323, #1007): authored notes shown only on days this lesson and the day meet, in two registers. `when` uses the same condition vocabulary as a phase's conditionVariants; `teacher` is read at home and on the Today card; `child` is said to the class on the introduction's day screen. Whole sentences written by whoever wrote the lesson: the app decides only whether a condition is met, and picks the first note that is.",
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": ["when", "teacher"],
+            "additionalProperties": false,
+            "properties": {
+              "when": {
+                "type": "array",
+                "minItems": 1,
+                "items": { "enum": ["wet", "dry", "windy", "cold", "hot", "still", "bright"] }
+              },
+              "teacher": { "type": "string", "minLength": 1 },
+              "child": { "type": "string", "minLength": 1 }
+            }
+          }
+        },
+        "materialFallback": { "type": "string", "minLength": 1 },
+        "spaceNeeded": { "type": "string", "minLength": 1 },
+        "spaceNeededVariants": {
+          "description": "Per-pack-key rewrites of `spaceNeeded` (#207). Keys are pack keys; values are the whole replacement line. Same seam as a block's habitatVariants, and for the same reason: a list of places to go and find is not the same list in an arid schoolyard.",
+          "$ref": "#/$defs/habitatVariants"
+        },
+        "connectionToLast": { "type": "string", "minLength": 1 },
+        "settle": {
+          "description": "True when this session opens with THE settling — the one shared ritual in packs/settle.json, prepended as phase one at load. A flag rather than authored cards, because a ritual whose words move every week is not one. Absent means the session opens straight on its own first phase.",
+          "type": "boolean"
+        },
+        "primer": { "$ref": "#/$defs/primer" },
+        "nodeSeq": {
+          "description": "High-water mark for this session's node ids. Every minted id is a number at or below it; the next new node takes nodeSeq + 1 and bumps this. A counter, not a count: it never goes down, so a deleted node's id leaves circulation for good and nothing later can be handed the same address. Absent means unminted.",
+          "type": "integer",
+          "minimum": 0
+        },
+        "phases": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/phase" } },
+        "childSheet": { "type": "array", "items": { "$ref": "#/$defs/childSheetBlock" } },
+        "sheetTemplate": {
+          "description": "Which sheet template lays the child sheet out. Optional: when absent the print surface derives one and falls back to field-card, so packs authored before this field still render. Naming a template whose geometry is not built yet (field-book, keepsake) degrades to field-card rather than failing.",
+          "enum": ["field-card", "field-book", "keepsake", "animal-mask", "seed-study", "leaf-sequence", "maths-record", "bark-study", "bird-watch", "seed-bomb-plan", "flower-study", "paint-palette", "feeder-watch", "life-survey", "minibeast-study", "tree-study", "a5-collage", "winter-sort", "life-sort", "micro-habitat-study", "habitat-needs", "food-chain"]
+        },
+        "standards": {
+          "description": "What this session lets a class meet, in each system we can cite (#464). Absent or empty means nobody has worked the mapping out yet, NOT that the session meets nothing; a session may legitimately carry one side only. The reference and the objective are the jurisdiction's own published wording, carried verbatim — never composed here.",
+          "type": "array",
+          "items": { "$ref": "#/$defs/sessionStandard" }
+        },
+        "celebration": { "$ref": "#/$defs/celebration" }
+      }
+    },
+    "collection": {
+      "description": "An optional editorial grouping for related packs (#581). A label, never a licence or a lock: open and separately licensed packs may belong to the same line, so availability cannot be inferred from it. `id` is the stable machine handle, `label` is what a teacher reads.",
+      "type": "object",
+      "required": ["id", "label"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "label": { "type": "string", "minLength": 1 }
+      }
+    },
+    "validity": {
+      "description": "Where a session is TRUE, and so where it may be put in front of a class (#206). Within a flag the entries are ALTERNATIVES — any one satisfied is enough. An absent block means UNDETERMINED, not universal: a lesson nobody has judged is not thereby judged safe everywhere.",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "universal": { "type": "boolean" },
+        "requiresSeason": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+        "requiresDriver": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+        "requiresCountry": { "type": "array", "items": { "type": "string", "pattern": "^[A-Z]{2}$" } }
+      }
+    },
+    "sessionStandard": {
+      "description": "One citation. `code` is the jurisdiction's own reference exactly as IT publishes it — an NGSS code, or England's year plus statutory subheading, since England publishes no per-objective codes at all. `text` is the published objective verbatim. `slot` is England-only and optional: the half-term a teacher recognises from her own planning file.",
+      "type": "object",
+      "required": ["system", "code", "text"],
+      "additionalProperties": false,
+      "properties": {
+        "system": { "enum": ["england", "ngss"] },
+        "code": { "type": "string", "minLength": 1 },
+        "text": { "type": "string", "minLength": 1 },
+        "slot": { "type": "string", "minLength": 1 }
+      }
+    },
+    "habitatVariants": {
+      "description": "Per-pack-key rewrites of a line that names a habitat: keys are pack keys, values are the whole replacement line. Authored, never generated — a London instruction shown in Phoenix is a known bug with a ticket; a machine-written desert instruction is a new one with nobody's name on it.",
+      "type": "object",
+      "propertyNames": { "minLength": 1 },
+      "additionalProperties": { "type": "string", "minLength": 1 }
+    },
+    "celebration": {
+      "type": "object",
+      "required": ["headline"],
+      "additionalProperties": false,
+      "properties": {
+        "headline": { "type": "string", "minLength": 1 },
+        "emoji": { "type": "string", "minLength": 1 },
+        "keepsake": { "type": "string", "minLength": 1 },
+        "nextWeekTease": { "type": "string", "minLength": 1 }
+      }
+    },
+    "primer": {
+      "type": "object",
+      "required": ["summary"],
+      "additionalProperties": false,
+      "properties": {
+        "summary": { "type": "string", "minLength": 1 },
+        "why": { "type": "string", "minLength": 1 },
+        "glossary": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["term", "definition"],
+            "additionalProperties": false,
+            "properties": {
+              "term": { "type": "string", "minLength": 1 },
+              "definition": { "type": "string", "minLength": 1 },
+              "forChildren": { "type": "string", "minLength": 1 }
+            }
+          }
+        },
+        "childFriendlyExamples": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "phase": {
+      "type": "object",
+      "required": ["key", "title", "blocks"],
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": { "required": ["childTask"] },
+          "then": {
+            "required": ["mode"],
+            "properties": { "mode": { "const": "work" } }
+          }
+        }
+      ],
+      "properties": {
+        "key": { "type": "string", "minLength": 1 },
+        "authorNotes": { "type": "string", "description": "Plain author context for composition, not a spoken instruction." },
+        "nid": { "$ref": "#/$defs/nid" },
+        "title": { "type": "string", "minLength": 1 },
+        "mode": { "enum": ["present", "work", "gather"] },
+        "materialPurpose": {
+          "description": "What this phase's field-media strip is FOR (#403), authored on the phase because `mode` alone cannot carry it — a legacy `work` phase can be recognition against a reference photo just as easily as open counting. \"open-count\": the phase is open observation, children decide what is there, so no candidate species photographs render however many the session has queued; showing them first turns noticing into confirming a supplied list. Absent keeps the runner's long-standing behaviour, where the smallest topic-matched reference set may show.",
+          "enum": ["open-count"]
+        },
+        "pictures": {
+          "description": "One authored picture set anchored to ONE moment (#1078). `purpose` decides what may be claimed and how it renders: \"example\" is a photograph of the thing being discussed and makes no claim about this place; \"how-to\" is a step in making something and goes with the demonstration; \"choose-from\" is explicitly imaginative and tappable. Species evidence is deliberately not authorable: it is resolved live, tiered and credited, and authoring it would be authoring a claim about a place.",
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["purpose", "items"],
+          "properties": {
+            "purpose": { "enum": ["example", "how-to", "choose-from"] },
+            "items": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["src", "alt"],
+                "properties": {
+                  "src": { "type": "string", "minLength": 1 },
+                  "alt": { "type": "string", "minLength": 1 },
+                  "caption": { "type": "string", "minLength": 1 }
+                }
+              }
+            }
+          }
+        },
+        "childTask": { "type": "string", "minLength": 1 },
+        "durationMin": { "type": "number", "exclusiveMinimum": 0 },
+        "stretch": { "type": "string", "minLength": 1, "pattern": "\\S" },
+        "blocks": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/block" } },
+        "tips": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["when", "then"],
+            "additionalProperties": false,
+            "properties": {
+              "nid": { "$ref": "#/$defs/nid" },
+              "when": { "type": "string", "minLength": 1 },
+              "then": { "type": "string", "minLength": 1 }
+            }
+          }
+        },
+        "conditionVariants": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["when", "phase"],
+            "additionalProperties": false,
+            "properties": {
+              "nid": { "$ref": "#/$defs/nid" },
+              "when": { "enum": ["wet", "dry", "windy", "cold", "hot", "still", "bright"] },
+              "phase": { "$ref": "#/$defs/phase" }
+            }
+          }
+        }
+      }
+    },
+    "nid": {
+      "description": "Stable node id: one of p (phase), b (block), v (condition variant), t (phase tip), followed by digits. Unique within its session across all four kinds, at or below the session's nodeSeq. The full address is `${session.id}#${nid}`. Absent means unminted \u2014 the packs this app ships are minted by scripts/mint-node-ids.mjs, and a pack authored outside this repo need carry none.",
+      "type": "string",
+      "pattern": "^[pbvt][0-9]+$"
+    },
+    "adaptsToPlace": {
+      "description": "Marks a line that makes a claim about WHERE \u2014 \"look under logs\", \"at the water's edge\". Such a line is rewritten for the school actually reading it, by the model, from grounded facts. A flag rather than a structure, because the alternative was a fixed set of authored fragments and that is a smaller hardcoding rather than an escape from one. Absent means the line makes no place claim and is left alone.",
+      "type": "boolean"
+    },
+    "abilityVariants": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "reception": { "type": "string" },
+        "y1": { "type": "string" },
+        "y2": { "type": "string" }
+      }
+    },
+    "block": {
+      "oneOf": [
+        {
+          "type": "object",
+          "required": ["type", "text"],
+          "additionalProperties": false,
+          "properties": {
+            "type": { "const": "say-aloud" },
+            "text": { "type": "string", "minLength": 1 },
+            "nid": { "$ref": "#/$defs/nid" },
+            "abilityVariants": { "$ref": "#/$defs/abilityVariants" },
+            "habitatVariants": { "$ref": "#/$defs/habitatVariants" },
+            "adaptsToPlace": { "$ref": "#/$defs/adaptsToPlace" }
+          }
+        },
+        {
+          "type": "object",
+          "required": ["type", "text"],
+          "additionalProperties": false,
+          "properties": {
+            "type": { "const": "teacher-note" },
+            "text": { "type": "string", "minLength": 1 },
+            "nid": { "$ref": "#/$defs/nid" },
+            "abilityVariants": { "$ref": "#/$defs/abilityVariants" },
+            "habitatVariants": { "$ref": "#/$defs/habitatVariants" },
+            "adaptsToPlace": { "$ref": "#/$defs/adaptsToPlace" }
+          }
+        },
+        {
+          "type": "object",
+          "required": ["type", "move", "steps", "materials"],
+          "additionalProperties": false,
+          "properties": {
+            "type": { "const": "demo" },
+            "nid": { "$ref": "#/$defs/nid" },
+            "move": { "type": "string", "minLength": 1 },
+            "steps": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "object",
+                "required": ["text"],
+                "additionalProperties": false,
+                "properties": {
+                  "text": { "type": "string", "minLength": 1 },
+                  "mark": { "type": "string", "minLength": 1 }
+                }
+              }
+            },
+            "look": { "type": "string", "minLength": 1 },
+            "materials": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+            "adaptsToPlace": { "$ref": "#/$defs/adaptsToPlace" }
+          },
+          "$comment": "NO abilityVariants / habitatVariants, deliberately: zod carries both on every block, and a demo block's text is an ARRAY of steps, so a field that rewrites a block's PRIMARY text has nothing to rewrite (#252). scripts/validate-packs.mjs rejects them on demo blocks at authoring time; this schema tells an outside author the same thing at the same moment. The divergence is recorded in scripts/schema-mirror-lint.mjs, which fails if it is ever silently closed."
+        },
+        {
+          "type": "object",
+          "required": ["type", "fallbackText"],
+          "additionalProperties": false,
+          "properties": {
+            "type": { "const": "conditions-line" },
+            "fallbackText": { "type": "string", "minLength": 1 },
+            "nid": { "$ref": "#/$defs/nid" },
+            "abilityVariants": { "$ref": "#/$defs/abilityVariants" },
+            "habitatVariants": { "$ref": "#/$defs/habitatVariants" },
+            "adaptsToPlace": { "$ref": "#/$defs/adaptsToPlace" }
+          }
+        },
+        {
+          "type": "object",
+          "required": ["type", "text"],
+          "additionalProperties": false,
+          "properties": {
+            "type": { "const": "circle-question" },
+            "text": { "type": "string", "minLength": 1 },
+            "nid": { "$ref": "#/$defs/nid" },
+            "abilityVariants": { "$ref": "#/$defs/abilityVariants" },
+            "habitatVariants": { "$ref": "#/$defs/habitatVariants" },
+            "adaptsToPlace": { "$ref": "#/$defs/adaptsToPlace" }
+          }
+        },
+        {
+          "type": "object",
+          "required": ["type", "skill"],
+          "additionalProperties": false,
+          "properties": {
+            "type": { "const": "named-skill" },
+            "skill": { "type": "string", "minLength": 1 },
+            "nid": { "$ref": "#/$defs/nid" },
+            "abilityVariants": { "$ref": "#/$defs/abilityVariants" },
+            "habitatVariants": { "$ref": "#/$defs/habitatVariants" },
+            "adaptsToPlace": { "$ref": "#/$defs/adaptsToPlace" }
+          }
+        }
+      ]
+    },
+    "childSheetBlock": {
+      "oneOf": [
+        {
+          "type": "object",
+          "required": ["type", "title", "nameLine"],
+          "additionalProperties": false,
+          "properties": {
+            "type": { "const": "sheet-title" },
+            "title": { "type": "string", "minLength": 1 },
+            "place": { "type": "string", "minLength": 1 },
+            "nameLine": { "type": "string", "minLength": 1 },
+            "nid": { "$ref": "#/$defs/nid" },
+            "abilityVariants": { "$ref": "#/$defs/abilityVariants" },
+            "habitatVariants": { "$ref": "#/$defs/habitatVariants" },
+            "adaptsToPlace": { "$ref": "#/$defs/adaptsToPlace" }
+          }
+        },
+        {
+          "type": "object",
+          "required": ["type"],
+          "additionalProperties": false,
+          "properties": {
+            "type": { "const": "collage-zone" },
+            "hint": { "type": "string", "minLength": 1 },
+            "nid": { "$ref": "#/$defs/nid" },
+            "abilityVariants": { "$ref": "#/$defs/abilityVariants" },
+            "habitatVariants": { "$ref": "#/$defs/habitatVariants" },
+            "adaptsToPlace": { "$ref": "#/$defs/adaptsToPlace" }
+          }
+        },
+        {
+          "type": "object",
+          "required": ["type", "prompt", "cards"],
+          "additionalProperties": false,
+          "properties": {
+            "type": { "const": "match-strip" },
+            "prompt": { "type": "string", "minLength": 1 },
+            "cards": {
+              "type": "array",
+              "minItems": 2,
+              "maxItems": 4,
+              "items": {
+                "type": "object",
+                "required": ["name", "clue"],
+                "additionalProperties": false,
+                "properties": {
+                  "name": { "type": "string", "minLength": 1 },
+                  "clue": { "type": "string", "minLength": 1 }
+                }
+              }
+            },
+            "nid": { "$ref": "#/$defs/nid" },
+            "abilityVariants": { "$ref": "#/$defs/abilityVariants" },
+            "habitatVariants": { "$ref": "#/$defs/habitatVariants" },
+            "adaptsToPlace": { "$ref": "#/$defs/adaptsToPlace" }
+          }
+        },
+        {
+          "type": "object",
+          "required": ["type", "prompt"],
+          "additionalProperties": false,
+          "properties": {
+            "type": { "const": "notice-line" },
+            "prompt": { "type": "string", "minLength": 1 },
+            "nid": { "$ref": "#/$defs/nid" },
+            "abilityVariants": { "$ref": "#/$defs/abilityVariants" },
+            "habitatVariants": { "$ref": "#/$defs/habitatVariants" },
+            "adaptsToPlace": { "$ref": "#/$defs/adaptsToPlace" }
+          }
+        },
+        {
+          "type": "object",
+          "required": ["type", "text"],
+          "additionalProperties": false,
+          "properties": {
+            "type": { "const": "parent-line" },
+            "text": { "type": "string", "minLength": 1 },
+            "url": { "type": "string", "minLength": 1 },
+            "nid": { "$ref": "#/$defs/nid" },
+            "abilityVariants": { "$ref": "#/$defs/abilityVariants" },
+            "habitatVariants": { "$ref": "#/$defs/habitatVariants" },
+            "adaptsToPlace": { "$ref": "#/$defs/adaptsToPlace" }
+          }
+        }
+      ]
+    }
+  }
+}

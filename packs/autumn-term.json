@@ -1,0 +1,2061 @@
+{
+  "id": "autumn-term",
+  "title": "Autumn term",
+  "subject": "Nature study",
+  "ageBand": "4-6",
+  "sessions": [
+    {
+      "id": "autumn-w1-return",
+      "prompt": "What changed while we were away?",
+      "title": "Return",
+      "topic": "Walk around. Look for what's different since summer. Touch something that grew while you were gone. Notice what the land did without you.",
+      "topicTags": [
+        "seasons",
+        "senses"
+      ],
+      "primaryTopic": "seasons",
+      "objective": "Back after summer. The land didn't wait. Children explore what changed while they were away: what grew, what died, what moved. A practice about time and continuity.",
+      "namedSkill": "looking and smelling",
+      "kit": [
+        "None required"
+      ],
+      "durationMin": 40,
+      "nodeSeq": 33,
+      "phases": [
+        {
+          "nid": "p1",
+          "key": "awareness-1",
+          "title": "Notice what's different",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b2",
+              "type": "conditions-line",
+              "fallbackText": "Look at the sky together before you set off. Whatever it's doing, name it out loud."
+            },
+            {
+              "nid": "b3",
+              "type": "teacher-note",
+              "text": "Things grew, things died, things moved. The land didn't wait for us. Give them 2 minutes to wander and notice."
+            },
+            {
+              "nid": "b4",
+              "type": "say-aloud",
+              "text": "We've been away all summer. Look around. What's different?"
+            }
+          ]
+        },
+        {
+          "nid": "p5",
+          "key": "embodiment-2",
+          "title": "Touch what grew",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b9",
+              "type": "teacher-note",
+              "text": "Taller plants, thicker branches, new growth. Evidence of time passing."
+            },
+            {
+              "nid": "b10",
+              "type": "say-aloud",
+              "text": "Touch something that grew while we were gone."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t6",
+              "when": "They touch the first thing they reach",
+              "then": "Slow it down: ask them to find something clearly bigger than in July, tall grass, a longer branch, a spreading weed."
+            },
+            {
+              "nid": "t7",
+              "when": "A child says nothing grew",
+              "then": "Kneel with them at one spot: even a crack in the path has new green in it since summer."
+            },
+            {
+              "nid": "t8",
+              "when": "They want to pull it up",
+              "then": "Hands stay open, not gripping. We are meeting what grew, not taking it. Leave it to keep growing."
+            }
+          ]
+        },
+        {
+          "nid": "p11",
+          "key": "feeling-3",
+          "title": "Wonder",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b15",
+              "type": "teacher-note",
+              "text": "Some kids find this comforting, some find it strange. The land doesn't need us. It does its own thing."
+            },
+            {
+              "nid": "b16",
+              "type": "say-aloud",
+              "text": "This place kept going without us. How does that feel?"
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t12",
+              "when": "A child finds it unsettling that the land didn't need us",
+              "then": "Sit beside the feeling, don't fix it: the trees kept us in mind too, they just showed it by growing."
+            },
+            {
+              "nid": "t13",
+              "when": "The answers are all one word",
+              "then": "Offer a way in: does it feel strange, or nice, or a bit of both, that this place was busy while you were away?"
+            },
+            {
+              "nid": "t14",
+              "when": "They go quiet",
+              "then": "Model it yourself, out loud: I feel small next to a place that grew all summer without me. That's a good kind of small."
+            }
+          ]
+        },
+        {
+          "nid": "p17",
+          "key": "kinship-4",
+          "title": "Welcome it back",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b21",
+              "type": "teacher-note",
+              "text": "A greeting after absence. Walk back together."
+            },
+            {
+              "nid": "b22",
+              "type": "say-aloud",
+              "text": "Say: I'm back. I noticed you kept going. Thank you."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t18",
+              "when": "The greeting feels shy or mumbled",
+              "then": "Say it first yourself, to a real plant, out loud, so they hear that talking to a place is allowed here."
+            },
+            {
+              "nid": "t19",
+              "when": "They rush the walk back",
+              "then": "Ask each child to greet one growing thing by name on the way in, then it becomes a goodbye, not a queue."
+            },
+            {
+              "nid": "t20",
+              "when": "A child asks if the plant can hear them",
+              "then": "Stay honest and warm: we don't know, but saying thank you out loud changes how we see it, and that's real."
+            }
+          ]
+        },
+        {
+          "nid": "p23",
+          "key": "circle",
+          "title": "Circle",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "nid": "b24",
+              "type": "circle-question",
+              "text": "What was the biggest change you noticed?"
+            },
+            {
+              "nid": "b25",
+              "type": "teacher-note",
+              "text": "Compare observations. Everyone sees different things."
+            },
+            {
+              "nid": "b26",
+              "type": "circle-question",
+              "text": "What do you think happened here in August?"
+            },
+            {
+              "nid": "b27",
+              "type": "teacher-note",
+              "text": "Imagination + ecology."
+            },
+            {
+              "nid": "b28",
+              "type": "circle-question",
+              "text": "Have you ever come back somewhere and found it different?"
+            },
+            {
+              "nid": "b29",
+              "type": "teacher-note",
+              "text": "Personal connection."
+            },
+            {
+              "nid": "b30",
+              "type": "named-skill",
+              "skill": "looking and smelling"
+            }
+          ]
+        }
+      ],
+      "standards": [
+        {
+          "system": "england",
+          "code": "Year 1 · Seasonal changes",
+          "text": "observe changes across the 4 seasons"
+        }
+      ],
+      "childSheet": [
+        {
+          "nid": "b31",
+          "type": "sheet-title",
+          "title": "Return",
+          "nameLine": "This page was made by"
+        },
+        {
+          "nid": "b32",
+          "type": "collage-zone",
+          "hint": "Draw or stick something from today's session here."
+        },
+        {
+          "nid": "b33",
+          "type": "notice-line",
+          "prompt": "One thing you noticed outside today:"
+        }
+      ],
+      "preparation": "First session back after summer. Walk the grounds yourself first if possible, notice what changed.",
+      "spaceNeeded": "The same outdoor space used before summer break, so children can spot differences.",
+      "primer": {
+        "summary": "This is the first session back after summer. While the class was away, the grounds carried on: plants grew taller, some flowers finished, seeds set, spiders moved in. Children walk the same space they knew before, touch what grew, and notice that the land did all of this without them. It is a practice about time passing and about a place that keeps going whether we watch it or not.",
+        "why": "Young children often feel the world pauses when they leave it. Coming back to a familiar space and finding it changed teaches something quietly big: nature has its own life and its own clock. Noticing that builds patience, observation, and a first sense that they belong to a living place rather than owning it.",
+        "glossary": [
+          {
+            "term": "Growth",
+            "definition": "The way living things get bigger and change over time, using light, water, and food from the soil.",
+            "forChildren": "Growth is how a plant gets taller and a tree grows new leaves. It happens slowly, a little every day, even when nobody is looking."
+          },
+          {
+            "term": "Season",
+            "definition": "One of the four parts of the year, each with its own weather and its own changes in plants and animals.",
+            "forChildren": "A season is a part of the year. Summer was warm and green. Now it is autumn, and things are starting to change."
+          },
+          {
+            "term": "Deciduous",
+            "definition": "A tree that drops its leaves each autumn and grows new ones in spring. Oak, beech and sycamore are deciduous.",
+            "forChildren": "Some trees let all their leaves go in autumn and stand bare all winter. Then they grow brand new leaves when spring comes back."
+          }
+        ],
+        "childFriendlyExamples": [
+          "This is our same place, but it did not wait for us. While we were on holiday, the plants kept growing and the birds kept singing. Nobody had to tell them to.",
+          "Look for something that is taller than you remember, or a plant that has flowers now that did not before. That is the summer the land had without us.",
+          "When we come back to somewhere we know and find it a bit different, we can say hello to it, like meeting a friend who has been busy while we were away."
+        ]
+      },
+      "topicLine": "We are going outside to see what changed while we were away over the summer.",
+      "seasonNote": {
+        "teacher": "The grounds spent the summer growing without anyone watching: plants grew tall and set seed, grass and weeds moved in, some things died back. Early autumn is the moment to read those changes before the leaves come down and cover them.",
+        "child": "We have been away all summer, and the garden kept going without us. We are going to find out what changed while we were gone."
+      }
+    },
+    {
+      "id": "autumn-w2-wind",
+      "prompt": "Where do you feel the wind, and what does it move?",
+      "title": "Wind",
+      "topic": "Stand still with eyes closed. Feel where the wind touches you. Open your eyes. Watch what the wind moves: leaves, grass, clothes.",
+      "topicTags": [
+        "weather",
+        "trees"
+      ],
+      "primaryTopic": "weather",
+      "objective": "An invisible force made visible. Children feel the wind on their skin, watch what it moves, and reflect on something that touches everything but holds nothing.",
+      "namedSkill": "touching and listening",
+      "kit": [
+        "None required"
+      ],
+      "durationMin": 40,
+      "nodeSeq": 33,
+      "phases": [
+        {
+          "nid": "p1",
+          "key": "awareness-1",
+          "title": "Feel the wind",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b2",
+              "type": "conditions-line",
+              "fallbackText": "Look at the sky together before you set off. Whatever it's doing, name it out loud."
+            },
+            {
+              "nid": "b3",
+              "type": "teacher-note",
+              "text": "One cheek, the back of the neck, through their hair. Wind has direction and intention."
+            },
+            {
+              "nid": "b4",
+              "type": "say-aloud",
+              "text": "Stand still. Close your eyes. Where do you feel the wind?"
+            }
+          ]
+        },
+        {
+          "nid": "p5",
+          "key": "embodiment-2",
+          "title": "Follow the wind",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b9",
+              "type": "teacher-note",
+              "text": "The wind is invisible but you can see its effects everywhere. Track what it touches."
+            },
+            {
+              "nid": "b10",
+              "type": "say-aloud",
+              "text": "Watch what the wind moves. Leaves? Grass? Your clothes? What else?"
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t6",
+              "when": "Nothing seems to be moving",
+              "then": "Look higher: the tops of trees and the tallest grass catch wind the ground cannot. Or watch a held-up scarf or hair."
+            },
+            {
+              "nid": "t7",
+              "when": "They only spot big movements",
+              "then": "Send them hunting for the smallest thing the wind moves: one loose thread, one blade of grass, the fluff on a seed head."
+            },
+            {
+              "nid": "t8",
+              "when": "The wind is strong and they get giddy",
+              "then": "Turn giddy into noticing: face into it together, arms out, and feel it push, then name what it is pushing hardest."
+            }
+          ]
+        },
+        {
+          "nid": "p11",
+          "key": "feeling-3",
+          "title": "Wonder",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b15",
+              "type": "teacher-note",
+              "text": "A philosophical moment. Don't explain. Just let them sit with it."
+            },
+            {
+              "nid": "b16",
+              "type": "say-aloud",
+              "text": "The wind touches everything and holds nothing. What does that feel like?"
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t12",
+              "when": "They try to explain the science",
+              "then": "Let the wondering breathe first: don't explain today, just sit with a thing that touches you and then is gone."
+            },
+            {
+              "nid": "t13",
+              "when": "A child says it feels lonely",
+              "then": "Honour it: the wind not staying can feel lonely, and it can feel free. Both are true at once."
+            },
+            {
+              "nid": "t14",
+              "when": "They can't find words",
+              "then": "Offer a small choice: does the wind feel like it is playing with you, or passing by you? There is no wrong answer."
+            }
+          ]
+        },
+        {
+          "nid": "p17",
+          "key": "kinship-4",
+          "title": "Thank the wind",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b21",
+              "type": "teacher-note",
+              "text": "Face into the wind for the thank you. Walk back."
+            },
+            {
+              "nid": "b22",
+              "type": "say-aloud",
+              "text": "Thank the wind. It carries seeds. It brings rain. It cleans the air."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t18",
+              "when": "The thank you feels flat",
+              "then": "Give it a reason: thank the wind for one real job, carrying seeds, bringing rain, so the thanks has something to hold."
+            },
+            {
+              "nid": "t19",
+              "when": "They face away from the wind",
+              "then": "Turn them into it for the thank you: it lands better when you can feel who you're thanking on your face."
+            },
+            {
+              "nid": "t20",
+              "when": "A child asks where the wind goes",
+              "then": "Wonder it together, don't answer it: somewhere we can't see, to touch a place we'll never know. Then walk back into it."
+            }
+          ]
+        },
+        {
+          "nid": "p23",
+          "key": "circle",
+          "title": "Circle",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "nid": "b24",
+              "type": "circle-question",
+              "text": "Where did you feel the wind most?"
+            },
+            {
+              "nid": "b25",
+              "type": "teacher-note",
+              "text": "Compare body parts and locations."
+            },
+            {
+              "nid": "b26",
+              "type": "circle-question",
+              "text": "What did you see the wind move?"
+            },
+            {
+              "nid": "b27",
+              "type": "teacher-note",
+              "text": "Make a class list of everything wind touched."
+            },
+            {
+              "nid": "b28",
+              "type": "circle-question",
+              "text": "Where do you think this wind came from?"
+            },
+            {
+              "nid": "b29",
+              "type": "teacher-note",
+              "text": "Geography, weather, imagination."
+            },
+            {
+              "nid": "b30",
+              "type": "named-skill",
+              "skill": "touching and listening"
+            }
+          ]
+        }
+      ],
+      "standards": [
+        {
+          "system": "england",
+          "code": "Year 1 · Seasonal changes",
+          "text": "observe and describe weather associated with the seasons and how day length varies"
+        }
+      ],
+      "childSheet": [
+        {
+          "nid": "b31",
+          "type": "sheet-title",
+          "title": "Wind",
+          "nameLine": "This page was made by"
+        },
+        {
+          "nid": "b32",
+          "type": "collage-zone",
+          "hint": "Draw or stick something from today's session here."
+        },
+        {
+          "nid": "b33",
+          "type": "notice-line",
+          "prompt": "One thing you noticed outside today:"
+        }
+      ],
+      "preparation": "Best on a day with some breeze. If calm, look for any air movement, thermals near walls, drafts.",
+      "conditionNotes": [
+        {
+          "when": [
+            "windy"
+          ],
+          "teacher": "Anything moving out there is the lesson today, from the tops of the trees to the litter in the corner.",
+          "child": "The wind is strong today. Everything that can move is moving, so we will watch what it moves first."
+        },
+        {
+          "when": [
+            "still"
+          ],
+          "teacher": "The class has to hunt for moving air today, so send them to walls, gaps between buildings and the tops of the tallest trees.",
+          "child": "The air is very still today. The wind is hiding, so we will hunt for the smallest thing that moves."
+        }
+      ],
+      "spaceNeeded": "Open area where wind can be felt, field, playground, hilltop, or between buildings.",
+      "connectionToLast": "Last week you found what grew here while you were away. This week, meet something you cannot see at all: the wind, and everything it moves.",
+      "primer": {
+        "summary": "Wind is air that is moving, and children can feel it long before they can explain it. In this session they stand still with their eyes closed and find where the wind touches them, then open their eyes and watch what it moves: leaves, grass, hair, clothes. It is an invisible thing made visible through its effects, and a chance to notice a force that touches everything and holds nothing.",
+        "why": "Wind is one of the first invisible forces a young child meets. Learning to read it by its effects, the grass bending, a leaf tumbling, is early science and early wonder at once. It also settles a busy class: eyes closed, skin listening, the body doing the noticing instead of the mouth.",
+        "glossary": [
+          {
+            "term": "Wind",
+            "definition": "Air that is moving from one place to another. We cannot see the air itself, only what it does.",
+            "forChildren": "Wind is the air moving. You cannot see it, but you can feel it on your face and watch it push the leaves around."
+          },
+          {
+            "term": "Direction",
+            "definition": "The way something is moving or facing. Wind comes from one direction and blows towards another.",
+            "forChildren": "Direction is which way something goes. The wind blows one way, so leaves all tumble the same way, like they are following it."
+          },
+          {
+            "term": "Breeze",
+            "definition": "A light, gentle wind, soft enough to feel but not strong enough to bother you.",
+            "forChildren": "A breeze is a soft little wind. It just tickles your cheek and lifts your hair a tiny bit."
+          }
+        ],
+        "childFriendlyExamples": [
+          "Close your eyes and hold still. Where can you feel the wind? Maybe one cheek, or the back of your neck, or through your hair. The wind is saying hello to that part of you.",
+          "We cannot see the wind, but we can see what it touches. Watch the grass bend, or a leaf roll along the ground. The wind is doing that, even though it is invisible.",
+          "The wind touches everything and keeps nothing. It carries seeds to new places, pushes clouds across the sky, and moves on. It is always going somewhere."
+        ]
+      },
+      "topicLine": "Today is about the wind, where we can feel it and what it moves.",
+      "seasonNote": {
+        "teacher": "Loosening leaves, dry seed heads and light grasses give the wind more to carry in autumn than at any other time, and each one shows its path. Whatever the wind is doing today, the season has left plenty for it to move.",
+        "child": "In autumn there are leaves and seeds ready to fly. We are going to feel the wind and watch what it moves."
+      }
+    },
+    {
+      "id": "autumn-w3-falling",
+      "prompt": "What here is letting go?",
+      "title": "Falling",
+      "topic": "Find something that's falling or has just fallen. Catch one. Hold it. Feel how light it is. Put it down gently where it can become soil.",
+      "topicTags": [
+        "trees",
+        "plants",
+        "seasons"
+      ],
+      "primaryTopic": "trees",
+      "objective": "Autumn is the season of letting go. Children find things that are falling (leaves, seeds, petals) and hold the moment of release. A practice about endings and transformation.",
+      "namedSkill": "looking and touching",
+      "kit": [
+        "None required"
+      ],
+      "durationMin": 40,
+      "nodeSeq": 33,
+      "phases": [
+        {
+          "nid": "p1",
+          "key": "awareness-1",
+          "title": "Find something falling",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b2",
+              "type": "conditions-line",
+              "fallbackText": "Look at the sky together before you set off. Whatever it's doing, name it out loud."
+            },
+            {
+              "nid": "b3",
+              "type": "teacher-note",
+              "text": "Autumn is the season of release. Let them find their own examples. Don't direct too much."
+            },
+            {
+              "nid": "b4",
+              "type": "say-aloud",
+              "text": "Look for something that's falling. A leaf. A seed. A petal. Something letting go."
+            }
+          ]
+        },
+        {
+          "nid": "p5",
+          "key": "embodiment-2",
+          "title": "Catch one",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b9",
+              "type": "teacher-note",
+              "text": "A fallen leaf was connected to a tree for months. Now it's free. Feel the weight of that lightness."
+            },
+            {
+              "nid": "b10",
+              "type": "say-aloud",
+              "text": "Catch one. Hold it. Feel how light it is. It used to be part of something."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t6",
+              "when": "Nothing is falling while they watch",
+              "then": "Find one on the ground that just fell and lift it: it was up on the tree this morning, feel how light being let go is."
+            },
+            {
+              "nid": "t7",
+              "when": "They grab the biggest, flashiest leaf",
+              "then": "Ask them to choose the one that feels lightest, not the one that looks best. This is about the lightness, not the prize."
+            },
+            {
+              "nid": "t8",
+              "when": "A child crushes or shreds theirs",
+              "then": "No fuss: hand them a fresh one and slow the holding down, one leaf, two open hands, one breath before we look."
+            }
+          ]
+        },
+        {
+          "nid": "p11",
+          "key": "feeling-3",
+          "title": "Wonder",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b15",
+              "type": "teacher-note",
+              "text": "This is deep for younger kids. Keep it light. Older KS2 can handle the depth. Follow their lead."
+            },
+            {
+              "nid": "b16",
+              "type": "say-aloud",
+              "text": "Is letting go sad or brave or both?"
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t12",
+              "when": "The letting-go idea lands as sad",
+              "then": "Widen it gently: the leaf is not lost, it is going to become soil. Letting go can be brave, not just sad."
+            },
+            {
+              "nid": "t13",
+              "when": "The youngest ones don't follow",
+              "then": "Keep it in the hand, not the head: just notice how light it is now that it has let go. That's enough today."
+            },
+            {
+              "nid": "t14",
+              "when": "An older child wants to go deeper",
+              "then": "Follow their lead: ask what it might feel like to be a leaf that held on all summer and finally got to fall."
+            }
+          ]
+        },
+        {
+          "nid": "p17",
+          "key": "kinship-4",
+          "title": "Send it on",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b21",
+              "type": "teacher-note",
+              "text": "The leaf will become soil. That's not an ending. Walk back."
+            },
+            {
+              "nid": "b22",
+              "type": "say-aloud",
+              "text": "Put it down gently. It has somewhere to go. Say: safe travels."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t18",
+              "when": "They drop it carelessly",
+              "then": "Model the gentle set-down: it has somewhere to go, so we place it, we don't throw it. Choose a spot it can rest."
+            },
+            {
+              "nid": "t19",
+              "when": "A child wants to keep their leaf",
+              "then": "That's allowed, one to keep, one to send on. Say safe travels to the one that stays behind on the earth."
+            },
+            {
+              "nid": "t20",
+              "when": "The goodbye feels rushed",
+              "then": "Give it a whole breath: hands open, leaf down, one slow breath watching it lie there, then walk back."
+            }
+          ]
+        },
+        {
+          "nid": "p23",
+          "key": "circle",
+          "title": "Circle",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "nid": "b24",
+              "type": "circle-question",
+              "text": "What did you find that was letting go?"
+            },
+            {
+              "nid": "b25",
+              "type": "teacher-note",
+              "text": "Share findings."
+            },
+            {
+              "nid": "b26",
+              "type": "circle-question",
+              "text": "Where do fallen leaves go?"
+            },
+            {
+              "nid": "b27",
+              "type": "teacher-note",
+              "text": "Decomposition, soil, new life. The cycle."
+            },
+            {
+              "nid": "b28",
+              "type": "circle-question",
+              "text": "Is there anything you're letting go of this term?"
+            },
+            {
+              "nid": "b29",
+              "type": "teacher-note",
+              "text": "Optional. For reflective classes only."
+            },
+            {
+              "nid": "b30",
+              "type": "named-skill",
+              "skill": "looking and touching"
+            }
+          ]
+        }
+      ],
+      "standards": [
+        {
+          "system": "england",
+          "code": "Year 1 · Seasonal changes",
+          "text": "observe changes across the 4 seasons"
+        }
+      ],
+      "childSheet": [
+        {
+          "nid": "b31",
+          "type": "sheet-title",
+          "title": "Falling",
+          "nameLine": "This page was made by"
+        },
+        {
+          "nid": "b32",
+          "type": "collage-zone",
+          "hint": "Draw or stick something from today's session here."
+        },
+        {
+          "nid": "b33",
+          "type": "notice-line",
+          "prompt": "One thing you noticed outside today:"
+        }
+      ],
+      "preparation": "Best when leaves are actively falling. Any area with deciduous trees works.",
+      "spaceNeeded": "Near deciduous trees, oak, beech, sycamore, horse chestnut.",
+      "connectionToLast": "You felt the wind that moves everything. This week, follow what the wind lets go: the leaves and seeds that are falling, and the quiet moment of letting go.",
+      "primer": {
+        "summary": "Autumn is the season of letting go. Deciduous trees stop feeding their leaves, the leaves change colour and loosen, and one by one they fall. Children find something in the act of falling, a leaf, a seed, a petal, catch one, and hold the lightness of a thing that was joined to a tree for months and is now free. Then they set it down gently where it can become soil. It is a practice about endings that are also beginnings.",
+        "why": "Falling leaves give young children a gentle, visible way to meet the idea of endings. Nothing is lost here: a fallen leaf is on its way to becoming soil that feeds next year's growth. Holding that quietly, rather than explaining it away, lets children sit with change instead of fearing it, and plants an early sense of the year as a circle.",
+        "glossary": [
+          {
+            "term": "Falling",
+            "definition": "The moment a leaf or seed lets go of the plant and drops, often drifting or spinning on the way down.",
+            "forChildren": "Falling is when a leaf lets go of its tree and floats down to the ground. In autumn, thousands of them do it every day."
+          },
+          {
+            "term": "Letting go",
+            "definition": "When a plant releases a leaf or seed it no longer needs, so it can rest or start something new.",
+            "forChildren": "Letting go is when the tree lets its leaf drop. The tree is not sad. It is getting ready to rest for winter."
+          },
+          {
+            "term": "Decompose",
+            "definition": "The slow way a fallen leaf breaks down and becomes part of the soil, helped by rain, worms and tiny living things.",
+            "forChildren": "A leaf on the ground slowly turns soft and crumbly and becomes soil. That soil helps new plants grow. So the leaf is not gone, it just changes."
+          }
+        ],
+        "childFriendlyExamples": [
+          "Watch for something that is falling right now, a leaf drifting down, a seed spinning. Try to catch just one before it lands.",
+          "Hold your leaf. It was joined to its tree all summer long. Now it has let go, and it is so light in your hand. That lightness is what letting go feels like.",
+          "When you put your leaf down, it is not the end. It will slowly become soil, and one day a new plant will grow in that soil. Say safe travels and let it go on its way."
+        ]
+      },
+      "conditionNotes": [
+        {
+          "when": [
+            "windy"
+          ],
+          "teacher": "The trees are letting go faster than usual in this wind, so stand where the leaves are coming down and let the class watch one all the way to the ground.",
+          "child": "The wind is strong today. Leaves are letting go all around, so we will watch one fall from branch to ground."
+        }
+      ],
+      "topicLine": "This lesson is about things that are falling and letting go in autumn.",
+      "seasonNote": {
+        "teacher": "Letting go is what the season is doing: leaves, seeds and the last petals are all being released across these weeks, gently at first and then in earnest. There is something falling on any autumn day, even if it is only one leaf.",
+        "child": "It is autumn, and the trees and plants are letting things go. We are going to find something that is falling."
+      }
+    },
+    {
+      "id": "autumn-w4-soil",
+      "prompt": "What is the ground made of?",
+      "title": "Soil",
+      "topic": "Kneel down. Look at the ground very closely. Pick up a handful. Smell it. Squeeze it. Notice what soil is made of.",
+      "topicTags": [
+        "soil",
+        "senses"
+      ],
+      "primaryTopic": "soil",
+      "objective": "A return to the ground. Children pick up handfuls of soil, smell it, squeeze it, and discover that everything that ever lived here is now part of the earth beneath their feet.",
+      "namedSkill": "touching and smelling",
+      "kit": [
+        "None required, hands only"
+      ],
+      "durationMin": 40,
+      "nodeSeq": 33,
+      "phases": [
+        {
+          "nid": "p1",
+          "key": "awareness-1",
+          "title": "Look at the soil",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b2",
+              "type": "conditions-line",
+              "fallbackText": "Look at the sky together before you set off. Whatever it's doing, name it out loud."
+            },
+            {
+              "nid": "b3",
+              "type": "teacher-note",
+              "text": "Not just \"dirt.\" Leaves, twigs, stones, sand, clay, roots, insects. It's a whole world."
+            },
+            {
+              "nid": "b4",
+              "type": "say-aloud",
+              "text": "Kneel down. Look at the ground very closely. What is it made of?"
+            }
+          ]
+        },
+        {
+          "nid": "p5",
+          "key": "embodiment-2",
+          "title": "Hold the soil",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b9",
+              "type": "teacher-note",
+              "text": "Crumbly, damp, gritty, smooth. Each type of soil tells a story about what lives in it."
+            },
+            {
+              "nid": "b10",
+              "type": "say-aloud",
+              "text": "Pick up a handful. Smell it. Squeeze it. What does soil feel like?"
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t6",
+              "when": "A child won't get their hands dirty",
+              "then": "Offer a stick or one fingertip to start, or let them smell a handful you hold. Meeting the soil can happen slowly."
+            },
+            {
+              "nid": "t7",
+              "when": "They squeeze without noticing",
+              "then": "Give the hand a job for the senses: is it gritty or smooth, damp or dry, warm or cool? Name what the fingers find."
+            },
+            {
+              "nid": "t8",
+              "when": "Someone wants to eat it or wipe it on a friend",
+              "then": "Set the frame calmly: soil stays on hands and ground today, and hands get wiped at the end. Then bring them back to smelling it."
+            }
+          ]
+        },
+        {
+          "nid": "p11",
+          "key": "feeling-3",
+          "title": "Wonder",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b15",
+              "type": "teacher-note",
+              "text": "Decomposition as transformation. The leaf became the soil the seed grows in."
+            },
+            {
+              "nid": "b16",
+              "type": "say-aloud",
+              "text": "Everything that ever lived here is in this soil. It's full of endings that became beginnings."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t12",
+              "when": "The idea of things becoming soil unsettles them",
+              "then": "Keep it warm: the leaves did not disappear, they became the ground that feeds the next flowers. That is kind, not scary."
+            },
+            {
+              "nid": "t13",
+              "when": "They can't connect to it",
+              "then": "Point back to week three: the leaf you let go is turning into ground like this. You are holding where it went."
+            },
+            {
+              "nid": "t14",
+              "when": "They rush past the wonder",
+              "then": "One quiet breath with soil in the palm: everything that lived here is in your hand right now. Then let them speak."
+            }
+          ]
+        },
+        {
+          "nid": "p17",
+          "key": "kinship-4",
+          "title": "Put it back",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b21",
+              "type": "teacher-note",
+              "text": "Same closing as Spring's Underground practice. The earth holds us. Walk back."
+            },
+            {
+              "nid": "b22",
+              "type": "say-aloud",
+              "text": "Put it back. Pat it down. Say: thank you for holding everything up."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t18",
+              "when": "They fling the soil back down",
+              "then": "Model the gentle return: pour it back, pat it flat, say thank you for holding everything up. The soil held us too."
+            },
+            {
+              "nid": "t19",
+              "when": "Hands are muddy and they're distracted",
+              "then": "Make the pat-down the ritual: two hands smoothing the spot they took from, then the thank you, then wipe and walk."
+            },
+            {
+              "nid": "t20",
+              "when": "A child asks what soil ever did for them",
+              "then": "Answer it together: your lunch grew in soil, and so did the tree you sat under. It holds up almost everything."
+            }
+          ]
+        },
+        {
+          "nid": "p23",
+          "key": "circle",
+          "title": "Circle",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "nid": "b24",
+              "type": "circle-question",
+              "text": "What was your soil made of?"
+            },
+            {
+              "nid": "b25",
+              "type": "teacher-note",
+              "text": "Compare different spots: some sandy, some clay, some leafy."
+            },
+            {
+              "nid": "b26",
+              "type": "circle-question",
+              "text": "What does soil smell like?"
+            },
+            {
+              "nid": "b27",
+              "type": "teacher-note",
+              "text": "Earthy, musty, damp, alive. Build vocabulary."
+            },
+            {
+              "nid": "b28",
+              "type": "circle-question",
+              "text": "What would happen if there was no soil?"
+            },
+            {
+              "nid": "b29",
+              "type": "teacher-note",
+              "text": "Connects to food, life, everything."
+            },
+            {
+              "nid": "b30",
+              "type": "named-skill",
+              "skill": "touching and smelling"
+            }
+          ]
+        }
+      ],
+      "standards": [
+        {
+          "system": "england",
+          "code": "Year 3 · Rocks",
+          "text": "recognise that soils are made from rocks and organic matter"
+        }
+      ],
+      "childSheet": [
+        {
+          "nid": "b31",
+          "type": "sheet-title",
+          "title": "Soil",
+          "nameLine": "This page was made by"
+        },
+        {
+          "nid": "b32",
+          "type": "collage-zone",
+          "hint": "Draw or stick something from today's session here."
+        },
+        {
+          "nid": "b33",
+          "type": "notice-line",
+          "prompt": "One thing you noticed outside today:"
+        }
+      ],
+      "preparation": "Find an area with accessible soil. A garden bed or base of a tree works well.",
+      "spaceNeeded": "Area with exposed soil, garden beds, tree bases, unpaved edges.",
+      "connectionToLast": "Last week you sent a fallen leaf on its way to become soil. This week, meet the soil itself: kneel down, hold it, and find where all those leaves ended up.",
+      "primer": {
+        "summary": "Soil is not just dirt. It is a whole world made of broken-down leaves, tiny stones, sand, clay, roots and small living things, all mixed together. Children kneel down, look closely at the ground, pick up a handful, smell it, and squeeze it. In doing so they discover that everything that ever lived and fell here has become the earth beneath their feet, and that soil is the quiet source of almost everything that grows.",
+        "why": "Children walk on soil every day without ever really meeting it. Getting hands into it, smelling that earthy smell, feeling whether it is gritty or crumbly, connects last week's falling leaves to this week's ground, and to the food and plants that soil makes possible. It is sensory, grounding, and a first real look at where life comes from and goes back to.",
+        "glossary": [
+          {
+            "term": "Soil",
+            "definition": "The living top layer of the ground, made of tiny bits of rock mixed with broken-down leaves, plants and creatures.",
+            "forChildren": "Soil is the ground we walk on and plants grow in. It is made of old leaves and tiny stones all mushed together over a long, long time."
+          },
+          {
+            "term": "Compost",
+            "definition": "Rotted-down plant matter, like old leaves and vegetable scraps, that becomes rich food for the soil.",
+            "forChildren": "Compost is what you get when old leaves and bits of plants rot down. It turns into lovely dark food that makes the soil hungry plants love."
+          },
+          {
+            "term": "Root",
+            "definition": "The part of a plant that grows down into the soil to drink water and hold the plant steady.",
+            "forChildren": "Roots are the parts of a plant that grow down into the soil. They drink water for the plant and hold it tight so the wind cannot blow it over."
+          },
+          {
+            "term": "Earthworm",
+            "definition": "A small soft creature that lives in soil, tunnelling through it and helping break down leaves into more soil.",
+            "forChildren": "Earthworms live in the soil and wriggle through it making tunnels. They eat old leaves and help make new soil. They are tiny helpers underground."
+          }
+        ],
+        "childFriendlyExamples": [
+          "Kneel down and look at the ground really closely, closer than you ever have. It is not just brown. There are little stones, bits of old leaf, maybe a tiny root or a wriggling worm. It is a whole world down there.",
+          "Pick up a handful and smell it. Soil has its own smell, earthy and a bit damp. Squeeze it. Is it crumbly, gritty, or smooth? Every patch of ground is a little different.",
+          "All the leaves that fell last autumn, and the one you let go last week, slowly turned into soil like this. The soil is full of endings that became a place for new things to begin."
+        ]
+      },
+      "conditionNotes": [
+        {
+          "when": [
+            "wet"
+          ],
+          "teacher": "The soil will squeeze into a ball, hold a print and smell strongest today, so let hands do the work before any words.",
+          "child": "The rain has made the soil wet. Wet soil can be squeezed into a ball, so we will try that and smell it."
+        },
+        {
+          "when": [
+            "dry"
+          ],
+          "teacher": "A handful crumbles to dust today and shows its parts, sand, stone, root and leaf, so pour it slowly onto something light.",
+          "child": "The soil is dry today. Dry soil falls apart into tiny bits, so we will pour a handful and look at what is in it."
+        }
+      ],
+      "topicLine": "Soil is our subject today, what the ground under our feet is really made of.",
+      "seasonNote": {
+        "teacher": "The soil is receiving all autumn: leaves and dead plants are landing on it and beginning to break down, and the ground is still mild enough for the worms and small creatures doing the work. A handful now holds this year's leaves on their way to becoming earth.",
+        "child": "The ground is where all the fallen leaves end up. We are going to pick some soil up, smell it and feel what it is made of."
+      }
+    },
+    {
+      "id": "autumn-w5-colours",
+      "prompt": "Which colours are leaving, and which are arriving?",
+      "title": "Colours",
+      "topic": "Look at the trees. Find the colours that are leaving and the colours arriving. Find a leaf that's halfway: still green, turning gold.",
+      "topicTags": [
+        "trees",
+        "plants",
+        "seasons"
+      ],
+      "primaryTopic": "trees",
+      "objective": "The autumn colour change in real time. Children find leaves halfway between green and gold, catalogue the arriving and departing colours, and witness transformation happening slowly.",
+      "namedSkill": "noticing by looking",
+      "kit": [
+        "None required"
+      ],
+      "durationMin": 40,
+      "nodeSeq": 33,
+      "phases": [
+        {
+          "nid": "p1",
+          "key": "awareness-1",
+          "title": "Watch the colours turn",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b2",
+              "type": "conditions-line",
+              "fallbackText": "Look at the sky together before you set off. Whatever it's doing, name it out loud."
+            },
+            {
+              "nid": "b3",
+              "type": "teacher-note",
+              "text": "Green is leaving. Yellow, orange, red, brown are arriving. Let them catalogue the transition."
+            },
+            {
+              "nid": "b4",
+              "type": "say-aloud",
+              "text": "Look at the trees. Some colours are leaving. Some are arriving. Which ones?"
+            }
+          ]
+        },
+        {
+          "nid": "p5",
+          "key": "embodiment-2",
+          "title": "Find the turning leaf",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b9",
+              "type": "teacher-note",
+              "text": "A half-turned leaf is autumn captured. Two colours on one surface."
+            },
+            {
+              "nid": "b10",
+              "type": "say-aloud",
+              "text": "Find a leaf that's halfway. Still some green. Some gold. Hold the moment of change."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t6",
+              "when": "Every leaf they grab is fully green or fully brown",
+              "then": "Send them to the edges and the low branches: the halfway leaves often hide there, part green, part gold on one surface."
+            },
+            {
+              "nid": "t7",
+              "when": "They pull leaves off the tree",
+              "then": "The turning ones are best met on the branch, or just-fallen underneath. Look, don't pick, so the tree finishes its show."
+            },
+            {
+              "nid": "t8",
+              "when": "A child says there's nothing to find",
+              "then": "Kneel at one tree and slow the looking: two colours on one leaf is what we want, not the prettiest, the in-between one."
+            }
+          ]
+        },
+        {
+          "nid": "p11",
+          "key": "feeling-3",
+          "title": "Wonder",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b15",
+              "type": "teacher-note",
+              "text": "Patience and presence. Autumn teaches slowness."
+            },
+            {
+              "nid": "b16",
+              "type": "say-aloud",
+              "text": "Change is happening right now. Right in front of you. Slower than you but it's happening. Can you feel it?"
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t12",
+              "when": "They can't sense the slowness",
+              "then": "Anchor it: this leaf is changing right now, slower than you can watch, but by next week it will look different. That's real."
+            },
+            {
+              "nid": "t13",
+              "when": "They get restless standing still",
+              "then": "Give the stillness a target: stare at one turning leaf for one whole breath and dare the colour to move. It won't, and that's the point."
+            },
+            {
+              "nid": "t14",
+              "when": "An older child wants the science",
+              "then": "Let them have it, then bring it back: the green is leaving the leaf, yes, and we get to watch it happen. Both are amazing."
+            }
+          ]
+        },
+        {
+          "nid": "p17",
+          "key": "kinship-4",
+          "title": "Thank the colours",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b21",
+              "type": "teacher-note",
+              "text": "Autumn colour is brief and brilliant. Gratitude for impermanence."
+            },
+            {
+              "nid": "b22",
+              "type": "say-aloud",
+              "text": "Thank the colours for showing up before they go."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t18",
+              "when": "The thank you feels like a routine",
+              "then": "Name what they're thanking: the colours only come for a few weeks, then they go. Thank them for showing up at all."
+            },
+            {
+              "nid": "t19",
+              "when": "A child wants to keep the turning leaf",
+              "then": "One to keep is fine, but leave the ones still on the tree to finish. We thank the colours by letting them stay."
+            },
+            {
+              "nid": "t20",
+              "when": "They rush the goodbye",
+              "then": "One last look up together at the whole tree of colour before we walk back. Say thank you to all of it at once."
+            }
+          ]
+        },
+        {
+          "nid": "p23",
+          "key": "circle",
+          "title": "Circle",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "nid": "b24",
+              "type": "circle-question",
+              "text": "What colours did you see leaving?"
+            },
+            {
+              "nid": "b25",
+              "type": "teacher-note",
+              "text": "Greens fading."
+            },
+            {
+              "nid": "b26",
+              "type": "circle-question",
+              "text": "What colours were arriving?"
+            },
+            {
+              "nid": "b27",
+              "type": "teacher-note",
+              "text": "Gold, amber, crimson, brown."
+            },
+            {
+              "nid": "b28",
+              "type": "circle-question",
+              "text": "Why do leaves change colour?"
+            },
+            {
+              "nid": "b29",
+              "type": "teacher-note",
+              "text": "Science connection: chlorophyll, sugars, light."
+            },
+            {
+              "nid": "b30",
+              "type": "named-skill",
+              "skill": "noticing by looking"
+            }
+          ]
+        }
+      ],
+      "standards": [
+        {
+          "system": "england",
+          "code": "Year 1 · Seasonal changes",
+          "text": "observe changes across the 4 seasons"
+        }
+      ],
+      "childSheet": [
+        {
+          "nid": "b31",
+          "type": "sheet-title",
+          "title": "Colours",
+          "nameLine": "This page was made by"
+        },
+        {
+          "nid": "b32",
+          "type": "collage-zone",
+          "hint": "Draw or stick something from today's session here."
+        },
+        {
+          "nid": "b33",
+          "type": "notice-line",
+          "prompt": "One thing you noticed outside today:"
+        }
+      ],
+      "preparation": "Best during peak autumn colour (October). Any area with deciduous trees.",
+      "spaceNeeded": "Near deciduous trees where colour change is visible.",
+      "connectionToLast": "You met the soil that old leaves become. This week, look up instead of down: watch the leaves change colour on the tree, right before they fall.",
+      "primer": {
+        "summary": "In autumn, deciduous trees stop making the green that fills their leaves all summer. As the green fades, the yellows, oranges, reds and browns that were hidden underneath begin to show. Children look at the trees and find the colours that are leaving and the colours that are arriving, then hunt for a single leaf caught halfway, still part green, part gold. It is a chance to witness a slow change actually happening, in real time, right in front of them.",
+        "why": "The autumn colour change is one of the most beautiful slow things a child can watch, and it is happening on a schedule no one controls. Finding a half-turned leaf shows change as a process, not a switch: the leaf is neither what it was nor what it will be. Sitting with that teaches patience and presence, and turns a walk past the trees into really seeing them.",
+        "glossary": [
+          {
+            "term": "Chlorophyll",
+            "definition": "The green colour inside leaves that helps a plant make food from sunlight. In autumn, deciduous trees stop making it.",
+            "forChildren": "Chlorophyll is the green stuff inside leaves. It helps the tree catch sunlight to make its food. In autumn the tree stops making it, so the green fades away."
+          },
+          {
+            "term": "Turning",
+            "definition": "The word for a leaf changing from green to its autumn colour as the green fades and other colours show through.",
+            "forChildren": "When a leaf is turning, it is changing colour, a bit of green left and some gold coming through. It is halfway between summer and autumn."
+          },
+          {
+            "term": "Evergreen",
+            "definition": "A tree that keeps green leaves or needles all year and does not drop them all in autumn, like holly or pine.",
+            "forChildren": "Some trees, like holly and pine, stay green all year. They are called evergreens. They do not turn gold and drop their leaves like the others do."
+          }
+        ],
+        "childFriendlyExamples": [
+          "Look at the trees. Some colours are leaving, the summer greens are fading. Some colours are arriving, gold, orange, red, brown. It is like the trees are getting dressed for autumn.",
+          "See if you can find one leaf that is caught halfway, still a little green, with gold coming through. That leaf is changing right now, this very week. It is neither summer nor autumn, it is in between.",
+          "The change is slow, slower than you can see if you just glance. But it is happening in front of you. If you come back next week, that halfway leaf will have finished turning."
+        ]
+      },
+      "topicLine": "Our lesson today is about leaves changing colour, and which colours are on their way.",
+      "seasonNote": {
+        "teacher": "Leaf colour turns across the whole of autumn, one tree at a time, so a leaf halfway between green and gold can be found at any point in the term. Early on the greens still dominate; by late autumn the golds and browns have taken over and the last greens are the ones to hunt.",
+        "child": "In autumn the leaves change colour, but not all at once. We are going to look for the colours arriving and the colours leaving."
+      }
+    },
+    {
+      "id": "autumn-w6-quiet",
+      "prompt": "What is the quietest sound you can hear?",
+      "title": "Quiet",
+      "topic": "Stand completely still. Listen for what sounds are missing from summer. Then listen for what is here. Find the quietest sound.",
+      "topicTags": [
+        "senses",
+        "seasons"
+      ],
+      "primaryTopic": "senses",
+      "objective": "The soundscape narrows. Children listen for what's missing (fewer birds, fewer insects) and discover that in the quiet, deeper sounds emerge.",
+      "namedSkill": "noticing by listening",
+      "kit": [
+        "None required"
+      ],
+      "durationMin": 40,
+      "nodeSeq": 33,
+      "phases": [
+        {
+          "nid": "p1",
+          "key": "awareness-1",
+          "title": "Notice what's missing",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b2",
+              "type": "conditions-line",
+              "fallbackText": "Look at the sky together before you set off. Whatever it's doing, name it out loud."
+            },
+            {
+              "nid": "b3",
+              "type": "teacher-note",
+              "text": "Fewer birds singing. Fewer insects buzzing. The soundscape of autumn is quieter than summer."
+            },
+            {
+              "nid": "b4",
+              "type": "say-aloud",
+              "text": "Stand completely still. Listen. What sounds are missing?"
+            }
+          ]
+        },
+        {
+          "nid": "p5",
+          "key": "embodiment-2",
+          "title": "Listen",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b9",
+              "type": "teacher-note",
+              "text": "Wind in branches, a robin, distant traffic, crunching leaves underfoot. The autumn orchestra is smaller but still playing."
+            },
+            {
+              "nid": "b10",
+              "type": "say-aloud",
+              "text": "Walk slowly. Listen to what is here. What sounds remain?"
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t6",
+              "when": "The class can't stop talking",
+              "then": "Give the ears a game: whoever hears the sound furthest away wins it silently, hand on heart, no shouting it out."
+            },
+            {
+              "nid": "t7",
+              "when": "They say there's nothing to hear",
+              "then": "Layer the listening: first the loudest sound, then a quieter one under it, then the quietest of all. Something is always there."
+            },
+            {
+              "nid": "t8",
+              "when": "One child keeps naming sounds out loud",
+              "then": "Whisper the rule: we collect sounds silently and share them in the circle. Talking covers up the very thing we're hunting."
+            }
+          ]
+        },
+        {
+          "nid": "p11",
+          "key": "feeling-3",
+          "title": "Wonder",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b15",
+              "type": "teacher-note",
+              "text": "Subtle sounds emerge in silence. Your own breathing. A faraway bird. Water somewhere."
+            },
+            {
+              "nid": "b16",
+              "type": "say-aloud",
+              "text": "When things get quiet, you can hear more deeply. What can you hear that you usually miss?"
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t12",
+              "when": "They find the quiet boring",
+              "then": "Turn it into a hunt: the quietest sound is the best prize today, and you can only catch it by being still and patient."
+            },
+            {
+              "nid": "t13",
+              "when": "A child feels uneasy in the silence",
+              "then": "Name it kindly: quiet can feel strange at first, then it fills up with small sounds. Stay with it one more breath."
+            },
+            {
+              "nid": "t14",
+              "when": "They rush to fill the silence",
+              "then": "Model the stillness yourself: sit silent and clearly listening, and let them copy. Your calm is the instruction."
+            }
+          ]
+        },
+        {
+          "nid": "p17",
+          "key": "kinship-4",
+          "title": "Thank the quiet",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b21",
+              "type": "teacher-note",
+              "text": "Walk back in silence. See how long the class can hold it."
+            },
+            {
+              "nid": "b22",
+              "type": "say-aloud",
+              "text": "Thank the quiet. It's teaching us to listen."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t18",
+              "when": "The silent walk back breaks down fast",
+              "then": "Make it a challenge, not a rule: see how far we can walk keeping the quiet, listening the whole way. It becomes a game."
+            },
+            {
+              "nid": "t19",
+              "when": "A child asks why we thank the quiet",
+              "then": "Answer simply: it let us hear things we usually miss. Thanking it is thanking our own good listening."
+            },
+            {
+              "nid": "t20",
+              "when": "They lose the mood at the door",
+              "then": "Hold the last breath outside: one more silent listen before we go in, so the quiet comes back inside with us."
+            }
+          ]
+        },
+        {
+          "nid": "p23",
+          "key": "circle",
+          "title": "Circle",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "nid": "b24",
+              "type": "circle-question",
+              "text": "What was the quietest sound you heard?"
+            },
+            {
+              "nid": "b25",
+              "type": "teacher-note",
+              "text": "The most subtle observation wins."
+            },
+            {
+              "nid": "b26",
+              "type": "circle-question",
+              "text": "What summer sounds are missing?"
+            },
+            {
+              "nid": "b27",
+              "type": "teacher-note",
+              "text": "Bees, lawn mowers, birdsong. Where did they go?"
+            },
+            {
+              "nid": "b28",
+              "type": "circle-question",
+              "text": "Do you like quiet or noise better?"
+            },
+            {
+              "nid": "b29",
+              "type": "teacher-note",
+              "text": "Personal preference. No right answer."
+            },
+            {
+              "nid": "b30",
+              "type": "named-skill",
+              "skill": "noticing by listening"
+            }
+          ]
+        }
+      ],
+      "standards": [
+        {
+          "system": "england",
+          "code": "Year 1 · Seasonal changes",
+          "text": "observe changes across the 4 seasons"
+        }
+      ],
+      "childSheet": [
+        {
+          "nid": "b31",
+          "type": "sheet-title",
+          "title": "Quiet",
+          "nameLine": "This page was made by"
+        },
+        {
+          "nid": "b32",
+          "type": "collage-zone",
+          "hint": "Draw or stick something from today's session here."
+        },
+        {
+          "nid": "b33",
+          "type": "notice-line",
+          "prompt": "One thing you noticed outside today:"
+        }
+      ],
+      "preparation": "Choose a time when the school is quieter (not during break time). The contrast matters.",
+      "spaceNeeded": "Any outdoor area, quieter corners of the grounds work best.",
+      "connectionToLast": "You watched the colours arrive. This week, close your eyes and listen: autumn is getting quieter, and in the quiet there is more to hear than you think.",
+      "primer": {
+        "summary": "As autumn deepens, the soundscape thins out. Many birds have stopped their spring song, insects have gone quiet, and the busy hum of summer fades. Children stand completely still and first listen for what is missing, then listen for what is still here: wind in branches, a single call, leaves crunching, a faraway sound. In the quiet, smaller sounds they usually miss begin to surface. It is a practice about listening more deeply by making room.",
+        "why": "Learning to be still and really listen is a skill children rarely get to practise, and autumn gives the perfect conditions: a quieter world where subtle sounds can finally be heard. Noticing what is missing as well as what remains builds attention and calm, and shows that quiet is not empty. There is almost always something to hear if you make space for it.",
+        "glossary": [
+          {
+            "term": "Soundscape",
+            "definition": "All the sounds you can hear in one place at one time, layered together like a picture made of sound.",
+            "forChildren": "A soundscape is all the sounds around you at once, like a picture, but made of sounds instead of colours. Every place has its own."
+          },
+          {
+            "term": "Silence",
+            "definition": "The absence of loud or busy sound. True silence is rare outdoors, there is nearly always a small sound underneath.",
+            "forChildren": "Silence is when it goes very quiet. But listen hard, even in the quiet there is usually a tiny sound hiding, waiting for you to notice it."
+          },
+          {
+            "term": "Migration",
+            "definition": "The long journey some birds make to warmer places for winter, which is one reason autumn sounds quieter.",
+            "forChildren": "Some birds fly away to warmer places for the winter. That is called migration. It is one reason the outside sounds quieter now than it did in summer."
+          }
+        ],
+        "childFriendlyExamples": [
+          "Stand really still and listen. In summer this place was noisy, lots of birds, buzzing insects, buzzing mowers. Some of those sounds have gone quiet now. Which summer sounds are missing?",
+          "Now listen for what is still here. Maybe wind in the branches, a crunch of leaves, one bird far off. The autumn sounds are fewer, but they are still there.",
+          "When everything goes quiet, you can hear things you usually miss, your own breathing, a sound far away, a tiny rustle. Quiet is not empty. It is full of small sounds waiting to be noticed."
+        ]
+      },
+      "topicLine": "In this lesson we listen for the quietest sounds outside now the year is going quiet.",
+      "seasonNote": {
+        "teacher": "The soundscape is thinning as autumn goes on: summer visitors have left, insects are quieter and the birds that stay sing less. What is left is easier to hear, and the missing sounds are the lesson.",
+        "child": "Autumn is a quieter time. Many birds and insects have gone, so we are going to listen for the small sounds that are left."
+      }
+    },
+    {
+      "id": "autumn-w7-bulbs",
+      "prompt": "What is being stored away for next year?",
+      "title": "Bulbs",
+      "topic": "Look for anything being stored: seeds falling, berries dropping, squirrels burying. Find one. Hold it. It's a promise for next year.",
+      "topicTags": [
+        "plants",
+        "seasons"
+      ],
+      "primaryTopic": "plants",
+      "objective": "Autumn is when things get buried for later. Children find seeds, nuts, and berries being stored and reflect on the idea of resting before growing.",
+      "namedSkill": "touching and looking",
+      "kit": [
+        "None required"
+      ],
+      "durationMin": 40,
+      "nodeSeq": 33,
+      "phases": [
+        {
+          "nid": "p1",
+          "key": "awareness-1",
+          "title": "Find what's stored away",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b2",
+              "type": "conditions-line",
+              "fallbackText": "Look at the sky together before you set off. Whatever it's doing, name it out loud."
+            },
+            {
+              "nid": "b3",
+              "type": "teacher-note",
+              "text": "Squirrels burying nuts, seeds falling into cracks, berries dropping. Nature is banking for the future."
+            },
+            {
+              "nid": "b4",
+              "type": "say-aloud",
+              "text": "Autumn is when things get buried. Seeds fall. Bulbs go down. Look for anything being stored."
+            }
+          ]
+        },
+        {
+          "nid": "p5",
+          "key": "embodiment-2",
+          "title": "Hold the promise",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b9",
+              "type": "teacher-note",
+              "text": "An acorn, a conker, a rosehip. Each one contains next spring."
+            },
+            {
+              "nid": "b10",
+              "type": "say-aloud",
+              "text": "Find a seed or a nut or a berry. Feel it. This is a promise for next year."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t6",
+              "when": "They can't find anything being stored",
+              "then": "Look under the biggest tree: acorns, conkers or seeds gather on the ground there, each one a store waiting to happen."
+            },
+            {
+              "nid": "t7",
+              "when": "A child grabs a whole handful",
+              "then": "One to hold properly beats a fistful: choose the one seed you want to meet, and rest it open on your palm."
+            },
+            {
+              "nid": "t8",
+              "when": "They treat it as just a nut",
+              "then": "Reframe it in the hand: this is not just a nut, it is next year folded up small. Feel how much it is holding."
+            }
+          ]
+        },
+        {
+          "nid": "p11",
+          "key": "feeling-3",
+          "title": "Wonder",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b15",
+              "type": "teacher-note",
+              "text": "Seasonal metaphor for inner life. Light touch. Optional for younger groups."
+            },
+            {
+              "nid": "b16",
+              "type": "say-aloud",
+              "text": "This thing will sleep all winter. Then wake up. Does anything in you need to rest before it can grow?"
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t12",
+              "when": "The resting-before-growing idea is too abstract",
+              "then": "Bring it to the body: even you rest before a big day. The seed rests all winter, then grows. Rest comes first."
+            },
+            {
+              "nid": "t13",
+              "when": "Younger children lose the thread",
+              "then": "Keep it simple and hopeful: this little seed is sleeping now, and in spring it will wake up. That's all it needs to be today."
+            },
+            {
+              "nid": "t14",
+              "when": "An older child wants more",
+              "then": "Ask them gently: is there anything in you that needs a rest before it can grow? Let them answer or just wonder."
+            }
+          ]
+        },
+        {
+          "nid": "p17",
+          "key": "kinship-4",
+          "title": "Tuck it in",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b21",
+              "type": "teacher-note",
+              "text": "Push an acorn into soft earth. Walk back."
+            },
+            {
+              "nid": "b22",
+              "type": "say-aloud",
+              "text": "Bury it gently. Or leave it where something will find it. Say: see you in spring."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t18",
+              "when": "They bury it roughly or bury too deep",
+              "then": "Show the gentle tuck: press it just under soft earth, cover it lightly, pat once. We are tucking it in, not hiding it forever."
+            },
+            {
+              "nid": "t19",
+              "when": "A child wants to keep their seed",
+              "then": "Offer the choice: keep it to watch, or give it to the earth. Either way, say see you in spring so it knows you'll wait for it."
+            },
+            {
+              "nid": "t20",
+              "when": "The soil is too hard to bury in",
+              "then": "No digging needed: leave it where something will find it, at the foot of a tree or in a soft corner, and say goodbye there."
+            }
+          ]
+        },
+        {
+          "nid": "p23",
+          "key": "circle",
+          "title": "Circle",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "nid": "b24",
+              "type": "circle-question",
+              "text": "What did you find being buried or stored?"
+            },
+            {
+              "nid": "b25",
+              "type": "teacher-note",
+              "text": "Seeds, nuts, berries: nature's savings account."
+            },
+            {
+              "nid": "b26",
+              "type": "circle-question",
+              "text": "Why do animals bury things in autumn?"
+            },
+            {
+              "nid": "b27",
+              "type": "teacher-note",
+              "text": "Preparation, survival, planning ahead."
+            },
+            {
+              "nid": "b28",
+              "type": "circle-question",
+              "text": "What are you storing up for later?"
+            },
+            {
+              "nid": "b29",
+              "type": "teacher-note",
+              "text": "Knowledge, friendships, memories. Metaphor territory."
+            },
+            {
+              "nid": "b30",
+              "type": "named-skill",
+              "skill": "touching and looking"
+            }
+          ]
+        }
+      ],
+      "standards": [
+        {
+          "system": "england",
+          "code": "Year 2 · Plants",
+          "text": "observe and describe how seeds and bulbs grow into mature plants"
+        }
+      ],
+      "childSheet": [
+        {
+          "nid": "b31",
+          "type": "sheet-title",
+          "title": "Bulbs",
+          "nameLine": "This page was made by"
+        },
+        {
+          "nid": "b32",
+          "type": "collage-zone",
+          "hint": "Draw or stick something from today's session here."
+        },
+        {
+          "nid": "b33",
+          "type": "notice-line",
+          "prompt": "One thing you noticed outside today:"
+        }
+      ],
+      "preparation": "Best in areas where nuts, seeds, or berries can be found on the ground.",
+      "spaceNeeded": "Near oak trees, hazel, berry bushes, or any seed-producing plants.",
+      "connectionToLast": "You listened to autumn growing quiet. This week, notice what the quiet is for: all around, seeds and nuts are being stored away, small promises tucked in for next year.",
+      "primer": {
+        "summary": "Autumn is when nature banks for the future. Trees drop seeds, nuts and berries, squirrels bury acorns, seeds work their way into cracks in the ground, and bulbs sit waiting underground. Children look for anything being stored or buried, find one seed or nut or berry, hold it, and understand that this small thing carries next year inside it. Then they tuck it in or leave it where something will find it. It is a practice about resting before growing, and about patience.",
+        "why": "The idea that something can look finished, a fallen acorn, a dropped berry, yet hold a whole new plant or a whole next spring inside it, is a quietly powerful one for young children. It reframes autumn's endings as preparation, not loss, and connects to the human sense that rest comes before growth. Holding a real acorn and knowing it is a promise makes an abstract idea concrete.",
+        "glossary": [
+          {
+            "term": "Seed",
+            "definition": "The small part a plant makes that can grow into a brand new plant when the conditions are right.",
+            "forChildren": "A seed is a tiny package with a whole plant folded up inside, waiting. Give it soil, water and time, and it grows into something new."
+          },
+          {
+            "term": "Bulb",
+            "definition": "A round underground store of food that a plant like a daffodil grows from in spring, resting quietly through winter.",
+            "forChildren": "A bulb is like a little onion that sleeps under the ground all winter. When spring comes, it wakes up and grows into a flower."
+          },
+          {
+            "term": "Dormant",
+            "definition": "Resting and not growing for a while, waiting for the right time. Many seeds and bulbs are dormant through winter.",
+            "forChildren": "Dormant means having a long rest. A seed can rest all winter without growing, then wake up when it gets warmer. It is not asleep for good, just for now."
+          },
+          {
+            "term": "Store",
+            "definition": "To keep something safe for later. In autumn, plants and animals store food and seeds to get through the winter.",
+            "forChildren": "To store means to keep something for later. Squirrels store nuts by burying them. Trees store next year inside their seeds. Autumn is full of storing."
+          }
+        ],
+        "childFriendlyExamples": [
+          "Look around for things being stored away, an acorn dropping, a berry falling, a seed slipping into a crack. All over, nature is tucking things away for later.",
+          "Find one seed or nut or berry and hold it in your hand. It looks small and finished, but it is not finished at all. Next spring is hiding inside it, waiting.",
+          "This little thing will rest all winter, dark and still, and then wake up and grow. It is a promise for next year. When you tuck it into the earth, you can say see you in spring."
+        ]
+      },
+      "topicLine": "Today's lesson is about the things being stored away for next year.",
+      "seasonNote": {
+        "teacher": "Storing is the season's main work: seeds, nuts and berries are ripe and being tucked away by animals or dropped to wait in the soil, and the bulbs already underground are resting until spring. The evidence is on the ground and in the hedges all term.",
+        "child": "In autumn, plants and animals put food and seeds away for later. We are going to look for what is being stored for next year."
+      }
+    },
+    {
+      "id": "autumn-w8-the-last-warmth",
+      "prompt": "Where can you still find warmth?",
+      "title": "The last warmth",
+      "topic": "Find the last warm thing you can. Hold onto it. Feel the warmth. It won't be here much longer. Thank it for staying.",
+      "topicTags": [
+        "seasons",
+        "weather",
+        "senses"
+      ],
+      "primaryTopic": "weather",
+      "objective": "The closing practice of autumn. Children search for the last warm spots before winter arrives (sun-warmed surfaces, sheltered corners) and say goodbye to the warmth.",
+      "namedSkill": "noticing by touching",
+      "kit": [
+        "Warm clothes recommended"
+      ],
+      "durationMin": 40,
+      "nodeSeq": 33,
+      "phases": [
+        {
+          "nid": "p1",
+          "key": "awareness-1",
+          "title": "Find the last warmth",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b2",
+              "type": "conditions-line",
+              "fallbackText": "Look at the sky together before you set off. Whatever it's doing, name it out loud."
+            },
+            {
+              "nid": "b3",
+              "type": "teacher-note",
+              "text": "A sun-warmed bench, a sheltered corner, warm bark, their own hands in pockets. The warmth is retreating."
+            },
+            {
+              "nid": "b4",
+              "type": "say-aloud",
+              "text": "Winter is coming. Find the last warm thing you can."
+            }
+          ]
+        },
+        {
+          "nid": "p5",
+          "key": "embodiment-2",
+          "title": "Hold the warmth",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b9",
+              "type": "teacher-note",
+              "text": "Present-moment awareness. The warmth of autumn is finite and precious."
+            },
+            {
+              "nid": "b10",
+              "type": "say-aloud",
+              "text": "Hold onto it. Feel the warmth. It won't be here much longer."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t6",
+              "when": "They can't find anywhere warm on a cold day",
+              "then": "Warmth hides on the sunny side of walls, on dark surfaces, and in their own hands. Rub palms together and there it is."
+            },
+            {
+              "nid": "t7",
+              "when": "A child races through the hunt",
+              "then": "Slow the holding: once you find warmth, keep your hand on it for a whole breath and feel it soak in before you move."
+            },
+            {
+              "nid": "t8",
+              "when": "They fixate on being cold",
+              "then": "Turn the cold into the hunt: the colder it is, the more precious each warm spot becomes. Go and find the last ones."
+            }
+          ]
+        },
+        {
+          "nid": "p11",
+          "key": "feeling-3",
+          "title": "Wonder",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b15",
+              "type": "teacher-note",
+              "text": "The seasonal cycle as a comfort. Winter is not forever."
+            },
+            {
+              "nid": "b16",
+              "type": "say-aloud",
+              "text": "Everything warm will get cold. Everything cold will get warm again. That's the promise of the year."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t12",
+              "when": "The coming winter worries a child",
+              "then": "Lean on the promise: winter is not forever, and warmth always comes back. Cold and warm take turns all year long."
+            },
+            {
+              "nid": "t13",
+              "when": "They treat it as just weather",
+              "then": "Slow it to the senses: this warmth is here now and going soon. Feeling it fully is how we say it mattered."
+            },
+            {
+              "nid": "t14",
+              "when": "They want it to be sad",
+              "then": "Let the feeling be, then turn it: it can feel sad that warmth goes, and lovely that it will come back. Hold both."
+            }
+          ]
+        },
+        {
+          "nid": "p17",
+          "key": "kinship-4",
+          "title": "Say see you",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b21",
+              "type": "teacher-note",
+              "text": "Close the autumn season. Walk back slowly."
+            },
+            {
+              "nid": "b22",
+              "type": "say-aloud",
+              "text": "Thank the warmth for staying as long as it could. Say: see you in spring."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t18",
+              "when": "The goodbye feels flat at the end of term",
+              "then": "Make it the season's close: this is autumn's last hello. Thank the warmth for the whole term, then say see you in spring."
+            },
+            {
+              "nid": "t19",
+              "when": "A child asks if the warmth can really hear them",
+              "then": "Stay honest and warm: we don't know, but saying it out loud is how we remember to treasure it. That's the real part."
+            },
+            {
+              "nid": "t20",
+              "when": "They rush the last walk back",
+              "then": "Walk it slowly on purpose: it is the last walk of autumn. One quiet lap, feeling for any last warmth on the way in."
+            }
+          ]
+        },
+        {
+          "nid": "p23",
+          "key": "circle",
+          "title": "Circle",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "nid": "b24",
+              "type": "circle-question",
+              "text": "Where did you find warmth?"
+            },
+            {
+              "nid": "b25",
+              "type": "teacher-note",
+              "text": "Compare the last warm spots."
+            },
+            {
+              "nid": "b26",
+              "type": "circle-question",
+              "text": "What will this place feel like in January?"
+            },
+            {
+              "nid": "b27",
+              "type": "teacher-note",
+              "text": "Anticipation of winter. Not fear: curiosity."
+            },
+            {
+              "nid": "b28",
+              "type": "circle-question",
+              "text": "What are you most looking forward to about winter?"
+            },
+            {
+              "nid": "b29",
+              "type": "teacher-note",
+              "text": "Close autumn with hope, not loss."
+            },
+            {
+              "nid": "b30",
+              "type": "named-skill",
+              "skill": "noticing by touching"
+            }
+          ]
+        }
+      ],
+      "standards": [
+        {
+          "system": "england",
+          "code": "Year 1 · Seasonal changes",
+          "text": "observe and describe weather associated with the seasons and how day length varies"
+        }
+      ],
+      "childSheet": [
+        {
+          "nid": "b31",
+          "type": "sheet-title",
+          "title": "The last warmth",
+          "nameLine": "This page was made by"
+        },
+        {
+          "nid": "b32",
+          "type": "collage-zone",
+          "hint": "Draw or stick something from today's session here."
+        },
+        {
+          "nid": "b33",
+          "type": "notice-line",
+          "prompt": "One thing you noticed outside today:"
+        }
+      ],
+      "preparation": "Best on a cool autumn day when warmth is noticeable. Scout for sun-warmed surfaces.",
+      "spaceNeeded": "Area with both sun-exposed and sheltered spots.",
+      "connectionToLast": "You held a seed resting through the winter to come. This week, in the last session of autumn, find the last warmth before winter arrives, hold it, and say see you in spring.",
+      "primer": {
+        "summary": "This is the closing practice of autumn. Winter is coming, and the warmth is retreating: fewer warm days, cooler ground, less sun. Children hunt for the last warm things they can find, a sun-warmed bench or wall, a sheltered corner, warm bark, their own hands, hold onto that warmth, and feel that it will not be here much longer. Then they thank it and say goodbye until spring. It is a practice about noticing what is precious because it is passing, and about trusting that warmth will come back.",
+        "why": "Ending autumn by seeking out its last warmth teaches children to treasure something exactly because it is fleeting, a gentle, hopeful lesson rather than a sad one. Winter is not framed as loss but as part of the year's promise: everything warm gets cold, and everything cold gets warm again. It closes the season on trust and anticipation, and rewards the sensory skill of really feeling where warmth hides.",
+        "glossary": [
+          {
+            "term": "Warmth",
+            "definition": "The gentle heat something holds, from the sun, from shelter, or from a living body.",
+            "forChildren": "Warmth is that lovely cosy heat, from the sun on a wall, from a sheltered spot, or from your own hands when you rub them together."
+          },
+          {
+            "term": "Shelter",
+            "definition": "A spot that is protected from wind and cold, so it stays warmer than the open ground around it.",
+            "forChildren": "Shelter is a cosy spot out of the wind, like the sunny side of a wall or a corner between buildings. It stays warmer than everywhere else."
+          },
+          {
+            "term": "Frost",
+            "definition": "The thin white ice that forms on cold surfaces when the temperature drops below freezing, a sign winter is near.",
+            "forChildren": "Frost is a thin sparkly layer of ice that turns the grass white on very cold mornings. When you see frost, you know winter is nearly here."
+          }
+        ],
+        "childFriendlyExamples": [
+          "Winter is on its way, and the warmth is getting harder to find. Go on a hunt for the last warm things: a bench the sun has been sitting on, a sheltered corner, warm bark, or your own hands in your pockets.",
+          "When you find warmth, hold onto it. Really feel it. It is precious now, because it will not be here much longer. Soon the same spot will be cold.",
+          "Everything warm will get cold, and everything cold will get warm again. That is the promise of the year. So we say to the warmth: thank you for staying as long as you could. See you in spring."
+        ]
+      },
+      "topicLine": "We are going outside to look for the last warm spots before winter comes.",
+      "seasonNote": {
+        "teacher": "The sun sits lower and leaves earlier each week of autumn, so warmth becomes something to find rather than take for granted: a sunlit wall, a sheltered corner, a dry patch of ground. Late in the term these spots are fewer and more precious.",
+        "child": "The days are getting shorter and cooler. We are going to look for the last warm places before winter comes."
+      }
+    }
+  ]
+}

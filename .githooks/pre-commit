@@ -1,0 +1,44 @@
+#!/usr/bin/env sh
+# Pre-commit gate (nc#1022): an agent commits from a LINKED WORKTREE, never
+# from the shared primary checkout.
+#
+# An agent told to work in a worktree instead switched the branch of the shared
+# checkout and committed `c94a334` in it, with 13 modified files of Johan's live
+# work sitting in that same tree. Of the last 11 commits made in that tree — the
+# reflog is per-worktree, so this is countable rather than estimated — 8 were an
+# agent's, across four branches over three days. The convention existed the
+# whole time. An instruction is not an enforcement.
+#
+# The gate refuses and explains. It never stashes, commits or tidies the tree on
+# anyone's behalf: every incident in this class so far was made worse by
+# something helpfully moving uncommitted work (see also #988, where `git stash`
+# turned out to be repo-global across worktrees).
+#
+# Installed via `npm run prepare` -> `git config core.hooksPath .githooks`.
+# Genuine emergency: `NATURE_CLASS_ALLOW_PRIMARY_COMMIT=1 git commit …`, which
+# prints what it let through. `--no-verify` also works and says nothing, which
+# is why the documented hatch exists.
+#
+# The script is resolved relative to THIS FILE rather than to the working
+# directory, unlike `pre-push`'s `node scripts/…`. That is deliberate and it is
+# what makes the gate testable: `tests/unit/primary-checkout-gate.spec.ts`
+# points a scratch repository's `core.hooksPath` at this directory and commits
+# in it for real, which a cwd-relative path could not survive.
+
+# Every check below runs, and a failure in ANY of them fails the hook — the
+# #1252 lesson from `pre-push`, applied here before this file has more than one
+# check to get it wrong with. Deliberately NOT `set -e`: a worker committing
+# from the shared checkout under the container's default identity has two
+# things to fix, and learning about them one commit apart costs two attempts.
+hook_dir=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+failed=0
+
+node "$hook_dir/../scripts/primary-checkout-gate.mjs" || failed=1
+
+# Will the identity git is about to stamp survive the `cla` check (#1279)? Four
+# branches have been written in full under `Claude <noreply@anthropic.com>` and
+# discovered it from a red check afterwards. This costs a millisecond and one
+# file read.
+node "$hook_dir/../scripts/cla-identity-gate.mjs" || failed=1
+
+exit "$failed"

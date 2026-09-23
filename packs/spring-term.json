@@ -1,0 +1,3152 @@
+{
+  "id": "spring-term",
+  "title": "Spring term",
+  "subject": "Nature study",
+  "ageBand": "4-6",
+  "sessions": [
+    {
+      "id": "spring-w1-seed-bombs",
+      "sheetTemplate": "seed-bomb-plan",
+      "title": "Seed bombs",
+      "prompt": "Spreading wildflowers for pollinating insects.",
+      "doorQuestion": "Where in our grounds would a wildflower have the best chance?",
+      "topic": "Talk about flowers and pollination, explore pollinators in your space, make seed bombs from clay and wildflower seeds, throw one in school and take one home.",
+      "topicTags": [
+        "minibeasts",
+        "plants",
+        "art"
+      ],
+      "primaryTopic": "plants",
+      "labels": [
+        "sustainability",
+        "making"
+      ],
+      "validity": {
+        "requiresDriver": [
+          "sowing-window"
+        ]
+      },
+      "objective": "This session is about spreading wildflowers for pollinating insects.",
+      "namedSkill": "touching and looking",
+      "kit": [
+        "Pack of wildflower seeds",
+        "Clay",
+        "Outside playground"
+      ],
+      "durationMin": 40,
+      "nodeSeq": 37,
+      "phases": [
+        {
+          "nid": "p1",
+          "key": "talk-1",
+          "title": "Talk",
+          "durationMin": 10,
+          "blocks": [
+            {
+              "nid": "b5",
+              "type": "conditions-line",
+              "fallbackText": "Look at the sky together before you set off. Whatever it's doing, name it out loud."
+            },
+            {
+              "nid": "b6",
+              "type": "teacher-note",
+              "text": "Spend about 10 minutes on this. Talk about the importance of flowers and the process of pollination. Use simple language: bees visit flowers for food (nectar), and while they visit they carry pollen from flower to flower, which helps new flowers grow."
+            },
+            {
+              "nid": "b7",
+              "type": "say-aloud",
+              "text": "\"Why do flowers matter?\nWhat is pollination?\nHow do insects help flowers, and flowers help insects?\""
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t2",
+              "when": "If they seem bored",
+              "then": "Ask \"who has ever watched a bee?\" Let three children share stories before continuing."
+            },
+            {
+              "nid": "t3",
+              "when": "If they already know a lot",
+              "then": "Ask them to teach you: \"Explain pollination to me like I've never heard of it.\""
+            },
+            {
+              "nid": "t4",
+              "when": "If it's quiet",
+              "then": "Tell the story of one bee's day. She wakes up, she's hungry, she flies to the yellow flower..."
+            }
+          ]
+        },
+        {
+          "nid": "p8",
+          "key": "explore-2",
+          "title": "Explore",
+          "durationMin": 10,
+          "blocks": [
+            {
+              "nid": "b12",
+              "type": "teacher-note",
+              "text": "Let children explore flowers and pollinators in the space. Look for bees, butterflies, hoverflies. Which flowers are they visiting? Are there flowers with no visitors?"
+            },
+            {
+              "nid": "b13",
+              "type": "say-aloud",
+              "text": "\"Find flowers. Find pollinators.\nWatch what visits what.\""
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t9",
+              "when": "If there are no visible insects",
+              "then": "Ask them to find the flower that LOOKS like it would feed a bee. Colour, shape, smell."
+            },
+            {
+              "nid": "t10",
+              "when": "If they scatter",
+              "then": "Pair them up. \"Partners stay within five steps of each other.\""
+            },
+            {
+              "nid": "t11",
+              "when": "If a child is scared of bees",
+              "then": "Offer binocular-hands: curl fingers into tubes and watch from further away."
+            }
+          ]
+        },
+        {
+          "nid": "p14",
+          "key": "make-3",
+          "title": "Make",
+          "durationMin": 15,
+          "blocks": [
+            {
+              "nid": "b18",
+              "type": "teacher-note",
+              "text": "Spend about 15 minutes. Using clay, each child makes 2 seed bombs. Flatten a small piece of clay, press wildflower seeds into it, roll into a ball. One to throw at school, one to take home."
+            },
+            {
+              "nid": "b19",
+              "type": "say-aloud",
+              "text": "\"Take some clay. Press it flat.\nAdd wildflower seeds. Roll it into a ball.\nMake two.\""
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t15",
+              "when": "If clay is too dry and crumbling",
+              "then": "Wet your hands, then work the clay. Moisture from your palms is enough."
+            },
+            {
+              "nid": "t16",
+              "when": "If a child is struggling",
+              "then": "Pair them with someone confident. Rolling is the part everyone can do."
+            },
+            {
+              "nid": "t17",
+              "when": "If they finish early",
+              "then": "Ask them to make a third seed bomb as a gift for someone — a parent, a neighbour, a teacher."
+            }
+          ]
+        },
+        {
+          "nid": "p20",
+          "key": "act-4",
+          "title": "Act",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "nid": "b24",
+              "type": "teacher-note",
+              "text": "Throw one seed bomb in the school grounds, the other to take home to throw in a local area. Every bomb is a future patch of wildflowers for insects."
+            },
+            {
+              "nid": "b25",
+              "type": "say-aloud",
+              "text": "\"Throw one seed bomb here at school, somewhere it can grow.\nTake the other home to throw in your local area.\""
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t21",
+              "when": "If they throw too hard / competitively",
+              "then": "Model a gentle toss. \"We're planting, not throwing. Place it where you want flowers.\""
+            },
+            {
+              "nid": "t22",
+              "when": "If they ask when the flowers will come",
+              "then": "\"Maybe a few weeks. Maybe not till summer. The rain will know when.\""
+            },
+            {
+              "nid": "t23",
+              "when": "If they forget their second one",
+              "then": "It's okay. Better to leave it here than lose it on the walk home."
+            }
+          ]
+        },
+        {
+          "nid": "p26",
+          "key": "circle",
+          "title": "Circle",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "nid": "b27",
+              "type": "circle-question",
+              "text": "What did you learn about pollination today?"
+            },
+            {
+              "nid": "b28",
+              "type": "teacher-note",
+              "text": "Circle time for reflection on what they have learnt, highlighting importance of wildflowers."
+            },
+            {
+              "nid": "b29",
+              "type": "circle-question",
+              "text": "Why do wildflowers matter for insects?"
+            },
+            {
+              "nid": "b30",
+              "type": "teacher-note",
+              "text": "Connect back to the discussion. Without wildflowers, pollinators lose food sources."
+            },
+            {
+              "nid": "b31",
+              "type": "circle-question",
+              "text": "Where will you throw your seed bomb at home?"
+            },
+            {
+              "nid": "b32",
+              "type": "teacher-note",
+              "text": "Give them a moment to think about their local area. A verge, a garden corner, a patch of bare ground."
+            },
+            {
+              "nid": "b33",
+              "type": "named-skill",
+              "skill": "touching and looking"
+            },
+            {
+              "nid": "b34",
+              "type": "teacher-note",
+              "text": "After, for you: You just planted wildflowers for pollinators. Somewhere on your school grounds, a seed bomb is waiting for rain. When it comes, flowers will grow, and bees will find them. Your class did that."
+            }
+          ]
+        }
+      ],
+      "standards": [
+        {
+          "system": "england",
+          "code": "Year 3 · Plants",
+          "text": "explore the part that flowers play in the life cycle of flowering plants, including pollination, seed formation and seed dispersal"
+        }
+      ],
+      "childSheet": [
+        {
+          "nid": "b35",
+          "type": "sheet-title",
+          "title": "Seed Bombs",
+          "nameLine": "This page was made by"
+        },
+        {
+          "nid": "b36",
+          "type": "collage-zone",
+          "hint": "Draw or stick something from today's session here."
+        },
+        {
+          "nid": "b37",
+          "type": "notice-line",
+          "prompt": "One thing you noticed outside today:"
+        }
+      ],
+      "celebration": {
+        "emoji": "🌸",
+        "headline": "You just planted wildflowers for pollinators.",
+        "keepsake": "Somewhere on your school grounds, a seed bomb is waiting for rain. When it comes, flowers will grow, and bees will find them. Your class did that.",
+        "nextWeekTease": "Next week: discover the wildflowers already growing in your space."
+      },
+      "preparation": "Have clay and wildflower seeds ready. Find a spot on the school grounds where seed bombs can be thrown.",
+      "spaceNeeded": "Outside playground or any green area where wildflowers could grow.",
+      "primer": {
+        "summary": "Seed bombs are little balls of clay packed with wildflower seeds. Children roll them up in class, then throw them into bare ground outside. When rain comes, the clay breaks down and the seeds sprout into flowers that feed bees and butterflies.",
+        "why": "Pollinators like bees, butterflies and hoverflies are in decline because there are fewer wildflowers than there used to be. Schools have green space that could host wildflowers — this session turns children into tiny conservationists who understand WHY flowers matter.",
+        "glossary": [
+          {
+            "term": "Pollinator",
+            "definition": "An insect (or sometimes bird) that carries pollen between flowers so the plant can make seeds.",
+            "forChildren": "\"Bees, butterflies and some little flies are pollinators. That means they help flowers make babies!\""
+          },
+          {
+            "term": "Pollination",
+            "definition": "The movement of pollen from one flower to another, which lets the plant make seeds for new flowers.",
+            "forChildren": "\"When a bee visits a flower to drink the sweet nectar, tiny yellow dust called pollen sticks to her fuzzy body. She carries it to the next flower — and that's how new flowers are made.\""
+          },
+          {
+            "term": "Nectar",
+            "definition": "A sweet sugary liquid that flowers make to attract pollinators.",
+            "forChildren": "\"Flowers have sweet juice inside called nectar. It's like flower sugar. Bees drink it.\""
+          },
+          {
+            "term": "Wildflower",
+            "definition": "A flower that grows on its own without being planted by people — in fields, hedgerows, verges, or garden corners.",
+            "forChildren": "\"Wildflowers are the flowers that grow all by themselves. Nobody plants them. They are wild!\""
+          },
+          {
+            "term": "Seed bomb",
+            "definition": "A small ball of clay mixed with wildflower seeds. When thrown onto soil and rained on, the clay dissolves and the seeds grow.",
+            "forChildren": "\"A seed bomb is a magic ball of clay hiding tiny seeds. When the rain comes, the clay melts and the seeds wake up and grow into flowers.\""
+          }
+        ],
+        "childFriendlyExamples": [
+          "\"Imagine a flower is a little restaurant. Bees are the customers. They come in for sweet nectar to drink — and while they eat, they get dusty yellow pollen on their feet and wings.\"",
+          "\"When the bee flies to the next flower, she brings the pollen with her by accident. That's how flowers make new flowers. Without bees, there would be no new wildflowers!\"",
+          "\"We're going to help the bees today. We're making little clay balls full of flower seeds. When we throw them, the flowers will grow and the bees will have more to eat.\""
+        ]
+      },
+      "topicLine": "Seed bombs are what we are making today, to spread wildflowers for the insects.",
+      "seasonNote": {
+        "teacher": "The soil is warming and softening, which opens the sowing window: seed scattered now has the whole growing season ahead of it. Early in the term the ground can still be cold, so a sunny spot gives the seed the best start.",
+        "child": "It is spring, and the ground is waking up. We are going to make seed balls and give some wildflowers a place to grow."
+      }
+    },
+    {
+      "id": "spring-w2-wildflower-investigation",
+      "sheetTemplate": "flower-study",
+      "title": "Wildflower investigation",
+      "prompt": "What flowers are in your green space and how did they get there?",
+      "topic": "Discuss how wildflowers spread, explore your green space noticing flowers with all senses, look at flowers in depth to find their seeds, discuss how humans can help spread seeds.",
+      "topicTags": [
+        "plants",
+        "senses"
+      ],
+      "primaryTopic": "plants",
+      "labels": [
+        "biodiversity",
+        "science"
+      ],
+      "validity": {
+        "requiresDriver": [
+          "wildflower-bloom"
+        ]
+      },
+      "objective": "About what flowers are in your green space and how they got there.",
+      "namedSkill": "looking, smelling and touching",
+      "kit": [],
+      "durationMin": 40,
+      "nodeSeq": 37,
+      "phases": [
+        {
+          "nid": "p1",
+          "key": "talk-1",
+          "title": "Talk",
+          "durationMin": 10,
+          "blocks": [
+            {
+              "nid": "b5",
+              "type": "conditions-line",
+              "fallbackText": "Look at the sky together before you set off. Whatever it's doing, name it out loud."
+            },
+            {
+              "nid": "b6",
+              "type": "teacher-note",
+              "text": "Discussion about wildflowers and how they spread: wind carries seeds, animals carry them on fur or in droppings, water moves them, people plant them. Some arrived by accident. Some have been here longer than the school."
+            },
+            {
+              "nid": "b7",
+              "type": "say-aloud",
+              "text": "\"How do wildflowers spread?\nWind, animals, water, people.\nHow did the flowers in our space get here?\""
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t2",
+              "when": "If they're stuck",
+              "then": "Ask \"how did a dandelion get here?\" One puff, and they'll work out the wind."
+            },
+            {
+              "nid": "t3",
+              "when": "If they say \"people planted them\"",
+              "then": "Ask \"who? when? did you see them do it?\" Most wildflowers nobody planted."
+            },
+            {
+              "nid": "t4",
+              "when": "If they're distracted",
+              "then": "Point to the nearest flower. \"That one. How did THAT one get here?\""
+            }
+          ]
+        },
+        {
+          "nid": "p8",
+          "key": "explore-2",
+          "title": "Explore",
+          "durationMin": 10,
+          "blocks": [
+            {
+              "nid": "b12",
+              "type": "teacher-note",
+              "text": "Explore your green space and notice flowers. Smell, touch, look closely. How many different kinds can they find? What colours? What shapes? Which ones have visitors?"
+            },
+            {
+              "nid": "b13",
+              "type": "say-aloud",
+              "text": "\"Find flowers. Smell them. Touch the petals.\nLook at the colours. How many different kinds?\""
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t9",
+              "when": "If they count \"one kind\"",
+              "then": "Point out moss, clover, dandelions — wildflowers they may not recognise as flowers."
+            },
+            {
+              "nid": "t10",
+              "when": "If they're rough with plants",
+              "then": "\"Touch like you're meeting a new friend. Gentle first, then a little closer.\""
+            },
+            {
+              "nid": "t11",
+              "when": "If they find no flowers at all",
+              "then": "Look smaller. Pavement cracks, wall edges, fence posts. Something is growing."
+            }
+          ]
+        },
+        {
+          "nid": "p14",
+          "key": "look-closer-3",
+          "title": "Look closer",
+          "durationMin": 10,
+          "blocks": [
+            {
+              "nid": "b18",
+              "type": "teacher-note",
+              "text": "Looking at different flowers in more depth. Where are their seeds? How might they be gathered? Notice wildflower seedlings growing near parent plants. Some seeds are in pods, some in heads, some hidden inside."
+            },
+            {
+              "nid": "b19",
+              "type": "say-aloud",
+              "text": "\"Pick one flower and look closely.\nWhere are its seeds? Can you see any seedlings nearby?\""
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t15",
+              "when": "If they can't find seeds",
+              "then": "Look at flowers that are \"done\" — dried, brown, past their peak. Seeds hide in the fading."
+            },
+            {
+              "nid": "t16",
+              "when": "If they want to pick everything",
+              "then": "\"Leave the seeds to travel themselves. We're detectives, not collectors.\""
+            },
+            {
+              "nid": "t17",
+              "when": "If they find seedlings",
+              "then": "Ask who they think the parent plant is. Usually within a metre."
+            }
+          ]
+        },
+        {
+          "nid": "p20",
+          "key": "discuss-4",
+          "title": "Discuss",
+          "durationMin": 10,
+          "blocks": [
+            {
+              "nid": "b24",
+              "type": "teacher-note",
+              "text": "Discussion: how can we as humans help spread seeds and why is it important to have a diverse range of wildflowers? More kinds of flowers means more kinds of pollinators, which means a healthier ecosystem."
+            },
+            {
+              "nid": "b25",
+              "type": "say-aloud",
+              "text": "\"How can we help spread seeds?\nWhy is it important to have many different kinds of wildflowers?\""
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t21",
+              "when": "If the answers are all generic",
+              "then": "Ask: \"If only one kind of flower grew, what insects would starve?\" Get specific."
+            },
+            {
+              "nid": "t22",
+              "when": "If they're ready for action",
+              "then": "Remind them about seed bombs next week. Today is noticing. Next week is doing."
+            },
+            {
+              "nid": "t23",
+              "when": "If no one speaks",
+              "then": "Offer two answers: \"Save seeds. Scatter them in bare places.\" Let them build from there."
+            }
+          ]
+        },
+        {
+          "nid": "p26",
+          "key": "circle",
+          "title": "Circle",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "nid": "b27",
+              "type": "circle-question",
+              "text": "How many different flowers did you find?"
+            },
+            {
+              "nid": "b28",
+              "type": "teacher-note",
+              "text": "Let children share their count and describe what they found."
+            },
+            {
+              "nid": "b29",
+              "type": "circle-question",
+              "text": "How do you think the flowers in our space got here?"
+            },
+            {
+              "nid": "b30",
+              "type": "teacher-note",
+              "text": "Wind, birds, previous plantings, nature finding a way."
+            },
+            {
+              "nid": "b31",
+              "type": "circle-question",
+              "text": "What could we do to help more wildflowers grow here?"
+            },
+            {
+              "nid": "b32",
+              "type": "teacher-note",
+              "text": "Connects to the seed bomb practice and forward thinking about stewardship."
+            },
+            {
+              "nid": "b33",
+              "type": "named-skill",
+              "skill": "looking, smelling and touching"
+            },
+            {
+              "nid": "b34",
+              "type": "teacher-note",
+              "text": "After, for you: You investigated the hidden life in your school grounds. Your class now knows that every wildflower got there somehow. Wind, fur, water, wings. Nothing was planted by accident. Everything has a story."
+            }
+          ]
+        }
+      ],
+      "standards": [
+        {
+          "system": "england",
+          "code": "Year 1 · Plants",
+          "text": "identify and name a variety of common wild and garden plants, including deciduous and evergreen trees"
+        },
+        {
+          "system": "england",
+          "code": "Year 2 · Living things and their habitats",
+          "text": "identify and name a variety of plants and animals in their habitats, including microhabitats"
+        },
+        {
+          "system": "ngss",
+          "code": "2-LS4-1",
+          "text": "Make observations of plants and animals to compare the diversity of life in different habitats."
+        }
+      ],
+      "childSheet": [
+        {
+          "nid": "b35",
+          "type": "sheet-title",
+          "title": "Wildflower Investigation",
+          "nameLine": "This page was made by"
+        },
+        {
+          "nid": "b36",
+          "type": "collage-zone",
+          "hint": "Draw or stick something from today's session here."
+        },
+        {
+          "nid": "b37",
+          "type": "notice-line",
+          "prompt": "One thing you noticed outside today:"
+        }
+      ],
+      "celebration": {
+        "emoji": "🔍",
+        "headline": "You investigated the hidden life in your school grounds.",
+        "keepsake": "Your class now knows that every wildflower got there somehow. Wind, fur, water, wings. Nothing was planted by accident. Everything has a story.",
+        "nextWeekTease": "Next week: use nature to make art."
+      },
+      "preparation": "No preparation needed. Works in any green space with some wildflowers or garden flowers.",
+      "spaceNeeded": "Any green space on school grounds.",
+      "connectionToLast": "Last week you made seed bombs for pollinators. This week, discover the flowers that are already here and how they arrived without anyone planting them.",
+      "primer": {
+        "summary": "Wildflowers spread themselves. Seeds travel on the wind, stick to animal fur, hitchhike in bird droppings, float on water, or get carried by people. Every wildflower in your school grounds got there somehow — and children become detectives investigating how.",
+        "why": "Children often assume plants grow because someone planted them. Learning that wildflowers spread themselves, in surprising ways, changes how children see the world. A dandelion is not a weed — it is a flower that found its own way here. This builds observational science skills and wonder.",
+        "glossary": [
+          {
+            "term": "Seed dispersal",
+            "definition": "The ways seeds travel from their parent plant to a new place where they can grow.",
+            "forChildren": "\"Seed dispersal is how seeds move around. Some fly. Some float. Some stick to animals. Some get eaten and pooped out somewhere new!\""
+          },
+          {
+            "term": "Wind-dispersed",
+            "definition": "Seeds shaped to catch the wind — dandelion fluff, sycamore helicopters, thistle down.",
+            "forChildren": "\"Some seeds have tiny parachutes or helicopter wings. When the wind blows, they fly away to find a new home. Dandelion fluff is the best example.\""
+          },
+          {
+            "term": "Animal-dispersed",
+            "definition": "Seeds that stick to fur or feathers (like burdock), or are eaten and passed through an animal (like berries).",
+            "forChildren": "\"Some seeds are sticky or have tiny hooks so they catch on a dog's fur or a bird's feathers. The animal carries them somewhere new without even knowing.\""
+          },
+          {
+            "term": "Seedling",
+            "definition": "A very young plant that has just sprouted from a seed.",
+            "forChildren": "\"A seedling is a baby plant. It has one or two tiny leaves when it first pops out of the ground.\""
+          },
+          {
+            "term": "Biodiversity",
+            "definition": "The variety of different living things in one place — plants, animals, insects, fungi. More variety usually means a healthier ecosystem.",
+            "forChildren": "\"Biodiversity means LOTS of different living things all in one place. A garden with 10 kinds of flower is more biodiverse than a garden with just grass. More kinds is healthier!\""
+          }
+        ],
+        "childFriendlyExamples": [
+          "\"Look at this dandelion puff. Each of those white feathery bits is a seed with its own tiny parachute. One puff can make a hundred new dandelions!\"",
+          "\"Have you ever had little sticky green balls stuck to your socks after a walk? Those are seeds hitching a ride. You carried them somewhere new!\"",
+          "\"Birds eat berries and then poop out the seeds somewhere else. That's how many trees end up in new places — bird poop!\""
+        ]
+      },
+      "topicLine": "This lesson is about the flowers in our green space and how they got here.",
+      "seasonNote": {
+        "teacher": "Wildflowers come in waves through spring, low and yellow early on and taller and more varied by May, so what the green space holds depends on the week. Whatever is up is fresh and worth kneeling to.",
+        "child": "Spring flowers are coming out. We are going to look for what is growing in our green space and think about how it got there."
+      }
+    },
+    {
+      "id": "spring-w3-natural-paint-making",
+      "sheetTemplate": "paint-palette",
+      "title": "Natural paint making",
+      "prompt": "Using natural resources to create.",
+      "doorQuestion": "What is growing here that would leave a colour on paper?",
+      "topic": "Discuss art in nature, explore green space collecting petals, leaves and grass, crush collected nature in bowls to make paint, create art with your hands using natural pigments.",
+      "topicTags": [
+        "trees",
+        "plants",
+        "art"
+      ],
+      "primaryTopic": "plants",
+      "labels": [
+        "making",
+        "art"
+      ],
+      "validity": {
+        "universal": true
+      },
+      "objective": "About using natural resources to create.",
+      "namedSkill": "looking, touching and smelling",
+      "kit": [
+        "Paper",
+        "Bowls and wooden sticks",
+        "Outside green space"
+      ],
+      "durationMin": 40,
+      "nodeSeq": 37,
+      "phases": [
+        {
+          "nid": "p1",
+          "key": "talk-1",
+          "title": "Talk",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "nid": "b5",
+              "type": "conditions-line",
+              "fallbackText": "Look at the sky together before you set off. Whatever it's doing, name it out loud."
+            },
+            {
+              "nid": "b6",
+              "type": "teacher-note",
+              "text": "Discussion about art in nature: patterns, colours, shapes, textures. Nature is full of art that nobody designed. Today we use what nature gives us to make our own."
+            },
+            {
+              "nid": "b7",
+              "type": "say-aloud",
+              "text": "\"Where do you see art in nature?\nPatterns on leaves, colours in flowers, shapes in bark.\""
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t2",
+              "when": "If they're blank",
+              "then": "Point to a leaf. \"Look at the pattern of veins. Who designed that? Nobody did.\""
+            },
+            {
+              "nid": "t3",
+              "when": "If they think art means drawings",
+              "then": "Show them a spider web, a pine cone, a zebra stripe. Pattern IS art."
+            },
+            {
+              "nid": "t4",
+              "when": "If they say \"it's just nature\"",
+              "then": "Reply \"yes — and nature has been making art for millions of years before paint.\""
+            }
+          ]
+        },
+        {
+          "nid": "p8",
+          "key": "explore-2",
+          "title": "Explore",
+          "durationMin": 10,
+          "blocks": [
+            {
+              "nid": "b12",
+              "type": "teacher-note",
+              "text": "Class explores green space noticing colours, shapes and patterns while collecting petals, leaves and grass. Remind them: only collect what has already fallen or can be picked without harming the plant."
+            },
+            {
+              "nid": "b13",
+              "type": "say-aloud",
+              "text": "\"Notice colours, shapes and patterns.\nCollect petals, leaves, grass. Only what has already fallen.\""
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t9",
+              "when": "If they pick from living plants",
+              "then": "Stop gently. \"Look at the ground first. The ground is full of what nature has already let go.\""
+            },
+            {
+              "nid": "t10",
+              "when": "If they collect too much",
+              "then": "A handful is plenty. \"We need enough to fill half your bowl, not a bag.\""
+            },
+            {
+              "nid": "t11",
+              "when": "If they can't find colour",
+              "then": "Soil is brown. Moss is green. Bark is grey. Even without flowers, there is colour."
+            }
+          ]
+        },
+        {
+          "nid": "p14",
+          "key": "make-3",
+          "title": "Make",
+          "durationMin": 15,
+          "blocks": [
+            {
+              "nid": "b18",
+              "type": "teacher-note",
+              "text": "Using collected nature, crush in bowls and use as painting medium with their hands. Different plants give different colours: grass gives green, petals give pinks/yellows/purples, soil gives brown. Let them experiment and mix."
+            },
+            {
+              "nid": "b19",
+              "type": "say-aloud",
+              "text": "\"Put what you collected in your bowl.\nCrush it with the stick. Add a tiny bit of water.\nNow use your hands to paint on the paper.\""
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t15",
+              "when": "If the colour is too pale",
+              "then": "Crush harder and add less water. The paint should be more like mud than juice."
+            },
+            {
+              "nid": "t16",
+              "when": "If hands get too messy",
+              "then": "Good. Messy hands mean it's working. Water at the end, not during."
+            },
+            {
+              "nid": "t17",
+              "when": "If a child won't touch the paint",
+              "then": "Offer a stick. Painting with a twig is just as valid. Autonomy first."
+            }
+          ]
+        },
+        {
+          "nid": "p20",
+          "key": "reflect-4",
+          "title": "Reflect",
+          "durationMin": 10,
+          "blocks": [
+            {
+              "nid": "b24",
+              "type": "teacher-note",
+              "text": "Reflection on how the colours and pigments of nature come out on the page. How it feels to use nature creatively. The colours are softer, more varied, more surprising than shop-bought paint."
+            },
+            {
+              "nid": "b25",
+              "type": "say-aloud",
+              "text": "\"Look at the colours on your page.\nThey came from the ground, from petals, from leaves.\nHow does it feel to use nature to make art?\""
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t21",
+              "when": "If the group is flat",
+              "then": "Ask one child: \"If this painting could fade back into nature, would you mind?\""
+            },
+            {
+              "nid": "t22",
+              "when": "If they're proud",
+              "then": "\"This is the same way people made paint for thousands of years. You just joined them.\""
+            },
+            {
+              "nid": "t23",
+              "when": "If paintings look similar",
+              "then": "Line them up side by side. They always look more different in a row."
+            }
+          ]
+        },
+        {
+          "nid": "p26",
+          "key": "circle",
+          "title": "Circle",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "nid": "b27",
+              "type": "circle-question",
+              "text": "What colours did you make and what did you use?"
+            },
+            {
+              "nid": "b28",
+              "type": "teacher-note",
+              "text": "Let children share their discoveries. Which plants gave the strongest colour?"
+            },
+            {
+              "nid": "b29",
+              "type": "circle-question",
+              "text": "Were any colours surprising?"
+            },
+            {
+              "nid": "b30",
+              "type": "teacher-note",
+              "text": "Often the colours are not what children expect. Green leaves can give yellow. Red petals can give pink."
+            },
+            {
+              "nid": "b31",
+              "type": "circle-question",
+              "text": "How does it feel different using nature to paint instead of normal paint?"
+            },
+            {
+              "nid": "b32",
+              "type": "teacher-note",
+              "text": "Connects making to feeling. The medium IS the message."
+            },
+            {
+              "nid": "b33",
+              "type": "named-skill",
+              "skill": "looking, touching and smelling"
+            },
+            {
+              "nid": "b34",
+              "type": "teacher-note",
+              "text": "After, for you: Your class made art from the ground up. The colours on those pages came from petals, leaves and soil. No factory, no plastic. Just the earth and their hands. Those paintings will fade back into nature. That is part of their beauty."
+            }
+          ]
+        }
+      ],
+      "childSheet": [
+        {
+          "nid": "b35",
+          "type": "sheet-title",
+          "title": "Natural Paint Making",
+          "nameLine": "This page was made by"
+        },
+        {
+          "nid": "b36",
+          "type": "collage-zone",
+          "hint": "Draw or stick something from today's session here."
+        },
+        {
+          "nid": "b37",
+          "type": "notice-line",
+          "prompt": "One thing you noticed outside today:"
+        }
+      ],
+      "celebration": {
+        "emoji": "🎨",
+        "headline": "Your class made art from the ground up.",
+        "keepsake": "The colours on those pages came from petals, leaves and soil. No factory, no plastic. Just the earth and their hands. Those paintings will fade back into nature. That is part of their beauty.",
+        "nextWeekTease": "Next week: build something that brings wildlife to your school."
+      },
+      "preparation": "Bring bowls (one per pair or small group), wooden sticks or spoons for crushing, and paper. Find a green space where children can collect fallen petals, leaves, and grass.",
+      "spaceNeeded": "Outside green space where children can collect natural materials.",
+      "connectionToLast": "You have explored wildflowers and how they spread. Today, use the colours nature gives you to make art from petals, leaves and soil.",
+      "primer": {
+        "summary": "Before paint came in tubes, people made their own from plants, berries, soil and rocks. Crushed petals give pinks. Grass gives green. Mud gives brown. Children discover nature's colours with their hands — no brushes, just fingers on paper.",
+        "why": "This is art lesson, science lesson, and sensory lesson in one. Children learn where colours come from — a question most adults can't answer. They touch textures they usually walk past. And the art itself celebrates nature rather than extracting from it.",
+        "glossary": [
+          {
+            "term": "Pigment",
+            "definition": "The substance in a plant, rock, or creature that gives it its colour.",
+            "forChildren": "\"Pigment is what makes things coloured. A red petal has red pigment inside. When we crush it, the colour comes out.\""
+          },
+          {
+            "term": "Natural dye",
+            "definition": "A colour made from plants or other natural sources, used to stain fabric or paper.",
+            "forChildren": "\"A dye is paint that sinks INTO something, like how tea stains a mug. People used to dye their clothes with flowers and berries.\""
+          },
+          {
+            "term": "Crushed",
+            "definition": "Broken into small pieces so the liquid and colour can escape.",
+            "forChildren": "\"When we crush a petal, we break its tiny walls. The colour comes out like juice from a squashed berry.\""
+          },
+          {
+            "term": "Natural materials",
+            "definition": "Things found in nature — not made in a factory. Leaves, sticks, stones, soil, petals.",
+            "forChildren": "\"Natural materials are things nature made, not people. A stick is natural. A plastic toy is not.\""
+          }
+        ],
+        "childFriendlyExamples": [
+          "\"Long, long ago, before paint tubes existed, people made their own paint. If they wanted red, they crushed berries. If they wanted brown, they used mud. If they wanted yellow, they used flowers. Today, we're going to do what people used to do.\"",
+          "\"Colours are hiding in everything. Inside this green leaf is yellow hiding. Inside this brown bark is red hiding. Our job is to find them by squishing.\"",
+          "\"When you make a painting with nature, the painting will slowly change back into nature — the colours will fade over weeks. That's okay. It's the opposite of plastic. It came from the earth and it goes back to the earth.\""
+        ]
+      },
+      "topicLine": "Paint is what we are making today, from things we find in nature.",
+      "seasonNote": {
+        "teacher": "Fresh materials for paint are everywhere in spring: soft new leaves, fallen petals, damp earth and green grass, all with strong colour in them. Take only what has fallen or what there is plenty of, so the season keeps growing.",
+        "child": "In spring there are new leaves, petals and soft earth all around. We are going to use some of them to make our own paint."
+      }
+    },
+    {
+      "id": "spring-w4-bird-feeders",
+      "sheetTemplate": "feeder-watch",
+      "title": "Bird feeders",
+      "prompt": "Making bird feeders and encouraging wildlife in your school grounds.",
+      "doorQuestion": "Where would you hang a feeder so a bird feels safe enough to use it?",
+      "topic": "Talk about local birds and listen/look for them, explore natural bird food in your green space, make bird feeders from oranges and birdseed, discuss why conserving and helping wildlife matters.",
+      "topicTags": [
+        "birds",
+        "plants",
+        "art"
+      ],
+      "primaryTopic": "birds",
+      "labels": [
+        "sustainability",
+        "making"
+      ],
+      "validity": {
+        "universal": true
+      },
+      "objective": "Making bird feeders and encouraging wildlife in your school grounds.",
+      "namedSkill": "looking, listening and touching",
+      "kit": [
+        "Fruit (oranges)",
+        "Birdseed",
+        "String"
+      ],
+      "durationMin": 40,
+      "nodeSeq": 37,
+      "phases": [
+        {
+          "nid": "p1",
+          "key": "talk-1",
+          "title": "Talk",
+          "durationMin": 10,
+          "blocks": [
+            {
+              "nid": "b5",
+              "type": "conditions-line",
+              "fallbackText": "Look at the sky together before you set off. Whatever it's doing, name it out loud."
+            },
+            {
+              "nid": "b6",
+              "type": "teacher-note",
+              "text": "Talk about the different birds you might see locally. Listen for birdsong. Look for movement in trees and hedges. Common ones: robins, blue tits, sparrows, blackbirds, pigeons."
+            },
+            {
+              "nid": "b7",
+              "type": "say-aloud",
+              "text": "\"What birds live near our school?\nListen. Can you hear any?\nLook. Can you see any?\""
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t2",
+              "when": "If no one can hear any birds",
+              "then": "Ask for 30 seconds of total silence. The birds are usually there; our ears just need to tune in."
+            },
+            {
+              "nid": "t3",
+              "when": "If they only know \"pigeon\"",
+              "then": "That's a real answer. Start there: \"what does a pigeon look like? how does it sound?\""
+            },
+            {
+              "nid": "t4",
+              "when": "If they're too loud to hear anything",
+              "then": "Turn it into a game: everyone freezes; first person to hear a bird wins."
+            }
+          ]
+        },
+        {
+          "nid": "p8",
+          "key": "explore-2",
+          "title": "Explore",
+          "durationMin": 10,
+          "blocks": [
+            {
+              "nid": "b12",
+              "type": "teacher-note",
+              "text": "Explore natural food for birds in your green space: worms in the soil, seeds on plants, insects on leaves, berries on bushes. What is already here for them? Is there enough?"
+            },
+            {
+              "nid": "b13",
+              "type": "say-aloud",
+              "text": "\"Go into the space.\nWhat food can birds find here naturally?\""
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t9",
+              "when": "If they're stuck",
+              "then": "Look under stones and leaves — worms, woodlice, beetles. Bird food is hiding everywhere."
+            },
+            {
+              "nid": "t10",
+              "when": "If they say \"there is nothing\"",
+              "then": "Ask them to imagine being a bird six inches tall. Now look again."
+            },
+            {
+              "nid": "t11",
+              "when": "If one child is squeamish",
+              "then": "They don't need to touch. Just spotting counts."
+            }
+          ]
+        },
+        {
+          "nid": "p14",
+          "key": "make-3",
+          "title": "Make",
+          "durationMin": 15,
+          "blocks": [
+            {
+              "nid": "b18",
+              "type": "teacher-note",
+              "text": "Work in partners to make bird feeder: halve an orange (teacher halves them ahead of time), scoop out the flesh, tie string to 2 sides to make a hanging basket, fill with birdseed, hang on trees in the school grounds."
+            },
+            {
+              "nid": "b19",
+              "type": "say-aloud",
+              "text": "\"Work with a partner. Take half an orange.\nScoop out the inside. Tie string to two sides.\nFill it with birdseed and hang it on a tree.\""
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t15",
+              "when": "If string keeps slipping",
+              "then": "Poke two small holes through the peel with a stick before threading."
+            },
+            {
+              "nid": "t16",
+              "when": "If they overfill with seed",
+              "then": "A handful is enough. Too much and the seed tips out. \"Half full is generous.\""
+            },
+            {
+              "nid": "t17",
+              "when": "If they can't reach a branch",
+              "then": "Lift them for it. Or hang them low on a hedge — birds don't mind low feeders."
+            }
+          ]
+        },
+        {
+          "nid": "p20",
+          "key": "discuss-4",
+          "title": "Discuss",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "nid": "b24",
+              "type": "teacher-note",
+              "text": "Discuss why it is important to conserve and help wildlife in the local area. Bird boxes, water dishes, planting berry bushes, leaving seed heads on plants over winter."
+            },
+            {
+              "nid": "b25",
+              "type": "say-aloud",
+              "text": "\"Why is it important to help wildlife in our local area?\nWhat else could we do to make our school a better place for birds?\""
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t21",
+              "when": "If ideas are generic",
+              "then": "Ask \"if you were a bird, what would you want our school to have more of?\""
+            },
+            {
+              "nid": "t22",
+              "when": "If they say \"nothing\"",
+              "then": "Offer: \"a shallow bowl of water. Birds need to drink too.\" Build from there."
+            },
+            {
+              "nid": "t23",
+              "when": "If they're ready for action",
+              "then": "Promise to check the feeders tomorrow. \"Birds may visit overnight. We'll see.\""
+            }
+          ]
+        },
+        {
+          "nid": "p26",
+          "key": "circle",
+          "title": "Circle",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "nid": "b27",
+              "type": "circle-question",
+              "text": "What birds did you see or hear today?"
+            },
+            {
+              "nid": "b28",
+              "type": "teacher-note",
+              "text": "Let children share. Even pigeons count. Every bird is local wildlife."
+            },
+            {
+              "nid": "b29",
+              "type": "circle-question",
+              "text": "What natural food did you find for birds in our grounds?"
+            },
+            {
+              "nid": "b30",
+              "type": "teacher-note",
+              "text": "Worms, seeds, insects, berries. Connects exploration to the feeder-making."
+            },
+            {
+              "nid": "b31",
+              "type": "circle-question",
+              "text": "What else could we do to make our school grounds better for wildlife?"
+            },
+            {
+              "nid": "b32",
+              "type": "teacher-note",
+              "text": "Forward-looking. Bird boxes, water, planting, leaving wild corners."
+            },
+            {
+              "nid": "b33",
+              "type": "named-skill",
+              "skill": "looking, listening and touching"
+            },
+            {
+              "nid": "b34",
+              "type": "teacher-note",
+              "text": "After, for you: Your school grounds just got friendlier for birds. There are bird feeders hanging in your trees now. Tomorrow morning, a robin or a blue tit will find one. It will eat. It will come back. Your class made that happen."
+            }
+          ]
+        }
+      ],
+      "standards": [
+        {
+          "system": "england",
+          "code": "Year 2 · Animals, including humans",
+          "text": "find out about and describe the basic needs of animals, including humans, for survival (water, food and air)"
+        },
+        {
+          "system": "england",
+          "code": "Year 2 · Living things and their habitats",
+          "text": "identify that most living things live in habitats to which they are suited and describe how different habitats provide for the basic needs of different kinds of animals and plants, and how they depend on each other"
+        },
+        {
+          "system": "ngss",
+          "code": "K-LS1-1",
+          "text": "Use observations to describe patterns of what plants and animals (including humans) need to survive."
+        }
+      ],
+      "childSheet": [
+        {
+          "nid": "b35",
+          "type": "sheet-title",
+          "title": "Bird Feeders",
+          "nameLine": "This page was made by"
+        },
+        {
+          "nid": "b36",
+          "type": "collage-zone",
+          "hint": "Draw or stick something from today's session here."
+        },
+        {
+          "nid": "b37",
+          "type": "notice-line",
+          "prompt": "One thing you noticed outside today:"
+        }
+      ],
+      "celebration": {
+        "emoji": "🐦",
+        "headline": "Your school grounds just got friendlier for birds.",
+        "keepsake": "There are bird feeders hanging in your trees now. Tomorrow morning, a robin or a blue tit will find one. It will eat. It will come back. Your class made that happen."
+      },
+      "preparation": "Bring oranges (one per pair), birdseed, and string. Have a knife ready to halve the oranges (teacher does this). Find trees where feeders can be hung.",
+      "spaceNeeded": "Green space with trees where bird feeders can be hung.",
+      "connectionToLast": "You have made art from nature. Now give something back. This week, build a feeder so the birds who share your school grounds have more to eat.",
+      "primer": {
+        "summary": "Local birds eat what the land gives them — seeds, insects, worms, berries. In winter and early spring food is scarce. Children make a simple bird feeder from half an orange and birdseed, then hang it in the school grounds.",
+        "why": "Most children can't name three local birds. Paying attention to birds is a gateway to paying attention to everything. A bird feeder is a tiny act of care that pays back immediately — birds arrive within hours. Children see cause and effect in real time.",
+        "glossary": [
+          {
+            "term": "Wildlife",
+            "definition": "Any living creature that lives in the wild, not kept as a pet or farmed.",
+            "forChildren": "\"Wildlife means wild animals — birds, insects, foxes, worms. Any creature that lives outside without humans looking after it.\""
+          },
+          {
+            "term": "Habitat",
+            "definition": "The place where a plant or animal naturally lives — with the food, shelter, and space it needs.",
+            "forChildren": "\"A habitat is an animal's home. A bird's habitat has trees to nest in, food to eat, and water to drink. Our school grounds are a habitat for lots of creatures.\""
+          },
+          {
+            "term": "Birdsong",
+            "definition": "The singing of birds, often used to mark territory or attract a mate.",
+            "forChildren": "\"Birds sing to say 'this is MY tree!' or to call to each other. Each kind of bird has its own song, like its own voice.\""
+          },
+          {
+            "term": "Conservation",
+            "definition": "Protecting wild things and wild places so they don't disappear.",
+            "forChildren": "\"Conservation is looking after nature — making sure there are still bees, birds and flowers when we grow up. Today we're doing a little bit of conservation by feeding the birds.\""
+          },
+          {
+            "term": "Local",
+            "definition": "From your own area — the birds, plants and animals that live near you, not in faraway places.",
+            "forChildren": "\"Local means near here. Robins are local to us. Penguins are not! Today we're looking for LOCAL birds — the ones that live right here.\""
+          }
+        ],
+        "childFriendlyExamples": [
+          "\"Close your eyes. Can you hear any birds right now? That's called birdsong. Each bird has its own song. If you listen a lot, you'll start to recognise them like friends.\"",
+          "\"Robins have a little red chest. Blue tits are tiny and yellow with a blue cap. Blackbirds are all black with orange beaks. Pigeons are grey and fat. Those are four local birds you probably see every day.\"",
+          "\"Birds spend most of the day looking for food. In winter, there isn't much food. When we make a bird feeder, we're saying: 'Hello birds, here is some extra food to keep you warm.' That's kindness.\""
+        ]
+      },
+      "topicLine": "Our lesson today is about making bird feeders to bring birds to our school grounds.",
+      "seasonNote": {
+        "teacher": "Birds are nesting and feeding young through spring, so a feeder put up now is used hard and can bring the builders into view. Early in the term it also helps them through the last cold spells.",
+        "child": "In spring the birds are busy building nests and feeding their chicks. We are going to make a feeder to help them."
+      }
+    },
+    {
+      "id": "spring-w5-first-signs",
+      "prompt": "What can you find that is waking up?",
+      "title": "First signs",
+      "topic": "Walk slowly around the school grounds. Find anything that feels new or alive. Touch it. Listen for spring sounds.",
+      "topicTags": [
+        "birds",
+        "seasons",
+        "soil"
+      ],
+      "primaryTopic": "seasons",
+      "objective": "The first practice of spring. Children look and listen for signs that the land is waking from winter: new shoots, returning birds, softening soil.",
+      "namedSkill": "looking and listening",
+      "kit": [
+        "None required"
+      ],
+      "durationMin": 40,
+      "nodeSeq": 29,
+      "phases": [
+        {
+          "nid": "p1",
+          "key": "awareness-1",
+          "title": "Listen for what's new",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b2",
+              "type": "conditions-line",
+              "fallbackText": "Look at the sky together before you set off. Whatever it's doing, name it out loud."
+            },
+            {
+              "nid": "b3",
+              "type": "teacher-note",
+              "text": "Give them 30 seconds of silence first. Then ask them to open their eyes and walk slowly, looking for anything that feels new or awake."
+            },
+            {
+              "nid": "b4",
+              "type": "say-aloud",
+              "text": "Stand still. Close your eyes. What do you hear that wasn't here in winter?"
+            }
+          ]
+        },
+        {
+          "nid": "p5",
+          "key": "embodiment-2",
+          "title": "Touch what's waking",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b9",
+              "type": "teacher-note",
+              "text": "Encourage them to feel temperature differences: warm bark vs cool soil. Notice moisture."
+            },
+            {
+              "nid": "b10",
+              "type": "say-aloud",
+              "text": "Find something that feels alive. Touch it gently."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t6",
+              "when": "A child says everything still feels like winter",
+              "then": "Send them to the warmest spot: a sunny wall, a south-facing fence. Spring shows up in the warm places first."
+            },
+            {
+              "nid": "t7",
+              "when": "They touch too hard and snap a new shoot",
+              "then": "No telling off. New growth is soft on purpose. Show one-finger touching: a shoot is met, not held."
+            },
+            {
+              "nid": "t8",
+              "when": "Everyone crowds the same green shoot",
+              "then": "Spread them out. Ask each child to find a waking thing no one else is touching yet."
+            }
+          ]
+        },
+        {
+          "nid": "p11",
+          "key": "feeling-3",
+          "title": "Wonder",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b14",
+              "type": "teacher-note",
+              "text": "Some kids will say excited or happy. Others might feel nothing yet. All fine."
+            },
+            {
+              "nid": "b15",
+              "type": "say-aloud",
+              "text": "How does it feel to find something waking up?"
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t12",
+              "when": "A child shrugs and says they feel nothing",
+              "then": "Nothing is an honest answer in early spring. Ask what the waking thing might be feeling instead."
+            },
+            {
+              "nid": "t13",
+              "when": "The class is buzzing and can't hold still",
+              "then": "Match spring: waking up is not quiet. Let the excitement out, then ask them to whisper what woke first."
+            }
+          ]
+        },
+        {
+          "nid": "p16",
+          "key": "kinship-4",
+          "title": "Whisper hello",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b17",
+              "type": "teacher-note",
+              "text": "Model this yourself first. Walk back together in quiet."
+            },
+            {
+              "nid": "b18",
+              "type": "say-aloud",
+              "text": "Whisper hello to what you found. Welcome it back."
+            }
+          ]
+        },
+        {
+          "nid": "p19",
+          "key": "circle",
+          "title": "Circle",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "nid": "b20",
+              "type": "circle-question",
+              "text": "What did you find that felt alive?"
+            },
+            {
+              "nid": "b21",
+              "type": "teacher-note",
+              "text": "Let 3-4 students share."
+            },
+            {
+              "nid": "b22",
+              "type": "circle-question",
+              "text": "What sounds did you hear that belong to spring?"
+            },
+            {
+              "nid": "b23",
+              "type": "teacher-note",
+              "text": "Encourage specific answers: bird songs, wind, dripping."
+            },
+            {
+              "nid": "b24",
+              "type": "circle-question",
+              "text": "What does waking up feel like for you?"
+            },
+            {
+              "nid": "b25",
+              "type": "teacher-note",
+              "text": "Optional deeper question."
+            },
+            {
+              "nid": "b26",
+              "type": "named-skill",
+              "skill": "looking and listening"
+            }
+          ]
+        }
+      ],
+      "standards": [
+        {
+          "system": "england",
+          "code": "Year 1 · Seasonal changes",
+          "text": "observe changes across the 4 seasons"
+        }
+      ],
+      "childSheet": [
+        {
+          "nid": "b27",
+          "type": "sheet-title",
+          "title": "First signs",
+          "nameLine": "This page was made by"
+        },
+        {
+          "nid": "b28",
+          "type": "collage-zone",
+          "hint": "Draw or stick something from today's session here."
+        },
+        {
+          "nid": "b29",
+          "type": "notice-line",
+          "prompt": "One thing you noticed outside today:"
+        }
+      ],
+      "preparation": "No preparation needed. Works in any outdoor space.",
+      "spaceNeeded": "Any outdoor area, playground, field, garden, or even a paved area with some nature nearby.",
+      "connectionToLast": "You gave something back to the birds last week. Now go looking for what the birds already know: spring is arriving, and the land is starting to wake.",
+      "primer": {
+        "summary": "In early spring the land begins to stir. Buds swell, green shoots push up, birds sing more, and the soil softens as it warms. This is the first practice of the season: children walk slowly and look and listen for signs that winter is loosening its grip.",
+        "why": "Children live mostly indoors and rarely notice the turn of the seasons. Slowing down to find the first signs of spring builds patient attention and a felt sense that they are part of a living, changing world. There is no right answer to find. The looking is the lesson.",
+        "glossary": [
+          {
+            "term": "Season",
+            "definition": "One of the four parts of the year, spring, summer, autumn and winter, each with its own weather and its own changes in nature.",
+            "forChildren": "A season is a time of year. Spring is when things wake up and start to grow. It comes after cold, sleepy winter."
+          },
+          {
+            "term": "Shoot",
+            "definition": "A new green stem or leaf pushing up from a seed, bulb, or plant.",
+            "forChildren": "A shoot is a little green point poking up out of the ground. It is a plant waking up and starting to grow tall."
+          },
+          {
+            "term": "Bud",
+            "definition": "A small tight bump on a twig or stem that will open into a leaf or a flower.",
+            "forChildren": "A bud is like a tiny wrapped-up parcel on a branch. Inside is a leaf or a flower, waiting for the right day to open."
+          },
+          {
+            "term": "Dormant",
+            "definition": "Resting or sleeping, the way many plants and some animals spend the winter until warmth returns.",
+            "forChildren": "Dormant means having a long rest. In winter lots of plants go to sleep. In spring they wake up again."
+          }
+        ],
+        "childFriendlyExamples": [
+          "All winter, the trees and plants had a long sleep. Now it is getting a little warmer, and they are starting to wake up. Our job today is to find something that just woke.",
+          "Listen carefully. In winter it is quiet outside. In spring the birds start to sing again. If you hear a bird, that is spring saying hello.",
+          "Put your hand on the soil and then on a sunny wall. The wall is warmer. Spring is the world getting warmer, little bit by little bit, until everything wakes up."
+        ]
+      },
+      "topicLine": "In this lesson we look and listen for signs that the land is waking up after winter.",
+      "seasonNote": {
+        "teacher": "The land is waking in stages: shoots and early flowers first, then birdsong building, then buds and leaves. Something is waking on any spring day, so send the class to look low, in sheltered spots, and to listen.",
+        "child": "It is spring, and things are waking up after winter. We are going to look and listen for what is waking."
+      }
+    },
+    {
+      "id": "spring-w6-underground",
+      "prompt": "What is happening under our feet?",
+      "title": "Underground",
+      "topic": "Kneel on the ground. Feel the earth with your hands. Dig gently with fingers. Smell the soil. Notice what lives below.",
+      "topicTags": [
+        "minibeasts",
+        "soil",
+        "senses"
+      ],
+      "primaryTopic": "minibeasts",
+      "objective": "A sensory exploration of what happens beneath our feet. Children dig gently, smell the earth, and discover the hidden world of roots, worms, and soil life.",
+      "namedSkill": "touching and smelling",
+      "kit": [
+        "None required, hands only"
+      ],
+      "durationMin": 40,
+      "nodeSeq": 29,
+      "phases": [
+        {
+          "nid": "p1",
+          "key": "awareness-1",
+          "title": "Feel what's underground",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b2",
+              "type": "conditions-line",
+              "fallbackText": "Look at the sky together before you set off. Whatever it's doing, name it out loud."
+            },
+            {
+              "nid": "b3",
+              "type": "teacher-note",
+              "text": "Let them feel the earth. Damp? Warm? Cool? Moving?"
+            },
+            {
+              "nid": "b4",
+              "type": "say-aloud",
+              "text": "Kneel down. Put your hands on the ground. What's happening under here?"
+            }
+          ]
+        },
+        {
+          "nid": "p5",
+          "key": "embodiment-2",
+          "title": "Feel the ground",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b9",
+              "type": "teacher-note",
+              "text": "Roots, worms, stones, moisture. Everything counts."
+            },
+            {
+              "nid": "b10",
+              "type": "say-aloud",
+              "text": "Dig gently with your fingers. What do you find?"
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t6",
+              "when": "A child won't put their hands in the soil",
+              "then": "Offer a stick to dig with, or a single finger. Watching a friend dig is a real way to join in too."
+            },
+            {
+              "nid": "t7",
+              "when": "They find a worm and want to pull it out",
+              "then": "Let it stay home. We are visitors underground. Look at it where it lives, then cover it back over."
+            },
+            {
+              "nid": "t8",
+              "when": "The ground is dry and hard to dig",
+              "then": "Move to a shady edge or the base of a tree, where the soil stays damper and softer."
+            }
+          ]
+        },
+        {
+          "nid": "p11",
+          "key": "feeling-3",
+          "title": "Wonder",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b14",
+              "type": "teacher-note",
+              "text": "Some kids will find it gross. That's a valid feeling too."
+            },
+            {
+              "nid": "b15",
+              "type": "say-aloud",
+              "text": "All of this is alive under our feet. How does that feel?"
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t12",
+              "when": "A child says the soil is gross or smelly",
+              "then": "That is a real feeling, keep it. Ask what the smell reminds them of. Damp soil often smells of rain."
+            },
+            {
+              "nid": "t13",
+              "when": "They can't imagine anything living down there",
+              "then": "Ask them to picture a worm's day in the dark, tunnelling right under their knees, while they eat their lunch above."
+            }
+          ]
+        },
+        {
+          "nid": "p16",
+          "key": "kinship-4",
+          "title": "Thank the ground",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b17",
+              "type": "teacher-note",
+              "text": "Pat the earth gently. Walk back."
+            },
+            {
+              "nid": "b18",
+              "type": "say-aloud",
+              "text": "Say thank you to the ground. It holds everything up."
+            }
+          ]
+        },
+        {
+          "nid": "p19",
+          "key": "circle",
+          "title": "Circle",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "nid": "b20",
+              "type": "circle-question",
+              "text": "What did you find underground?"
+            },
+            {
+              "nid": "b21",
+              "type": "teacher-note",
+              "text": "Let students describe textures and discoveries."
+            },
+            {
+              "nid": "b22",
+              "type": "circle-question",
+              "text": "What do you think is happening down there right now?"
+            },
+            {
+              "nid": "b23",
+              "type": "teacher-note",
+              "text": "Encourage imagination: roots growing, worms tunneling."
+            },
+            {
+              "nid": "b24",
+              "type": "circle-question",
+              "text": "What else in life is happening where you can't see it?"
+            },
+            {
+              "nid": "b25",
+              "type": "teacher-note",
+              "text": "Optional. For reflective classes."
+            },
+            {
+              "nid": "b26",
+              "type": "named-skill",
+              "skill": "touching and smelling"
+            }
+          ]
+        }
+      ],
+      "standards": [
+        {
+          "system": "england",
+          "code": "Year 3 · Rocks",
+          "text": "recognise that soils are made from rocks and organic matter"
+        },
+        {
+          "system": "england",
+          "code": "Year 2 · Living things and their habitats",
+          "text": "identify and name a variety of plants and animals in their habitats, including microhabitats"
+        }
+      ],
+      "childSheet": [
+        {
+          "nid": "b27",
+          "type": "sheet-title",
+          "title": "Underground",
+          "nameLine": "This page was made by"
+        },
+        {
+          "nid": "b28",
+          "type": "collage-zone",
+          "hint": "Draw or stick something from today's session here."
+        },
+        {
+          "nid": "b29",
+          "type": "notice-line",
+          "prompt": "One thing you noticed outside today:"
+        }
+      ],
+      "preparation": "Find an area with accessible soil (not paved). A garden bed, grassy area, or bare earth patch.",
+      "spaceNeeded": "Area with exposed or accessible soil, garden beds, grassy edges, tree bases.",
+      "connectionToLast": "Last week you found the first signs of spring above the ground. This week, go the other way: kneel down and meet the busy, hidden world underneath your feet.",
+      "primer": {
+        "summary": "Under every patch of grass is a whole living world: roots, worms, insects, fungi, and soil that is packed with life. Children kneel, dig gently with their fingers, smell the earth, and discover that the ground is not empty at all. It is where much of spring's growth actually begins.",
+        "why": "Soil is easy to walk over and never think about, yet it holds the roots that feed every plant and the creatures that keep it healthy. Getting hands in the earth is grounding, sensory, and a little brave. Children learn that the most important things are often the ones we cannot see.",
+        "glossary": [
+          {
+            "term": "Soil",
+            "definition": "The top layer of the earth where plants grow: a mix of tiny bits of rock, rotted leaves, water, air, and living things.",
+            "forChildren": "Soil is the brown stuff plants grow in. It looks like dirt, but it is full of food for roots and full of tiny creatures."
+          },
+          {
+            "term": "Root",
+            "definition": "The part of a plant that grows down into the soil to drink water and hold the plant steady.",
+            "forChildren": "Roots are a plant's underground straws. They drink water from the soil and hold the plant tight so the wind can't blow it over."
+          },
+          {
+            "term": "Earthworm",
+            "definition": "A soft, wriggly creature that tunnels through soil, mixing it and helping plants grow.",
+            "forChildren": "A worm is a little wriggly gardener. As it tunnels, it makes tiny holes so air and water can reach the roots. Worms help the soil."
+          },
+          {
+            "term": "Decompose",
+            "definition": "To slowly break down and rot, turning dead leaves and plants back into soil.",
+            "forChildren": "When leaves fall and go soft and brown, they slowly turn back into soil. That is how the ground makes fresh food for new plants."
+          }
+        ],
+        "childFriendlyExamples": [
+          "Under the grass there is a whole busy town. Worms are digging tunnels, roots are drinking, and tiny bugs are hurrying about. We just can't see them because they live in the dark.",
+          "Smell the soil in your hands. That earthy smell is the smell of things growing and rotting and starting again. It is one of the oldest smells in the world.",
+          "A worm has no hands and no eyes, but it is a brilliant digger. Every tunnel it makes lets air and rain reach down to the roots, so the plants can grow."
+        ]
+      },
+      "conditionNotes": [
+        {
+          "when": [
+            "wet"
+          ],
+          "teacher": "The ground is easy to open and the worms are near the top after rain, so a gentle hand is enough and nothing needs digging deep.",
+          "child": "The rain has soaked into the ground. Worms come up when it is wet, so we will feel the soil with our hands."
+        },
+        {
+          "when": [
+            "dry"
+          ],
+          "teacher": "The worms go down when the ground dries out, so choose the shaded bed or the base of a tree where the soil is still damp.",
+          "child": "The ground is dry today. Worms go down deeper when it is dry, so we will look where the soil is still damp."
+        }
+      ],
+      "topicLine": "Today's lesson is about the hidden world under our feet, roots, worms and soil.",
+      "seasonNote": {
+        "teacher": "The soil is softening and warming through spring, and the worms and roots under the surface are at their most active as everything above them starts to grow. A gentle dig now finds the ground busy.",
+        "child": "Under our feet the ground is waking up too. We are going to dig gently and see what is happening down there."
+      }
+    },
+    {
+      "id": "spring-w7-blossom",
+      "prompt": "What does opening feel like?",
+      "title": "Blossom",
+      "topic": "Wander and look for anything opening. Go close. Touch it gently. Notice the texture, temperature, and smell of new growth.",
+      "topicTags": [
+        "trees",
+        "plants",
+        "senses"
+      ],
+      "primaryTopic": "trees",
+      "objective": "Children search for things that are opening: buds, flowers, cracks where green pushes through. A practice about beginnings and the courage of new growth.",
+      "namedSkill": "looking, smelling and touching",
+      "kit": [
+        "None required"
+      ],
+      "durationMin": 40,
+      "nodeSeq": 29,
+      "phases": [
+        {
+          "nid": "p1",
+          "key": "awareness-1",
+          "title": "Find something opening",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b2",
+              "type": "conditions-line",
+              "fallbackText": "Look at the sky together before you set off. Whatever it's doing, name it out loud."
+            },
+            {
+              "nid": "b3",
+              "type": "teacher-note",
+              "text": "Give them 2 minutes to walk and look. Don't direct where. Let them wander. Buds, flowers, even cracks in pavement where green pushes through. Anything opening counts."
+            },
+            {
+              "nid": "b4",
+              "type": "say-aloud",
+              "text": "Look around. Find something that's opening."
+            }
+          ]
+        },
+        {
+          "nid": "p5",
+          "key": "embodiment-2",
+          "title": "Go close",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b9",
+              "type": "teacher-note",
+              "text": "Encourage them to use fingertips. Notice temperature, texture, moisture. Some kids will want to pick things. Redirect: Can you know it without taking it?"
+            },
+            {
+              "nid": "b10",
+              "type": "say-aloud",
+              "text": "Go close. Touch it gently. What does opening feel like?"
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t6",
+              "when": "A child pulls off the bud they found",
+              "then": "Gently: a picked bud stops opening. Show them how to cup it on the branch instead, so it can keep opening after you go."
+            },
+            {
+              "nid": "t7",
+              "when": "They say nothing is opening yet",
+              "then": "Look lower and look in the cracks. New green often pushes up through pavement and along walls before the trees catch up."
+            },
+            {
+              "nid": "t8",
+              "when": "They rush and touch everything roughly",
+              "then": "Slow one child down as a model: one bud, one fingertip, a long soft look. The others will copy the calm."
+            }
+          ]
+        },
+        {
+          "nid": "p11",
+          "key": "feeling-3",
+          "title": "Wonder",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b14",
+              "type": "teacher-note",
+              "text": "This is the hardest step. Silence is fine. Some kids will say happy or weird or nothing. All good. You might share what you feel first to give permission."
+            },
+            {
+              "nid": "b15",
+              "type": "say-aloud",
+              "text": "Stay with it. Does this make you feel anything?"
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t12",
+              "when": "The group goes quiet and no one answers",
+              "then": "Share your own feeling first. Say what the opening bud makes you feel, then let the silence sit. Silence is allowed here."
+            },
+            {
+              "nid": "t13",
+              "when": "A child says it feels weird",
+              "then": "Weird is welcome. Ask if it is a good weird or a strange weird, and let them find their own words for a new thing opening."
+            }
+          ]
+        },
+        {
+          "nid": "p16",
+          "key": "kinship-4",
+          "title": "Thank what you found",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b17",
+              "type": "teacher-note",
+              "text": "Model this. Bow slightly, say Thank you, little bud. Kids will follow. Some will giggle. That's fine. The gesture still lands. Then walk back together in quiet."
+            },
+            {
+              "nid": "b18",
+              "type": "say-aloud",
+              "text": "Before we go, say thank you to what you found. Out loud or inside."
+            }
+          ]
+        },
+        {
+          "nid": "p19",
+          "key": "circle",
+          "title": "Circle",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "nid": "b20",
+              "type": "circle-question",
+              "text": "What did you find that was opening?"
+            },
+            {
+              "nid": "b21",
+              "type": "teacher-note",
+              "text": "Let 3-4 students share. No right answers."
+            },
+            {
+              "nid": "b22",
+              "type": "circle-question",
+              "text": "What did it feel like when you touched it?"
+            },
+            {
+              "nid": "b23",
+              "type": "teacher-note",
+              "text": "Encourage sensory words: soft, sticky, cool, delicate."
+            },
+            {
+              "nid": "b24",
+              "type": "circle-question",
+              "text": "Is there anything opening in your own life right now?"
+            },
+            {
+              "nid": "b25",
+              "type": "teacher-note",
+              "text": "Optional. Only for classes ready for deeper reflection."
+            },
+            {
+              "nid": "b26",
+              "type": "named-skill",
+              "skill": "looking, smelling and touching"
+            }
+          ]
+        }
+      ],
+      "standards": [
+        {
+          "system": "england",
+          "code": "Year 1 · Seasonal changes",
+          "text": "observe changes across the 4 seasons"
+        },
+        {
+          "system": "england",
+          "code": "Year 3 · Plants",
+          "text": "explore the part that flowers play in the life cycle of flowering plants, including pollination, seed formation and seed dispersal"
+        }
+      ],
+      "childSheet": [
+        {
+          "nid": "b27",
+          "type": "sheet-title",
+          "title": "Blossom",
+          "nameLine": "This page was made by"
+        },
+        {
+          "nid": "b28",
+          "type": "collage-zone",
+          "hint": "Draw or stick something from today's session here."
+        },
+        {
+          "nid": "b29",
+          "type": "notice-line",
+          "prompt": "One thing you noticed outside today:"
+        }
+      ],
+      "preparation": "Scout for areas with visible buds, flowers, or new growth. Any green space will have something opening in spring.",
+      "spaceNeeded": "Any outdoor area with plants, playground edges, hedgerows, garden beds, tree-lined paths.",
+      "connectionToLast": "You met the hidden world under the soil. Now come back up to watch what all those roots are pushing towards the light: buds and flowers, opening.",
+      "primer": {
+        "summary": "Spring is when plants open. Tight buds unfold into leaves, flowers spread their petals, and even cracks in the pavement fill with new green. Children wander freely to find something opening, go close, touch it gently, and stay with the quiet courage of new growth.",
+        "why": "Opening is a beautiful, slow thing that children usually miss because it happens on nature's time, not theirs. Watching a bud unfold teaches patience and wonder, and the idea that new beginnings take a kind of quiet bravery. It is a gentle doorway into feeling, not just noticing.",
+        "glossary": [
+          {
+            "term": "Blossom",
+            "definition": "The flowers on a tree or bush, especially the mass of spring flowers on fruit trees.",
+            "forChildren": "Blossom is when a tree fills up with lots of flowers all at once, so it looks like it is wearing a pink or white dress."
+          },
+          {
+            "term": "Bud",
+            "definition": "A small tight bump on a stem that will open into a leaf or a flower.",
+            "forChildren": "A bud is a flower or leaf still wrapped up tight, waiting. When the day is right, it slowly opens up."
+          },
+          {
+            "term": "Petal",
+            "definition": "One of the soft, often colourful parts of a flower that spread out around the middle.",
+            "forChildren": "Petals are the soft, pretty parts of a flower. They open out like little arms to say hello to the sun and the bees."
+          },
+          {
+            "term": "Unfold",
+            "definition": "To open out slowly from being folded up, the way a leaf or petal opens.",
+            "forChildren": "To unfold is to open out slowly, like when you stretch after a sleep. Buds unfold into leaves and flowers."
+          }
+        ],
+        "childFriendlyExamples": [
+          "A bud is like a present that is still wrapped up. Inside is a leaf or a flower, folded up small and tight, waiting for a warm day to open.",
+          "Flowers do not open all at once, like a light switch. They open slowly, over hours and days, so slowly you can hardly see it move. That is how patient nature is.",
+          "Even in a crack in the concrete, a little green plant can push up towards the light. Opening up takes a kind of bravery, even for a tiny leaf."
+        ]
+      },
+      "conditionNotes": [
+        {
+          "when": [
+            "windy"
+          ],
+          "teacher": "The petals are coming down in the wind, so the ground under a blossoming tree is worth a look before the branches, and a fallen petal can be held.",
+          "child": "The wind is strong today. It is shaking petals off the trees, so we will look on the ground for what has fallen."
+        },
+        {
+          "when": [
+            "wet"
+          ],
+          "teacher": "The buds and petals are beaded and heavy after rain, so the opening is easy to see close up and the class can look without touching.",
+          "child": "The rain has left drops on the buds. Wet buds are easy to see, so we will get close and look without touching."
+        }
+      ],
+      "topicLine": "We are going outside to look for things that are opening, buds, flowers and new green.",
+      "seasonNote": {
+        "teacher": "Opening is the season's motion: buds swelling and splitting, blossom on the trees, green pushing through cracks and up through last year's leaves. Early spring gives buds; later spring gives flowers and leaves opening everywhere.",
+        "child": "In spring, buds and flowers are opening. We are going to find something that is opening and look at it closely."
+      }
+    },
+    {
+      "id": "spring-w8-the-builders",
+      "prompt": "Who is building a home here?",
+      "title": "The builders",
+      "topic": "Look up and down for creatures building homes. Watch them work for 2 minutes. Notice what they carry and where they go.",
+      "topicTags": [
+        "minibeasts",
+        "birds",
+        "seasons"
+      ],
+      "objective": "Spring is building season. Birds make nests, insects spin webs, creatures find shelter. Children observe the builders at work and imagine their labour.",
+      "namedSkill": "looking and listening",
+      "kit": [
+        "None required"
+      ],
+      "durationMin": 40,
+      "nodeSeq": 29,
+      "phases": [
+        {
+          "nid": "p1",
+          "key": "awareness-1",
+          "title": "Find a builder",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b2",
+              "type": "conditions-line",
+              "fallbackText": "Look at the sky together before you set off. Whatever it's doing, name it out loud."
+            },
+            {
+              "nid": "b3",
+              "type": "teacher-note",
+              "text": "Birds with nests, insects with webs, squirrels with dens. Any creature making shelter."
+            },
+            {
+              "nid": "b4",
+              "type": "say-aloud",
+              "text": "Look up. Look down. Who is building something here?"
+            }
+          ]
+        },
+        {
+          "nid": "p5",
+          "key": "embodiment-2",
+          "title": "Watch them work",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b9",
+              "type": "teacher-note",
+              "text": "Sit still for 2 minutes and just observe. Movement is the clue."
+            },
+            {
+              "nid": "b10",
+              "type": "say-aloud",
+              "text": "Watch them work. What are they carrying? Where?"
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t6",
+              "when": "No builders are moving anywhere",
+              "then": "Look for the leftovers of building instead: an old nest, a web, a hole in a bank. A finished home is a builder's work too."
+            },
+            {
+              "nid": "t7",
+              "when": "A child wants to reach up to a nest",
+              "then": "Keep everyone on the ground. A watched nest is fine, a touched one gets left behind. We admire builders from a distance."
+            },
+            {
+              "nid": "t8",
+              "when": "They can't sit still long enough to spot movement",
+              "then": "Turn it into a freeze game: everyone still as a statue, and the first person to spot something moving points, silently."
+            }
+          ]
+        },
+        {
+          "nid": "p11",
+          "key": "feeling-3",
+          "title": "Wonder",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b14",
+              "type": "teacher-note",
+              "text": "Help them imagine being the animal. Empathy through imagination."
+            },
+            {
+              "nid": "b15",
+              "type": "say-aloud",
+              "text": "What would it feel like to build your home with your mouth?"
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t12",
+              "when": "A child can't imagine being the animal",
+              "then": "Start with their own hands. Ask how hard it would be to build a house carrying twigs in their teeth, one at a time."
+            },
+            {
+              "nid": "t13",
+              "when": "They think the building looks easy",
+              "then": "Ask how many trips it might take to carry a whole nest, beakful by beakful. The work behind it is the wonder."
+            }
+          ]
+        },
+        {
+          "nid": "p16",
+          "key": "kinship-4",
+          "title": "Wish them well",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b17",
+              "type": "teacher-note",
+              "text": "Walk away quietly so as not to disturb."
+            },
+            {
+              "nid": "b18",
+              "type": "say-aloud",
+              "text": "Wish them well. Say: good luck with your home."
+            }
+          ]
+        },
+        {
+          "nid": "p19",
+          "key": "circle",
+          "title": "Circle",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "nid": "b20",
+              "type": "circle-question",
+              "text": "What builders did you find?"
+            },
+            {
+              "nid": "b21",
+              "type": "teacher-note",
+              "text": "Let students describe what they saw."
+            },
+            {
+              "nid": "b22",
+              "type": "circle-question",
+              "text": "What materials were they using?"
+            },
+            {
+              "nid": "b23",
+              "type": "teacher-note",
+              "text": "Twigs, mud, silk, leaves."
+            },
+            {
+              "nid": "b24",
+              "type": "circle-question",
+              "text": "What makes a good home?"
+            },
+            {
+              "nid": "b25",
+              "type": "teacher-note",
+              "text": "Open-ended, connects to their own lives."
+            },
+            {
+              "nid": "b26",
+              "type": "named-skill",
+              "skill": "looking and listening"
+            }
+          ]
+        }
+      ],
+      "standards": [
+        {
+          "system": "england",
+          "code": "Year 2 · Living things and their habitats",
+          "text": "identify that most living things live in habitats to which they are suited and describe how different habitats provide for the basic needs of different kinds of animals and plants, and how they depend on each other"
+        },
+        {
+          "system": "england",
+          "code": "Year 2 · Living things and their habitats",
+          "text": "identify and name a variety of plants and animals in their habitats, including microhabitats"
+        }
+      ],
+      "childSheet": [
+        {
+          "nid": "b27",
+          "type": "sheet-title",
+          "title": "The builders",
+          "nameLine": "This page was made by"
+        },
+        {
+          "nid": "b28",
+          "type": "collage-zone",
+          "hint": "Draw or stick something from today's session here."
+        },
+        {
+          "nid": "b29",
+          "type": "notice-line",
+          "prompt": "One thing you noticed outside today:"
+        }
+      ],
+      "preparation": "Best on a mild day when insects and birds are active. Near trees or hedges is ideal.",
+      "spaceNeeded": "Near trees, hedgerows, or garden areas where birds and insects are visible.",
+      "connectionToLast": "You watched buds open and grow. This week, watch the creatures that are busy too: spring is building season, and everyone is making a home.",
+      "primer": {
+        "summary": "Spring is building season. Birds gather twigs and moss for nests, insects spin webs, and many creatures fix up shelters for the young ones coming. Children look up and down for a builder at work, watch quietly for a couple of minutes, and imagine the effort behind a home made by hand, beak, or spinneret.",
+        "why": "Watching an animal work turns a distant creature into a neighbour with a job to do. It builds observation, patience, and empathy: children start to feel what a bird's day of nest-building might be like. It also links naturally to their own sense of home and belonging.",
+        "glossary": [
+          {
+            "term": "Nest",
+            "definition": "A home a bird builds, usually from twigs, grass, moss, and mud, to lay eggs and raise chicks in.",
+            "forChildren": "A nest is a bird's cot. The bird builds it out of twigs and soft grass to keep its eggs and babies safe and warm."
+          },
+          {
+            "term": "Shelter",
+            "definition": "Any safe, covered place an animal uses to hide from weather and danger.",
+            "forChildren": "Shelter is a safe hidey-place. It keeps an animal dry when it rains and hidden when something scary comes past."
+          },
+          {
+            "term": "Web",
+            "definition": "The fine net a spider spins from silk to catch food and, for some, to shelter in.",
+            "forChildren": "A web is a spider's net, spun from silky thread that comes out of its body. It is sticky, so dinner gets caught in it."
+          },
+          {
+            "term": "Materials",
+            "definition": "The bits and pieces a builder uses: twigs, mud, moss, leaves, silk.",
+            "forChildren": "Materials are the things you build with. A bird's materials are twigs, moss, and mud, instead of bricks and wood."
+          }
+        ],
+        "childFriendlyExamples": [
+          "A bird building a nest has no hands and no bag. It carries every single twig in its beak, one trip at a time, until the whole home is finished. That is a lot of flying.",
+          "A spider makes its own thread inside its body and spins it into a web. Imagine if you could make string out of your own fingertips to build your bedroom.",
+          "All the builders are getting ready for babies. The nest, the web, the burrow, they are all homes being made just in time for spring's new young ones."
+        ]
+      },
+      "conditionNotes": [
+        {
+          "when": [
+            "windy"
+          ],
+          "teacher": "Every nest and web out there is being tested by the wind, so look for what is holding on and what has come loose on the ground.",
+          "child": "The wind is strong today. Nests and webs are being pushed by it, so we will look for what is holding on."
+        },
+        {
+          "when": [
+            "still"
+          ],
+          "teacher": "The birds carry and the spiders spin on a calm day, so a class that stands quietly may watch a builder come and go.",
+          "child": "The air is still today. We think builders like a calm day, so we will stand quietly and watch for one at work."
+        }
+      ],
+      "topicLine": "Today is about the builders, the birds and insects making their homes here.",
+      "seasonNote": {
+        "teacher": "Nest building is at its height through spring: birds are carrying material, insects are spinning and burrowing, and the sheltered corners of the grounds are being claimed. Watching quietly finds the builders at work.",
+        "child": "Spring is building time. Birds are making nests and small creatures are making homes. We are going to look for who is building."
+      }
+    },
+    {
+      "id": "spring-w9-rain",
+      "prompt": "Where has this water been, and where next?",
+      "title": "Rain",
+      "topic": "Find water: a puddle, a drip, a wet leaf. Touch it. Follow where it might go next. Think about where it came from.",
+      "topicTags": [
+        "water",
+        "senses"
+      ],
+      "objective": "A practice about water: where it comes from, where it goes, and the extraordinary journey every raindrop has taken. Sensory engagement with puddles, drips, and damp surfaces.",
+      "namedSkill": "listening and touching",
+      "kit": [
+        "None required, hands will get wet"
+      ],
+      "durationMin": 40,
+      "nodeSeq": 29,
+      "phases": [
+        {
+          "nid": "p1",
+          "key": "awareness-1",
+          "title": "Find water",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b2",
+              "type": "conditions-line",
+              "fallbackText": "Look at the sky together before you set off. Whatever it's doing, name it out loud."
+            },
+            {
+              "nid": "b3",
+              "type": "teacher-note",
+              "text": "Even on dry days there's moisture somewhere. Dew, drainage, damp bark."
+            },
+            {
+              "nid": "b4",
+              "type": "say-aloud",
+              "text": "Find water. A puddle, a drip, a wet leaf. Where did it come from?"
+            }
+          ]
+        },
+        {
+          "nid": "p5",
+          "key": "embodiment-2",
+          "title": "Touch the water",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b9",
+              "type": "teacher-note",
+              "text": "Let them get their hands wet. Sensory experience matters more than staying clean."
+            },
+            {
+              "nid": "b10",
+              "type": "say-aloud",
+              "text": "Touch the water. Is it cold? Warm? Moving or still?"
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t6",
+              "when": "A child doesn't want wet or muddy hands",
+              "then": "Let them touch a wet leaf or a damp wall instead of a puddle. A single wet fingertip is enough to feel the rain."
+            },
+            {
+              "nid": "t7",
+              "when": "Puddles turn into splashing and stamping",
+              "then": "Give the splash a home: one big stamp all together, then hands quiet on the water to feel it settle again."
+            },
+            {
+              "nid": "t8",
+              "when": "It is a dry day and there is no water",
+              "then": "Hunt for hidden water: dew on grass, damp under a stone, a drip from a gutter. Water hides even when the sky is clear."
+            }
+          ]
+        },
+        {
+          "nid": "p11",
+          "key": "feeling-3",
+          "title": "Wonder",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b14",
+              "type": "teacher-note",
+              "text": "A moment of wonder. Some kids will find this mind-blowing."
+            },
+            {
+              "nid": "b15",
+              "type": "say-aloud",
+              "text": "This water has been everywhere. The sky, the sea, a cloud, and now here."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t12",
+              "when": "A child struggles to picture the water's journey",
+              "then": "Follow one drop out loud together: from the cloud, to their hand, into the soil, down to a river, back up to the sky."
+            },
+            {
+              "nid": "t13",
+              "when": "They fixate on getting cold or wet, not on the wonder",
+              "then": "Name the cold as part of it: the same cold this water carried down from the cloud. The feeling is the story arriving."
+            }
+          ]
+        },
+        {
+          "nid": "p16",
+          "key": "kinship-4",
+          "title": "Thank the rain",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b17",
+              "type": "teacher-note",
+              "text": "Simple. Walk back."
+            },
+            {
+              "nid": "b18",
+              "type": "say-aloud",
+              "text": "Thank the rain for coming."
+            }
+          ]
+        },
+        {
+          "nid": "p19",
+          "key": "circle",
+          "title": "Circle",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "nid": "b20",
+              "type": "circle-question",
+              "text": "Where did you find water?"
+            },
+            {
+              "nid": "b21",
+              "type": "teacher-note",
+              "text": "Puddles, leaves, bark, soil."
+            },
+            {
+              "nid": "b22",
+              "type": "circle-question",
+              "text": "Where do you think the water goes next?"
+            },
+            {
+              "nid": "b23",
+              "type": "teacher-note",
+              "text": "Follow the journey: ground, roots, river, sea, cloud."
+            },
+            {
+              "nid": "b24",
+              "type": "circle-question",
+              "text": "What would happen if the rain stopped?"
+            },
+            {
+              "nid": "b25",
+              "type": "teacher-note",
+              "text": "Connects to ecology and care."
+            },
+            {
+              "nid": "b26",
+              "type": "named-skill",
+              "skill": "listening and touching"
+            }
+          ]
+        }
+      ],
+      "standards": [
+        {
+          "system": "england",
+          "code": "Year 4 · States of matter",
+          "text": "identify the part played by evaporation and condensation in the water cycle and associate the rate of evaporation with temperature"
+        },
+        {
+          "system": "england",
+          "code": "Year 1 · Seasonal changes",
+          "text": "observe and describe weather associated with the seasons and how day length varies"
+        }
+      ],
+      "childSheet": [
+        {
+          "nid": "b27",
+          "type": "sheet-title",
+          "title": "Rain",
+          "nameLine": "This page was made by"
+        },
+        {
+          "nid": "b28",
+          "type": "collage-zone",
+          "hint": "Draw or stick something from today's session here."
+        },
+        {
+          "nid": "b29",
+          "type": "notice-line",
+          "prompt": "One thing you noticed outside today:"
+        }
+      ],
+      "preparation": "Works best on or just after a rainy day. If dry, look for any standing water, damp surfaces, or dew.",
+      "conditionNotes": [
+        {
+          "when": [
+            "wet"
+          ],
+          "teacher": "Water is running and pooling everywhere they look, so the whole playground is the experiment today.",
+          "child": "Rain is falling right now. Water is running and pooling all over the playground, so we will follow one drop and see where it goes."
+        },
+        {
+          "when": [
+            "dry"
+          ],
+          "teacher": "The water has gone into hiding, so send the class after dew, damp bark, drains and the shaded side of the ground where it lingers.",
+          "child": "It has not rained for days. Water is hiding somewhere, so we will look for it under leaves and in shady corners."
+        }
+      ],
+      "spaceNeeded": "Any outdoor area, puddles on playground, damp garden beds, dripping gutters all work.",
+      "connectionToLast": "The builders you watched all need water to live. This week, follow the water itself: find a puddle or a drip, and wonder where it has been.",
+      "primer": {
+        "summary": "Every drop of water is a traveller. It falls as rain, soaks into the ground, feeds roots, runs to rivers and the sea, rises into clouds, and falls again. Children find water outside, touch it, and imagine its long journey, then think about where it will go next. The same water has been going round and round for longer than anything alive.",
+        "why": "Water is everywhere and easy to ignore. Following its journey gives children a first, wonder-filled grasp of the water cycle and of how everything in nature is connected and reused. It also links to care: plants, animals, and people all depend on the same rain.",
+        "glossary": [
+          {
+            "term": "Water cycle",
+            "definition": "The never-ending journey of water: rising into clouds, falling as rain, flowing to the sea, and rising again.",
+            "forChildren": "The water cycle is water going round and round forever. It goes up to the clouds, falls as rain, runs to the sea, and floats back up again."
+          },
+          {
+            "term": "Evaporate",
+            "definition": "To turn from liquid water into an invisible mist that rises into the air, usually when warmed by the sun.",
+            "forChildren": "When a puddle dries up in the sun, the water does not disappear. It floats up into the air, too tiny to see, and goes to make clouds."
+          },
+          {
+            "term": "Puddle",
+            "definition": "A small pool of rainwater collected in a dip in the ground.",
+            "forChildren": "A puddle is a little pool of rain that has gathered in a dip. It is a resting place for water on its long journey."
+          },
+          {
+            "term": "Dew",
+            "definition": "Tiny drops of water that gather on grass and leaves overnight when the air cools.",
+            "forChildren": "Dew is the little drops you find on the grass in the morning. The cool night air makes water appear, like magic, on every leaf."
+          }
+        ],
+        "childFriendlyExamples": [
+          "The water in this puddle might have been a wave in the sea, or a cloud over a mountain, or rain on a dinosaur, long, long ago. It has been travelling for millions of years.",
+          "When a puddle dries up, the water is not gone. It floats up into the sky, too small to see, and helps make the next cloud. Then one day it rains back down.",
+          "Every plant, every animal, and every one of us needs water to live. The same rain that fills this puddle fills the rivers we drink from. It is all one water, shared."
+        ]
+      },
+      "topicLine": "Rain is our subject today, where the water has been and where it goes next.",
+      "seasonNote": {
+        "teacher": "Rain is what spring runs on: showers are frequent and the ground drinks them straight into new growth. Puddles, drips and damp surfaces are easy to find most spring weeks, and the plants show where the water went.",
+        "child": "Spring showers help everything grow. We are going to follow the water and think about where it has been."
+      }
+    },
+    {
+      "id": "spring-w10-green",
+      "prompt": "How many different greens can you find?",
+      "title": "Green",
+      "topic": "Count how many different greens you can see. Pick your favourite. Stand next to it. Give it a name: not a plant name, a feeling name.",
+      "topicTags": [
+        "plants",
+        "trees"
+      ],
+      "primaryTopic": "plants",
+      "objective": "A perception exercise. Children discover that green is not one colour but dozens: dark moss, bright leaf, pale lichen, emerald grass. Then they name their favourite with a feeling-word.",
+      "namedSkill": "looking",
+      "kit": [
+        "None required"
+      ],
+      "durationMin": 40,
+      "nodeSeq": 29,
+      "phases": [
+        {
+          "nid": "p1",
+          "key": "awareness-1",
+          "title": "Spot a new green",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b2",
+              "type": "conditions-line",
+              "fallbackText": "Look at the sky together before you set off. Whatever it's doing, name it out loud."
+            },
+            {
+              "nid": "b3",
+              "type": "teacher-note",
+              "text": "This is a perception exercise. Most kids will say 3-4, then start finding 10, 15, 20 variations."
+            },
+            {
+              "nid": "b4",
+              "type": "say-aloud",
+              "text": "Look around. Green is not one colour. Find a green nobody else has noticed yet."
+            }
+          ]
+        },
+        {
+          "nid": "p5",
+          "key": "embodiment-2",
+          "title": "Stand with your green",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b9",
+              "type": "teacher-note",
+              "text": "Let them choose. No wrong answer. Dark moss, bright leaf, pale lichen."
+            },
+            {
+              "nid": "b10",
+              "type": "say-aloud",
+              "text": "Pick your favourite green. Go stand next to it."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t6",
+              "when": "Everyone rushes to the same bright leaf",
+              "then": "Send them hunting for the quiet greens: the dark moss in the shade, the grey-green on a wall. The unusual ones are the prize."
+            },
+            {
+              "nid": "t7",
+              "when": "A child can't decide on a favourite",
+              "then": "No rush. Ask which green they would want to stand next to on a rainy day. Let a feeling choose for them."
+            },
+            {
+              "nid": "t8",
+              "when": "There is very little green in the space",
+              "then": "Look closer and lower: moss between paving, weeds at a fence, a single leaf. One plant holds several greens at once."
+            }
+          ]
+        },
+        {
+          "nid": "p11",
+          "key": "feeling-3",
+          "title": "Wonder",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b14",
+              "type": "teacher-note",
+              "text": "Colour preference reveals something personal. Light touch."
+            },
+            {
+              "nid": "b15",
+              "type": "say-aloud",
+              "text": "Why this green? What drew you here?"
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t12",
+              "when": "A child just says they don't know why",
+              "then": "That is fine. Ask what their green reminds them of instead: a jumper, a jelly, the sea. Feeling comes before reasons."
+            },
+            {
+              "nid": "t13",
+              "when": "They give a plant fact instead of a feeling",
+              "then": "Welcome it, then turn the question softer. Ask whether their green feels calm, or bright, or sleepy to look at."
+            }
+          ]
+        },
+        {
+          "nid": "p16",
+          "key": "kinship-4",
+          "title": "Name your green",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b17",
+              "type": "teacher-note",
+              "text": "Calm green. Electric green. Sleepy green. Let them be creative."
+            },
+            {
+              "nid": "b18",
+              "type": "say-aloud",
+              "text": "Give your green a name. Not a plant name. A feeling name."
+            }
+          ]
+        },
+        {
+          "nid": "p19",
+          "key": "circle",
+          "title": "Circle",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "nid": "b20",
+              "type": "circle-question",
+              "text": "Which greens did you meet? Show us your favourite."
+            },
+            {
+              "nid": "b21",
+              "type": "teacher-note",
+              "text": "Compare numbers. Usually way more than expected."
+            },
+            {
+              "nid": "b22",
+              "type": "circle-question",
+              "text": "What name did you give your green?"
+            },
+            {
+              "nid": "b23",
+              "type": "teacher-note",
+              "text": "Share the creative names. Celebrate imagination."
+            },
+            {
+              "nid": "b24",
+              "type": "circle-question",
+              "text": "Why do you think there are so many kinds of green?"
+            },
+            {
+              "nid": "b25",
+              "type": "teacher-note",
+              "text": "Connects to biodiversity, light, seasons."
+            },
+            {
+              "nid": "b26",
+              "type": "named-skill",
+              "skill": "looking"
+            }
+          ]
+        }
+      ],
+      "childSheet": [
+        {
+          "nid": "b27",
+          "type": "sheet-title",
+          "title": "Green",
+          "nameLine": "This page was made by"
+        },
+        {
+          "nid": "b28",
+          "type": "collage-zone",
+          "hint": "Draw or stick something from today's session here."
+        },
+        {
+          "nid": "b29",
+          "type": "notice-line",
+          "prompt": "One thing you noticed outside today:"
+        }
+      ],
+      "preparation": "No preparation. Works anywhere there is vegetation, even a single tree or patch of grass.",
+      "spaceNeeded": "Any area with plants, the more variety (trees, grass, moss, hedges) the better.",
+      "connectionToLast": "Rain feeds the green things all around us. This week, look really closely at that green and discover it is not one colour at all, but many.",
+      "primer": {
+        "summary": "We call it all green, but green is really dozens of different shades: dark moss, bright new leaf, pale lichen, deep emerald grass. This is a perception practice. Children slow their eyes down, meet as many greens as they can, choose a favourite, and give it a feeling name rather than a plant name.",
+        "why": "Looking closely is a skill, and most children glance rather than see. Discovering that a single colour holds many shades sharpens attention and delights them. Naming a green with a feeling word links the eye to the heart, and gives every child a creative answer that is entirely their own.",
+        "glossary": [
+          {
+            "term": "Shade",
+            "definition": "A slightly different version of a colour: lighter, darker, warmer, or cooler.",
+            "forChildren": "A shade is a colour that is a little bit different. Mint green and forest green are both green, but they are different shades of it."
+          },
+          {
+            "term": "Moss",
+            "definition": "A soft, low, deep-green plant that grows in damp, shady places on soil, walls, and bark.",
+            "forChildren": "Moss is the soft green cushion that grows on damp walls and shady ground. It feels like a tiny green carpet under your fingers."
+          },
+          {
+            "term": "Lichen",
+            "definition": "A crusty or leafy patch, often pale green or grey, that grows on bark, stone, and walls.",
+            "forChildren": "Lichen is the crusty pale-green stuff you see on old walls and tree bark. It grows very, very slowly, so some of it is older than you."
+          },
+          {
+            "term": "Chlorophyll",
+            "definition": "The substance inside leaves that makes them green and helps the plant catch sunlight for food.",
+            "forChildren": "Chlorophyll is what makes leaves green. It is like the plant's kitchen, catching sunlight to turn into food."
+          }
+        ],
+        "childFriendlyExamples": [
+          "At first a bush just looks green. But look closer: the top leaves are bright, the shady leaves are dark, the new leaves are almost yellow. So many greens in one bush.",
+          "Leaves are green because of a special stuff inside them called chlorophyll. It catches the sunlight and helps the plant make its own food.",
+          "You could give your favourite green a feeling name. Sleepy green. Bright-morning green. Splashy green. There are no wrong names, only your own."
+        ]
+      },
+      "topicLine": "Today we are finding out how many different greens there are outside.",
+      "seasonNote": {
+        "teacher": "Green is arriving in every shade at once: new leaves are pale and soft, moss and older leaves are dark, grass is bright. Late spring is the greenest the grounds will be all year, and even early spring has more greens than it seems.",
+        "child": "In spring, green comes back everywhere. We are going to see how many different greens we can find."
+      }
+    },
+    {
+      "id": "spring-w11-seeds",
+      "prompt": "What could one small seed become?",
+      "title": "Seeds",
+      "topic": "Find any seed: on the ground, on a plant, in the wind. Hold it in your palm. Feel how small it is and how much is inside.",
+      "topicTags": [
+        "plants",
+        "seasons"
+      ],
+      "primaryTopic": "plants",
+      "objective": "Children find and hold seeds: dandelion fluff, acorns, berries, grass seeds. Each one contains a whole future. A practice about potential and careful attention.",
+      "namedSkill": "touching and looking",
+      "kit": [
+        "None required"
+      ],
+      "durationMin": 40,
+      "nodeSeq": 29,
+      "phases": [
+        {
+          "nid": "p1",
+          "key": "awareness-1",
+          "title": "Find a seed",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b2",
+              "type": "conditions-line",
+              "fallbackText": "Look at the sky together before you set off. Whatever it's doing, name it out loud."
+            },
+            {
+              "nid": "b3",
+              "type": "teacher-note",
+              "text": "Dandelion seeds, acorns, berries, grass seeds. Anything that carries the next generation."
+            },
+            {
+              "nid": "b4",
+              "type": "say-aloud",
+              "text": "Find a seed. Any seed. On the ground, on a plant, in the wind."
+            }
+          ]
+        },
+        {
+          "nid": "p5",
+          "key": "embodiment-2",
+          "title": "Hold it",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b9",
+              "type": "teacher-note",
+              "text": "Weight, texture, shape. A whole tree fits in an acorn."
+            },
+            {
+              "nid": "b10",
+              "type": "say-aloud",
+              "text": "Hold it in your palm. Feel how small it is. Feel how much is inside."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t6",
+              "when": "A child drops their tiny seed and loses it",
+              "then": "No panic. A lost seed has just started its own journey early. Help them find another, and cup this one in two hands."
+            },
+            {
+              "nid": "t7",
+              "when": "They squeeze or crack the seed open to look inside",
+              "then": "Gently: a cracked seed can't grow. The future stays hidden on purpose. Let them feel the shell instead, keeping the secret safe."
+            },
+            {
+              "nid": "t8",
+              "when": "They can't find a seed anywhere",
+              "then": "Point them to the fading and the fallen: dried flower heads, grass tops, under the trees. Seeds hide where the year is ending."
+            }
+          ]
+        },
+        {
+          "nid": "p11",
+          "key": "feeling-3",
+          "title": "Wonder",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b14",
+              "type": "teacher-note",
+              "text": "Metaphor territory. Some kids will get it, some won't. Both fine."
+            },
+            {
+              "nid": "b15",
+              "type": "say-aloud",
+              "text": "This tiny thing contains a whole future. Does anything inside you feel like that?"
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t12",
+              "when": "A child can't grasp that a big tree hides in a small seed",
+              "then": "Stand them next to a tree, then hold up the seed. Say the whole of that tree once fit in your hand. Let the size gap do the wonder."
+            },
+            {
+              "nid": "t13",
+              "when": "The metaphor lands flat and no one answers",
+              "then": "Drop the metaphor and stay concrete. Ask what their seed might grow into, and who might one day sit in its shade or eat its fruit."
+            }
+          ]
+        },
+        {
+          "nid": "p16",
+          "key": "kinship-4",
+          "title": "Put it back",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b17",
+              "type": "teacher-note",
+              "text": "Place it gently. Don't throw. Walk back."
+            },
+            {
+              "nid": "b18",
+              "type": "say-aloud",
+              "text": "Put it back where it can grow. Wish it well."
+            }
+          ]
+        },
+        {
+          "nid": "p19",
+          "key": "circle",
+          "title": "Circle",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "nid": "b20",
+              "type": "circle-question",
+              "text": "What seed did you find?"
+            },
+            {
+              "nid": "b21",
+              "type": "teacher-note",
+              "text": "Describe it: size, colour, where it was."
+            },
+            {
+              "nid": "b22",
+              "type": "circle-question",
+              "text": "What could it become?"
+            },
+            {
+              "nid": "b23",
+              "type": "teacher-note",
+              "text": "A tree, a flower, food for something."
+            },
+            {
+              "nid": "b24",
+              "type": "circle-question",
+              "text": "What's a seed inside you, something small that could grow big?"
+            },
+            {
+              "nid": "b25",
+              "type": "teacher-note",
+              "text": "Optional. Beautiful question for the right class."
+            },
+            {
+              "nid": "b26",
+              "type": "named-skill",
+              "skill": "touching and looking"
+            }
+          ]
+        }
+      ],
+      "standards": [
+        {
+          "system": "england",
+          "code": "Year 3 · Plants",
+          "text": "explore the part that flowers play in the life cycle of flowering plants, including pollination, seed formation and seed dispersal"
+        },
+        {
+          "system": "england",
+          "code": "Year 2 · Plants",
+          "text": "observe and describe how seeds and bulbs grow into mature plants"
+        }
+      ],
+      "childSheet": [
+        {
+          "nid": "b27",
+          "type": "sheet-title",
+          "title": "Seeds",
+          "nameLine": "This page was made by"
+        },
+        {
+          "nid": "b28",
+          "type": "collage-zone",
+          "hint": "Draw or stick something from today's session here."
+        },
+        {
+          "nid": "b29",
+          "type": "notice-line",
+          "prompt": "One thing you noticed outside today:"
+        }
+      ],
+      "preparation": "Best in an area with seed-bearing plants, dandelions, grasses, trees with fallen seeds or acorns.",
+      "spaceNeeded": "Near trees, wildflower areas, or any space where seeds can be found on the ground or on plants.",
+      "connectionToLast": "You met the many greens of spring. All of them began as a seed. This week, hold one of those beginnings in your own hand.",
+      "primer": {
+        "summary": "A seed is a small, quiet package with a whole plant folded inside it, waiting. Dandelion fluff, acorns, grass seeds, the pips in a berry: each one carries the next generation. Children find a seed, hold it, feel how small it is against how much it could become, then place it back where it might grow.",
+        "why": "Seeds are a gentle way into big ideas: potential, patience, and the future hidden inside small things. Holding an acorn and picturing an oak stretches a child's imagination and their sense of time. It closes the season's arc: spring began with waking, and here is where all that waking started.",
+        "glossary": [
+          {
+            "term": "Seed",
+            "definition": "A small package made by a plant that holds a tiny new plant and the food to start it growing.",
+            "forChildren": "A seed is a tiny plant packed lunch. Inside is a baby plant and a little food, all wrapped up, waiting for the right time to grow."
+          },
+          {
+            "term": "Acorn",
+            "definition": "The seed of an oak tree, a smooth nut sitting in a little cup.",
+            "forChildren": "An acorn is an oak tree's seed. It looks like a tiny nut in a hat. Amazingly, a whole giant oak tree can grow from one."
+          },
+          {
+            "term": "Sprout",
+            "definition": "To begin to grow, when a seed sends out its first root and shoot.",
+            "forChildren": "To sprout is when a seed first wakes up and grows. It pushes a little root down and a little green shoot up."
+          },
+          {
+            "term": "Germinate",
+            "definition": "The moment a resting seed starts to grow, usually when it gets water and warmth.",
+            "forChildren": "Germinate is a special word for a seed waking up and starting to grow. It needs water and warmth to begin, like breakfast and a cosy start."
+          }
+        ],
+        "childFriendlyExamples": [
+          "This tiny acorn holds a whole oak tree, folded up small. One day it could be taller than the school, with birds nesting in it. All of that, waiting inside your hand.",
+          "A seed can wait a long time for the right moment. It stays quiet in the soil until there is enough water and warmth, and then it wakes up and grows.",
+          "Every big tree and every flower you have ever seen began as a seed this small. Little things do not stay little. They hold something much bigger inside."
+        ]
+      },
+      "topicLine": "Seeds are what we are holding today, and thinking about what one could grow into.",
+      "seasonNote": {
+        "teacher": "Seeds from both ends of the year are about in spring: last autumn's acorns and berries still lying on the ground, and the first new seeds of the year forming on early flowers and grasses. Late spring adds dandelion fluff ready to fly.",
+        "child": "Some seeds have waited on the ground all winter, and new ones are starting to form. We are going to hold one and think what it could become."
+      }
+    },
+    {
+      "id": "spring-w12-gratitude-walk",
+      "prompt": "Finding three living things to thank.",
+      "doorQuestion": "Which living thing here would you thank first?",
+      "title": "Gratitude walk",
+      "topic": "Walk slowly. Find three living things you want to thank. Stand with each one. Say its name and say thank you, out loud.",
+      "topicTags": [
+        "seasons"
+      ],
+      "objective": "The closing practice of spring. Children walk slowly, choose three living things, and thank them by name. A practice in gratitude, attention, and speaking kindness aloud.",
+      "namedSkill": "feeling and looking",
+      "kit": [
+        "None required"
+      ],
+      "durationMin": 40,
+      "nodeSeq": 29,
+      "phases": [
+        {
+          "nid": "p1",
+          "key": "awareness-1",
+          "title": "Find three living things",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b2",
+              "type": "conditions-line",
+              "fallbackText": "Look at the sky together before you set off. Whatever it's doing, name it out loud."
+            },
+            {
+              "nid": "b3",
+              "type": "teacher-note",
+              "text": "Tree, flower, bird, insect, grass, moss. Anything alive. Three is enough."
+            },
+            {
+              "nid": "b4",
+              "type": "say-aloud",
+              "text": "Walk slowly. Find three living things you want to thank."
+            }
+          ]
+        },
+        {
+          "nid": "p5",
+          "key": "embodiment-2",
+          "title": "Stand with each one",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b9",
+              "type": "teacher-note",
+              "text": "Slow looking. 30 seconds per thing. Notice detail."
+            },
+            {
+              "nid": "b10",
+              "type": "say-aloud",
+              "text": "Stand with each one. Really look at it. See what it does."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t6",
+              "when": "A child races through all three in a few seconds",
+              "then": "Slow them at the first one. Ask them to find one thing about it they never noticed before, then move on."
+            },
+            {
+              "nid": "t7",
+              "when": "They keep choosing things far apart and drift off",
+              "then": "Ask them to thank three living things they can reach without moving their feet. Close by counts, and keeps the group together."
+            },
+            {
+              "nid": "t8",
+              "when": "A child picks only one living thing",
+              "then": "One thanked well beats three rushed. Let them stay with their one and get to know it slowly."
+            }
+          ]
+        },
+        {
+          "nid": "p11",
+          "key": "feeling-3",
+          "title": "Wonder",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b14",
+              "type": "teacher-note",
+              "text": "It could be beauty, shade, oxygen, food, sound. Personal reasons."
+            },
+            {
+              "nid": "b15",
+              "type": "say-aloud",
+              "text": "Why are you grateful for this one?"
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t12",
+              "when": "A child can't say why they are grateful",
+              "then": "Offer a way in: does it give shade, a home for a bird, a nice smell, a good sound? Let them borrow a reason and make it theirs."
+            },
+            {
+              "nid": "t13",
+              "when": "The whole class gives the same reason",
+              "then": "Welcome it, then ask what this one living thing gives that no other one does. Steer them from a general answer to a personal one."
+            }
+          ]
+        },
+        {
+          "nid": "p16",
+          "key": "kinship-4",
+          "title": "Say thank you",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b17",
+              "type": "teacher-note",
+              "text": "Thank you, oak tree. Thank you, robin. Thank you, moss. Model this first. It will feel awkward and then wonderful."
+            },
+            {
+              "nid": "b18",
+              "type": "say-aloud",
+              "text": "Say its name and say thank you. Out loud."
+            }
+          ]
+        },
+        {
+          "nid": "p19",
+          "key": "circle",
+          "title": "Circle",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "nid": "b20",
+              "type": "circle-question",
+              "text": "What three things did you thank?"
+            },
+            {
+              "nid": "b21",
+              "type": "teacher-note",
+              "text": "Go around the circle. Every answer is valid."
+            },
+            {
+              "nid": "b22",
+              "type": "circle-question",
+              "text": "Which one surprised you?"
+            },
+            {
+              "nid": "b23",
+              "type": "teacher-note",
+              "text": "Often the gratitude that surprises us is the most real."
+            },
+            {
+              "nid": "b24",
+              "type": "circle-question",
+              "text": "How did it feel to say thank you out loud to a living thing?"
+            },
+            {
+              "nid": "b25",
+              "type": "teacher-note",
+              "text": "Close the season with this. Let them sit with the feeling."
+            },
+            {
+              "nid": "b26",
+              "type": "named-skill",
+              "skill": "feeling and looking"
+            }
+          ]
+        }
+      ],
+      "childSheet": [
+        {
+          "nid": "b27",
+          "type": "sheet-title",
+          "title": "Gratitude walk",
+          "nameLine": "This page was made by"
+        },
+        {
+          "nid": "b28",
+          "type": "collage-zone",
+          "hint": "Draw or stick something from today's session here."
+        },
+        {
+          "nid": "b29",
+          "type": "notice-line",
+          "prompt": "One thing you noticed outside today:"
+        }
+      ],
+      "preparation": "No preparation. This works in any outdoor space where living things can be found.",
+      "spaceNeeded": "Any outdoor area, the whole school grounds become the classroom.",
+      "connectionToLast": "You held a seed and its whole future in your hand. To close the season, walk the grounds one last time and thank the living things that have grown alongside you all spring.",
+      "primer": {
+        "summary": "This is the closing practice of spring. Children walk slowly, choose three living things they want to thank, stand with each one, and say its name and thank you, out loud. It gathers everything the season has built: attention, kinship, and the courage to speak kindness to a tree, a bird, or a blade of grass.",
+        "why": "Saying thank you out loud to a living thing feels strange at first and then quietly powerful. Gratitude, spoken and specific, deepens the bond children have been building with the outdoors all term. It sends them off knowing they share the world with living neighbours worth thanking.",
+        "glossary": [
+          {
+            "term": "Gratitude",
+            "definition": "The warm feeling of being thankful, and the act of saying so.",
+            "forChildren": "Gratitude is the happy, warm feeling you get when you are thankful for something, and saying thank you out loud to show it."
+          },
+          {
+            "term": "Living thing",
+            "definition": "Anything that is alive, such as plants, animals, insects, birds and fungi, that grows, feeds, and changes.",
+            "forChildren": "A living thing is anything that is alive. A tree is living. A bird is living. A stone is not. Living things grow and change."
+          },
+          {
+            "term": "Kinship",
+            "definition": "The feeling of being related to or connected with something, as if it were part of your wider family.",
+            "forChildren": "Kinship means feeling close to something, like it is a bit like family. We can feel kinship with a tree or a robin we see every day."
+          },
+          {
+            "term": "Oxygen",
+            "definition": "The invisible gas in the air that people and animals need to breathe, made by plants and trees.",
+            "forChildren": "Oxygen is the part of the air we breathe to stay alive. Trees and plants make it for us. Every breath you take, a plant helped with."
+          }
+        ],
+        "childFriendlyExamples": [
+          "You can thank a tree the way you would thank a friend. Stand close, say its name, and say thank you out loud. It might feel funny at first, and then it feels lovely.",
+          "There are lots of reasons to be grateful to a living thing: a tree gives shade and clean air, a flower feeds the bees, a bird gives its song. Pick your own reason.",
+          "All spring you have been getting to know the living things around your school. Today is the day to say thank you to a few of them, before the season turns."
+        ]
+      },
+      "topicLine": "A slow walk is today's lesson, choosing three living things to say thank you to.",
+      "seasonNote": {
+        "teacher": "The grounds are at their fullest by the end of spring: leaves out, flowers open, birds busy, insects back. Choosing three living things to thank is easiest now, and the walk is a way to notice how much came back.",
+        "child": "By the end of spring, so much is alive around us. We are going to walk slowly and say thank you to three living things."
+      }
+    }
+  ]
+}

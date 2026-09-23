@@ -1,0 +1,461 @@
+{
+  "source": "bsbi-plant-atlas-2020",
+  "evidenceKind": "compiled-seasonal-reference",
+  "geographicScope": "Britain and Ireland",
+  "referencePeriod": "approximately-twentieth-century",
+  "localPresenceConfirmed": false,
+  "license": "CC-BY-4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "datasetUrl": "https://doi.org/10.5281/zenodo.11092846",
+  "archiveSha256": "f93eb437407602b2b43381461d94ba0f083b00dce6efac8f5beab4defbb3eeea",
+  "citation": "Dataset DOI plus Stroh et al. (2023), Plant Atlas 2020, and original per-phase reference",
+  "reviewedAt": "2026-09-07T17:36:33.587776+00:00",
+  "validUntil": "2027-09-07T17:36:33.587Z",
+  "readAt": "2026-09-07T19:00:00.000Z",
+  "status": "resolved",
+  "reason": "exact-reference-match",
+  "entries": [
+    {
+      "taxonId": "2cd4p9h.1y5",
+      "scientificName": "Quercus robur",
+      "vernacularName": "Pedunculate Oak",
+      "sourceUrl": "https://plantatlas2020.org/atlas/2cd4p9h.1y5",
+      "phases": [
+        {
+          "kind": "leafing",
+          "startMonth": 5,
+          "rawEndMonth": 11,
+          "endMonth": 11,
+          "endInterpretation": "explicit",
+          "reference": "Poland, J. 2018. Field Key to Winter Twigs: a guide to native and planted deciduous trees, shrubs and woody climbers (xylophytes) found in the British Isles John Poland, Southampton",
+          "note": null
+        },
+        {
+          "kind": "flowering",
+          "startMonth": 4,
+          "rawEndMonth": 5,
+          "endMonth": 5,
+          "endInterpretation": "explicit",
+          "reference": "Sell, P.D. & Murrell, G. 2018. Flora of Great Britain and Ireland, Volume 1. Lycopodiaceae-Saliaceae Cambridge University Press, Cambridge",
+          "note": null
+        }
+      ]
+    },
+    {
+      "taxonId": "2cd4p9h.cpk",
+      "scientificName": "Aesculus hippocastanum",
+      "vernacularName": "Horse-chestnut",
+      "sourceUrl": "https://plantatlas2020.org/atlas/2cd4p9h.cpk",
+      "phases": [
+        {
+          "kind": "leafing",
+          "startMonth": 4,
+          "rawEndMonth": 11,
+          "endMonth": 11,
+          "endInterpretation": "explicit",
+          "reference": "Poland, J. 2018. Field Key to Winter Twigs: a guide to native and planted deciduous trees, shrubs and woody climbers (xylophytes) found in the British Isles John Poland, Southampton",
+          "note": null
+        },
+        {
+          "kind": "flowering",
+          "startMonth": 4,
+          "rawEndMonth": 6,
+          "endMonth": 6,
+          "endInterpretation": "explicit",
+          "reference": "Sell, P.D. & Murrell, G. 2009. Flora of Great Britain and Ireland. Volume 3. Mimosaceae-Lentibulariaceae Cambridge University Press, Cambridge",
+          "note": null
+        }
+      ]
+    },
+    {
+      "taxonId": "2cd4p9h.v93",
+      "scientificName": "Betula pendula",
+      "vernacularName": "Silver Birch",
+      "sourceUrl": "https://plantatlas2020.org/atlas/2cd4p9h.v93",
+      "phases": [
+        {
+          "kind": "leafing",
+          "startMonth": 4,
+          "rawEndMonth": 11,
+          "endMonth": 11,
+          "endInterpretation": "explicit",
+          "reference": "Poland, J. 2018. Field Key to Winter Twigs: a guide to native and planted deciduous trees, shrubs and woody climbers (xylophytes) found in the British Isles John Poland, Southampton",
+          "note": null
+        },
+        {
+          "kind": "flowering",
+          "startMonth": 4,
+          "rawEndMonth": 5,
+          "endMonth": 5,
+          "endInterpretation": "explicit",
+          "reference": "Sell, P.D. & Murrell, G. 2018. Flora of Great Britain and Ireland, Volume 1. Lycopodiaceae-Saliaceae Cambridge University Press, Cambridge",
+          "note": null
+        }
+      ]
+    },
+    {
+      "taxonId": "2cd4p9h.r9",
+      "scientificName": "Corylus avellana",
+      "vernacularName": "Hazel",
+      "sourceUrl": "https://plantatlas2020.org/atlas/2cd4p9h.r9",
+      "phases": [
+        {
+          "kind": "leafing",
+          "startMonth": 4,
+          "rawEndMonth": 11,
+          "endMonth": 11,
+          "endInterpretation": "explicit",
+          "reference": "Poland, J. 2018. Field Key to Winter Twigs: a guide to native and planted deciduous trees, shrubs and woody climbers (xylophytes) found in the British Isles John Poland, Southampton",
+          "note": null
+        },
+        {
+          "kind": "flowering",
+          "startMonth": 1,
+          "rawEndMonth": 4,
+          "endMonth": 4,
+          "endInterpretation": "explicit",
+          "reference": "Sell, P.D. & Murrell, G. 2018. Flora of Great Britain and Ireland, Volume 1. Lycopodiaceae-Saliaceae Cambridge University Press, Cambridge",
+          "note": null
+        }
+      ]
+    },
+    {
+      "taxonId": "2cd4p9h.fyz",
+      "scientificName": "Sambucus nigra",
+      "vernacularName": "Elder",
+      "sourceUrl": "https://plantatlas2020.org/atlas/2cd4p9h.fyz",
+      "phases": [
+        {
+          "kind": "leafing",
+          "startMonth": 3,
+          "rawEndMonth": 10,
+          "endMonth": 10,
+          "endInterpretation": "explicit",
+          "reference": "Poland, J. & Clement, E.J. 2020. The Vegetative Key to the British Flora. Edn. 2. John Poland, Southampton",
+          "note": null
+        },
+        {
+          "kind": "flowering",
+          "startMonth": 6,
+          "rawEndMonth": 7,
+          "endMonth": 7,
+          "endInterpretation": "explicit",
+          "reference": "Sell, P.D. & Murrell, G. 2006. Flora of Great Britain and Ireland. Volume 4. Campanulaceae-Asteraceae. Cambridge University Press, Cambridge",
+          "note": null
+        }
+      ]
+    },
+    {
+      "taxonId": "2cd4p9h.yxr",
+      "scientificName": "Fraxinus excelsior",
+      "vernacularName": "Ash",
+      "sourceUrl": "https://plantatlas2020.org/atlas/2cd4p9h.yxr",
+      "phases": [
+        {
+          "kind": "leafing",
+          "startMonth": 5,
+          "rawEndMonth": 11,
+          "endMonth": 11,
+          "endInterpretation": "explicit",
+          "reference": "Poland, J. 2018. Field Key to Winter Twigs: a guide to native and planted deciduous trees, shrubs and woody climbers (xylophytes) found in the British Isles John Poland, Southampton",
+          "note": null
+        },
+        {
+          "kind": "flowering",
+          "startMonth": 4,
+          "rawEndMonth": 5,
+          "endMonth": 5,
+          "endInterpretation": "explicit",
+          "reference": "Sell, P.D. & Murrell, G. 2009. Flora of Great Britain and Ireland. Volume 3. Mimosaceae-Lentibulariaceae Cambridge University Press, Cambridge",
+          "note": null
+        }
+      ]
+    },
+    {
+      "taxonId": "2cd4p9h.fa2",
+      "scientificName": "Fagus sylvatica",
+      "vernacularName": "Beech",
+      "sourceUrl": "https://plantatlas2020.org/atlas/2cd4p9h.fa2",
+      "phases": [
+        {
+          "kind": "leafing",
+          "startMonth": 4,
+          "rawEndMonth": 11,
+          "endMonth": 11,
+          "endInterpretation": "explicit",
+          "reference": "Poland, J. 2018. Field Key to Winter Twigs: a guide to native and planted deciduous trees, shrubs and woody climbers (xylophytes) found in the British Isles John Poland, Southampton",
+          "note": null
+        },
+        {
+          "kind": "flowering",
+          "startMonth": 4,
+          "rawEndMonth": 5,
+          "endMonth": 5,
+          "endInterpretation": "explicit",
+          "reference": "Sell, P.D. & Murrell, G. 2018. Flora of Great Britain and Ireland, Volume 1. Lycopodiaceae-Saliaceae Cambridge University Press, Cambridge",
+          "note": null
+        }
+      ]
+    },
+    {
+      "taxonId": "2cd4p9h.yp2",
+      "scientificName": "Ilex aquifolium",
+      "vernacularName": "Holly",
+      "sourceUrl": "https://plantatlas2020.org/atlas/2cd4p9h.yp2",
+      "phases": [
+        {
+          "kind": "leafing",
+          "startMonth": 1,
+          "rawEndMonth": 12,
+          "endMonth": 12,
+          "endInterpretation": "explicit",
+          "reference": "Poland, J. & Clement, E.J. 2020. The Vegetative Key to the British Flora. Edn. 2. John Poland, Southampton",
+          "note": null
+        },
+        {
+          "kind": "flowering",
+          "startMonth": 5,
+          "rawEndMonth": 8,
+          "endMonth": 8,
+          "endInterpretation": "explicit",
+          "reference": "Sell, P.D. & Murrell, G. 2009. Flora of Great Britain and Ireland. Volume 3. Mimosaceae-Lentibulariaceae Cambridge University Press, Cambridge",
+          "note": null
+        }
+      ]
+    },
+    {
+      "taxonId": "2cd4p9h.9c0",
+      "scientificName": "Urtica dioica",
+      "vernacularName": "Common Nettle",
+      "sourceUrl": "https://plantatlas2020.org/atlas/2cd4p9h.9c0",
+      "phases": [
+        {
+          "kind": "leafing",
+          "startMonth": 4,
+          "rawEndMonth": 10,
+          "endMonth": 10,
+          "endInterpretation": "explicit",
+          "reference": "Poland, J. & Clement, E.J. 2020. The Vegetative Key to the British Flora. Edn. 2. John Poland, Southampton",
+          "note": "Sometimes all year"
+        },
+        {
+          "kind": "flowering",
+          "startMonth": 6,
+          "rawEndMonth": 8,
+          "endMonth": 8,
+          "endInterpretation": "explicit",
+          "reference": "Sell, P.D. & Murrell, G. 2018. Flora of Great Britain and Ireland, Volume 1. Lycopodiaceae-Saliaceae Cambridge University Press, Cambridge",
+          "note": null
+        }
+      ]
+    },
+    {
+      "taxonId": "2cd4p9h.xbs",
+      "scientificName": "Bellis perennis",
+      "vernacularName": "Daisy",
+      "sourceUrl": "https://plantatlas2020.org/atlas/2cd4p9h.xbs",
+      "phases": [
+        {
+          "kind": "leafing",
+          "startMonth": 1,
+          "rawEndMonth": 12,
+          "endMonth": 12,
+          "endInterpretation": "explicit",
+          "reference": "Poland, J. & Clement, E.J. 2020. The Vegetative Key to the British Flora. Edn. 2. John Poland, Southampton",
+          "note": null
+        },
+        {
+          "kind": "flowering",
+          "startMonth": 3,
+          "rawEndMonth": 10,
+          "endMonth": 10,
+          "endInterpretation": "explicit",
+          "reference": "Sell, P.D. & Murrell, G. 2006. Flora of Great Britain and Ireland. Volume 4. Campanulaceae-Asteraceae. Cambridge University Press, Cambridge",
+          "note": null
+        }
+      ]
+    },
+    {
+      "taxonId": "2cd4p9h.m5y",
+      "scientificName": "Trifolium repens",
+      "vernacularName": "White Clover",
+      "sourceUrl": "https://plantatlas2020.org/atlas/2cd4p9h.m5y",
+      "phases": [
+        {
+          "kind": "leafing",
+          "startMonth": 1,
+          "rawEndMonth": 12,
+          "endMonth": 12,
+          "endInterpretation": "explicit",
+          "reference": "Poland, J. & Clement, E.J. 2020. The Vegetative Key to the British Flora. Edn. 2. John Poland, Southampton",
+          "note": null
+        },
+        {
+          "kind": "flowering",
+          "startMonth": 6,
+          "rawEndMonth": 9,
+          "endMonth": 9,
+          "endInterpretation": "explicit",
+          "reference": "Sell, P.D. & Murrell, G. 2009. Flora of Great Britain and Ireland. Volume 3. Mimosaceae-Lentibulariaceae Cambridge University Press, Cambridge",
+          "note": null
+        }
+      ]
+    },
+    {
+      "taxonId": "2cd4p9h.vt4",
+      "scientificName": "Ranunculus repens",
+      "vernacularName": "Creeping Buttercup",
+      "sourceUrl": "https://plantatlas2020.org/atlas/2cd4p9h.vt4",
+      "phases": [
+        {
+          "kind": "leafing",
+          "startMonth": 1,
+          "rawEndMonth": 12,
+          "endMonth": 12,
+          "endInterpretation": "explicit",
+          "reference": "Poland, J. & Clement, E.J. 2020. The Vegetative Key to the British Flora. Edn. 2. John Poland, Southampton",
+          "note": null
+        },
+        {
+          "kind": "flowering",
+          "startMonth": 5,
+          "rawEndMonth": 8,
+          "endMonth": 8,
+          "endInterpretation": "explicit",
+          "reference": "Sell, P.D. & Murrell, G. 2018. Flora of Great Britain and Ireland, Volume 1. Lycopodiaceae-Saliaceae Cambridge University Press, Cambridge",
+          "note": null
+        }
+      ]
+    },
+    {
+      "taxonId": "2cd4p9h.1xk",
+      "scientificName": "Plantago lanceolata",
+      "vernacularName": "Ribwort Plantain",
+      "sourceUrl": "https://plantatlas2020.org/atlas/2cd4p9h.1xk",
+      "phases": [
+        {
+          "kind": "leafing",
+          "startMonth": 1,
+          "rawEndMonth": 12,
+          "endMonth": 12,
+          "endInterpretation": "explicit",
+          "reference": "Poland, J. personal observation.",
+          "note": null
+        },
+        {
+          "kind": "flowering",
+          "startMonth": 4,
+          "rawEndMonth": 8,
+          "endMonth": 8,
+          "endInterpretation": "explicit",
+          "reference": "Sell, P.D. & Murrell, G. 2009. Flora of Great Britain and Ireland. Volume 3. Mimosaceae-Lentibulariaceae Cambridge University Press, Cambridge",
+          "note": null
+        }
+      ]
+    },
+    {
+      "taxonId": "2cd4p9h.z9",
+      "scientificName": "Hyacinthoides non-scripta",
+      "vernacularName": "Bluebell",
+      "sourceUrl": "https://plantatlas2020.org/atlas/2cd4p9h.z9",
+      "phases": [
+        {
+          "kind": "leafing",
+          "startMonth": 2,
+          "rawEndMonth": 6,
+          "endMonth": 6,
+          "endInterpretation": "explicit",
+          "reference": "Poland, J. & Clement, E.J. 2020. The Vegetative Key to the British Flora. Edn. 2. John Poland, Southampton",
+          "note": "Occasionally Jan"
+        },
+        {
+          "kind": "flowering",
+          "startMonth": 4,
+          "rawEndMonth": 6,
+          "endMonth": 6,
+          "endInterpretation": "explicit",
+          "reference": "Sell, P.D. & Murrell, G. 1996. Flora of Great Britain and Ireland, 5. Butomaceae-Orchidaceae Cambridge University Press, Cambridge",
+          "note": null
+        }
+      ]
+    },
+    {
+      "taxonId": "2cd4p9h.bv1",
+      "scientificName": "Dryopteris filix-mas",
+      "vernacularName": "Male-fern",
+      "sourceUrl": "https://plantatlas2020.org/atlas/2cd4p9h.bv1",
+      "phases": [
+        {
+          "kind": "leafing",
+          "startMonth": 4,
+          "rawEndMonth": 11,
+          "endMonth": 11,
+          "endInterpretation": "explicit",
+          "reference": "Poland, J. & Clement, E.J. 2020. The Vegetative Key to the British Flora. Edn. 2. John Poland, Southampton",
+          "note": "Usually"
+        },
+        {
+          "kind": "spore-bearing-structures",
+          "startMonth": 7,
+          "rawEndMonth": 8,
+          "endMonth": 8,
+          "endInterpretation": "explicit",
+          "reference": "Sell, P.D. & Murrell, G. 2018. Flora of Great Britain and Ireland, Volume 1. Lycopodiaceae-Saliaceae Cambridge University Press, Cambridge",
+          "note": "Months spores are ripe"
+        }
+      ]
+    },
+    {
+      "taxonId": "2cd4p9h.y9r",
+      "scientificName": "Pteridium aquilinum",
+      "vernacularName": "Bracken",
+      "sourceUrl": "https://plantatlas2020.org/atlas/2cd4p9h.y9r",
+      "phases": [
+        {
+          "kind": "leafing",
+          "startMonth": 5,
+          "rawEndMonth": 10,
+          "endMonth": 10,
+          "endInterpretation": "explicit",
+          "reference": "Poland, J. & Clement, E.J. 2020. The Vegetative Key to the British Flora. Edn. 2. John Poland, Southampton",
+          "note": null
+        },
+        {
+          "kind": "spore-bearing-structures",
+          "startMonth": 7,
+          "rawEndMonth": 8,
+          "endMonth": 8,
+          "endInterpretation": "explicit",
+          "reference": "Sell, P.D. & Murrell, G. 2018. Flora of Great Britain and Ireland, Volume 1. Lycopodiaceae-Saliaceae Cambridge University Press, Cambridge",
+          "note": "Months spores are ripe"
+        }
+      ]
+    },
+    {
+      "taxonId": "2cd4p9h.es0",
+      "scientificName": "Equisetum arvense",
+      "vernacularName": "Field Horsetail",
+      "sourceUrl": "https://plantatlas2020.org/atlas/2cd4p9h.es0",
+      "phases": [
+        {
+          "kind": "leafing",
+          "startMonth": 4,
+          "rawEndMonth": 10,
+          "endMonth": 10,
+          "endInterpretation": "explicit",
+          "reference": "Poland, J. & Clement, E.J. 2020. The Vegetative Key to the British Flora. Edn. 2. John Poland, Southampton",
+          "note": null
+        },
+        {
+          "kind": "spore-bearing-structures",
+          "startMonth": 4,
+          "rawEndMonth": null,
+          "endMonth": 4,
+          "endInterpretation": "same-as-start-per-publisher-metadata",
+          "reference": "Sell, P.D. & Murrell, G. 2018. Flora of Great Britain and Ireland, Volume 1. Lycopodiaceae-Saliaceae Cambridge University Press, Cambridge",
+          "note": "Months spores are ripe"
+        }
+      ]
+    }
+  ]
+}

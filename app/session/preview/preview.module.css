@@ -1,0 +1,678 @@
+/*
+ * THE LESSON PREVIEW (nc#515) — full screen, its own layer.
+ *
+ * Johan, mid-build: "make it full screen instead of overlay". So this is not
+ * the prototype's 520px device frame scaled up. The prototype drew a card on a
+ * backdrop because that was how it could be shown in a browser tab; a card that
+ * reads well at 520px reads badly at 1024, and the frame was a prototyping
+ * affordance rather than a design.
+ *
+ * The runner is the precedent this follows: a chrome-free surface that owns the
+ * viewport, reached from the doorway, left by one ✕. Same three-zone frame as
+ * `journey.module.css` — head, body, foot — and the same rule that horizontal
+ * padding belongs to the ZONE and never the element.
+ *
+ * Its own file rather than more lines in globals.css, for the reason that file
+ * gives: 7,500 lines where a media query at the bottom silently beats a rule
+ * near the top.
+ */
+
+.deck {
+  --edge: clamp(1.25rem, 5vw, 4rem);
+  /*
+   * THE MEASURE, AND IT IS THE WHOLE DIFFERENCE FULL SCREEN MAKES. Body prose
+   * running the full width of an iPad is unreadable however good the type is.
+   * 44rem is the same column the runner holds, so the two surfaces set text to
+   * one width.
+   */
+  --measure: 44rem;
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 40px;
+
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--text);
+}
+
+/* ── the segmented bar, at the top edge of the screen ─────────────────────
+   One segment per card, WIDTH PROPORTIONAL to how long that card is on
+   screen. Not the even ticks a real story uses: a card is exactly as long as
+   its own narration, and the whole length being visible before the first word
+   is what replaced the sixty-second ceiling the first concept rationed itself
+   to. A ceiling constrains the author; a bar informs the reader.
+
+   Flush to the top on purpose. Full screen, this is the one piece of chrome
+   that says how much is left, and inset from the edge it would read as part of
+   a card rather than as the progress of the whole. */
+
+.segments {
+  display: flex;
+  gap: 3px;
+  flex-shrink: 0;
+  padding: 6px var(--edge) 0;
+}
+
+.segment {
+  height: 3px;
+  border-radius: 2px;
+  background: var(--hairline-soft);
+  overflow: hidden;
+}
+
+.segmentFill {
+  display: block;
+  height: 100%;
+  width: 0;
+  border-radius: 2px;
+  background: var(--action);
+}
+
+.head {
+  display: flex;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  padding: var(--space-1) var(--edge) 0;
+}
+
+.leave {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--touch);
+  height: var(--touch);
+  border: none;
+  border-radius: 50%;
+  background: none;
+  color: var(--ink-soft);
+  font-size: var(--size-3);
+  line-height: 1;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* ── the stage ─────────────────────────────────────────────────────────── */
+
+.stage {
+  position: relative;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  /*
+   * A drag across the card turns the page (the deck reads the pointer), and a
+   * drag up the card scrolls it. `pan-y` is what hands the browser the second
+   * one and keeps the first for us: without it a horizontal drag on a phone is
+   * swallowed as a scroll attempt and nothing turns.
+   */
+  touch-action: pan-y;
+}
+
+/*
+ * The left and right thirds of the WHOLE viewport, which is the natural target
+ * full screen where a 30% strip of a floating card was not. They sit under the
+ * card's own controls in the stacking order, so a link on the end card wins.
+ */
+.tap {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 33%;
+  z-index: 1;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.tapBack {
+  left: 0;
+}
+
+.tapNext {
+  right: 0;
+}
+
+.scroll {
+  position: absolute;
+  inset: 0;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: var(--space-3) var(--edge);
+}
+
+.measure {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: var(--measure);
+  margin-inline: auto;
+  /* The controls on a card have to be reachable; the space around them is what
+     the tap zones own. */
+  pointer-events: none;
+}
+
+.measure a,
+.measure button {
+  pointer-events: auto;
+}
+
+/*
+ * THE PAGE LEANS INTO A SWIPE, and settles back if she stops short.
+ *
+ * The transition lives on the resting state, not the dragging one: while her
+ * thumb is down the page must track it with no easing at all or the lean lags
+ * the finger, and the moment she lifts, the same rule brings it home. The
+ * component sets the transform; this file owns only how it comes to rest.
+ */
+.measure {
+  transition: transform 260ms var(--settle);
+}
+
+.measureDragging {
+  transition: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .measure {
+    transition: none;
+  }
+}
+
+/*
+ * THE TRANSITION IS DELIBERATELY UNHURRIED, and the numbers are Johan's after
+ * the first cut felt too fast. The outgoing card fades over 340ms, the new one
+ * rises over 850ms, and only once it has settled does anyone speak (the 280ms
+ * is in the component, where the voice is).
+ *
+ * A card that snaps in reads as a feed. This is a teacher deciding, and the
+ * beat of quiet between cards is what lets the last sentence land before the
+ * next one starts.
+ */
+.card {
+  display: none;
+}
+
+.cardOn {
+  display: block;
+  animation: arrive 850ms var(--settle) both;
+}
+
+.cardLeaving {
+  display: block;
+  animation: leave 340ms var(--page) both;
+}
+
+@keyframes arrive {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes leave {
+  from {
+    opacity: 1;
+    transform: none;
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cardOn,
+  .cardLeaving {
+    animation-duration: 1ms;
+  }
+
+  /* The cue stays; only its motion goes. A steady accent ring still says the
+     control is the thing to press. */
+  .ringWaiting {
+    animation: none;
+    box-shadow: 0 0 0 3px rgb(76 125 56 / 18%);
+  }
+}
+
+/* ── type on a card ────────────────────────────────────────────────────────
+   Every size grows with the viewport rather than sitting at one step, the way
+   the runner's spoken line does. Full screen on a phone and full screen on an
+   iPad are different problems, and a fixed scale solves one of them. */
+
+.eyebrow {
+  display: block;
+  margin: 0 0 var(--space-2);
+  font-size: var(--size-1);
+  font-weight: var(--weight-strong);
+  /* Sentence case. The letter-spacing carries the caption voice; the uppercase
+     transform is the standing product rule and caps-lint fails CI on it. */
+  letter-spacing: 0.1em;
+  color: var(--ink-soft);
+}
+
+.title {
+  margin: 0 0 var(--space-2);
+  font-family: var(--display);
+  font-weight: var(--weight-medium);
+  font-size: clamp(2.1rem, 6.4vw, 4rem);
+  line-height: 1.06;
+  letter-spacing: -0.012em;
+  text-wrap: pretty;
+}
+
+.prompt {
+  margin: 0 0 var(--space-3);
+  font-family: var(--display);
+  font-weight: var(--weight-display);
+  font-size: clamp(1.2rem, 2.8vw, 1.75rem);
+  line-height: 1.32;
+  color: var(--umber);
+  text-wrap: pretty;
+}
+
+.lead {
+  margin: 0 0 var(--space-2);
+  font-family: var(--display);
+  font-weight: var(--weight-display);
+  font-size: clamp(1.3rem, 3.4vw, 2.1rem);
+  line-height: 1.28;
+  text-wrap: pretty;
+}
+
+.body {
+  margin: 0;
+  font-size: clamp(1rem, 1.6vw, 1.2rem);
+  line-height: 1.6;
+  color: var(--ink-2);
+}
+
+.meta {
+  margin: var(--space-3) 0 0;
+  font-size: var(--size-1);
+  font-weight: var(--weight-strong);
+  color: var(--ink-soft);
+  font-variant-numeric: tabular-nums;
+}
+
+/* ── the list cards ────────────────────────────────────────────────────── */
+
+.items,
+.sections,
+.words {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.item {
+  display: flex;
+  gap: 12px;
+  align-items: baseline;
+  padding: 11px 0;
+  font-size: clamp(1.05rem, 2vw, 1.35rem);
+  line-height: 1.45;
+}
+
+.tick {
+  flex: 0 0 auto;
+  color: var(--action);
+  font-size: 0.72em;
+}
+
+/*
+ * THE SECTIONS, WITH THE HEADERS IN PLACE (nc#675).
+ *
+ * Every part slide draws the same list of section headers; the slide's own
+ * section is expanded inline and holds the minutes and the notes, the others
+ * are headers at rest. Johan: *"settle expands inline.. Second slide: ->
+ * Count Count expands in line (settle is closed) and so on.with the headers
+ * in place"*. Turning the page is what moves the open section, so the
+ * structure never leaves the screen.
+ *
+ * The reveal animates `grid-template-rows` (0fr → 1fr), which is the one way
+ * to animate to an unknown height without measuring it. Colour marks the open
+ * section the way the runner's rail marks the live part — state, not
+ * decoration. Under reduced motion the transitions go and the section is
+ * simply open; every header and the open section's content are in the
+ * server-rendered document either way.
+ */
+.section {
+  border-radius: 16px;
+  padding: 10px 16px;
+  transition: background-color 360ms var(--page), padding 360ms var(--page);
+}
+
+.sectionOpen {
+  padding-block: 16px;
+  background: rgb(110 122 69 / 10%);
+}
+
+.sectionShut {
+  opacity: 0.62;
+}
+
+.sectionHead {
+  display: flex;
+  gap: 16px;
+  align-items: baseline;
+  margin: 0;
+}
+
+.sectionName {
+  flex: 1;
+  font-family: var(--display);
+  font-weight: var(--weight-display);
+  font-size: clamp(1.1rem, 2.2vw, 1.5rem);
+}
+
+/* 32 of 237 phases carry no minutes. Absent means absent: there is no chip at
+   all, not a dash and not a guess divided out of the session total. */
+.sectionMinutes {
+  flex: 0 0 auto;
+  font-size: var(--size-1);
+  font-weight: var(--weight-strong);
+  color: var(--action);
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+  opacity: 0;
+  transition: opacity 260ms var(--page);
+}
+
+.sectionOpen .sectionMinutes {
+  opacity: 1;
+  transition: opacity 320ms var(--page) 140ms;
+}
+
+.sectionReveal {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 380ms var(--page);
+}
+
+.sectionOpen .sectionReveal {
+  grid-template-rows: 1fr;
+}
+
+.sectionBody {
+  overflow: hidden;
+}
+
+.sectionLead {
+  margin: 10px 0 0;
+  font-family: var(--display);
+  font-weight: var(--weight-display);
+  font-size: clamp(1.15rem, 2.6vw, 1.7rem);
+  line-height: 1.32;
+  text-wrap: pretty;
+}
+
+.sectionNote {
+  margin: 10px 0 0;
+  font-size: clamp(0.98rem, 1.5vw, 1.15rem);
+  line-height: 1.55;
+  color: var(--ink-2);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .section,
+  .sectionMinutes,
+  .sectionReveal {
+    transition: none;
+  }
+}
+
+.itemNote {
+  margin-top: var(--space-3);
+}
+
+.word {
+  padding: 14px 0;
+  border-bottom: 1px solid var(--hairline-soft);
+}
+
+.word:last-child {
+  border-bottom: none;
+}
+
+.term {
+  margin: 0 0 4px;
+  font-family: var(--display);
+  font-weight: var(--weight-display);
+  font-size: clamp(1.15rem, 2.2vw, 1.5rem);
+}
+
+.definition {
+  margin: 0;
+  font-size: clamp(1rem, 1.6vw, 1.2rem);
+  line-height: 1.5;
+  color: var(--ink-2);
+}
+
+.forChildren {
+  margin: 5px 0 0;
+  font-size: var(--size-1);
+  line-height: 1.5;
+  color: var(--umber);
+}
+
+/* ── the end card ──────────────────────────────────────────────────────── */
+
+.endTitle {
+  margin: 0 0 var(--space-1);
+  font-family: var(--display);
+  font-weight: var(--weight-medium);
+  font-size: clamp(1.7rem, 4.4vw, 2.6rem);
+}
+
+.endBody {
+  margin: 0 0 var(--space-3);
+  font-size: clamp(1rem, 1.6vw, 1.2rem);
+  color: var(--ink-soft);
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 26rem;
+}
+
+.action,
+.actionPrimary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 56px;
+  padding: 0 24px;
+  border: 1.5px solid var(--hairline);
+  border-radius: var(--radius-pill);
+  background: none;
+  color: var(--ink);
+  font-family: var(--text);
+  font-weight: var(--weight-strong);
+  font-size: var(--size-2);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.actionPrimary {
+  border-color: var(--action);
+  background: var(--action);
+  color: var(--action-ink);
+}
+
+/* A plain text link, no outline: the third thing she can do here is leaving,
+   and leaving is not a button. */
+.actionQuiet {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: var(--touch-secondary);
+  color: var(--ink-soft);
+  font-weight: var(--weight-strong);
+  font-size: var(--size-2);
+  text-decoration: none;
+}
+
+/* ── the bar at the foot ───────────────────────────────────────────────── */
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+  width: 100%;
+  max-width: calc(var(--measure) + 2 * var(--edge));
+  margin-inline: auto;
+  padding: var(--space-2) var(--edge) var(--space-3);
+}
+
+.ring {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  width: var(--touch-secondary);
+  height: var(--touch-secondary);
+  border: 1.5px solid var(--hairline);
+  border-radius: 50%;
+  background: none;
+  color: var(--action);
+  cursor: pointer;
+  /* The play triangle's mass sits left of its box, so centring it
+     geometrically reads as centred a little left. Optical, not arithmetic. */
+  text-indent: 2px;
+}
+
+.ringPlaying {
+  text-indent: 0;
+}
+
+.ring:active {
+  opacity: 0.6;
+}
+
+/*
+ * THE VOICE IS WAITING FOR A TAP (#570).
+ *
+ * A browser that blocks autoplay leaves the deck turning in silence, which is
+ * the right fallback and a poor explanation: nothing on the screen says a
+ * voice exists. The ring takes the accent and breathes once until she presses
+ * it, which is the only thing the browser is waiting for.
+ *
+ * A slow pulse rather than a badge or a line of copy, because a label here
+ * would be explaining the interface to her instead of pointing at the control.
+ */
+.ringWaiting {
+  border-color: var(--action);
+  animation: ringWaiting 2.4s ease-in-out infinite;
+}
+
+@keyframes ringWaiting {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgb(76 125 56 / 26%);
+  }
+  50% {
+    box-shadow: 0 0 0 8px rgb(76 125 56 / 0%);
+  }
+}
+
+.clock {
+  font-size: var(--size-1);
+  font-weight: var(--weight-strong);
+  color: var(--ink-soft);
+  font-variant-numeric: tabular-nums;
+}
+
+.spacer {
+  flex: 1;
+}
+
+/* One word, because it names a mode rather than describing one. */
+.mode {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: var(--touch-secondary);
+  min-height: var(--touch-secondary);
+  padding: 0 10px;
+  border: none;
+  background: none;
+  color: var(--ink-soft);
+  font-family: var(--text);
+  font-weight: var(--weight-strong);
+  font-size: var(--size-1);
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+
+/*
+ * A mouse will not guess a screen-edge tap, so the move is spelled out. Quiet,
+ * at the far end, in the same ring as the play control.
+ */
+.steps {
+  display: flex;
+  gap: 8px;
+}
+
+.step {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--touch-secondary);
+  height: var(--touch-secondary);
+  border: 1.5px solid var(--hairline);
+  border-radius: 50%;
+  background: none;
+  color: var(--ink-2);
+  font-size: var(--size-2);
+  line-height: 1;
+  cursor: pointer;
+}
+
+.step:disabled {
+  opacity: 0.28;
+  cursor: default;
+}
+
+/*
+ * PHONE. Full screen on a phone is a different problem: the card has the whole
+ * height and almost none of the width, so the tap zones narrow to leave a
+ * middle a thumb can scroll a long card with.
+ *
+ * THE ARROWS STAY, and that is a correction. They were hidden here on the
+ * reasoning that a touch screen does not need them — but the gesture a touch
+ * screen does use was not wired, so a phone had no visible move and no
+ * learnable one either: two invisible strips and nothing else. The deck now
+ * takes a swipe, and the arrows are what tell her the deck goes both ways at
+ * all. They tighten rather than disappear.
+ */
+@media (max-width: 30rem) {
+  .tap {
+    width: 26%;
+  }
+
+  .steps {
+    gap: 6px;
+  }
+
+  .mode {
+    padding: 0 4px;
+  }
+
+  .controls {
+    gap: 8px;
+  }
+}

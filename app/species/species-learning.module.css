@@ -1,0 +1,15 @@
+.learning { display: grid; gap: 1rem; width: 100%; min-width: 0; color: inherit; text-align: left; font-size: var(--size-2); line-height: 1.5; }
+.learning p { margin: 0; }
+.introduction { font-family: var(--display); font-size: var(--size-3); line-height: 1.4; }
+.label { font: inherit; font-weight: 700; margin: 0 0 0.25rem; }
+.listen { justify-self: start; min-height: 44px; border: 1px solid currentColor; border-radius: 999px; padding: 0.45rem 1.25rem; background: transparent; color: inherit; font: inherit; cursor: pointer; }
+.source { font-size: var(--size-1); opacity: 0.8; }
+.source summary { min-height: 44px; display: list-item; align-content: center; cursor: pointer; }
+.source a { color: inherit; }
+.listen:focus-visible, .source summary:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
+
+.prompt { border-inline-start: 2px solid currentColor; padding-inline-start: 1rem; }
+.recovery { display: grid; gap: 0.75rem; padding-block: 0.75rem; font-size: var(--size-1); }
+.learning { overflow-wrap: anywhere; }
+.listen { text-decoration: none; display: inline-flex; align-items: center; justify-content: center; }
+@media (max-width: 40rem) { .learning { gap: 1.25rem; } .introduction { font-size: clamp(1.25rem, 5vw, 1.6rem); } }

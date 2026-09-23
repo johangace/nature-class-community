@@ -1,0 +1,58 @@
+#!/usr/bin/env sh
+# Pre-push gate (nc#319): four all-caps eyebrows reached `main` in one day
+# because `scripts/caps-lint.mjs` only ran in CI. Actions tests the merge
+# result, not the branch, so one bad declaration turned main red and failed
+# every open PR at once — and the author who introduced it usually wasn't
+# the one who saw it fail.
+#
+# This runs the exact same command CI runs (see "Caps lint" in
+# .github/workflows/ci.yml) before the push leaves the machine. It scans
+# app/, engine/, lib/ only and takes well under a second — see the script's
+# own header for what it does and does not govern.
+#
+# Installed via `npm run prepare` -> `git config core.hooksPath .githooks`.
+# To bypass in an emergency: `git push --no-verify` (should not be needed).
+
+# Every check below runs, and a failure in ANY of them fails the hook (#1252).
+#
+# Deliberately NOT `set -e`, which would stop at the first failure: a
+# contributor would fix the caps lint, push, and only then learn the prompt
+# lockfile was also out of step. Running all three and failing at the end costs
+# a second and reports everything wrong in one attempt.
+#
+# This is a bug fix, not a policy change. Without it the script's exit status
+# was whichever check happened to run LAST, so a failing caps lint or prompt
+# validation printed its complaint and let the push through — which is the one
+# outcome nc#319 opened this hook to prevent.
+failed=0
+
+node scripts/caps-lint.mjs || failed=1
+
+# Prompts are authored content and the version is the only handle a trace has
+# on the text that ran, so a silent edit at the same version makes every past
+# trace a lie about what produced it. Same command CI runs; well under a
+# second.
+#
+# Through `npm run`, NOT bare `node` (#1220). The script imports the prompt
+# registry from TypeScript now, so it needs tsx — which package.json's
+# `validate:prompts` supplies and a bare `node` does not. On a Node 22 patch
+# without unflagged type-stripping, `node scripts/validate-prompts.mjs` throws
+# ERR_UNKNOWN_FILE_EXTENSION on every push, and .nvmrc pins only the major.
+npm run validate:prompts --silent || failed=1
+
+# Whose name is on the commits about to leave this machine (#834). CI refuses a
+# borrowed founder identity on an agent's branch from `pull_request_target`, but
+# it does so after a pull request exists, a CLA comment has been posted and a
+# reviewer has started reading. Catching it here costs one `git log` and saves a
+# force-push.
+#
+# The skip is deliberate and it is HERE rather than inside the script: in a fresh
+# or shallow clone `origin/main` may not be a ref yet, and the range would be a
+# crash rather than an answer. A hook that errors on a clone people cannot fix
+# gets bypassed wholesale with --no-verify, and then it protects nothing. CI is
+# the gate; this is the early warning.
+if git rev-parse --verify --quiet origin/main >/dev/null 2>&1; then
+  node scripts/commit-identity-check.mjs || failed=1
+fi
+
+exit "$failed"

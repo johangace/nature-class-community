@@ -1,0 +1,5735 @@
+{
+  "1": [
+    {
+      "id": "uk_north_w1_hazel_catkins",
+      "species": "Hazel Catkins",
+      "scientificName": "Corylus avellana",
+      "description": "Hazel catkins lengthening on bare branches, not yet releasing pollen",
+      "habitats": [
+        "woodland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Long yellow tassels hang from branches. On a dry day, tap one and watch golden dust fly"
+    },
+    {
+      "id": "uk_north_w1_red_fox",
+      "species": "Red Fox",
+      "scientificName": "Vulpes vulpes",
+      "description": "Fox mating season, eerie barking and screaming calls on cold nights",
+      "habitats": [
+        "urban",
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Listen for a spooky screaming sound at night. That's a fox calling for a mate!"
+    },
+    {
+      "id": "uk_north_w1_redwing",
+      "species": "Redwing",
+      "scientificName": "Turdus iliacus",
+      "description": "Redwing flocks feeding on berries and in open fields",
+      "habitats": [
+        "hedgerow",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A thrush with a red patch under its wing and a cream stripe over its eye. They travel in big groups"
+    },
+    {
+      "id": "uk_north_w1_frost_patterns",
+      "species": "Frost Patterns",
+      "description": "Hard frost creating patterns on leaves, windows and puddles, ice crystals and frozen puddles",
+      "habitats": [
+        "garden",
+        "urban",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "Stamp on frozen puddles to hear them crack! Look at frost on windows. Each pattern is different"
+    },
+    {
+      "id": "uk_north_w1_winter_fungi",
+      "species": "Winter Fungi",
+      "description": "Jelly ear on elder, velvet shank on stumps. Fungi thrive in cool damp conditions",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "medium",
+      "childFriendlyNote": "Brown rubbery ears grow on branches. They really do feel like cold ears!"
+    }
+  ],
+  "2": [
+    {
+      "id": "uk_north_w2_hazel_catkins",
+      "species": "Hazel Catkins",
+      "scientificName": "Corylus avellana",
+      "description": "Hazel catkins lengthening on bare branches, not yet releasing pollen",
+      "habitats": [
+        "woodland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Long yellow tassels hang from branches. On a dry day, tap one and watch golden dust fly"
+    },
+    {
+      "id": "uk_north_w2_red_fox",
+      "species": "Red Fox",
+      "scientificName": "Vulpes vulpes",
+      "description": "Fox mating season, eerie barking and screaming calls on cold nights",
+      "habitats": [
+        "urban",
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Listen for a spooky screaming sound at night. That's a fox calling for a mate!"
+    },
+    {
+      "id": "uk_north_w2_redwing",
+      "species": "Redwing",
+      "scientificName": "Turdus iliacus",
+      "description": "Redwing flocks feeding on berries and in open fields",
+      "habitats": [
+        "hedgerow",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A thrush with a red patch under its wing and a cream stripe over its eye. They travel in big groups"
+    },
+    {
+      "id": "uk_north_w2_frost_patterns",
+      "species": "Frost Patterns",
+      "description": "Hard frost creating patterns on leaves, windows and puddles, ice crystals and frozen puddles",
+      "habitats": [
+        "garden",
+        "urban",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "Stamp on frozen puddles to hear them crack! Look at frost on windows. Each pattern is different"
+    },
+    {
+      "id": "uk_north_w2_winter_fungi",
+      "species": "Winter Fungi",
+      "description": "Jelly ear on elder, velvet shank on stumps. Fungi thrive in cool damp conditions",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "medium",
+      "childFriendlyNote": "Brown rubbery ears grow on branches. They really do feel like cold ears!"
+    }
+  ],
+  "3": [
+    {
+      "id": "uk_north_w3_hazel_catkins",
+      "species": "Hazel Catkins",
+      "scientificName": "Corylus avellana",
+      "description": "Hazel catkins beginning to shed pollen on dry days",
+      "habitats": [
+        "woodland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Long yellow tassels hang from branches. On a dry day, tap one and watch golden dust fly"
+    },
+    {
+      "id": "uk_north_w3_snowdrop",
+      "species": "Snowdrop",
+      "scientificName": "Galanthus nivalis",
+      "description": "First snowdrop flowers opening in sheltered woodland",
+      "habitats": [
+        "woodland",
+        "garden",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "White bells push through the cold earth, the first flowers brave enough to face winter"
+    },
+    {
+      "id": "uk_north_w3_red_fox",
+      "species": "Red Fox",
+      "scientificName": "Vulpes vulpes",
+      "description": "Fox mating season, eerie barking and screaming calls on cold nights",
+      "habitats": [
+        "urban",
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Listen for a spooky screaming sound at night. That's a fox calling for a mate!"
+    },
+    {
+      "id": "uk_north_w3_redwing",
+      "species": "Redwing",
+      "scientificName": "Turdus iliacus",
+      "description": "Redwing flocks feeding on berries and in open fields",
+      "habitats": [
+        "hedgerow",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A thrush with a red patch under its wing and a cream stripe over its eye. They travel in big groups"
+    },
+    {
+      "id": "uk_north_w3_frost_patterns",
+      "species": "Frost Patterns",
+      "description": "Hard frost creating patterns on leaves, windows and puddles, ice crystals and frozen puddles",
+      "habitats": [
+        "garden",
+        "urban",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "Stamp on frozen puddles to hear them crack! Look at frost on windows. Each pattern is different"
+    },
+    {
+      "id": "uk_north_w3_winter_fungi",
+      "species": "Winter Fungi",
+      "description": "Jelly ear on elder, velvet shank on stumps. Fungi thrive in cool damp conditions",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "medium",
+      "childFriendlyNote": "Brown rubbery ears grow on branches. They really do feel like cold ears!"
+    }
+  ],
+  "4": [
+    {
+      "id": "uk_north_w4_hazel_catkins",
+      "species": "Hazel Catkins",
+      "scientificName": "Corylus avellana",
+      "description": "Catkins spent and browning, look for tiny red female flowers",
+      "habitats": [
+        "woodland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The yellow tassels are brown and dry now. Look closely at the twigs for tiny red flowers, smaller than a ladybird!"
+    },
+    {
+      "id": "uk_north_w4_snowdrop",
+      "species": "Snowdrop",
+      "scientificName": "Galanthus nivalis",
+      "description": "First snowdrop flowers opening in sheltered woodland",
+      "habitats": [
+        "woodland",
+        "garden",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "White bells push through the cold earth, the first flowers brave enough to face winter"
+    },
+    {
+      "id": "uk_north_w4_red_fox",
+      "species": "Red Fox",
+      "scientificName": "Vulpes vulpes",
+      "description": "Fox mating season, eerie barking and screaming calls on cold nights",
+      "habitats": [
+        "urban",
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Listen for a spooky screaming sound at night. That's a fox calling for a mate!"
+    },
+    {
+      "id": "uk_north_w4_redwing",
+      "species": "Redwing",
+      "scientificName": "Turdus iliacus",
+      "description": "Redwing flocks feeding on berries and in open fields",
+      "habitats": [
+        "hedgerow",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A thrush with a red patch under its wing and a cream stripe over its eye. They travel in big groups"
+    },
+    {
+      "id": "uk_north_w4_frost_patterns",
+      "species": "Frost Patterns",
+      "description": "Hard frost creating patterns on leaves, windows and puddles, ice crystals and frozen puddles",
+      "habitats": [
+        "garden",
+        "urban",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "Stamp on frozen puddles to hear them crack! Look at frost on windows. Each pattern is different"
+    },
+    {
+      "id": "uk_north_w4_winter_fungi",
+      "species": "Winter Fungi",
+      "description": "Jelly ear on elder, velvet shank on stumps. Fungi thrive in cool damp conditions",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "medium",
+      "childFriendlyNote": "Brown rubbery ears grow on branches. They really do feel like cold ears!"
+    }
+  ],
+  "5": [
+    {
+      "id": "uk_north_w5_hazel_catkins",
+      "species": "Hazel Catkins",
+      "scientificName": "Corylus avellana",
+      "description": "Catkins spent and browning, look for tiny red female flowers",
+      "habitats": [
+        "woodland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The yellow tassels are brown and dry now. Look closely at the twigs for tiny red flowers, smaller than a ladybird!"
+    },
+    {
+      "id": "uk_north_w5_snowdrop",
+      "species": "Snowdrop",
+      "scientificName": "Galanthus nivalis",
+      "description": "Snowdrop carpets in bloom under deciduous trees",
+      "habitats": [
+        "woodland",
+        "garden",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "White bells push through the cold earth, the first flowers brave enough to face winter"
+    },
+    {
+      "id": "uk_north_w5_redwing",
+      "species": "Redwing",
+      "scientificName": "Turdus iliacus",
+      "description": "Redwing flocks feeding on berries and in open fields",
+      "habitats": [
+        "hedgerow",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "A thrush with a red patch under its wing and a cream stripe over its eye. They travel in big groups"
+    },
+    {
+      "id": "uk_north_w5_winter_fungi",
+      "species": "Winter Fungi",
+      "description": "Jelly ear on elder, velvet shank on stumps. Fungi thrive in cool damp conditions",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "medium",
+      "childFriendlyNote": "Brown rubbery ears grow on branches. They really do feel like cold ears!"
+    }
+  ],
+  "6": [
+    {
+      "id": "uk_north_w6_snowdrop",
+      "species": "Snowdrop",
+      "scientificName": "Galanthus nivalis",
+      "description": "Snowdrop carpets in bloom under deciduous trees",
+      "habitats": [
+        "woodland",
+        "garden",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "White bells push through the cold earth, the first flowers brave enough to face winter"
+    },
+    {
+      "id": "uk_north_w6_redwing",
+      "species": "Redwing",
+      "scientificName": "Turdus iliacus",
+      "description": "Redwing flocks feeding on berries and in open fields",
+      "habitats": [
+        "hedgerow",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "A thrush with a red patch under its wing and a cream stripe over its eye. They travel in big groups"
+    },
+    {
+      "id": "uk_north_w6_crocus",
+      "species": "Crocus",
+      "scientificName": "Crocus vernus",
+      "description": "Crocuses emerging in parks and gardens, purple and gold",
+      "habitats": [
+        "garden",
+        "urban",
+        "playing_field"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Colourful cups open when the sun shines and close when it's cloudy. They know when it's sunny!"
+    },
+    {
+      "id": "uk_north_w6_great_tit",
+      "species": "Great Tit",
+      "scientificName": "Parus major",
+      "description": "Great tit singing \"tea-cher, tea-cher\" as day length increases",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban",
+        "hedgerow"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A bird that sounds like it's saying \"tea-cher, tea-cher\". It's a yellow and green bird with a black head"
+    }
+  ],
+  "7": [
+    {
+      "id": "uk_north_w7_redwing",
+      "species": "Redwing",
+      "scientificName": "Turdus iliacus",
+      "description": "Redwing flocks feeding on berries and in open fields",
+      "habitats": [
+        "hedgerow",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "A thrush with a red patch under its wing and a cream stripe over its eye. They travel in big groups"
+    },
+    {
+      "id": "uk_north_w7_crocus",
+      "species": "Crocus",
+      "scientificName": "Crocus vernus",
+      "description": "Crocuses emerging in parks and gardens, purple and gold",
+      "habitats": [
+        "garden",
+        "urban",
+        "playing_field"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Colourful cups open when the sun shines and close when it's cloudy. They know when it's sunny!"
+    },
+    {
+      "id": "uk_north_w7_common_frog",
+      "species": "Common Frog",
+      "scientificName": "Rana temporaria",
+      "description": "Frogs arriving at ponds, first spawn appearing in sheltered spots",
+      "habitats": [
+        "pond",
+        "stream",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Jelly blobs full of tiny black dots. Each one will grow a tail and become a wriggly tadpole!"
+    },
+    {
+      "id": "uk_north_w7_great_tit",
+      "species": "Great Tit",
+      "scientificName": "Parus major",
+      "description": "Great tit singing \"tea-cher, tea-cher\" as day length increases",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban",
+        "hedgerow"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A bird that sounds like it's saying \"tea-cher, tea-cher\". It's a yellow and green bird with a black head"
+    },
+    {
+      "id": "uk_north_w7_daffodil",
+      "species": "Daffodil",
+      "scientificName": "Narcissus pseudonarcissus",
+      "description": "Daffodil buds swelling, first blooms in sheltered spots",
+      "habitats": [
+        "garden",
+        "urban",
+        "woodland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Golden trumpets announce that spring is coming. Their bright colour cheers everyone up"
+    }
+  ],
+  "8": [
+    {
+      "id": "uk_north_w8_crocus",
+      "species": "Crocus",
+      "scientificName": "Crocus vernus",
+      "description": "Crocuses at peak bloom",
+      "habitats": [
+        "garden",
+        "urban",
+        "playing_field"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Colourful cups open when the sun shines and close when it's cloudy. They know when it's sunny!"
+    },
+    {
+      "id": "uk_north_w8_common_frog",
+      "species": "Common Frog",
+      "scientificName": "Rana temporaria",
+      "description": "Frogs arriving at ponds, first spawn appearing in sheltered spots",
+      "habitats": [
+        "pond",
+        "stream",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Jelly blobs full of tiny black dots. Each one will grow a tail and become a wriggly tadpole!"
+    },
+    {
+      "id": "uk_north_w8_great_tit",
+      "species": "Great Tit",
+      "scientificName": "Parus major",
+      "description": "Great tit singing \"tea-cher, tea-cher\" as day length increases",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban",
+        "hedgerow"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A bird that sounds like it's saying \"tea-cher, tea-cher\". It's a yellow and green bird with a black head"
+    },
+    {
+      "id": "uk_north_w8_daffodil",
+      "species": "Daffodil",
+      "scientificName": "Narcissus pseudonarcissus",
+      "description": "Daffodil buds swelling, first blooms in sheltered spots",
+      "habitats": [
+        "garden",
+        "urban",
+        "woodland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Golden trumpets announce that spring is coming. Their bright colour cheers everyone up"
+    },
+    {
+      "id": "uk_north_w8_lesser_celandine",
+      "species": "Lesser Celandine",
+      "scientificName": "Ficaria verna",
+      "description": "Glossy yellow celandine flowers on woodland banks",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "stream"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Shiny gold stars on the ground. Their petals are so glossy they look polished"
+    }
+  ],
+  "9": [
+    {
+      "id": "uk_north_w9_crocus",
+      "species": "Crocus",
+      "scientificName": "Crocus vernus",
+      "description": "Crocuses fading as daffodils take over",
+      "habitats": [
+        "garden",
+        "urban",
+        "playing_field"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Colourful cups open when the sun shines and close when it's cloudy. They know when it's sunny!"
+    },
+    {
+      "id": "uk_north_w9_common_frog",
+      "species": "Common Frog",
+      "scientificName": "Rana temporaria",
+      "description": "Frogs arriving at ponds, first spawn appearing in sheltered spots",
+      "habitats": [
+        "pond",
+        "stream",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Jelly blobs full of tiny black dots. Each one will grow a tail and become a wriggly tadpole!"
+    },
+    {
+      "id": "uk_north_w9_great_tit",
+      "species": "Great Tit",
+      "scientificName": "Parus major",
+      "description": "Great tit singing \"tea-cher, tea-cher\" as day length increases",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban",
+        "hedgerow"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A bird that sounds like it's saying \"tea-cher, tea-cher\". It's a yellow and green bird with a black head"
+    },
+    {
+      "id": "uk_north_w9_daffodil",
+      "species": "Daffodil",
+      "scientificName": "Narcissus pseudonarcissus",
+      "description": "Daffodils in full flower across parks and gardens",
+      "habitats": [
+        "garden",
+        "urban",
+        "woodland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Golden trumpets announce that spring is coming. Their bright colour cheers everyone up"
+    },
+    {
+      "id": "uk_north_w9_lesser_celandine",
+      "species": "Lesser Celandine",
+      "scientificName": "Ficaria verna",
+      "description": "Glossy yellow celandine flowers on woodland banks",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "stream"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Shiny gold stars on the ground. Their petals are so glossy they look polished"
+    }
+  ],
+  "10": [
+    {
+      "id": "uk_north_w10_common_frog",
+      "species": "Common Frog",
+      "scientificName": "Rana temporaria",
+      "description": "Frogspawn abundant in pond margins",
+      "habitats": [
+        "pond",
+        "stream",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Jelly blobs full of tiny black dots. Each one will grow a tail and become a wriggly tadpole!"
+    },
+    {
+      "id": "uk_north_w10_great_tit",
+      "species": "Great Tit",
+      "scientificName": "Parus major",
+      "description": "Great tit singing \"tea-cher, tea-cher\" as day length increases",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban",
+        "hedgerow"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A bird that sounds like it's saying \"tea-cher, tea-cher\". It's a yellow and green bird with a black head"
+    },
+    {
+      "id": "uk_north_w10_daffodil",
+      "species": "Daffodil",
+      "scientificName": "Narcissus pseudonarcissus",
+      "description": "Daffodils in full flower across parks and gardens",
+      "habitats": [
+        "garden",
+        "urban",
+        "woodland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Golden trumpets announce that spring is coming. Their bright colour cheers everyone up"
+    },
+    {
+      "id": "uk_north_w10_lesser_celandine",
+      "species": "Lesser Celandine",
+      "scientificName": "Ficaria verna",
+      "description": "Glossy yellow celandine flowers on woodland banks",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "stream"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Shiny gold stars on the ground. Their petals are so glossy they look polished"
+    }
+  ],
+  "11": [
+    {
+      "id": "uk_north_w11_common_frog",
+      "species": "Common Frog",
+      "scientificName": "Rana temporaria",
+      "description": "Frogspawn abundant in pond margins",
+      "habitats": [
+        "pond",
+        "stream",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Jelly blobs full of tiny black dots. Each one will grow a tail and become a wriggly tadpole!"
+    },
+    {
+      "id": "uk_north_w11_great_tit",
+      "species": "Great Tit",
+      "scientificName": "Parus major",
+      "description": "Great tit singing \"tea-cher, tea-cher\" as day length increases",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban",
+        "hedgerow"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A bird that sounds like it's saying \"tea-cher, tea-cher\". It's a yellow and green bird with a black head"
+    },
+    {
+      "id": "uk_north_w11_blackthorn",
+      "species": "Blackthorn",
+      "scientificName": "Prunus spinosa",
+      "description": "Blackthorn buds opening, first white blossom on dark thorny branches",
+      "habitats": [
+        "hedgerow",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Dark prickly branches explode in white flowers before any leaves appear, like winter snow on spring hedges"
+    },
+    {
+      "id": "uk_north_w11_buff_tailed_bumblebee",
+      "species": "Buff-tailed Bumblebee",
+      "scientificName": "Bombus terrestris",
+      "description": "Queen bumblebees waking from hibernation",
+      "habitats": [
+        "garden",
+        "hedgerow",
+        "meadow",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Big furry bees buzz low over the ground. The queen is house-hunting for a nest hole"
+    }
+  ],
+  "12": [
+    {
+      "id": "uk_north_w12_common_frog",
+      "species": "Common Frog",
+      "scientificName": "Rana temporaria",
+      "description": "Tadpoles hatching from frogspawn",
+      "habitats": [
+        "pond",
+        "stream",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Jelly blobs full of tiny black dots. Each one will grow a tail and become a wriggly tadpole!"
+    },
+    {
+      "id": "uk_north_w12_great_tit",
+      "species": "Great Tit",
+      "scientificName": "Parus major",
+      "description": "Great tit singing \"tea-cher, tea-cher\" as day length increases",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban",
+        "hedgerow"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "A bird that sounds like it's saying \"tea-cher, tea-cher\". It's a yellow and green bird with a black head"
+    },
+    {
+      "id": "uk_north_w12_blackthorn",
+      "species": "Blackthorn",
+      "scientificName": "Prunus spinosa",
+      "description": "Blackthorn buds opening, first white blossom on dark thorny branches",
+      "habitats": [
+        "hedgerow",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Dark prickly branches explode in white flowers before any leaves appear, like winter snow on spring hedges"
+    },
+    {
+      "id": "uk_north_w12_brimstone_butterfly",
+      "species": "Brimstone Butterfly",
+      "scientificName": "Gonepteryx rhamni",
+      "description": "First brimstone butterflies on warm days",
+      "habitats": [
+        "hedgerow",
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A leaf-shaped yellow butterfly. It slept all winter hidden as a leaf!"
+    },
+    {
+      "id": "uk_north_w12_buff_tailed_bumblebee",
+      "species": "Buff-tailed Bumblebee",
+      "scientificName": "Bombus terrestris",
+      "description": "Queen bumblebees waking from hibernation",
+      "habitats": [
+        "garden",
+        "hedgerow",
+        "meadow",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Big furry bees buzz low over the ground. The queen is house-hunting for a nest hole"
+    }
+  ],
+  "13": [
+    {
+      "id": "uk_north_w13_great_tit",
+      "species": "Great Tit",
+      "scientificName": "Parus major",
+      "description": "Great tit singing \"tea-cher, tea-cher\" as day length increases",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban",
+        "hedgerow"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "A bird that sounds like it's saying \"tea-cher, tea-cher\". It's a yellow and green bird with a black head"
+    },
+    {
+      "id": "uk_north_w13_blackthorn",
+      "species": "Blackthorn",
+      "scientificName": "Prunus spinosa",
+      "description": "Blackthorn hedgerows in full white bloom",
+      "habitats": [
+        "hedgerow",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Dark prickly branches explode in white flowers before any leaves appear, like winter snow on spring hedges"
+    },
+    {
+      "id": "uk_north_w13_brimstone_butterfly",
+      "species": "Brimstone Butterfly",
+      "scientificName": "Gonepteryx rhamni",
+      "description": "First brimstone butterflies on warm days",
+      "habitats": [
+        "hedgerow",
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A leaf-shaped yellow butterfly. It slept all winter hidden as a leaf!"
+    },
+    {
+      "id": "uk_north_w13_chiffchaff",
+      "species": "Chiffchaff",
+      "scientificName": "Phylloscopus collybita",
+      "description": "Chiffchaffs arriving, singing \"chiff-chaff\" from bare branches",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A tiny bird calls its own name, \"chiff-chaff, chiff-chaff\", from the treetops"
+    },
+    {
+      "id": "uk_north_w13_buff_tailed_bumblebee",
+      "species": "Buff-tailed Bumblebee",
+      "scientificName": "Bombus terrestris",
+      "description": "Bumblebee queens foraging and seeking nest sites",
+      "habitats": [
+        "garden",
+        "hedgerow",
+        "meadow",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Big furry bees buzz low over the ground. The queen is house-hunting for a nest hole"
+    }
+  ],
+  "14": [
+    {
+      "id": "uk_north_w14_blackthorn",
+      "species": "Blackthorn",
+      "scientificName": "Prunus spinosa",
+      "description": "Blackthorn hedgerows in full white bloom",
+      "habitats": [
+        "hedgerow",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Dark prickly branches explode in white flowers before any leaves appear, like winter snow on spring hedges"
+    },
+    {
+      "id": "uk_north_w14_brimstone_butterfly",
+      "species": "Brimstone Butterfly",
+      "scientificName": "Gonepteryx rhamni",
+      "description": "Brimstones active along hedgerows seeking nectar",
+      "habitats": [
+        "hedgerow",
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A leaf-shaped yellow butterfly. It slept all winter hidden as a leaf!"
+    },
+    {
+      "id": "uk_north_w14_chiffchaff",
+      "species": "Chiffchaff",
+      "scientificName": "Phylloscopus collybita",
+      "description": "Chiffchaffs arriving, singing \"chiff-chaff\" from bare branches",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A tiny bird calls its own name, \"chiff-chaff, chiff-chaff\", from the treetops"
+    },
+    {
+      "id": "uk_north_w14_buff_tailed_bumblebee",
+      "species": "Buff-tailed Bumblebee",
+      "scientificName": "Bombus terrestris",
+      "description": "Bumblebee queens foraging and seeking nest sites",
+      "habitats": [
+        "garden",
+        "hedgerow",
+        "meadow",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Big furry bees buzz low over the ground. The queen is house-hunting for a nest hole"
+    }
+  ],
+  "15": [
+    {
+      "id": "uk_north_w15_blackthorn",
+      "species": "Blackthorn",
+      "scientificName": "Prunus spinosa",
+      "description": "Blackthorn blossom fading, leaves emerging",
+      "habitats": [
+        "hedgerow",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Dark prickly branches explode in white flowers before any leaves appear, like winter snow on spring hedges"
+    },
+    {
+      "id": "uk_north_w15_brimstone_butterfly",
+      "species": "Brimstone Butterfly",
+      "scientificName": "Gonepteryx rhamni",
+      "description": "Brimstones active along hedgerows seeking nectar",
+      "habitats": [
+        "hedgerow",
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A leaf-shaped yellow butterfly. It slept all winter hidden as a leaf!"
+    },
+    {
+      "id": "uk_north_w15_chiffchaff",
+      "species": "Chiffchaff",
+      "scientificName": "Phylloscopus collybita",
+      "description": "Chiffchaff song a constant soundtrack in woodlands",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A tiny bird calls its own name, \"chiff-chaff, chiff-chaff\", from the treetops"
+    },
+    {
+      "id": "uk_north_w15_buff_tailed_bumblebee",
+      "species": "Buff-tailed Bumblebee",
+      "scientificName": "Bombus terrestris",
+      "description": "Bumblebee queens foraging and seeking nest sites",
+      "habitats": [
+        "garden",
+        "hedgerow",
+        "meadow",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Big furry bees buzz low over the ground. The queen is house-hunting for a nest hole"
+    }
+  ],
+  "16": [
+    {
+      "id": "uk_north_w16_brimstone_butterfly",
+      "species": "Brimstone Butterfly",
+      "scientificName": "Gonepteryx rhamni",
+      "description": "Brimstone sightings decreasing",
+      "habitats": [
+        "hedgerow",
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "A leaf-shaped yellow butterfly. It slept all winter hidden as a leaf!"
+    },
+    {
+      "id": "uk_north_w16_chiffchaff",
+      "species": "Chiffchaff",
+      "scientificName": "Phylloscopus collybita",
+      "description": "Chiffchaff song a constant soundtrack in woodlands",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A tiny bird calls its own name, \"chiff-chaff, chiff-chaff\", from the treetops"
+    },
+    {
+      "id": "uk_north_w16_bluebell",
+      "species": "Bluebell",
+      "scientificName": "Hyacinthoides non-scripta",
+      "description": "Bluebells starting to open in woodland",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Walk through a wood and the floor is a sea of blue. It smells sweet and honey-like"
+    },
+    {
+      "id": "uk_north_w16_swallow",
+      "species": "Swallow",
+      "scientificName": "Hirundo rustica",
+      "description": "First swallows arriving from Africa",
+      "habitats": [
+        "grassland",
+        "pond",
+        "stream",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Swooping birds with long tail streamers. They flew thousands of miles from Africa to be here!"
+    },
+    {
+      "id": "uk_north_w16_orange_tip_butterfly",
+      "species": "Orange-tip Butterfly",
+      "scientificName": "Anthocharis cardamines",
+      "description": "Orange-tip males patrolling hedgerows",
+      "habitats": [
+        "hedgerow",
+        "meadow",
+        "garden",
+        "stream"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "White butterflies with sunset-orange tips. Only the boys are orange, the girls are just white"
+    }
+  ],
+  "17": [
+    {
+      "id": "uk_north_w17_chiffchaff",
+      "species": "Chiffchaff",
+      "scientificName": "Phylloscopus collybita",
+      "description": "Chiffchaff song a constant soundtrack in woodlands",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A tiny bird calls its own name, \"chiff-chaff, chiff-chaff\", from the treetops"
+    },
+    {
+      "id": "uk_north_w17_bluebell",
+      "species": "Bluebell",
+      "scientificName": "Hyacinthoides non-scripta",
+      "description": "Bluebells starting to open in woodland",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Walk through a wood and the floor is a sea of blue. It smells sweet and honey-like"
+    },
+    {
+      "id": "uk_north_w17_swallow",
+      "species": "Swallow",
+      "scientificName": "Hirundo rustica",
+      "description": "First swallows arriving from Africa",
+      "habitats": [
+        "grassland",
+        "pond",
+        "stream",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Swooping birds with long tail streamers. They flew thousands of miles from Africa to be here!"
+    },
+    {
+      "id": "uk_north_w17_cherry_blossom",
+      "species": "Cherry Blossom",
+      "scientificName": "Prunus avium",
+      "description": "Cherry blossom opening in parks and woodland edges",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Trees dressed in pink and white. When the breeze blows it's like warm confetti!"
+    },
+    {
+      "id": "uk_north_w17_dawn_chorus",
+      "species": "Dawn Chorus",
+      "kind": "event",
+      "description": "Dawn chorus building as migrant songbirds arrive",
+      "habitats": [
+        "woodland",
+        "garden",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Set your alarm super early and open the window. The birds sing the most amazing concert!"
+    },
+    {
+      "id": "uk_north_w17_cuckoo",
+      "species": "Cuckoo",
+      "scientificName": "Cuculus canorus",
+      "description": "First cuckoos heard calling",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "grassland"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "\"Cuck-oo! Cuck-oo!\". This cheeky bird lays its eggs in other birds' nests!"
+    },
+    {
+      "id": "uk_north_w17_orange_tip_butterfly",
+      "species": "Orange-tip Butterfly",
+      "scientificName": "Anthocharis cardamines",
+      "description": "Orange-tip males patrolling hedgerows",
+      "habitats": [
+        "hedgerow",
+        "meadow",
+        "garden",
+        "stream"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "White butterflies with sunset-orange tips. Only the boys are orange, the girls are just white"
+    }
+  ],
+  "18": [
+    {
+      "id": "uk_north_w18_chiffchaff",
+      "species": "Chiffchaff",
+      "scientificName": "Phylloscopus collybita",
+      "description": "Chiffchaff song a constant soundtrack in woodlands",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A tiny bird calls its own name, \"chiff-chaff, chiff-chaff\", from the treetops"
+    },
+    {
+      "id": "uk_north_w18_bluebell",
+      "species": "Bluebell",
+      "scientificName": "Hyacinthoides non-scripta",
+      "description": "Bluebell carpets at peak under tree canopy",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Walk through a wood and the floor is a sea of blue. It smells sweet and honey-like"
+    },
+    {
+      "id": "uk_north_w18_swallow",
+      "species": "Swallow",
+      "scientificName": "Hirundo rustica",
+      "description": "Swallows settling in, prospecting barn nest sites",
+      "habitats": [
+        "grassland",
+        "pond",
+        "stream",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Swooping birds with long tail streamers. They flew thousands of miles from Africa to be here!"
+    },
+    {
+      "id": "uk_north_w18_cherry_blossom",
+      "species": "Cherry Blossom",
+      "scientificName": "Prunus avium",
+      "description": "Cherry blossom opening in parks and woodland edges",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Trees dressed in pink and white. When the breeze blows it's like warm confetti!"
+    },
+    {
+      "id": "uk_north_w18_dawn_chorus",
+      "species": "Dawn Chorus",
+      "kind": "event",
+      "description": "Dawn chorus building as migrant songbirds arrive",
+      "habitats": [
+        "woodland",
+        "garden",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Set your alarm super early and open the window. The birds sing the most amazing concert!"
+    },
+    {
+      "id": "uk_north_w18_cuckoo",
+      "species": "Cuckoo",
+      "scientificName": "Cuculus canorus",
+      "description": "First cuckoos heard calling",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "grassland"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "\"Cuck-oo! Cuck-oo!\". This cheeky bird lays its eggs in other birds' nests!"
+    },
+    {
+      "id": "uk_north_w18_orange_tip_butterfly",
+      "species": "Orange-tip Butterfly",
+      "scientificName": "Anthocharis cardamines",
+      "description": "Orange-tip males patrolling hedgerows",
+      "habitats": [
+        "hedgerow",
+        "meadow",
+        "garden",
+        "stream"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "White butterflies with sunset-orange tips. Only the boys are orange, the girls are just white"
+    }
+  ],
+  "19": [
+    {
+      "id": "uk_north_w19_bluebell",
+      "species": "Bluebell",
+      "scientificName": "Hyacinthoides non-scripta",
+      "description": "Bluebell carpets at peak under tree canopy",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Walk through a wood and the floor is a sea of blue. It smells sweet and honey-like"
+    },
+    {
+      "id": "uk_north_w19_swallow",
+      "species": "Swallow",
+      "scientificName": "Hirundo rustica",
+      "description": "Swallows settling in, prospecting barn nest sites",
+      "habitats": [
+        "grassland",
+        "pond",
+        "stream",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Swooping birds with long tail streamers. They flew thousands of miles from Africa to be here!"
+    },
+    {
+      "id": "uk_north_w19_cherry_blossom",
+      "species": "Cherry Blossom",
+      "scientificName": "Prunus avium",
+      "description": "Cherry blossom at peak, petals drifting in the wind",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Trees dressed in pink and white. When the breeze blows it's like warm confetti!"
+    },
+    {
+      "id": "uk_north_w19_dawn_chorus",
+      "species": "Dawn Chorus",
+      "kind": "event",
+      "description": "Dawn chorus building as migrant songbirds arrive",
+      "habitats": [
+        "woodland",
+        "garden",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Set your alarm super early and open the window. The birds sing the most amazing concert!"
+    },
+    {
+      "id": "uk_north_w19_cuckoo",
+      "species": "Cuckoo",
+      "scientificName": "Cuculus canorus",
+      "description": "Cuckoo calling across open country and woodland edges",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "grassland"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "\"Cuck-oo! Cuck-oo!\". This cheeky bird lays its eggs in other birds' nests!"
+    },
+    {
+      "id": "uk_north_w19_orange_tip_butterfly",
+      "species": "Orange-tip Butterfly",
+      "scientificName": "Anthocharis cardamines",
+      "description": "Orange-tips at peak",
+      "habitats": [
+        "hedgerow",
+        "meadow",
+        "garden",
+        "stream"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "White butterflies with sunset-orange tips. Only the boys are orange, the girls are just white"
+    },
+    {
+      "id": "uk_north_w19_hawthorn",
+      "species": "Hawthorn",
+      "scientificName": "Crataegus monogyna",
+      "description": "Hawthorn blossom opening, hedgerows turning white",
+      "habitats": [
+        "hedgerow",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Creamy white flowers cover the hedges and smell sweet and heavy. It means summer is nearly here"
+    }
+  ],
+  "20": [
+    {
+      "id": "uk_north_w20_cherry_blossom",
+      "species": "Cherry Blossom",
+      "scientificName": "Prunus avium",
+      "description": "Cherry blossom at peak, petals drifting in the wind",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Trees dressed in pink and white. When the breeze blows it's like warm confetti!"
+    },
+    {
+      "id": "uk_north_w20_dawn_chorus",
+      "species": "Dawn Chorus",
+      "kind": "event",
+      "description": "Dawn chorus at full strength",
+      "habitats": [
+        "woodland",
+        "garden",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Set your alarm super early and open the window. The birds sing the most amazing concert!"
+    },
+    {
+      "id": "uk_north_w20_cuckoo",
+      "species": "Cuckoo",
+      "scientificName": "Cuculus canorus",
+      "description": "Cuckoo calling across open country and woodland edges",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "grassland"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "\"Cuck-oo! Cuck-oo!\". This cheeky bird lays its eggs in other birds' nests!"
+    },
+    {
+      "id": "uk_north_w20_orange_tip_butterfly",
+      "species": "Orange-tip Butterfly",
+      "scientificName": "Anthocharis cardamines",
+      "description": "Orange-tips at peak",
+      "habitats": [
+        "hedgerow",
+        "meadow",
+        "garden",
+        "stream"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "White butterflies with sunset-orange tips. Only the boys are orange, the girls are just white"
+    },
+    {
+      "id": "uk_north_w20_hawthorn",
+      "species": "Hawthorn",
+      "scientificName": "Crataegus monogyna",
+      "description": "Hawthorn blossom opening, hedgerows turning white",
+      "habitats": [
+        "hedgerow",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Creamy white flowers cover the hedges and smell sweet and heavy. It means summer is nearly here"
+    },
+    {
+      "id": "uk_north_w20_common_swift",
+      "species": "Common Swift",
+      "scientificName": "Apus apus",
+      "description": "Swifts arriving and screaming over towns",
+      "habitats": [
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Dark birds that scream as they zoom between buildings. They never land except at their nest!"
+    },
+    {
+      "id": "uk_north_w20_cow_parsley",
+      "species": "Cow Parsley",
+      "scientificName": "Anthriscus sylvestris",
+      "description": "Cow parsley frothing along lanes and hedgerow bases",
+      "habitats": [
+        "hedgerow",
+        "grassland",
+        "stream"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Frothy white flowers line every path like lace decorations"
+    }
+  ],
+  "21": [
+    {
+      "id": "uk_north_w21_chiffchaff",
+      "species": "Chiffchaff",
+      "scientificName": "Phylloscopus collybita",
+      "description": "Chiffchaff song decreasing as nesting progresses",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "A tiny bird calls its own name, \"chiff-chaff, chiff-chaff\", from the treetops"
+    },
+    {
+      "id": "uk_north_w21_dawn_chorus",
+      "species": "Dawn Chorus",
+      "kind": "event",
+      "description": "Dawn chorus at full strength",
+      "habitats": [
+        "woodland",
+        "garden",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Set your alarm super early and open the window. The birds sing the most amazing concert!"
+    },
+    {
+      "id": "uk_north_w21_cuckoo",
+      "species": "Cuckoo",
+      "scientificName": "Cuculus canorus",
+      "description": "Cuckoo calling across open country and woodland edges",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "grassland"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "\"Cuck-oo! Cuck-oo!\". This cheeky bird lays its eggs in other birds' nests!"
+    },
+    {
+      "id": "uk_north_w21_hawthorn",
+      "species": "Hawthorn",
+      "scientificName": "Crataegus monogyna",
+      "description": "Hawthorn in heavy bloom, sweet musky scent",
+      "habitats": [
+        "hedgerow",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Creamy white flowers cover the hedges and smell sweet and heavy. It means summer is nearly here"
+    },
+    {
+      "id": "uk_north_w21_common_swift",
+      "species": "Common Swift",
+      "scientificName": "Apus apus",
+      "description": "Swifts arriving and screaming over towns",
+      "habitats": [
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Dark birds that scream as they zoom between buildings. They never land except at their nest!"
+    },
+    {
+      "id": "uk_north_w21_cow_parsley",
+      "species": "Cow Parsley",
+      "scientificName": "Anthriscus sylvestris",
+      "description": "Cow parsley at peak, white froth lining every roadside",
+      "habitats": [
+        "hedgerow",
+        "grassland",
+        "stream"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Frothy white flowers line every path like lace decorations"
+    },
+    {
+      "id": "uk_north_w21_fox_cub",
+      "species": "Fox Cub",
+      "scientificName": "Vulpes vulpes",
+      "description": "Fox cubs exploring outside dens at dusk",
+      "habitats": [
+        "urban",
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Little ginger cubs play-wrestle near their den. Watch from far away and stay quiet!"
+    }
+  ],
+  "22": [
+    {
+      "id": "uk_north_w22_cherry_blossom",
+      "species": "Cherry Blossom",
+      "scientificName": "Prunus avium",
+      "description": "Cherry blossom over, leaves unfurling",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Trees dressed in pink and white. When the breeze blows it's like warm confetti!"
+    },
+    {
+      "id": "uk_north_w22_dawn_chorus",
+      "species": "Dawn Chorus",
+      "kind": "event",
+      "description": "Dawn chorus quieting as breeding season peaks",
+      "habitats": [
+        "woodland",
+        "garden",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Set your alarm super early and open the window. The birds sing the most amazing concert!"
+    },
+    {
+      "id": "uk_north_w22_hawthorn",
+      "species": "Hawthorn",
+      "scientificName": "Crataegus monogyna",
+      "description": "Hawthorn in heavy bloom, sweet musky scent",
+      "habitats": [
+        "hedgerow",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Creamy white flowers cover the hedges and smell sweet and heavy. It means summer is nearly here"
+    },
+    {
+      "id": "uk_north_w22_common_swift",
+      "species": "Common Swift",
+      "scientificName": "Apus apus",
+      "description": "Swifts in full residence, evening screaming parties",
+      "habitats": [
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Dark birds that scream as they zoom between buildings. They never land except at their nest!"
+    },
+    {
+      "id": "uk_north_w22_cow_parsley",
+      "species": "Cow Parsley",
+      "scientificName": "Anthriscus sylvestris",
+      "description": "Cow parsley at peak, white froth lining every roadside",
+      "habitats": [
+        "hedgerow",
+        "grassland",
+        "stream"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Frothy white flowers line every path like lace decorations"
+    },
+    {
+      "id": "uk_north_w22_fox_cub",
+      "species": "Fox Cub",
+      "scientificName": "Vulpes vulpes",
+      "description": "Fox cubs exploring outside dens at dusk",
+      "habitats": [
+        "urban",
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Little ginger cubs play-wrestle near their den. Watch from far away and stay quiet!"
+    },
+    {
+      "id": "uk_north_w22_elder",
+      "species": "Elder",
+      "scientificName": "Sambucus nigra",
+      "description": "Elderflower clusters opening",
+      "habitats": [
+        "hedgerow",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Flat plates of creamy flowers that smell sweet. People make fizzy elderflower drinks from them!"
+    }
+  ],
+  "23": [
+    {
+      "id": "uk_north_w23_dawn_chorus",
+      "species": "Dawn Chorus",
+      "kind": "event",
+      "description": "Dawn chorus quieting as breeding season peaks",
+      "habitats": [
+        "woodland",
+        "garden",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Set your alarm super early and open the window. The birds sing the most amazing concert!"
+    },
+    {
+      "id": "uk_north_w23_cuckoo",
+      "species": "Cuckoo",
+      "scientificName": "Cuculus canorus",
+      "description": "Cuckoo calls less frequent",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "grassland"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "\"Cuck-oo! Cuck-oo!\". This cheeky bird lays its eggs in other birds' nests!"
+    },
+    {
+      "id": "uk_north_w23_hawthorn",
+      "species": "Hawthorn",
+      "scientificName": "Crataegus monogyna",
+      "description": "Hawthorn going over, leaves now dominant",
+      "habitats": [
+        "hedgerow",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Creamy white flowers cover the hedges and smell sweet and heavy. It means summer is nearly here"
+    },
+    {
+      "id": "uk_north_w23_common_swift",
+      "species": "Common Swift",
+      "scientificName": "Apus apus",
+      "description": "Swifts in full residence, evening screaming parties",
+      "habitats": [
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Dark birds that scream as they zoom between buildings. They never land except at their nest!"
+    },
+    {
+      "id": "uk_north_w23_cow_parsley",
+      "species": "Cow Parsley",
+      "scientificName": "Anthriscus sylvestris",
+      "description": "Cow parsley going to seed",
+      "habitats": [
+        "hedgerow",
+        "grassland",
+        "stream"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Frothy white flowers line every path like lace decorations"
+    },
+    {
+      "id": "uk_north_w23_elder",
+      "species": "Elder",
+      "scientificName": "Sambucus nigra",
+      "description": "Elderflower clusters opening",
+      "habitats": [
+        "hedgerow",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Flat plates of creamy flowers that smell sweet. People make fizzy elderflower drinks from them!"
+    },
+    {
+      "id": "uk_north_w23_dog_rose",
+      "species": "Dog Rose",
+      "scientificName": "Rosa canina",
+      "description": "Dog rose flowers opening in hedgerows",
+      "habitats": [
+        "hedgerow"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Simple pink flowers with a lovely smell decorate the hedges"
+    }
+  ],
+  "24": [
+    {
+      "id": "uk_north_w24_common_swift",
+      "species": "Common Swift",
+      "scientificName": "Apus apus",
+      "description": "Swifts in full residence, evening screaming parties",
+      "habitats": [
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Dark birds that scream as they zoom between buildings. They never land except at their nest!"
+    },
+    {
+      "id": "uk_north_w24_elder",
+      "species": "Elder",
+      "scientificName": "Sambucus nigra",
+      "description": "Elderflower in full bloom, sweet scent",
+      "habitats": [
+        "hedgerow",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Flat plates of creamy flowers that smell sweet. People make fizzy elderflower drinks from them!"
+    },
+    {
+      "id": "uk_north_w24_dog_rose",
+      "species": "Dog Rose",
+      "scientificName": "Rosa canina",
+      "description": "Dog rose flowers opening in hedgerows",
+      "habitats": [
+        "hedgerow"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Simple pink flowers with a lovely smell decorate the hedges"
+    },
+    {
+      "id": "uk_north_w24_foxglove",
+      "species": "Foxglove",
+      "scientificName": "Digitalis purpurea",
+      "description": "Foxglove spires opening from bottom upward",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Tall towers of purple bells with spotty insides. Bees climb right inside them!"
+    },
+    {
+      "id": "uk_north_w24_broad_bodied_chaser",
+      "species": "Broad-bodied Chaser",
+      "scientificName": "Libellula depressa",
+      "description": "Dragonflies emerging at ponds",
+      "habitats": [
+        "pond",
+        "stream",
+        "meadow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A chunky blue dragonfly guards the pond like a tiny fighter jet. It can see in almost every direction!"
+    },
+    {
+      "id": "uk_north_w24_red_clover",
+      "species": "Red Clover",
+      "scientificName": "Trifolium pratense",
+      "description": "Red clover flowering in grasslands",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "playing_field",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Pink fluffy pompom flowers. Pull out one tiny tube and taste the sweet drop of nectar at the bottom"
+    },
+    {
+      "id": "uk_north_w24_meadow_grasses",
+      "species": "Meadow Grasses",
+      "description": "Grass flowers shedding pollen, hay fever season",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "smell",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Brush through tall grass and golden pollen puffs up like dust, achoo!"
+    }
+  ],
+  "25": [
+    {
+      "id": "uk_north_w25_common_swift",
+      "species": "Common Swift",
+      "scientificName": "Apus apus",
+      "description": "Swifts in full residence, evening screaming parties",
+      "habitats": [
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Dark birds that scream as they zoom between buildings. They never land except at their nest!"
+    },
+    {
+      "id": "uk_north_w25_elder",
+      "species": "Elder",
+      "scientificName": "Sambucus nigra",
+      "description": "Elderflower in full bloom, sweet scent",
+      "habitats": [
+        "hedgerow",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Flat plates of creamy flowers that smell sweet. People make fizzy elderflower drinks from them!"
+    },
+    {
+      "id": "uk_north_w25_dog_rose",
+      "species": "Dog Rose",
+      "scientificName": "Rosa canina",
+      "description": "Dog roses at peak, pink and white blooms",
+      "habitats": [
+        "hedgerow"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Simple pink flowers with a lovely smell decorate the hedges"
+    },
+    {
+      "id": "uk_north_w25_foxglove",
+      "species": "Foxglove",
+      "scientificName": "Digitalis purpurea",
+      "description": "Foxglove spires opening from bottom upward",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Tall towers of purple bells with spotty insides. Bees climb right inside them!"
+    },
+    {
+      "id": "uk_north_w25_broad_bodied_chaser",
+      "species": "Broad-bodied Chaser",
+      "scientificName": "Libellula depressa",
+      "description": "Dragonflies emerging at ponds",
+      "habitats": [
+        "pond",
+        "stream",
+        "meadow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A chunky blue dragonfly guards the pond like a tiny fighter jet. It can see in almost every direction!"
+    },
+    {
+      "id": "uk_north_w25_red_clover",
+      "species": "Red Clover",
+      "scientificName": "Trifolium pratense",
+      "description": "Red clover flowering in grasslands",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "playing_field",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Pink fluffy pompom flowers. Pull out one tiny tube and taste the sweet drop of nectar at the bottom"
+    },
+    {
+      "id": "uk_north_w25_meadow_grasses",
+      "species": "Meadow Grasses",
+      "description": "Grass flowers shedding pollen, hay fever season",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "smell",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Brush through tall grass and golden pollen puffs up like dust, achoo!"
+    }
+  ],
+  "26": [
+    {
+      "id": "uk_north_w26_common_swift",
+      "species": "Common Swift",
+      "scientificName": "Apus apus",
+      "description": "Swifts in full residence, evening screaming parties",
+      "habitats": [
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Dark birds that scream as they zoom between buildings. They never land except at their nest!"
+    },
+    {
+      "id": "uk_north_w26_dog_rose",
+      "species": "Dog Rose",
+      "scientificName": "Rosa canina",
+      "description": "Dog roses at peak, pink and white blooms",
+      "habitats": [
+        "hedgerow"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Simple pink flowers with a lovely smell decorate the hedges"
+    },
+    {
+      "id": "uk_north_w26_foxglove",
+      "species": "Foxglove",
+      "scientificName": "Digitalis purpurea",
+      "description": "Foxgloves at peak in woodland clearings and banks",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Tall towers of purple bells with spotty insides. Bees climb right inside them!"
+    },
+    {
+      "id": "uk_north_w26_broad_bodied_chaser",
+      "species": "Broad-bodied Chaser",
+      "scientificName": "Libellula depressa",
+      "description": "Dragonflies emerging at ponds",
+      "habitats": [
+        "pond",
+        "stream",
+        "meadow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A chunky blue dragonfly guards the pond like a tiny fighter jet. It can see in almost every direction!"
+    },
+    {
+      "id": "uk_north_w26_red_clover",
+      "species": "Red Clover",
+      "scientificName": "Trifolium pratense",
+      "description": "Red clover flowering in grasslands",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "playing_field",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Pink fluffy pompom flowers. Pull out one tiny tube and taste the sweet drop of nectar at the bottom"
+    },
+    {
+      "id": "uk_north_w26_meadow_grasses",
+      "species": "Meadow Grasses",
+      "description": "Grass flowers shedding pollen, hay fever season",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "smell",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Brush through tall grass and golden pollen puffs up like dust, achoo!"
+    },
+    {
+      "id": "uk_north_w26_bramble_flowers",
+      "species": "Bramble Flowers",
+      "scientificName": "Rubus fruticosus",
+      "description": "Bramble hedgerows flowering",
+      "habitats": [
+        "hedgerow",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Each flower on the prickly bush will become a blackberry!"
+    }
+  ],
+  "27": [
+    {
+      "id": "uk_north_w27_common_swift",
+      "species": "Common Swift",
+      "scientificName": "Apus apus",
+      "description": "Swifts in full residence, evening screaming parties",
+      "habitats": [
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Dark birds that scream as they zoom between buildings. They never land except at their nest!"
+    },
+    {
+      "id": "uk_north_w27_elder",
+      "species": "Elder",
+      "scientificName": "Sambucus nigra",
+      "description": "Elderflower fading, tiny green berries forming",
+      "habitats": [
+        "hedgerow",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Flat plates of creamy flowers that smell sweet. People make fizzy elderflower drinks from them!"
+    },
+    {
+      "id": "uk_north_w27_foxglove",
+      "species": "Foxglove",
+      "scientificName": "Digitalis purpurea",
+      "description": "Foxgloves at peak in woodland clearings and banks",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Tall towers of purple bells with spotty insides. Bees climb right inside them!"
+    },
+    {
+      "id": "uk_north_w27_broad_bodied_chaser",
+      "species": "Broad-bodied Chaser",
+      "scientificName": "Libellula depressa",
+      "description": "Dragonflies patrolling ponds and streams",
+      "habitats": [
+        "pond",
+        "stream",
+        "meadow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A chunky blue dragonfly guards the pond like a tiny fighter jet. It can see in almost every direction!"
+    },
+    {
+      "id": "uk_north_w27_red_clover",
+      "species": "Red Clover",
+      "scientificName": "Trifolium pratense",
+      "description": "Clover at peak, bumblebees visiting constantly",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "playing_field",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Pink fluffy pompom flowers. Pull out one tiny tube and taste the sweet drop of nectar at the bottom"
+    },
+    {
+      "id": "uk_north_w27_meadow_brown",
+      "species": "Meadow Brown",
+      "scientificName": "Maniola jurtina",
+      "description": "Meadow brown butterflies appearing in grassland",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Brown butterflies with an eye-spot dance lazily above the grass"
+    },
+    {
+      "id": "uk_north_w27_bramble_flowers",
+      "species": "Bramble Flowers",
+      "scientificName": "Rubus fruticosus",
+      "description": "Bramble hedgerows flowering",
+      "habitats": [
+        "hedgerow",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Each flower on the prickly bush will become a blackberry!"
+    }
+  ],
+  "28": [
+    {
+      "id": "uk_north_w28_common_swift",
+      "species": "Common Swift",
+      "scientificName": "Apus apus",
+      "description": "Swifts in full residence, evening screaming parties",
+      "habitats": [
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Dark birds that scream as they zoom between buildings. They never land except at their nest!"
+    },
+    {
+      "id": "uk_north_w28_broad_bodied_chaser",
+      "species": "Broad-bodied Chaser",
+      "scientificName": "Libellula depressa",
+      "description": "Dragonflies patrolling ponds and streams",
+      "habitats": [
+        "pond",
+        "stream",
+        "meadow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A chunky blue dragonfly guards the pond like a tiny fighter jet. It can see in almost every direction!"
+    },
+    {
+      "id": "uk_north_w28_red_clover",
+      "species": "Red Clover",
+      "scientificName": "Trifolium pratense",
+      "description": "Clover at peak, bumblebees visiting constantly",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "playing_field",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Pink fluffy pompom flowers. Pull out one tiny tube and taste the sweet drop of nectar at the bottom"
+    },
+    {
+      "id": "uk_north_w28_meadow_brown",
+      "species": "Meadow Brown",
+      "scientificName": "Maniola jurtina",
+      "description": "Meadow brown butterflies appearing in grassland",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Brown butterflies with an eye-spot dance lazily above the grass"
+    },
+    {
+      "id": "uk_north_w28_wild_marjoram",
+      "species": "Wild Marjoram",
+      "scientificName": "Origanum vulgare",
+      "description": "Wild marjoram flowering on limestone grassland",
+      "habitats": [
+        "grassland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Crush a leaf and smell. It's pizza herb growing wild!"
+    },
+    {
+      "id": "uk_north_w28_bramble_flowers",
+      "species": "Bramble Flowers",
+      "scientificName": "Rubus fruticosus",
+      "description": "Bramble hedgerows flowering",
+      "habitats": [
+        "hedgerow",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Each flower on the prickly bush will become a blackberry!"
+    },
+    {
+      "id": "uk_north_w28_grasshopper",
+      "species": "Grasshopper",
+      "scientificName": "Chorthippus brunneus",
+      "description": "Grasshoppers chirping in warm grass",
+      "habitats": [
+        "grassland",
+        "meadow",
+        "playing_field"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "That scratchy chirping sound is a grasshopper rubbing its legs together like a tiny violin"
+    }
+  ],
+  "29": [
+    {
+      "id": "uk_north_w29_common_swift",
+      "species": "Common Swift",
+      "scientificName": "Apus apus",
+      "description": "Swifts in full residence, evening screaming parties",
+      "habitats": [
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Dark birds that scream as they zoom between buildings. They never land except at their nest!"
+    },
+    {
+      "id": "uk_north_w29_foxglove",
+      "species": "Foxglove",
+      "scientificName": "Digitalis purpurea",
+      "description": "Foxglove flowers reaching spike tips",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Tall towers of purple bells with spotty insides. Bees climb right inside them!"
+    },
+    {
+      "id": "uk_north_w29_broad_bodied_chaser",
+      "species": "Broad-bodied Chaser",
+      "scientificName": "Libellula depressa",
+      "description": "Dragonflies patrolling ponds and streams",
+      "habitats": [
+        "pond",
+        "stream",
+        "meadow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A chunky blue dragonfly guards the pond like a tiny fighter jet. It can see in almost every direction!"
+    },
+    {
+      "id": "uk_north_w29_meadow_brown",
+      "species": "Meadow Brown",
+      "scientificName": "Maniola jurtina",
+      "description": "Meadow brown butterflies appearing in grassland",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Brown butterflies with an eye-spot dance lazily above the grass"
+    },
+    {
+      "id": "uk_north_w29_wild_marjoram",
+      "species": "Wild Marjoram",
+      "scientificName": "Origanum vulgare",
+      "description": "Wild marjoram flowering on limestone grassland",
+      "habitats": [
+        "grassland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Crush a leaf and smell. It's pizza herb growing wild!"
+    },
+    {
+      "id": "uk_north_w29_bramble_flowers",
+      "species": "Bramble Flowers",
+      "scientificName": "Rubus fruticosus",
+      "description": "Bramble blossom at peak",
+      "habitats": [
+        "hedgerow",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Each flower on the prickly bush will become a blackberry!"
+    },
+    {
+      "id": "uk_north_w29_grasshopper",
+      "species": "Grasshopper",
+      "scientificName": "Chorthippus brunneus",
+      "description": "Grasshoppers chirping in warm grass",
+      "habitats": [
+        "grassland",
+        "meadow",
+        "playing_field"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "That scratchy chirping sound is a grasshopper rubbing its legs together like a tiny violin"
+    }
+  ],
+  "30": [
+    {
+      "id": "uk_north_w30_common_swift",
+      "species": "Common Swift",
+      "scientificName": "Apus apus",
+      "description": "Swifts in full residence, evening screaming parties",
+      "habitats": [
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Dark birds that scream as they zoom between buildings. They never land except at their nest!"
+    },
+    {
+      "id": "uk_north_w30_broad_bodied_chaser",
+      "species": "Broad-bodied Chaser",
+      "scientificName": "Libellula depressa",
+      "description": "Dragonflies patrolling ponds and streams",
+      "habitats": [
+        "pond",
+        "stream",
+        "meadow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A chunky blue dragonfly guards the pond like a tiny fighter jet. It can see in almost every direction!"
+    },
+    {
+      "id": "uk_north_w30_meadow_brown",
+      "species": "Meadow Brown",
+      "scientificName": "Maniola jurtina",
+      "description": "Meadow browns abundant",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Brown butterflies with an eye-spot dance lazily above the grass"
+    },
+    {
+      "id": "uk_north_w30_wild_marjoram",
+      "species": "Wild Marjoram",
+      "scientificName": "Origanum vulgare",
+      "description": "Wild marjoram flowering on limestone grassland",
+      "habitats": [
+        "grassland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Crush a leaf and smell. It's pizza herb growing wild!"
+    },
+    {
+      "id": "uk_north_w30_bramble_flowers",
+      "species": "Bramble Flowers",
+      "scientificName": "Rubus fruticosus",
+      "description": "Bramble blossom at peak",
+      "habitats": [
+        "hedgerow",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Each flower on the prickly bush will become a blackberry!"
+    },
+    {
+      "id": "uk_north_w30_grasshopper",
+      "species": "Grasshopper",
+      "scientificName": "Chorthippus brunneus",
+      "description": "Grasshoppers chirping in warm grass",
+      "habitats": [
+        "grassland",
+        "meadow",
+        "playing_field"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "That scratchy chirping sound is a grasshopper rubbing its legs together like a tiny violin"
+    },
+    {
+      "id": "uk_north_w30_blackberry",
+      "species": "Blackberry",
+      "scientificName": "Rubus fruticosus",
+      "description": "First blackberries ripening in sunny spots",
+      "habitats": [
+        "hedgerow",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "smell",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Free fruit from hedges! Pick the shiny black ones. Your fingers will turn purple"
+    }
+  ],
+  "31": [
+    {
+      "id": "uk_north_w31_common_swift",
+      "species": "Common Swift",
+      "scientificName": "Apus apus",
+      "description": "Swifts departing southward",
+      "habitats": [
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Dark birds that scream as they zoom between buildings. They never land except at their nest!"
+    },
+    {
+      "id": "uk_north_w31_broad_bodied_chaser",
+      "species": "Broad-bodied Chaser",
+      "scientificName": "Libellula depressa",
+      "description": "Dragonfly activity declining",
+      "habitats": [
+        "pond",
+        "stream",
+        "meadow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "A chunky blue dragonfly guards the pond like a tiny fighter jet. It can see in almost every direction!"
+    },
+    {
+      "id": "uk_north_w31_meadow_brown",
+      "species": "Meadow Brown",
+      "scientificName": "Maniola jurtina",
+      "description": "Meadow browns abundant",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Brown butterflies with an eye-spot dance lazily above the grass"
+    },
+    {
+      "id": "uk_north_w31_wild_marjoram",
+      "species": "Wild Marjoram",
+      "scientificName": "Origanum vulgare",
+      "description": "Marjoram at peak, attracting butterflies and bees",
+      "habitats": [
+        "grassland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Crush a leaf and smell. It's pizza herb growing wild!"
+    },
+    {
+      "id": "uk_north_w31_grasshopper",
+      "species": "Grasshopper",
+      "scientificName": "Chorthippus brunneus",
+      "description": "Grasshoppers loud on sunny days",
+      "habitats": [
+        "grassland",
+        "meadow",
+        "playing_field"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "That scratchy chirping sound is a grasshopper rubbing its legs together like a tiny violin"
+    },
+    {
+      "id": "uk_north_w31_blackberry",
+      "species": "Blackberry",
+      "scientificName": "Rubus fruticosus",
+      "description": "First blackberries ripening in sunny spots",
+      "habitats": [
+        "hedgerow",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "smell",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Free fruit from hedges! Pick the shiny black ones. Your fingers will turn purple"
+    },
+    {
+      "id": "uk_north_w31_heather",
+      "species": "Heather",
+      "scientificName": "Calluna vulgaris",
+      "description": "Heather on moorland beginning to flower",
+      "habitats": [
+        "grassland",
+        "coast"
+      ],
+      "senses": [
+        "sight",
+        "smell",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The moors turn bright purple and hum with bees. It's one of the most beautiful sights"
+    }
+  ],
+  "32": [
+    {
+      "id": "uk_north_w32_common_swift",
+      "species": "Common Swift",
+      "scientificName": "Apus apus",
+      "description": "Swifts departing southward",
+      "habitats": [
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Dark birds that scream as they zoom between buildings. They never land except at their nest!"
+    },
+    {
+      "id": "uk_north_w32_broad_bodied_chaser",
+      "species": "Broad-bodied Chaser",
+      "scientificName": "Libellula depressa",
+      "description": "Dragonfly activity declining",
+      "habitats": [
+        "pond",
+        "stream",
+        "meadow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "A chunky blue dragonfly guards the pond like a tiny fighter jet. It can see in almost every direction!"
+    },
+    {
+      "id": "uk_north_w32_wild_marjoram",
+      "species": "Wild Marjoram",
+      "scientificName": "Origanum vulgare",
+      "description": "Marjoram at peak, attracting butterflies and bees",
+      "habitats": [
+        "grassland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Crush a leaf and smell. It's pizza herb growing wild!"
+    },
+    {
+      "id": "uk_north_w32_grasshopper",
+      "species": "Grasshopper",
+      "scientificName": "Chorthippus brunneus",
+      "description": "Grasshoppers loud on sunny days",
+      "habitats": [
+        "grassland",
+        "meadow",
+        "playing_field"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "That scratchy chirping sound is a grasshopper rubbing its legs together like a tiny violin"
+    },
+    {
+      "id": "uk_north_w32_blackberry",
+      "species": "Blackberry",
+      "scientificName": "Rubus fruticosus",
+      "description": "First blackberries ripening in sunny spots",
+      "habitats": [
+        "hedgerow",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "smell",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Free fruit from hedges! Pick the shiny black ones. Your fingers will turn purple"
+    },
+    {
+      "id": "uk_north_w32_heather",
+      "species": "Heather",
+      "scientificName": "Calluna vulgaris",
+      "description": "Heather on moorland beginning to flower",
+      "habitats": [
+        "grassland",
+        "coast"
+      ],
+      "senses": [
+        "sight",
+        "smell",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The moors turn bright purple and hum with bees. It's one of the most beautiful sights"
+    },
+    {
+      "id": "uk_north_w32_rosehip",
+      "species": "Rosehip",
+      "scientificName": "Rosa canina",
+      "description": "Rosehips colouring up in hedgerows",
+      "habitats": [
+        "hedgerow"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Red berries replace the pink flowers, packed with vitamin C"
+    }
+  ],
+  "33": [
+    {
+      "id": "uk_north_w33_common_swift",
+      "species": "Common Swift",
+      "scientificName": "Apus apus",
+      "description": "Swifts departing southward",
+      "habitats": [
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Dark birds that scream as they zoom between buildings. They never land except at their nest!"
+    },
+    {
+      "id": "uk_north_w33_broad_bodied_chaser",
+      "species": "Broad-bodied Chaser",
+      "scientificName": "Libellula depressa",
+      "description": "Dragonfly activity declining",
+      "habitats": [
+        "pond",
+        "stream",
+        "meadow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "A chunky blue dragonfly guards the pond like a tiny fighter jet. It can see in almost every direction!"
+    },
+    {
+      "id": "uk_north_w33_meadow_brown",
+      "species": "Meadow Brown",
+      "scientificName": "Maniola jurtina",
+      "description": "Numbers declining",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Brown butterflies with an eye-spot dance lazily above the grass"
+    },
+    {
+      "id": "uk_north_w33_grasshopper",
+      "species": "Grasshopper",
+      "scientificName": "Chorthippus brunneus",
+      "description": "Grasshoppers loud on sunny days",
+      "habitats": [
+        "grassland",
+        "meadow",
+        "playing_field"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "That scratchy chirping sound is a grasshopper rubbing its legs together like a tiny violin"
+    },
+    {
+      "id": "uk_north_w33_blackberry",
+      "species": "Blackberry",
+      "scientificName": "Rubus fruticosus",
+      "description": "Blackberry season at peak",
+      "habitats": [
+        "hedgerow",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "smell",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Free fruit from hedges! Pick the shiny black ones. Your fingers will turn purple"
+    },
+    {
+      "id": "uk_north_w33_heather",
+      "species": "Heather",
+      "scientificName": "Calluna vulgaris",
+      "description": "Heather at peak, purple moorland landscape",
+      "habitats": [
+        "grassland",
+        "coast"
+      ],
+      "senses": [
+        "sight",
+        "smell",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The moors turn bright purple and hum with bees. It's one of the most beautiful sights"
+    },
+    {
+      "id": "uk_north_w33_rosehip",
+      "species": "Rosehip",
+      "scientificName": "Rosa canina",
+      "description": "Rosehips colouring up in hedgerows",
+      "habitats": [
+        "hedgerow"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Red berries replace the pink flowers, packed with vitamin C"
+    }
+  ],
+  "34": [
+    {
+      "id": "uk_north_w34_common_swift",
+      "species": "Common Swift",
+      "scientificName": "Apus apus",
+      "description": "Swifts departing southward",
+      "habitats": [
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Dark birds that scream as they zoom between buildings. They never land except at their nest!"
+    },
+    {
+      "id": "uk_north_w34_broad_bodied_chaser",
+      "species": "Broad-bodied Chaser",
+      "scientificName": "Libellula depressa",
+      "description": "Dragonfly activity declining",
+      "habitats": [
+        "pond",
+        "stream",
+        "meadow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "A chunky blue dragonfly guards the pond like a tiny fighter jet. It can see in almost every direction!"
+    },
+    {
+      "id": "uk_north_w34_wild_marjoram",
+      "species": "Wild Marjoram",
+      "scientificName": "Origanum vulgare",
+      "description": "Marjoram drying and seeding",
+      "habitats": [
+        "grassland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Crush a leaf and smell. It's pizza herb growing wild!"
+    },
+    {
+      "id": "uk_north_w34_blackberry",
+      "species": "Blackberry",
+      "scientificName": "Rubus fruticosus",
+      "description": "Blackberry season at peak",
+      "habitats": [
+        "hedgerow",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "smell",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Free fruit from hedges! Pick the shiny black ones. Your fingers will turn purple"
+    },
+    {
+      "id": "uk_north_w34_heather",
+      "species": "Heather",
+      "scientificName": "Calluna vulgaris",
+      "description": "Heather at peak, purple moorland landscape",
+      "habitats": [
+        "grassland",
+        "coast"
+      ],
+      "senses": [
+        "sight",
+        "smell",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The moors turn bright purple and hum with bees. It's one of the most beautiful sights"
+    },
+    {
+      "id": "uk_north_w34_rosehip",
+      "species": "Rosehip",
+      "scientificName": "Rosa canina",
+      "description": "Rosehips colouring up in hedgerows",
+      "habitats": [
+        "hedgerow"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Red berries replace the pink flowers, packed with vitamin C"
+    },
+    {
+      "id": "uk_north_w34_horse_chestnut",
+      "species": "Horse Chestnut",
+      "scientificName": "Aesculus hippocastanum",
+      "description": "Conker cases splitting, first conkers falling",
+      "habitats": [
+        "urban",
+        "garden",
+        "playing_field",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Crack the green spiky shell. Inside is a gorgeous shiny brown conker!"
+    }
+  ],
+  "35": [
+    {
+      "id": "uk_north_w35_blackberry",
+      "species": "Blackberry",
+      "scientificName": "Rubus fruticosus",
+      "description": "Blackberry season at peak",
+      "habitats": [
+        "hedgerow",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "smell",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Free fruit from hedges! Pick the shiny black ones. Your fingers will turn purple"
+    },
+    {
+      "id": "uk_north_w35_harvest_spider",
+      "species": "Harvest Spider",
+      "scientificName": "Opiliones",
+      "description": "Harvest spiders abundant on fences and walls",
+      "habitats": [
+        "garden",
+        "wall_fence",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A round dot on stilt-legs. Harvestmen bounce along like tiny aliens!"
+    },
+    {
+      "id": "uk_north_w35_rosehip",
+      "species": "Rosehip",
+      "scientificName": "Rosa canina",
+      "description": "Bright red rosehips decorating hedges",
+      "habitats": [
+        "hedgerow"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Red berries replace the pink flowers, packed with vitamin C"
+    },
+    {
+      "id": "uk_north_w35_horse_chestnut",
+      "species": "Horse Chestnut",
+      "scientificName": "Aesculus hippocastanum",
+      "description": "Conker cases splitting, first conkers falling",
+      "habitats": [
+        "urban",
+        "garden",
+        "playing_field",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Crack the green spiky shell. Inside is a gorgeous shiny brown conker!"
+    },
+    {
+      "id": "uk_north_w35_garden_spider",
+      "species": "Garden Spider",
+      "scientificName": "Araneus diadematus",
+      "description": "Orb webs appearing, sparkling with dew at dawn",
+      "habitats": [
+        "garden",
+        "hedgerow",
+        "wall_fence"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Dewy webs look like jewelled necklaces. The spider waits in the centre for its breakfast"
+    },
+    {
+      "id": "uk_north_w35_swallow_gathering",
+      "species": "Swallow Gathering",
+      "kind": "event",
+      "scientificName": "Hirundo rustica",
+      "description": "Swallows massing on wires before migration",
+      "habitats": [
+        "grassland",
+        "urban",
+        "pond"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Lines of swallows sit on wires chattering. They're planning their great escape to Africa"
+    },
+    {
+      "id": "uk_north_w35_pedunculate_oak",
+      "species": "Pedunculate Oak",
+      "scientificName": "Quercus robur",
+      "description": "Acorns ripening and starting to fall",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Look for little brown nuts in tiny cups. Squirrels will bury thousands!"
+    }
+  ],
+  "36": [
+    {
+      "id": "uk_north_w36_blackberry",
+      "species": "Blackberry",
+      "scientificName": "Rubus fruticosus",
+      "description": "Blackberry season at peak",
+      "habitats": [
+        "hedgerow",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "smell",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Free fruit from hedges! Pick the shiny black ones. Your fingers will turn purple"
+    },
+    {
+      "id": "uk_north_w36_harvest_spider",
+      "species": "Harvest Spider",
+      "scientificName": "Opiliones",
+      "description": "Harvest spiders abundant on fences and walls",
+      "habitats": [
+        "garden",
+        "wall_fence",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A round dot on stilt-legs. Harvestmen bounce along like tiny aliens!"
+    },
+    {
+      "id": "uk_north_w36_rosehip",
+      "species": "Rosehip",
+      "scientificName": "Rosa canina",
+      "description": "Bright red rosehips decorating hedges",
+      "habitats": [
+        "hedgerow"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Red berries replace the pink flowers, packed with vitamin C"
+    },
+    {
+      "id": "uk_north_w36_horse_chestnut",
+      "species": "Horse Chestnut",
+      "scientificName": "Aesculus hippocastanum",
+      "description": "Conker cases splitting, first conkers falling",
+      "habitats": [
+        "urban",
+        "garden",
+        "playing_field",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Crack the green spiky shell. Inside is a gorgeous shiny brown conker!"
+    },
+    {
+      "id": "uk_north_w36_garden_spider",
+      "species": "Garden Spider",
+      "scientificName": "Araneus diadematus",
+      "description": "Orb webs appearing, sparkling with dew at dawn",
+      "habitats": [
+        "garden",
+        "hedgerow",
+        "wall_fence"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Dewy webs look like jewelled necklaces. The spider waits in the centre for its breakfast"
+    },
+    {
+      "id": "uk_north_w36_swallow_gathering",
+      "species": "Swallow Gathering",
+      "kind": "event",
+      "scientificName": "Hirundo rustica",
+      "description": "Swallows massing on wires before migration",
+      "habitats": [
+        "grassland",
+        "urban",
+        "pond"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Lines of swallows sit on wires chattering. They're planning their great escape to Africa"
+    },
+    {
+      "id": "uk_north_w36_ivy",
+      "species": "Ivy",
+      "scientificName": "Hedera helix",
+      "description": "Ivy flowers opening, vital late nectar",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "wall_fence",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "smell",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The last flowers of autumn: butterflies and bees crowd the ivy like a going-away party"
+    }
+  ],
+  "37": [
+    {
+      "id": "uk_north_w37_harvest_spider",
+      "species": "Harvest Spider",
+      "scientificName": "Opiliones",
+      "description": "Harvest spiders abundant on fences and walls",
+      "habitats": [
+        "garden",
+        "wall_fence",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A round dot on stilt-legs. Harvestmen bounce along like tiny aliens!"
+    },
+    {
+      "id": "uk_north_w37_rosehip",
+      "species": "Rosehip",
+      "scientificName": "Rosa canina",
+      "description": "Bright red rosehips decorating hedges",
+      "habitats": [
+        "hedgerow"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Red berries replace the pink flowers, packed with vitamin C"
+    },
+    {
+      "id": "uk_north_w37_horse_chestnut",
+      "species": "Horse Chestnut",
+      "scientificName": "Aesculus hippocastanum",
+      "description": "Peak conker time",
+      "habitats": [
+        "urban",
+        "garden",
+        "playing_field",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Crack the green spiky shell. Inside is a gorgeous shiny brown conker!"
+    },
+    {
+      "id": "uk_north_w37_garden_spider",
+      "species": "Garden Spider",
+      "scientificName": "Araneus diadematus",
+      "description": "Orb webs appearing, sparkling with dew at dawn",
+      "habitats": [
+        "garden",
+        "hedgerow",
+        "wall_fence"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Dewy webs look like jewelled necklaces. The spider waits in the centre for its breakfast"
+    },
+    {
+      "id": "uk_north_w37_swallow_gathering",
+      "species": "Swallow Gathering",
+      "kind": "event",
+      "scientificName": "Hirundo rustica",
+      "description": "Swallows massing on wires before migration",
+      "habitats": [
+        "grassland",
+        "urban",
+        "pond"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Lines of swallows sit on wires chattering. They're planning their great escape to Africa"
+    },
+    {
+      "id": "uk_north_w37_ivy",
+      "species": "Ivy",
+      "scientificName": "Hedera helix",
+      "description": "Ivy flowers opening, vital late nectar",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "wall_fence",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "smell",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The last flowers of autumn: butterflies and bees crowd the ivy like a going-away party"
+    },
+    {
+      "id": "uk_north_w37_pedunculate_oak",
+      "species": "Pedunculate Oak",
+      "scientificName": "Quercus robur",
+      "description": "Acorns ripening and starting to fall",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Look for little brown nuts in tiny cups. Squirrels will bury thousands!"
+    }
+  ],
+  "38": [
+    {
+      "id": "uk_north_w38_blackberry",
+      "species": "Blackberry",
+      "scientificName": "Rubus fruticosus",
+      "description": "Late blackberries, many past their best",
+      "habitats": [
+        "hedgerow",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "smell",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Free fruit from hedges! Pick the shiny black ones. Your fingers will turn purple"
+    },
+    {
+      "id": "uk_north_w38_horse_chestnut",
+      "species": "Horse Chestnut",
+      "scientificName": "Aesculus hippocastanum",
+      "description": "Peak conker time",
+      "habitats": [
+        "urban",
+        "garden",
+        "playing_field",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Crack the green spiky shell. Inside is a gorgeous shiny brown conker!"
+    },
+    {
+      "id": "uk_north_w38_garden_spider",
+      "species": "Garden Spider",
+      "scientificName": "Araneus diadematus",
+      "description": "Spectacular webs everywhere, spiders at their largest",
+      "habitats": [
+        "garden",
+        "hedgerow",
+        "wall_fence"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Dewy webs look like jewelled necklaces. The spider waits in the centre for its breakfast"
+    },
+    {
+      "id": "uk_north_w38_ivy",
+      "species": "Ivy",
+      "scientificName": "Hedera helix",
+      "description": "Ivy flowers opening, vital late nectar",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "wall_fence",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "smell",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The last flowers of autumn: butterflies and bees crowd the ivy like a going-away party"
+    },
+    {
+      "id": "uk_north_w38_pedunculate_oak",
+      "species": "Pedunculate Oak",
+      "scientificName": "Quercus robur",
+      "description": "Acorns abundant on the ground",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Look for little brown nuts in tiny cups. Squirrels will bury thousands!"
+    },
+    {
+      "id": "uk_north_w38_autumn_colour",
+      "species": "Autumn Colour",
+      "description": "Leaves changing colour, golds and oranges appearing",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The trees put on a show, gold, orange, red and russet before they drop their leaves"
+    },
+    {
+      "id": "uk_north_w38_grey_squirrel",
+      "species": "Grey Squirrel",
+      "scientificName": "Sciurus carolinensis",
+      "description": "Squirrels frantically caching nuts for winter",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden",
+        "playing_field"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Squirrels bury hundreds of acorns. But they forget most of them, which grows new trees!"
+    }
+  ],
+  "39": [
+    {
+      "id": "uk_north_w39_horse_chestnut",
+      "species": "Horse Chestnut",
+      "scientificName": "Aesculus hippocastanum",
+      "description": "Late conkers on the ground",
+      "habitats": [
+        "urban",
+        "garden",
+        "playing_field",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Crack the green spiky shell. Inside is a gorgeous shiny brown conker!"
+    },
+    {
+      "id": "uk_north_w39_garden_spider",
+      "species": "Garden Spider",
+      "scientificName": "Araneus diadematus",
+      "description": "Spectacular webs everywhere, spiders at their largest",
+      "habitats": [
+        "garden",
+        "hedgerow",
+        "wall_fence"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Dewy webs look like jewelled necklaces. The spider waits in the centre for its breakfast"
+    },
+    {
+      "id": "uk_north_w39_ivy",
+      "species": "Ivy",
+      "scientificName": "Hedera helix",
+      "description": "Ivy in full bloom, buzzing with insects",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "wall_fence",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "smell",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The last flowers of autumn: butterflies and bees crowd the ivy like a going-away party"
+    },
+    {
+      "id": "uk_north_w39_pedunculate_oak",
+      "species": "Pedunculate Oak",
+      "scientificName": "Quercus robur",
+      "description": "Acorns abundant on the ground",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Look for little brown nuts in tiny cups. Squirrels will bury thousands!"
+    },
+    {
+      "id": "uk_north_w39_autumn_colour",
+      "species": "Autumn Colour",
+      "description": "Leaves changing colour, golds and oranges appearing",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The trees put on a show, gold, orange, red and russet before they drop their leaves"
+    },
+    {
+      "id": "uk_north_w39_fly_agaric",
+      "species": "Fly Agaric",
+      "scientificName": "Amanita muscaria",
+      "description": "Fly agaric appearing under birch trees",
+      "habitats": [
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The fairy-tale mushroom! Red cap, white spots, magical looking but poisonous"
+    },
+    {
+      "id": "uk_north_w39_grey_squirrel",
+      "species": "Grey Squirrel",
+      "scientificName": "Sciurus carolinensis",
+      "description": "Squirrels frantically caching nuts for winter",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden",
+        "playing_field"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Squirrels bury hundreds of acorns. But they forget most of them, which grows new trees!"
+    }
+  ],
+  "40": [
+    {
+      "id": "uk_north_w40_horse_chestnut",
+      "species": "Horse Chestnut",
+      "scientificName": "Aesculus hippocastanum",
+      "description": "Late conkers on the ground",
+      "habitats": [
+        "urban",
+        "garden",
+        "playing_field",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Crack the green spiky shell. Inside is a gorgeous shiny brown conker!"
+    },
+    {
+      "id": "uk_north_w40_garden_spider",
+      "species": "Garden Spider",
+      "scientificName": "Araneus diadematus",
+      "description": "Webs still visible, spiders declining",
+      "habitats": [
+        "garden",
+        "hedgerow",
+        "wall_fence"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Dewy webs look like jewelled necklaces. The spider waits in the centre for its breakfast"
+    },
+    {
+      "id": "uk_north_w40_ivy",
+      "species": "Ivy",
+      "scientificName": "Hedera helix",
+      "description": "Ivy in full bloom, buzzing with insects",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "wall_fence",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "smell",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The last flowers of autumn: butterflies and bees crowd the ivy like a going-away party"
+    },
+    {
+      "id": "uk_north_w40_autumn_colour",
+      "species": "Autumn Colour",
+      "description": "Leaves changing colour, golds and oranges appearing",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The trees put on a show, gold, orange, red and russet before they drop their leaves"
+    },
+    {
+      "id": "uk_north_w40_fly_agaric",
+      "species": "Fly Agaric",
+      "scientificName": "Amanita muscaria",
+      "description": "Fly agaric appearing under birch trees",
+      "habitats": [
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The fairy-tale mushroom! Red cap, white spots, magical looking but poisonous"
+    },
+    {
+      "id": "uk_north_w40_fieldfare",
+      "species": "Fieldfare",
+      "scientificName": "Turdus pilaris",
+      "description": "Fieldfares arriving from Scandinavia",
+      "habitats": [
+        "hedgerow",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Big chattering groups of winter visitors. They came all the way from Norway!"
+    },
+    {
+      "id": "uk_north_w40_grey_squirrel",
+      "species": "Grey Squirrel",
+      "scientificName": "Sciurus carolinensis",
+      "description": "Squirrels frantically caching nuts for winter",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden",
+        "playing_field"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Squirrels bury hundreds of acorns. But they forget most of them, which grows new trees!"
+    }
+  ],
+  "41": [
+    {
+      "id": "uk_north_w41_garden_spider",
+      "species": "Garden Spider",
+      "scientificName": "Araneus diadematus",
+      "description": "Webs still visible, spiders declining",
+      "habitats": [
+        "garden",
+        "hedgerow",
+        "wall_fence"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Dewy webs look like jewelled necklaces. The spider waits in the centre for its breakfast"
+    },
+    {
+      "id": "uk_north_w41_ivy",
+      "species": "Ivy",
+      "scientificName": "Hedera helix",
+      "description": "Ivy in full bloom, buzzing with insects",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "wall_fence",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "smell",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The last flowers of autumn: butterflies and bees crowd the ivy like a going-away party"
+    },
+    {
+      "id": "uk_north_w41_autumn_colour",
+      "species": "Autumn Colour",
+      "description": "Peak autumn colour in the north",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The trees put on a show, gold, orange, red and russet before they drop their leaves"
+    },
+    {
+      "id": "uk_north_w41_fly_agaric",
+      "species": "Fly Agaric",
+      "scientificName": "Amanita muscaria",
+      "description": "Fly agaric appearing under birch trees",
+      "habitats": [
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The fairy-tale mushroom! Red cap, white spots, magical looking but poisonous"
+    },
+    {
+      "id": "uk_north_w41_fieldfare",
+      "species": "Fieldfare",
+      "scientificName": "Turdus pilaris",
+      "description": "Fieldfares arriving from Scandinavia",
+      "habitats": [
+        "hedgerow",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Big chattering groups of winter visitors. They came all the way from Norway!"
+    },
+    {
+      "id": "uk_north_w41_grey_squirrel",
+      "species": "Grey Squirrel",
+      "scientificName": "Sciurus carolinensis",
+      "description": "Squirrels frantically caching nuts for winter",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden",
+        "playing_field"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Squirrels bury hundreds of acorns. But they forget most of them, which grows new trees!"
+    },
+    {
+      "id": "uk_north_w41_starling_murmuration",
+      "species": "Starling Murmuration",
+      "kind": "event",
+      "scientificName": "Sturnus vulgaris",
+      "description": "Starling murmurations beginning at dusk",
+      "habitats": [
+        "urban",
+        "grassland",
+        "coast"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Thousands of birds swirl together making incredible shapes, like a living smoke cloud"
+    }
+  ],
+  "42": [
+    {
+      "id": "uk_north_w42_ivy",
+      "species": "Ivy",
+      "scientificName": "Hedera helix",
+      "description": "Ivy flowers fading, berries developing",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "wall_fence",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "smell",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The last flowers of autumn: butterflies and bees crowd the ivy like a going-away party"
+    },
+    {
+      "id": "uk_north_w42_autumn_colour",
+      "species": "Autumn Colour",
+      "description": "Peak autumn colour in the north",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The trees put on a show, gold, orange, red and russet before they drop their leaves"
+    },
+    {
+      "id": "uk_north_w42_fly_agaric",
+      "species": "Fly Agaric",
+      "scientificName": "Amanita muscaria",
+      "description": "Fungi at peak across woodland",
+      "habitats": [
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The fairy-tale mushroom! Red cap, white spots, magical looking but poisonous"
+    },
+    {
+      "id": "uk_north_w42_fieldfare",
+      "species": "Fieldfare",
+      "scientificName": "Turdus pilaris",
+      "description": "Fieldfares arriving from Scandinavia",
+      "habitats": [
+        "hedgerow",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Big chattering groups of winter visitors. They came all the way from Norway!"
+    },
+    {
+      "id": "uk_north_w42_grey_squirrel",
+      "species": "Grey Squirrel",
+      "scientificName": "Sciurus carolinensis",
+      "description": "Squirrels frantically caching nuts for winter",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden",
+        "playing_field"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Squirrels bury hundreds of acorns. But they forget most of them, which grows new trees!"
+    },
+    {
+      "id": "uk_north_w42_starling_murmuration",
+      "species": "Starling Murmuration",
+      "kind": "event",
+      "scientificName": "Sturnus vulgaris",
+      "description": "Starling murmurations beginning at dusk",
+      "habitats": [
+        "urban",
+        "grassland",
+        "coast"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Thousands of birds swirl together making incredible shapes, like a living smoke cloud"
+    }
+  ],
+  "43": [
+    {
+      "id": "uk_north_w43_ivy",
+      "species": "Ivy",
+      "scientificName": "Hedera helix",
+      "description": "Ivy flowers fading, berries developing",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "wall_fence",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "smell",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The last flowers of autumn: butterflies and bees crowd the ivy like a going-away party"
+    },
+    {
+      "id": "uk_north_w43_autumn_colour",
+      "species": "Autumn Colour",
+      "description": "Leaves falling rapidly",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The trees put on a show, gold, orange, red and russet before they drop their leaves"
+    },
+    {
+      "id": "uk_north_w43_fly_agaric",
+      "species": "Fly Agaric",
+      "scientificName": "Amanita muscaria",
+      "description": "Fungi at peak across woodland",
+      "habitats": [
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The fairy-tale mushroom! Red cap, white spots, magical looking but poisonous"
+    },
+    {
+      "id": "uk_north_w43_fieldfare",
+      "species": "Fieldfare",
+      "scientificName": "Turdus pilaris",
+      "description": "Fieldfare flocks stripping hedgerow berries",
+      "habitats": [
+        "hedgerow",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Big chattering groups of winter visitors. They came all the way from Norway!"
+    },
+    {
+      "id": "uk_north_w43_grey_squirrel",
+      "species": "Grey Squirrel",
+      "scientificName": "Sciurus carolinensis",
+      "description": "Squirrels frantically caching nuts for winter",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden",
+        "playing_field"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Squirrels bury hundreds of acorns. But they forget most of them, which grows new trees!"
+    },
+    {
+      "id": "uk_north_w43_starling_murmuration",
+      "species": "Starling Murmuration",
+      "kind": "event",
+      "scientificName": "Sturnus vulgaris",
+      "description": "Starling murmurations beginning at dusk",
+      "habitats": [
+        "urban",
+        "grassland",
+        "coast"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Thousands of birds swirl together making incredible shapes, like a living smoke cloud"
+    }
+  ],
+  "44": [
+    {
+      "id": "uk_north_w44_autumn_colour",
+      "species": "Autumn Colour",
+      "description": "Leaves falling rapidly",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The trees put on a show, gold, orange, red and russet before they drop their leaves"
+    },
+    {
+      "id": "uk_north_w44_fly_agaric",
+      "species": "Fly Agaric",
+      "scientificName": "Amanita muscaria",
+      "description": "Fungi at peak across woodland",
+      "habitats": [
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The fairy-tale mushroom! Red cap, white spots, magical looking but poisonous"
+    },
+    {
+      "id": "uk_north_w44_fieldfare",
+      "species": "Fieldfare",
+      "scientificName": "Turdus pilaris",
+      "description": "Fieldfare flocks stripping hedgerow berries",
+      "habitats": [
+        "hedgerow",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Big chattering groups of winter visitors. They came all the way from Norway!"
+    },
+    {
+      "id": "uk_north_w44_starling_murmuration",
+      "species": "Starling Murmuration",
+      "kind": "event",
+      "scientificName": "Sturnus vulgaris",
+      "description": "Murmurations at their most spectacular",
+      "habitats": [
+        "urban",
+        "grassland",
+        "coast"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Thousands of birds swirl together making incredible shapes, like a living smoke cloud"
+    },
+    {
+      "id": "uk_north_w44_tawny_owl",
+      "species": "Tawny Owl",
+      "scientificName": "Strix aluco",
+      "description": "Tawny owls calling to establish winter territories",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "One owl hoots \"twit!\" and another answers \"twoo!\" It takes two to make the famous sound"
+    },
+    {
+      "id": "uk_north_w44_bare_trees",
+      "species": "Bare Trees",
+      "description": "Trees stripped of leaves, revealing architecture, nests and mistletoe",
+      "habitats": [
+        "woodland",
+        "urban",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "Bare branches make beautiful shapes against the sky. You can spot old bird nests now"
+    },
+    {
+      "id": "uk_north_w44_wren",
+      "species": "Wren",
+      "scientificName": "Troglodytes troglodytes",
+      "description": "Wrens calling from hedgerow bottoms, amazingly loud",
+      "habitats": [
+        "hedgerow",
+        "woodland",
+        "garden",
+        "wall_fence"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "Tiny but mighty. The wren shouts louder than birds ten times its size!"
+    }
+  ],
+  "45": [
+    {
+      "id": "uk_north_w45_fly_agaric",
+      "species": "Fly Agaric",
+      "scientificName": "Amanita muscaria",
+      "description": "Fungi declining with hard frosts",
+      "habitats": [
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The fairy-tale mushroom! Red cap, white spots, magical looking but poisonous"
+    },
+    {
+      "id": "uk_north_w45_fieldfare",
+      "species": "Fieldfare",
+      "scientificName": "Turdus pilaris",
+      "description": "Fieldfare flocks stripping hedgerow berries",
+      "habitats": [
+        "hedgerow",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Big chattering groups of winter visitors. They came all the way from Norway!"
+    },
+    {
+      "id": "uk_north_w45_starling_murmuration",
+      "species": "Starling Murmuration",
+      "kind": "event",
+      "scientificName": "Sturnus vulgaris",
+      "description": "Murmurations at their most spectacular",
+      "habitats": [
+        "urban",
+        "grassland",
+        "coast"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Thousands of birds swirl together making incredible shapes, like a living smoke cloud"
+    },
+    {
+      "id": "uk_north_w45_tawny_owl",
+      "species": "Tawny Owl",
+      "scientificName": "Strix aluco",
+      "description": "Tawny owls calling to establish winter territories",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "One owl hoots \"twit!\" and another answers \"twoo!\" It takes two to make the famous sound"
+    },
+    {
+      "id": "uk_north_w45_bare_trees",
+      "species": "Bare Trees",
+      "description": "Trees stripped of leaves, revealing architecture, nests and mistletoe",
+      "habitats": [
+        "woodland",
+        "urban",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "Bare branches make beautiful shapes against the sky. You can spot old bird nests now"
+    },
+    {
+      "id": "uk_north_w45_wren",
+      "species": "Wren",
+      "scientificName": "Troglodytes troglodytes",
+      "description": "Wrens calling from hedgerow bottoms, amazingly loud",
+      "habitats": [
+        "hedgerow",
+        "woodland",
+        "garden",
+        "wall_fence"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "Tiny but mighty. The wren shouts louder than birds ten times its size!"
+    }
+  ],
+  "46": [
+    {
+      "id": "uk_north_w46_fly_agaric",
+      "species": "Fly Agaric",
+      "scientificName": "Amanita muscaria",
+      "description": "Fungi declining with hard frosts",
+      "habitats": [
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The fairy-tale mushroom! Red cap, white spots, magical looking but poisonous"
+    },
+    {
+      "id": "uk_north_w46_fieldfare",
+      "species": "Fieldfare",
+      "scientificName": "Turdus pilaris",
+      "description": "Fieldfare flocks stripping hedgerow berries",
+      "habitats": [
+        "hedgerow",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Big chattering groups of winter visitors. They came all the way from Norway!"
+    },
+    {
+      "id": "uk_north_w46_starling_murmuration",
+      "species": "Starling Murmuration",
+      "kind": "event",
+      "scientificName": "Sturnus vulgaris",
+      "description": "Murmurations at their most spectacular",
+      "habitats": [
+        "urban",
+        "grassland",
+        "coast"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Thousands of birds swirl together making incredible shapes, like a living smoke cloud"
+    },
+    {
+      "id": "uk_north_w46_tawny_owl",
+      "species": "Tawny Owl",
+      "scientificName": "Strix aluco",
+      "description": "Tawny owls calling to establish winter territories",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "One owl hoots \"twit!\" and another answers \"twoo!\" It takes two to make the famous sound"
+    },
+    {
+      "id": "uk_north_w46_bare_trees",
+      "species": "Bare Trees",
+      "description": "Trees stripped of leaves, revealing architecture, nests and mistletoe",
+      "habitats": [
+        "woodland",
+        "urban",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "Bare branches make beautiful shapes against the sky. You can spot old bird nests now"
+    },
+    {
+      "id": "uk_north_w46_wren",
+      "species": "Wren",
+      "scientificName": "Troglodytes troglodytes",
+      "description": "Wrens calling from hedgerow bottoms, amazingly loud",
+      "habitats": [
+        "hedgerow",
+        "woodland",
+        "garden",
+        "wall_fence"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "Tiny but mighty. The wren shouts louder than birds ten times its size!"
+    }
+  ],
+  "47": [
+    {
+      "id": "uk_north_w47_fly_agaric",
+      "species": "Fly Agaric",
+      "scientificName": "Amanita muscaria",
+      "description": "Fungi declining with hard frosts",
+      "habitats": [
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The fairy-tale mushroom! Red cap, white spots, magical looking but poisonous"
+    },
+    {
+      "id": "uk_north_w47_fieldfare",
+      "species": "Fieldfare",
+      "scientificName": "Turdus pilaris",
+      "description": "Fieldfare flocks stripping hedgerow berries",
+      "habitats": [
+        "hedgerow",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Big chattering groups of winter visitors. They came all the way from Norway!"
+    },
+    {
+      "id": "uk_north_w47_starling_murmuration",
+      "species": "Starling Murmuration",
+      "kind": "event",
+      "scientificName": "Sturnus vulgaris",
+      "description": "Murmurations at their most spectacular",
+      "habitats": [
+        "urban",
+        "grassland",
+        "coast"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Thousands of birds swirl together making incredible shapes, like a living smoke cloud"
+    },
+    {
+      "id": "uk_north_w47_tawny_owl",
+      "species": "Tawny Owl",
+      "scientificName": "Strix aluco",
+      "description": "Tawny owl duets through dark evenings",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "One owl hoots \"twit!\" and another answers \"twoo!\" It takes two to make the famous sound"
+    },
+    {
+      "id": "uk_north_w47_bare_trees",
+      "species": "Bare Trees",
+      "description": "Trees stripped of leaves, revealing architecture, nests and mistletoe",
+      "habitats": [
+        "woodland",
+        "urban",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "Bare branches make beautiful shapes against the sky. You can spot old bird nests now"
+    },
+    {
+      "id": "uk_north_w47_wren",
+      "species": "Wren",
+      "scientificName": "Troglodytes troglodytes",
+      "description": "Wrens calling from hedgerow bottoms, amazingly loud",
+      "habitats": [
+        "hedgerow",
+        "woodland",
+        "garden",
+        "wall_fence"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "Tiny but mighty. The wren shouts louder than birds ten times its size!"
+    }
+  ],
+  "48": [
+    {
+      "id": "uk_north_w48_fieldfare",
+      "species": "Fieldfare",
+      "scientificName": "Turdus pilaris",
+      "description": "Fieldfares settled for winter",
+      "habitats": [
+        "hedgerow",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Big chattering groups of winter visitors. They came all the way from Norway!"
+    },
+    {
+      "id": "uk_north_w48_starling_murmuration",
+      "species": "Starling Murmuration",
+      "kind": "event",
+      "scientificName": "Sturnus vulgaris",
+      "description": "Murmurations at their most spectacular",
+      "habitats": [
+        "urban",
+        "grassland",
+        "coast"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Thousands of birds swirl together making incredible shapes, like a living smoke cloud"
+    },
+    {
+      "id": "uk_north_w48_tawny_owl",
+      "species": "Tawny Owl",
+      "scientificName": "Strix aluco",
+      "description": "Tawny owl duets through dark evenings",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "One owl hoots \"twit!\" and another answers \"twoo!\" It takes two to make the famous sound"
+    },
+    {
+      "id": "uk_north_w48_bare_trees",
+      "species": "Bare Trees",
+      "description": "Trees stripped of leaves, revealing architecture, nests and mistletoe",
+      "habitats": [
+        "woodland",
+        "urban",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "Bare branches make beautiful shapes against the sky. You can spot old bird nests now"
+    },
+    {
+      "id": "uk_north_w48_wren",
+      "species": "Wren",
+      "scientificName": "Troglodytes troglodytes",
+      "description": "Wrens calling from hedgerow bottoms, amazingly loud",
+      "habitats": [
+        "hedgerow",
+        "woodland",
+        "garden",
+        "wall_fence"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "Tiny but mighty. The wren shouts louder than birds ten times its size!"
+    }
+  ],
+  "49": [
+    {
+      "id": "uk_north_w49_fieldfare",
+      "species": "Fieldfare",
+      "scientificName": "Turdus pilaris",
+      "description": "Fieldfares settled for winter",
+      "habitats": [
+        "hedgerow",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Big chattering groups of winter visitors. They came all the way from Norway!"
+    },
+    {
+      "id": "uk_north_w49_starling_murmuration",
+      "species": "Starling Murmuration",
+      "kind": "event",
+      "scientificName": "Sturnus vulgaris",
+      "description": "Murmurations at their most spectacular",
+      "habitats": [
+        "urban",
+        "grassland",
+        "coast"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Thousands of birds swirl together making incredible shapes, like a living smoke cloud"
+    },
+    {
+      "id": "uk_north_w49_tawny_owl",
+      "species": "Tawny Owl",
+      "scientificName": "Strix aluco",
+      "description": "Tawny owl duets through dark evenings",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "One owl hoots \"twit!\" and another answers \"twoo!\" It takes two to make the famous sound"
+    },
+    {
+      "id": "uk_north_w49_holly",
+      "species": "Holly",
+      "scientificName": "Ilex aquifolium",
+      "description": "Holly berries glowing red in hedgerows and woodlands",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Bright red berries on spiky dark green leaves, the perfect winter decoration"
+    },
+    {
+      "id": "uk_north_w49_ivy_berries",
+      "species": "Ivy Berries",
+      "scientificName": "Hedera helix",
+      "description": "Dark ivy berry clusters forming, food for winter birds",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "wall_fence"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Dark round berries growing where the flowers were. Birds will feast on them"
+    },
+    {
+      "id": "uk_north_w49_european_robin",
+      "species": "European Robin",
+      "scientificName": "Erithacus rubecula",
+      "description": "Robins singing from fence posts and bare branches, defending territories",
+      "habitats": [
+        "garden",
+        "hedgerow",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The cheerful robin sings even in frost and snow. Its red breast glows like a tiny fire"
+    },
+    {
+      "id": "uk_north_w49_mistletoe",
+      "species": "Mistletoe",
+      "scientificName": "Viscum album",
+      "description": "Green mistletoe globes clearly visible in bare tree canopies",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Round green bushes high in bare trees. They grow on the tree and steal its food!"
+    }
+  ],
+  "50": [
+    {
+      "id": "uk_north_w50_fieldfare",
+      "species": "Fieldfare",
+      "scientificName": "Turdus pilaris",
+      "description": "Fieldfares settled for winter",
+      "habitats": [
+        "hedgerow",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Big chattering groups of winter visitors. They came all the way from Norway!"
+    },
+    {
+      "id": "uk_north_w50_starling_murmuration",
+      "species": "Starling Murmuration",
+      "kind": "event",
+      "scientificName": "Sturnus vulgaris",
+      "description": "Murmurations continuing through winter",
+      "habitats": [
+        "urban",
+        "grassland",
+        "coast"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Thousands of birds swirl together making incredible shapes, like a living smoke cloud"
+    },
+    {
+      "id": "uk_north_w50_holly",
+      "species": "Holly",
+      "scientificName": "Ilex aquifolium",
+      "description": "Holly berries glowing red in hedgerows and woodlands",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Bright red berries on spiky dark green leaves, the perfect winter decoration"
+    },
+    {
+      "id": "uk_north_w50_ivy_berries",
+      "species": "Ivy Berries",
+      "scientificName": "Hedera helix",
+      "description": "Dark ivy berry clusters forming, food for winter birds",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "wall_fence"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Dark round berries growing where the flowers were. Birds will feast on them"
+    },
+    {
+      "id": "uk_north_w50_european_robin",
+      "species": "European Robin",
+      "scientificName": "Erithacus rubecula",
+      "description": "Robins singing from fence posts and bare branches, defending territories",
+      "habitats": [
+        "garden",
+        "hedgerow",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The cheerful robin sings even in frost and snow. Its red breast glows like a tiny fire"
+    },
+    {
+      "id": "uk_north_w50_mistletoe",
+      "species": "Mistletoe",
+      "scientificName": "Viscum album",
+      "description": "Green mistletoe globes clearly visible in bare tree canopies",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Round green bushes high in bare trees. They grow on the tree and steal its food!"
+    }
+  ],
+  "51": [
+    {
+      "id": "uk_north_w51_fieldfare",
+      "species": "Fieldfare",
+      "scientificName": "Turdus pilaris",
+      "description": "Fieldfares settled for winter",
+      "habitats": [
+        "hedgerow",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Big chattering groups of winter visitors. They came all the way from Norway!"
+    },
+    {
+      "id": "uk_north_w51_starling_murmuration",
+      "species": "Starling Murmuration",
+      "kind": "event",
+      "scientificName": "Sturnus vulgaris",
+      "description": "Murmurations continuing through winter",
+      "habitats": [
+        "urban",
+        "grassland",
+        "coast"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Thousands of birds swirl together making incredible shapes, like a living smoke cloud"
+    },
+    {
+      "id": "uk_north_w51_holly",
+      "species": "Holly",
+      "scientificName": "Ilex aquifolium",
+      "description": "Holly berries glowing red in hedgerows and woodlands",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Bright red berries on spiky dark green leaves, the perfect winter decoration"
+    },
+    {
+      "id": "uk_north_w51_ivy_berries",
+      "species": "Ivy Berries",
+      "scientificName": "Hedera helix",
+      "description": "Dark ivy berry clusters forming, food for winter birds",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "wall_fence"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Dark round berries growing where the flowers were. Birds will feast on them"
+    },
+    {
+      "id": "uk_north_w51_european_robin",
+      "species": "European Robin",
+      "scientificName": "Erithacus rubecula",
+      "description": "Robins singing from fence posts and bare branches, defending territories",
+      "habitats": [
+        "garden",
+        "hedgerow",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The cheerful robin sings even in frost and snow. Its red breast glows like a tiny fire"
+    },
+    {
+      "id": "uk_north_w51_mistletoe",
+      "species": "Mistletoe",
+      "scientificName": "Viscum album",
+      "description": "Green mistletoe globes clearly visible in bare tree canopies",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Round green bushes high in bare trees. They grow on the tree and steal its food!"
+    },
+    {
+      "id": "uk_north_w51_winter_solstice",
+      "species": "Winter Solstice",
+      "kind": "event",
+      "description": "The shortest day, barely 7 hours of daylight in the north",
+      "habitats": [
+        "urban",
+        "garden",
+        "playing_field"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "The very shortest day of the whole year, but after this, every day gets a tiny bit longer!"
+    }
+  ],
+  "52": [
+    {
+      "id": "uk_north_w52_fieldfare",
+      "species": "Fieldfare",
+      "scientificName": "Turdus pilaris",
+      "description": "Fieldfares settled for winter",
+      "habitats": [
+        "hedgerow",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Big chattering groups of winter visitors. They came all the way from Norway!"
+    },
+    {
+      "id": "uk_north_w52_starling_murmuration",
+      "species": "Starling Murmuration",
+      "kind": "event",
+      "scientificName": "Sturnus vulgaris",
+      "description": "Murmurations continuing through winter",
+      "habitats": [
+        "urban",
+        "grassland",
+        "coast"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Thousands of birds swirl together making incredible shapes, like a living smoke cloud"
+    },
+    {
+      "id": "uk_north_w52_holly",
+      "species": "Holly",
+      "scientificName": "Ilex aquifolium",
+      "description": "Holly berries glowing red in hedgerows and woodlands",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Bright red berries on spiky dark green leaves, the perfect winter decoration"
+    },
+    {
+      "id": "uk_north_w52_ivy_berries",
+      "species": "Ivy Berries",
+      "scientificName": "Hedera helix",
+      "description": "Dark ivy berry clusters forming, food for winter birds",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "wall_fence"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Dark round berries growing where the flowers were. Birds will feast on them"
+    },
+    {
+      "id": "uk_north_w52_european_robin",
+      "species": "European Robin",
+      "scientificName": "Erithacus rubecula",
+      "description": "Robins singing from fence posts and bare branches, defending territories",
+      "habitats": [
+        "garden",
+        "hedgerow",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The cheerful robin sings even in frost and snow. Its red breast glows like a tiny fire"
+    },
+    {
+      "id": "uk_north_w52_mistletoe",
+      "species": "Mistletoe",
+      "scientificName": "Viscum album",
+      "description": "Green mistletoe globes clearly visible in bare tree canopies",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Round green bushes high in bare trees. They grow on the tree and steal its food!"
+    },
+    {
+      "id": "uk_north_w52_winter_solstice",
+      "species": "Winter Solstice",
+      "kind": "event",
+      "description": "The shortest day, barely 7 hours of daylight in the north",
+      "habitats": [
+        "urban",
+        "garden",
+        "playing_field"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "The very shortest day of the whole year, but after this, every day gets a tiny bit longer!"
+    }
+  ]
+}

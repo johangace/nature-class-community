@@ -1,0 +1,2040 @@
+{
+  "id": "summer-legacy",
+  "title": "Summer term (legacy)",
+  "subject": "Nature study",
+  "ageBand": "4-6",
+  "sessions": [
+    {
+      "id": "summer-w1-warmth",
+      "prompt": "What has the sun been warming?",
+      "title": "Warmth",
+      "topic": "Stand still with eyes closed. Feel where the sun touches you. Then find and touch something the sun has been warming all morning.",
+      "topicTags": [
+        "weather",
+        "senses"
+      ],
+      "primaryTopic": "weather",
+      "objective": "Children explore where the sun is touching: their bodies, surfaces, the ground. A practice about solar energy, warmth as nourishment, and the 93-million-mile journey of light.",
+      "namedSkill": "touching and looking",
+      "kit": [
+        "None required"
+      ],
+      "durationMin": 40,
+      "nodeSeq": 33,
+      "phases": [
+        {
+          "nid": "p1",
+          "key": "awareness-1",
+          "title": "Feel the sun",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b2",
+              "type": "conditions-line",
+              "fallbackText": "Look at the sky together before you set off. Whatever it's doing, name it out loud."
+            },
+            {
+              "nid": "b3",
+              "type": "teacher-note",
+              "text": "Face, arms, top of head. Let them notice the warmth: which side is lit, which is in shadow."
+            },
+            {
+              "nid": "b4",
+              "type": "say-aloud",
+              "text": "Stand still. Close your eyes. Where do you feel the sun on your body?"
+            }
+          ]
+        },
+        {
+          "nid": "p5",
+          "key": "embodiment-2",
+          "title": "Find the warm thing",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b9",
+              "type": "teacher-note",
+              "text": "A wall, a stone, a fence post, dark bark. Compare warm surfaces to cool shaded ones."
+            },
+            {
+              "nid": "b10",
+              "type": "say-aloud",
+              "text": "Now touch something the sun has been warming all morning."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t6",
+              "when": "Everything they touch feels the same",
+              "then": "Send them to compare a sunny wall with a shaded one right beside it. The difference is the lesson."
+            },
+            {
+              "nid": "t7",
+              "when": "A child says a warm surface is too hot",
+              "then": "Good noticing. Metal and dark stone can get properly hot in the sun. Move them to warm wood or a warm stone instead."
+            },
+            {
+              "nid": "t8",
+              "when": "It's overcast and nothing feels warm",
+              "then": "Look for the surface that holds warmth longest, like a brick wall or a paving slab. Even a cloudy sky has been warming it slowly."
+            }
+          ]
+        },
+        {
+          "nid": "p11",
+          "key": "feeling-3",
+          "title": "Wonder",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b15",
+              "type": "teacher-note",
+              "text": "This connects warmth to nourishment. Kids might say \"nice\" or \"relaxed\". All good."
+            },
+            {
+              "nid": "b16",
+              "type": "say-aloud",
+              "text": "The sun is feeding everything here. How does it feel to be fed too?"
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t12",
+              "when": "They can't put the warmth into words",
+              "then": "Offer your own first: the sun on my face feels like a warm hand. Then let them find their own."
+            },
+            {
+              "nid": "t13",
+              "when": "A child only wants to talk about being hot and bothered",
+              "then": "Walk them into shade for a moment, then back into the sun. Feeling the swap makes the warmth easier to welcome."
+            },
+            {
+              "nid": "t14",
+              "when": "The group goes quiet",
+              "then": "That quiet is fine. Let them stand with the sun on their skin a little longer before you say anything else."
+            }
+          ]
+        },
+        {
+          "nid": "p17",
+          "key": "kinship-4",
+          "title": "Thank the sun",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b21",
+              "type": "teacher-note",
+              "text": "93 million miles. You can mention that if you want. Kids love the number."
+            },
+            {
+              "nid": "b22",
+              "type": "say-aloud",
+              "text": "Say thank you to the sun. It came a long way to be here."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t18",
+              "when": "They think thanking the sun is silly",
+              "then": "Say it plainly yourself: thank you, sun. When the adult means it, the giggles settle and the class follows."
+            },
+            {
+              "nid": "t19",
+              "when": "They want to stare at the sun to thank it",
+              "then": "Never look straight at it. Turn your face towards the warmth with eyes closed instead, and feel it that way."
+            },
+            {
+              "nid": "t20",
+              "when": "A child asks where the sun goes at night",
+              "then": "Tell them it is warming the other side of the world, and it comes back to us every morning. Keep the wonder, keep it simple."
+            }
+          ]
+        },
+        {
+          "nid": "p23",
+          "key": "circle",
+          "title": "Circle",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "nid": "b24",
+              "type": "circle-question",
+              "text": "What was the warmest thing you touched?"
+            },
+            {
+              "nid": "b25",
+              "type": "teacher-note",
+              "text": "Compare surfaces: stone, metal, wood, soil."
+            },
+            {
+              "nid": "b26",
+              "type": "circle-question",
+              "text": "Where was the coolest spot?"
+            },
+            {
+              "nid": "b27",
+              "type": "teacher-note",
+              "text": "Shadow, under a tree, near water."
+            },
+            {
+              "nid": "b28",
+              "type": "circle-question",
+              "text": "What would happen to our school if the sun stopped shining?"
+            },
+            {
+              "nid": "b29",
+              "type": "teacher-note",
+              "text": "Opens up ecology, food chains, gratitude."
+            },
+            {
+              "nid": "b30",
+              "type": "named-skill",
+              "skill": "touching and looking"
+            }
+          ]
+        }
+      ],
+      "childSheet": [
+        {
+          "nid": "b31",
+          "type": "sheet-title",
+          "title": "Warmth",
+          "nameLine": "This page was made by"
+        },
+        {
+          "nid": "b32",
+          "type": "collage-zone",
+          "hint": "Draw or stick something from today's session here."
+        },
+        {
+          "nid": "b33",
+          "type": "notice-line",
+          "prompt": "One thing you noticed outside today:"
+        }
+      ],
+      "preparation": "Best on a sunny day. If overcast, focus on warm surfaces and sheltered spots.",
+      "conditionNotes": [
+        {
+          "when": [
+            "hot"
+          ],
+          "teacher": "The walls and the paving will be warm to the hand, so today the heat is something they can feel.",
+          "child": "It is hot today. Walls and paths hold the sun, so we will put a hand on one and feel it."
+        },
+        {
+          "when": [
+            "bright"
+          ],
+          "teacher": "Every shadow has a sharp edge under a clear sky, so the lit side and the shaded side of anything are easy to compare by hand.",
+          "child": "The sky is clear today. One side of a wall is in the sun and one side is not, so we will touch both."
+        }
+      ],
+      "spaceNeeded": "Open area with a mix of sun and shade, playground, field, or courtyard.",
+      "primer": {
+        "summary": "The sun warms us directly, on our skin, and it warms the things around us: walls, stones, soil, bark. Some surfaces hold that heat and stay warm long after the sun has moved. Children stand still to feel where the sun touches them, then go and meet a surface the sun has been warming all morning.",
+        "why": "The warmth children feel outside is the same energy that grows every plant and feeds every food chain. Starting summer by noticing it turns a hot day from something to complain about into something to be grateful for. It also lays the ground for later sessions on shade, food and the long summer light.",
+        "glossary": [
+          {
+            "term": "Solar energy",
+            "definition": "The light and heat that travel from the sun to the Earth. It warms the ground and the air, and green plants use it to grow.",
+            "forChildren": "The sun sends us light and warmth. That warmth on your face is energy that came all the way from the sun."
+          },
+          {
+            "term": "Absorb",
+            "definition": "To take something in and hold it. Dark, solid surfaces absorb the sun's heat and stay warm.",
+            "forChildren": "Some things drink up the sun's warmth and keep it. A dark stone soaks up the heat, so it stays warm even in the shade of your hand."
+          },
+          {
+            "term": "Radiate",
+            "definition": "To give off heat. A wall warmed by the sun radiates that warmth back out, which is why it feels warm to touch.",
+            "forChildren": "A warm wall gives its heat back to you when you touch it. That warmth moving from the wall to your hand is the wall sharing the sun."
+          }
+        ],
+        "childFriendlyExamples": [
+          "Close your eyes and turn your face to the warm side. That warmth travelled a huge, long way from the sun just to land on your cheek.",
+          "Some things stay warm long after the sun has moved on. Touch a wall that has been in the sun all morning and it will feel warm, like it saved some sunshine for you.",
+          "The same warmth you feel is helping the grass grow and the flowers open. The sun is feeding the whole school at once, and it is feeding you too."
+        ]
+      },
+      "topicLine": "Today's lesson is about the sun, and what it has been warming outside.",
+      "seasonNote": {
+        "teacher": "The sun is at its highest and longest through summer, so surfaces, ground and skin all hold its warmth for most of the day. Where the heat has been and where it has not is easy to feel now.",
+        "child": "It is summer, and the sun is high in the sky. We are going to feel what the sun has been warming."
+      }
+    },
+    {
+      "id": "summer-w2-the-pollinators",
+      "prompt": "Follow one flyer and watch it work.",
+      "doorQuestion": "Which flower is getting the most visitors?",
+      "title": "The pollinators",
+      "topic": "Find something that flies near flowers. Follow it slowly. Don't chase. Watch where it goes. Count how many flowers it visits.",
+      "topicTags": [
+        "minibeasts",
+        "plants"
+      ],
+      "primaryTopic": "minibeasts",
+      "objective": "A patient observation practice. Children find a flying insect (a bee, butterfly, or hoverfly) and follow it slowly, watching it work from flower to flower.",
+      "namedSkill": "looking and listening",
+      "kit": [
+        "None required"
+      ],
+      "durationMin": 40,
+      "nodeSeq": 33,
+      "phases": [
+        {
+          "nid": "p1",
+          "key": "awareness-1",
+          "title": "Find a flyer",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b2",
+              "type": "conditions-line",
+              "fallbackText": "Look at the sky together before you set off. Whatever it's doing, name it out loud."
+            },
+            {
+              "nid": "b3",
+              "type": "teacher-note",
+              "text": "Sit or stand near flowers. Be patient. Movement will come."
+            },
+            {
+              "nid": "b4",
+              "type": "say-aloud",
+              "text": "Find something that flies. A bee, a butterfly, a hoverfly. Watch where it goes."
+            }
+          ]
+        },
+        {
+          "nid": "p5",
+          "key": "embodiment-2",
+          "title": "Follow a flyer",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b9",
+              "type": "teacher-note",
+              "text": "This is a meditation in patience. Some kids will want to catch things. Redirect: \"We're following, not catching.\""
+            },
+            {
+              "nid": "b10",
+              "type": "say-aloud",
+              "text": "Follow it. Slowly. Don't chase. Just walk where it leads."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t6",
+              "when": "A child tries to catch the insect",
+              "then": "Redirect gently: we're following, not catching. A caught bee can't do its work, and a scared one might sting."
+            },
+            {
+              "nid": "t7",
+              "when": "Their insect flies off and is lost",
+              "then": "Tell them a lost flyer just means it's time to find the next one. Stand near flowers and wait, and another will come."
+            },
+            {
+              "nid": "t8",
+              "when": "A child is frightened of bees",
+              "then": "Offer them a butterfly or a hoverfly to follow instead, and let them watch from a few steps back. Fear watched from a distance often turns into curiosity."
+            }
+          ]
+        },
+        {
+          "nid": "p11",
+          "key": "feeling-3",
+          "title": "Wonder",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b15",
+              "type": "teacher-note",
+              "text": "Pollination without the textbook. They're witnessing it happen."
+            },
+            {
+              "nid": "b16",
+              "type": "say-aloud",
+              "text": "It visited three flowers in one minute. It's working. What is its job?"
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t12",
+              "when": "They say it's just flying about",
+              "then": "Point out that it only lands on flowers, never on the wall or the grass. It's visiting, on purpose, for the sweet nectar."
+            },
+            {
+              "nid": "t13",
+              "when": "They ask why it goes flower to flower",
+              "then": "Tell them the insect is collecting food, and by moving between flowers it carries pollen without meaning to. That's its second, secret job."
+            },
+            {
+              "nid": "t14",
+              "when": "A child worries the insect is tired",
+              "then": "A lovely thought. Say it rests when it needs to, then keeps going, because the flowers are counting on it and so are we."
+            }
+          ]
+        },
+        {
+          "nid": "p17",
+          "key": "kinship-4",
+          "title": "Thank the workers",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b21",
+              "type": "teacher-note",
+              "text": "Whisper it. Bees don't care, but the children will remember saying it."
+            },
+            {
+              "nid": "b22",
+              "type": "say-aloud",
+              "text": "Thank you for the work you do. We need you."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t18",
+              "when": "They want to shout their thanks",
+              "then": "Ask for a whisper instead, so the insect can keep working. A quiet thank you is one the child remembers longer than a loud one."
+            },
+            {
+              "nid": "t19",
+              "when": "A child asks if the bee can hear them",
+              "then": "Say honestly that it probably can't, but we say it anyway, because thanking the workers is really about us noticing how much they do."
+            },
+            {
+              "nid": "t20",
+              "when": "They're ready to leave",
+              "then": "Have them take one last look at their flyer still working, then walk back quietly so as not to disturb it."
+            }
+          ]
+        },
+        {
+          "nid": "p23",
+          "key": "circle",
+          "title": "Circle",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "nid": "b24",
+              "type": "circle-question",
+              "text": "What did you follow? Where did it go?"
+            },
+            {
+              "nid": "b25",
+              "type": "teacher-note",
+              "text": "Let them tell the story of their pollinator's journey."
+            },
+            {
+              "nid": "b26",
+              "type": "circle-question",
+              "text": "Where did it fly next? Tell us about its journey."
+            },
+            {
+              "nid": "b27",
+              "type": "teacher-note",
+              "text": "Count if they can. The number often surprises them."
+            },
+            {
+              "nid": "b28",
+              "type": "circle-question",
+              "text": "What would our lunch look like without pollinators?"
+            },
+            {
+              "nid": "b29",
+              "type": "teacher-note",
+              "text": "Connects to food systems. Powerful for older KS2."
+            },
+            {
+              "nid": "b30",
+              "type": "named-skill",
+              "skill": "looking and listening"
+            }
+          ]
+        }
+      ],
+      "childSheet": [
+        {
+          "nid": "b31",
+          "type": "sheet-title",
+          "title": "The pollinators",
+          "nameLine": "This page was made by"
+        },
+        {
+          "nid": "b32",
+          "type": "collage-zone",
+          "hint": "Draw or stick something from today's session here."
+        },
+        {
+          "nid": "b33",
+          "type": "notice-line",
+          "prompt": "One thing you noticed outside today:"
+        }
+      ],
+      "preparation": "Best near flowering plants on a warm day when insects are active. Scout for bee-friendly areas.",
+      "spaceNeeded": "Near flower beds, wildflower areas, or flowering hedges.",
+      "connectionToLast": "Last week you felt the sun warming everything. This week, meet the tiny workers that warmth wakes up: the bees, butterflies and hoverflies moving flower to flower.",
+      "primer": {
+        "summary": "Children find a flying insect, a bee, a butterfly, or a hoverfly, and follow it slowly as it moves from flower to flower. Without ever needing the word pollination, they watch it happen. The quiet surprise is that these workers are everywhere flowers grow, not only out in the countryside but wherever there are flower beds, window boxes, or blossom on a bush.",
+        "why": "Pollinators carry pollen between flowers so plants can make seeds and fruit. A great deal of the food we eat depends on them. But they only survive where flowers grow, so noticing them is the first step to caring whether they have enough. This session lets children witness that work in real time, with their own eyes.",
+        "glossary": [
+          {
+            "term": "Pollinator",
+            "definition": "An insect, or sometimes a bird, that carries pollen from flower to flower so plants can make seeds.",
+            "forChildren": "Bees, butterflies and little hoverflies are pollinators. They help flowers make seeds while they feed."
+          },
+          {
+            "term": "Hoverfly",
+            "definition": "A small fly that can hold still in mid-air. Many are striped yellow and black like a wasp, but they have no sting.",
+            "forChildren": "That stripy insect holding still in the air is a hoverfly. It looks like a wasp, but it is gentle and it cannot sting you."
+          },
+          {
+            "term": "Nectar",
+            "definition": "The sweet, sugary liquid inside a flower that pollinators drink for energy.",
+            "forChildren": "Flowers keep a sweet drink inside called nectar. Insects come for the nectar, and they carry the pollen away by accident."
+          },
+          {
+            "term": "Pollen",
+            "definition": "The fine, usually yellow dust inside a flower. It has to move between flowers for a plant to make seeds.",
+            "forChildren": "The yellow dust inside a flower is pollen. It sticks to a bee's fuzzy body and rides along to the next flower."
+          }
+        ],
+        "childFriendlyExamples": [
+          "A flower is like a tiny café. The insect comes in for a sweet drink of nectar, and while it drinks, yellow pollen dust sticks all over its body.",
+          "When it flies to the next flower, it carries that pollen with it. That is how flowers make seeds for new flowers. The insect never even knows it helped.",
+          "On a warm day, near almost any flower, something is busy working. Today we are going to pick one and follow it slowly to watch it do its job."
+        ]
+      },
+      "conditionNotes": [
+        {
+          "when": [
+            "still"
+          ],
+          "teacher": "The flyers linger at each flower in calm air, so one insect can be followed for a good while before it is lost.",
+          "child": "The air is still today. The flying insects stay longer on each flower, so we will follow one slowly."
+        },
+        {
+          "when": [
+            "windy"
+          ],
+          "teacher": "The flyers keep low and close to shelter in wind, so sit on the lee side of a hedge or wall where the flowers are still and wait longer than feels natural.",
+          "child": "The wind is strong today. Flying insects keep low out of the wind, so we will look near the flowers by a wall or hedge."
+        }
+      ],
+      "topicLine": "Flying insects are our subject today, and we are going to follow one as it works.",
+      "seasonNote": {
+        "teacher": "Flying insects are at their busiest in summer, working the flowers that are open everywhere, so one flyer can be found and followed on most warm days. Cooler or dull spells slow them down; wait for the sun to bring them out.",
+        "child": "In summer the flowers are open and the bees and butterflies are busy. We are going to follow one and watch it work."
+      }
+    },
+    {
+      "id": "summer-w3-shade",
+      "prompt": "Where is the coolest place, and what made it?",
+      "title": "Shade",
+      "topic": "Find the coolest place you can. Sit in it. Feel the air on your skin. Notice what made this cool place for you.",
+      "topicTags": [
+        "weather",
+        "trees"
+      ],
+      "primaryTopic": "trees",
+      "objective": "Children seek out the coolest spots and discover microclimates: how a tree creates shelter, how soil holds moisture, how shade is a gift from something alive.",
+      "namedSkill": "touching and listening",
+      "kit": [
+        "None required"
+      ],
+      "durationMin": 40,
+      "nodeSeq": 33,
+      "phases": [
+        {
+          "nid": "p1",
+          "key": "awareness-1",
+          "title": "Find the coolest spot",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b2",
+              "type": "conditions-line",
+              "fallbackText": "Look at the sky together before you set off. Whatever it's doing, name it out loud."
+            },
+            {
+              "nid": "b3",
+              "type": "teacher-note",
+              "text": "Under a tree, against a north-facing wall, near water, in long grass. Let them explore."
+            },
+            {
+              "nid": "b4",
+              "type": "say-aloud",
+              "text": "It's warm today. Find the coolest place you can."
+            }
+          ]
+        },
+        {
+          "nid": "p5",
+          "key": "embodiment-2",
+          "title": "Sit in the cool",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b9",
+              "type": "teacher-note",
+              "text": "A tree made shade. Soil holds moisture. Stone stays cool. They're discovering microclimates."
+            },
+            {
+              "nid": "b10",
+              "type": "say-aloud",
+              "text": "Sit in it. Feel the air on your skin. What made this cool place?"
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t6",
+              "when": "Every child crowds into one shady spot",
+              "then": "Send them hunting for a second and a third cool place. Ask which one is coolest and why, so they discover shade comes in different strengths."
+            },
+            {
+              "nid": "t7",
+              "when": "A child won't sit on damp or dirty ground",
+              "then": "Let them crouch, or rest a hand on the cool bark or wall instead. Feeling the cool matters more than sitting in it."
+            },
+            {
+              "nid": "t8",
+              "when": "They say the shade feels the same as the sun",
+              "then": "Have them step out into the sun for a slow count, then back into the shade. The contrast is what teaches the difference."
+            }
+          ]
+        },
+        {
+          "nid": "p11",
+          "key": "feeling-3",
+          "title": "Wonder",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b15",
+              "type": "teacher-note",
+              "text": "The tree didn't mean to shelter you, but it does. That's a gift."
+            },
+            {
+              "nid": "b16",
+              "type": "say-aloud",
+              "text": "Something alive made this shelter for you. Does that change how it feels?"
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t12",
+              "when": "Their cool spot was made by a wall, not a tree",
+              "then": "That's a fine noticing. Ask them who or what made the wall, and whether a tree's shade feels different from a building's. Both are worth meeting."
+            },
+            {
+              "nid": "t13",
+              "when": "They can't say how it makes them feel",
+              "then": "Ask a smaller question: is it a nice place to be, or not? Then ask why. The feeling follows the reason."
+            },
+            {
+              "nid": "t14",
+              "when": "A child wants to climb the tree that made the shade",
+              "then": "Keep them at its base for now. Say we're getting to know this tree by resting under it, the way a lot of creatures do on a hot day."
+            }
+          ]
+        },
+        {
+          "nid": "p17",
+          "key": "kinship-4",
+          "title": "Thank the shade",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b21",
+              "type": "teacher-note",
+              "text": "A hand on the trunk. A pat on the grass. Walk back together."
+            },
+            {
+              "nid": "b22",
+              "type": "say-aloud",
+              "text": "Thank what made the shade. Touch it gently before you go."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t18",
+              "when": "A child's shade came from a building, and they feel left out",
+              "then": "Let them thank the wall, or the grass they sat on. Anything that gave them cool is worth a quiet thank you."
+            },
+            {
+              "nid": "t19",
+              "when": "They touch the tree roughly",
+              "then": "Model a gentle hand on the bark. We say thank you softly, the way you'd touch a friend, not pull at them."
+            },
+            {
+              "nid": "t20",
+              "when": "They're reluctant to leave the cool",
+              "then": "Promise the shade will still be here tomorrow, and that they now know where to find it on the next hot day."
+            }
+          ]
+        },
+        {
+          "nid": "p23",
+          "key": "circle",
+          "title": "Circle",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "nid": "b24",
+              "type": "circle-question",
+              "text": "Where was the coolest spot?"
+            },
+            {
+              "nid": "b25",
+              "type": "teacher-note",
+              "text": "Compare spots. Why was one cooler than another?"
+            },
+            {
+              "nid": "b26",
+              "type": "circle-question",
+              "text": "What made the shade?"
+            },
+            {
+              "nid": "b27",
+              "type": "teacher-note",
+              "text": "Trees, buildings, walls: nature vs human-made."
+            },
+            {
+              "nid": "b28",
+              "type": "circle-question",
+              "text": "Who else uses shade, besides us?"
+            },
+            {
+              "nid": "b29",
+              "type": "teacher-note",
+              "text": "Animals, insects, plants. Shade is shared."
+            },
+            {
+              "nid": "b30",
+              "type": "named-skill",
+              "skill": "touching and listening"
+            }
+          ]
+        }
+      ],
+      "childSheet": [
+        {
+          "nid": "b31",
+          "type": "sheet-title",
+          "title": "Shade",
+          "nameLine": "This page was made by"
+        },
+        {
+          "nid": "b32",
+          "type": "collage-zone",
+          "hint": "Draw or stick something from today's session here."
+        },
+        {
+          "nid": "b33",
+          "type": "notice-line",
+          "prompt": "One thing you noticed outside today:"
+        }
+      ],
+      "preparation": "Best on a warm day when the contrast between sun and shade is noticeable.",
+      "spaceNeeded": "Area with both sun-exposed and shaded spots, near buildings, trees, or walls.",
+      "connectionToLast": "You have met the pollinators working in the summer sun. On a hot day, they need cool places too. This week, go and find the coolest spot you can, and meet what made it.",
+      "primer": {
+        "summary": "On a warm day, some places stay cool: under a tree, against a shaded wall, in long grass, near water. These cool pockets are called microclimates, and children discover them by seeking out the coolest spot they can find, then working out what made it. A tree, especially, makes shade without meaning to, and that shade is a gift shared with every creature under it.",
+        "why": "Shade is easy to take for granted until a hot day. Noticing that a living tree creates shelter, and that soil and stone hold coolness, helps children see the outdoors as something that looks after them. It also plants the idea, gently, that trees are worth keeping.",
+        "glossary": [
+          {
+            "term": "Shade",
+            "definition": "The cooler, darker area made when something blocks the sun's light and heat.",
+            "forChildren": "Shade is the cool, shady patch where something has blocked the sun. Under a tree is shade. Behind a wall is shade."
+          },
+          {
+            "term": "Microclimate",
+            "definition": "A small area where the conditions, like temperature or dampness, are different from the space around it. A shady tree base is a cooler microclimate than the open playground.",
+            "forChildren": "A microclimate is a little pocket of weather all its own. Under a tree can be cool and damp even when the playground is hot and dry."
+          },
+          {
+            "term": "Canopy",
+            "definition": "The leafy top of a tree or group of trees. A thick canopy blocks the sun and keeps the ground below it cool.",
+            "forChildren": "The leafy roof at the top of a tree is called the canopy. It works like an umbrella, keeping the ground underneath cool and shady."
+          }
+        ],
+        "childFriendlyExamples": [
+          "A tree did not decide to make shade for you, but it does anyway. Its leaves catch the sun high up, and the cool underneath is a gift you can sit in.",
+          "Feel the ground in the shade and then in the sun. The shady soil often stays cool and a little damp, like it is holding on to the morning.",
+          "You are not the only one who loves the shade on a hot day. Birds, insects and other animals rest in it too. When you sit there, you are sharing a cool spot with them."
+        ]
+      },
+      "conditionNotes": [
+        {
+          "when": [
+            "hot"
+          ],
+          "teacher": "The gap between sun and shade is something the whole body feels today, so have the class stand in one and then the other and say the difference before naming what made it.",
+          "child": "It is hot today. Under a tree it is cooler than in the sun, so we will stand in both and feel the difference."
+        },
+        {
+          "when": [
+            "bright"
+          ],
+          "teacher": "Every shadow has a sharp edge under a clear sky, so the class can see the shape of each patch of shade before they step into it and work out what cast it.",
+          "child": "The sky is clear today. Every shadow has a clear edge, so we will pick one and work out what made it."
+        }
+      ],
+      "topicLine": "This lesson is about shade, finding the coolest place outside and what made it.",
+      "seasonNote": {
+        "teacher": "Trees are in full leaf, so summer shade is at its deepest and the difference between sun and shelter is at its strongest. A hot day makes the cool spots obvious; a mild one asks the class to feel harder.",
+        "child": "In summer the trees are full of leaves and make cool shade. We are going to find the coolest place and work out what made it."
+      }
+    },
+    {
+      "id": "summer-w4-smell",
+      "prompt": "What is the strongest smell you can find?",
+      "title": "Smell",
+      "topic": "Close your eyes and breathe in. Walk slowly to find the strongest smell. Get close to it. Notice if it reminds you of anything.",
+      "topicTags": [
+        "senses",
+        "plants"
+      ],
+      "primaryTopic": "plants",
+      "objective": "Summer has the strongest scents. Children explore smell as the most memory-linked sense: crushing leaves, sniffing bark, getting close to flowers.",
+      "namedSkill": "smelling and touching",
+      "kit": [
+        "None required"
+      ],
+      "durationMin": 40,
+      "nodeSeq": 33,
+      "phases": [
+        {
+          "nid": "p1",
+          "key": "awareness-1",
+          "title": "Notice the smells",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b2",
+              "type": "conditions-line",
+              "fallbackText": "Look at the sky together before you set off. Whatever it's doing, name it out loud."
+            },
+            {
+              "nid": "b3",
+              "type": "teacher-note",
+              "text": "Cut grass, warm soil, flowers, rain, hot tarmac. Summer has the strongest smells."
+            },
+            {
+              "nid": "b4",
+              "type": "say-aloud",
+              "text": "Close your eyes. Breathe in slowly. What can you smell?"
+            }
+          ]
+        },
+        {
+          "nid": "p5",
+          "key": "embodiment-2",
+          "title": "Chase a smell",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b9",
+              "type": "teacher-note",
+              "text": "Crush a leaf gently between fingers. Sniff bark. Get close to flowers. Hands-on smelling."
+            },
+            {
+              "nid": "b10",
+              "type": "say-aloud",
+              "text": "Walk slowly. Find the strongest smell you can. Go right up to it."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t6",
+              "when": "They say they can't smell anything",
+              "then": "Have them crush a leaf gently between their fingers and sniff, or kneel and smell the warm grass and soil. Getting close wakes the nose up."
+            },
+            {
+              "nid": "t7",
+              "when": "A child pulls up whole plants to smell them",
+              "then": "Show them how to rub a leaf while it's still growing, or cup a flower and lean in. We smell it where it lives, we don't take it."
+            },
+            {
+              "nid": "t8",
+              "when": "Everything they find smells bad to them",
+              "then": "That counts too. Ask what the smell reminds them of, or send them hunting for one smell they do like. Both are real noticing."
+            }
+          ]
+        },
+        {
+          "nid": "p11",
+          "key": "feeling-3",
+          "title": "Wonder",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b15",
+              "type": "teacher-note",
+              "text": "Smell triggers memory more than any other sense. Let them share if they want to."
+            },
+            {
+              "nid": "b16",
+              "type": "say-aloud",
+              "text": "Does this smell remind you of anything? A place? A person? A feeling?"
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t12",
+              "when": "A smell brings up a strong or sad memory",
+              "then": "Let them share it if they want, or keep it private if they don't. Smell reaches deep, and there's no wrong thing to remember."
+            },
+            {
+              "nid": "t13",
+              "when": "Nothing comes to mind for them",
+              "then": "That's fine. Ask instead whether the smell feels warm or fresh, sweet or sharp. Naming the smell can come before any memory."
+            },
+            {
+              "nid": "t14",
+              "when": "They all want to talk at once",
+              "then": "Let the smell hold them a moment longer first, then take a few stories in the circle rather than all at once out here."
+            }
+          ]
+        },
+        {
+          "nid": "p17",
+          "key": "kinship-4",
+          "title": "Keep the scent",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b21",
+              "type": "teacher-note",
+              "text": "Anchoring the memory. Walk back breathing slowly."
+            },
+            {
+              "nid": "b22",
+              "type": "say-aloud",
+              "text": "Breathe it in one more time. Remember it. This is what summer smells like at your school."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t18",
+              "when": "A child takes a huge breath and gets dizzy",
+              "then": "Slow them down. One gentle breath in through the nose is plenty. We're keeping the smell, not chasing it."
+            },
+            {
+              "nid": "t19",
+              "when": "They ask if they can take the smell home",
+              "then": "Tell them they already have: the nose remembers. They can close their eyes at home and this summer smell may come back."
+            },
+            {
+              "nid": "t20",
+              "when": "They rush to leave",
+              "then": "Ask for one slow breath together before you walk back, so the smell has a moment to settle into memory."
+            }
+          ]
+        },
+        {
+          "nid": "p23",
+          "key": "circle",
+          "title": "Circle",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "nid": "b24",
+              "type": "circle-question",
+              "text": "What was the strongest smell you found?"
+            },
+            {
+              "nid": "b25",
+              "type": "teacher-note",
+              "text": "Encourage specific, descriptive language."
+            },
+            {
+              "nid": "b26",
+              "type": "circle-question",
+              "text": "Did any smell remind you of something?"
+            },
+            {
+              "nid": "b27",
+              "type": "teacher-note",
+              "text": "Smell-memory connection. Often surprising stories emerge."
+            },
+            {
+              "nid": "b28",
+              "type": "circle-question",
+              "text": "What do you think this place smells like in winter?"
+            },
+            {
+              "nid": "b29",
+              "type": "teacher-note",
+              "text": "Connects seasons, anticipation."
+            },
+            {
+              "nid": "b30",
+              "type": "named-skill",
+              "skill": "smelling and touching"
+            }
+          ]
+        }
+      ],
+      "childSheet": [
+        {
+          "nid": "b31",
+          "type": "sheet-title",
+          "title": "Smell",
+          "nameLine": "This page was made by"
+        },
+        {
+          "nid": "b32",
+          "type": "collage-zone",
+          "hint": "Draw or stick something from today's session here."
+        },
+        {
+          "nid": "b33",
+          "type": "notice-line",
+          "prompt": "One thing you noticed outside today:"
+        }
+      ],
+      "preparation": "No preparation. Summer produces strong natural scents everywhere.",
+      "spaceNeeded": "Any outdoor area, gardens and areas with flowers or herbs are richest.",
+      "connectionToLast": "You have found the coolest places outside. This week, close your eyes and use your nose instead: summer has the strongest smells of the whole year, and they are waiting to be met.",
+      "primer": {
+        "summary": "Warm air carries scent, so summer is the richest season for smells: cut grass, warm soil, flowers, herbs, rain on hot ground. Children close their eyes, breathe in, then walk slowly to find the strongest smell they can, getting right up close to meet it. Smell is closely tied to memory, so a scent may bring a place or a person suddenly to mind.",
+        "why": "Smell is the sense we teach children the least, yet it is the one most tied to memory and feeling. Slowing down to breathe in what is around them builds attention and calm, and gives children a way into nature that doesn't depend on finding anything to look at.",
+        "glossary": [
+          {
+            "term": "Scent",
+            "definition": "A smell, especially a pleasant one carried on the air, from flowers, herbs, grass, or soil.",
+            "forChildren": "A scent is a smell drifting on the air. When you catch flowers or cut grass on the breeze, that's their scent reaching you."
+          },
+          {
+            "term": "Sense of smell",
+            "definition": "The sense we use to detect scents, through the nose. It is closely linked to memory, so a smell can bring a whole memory back at once.",
+            "forChildren": "Your sense of smell is your nose's job. It is clever: one smell can remind you of a whole day you had forgotten."
+          },
+          {
+            "term": "Fragrant",
+            "definition": "Having a strong, usually pleasant smell. Many flowers and herbs are fragrant, especially in warm weather.",
+            "forChildren": "Fragrant means it smells strong and lovely. A warm flower or a crushed herb leaf is fragrant."
+          }
+        ],
+        "childFriendlyExamples": [
+          "Warm air holds smells better than cold air, which is why summer smells so strong. Close your eyes and the whole garden comes to your nose at once.",
+          "Rub a leaf softly between your fingers and then smell them. The smell was hiding inside the leaf, and you just let a little of it out.",
+          "Smells are like doors to memories. One breath of cut grass or warm soil might remind you of somewhere you have been before, and that is your nose remembering for you."
+        ]
+      },
+      "conditionNotes": [
+        {
+          "when": [
+            "hot"
+          ],
+          "teacher": "The scents lift off leaves, grass and tarmac in the heat, so the strongest smells today are close to the ground and near anything the sun has been on.",
+          "child": "It is hot today. The sun makes smells stronger, so we will sniff a warm leaf and a warm path."
+        },
+        {
+          "when": [
+            "wet"
+          ],
+          "teacher": "The soil, the bark and the fallen leaves give up their smell after rain, so send noses to the ground and the trunks first, before the flowers.",
+          "child": "The rain has made the ground smell. Wet soil and wet bark have their own smell, so we will get close and breathe in."
+        }
+      ],
+      "topicLine": "We are going outside to find the strongest smells of summer.",
+      "seasonNote": {
+        "teacher": "Scents are at their strongest in summer: flowers in bloom, warm leaves, cut grass, damp soil after rain. Warmth lifts smells into the air, so a sunny day is rich and a cool one is subtler.",
+        "child": "Summer is full of smells. We are going to get close to leaves, bark and flowers and find the strongest one."
+      }
+    },
+    {
+      "id": "summer-w5-food",
+      "prompt": "What has already been eaten here?",
+      "title": "Food",
+      "topic": "Find something that something eats: a berry, a leaf, nectar. Look for marks where something has already eaten. Trace the food chain.",
+      "topicTags": [
+        "trees",
+        "plants"
+      ],
+      "primaryTopic": "plants",
+      "objective": "Everything is food for something. Children find evidence of feeding (nibbled leaves, pecked fruit, nectar being collected) and discover their schoolyard is a living food web.",
+      "namedSkill": "looking and touching",
+      "kit": [
+        "None required"
+      ],
+      "durationMin": 40,
+      "nodeSeq": 33,
+      "phases": [
+        {
+          "nid": "p1",
+          "key": "awareness-1",
+          "title": "Find a food source",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b2",
+              "type": "conditions-line",
+              "fallbackText": "Look at the sky together before you set off. Whatever it's doing, name it out loud."
+            },
+            {
+              "nid": "b3",
+              "type": "teacher-note",
+              "text": "Everything is food for something. Leaves for caterpillars, seeds for birds, nectar for bees, bark for beetles."
+            },
+            {
+              "nid": "b4",
+              "type": "say-aloud",
+              "text": "Look around. Find something that something eats. A berry. A leaf. A seed. Nectar."
+            }
+          ]
+        },
+        {
+          "nid": "p5",
+          "key": "embodiment-2",
+          "title": "Find who eats",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b9",
+              "type": "teacher-note",
+              "text": "Holes in leaves, nibbled edges, pecked fruit, hollowed-out acorns. Evidence of feeding."
+            },
+            {
+              "nid": "b10",
+              "type": "say-aloud",
+              "text": "Look closely. Can you see the marks where something has already eaten?"
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t6",
+              "when": "They can't find any eaten marks",
+              "then": "Point them to leaves with holes or nibbled edges, and to fruit or berries with a peck taken out. The marks are small, so slow right down."
+            },
+            {
+              "nid": "t7",
+              "when": "A child eats a berry or a leaf to see who was right",
+              "then": "Stop them warmly. We never eat what we find outside, because some plants are not safe. We're looking for who ate it, not tasting it ourselves."
+            },
+            {
+              "nid": "t8",
+              "when": "They think a nibbled leaf is broken or ruined",
+              "then": "Turn it round: a hole in a leaf means someone was fed. That leaf did its job as food. That's the whole lesson in one bite mark."
+            }
+          ]
+        },
+        {
+          "nid": "p11",
+          "key": "feeling-3",
+          "title": "Wonder",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b15",
+              "type": "teacher-note",
+              "text": "Reframing the schoolyard as a living food web. Some kids will find this exciting."
+            },
+            {
+              "nid": "b16",
+              "type": "say-aloud",
+              "text": "This place is a restaurant for hundreds of creatures. How does that make you feel?"
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t12",
+              "when": "A child finds the idea of eating and being eaten upsetting",
+              "then": "Keep it gentle: everything alive needs to eat, and being food is how creatures share the land. Frame it as feeding, not harming."
+            },
+            {
+              "nid": "t13",
+              "when": "They only see the plants, not the eaters",
+              "then": "Remind them the eaters are shy and quick. The nibbled leaf is the clue that someone was here, even if it has moved on."
+            },
+            {
+              "nid": "t14",
+              "when": "They want to name every eater exactly",
+              "then": "You don't have to know the exact creature. A caterpillar, a bird, a beetle, a slug: guessing who did it is part of the wondering."
+            }
+          ]
+        },
+        {
+          "nid": "p17",
+          "key": "kinship-4",
+          "title": "Leave it be",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b21",
+              "type": "teacher-note",
+              "text": "Anti-extraction principle. We observe, we don't take. Walk back."
+            },
+            {
+              "nid": "b22",
+              "type": "say-aloud",
+              "text": "Leave the food where it is. Someone needs it more than we do."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t18",
+              "when": "A child wants to pick the berries to take home",
+              "then": "Ask them who else was counting on that food. We leave it for the creature that needs it, and some berries aren't safe for us anyway."
+            },
+            {
+              "nid": "t19",
+              "when": "They've already picked something",
+              "then": "No telling-off. Have them set it back down where they found it, so whatever was feeding there can come back to it."
+            },
+            {
+              "nid": "t20",
+              "when": "They ask why we can't take just one",
+              "then": "Say that if everyone took just one, there would be nothing left for the birds and insects. Leaving it be is our small kindness."
+            }
+          ]
+        },
+        {
+          "nid": "p23",
+          "key": "circle",
+          "title": "Circle",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "nid": "b24",
+              "type": "circle-question",
+              "text": "What food did you find? Who eats it?"
+            },
+            {
+              "nid": "b25",
+              "type": "teacher-note",
+              "text": "Build food chains together verbally."
+            },
+            {
+              "nid": "b26",
+              "type": "circle-question",
+              "text": "What eats that animal?"
+            },
+            {
+              "nid": "b27",
+              "type": "teacher-note",
+              "text": "Extend the chain. Kids love this."
+            },
+            {
+              "nid": "b28",
+              "type": "circle-question",
+              "text": "Where does your lunch come from, really?"
+            },
+            {
+              "nid": "b29",
+              "type": "teacher-note",
+              "text": "Trace it back to sun, soil, water."
+            },
+            {
+              "nid": "b30",
+              "type": "named-skill",
+              "skill": "looking and touching"
+            }
+          ]
+        }
+      ],
+      "childSheet": [
+        {
+          "nid": "b31",
+          "type": "sheet-title",
+          "title": "Food",
+          "nameLine": "This page was made by"
+        },
+        {
+          "nid": "b32",
+          "type": "collage-zone",
+          "hint": "Draw or stick something from today's session here."
+        },
+        {
+          "nid": "b33",
+          "type": "notice-line",
+          "prompt": "One thing you noticed outside today:"
+        }
+      ],
+      "preparation": "No preparation. Every outdoor space has food chains happening.",
+      "spaceNeeded": "Any area with plants, look for nibbled leaves, berries, nectar sources.",
+      "connectionToLast": "You have used your nose to meet the smells of summer. This week, follow the food: nearly everything growing here is a meal for something, and the marks left behind tell the story.",
+      "primer": {
+        "summary": "Everything outside is food for something. Leaves feed caterpillars, seeds feed birds, nectar feeds bees, berries feed many creatures at once. Rather than watching the eating happen, children look for the evidence of it: holes in leaves, nibbled edges, pecked fruit. Each mark is a clue that the schoolyard is a busy, living food web.",
+        "why": "Food chains are usually taught from a book. Here children read them off the real world, from marks left in real leaves. It reframes their everyday outdoor space as a place where hundreds of creatures are fed, and it introduces a gentle rule that runs through the whole programme: we notice, we don't take.",
+        "glossary": [
+          {
+            "term": "Food chain",
+            "definition": "The order of who eats what: a plant is eaten by an insect, the insect is eaten by a bird, and so on.",
+            "forChildren": "A food chain is a who-eats-who line. Leaf, then caterpillar, then bird. Each one is a meal for the next."
+          },
+          {
+            "term": "Food web",
+            "definition": "All the food chains in one place, linked together, because most creatures eat more than one kind of food and are eaten by more than one thing.",
+            "forChildren": "A food web is lots of food chains tangled together. It shows how everything in a place is joined up by what it eats."
+          },
+          {
+            "term": "Herbivore",
+            "definition": "An animal that eats mainly plants, such as a caterpillar, a rabbit, or a snail.",
+            "forChildren": "A herbivore is a creature that eats plants. A caterpillar munching a leaf is a herbivore."
+          },
+          {
+            "term": "Evidence",
+            "definition": "The marks or signs left behind that show something happened, even when you didn't see it happen.",
+            "forChildren": "Evidence is the clue something leaves behind. A hole in a leaf is evidence that a hungry creature was here."
+          }
+        ],
+        "childFriendlyExamples": [
+          "A hole in a leaf is not damage. It is a dinner plate that has been used. Something small and hungry came here and had a meal.",
+          "You probably won't see the eaters. They are quick and shy. But the marks they leave tell you they were here, like footprints made of bites.",
+          "The food you find belongs to the creatures that live here. We look at it, we wonder about it, and then we leave it, because someone else needs it more than we do."
+        ]
+      },
+      "topicLine": "Everything is food for something, and today we look for signs of who has been eating.",
+      "seasonNote": {
+        "teacher": "Everything is eating in summer: leaves are nibbled, fruit pecked, nectar collected, and the signs are fresh because the growing and feeding are happening now. The school grounds are a food web at its busiest.",
+        "child": "In summer, everything is eating and growing. We are going to look for what has already been nibbled or pecked."
+      }
+    },
+    {
+      "id": "summer-w6-flowers",
+      "prompt": "What can you see inside a flower?",
+      "title": "Flowers",
+      "topic": "Find the brightest, loudest colour. Go close. Really close. Look inside. Notice what you see that you've never seen before.",
+      "topicTags": [
+        "plants"
+      ],
+      "objective": "Flowers compete for attention. Children find the loudest colour, look inside a flower, and discover the hidden world of pollen, patterns, and tiny structures.",
+      "namedSkill": "looking and smelling",
+      "kit": [
+        "None required"
+      ],
+      "durationMin": 40,
+      "nodeSeq": 33,
+      "phases": [
+        {
+          "nid": "p1",
+          "key": "awareness-1",
+          "title": "Find the loudest colour",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b2",
+              "type": "conditions-line",
+              "fallbackText": "Look at the sky together before you set off. Whatever it's doing, name it out loud."
+            },
+            {
+              "nid": "b3",
+              "type": "teacher-note",
+              "text": "Flowers compete for attention, from pollinators. The brightest colour is the loudest shout."
+            },
+            {
+              "nid": "b4",
+              "type": "say-aloud",
+              "text": "Look at all the colours. Which one is shouting the loudest?"
+            }
+          ]
+        },
+        {
+          "nid": "p5",
+          "key": "embodiment-2",
+          "title": "Look inside a flower",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b9",
+              "type": "teacher-note",
+              "text": "Pollen, patterns, tiny hairs, colour gradients. The inside of a flower is a world."
+            },
+            {
+              "nid": "b10",
+              "type": "say-aloud",
+              "text": "Go to it. Get your eyes really close. What do you see inside?"
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t6",
+              "when": "A child wants to pick the flower to look inside",
+              "then": "Show them how to look while it's still growing: lean in, or gently tip the flower towards them with a fingertip. It stays alive and they still see everything."
+            },
+            {
+              "nid": "t7",
+              "when": "They say there's nothing to see inside",
+              "then": "Ask them to look for the tiny yellow dust, the little lines on the petals, the fine hairs. The closer they get, the more appears."
+            },
+            {
+              "nid": "t8",
+              "when": "The flowers are too high for small children to reach",
+              "then": "Steer them to low blooms, or to a flower in a pot or bed at their level. There's always one they can meet without stretching."
+            }
+          ]
+        },
+        {
+          "nid": "p11",
+          "key": "feeling-3",
+          "title": "Wonder",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b15",
+              "type": "teacher-note",
+              "text": "Gentle metaphor. Flowers and children both want to be noticed. Light touch."
+            },
+            {
+              "nid": "b16",
+              "type": "say-aloud",
+              "text": "This flower is trying to be seen. It dressed up for today. Do you ever do that?"
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t12",
+              "when": "The metaphor goes over their heads",
+              "then": "Make it plain: the flower is bright so a bee will notice it. Ask what makes them notice a thing. Colour, they'll say, and you're there."
+            },
+            {
+              "nid": "t13",
+              "when": "A child insists their flower is boring or plain",
+              "then": "Have them get closer still. Even a small pale flower has patterns and structure inside that no one usually stops to see."
+            },
+            {
+              "nid": "t14",
+              "when": "They rush from flower to flower",
+              "then": "Ask them to choose just one and stay with it. The wonder comes from looking long, not from finding many."
+            }
+          ]
+        },
+        {
+          "nid": "p17",
+          "key": "kinship-4",
+          "title": "Tell the flower",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b21",
+              "type": "teacher-note",
+              "text": "Say it seriously. The kids will giggle, then some will mean it. Walk back."
+            },
+            {
+              "nid": "b22",
+              "type": "say-aloud",
+              "text": "Tell the flower: I see you. You're beautiful."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t18",
+              "when": "The class dissolves into giggles",
+              "then": "Let the giggles pass, then say it once yourself, quietly and meaning it. Some children will fall quiet and say it back for real."
+            },
+            {
+              "nid": "t19",
+              "when": "A child feels shy saying it out loud",
+              "then": "Tell them they can say it inside, just in their head. The flower doesn't mind whether it's out loud or quiet."
+            },
+            {
+              "nid": "t20",
+              "when": "They want to pick the flower now to keep it",
+              "then": "Ask them to leave it so the next person, and the next bee, can meet it too. Say we keep it by remembering it, not by taking it."
+            }
+          ]
+        },
+        {
+          "nid": "p23",
+          "key": "circle",
+          "title": "Circle",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "nid": "b24",
+              "type": "circle-question",
+              "text": "Which colour was loudest?"
+            },
+            {
+              "nid": "b25",
+              "type": "teacher-note",
+              "text": "Compare across the group. Different eyes see different things."
+            },
+            {
+              "nid": "b26",
+              "type": "circle-question",
+              "text": "What did the inside of your flower look like?"
+            },
+            {
+              "nid": "b27",
+              "type": "teacher-note",
+              "text": "Encourage precise description."
+            },
+            {
+              "nid": "b28",
+              "type": "circle-question",
+              "text": "Why do flowers need to be so bright?"
+            },
+            {
+              "nid": "b29",
+              "type": "teacher-note",
+              "text": "Pollination, survival, evolution in kid-friendly language."
+            },
+            {
+              "nid": "b30",
+              "type": "named-skill",
+              "skill": "looking and smelling"
+            }
+          ]
+        }
+      ],
+      "childSheet": [
+        {
+          "nid": "b31",
+          "type": "sheet-title",
+          "title": "Flowers",
+          "nameLine": "This page was made by"
+        },
+        {
+          "nid": "b32",
+          "type": "collage-zone",
+          "hint": "Draw or stick something from today's session here."
+        },
+        {
+          "nid": "b33",
+          "type": "notice-line",
+          "prompt": "One thing you noticed outside today:"
+        }
+      ],
+      "preparation": "Best near flowering plants. Any colourful garden, wildflower patch, or even weeds in cracks will work.",
+      "spaceNeeded": "Near flower beds, wildflower areas, or any space with blooming plants.",
+      "connectionToLast": "You have followed the food that feeds the creatures here. This week, meet the flowers that feed the pollinators: find the loudest colour, then look right inside to the world most people walk straight past.",
+      "primer": {
+        "summary": "Flowers are bright on purpose. Their colour is an advertisement, calling pollinators in to feed. Children find the brightest, loudest flower they can, then get their eyes right up close to look inside it: the pollen, the patterns, the tiny structures nearly everyone walks past. Up close, a single colour turns into a whole world of detail.",
+        "why": "Looking closely is a skill, and a flower is the perfect place to practise it. Children discover that bright colour is not just pretty, it has a job: to be seen by insects. It also shows them that beauty and detail are right here at their feet, not somewhere far away, wherever a flower has found a place to grow.",
+        "glossary": [
+          {
+            "term": "Bloom",
+            "definition": "A flower that is fully open. When a plant is covered in open flowers, we say it is in bloom.",
+            "forChildren": "When a flower is wide open and showing off, that's a bloom. A bush covered in open flowers is in bloom."
+          },
+          {
+            "term": "Pollen",
+            "definition": "The fine, usually yellow dust inside a flower. Pollen needs to move between flowers for a plant to make seeds.",
+            "forChildren": "That yellow dust inside the flower is pollen. If it gets on your finger, you're doing a bee's job for it."
+          },
+          {
+            "term": "Nectar guide",
+            "definition": "Lines or patterns on a petal that point towards the centre of the flower, like markings guiding a pollinator in to the nectar.",
+            "forChildren": "Some flowers have little lines on their petals, like arrows. They point the insect straight to the sweet nectar in the middle."
+          },
+          {
+            "term": "Petal",
+            "definition": "One of the coloured outer parts of a flower. Together the petals make the shape and colour that attract pollinators.",
+            "forChildren": "The soft coloured parts of a flower are its petals. They are the flower's way of waving to the bees."
+          }
+        ],
+        "childFriendlyExamples": [
+          "A flower's bright colour is like a shout. It's shouting come here, come here, to every bee and butterfly nearby.",
+          "Get your eyes really close and a flower stops being just one colour. There are patterns, tiny hairs, and yellow pollen hiding inside.",
+          "Colour finds a way to grow almost anywhere: a flower bed, a pot, a crack in the pavement. Today we are going to hunt for the loudest one and meet it up close."
+        ]
+      },
+      "topicLine": "Our lesson today is about looking inside a flower to see what is hidden there.",
+      "seasonNote": {
+        "teacher": "Flowers are at their loudest through summer: the most kinds open at once, competing for the insects that are also at their busiest. Looking inside one finds pollen and patterns ready for visitors.",
+        "child": "Summer is the time of most flowers. We are going to pick the brightest one we can see and look inside it."
+      }
+    },
+    {
+      "id": "summer-w7-long-day",
+      "prompt": "Where will the sun set tonight?",
+      "title": "Long day",
+      "topic": "Point to where the sun is. Point to where it will set. Find the longest shadow and the shortest. Feel what long light does.",
+      "topicTags": [
+        "seasons",
+        "weather",
+        "senses"
+      ],
+      "primaryTopic": "seasons",
+      "objective": "Summer days are the longest. Children trace the sun's arc, play with shadows, and reflect on what long light means for the land and for themselves.",
+      "namedSkill": "noticing by looking",
+      "kit": [
+        "None required"
+      ],
+      "durationMin": 40,
+      "nodeSeq": 33,
+      "phases": [
+        {
+          "nid": "p1",
+          "key": "awareness-1",
+          "title": "Trace the sun's path",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b2",
+              "type": "conditions-line",
+              "fallbackText": "Look at the sky together before you set off. Whatever it's doing, name it out loud."
+            },
+            {
+              "nid": "b3",
+              "type": "teacher-note",
+              "text": "Summer days are long. The sun travels a huge arc. Let them trace it with their arm."
+            },
+            {
+              "nid": "b4",
+              "type": "say-aloud",
+              "text": "Point to where the sun is now. Point to where it will set tonight."
+            }
+          ]
+        },
+        {
+          "nid": "p5",
+          "key": "embodiment-2",
+          "title": "Measure a shadow",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b9",
+              "type": "teacher-note",
+              "text": "Shadow length changes through the day and the year. They're measuring the earth's tilt with their feet."
+            },
+            {
+              "nid": "b10",
+              "type": "say-aloud",
+              "text": "Find the longest shadow you can. Stand in it. Now find the shortest."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t6",
+              "when": "It's the middle of the day and shadows are short",
+              "then": "That short shadow is the lesson. Tell them their shadow was long this morning and will stretch out again this evening, as the sun drops."
+            },
+            {
+              "nid": "t7",
+              "when": "A cloud hides the sun and the shadows vanish",
+              "then": "Wait for it to pass, or use it: no sun, no shadow. It shows them exactly what makes a shadow in the first place."
+            },
+            {
+              "nid": "t8",
+              "when": "Children stand on each other's shadows",
+              "then": "Let it become a quick game, then bring them back. Ask whose shadow is longest, and have them work out why the tall child wins."
+            }
+          ]
+        },
+        {
+          "nid": "p11",
+          "key": "feeling-3",
+          "title": "Wonder",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b15",
+              "type": "teacher-note",
+              "text": "Joy, energy, not wanting to go to bed. All valid. This connects to seasonal rhythms."
+            },
+            {
+              "nid": "b16",
+              "type": "say-aloud",
+              "text": "Summer days are the longest days. The light stays late. How does long light make you feel?"
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t12",
+              "when": "They only talk about staying up late",
+              "then": "Good, follow it. Ask what they get to do with the extra evening light that they can't do in winter. That's the long day, felt."
+            },
+            {
+              "nid": "t13",
+              "when": "A child doesn't like the long light",
+              "then": "That's honest and fine. Some find it hard to sleep when it's bright. Let them say so, then wonder together why summer does this."
+            },
+            {
+              "nid": "t14",
+              "when": "They don't believe days can be longer",
+              "then": "Remind them how dark it was at home time in winter, and how bright it still is now after school. Same clock, different light."
+            }
+          ]
+        },
+        {
+          "nid": "p17",
+          "key": "kinship-4",
+          "title": "Thank the light",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b21",
+              "type": "teacher-note",
+              "text": "Walk back. Maybe notice which direction home is from here."
+            },
+            {
+              "nid": "b22",
+              "type": "say-aloud",
+              "text": "Thank the long day for all the light it gives."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t18",
+              "when": "A child asks if the long days will last",
+              "then": "Tell them gently that after midsummer the light shortens a little each evening. Summer is already turning slowly towards autumn."
+            },
+            {
+              "nid": "t19",
+              "when": "They want to keep chasing shadows",
+              "then": "Let them take one last long shadow, then gather. Say the light will be here late again tonight, longer than almost any night of the year."
+            },
+            {
+              "nid": "t20",
+              "when": "The thanks feels flat",
+              "then": "Point west, to where the sun will set tonight, and thank that direction together. Aiming the thank you somewhere real makes it land."
+            }
+          ]
+        },
+        {
+          "nid": "p23",
+          "key": "circle",
+          "title": "Circle",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "nid": "b24",
+              "type": "circle-question",
+              "text": "Where does the sun set from your bedroom window?"
+            },
+            {
+              "nid": "b25",
+              "type": "teacher-note",
+              "text": "Connects school space to home space."
+            },
+            {
+              "nid": "b26",
+              "type": "circle-question",
+              "text": "What do you do with the extra daylight in summer?"
+            },
+            {
+              "nid": "b27",
+              "type": "teacher-note",
+              "text": "Personal connection to the season."
+            },
+            {
+              "nid": "b28",
+              "type": "circle-question",
+              "text": "What happens to the days after summer?"
+            },
+            {
+              "nid": "b29",
+              "type": "teacher-note",
+              "text": "Sets up autumn. Anticipation."
+            },
+            {
+              "nid": "b30",
+              "type": "named-skill",
+              "skill": "noticing by looking"
+            }
+          ]
+        }
+      ],
+      "childSheet": [
+        {
+          "nid": "b31",
+          "type": "sheet-title",
+          "title": "Long day",
+          "nameLine": "This page was made by"
+        },
+        {
+          "nid": "b32",
+          "type": "collage-zone",
+          "hint": "Draw or stick something from today's session here."
+        },
+        {
+          "nid": "b33",
+          "type": "notice-line",
+          "prompt": "One thing you noticed outside today:"
+        }
+      ],
+      "preparation": "Best on a sunny day. Note which direction is west (sunset) before going out.",
+      "spaceNeeded": "Open area where the sky is visible and shadows can be observed.",
+      "connectionToLast": "You have looked deep inside a single flower. This week, look up and out to the whole sky: trace the summer sun's long journey and feel why these are the longest days of the year.",
+      "primer": {
+        "summary": "Children point to where the sun is now and where it will set, hunt for the longest and shortest shadows, and notice how late the summer light lasts. With nothing but an outstretched arm and the shadows on the ground, they can feel the planet turning and the sun travelling its long summer arc across the sky.",
+        "why": "The Earth is tilted as it travels round the sun, and in summer our half of the world leans towards it, giving long days and short nights. Tracing the sun and its shadows lets children feel a huge idea, the turning of the planet, through their own body and the ground under their feet.",
+        "glossary": [
+          {
+            "term": "Solstice",
+            "definition": "The longest day of the year in summer, or the shortest in winter. In the northern half of the world the summer solstice falls around the 21st of June.",
+            "forChildren": "The summer solstice is the longest day of the whole year. The sun is up for longer than on any other day."
+          },
+          {
+            "term": "Shadow",
+            "definition": "The dark shape made when something blocks the light of the sun. Shadows grow long in the morning and evening and shrink around midday.",
+            "forChildren": "Your shadow is where you block the sun's light. It's long and stretchy in the evening and short and stubby at lunchtime."
+          },
+          {
+            "term": "West",
+            "definition": "The direction where the sun sets. If you know which way is west, you know where the evening light will go.",
+            "forChildren": "The sun always sets in the west. If you can point to west, you can point to where the sun is going tonight."
+          },
+          {
+            "term": "Daylight",
+            "definition": "The hours between sunrise and sunset. In summer there are far more of them than in winter.",
+            "forChildren": "Daylight is all the time the sun is up. In summer we get loads of it, which is why it's still bright after dinner."
+          }
+        ],
+        "childFriendlyExamples": [
+          "Hold your arm out at the sun, then swing it slowly across the sky to where it will set tonight. That whole long path is the summer sun's journey.",
+          "In midsummer the sun stays up so late that it is still light long after your tea. That is the longest day giving everyone extra time outside.",
+          "After the longest day, the light starts to fade a tiny bit earlier each evening. Summer is quietly turning towards autumn, even while it is still warm."
+        ]
+      },
+      "topicLine": "In this lesson we follow the sun and play with shadows on one of the longest days.",
+      "seasonNote": {
+        "teacher": "The sun rises early, climbs high and sets late around midsummer, so shadows are short at midday and the light lasts into the evening. That makes the sun's arc easy to trace across a single session.",
+        "child": "In summer the days are the longest of the year. We are going to watch the sun and play with our shadows."
+      }
+    },
+    {
+      "id": "summer-w8-abundance",
+      "prompt": "How many living things are within arm's reach?",
+      "title": "Abundance",
+      "topic": "Take ten steps. Stop. Count everything alive within arm's reach. Touch five different living things without moving your feet.",
+      "topicTags": [
+        "seasons",
+        "senses"
+      ],
+      "primaryTopic": "seasons",
+      "objective": "The final summer practice. Children count everything alive within arm's reach and discover they are standing in a crowd of living things. A practice about noticing how much life surrounds us.",
+      "namedSkill": "noticing by looking",
+      "kit": [
+        "None required"
+      ],
+      "durationMin": 40,
+      "nodeSeq": 33,
+      "phases": [
+        {
+          "nid": "p1",
+          "key": "awareness-1",
+          "title": "Count everything alive",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b2",
+              "type": "conditions-line",
+              "fallbackText": "Look at the sky together before you set off. Whatever it's doing, name it out loud."
+            },
+            {
+              "nid": "b3",
+              "type": "teacher-note",
+              "text": "Grass blades count. Ants count. Moss counts. Bacteria in the soil count (if they think of it). The number will be enormous."
+            },
+            {
+              "nid": "b4",
+              "type": "say-aloud",
+              "text": "Take ten steps. Stop. Now count everything that is alive within arm's reach."
+            }
+          ]
+        },
+        {
+          "nid": "p5",
+          "key": "embodiment-2",
+          "title": "Count the living",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b9",
+              "type": "teacher-note",
+              "text": "Without moving their feet. Crouch, reach, look closely. Life is everywhere."
+            },
+            {
+              "nid": "b10",
+              "type": "say-aloud",
+              "text": "Touch five different living things right where you stand."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t6",
+              "when": "A child says there's nothing living where they stopped",
+              "then": "Have them crouch and look closer: grass blades, moss, an ant, a seedling. Life is small here, not missing. It rewards getting low."
+            },
+            {
+              "nid": "t7",
+              "when": "They only reach for the big, obvious things",
+              "then": "Point them to the tiny neighbours: a beetle, a blade of grass, the crusty patch on a wall. Meeting the small ones is the whole surprise."
+            },
+            {
+              "nid": "t8",
+              "when": "A child won't touch a bug or something crawling",
+              "then": "They can meet it with their eyes instead of their hands. Watching a living thing closely counts every bit as much as touching it."
+            }
+          ]
+        },
+        {
+          "nid": "p11",
+          "key": "feeling-3",
+          "title": "Wonder",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b15",
+              "type": "teacher-note",
+              "text": "The abundance of life is the summer lesson. We are surrounded."
+            },
+            {
+              "nid": "b16",
+              "type": "say-aloud",
+              "text": "You are standing in a crowd of living things. You are never alone outside. How does that feel?"
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t12",
+              "when": "They're surprised by how much life is right there",
+              "then": "Let that surprise sit. Say this crowd of living things is here every day, even when we walk straight past it without noticing."
+            },
+            {
+              "nid": "t13",
+              "when": "A child feels crowded or uneasy by the idea",
+              "then": "Reframe it gently: all these neighbours are busy with their own lives, not bothered by us. Being surrounded can mean being kept company."
+            },
+            {
+              "nid": "t14",
+              "when": "The group can't settle into the feeling",
+              "then": "Ask each child to keep still and stay with just one living thing near their foot. Wonder is easier one small creature at a time."
+            }
+          ]
+        },
+        {
+          "nid": "p17",
+          "key": "kinship-4",
+          "title": "Thank them all",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b21",
+              "type": "teacher-note",
+              "text": "Close the summer season. A collective thank you. Walk back together slowly."
+            },
+            {
+              "nid": "b22",
+              "type": "say-aloud",
+              "text": "Thank them all. Every single one. Just say: thank you, everyone."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t18",
+              "when": "A child wants to thank one favourite creature by name",
+              "then": "Let them. A thank you to the ant they met, or the moss they touched, closes the summer just as warmly as thanking them all."
+            },
+            {
+              "nid": "t19",
+              "when": "They know this is the last summer session and feel sad",
+              "then": "Tell them the living things stay here all year, and they now know how to find them. Autumn will bring new neighbours to meet."
+            },
+            {
+              "nid": "t20",
+              "when": "The thanks feels rushed",
+              "then": "Have the whole class say it once together, quietly, then take a slow breath before you walk back. Let the season end gently."
+            }
+          ]
+        },
+        {
+          "nid": "p23",
+          "key": "circle",
+          "title": "Circle",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "nid": "b24",
+              "type": "circle-question",
+              "text": "Which living thing surprised you most?"
+            },
+            {
+              "nid": "b25",
+              "type": "teacher-note",
+              "text": "Share numbers. It's always more than expected."
+            },
+            {
+              "nid": "b26",
+              "type": "circle-question",
+              "text": "What was the smallest living thing you found?"
+            },
+            {
+              "nid": "b27",
+              "type": "teacher-note",
+              "text": "Celebrate the tiny."
+            },
+            {
+              "nid": "b28",
+              "type": "circle-question",
+              "text": "What did it feel like to know you were surrounded?"
+            },
+            {
+              "nid": "b29",
+              "type": "teacher-note",
+              "text": "Close the season with this. Sit with the feeling."
+            },
+            {
+              "nid": "b30",
+              "type": "named-skill",
+              "skill": "noticing by looking"
+            }
+          ]
+        }
+      ],
+      "childSheet": [
+        {
+          "nid": "b31",
+          "type": "sheet-title",
+          "title": "Abundance",
+          "nameLine": "This page was made by"
+        },
+        {
+          "nid": "b32",
+          "type": "collage-zone",
+          "hint": "Draw or stick something from today's session here."
+        },
+        {
+          "nid": "b33",
+          "type": "notice-line",
+          "prompt": "One thing you noticed outside today:"
+        }
+      ],
+      "preparation": "No preparation. Works in any outdoor space, the point is that life is everywhere.",
+      "spaceNeeded": "Any outdoor area, playground, field, garden. Even a small patch of grass works.",
+      "connectionToLast": "You have traced the long summer light across the sky. For the last session of summer, come back down to the ground beneath your feet, where more living things are gathered than you could ever meet.",
+      "primer": {
+        "summary": "For the last practice of summer, children take ten steps, stop, and meet every living thing within arm's reach: grass blades, ants, moss, a beetle, a bird overhead, a crusty patch of lichen on a wall. Wherever they stop, there is far more life than they first expect. The lesson lands on its own: even a plain patch of ground is crowded with living things.",
+        "why": "We tend to think an outdoor space is mostly empty, with a bit of nature dotted about. In truth a single patch of ground holds an enormous variety of living things, most of them too small or too still to notice at first. Meeting how much life surrounds us is the first step to caring for it, and a warm note to end the season on.",
+        "glossary": [
+          {
+            "term": "Biodiversity",
+            "definition": "The full variety of living things in a place: every plant, animal, insect and tiny organism, and how many different kinds there are.",
+            "forChildren": "Biodiversity is a big word for all the different kinds of living things in one place. The more kinds, the richer the place."
+          },
+          {
+            "term": "Lichen",
+            "definition": "The crusty grey, green or yellow patches found on walls, bark and pavements. Each one is a fungus and an alga living together as a team, and they grow best where the air is clean.",
+            "forChildren": "Those crusty patches on the wall are alive. They are called lichen, and they like clean air, so finding them is good news."
+          },
+          {
+            "term": "Microbe",
+            "definition": "A living thing far too small to see without a microscope. The soil under our feet is full of them.",
+            "forChildren": "Under your shoes, in the soil, there are tiny living things called microbes. They are too small to see, but they are everywhere."
+          },
+          {
+            "term": "Species",
+            "definition": "One particular kind of living thing. A daisy is one species, an ant is another, a sparrow is another.",
+            "forChildren": "A species is one kind of living thing. A daisy is a species. An ant is a different species. See what different ones you can meet, and say hello to each."
+          }
+        ],
+        "childFriendlyExamples": [
+          "Stand still and really look. The grass alone is a whole crowd of living plants. Then there are the ants, the worms, the moss, the lichen on the wall, the birds in the air.",
+          "Most of this life is so small or so quiet that we walk right past it every single day. Today we are going to stop and actually meet it.",
+          "Wherever you are standing outside, you are never standing alone. You are in the middle of a huge, busy crowd of living things, all going about their day."
+        ]
+      },
+      "topicLine": "Today's lesson is about counting how many living things are within arm's reach.",
+      "seasonNote": {
+        "teacher": "Leaves, flowers, insects, birds and small creatures are all present and active at once in summer, so arm's reach holds more life now than in any other term. The count is a way to notice that.",
+        "child": "In summer there is more alive around us than at any other time. We are going to count everything living within arm's reach."
+      }
+    }
+  ]
+}

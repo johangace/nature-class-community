@@ -1,0 +1,42 @@
+{
+  "id": "settle",
+  "title": "The settling",
+  "phase": {
+    "key": "settle",
+    "title": "Settle",
+    "blocks": [
+      {
+        "type": "say-aloud",
+        "text": "Come into a circle, and stand still. Both feet on the ground."
+      },
+      {
+        "type": "say-aloud",
+        "text": "Voices down. Listen for the furthest sound you can hear, and keep hold of it."
+      },
+      {
+        "type": "teacher-note",
+        "text": "Give this longer than feels comfortable. A class goes quiet on its own once it is hunting for a sound, and the quiet you wait for lasts longer than the quiet you ask for."
+      },
+      {
+        "type": "say-aloud",
+        "text": "Let that sound go. Eyes back to the circle."
+      },
+      {
+        "type": "teacher-note",
+        "text": "Say this one clearly. It is the line that ends the quiet, and a settling with no ending just trails off into the lesson."
+      },
+      {
+        "type": "say-aloud",
+        "text": "What was the furthest sound you heard?"
+      },
+      {
+        "type": "teacher-note",
+        "text": "Hands up, or say it to the person next to you. A car, a bird, someone's dog: every answer is a real one."
+      },
+      {
+        "type": "say-aloud",
+        "text": "What is the highest thing you can see from here?"
+      }
+    ]
+  }
+}

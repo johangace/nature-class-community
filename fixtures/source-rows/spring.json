@@ -1,0 +1,694 @@
+[
+  {
+    "id": "1",
+    "season_key": "spring",
+    "week": 1,
+    "title": "Seed Bombs",
+    "prompt": "Spreading wildflowers for pollinating insects.",
+    "description": "This session is about spreading wildflowers for pollinating insects.",
+    "activity": "Talk about flowers and pollination, explore pollinators in your space, make seed bombs from clay and wildflower seeds, throw one in school and take one home.",
+    "duration": "40 min",
+    "date_label": "Apr 30",
+    "senses": [
+      "Touch",
+      "Sight"
+    ],
+    "materials": [
+      "Pack of wildflower seeds",
+      "Clay",
+      "Outside playground"
+    ],
+    "preparation": "Have clay and wildflower seeds ready. Find a spot on the school grounds where seed bombs can be thrown.",
+    "space_needed": "Outside playground or any green area where wildflowers could grow.",
+    "steps": [
+      {
+        "note": "Spend about 10 minutes on this. Talk about the importance of flowers and the process of pollination. Use simple language: bees visit flowers for food (nectar), and while they visit they carry pollen from flower to flower, which helps new flowers grow.",
+        "tips": [
+          {
+            "then": "Ask \"who has ever watched a bee?\" Let three children share stories before continuing.",
+            "when": "If they seem bored"
+          },
+          {
+            "then": "Ask them to teach you: \"Explain pollination to me like I've never heard of it.\"",
+            "when": "If they already know a lot"
+          },
+          {
+            "then": "Tell the story of one bee's day. She wakes up, she's hungry, she flies to the yellow flower...",
+            "when": "If it's quiet"
+          }
+        ],
+        "type": "talk",
+        "label": "Say to your class",
+        "phase": "🌸 Talk · Step 1 of 4",
+        "prompt": "\"Why do flowers matter?\nWhat is pollination?\nHow do insects help flowers, and flowers help insects?\"",
+        "durationHint": "~10 min"
+      },
+      {
+        "note": "Let children explore flowers and pollinators in the space. Look for bees, butterflies, hoverflies. Which flowers are they visiting? Are there flowers with no visitors?",
+        "tips": [
+          {
+            "then": "Ask them to find the flower that LOOKS like it would feed a bee. Colour, shape, smell.",
+            "when": "If there are no visible insects"
+          },
+          {
+            "then": "Pair them up. \"Partners stay within five steps of each other.\"",
+            "when": "If they scatter"
+          },
+          {
+            "then": "Offer binocular-hands: curl fingers into tubes and watch from further away.",
+            "when": "If a child is scared of bees"
+          }
+        ],
+        "type": "explore",
+        "label": "Say to your class",
+        "phase": "🔍 Explore · Step 2 of 4",
+        "prompt": "\"Find flowers. Find pollinators.\nWatch what visits what.\"",
+        "durationHint": "~10 min"
+      },
+      {
+        "note": "Spend about 15 minutes. Using clay, each child makes 2 seed bombs. Flatten a small piece of clay, press wildflower seeds into it, roll into a ball. One to throw at school, one to take home.",
+        "tips": [
+          {
+            "then": "Wet your hands, then work the clay. Moisture from your palms is enough.",
+            "when": "If clay is too dry and crumbling"
+          },
+          {
+            "then": "Pair them with someone confident. Rolling is the part everyone can do.",
+            "when": "If a child is struggling"
+          },
+          {
+            "then": "Ask them to make a third seed bomb as a gift for someone — a parent, a neighbour, a teacher.",
+            "when": "If they finish early"
+          }
+        ],
+        "type": "make",
+        "label": "Say to your class",
+        "phase": "🤲 Make · Step 3 of 4",
+        "prompt": "\"Take some clay. Press it flat.\nAdd wildflower seeds. Roll it into a ball.\nMake two.\"",
+        "durationHint": "~15 min",
+        "referenceImageUrl": "https://images.unsplash.com/photo-1591857177580-dc82b9ac4e1e?w=600&h=300&fit=crop"
+      },
+      {
+        "note": "Throw one seed bomb in the school grounds, the other to take home to throw in a local area. Every bomb is a future patch of wildflowers for insects.",
+        "tips": [
+          {
+            "then": "Model a gentle toss. \"We're planting, not throwing. Place it where you want flowers.\"",
+            "when": "If they throw too hard / competitively"
+          },
+          {
+            "then": "\"Maybe a few weeks. Maybe not till summer. The rain will know when.\"",
+            "when": "If they ask when the flowers will come"
+          },
+          {
+            "then": "It's okay. Better to leave it here than lose it on the walk home.",
+            "when": "If they forget their second one"
+          }
+        ],
+        "type": "act",
+        "label": "Say to your class",
+        "phase": "🌿 Act · Step 4 of 4",
+        "prompt": "\"Throw one seed bomb here at school, somewhere it can grow.\nTake the other home to throw in your local area.\"",
+        "durationHint": "~5 min"
+      }
+    ],
+    "closing_prompts": [
+      {
+        "note": "Circle time for reflection on what they have learnt, highlighting importance of wildflowers.",
+        "question": "What did you learn about pollination today?"
+      },
+      {
+        "note": "Connect back to the discussion. Without wildflowers, pollinators lose food sources.",
+        "question": "Why do wildflowers matter for insects?"
+      },
+      {
+        "note": "Give them a moment to think about their local area. A verge, a garden corner, a patch of bare ground.",
+        "question": "Where will you throw your seed bomb at home?"
+      }
+    ],
+    "primer": {
+      "why": "Pollinators like bees, butterflies and hoverflies are in decline because there are fewer wildflowers than there used to be. Schools have green space that could host wildflowers — this session turns children into tiny conservationists who understand WHY flowers matter.",
+      "summary": "Seed bombs are little balls of clay packed with wildflower seeds. Children roll them up in class, then throw them into bare ground outside. When rain comes, the clay breaks down and the seeds sprout into flowers that feed bees and butterflies.",
+      "glossary": [
+        {
+          "term": "Pollinator",
+          "definition": "An insect (or sometimes bird) that carries pollen between flowers so the plant can make seeds.",
+          "forChildren": "\"Bees, butterflies and some little flies are pollinators. That means they help flowers make babies!\""
+        },
+        {
+          "term": "Pollination",
+          "definition": "The movement of pollen from one flower to another, which lets the plant make seeds for new flowers.",
+          "forChildren": "\"When a bee visits a flower to drink the sweet nectar, tiny yellow dust called pollen sticks to her fuzzy body. She carries it to the next flower — and that's how new flowers are made.\""
+        },
+        {
+          "term": "Nectar",
+          "definition": "A sweet sugary liquid that flowers make to attract pollinators.",
+          "forChildren": "\"Flowers have sweet juice inside called nectar. It's like flower sugar. Bees drink it.\""
+        },
+        {
+          "term": "Wildflower",
+          "definition": "A flower that grows on its own without being planted by people — in fields, hedgerows, verges, or garden corners.",
+          "forChildren": "\"Wildflowers are the flowers that grow all by themselves. Nobody plants them. They are wild!\""
+        },
+        {
+          "term": "Seed bomb",
+          "definition": "A small ball of clay mixed with wildflower seeds. When thrown onto soil and rained on, the clay dissolves and the seeds grow.",
+          "forChildren": "\"A seed bomb is a magic ball of clay hiding tiny seeds. When the rain comes, the clay melts and the seeds wake up and grow into flowers.\""
+        }
+      ],
+      "childFriendlyExamples": [
+        "\"Imagine a flower is a little restaurant. Bees are the customers. They come in for sweet nectar to drink — and while they eat, they get dusty yellow pollen on their feet and wings.\"",
+        "\"When the bee flies to the next flower, she brings the pollen with her by accident. That's how flowers make new flowers. Without bees, there would be no new wildflowers!\"",
+        "\"We're going to help the bees today. We're making little clay balls full of flower seeds. When we throw them, the flowers will grow and the bees will have more to eat.\""
+      ]
+    },
+    "celebration": {
+      "emoji": "🌸",
+      "headline": "You just planted wildflowers for pollinators.",
+      "keepsake": "Somewhere on your school grounds, a seed bomb is waiting for rain. When it comes, flowers will grow, and bees will find them. Your class did that.",
+      "nextWeekTease": "Next week: discover the wildflowers already growing in your space."
+    },
+    "connection_to_last": null,
+    "audio_url": null,
+    "is_active": false,
+    "sort_order": 1,
+    "inserted_at": "2026-04-20T17:52:06.792Z",
+    "updated_at": "2026-06-11T13:55:41.109Z"
+  },
+  {
+    "id": "2",
+    "season_key": "spring",
+    "week": 2,
+    "title": "Wildflower Investigation",
+    "prompt": "What flowers are in your green space and how did they get there?",
+    "description": "About what flowers are in your green space and how they got there.",
+    "activity": "Discuss how wildflowers spread, explore your green space noticing flowers with all senses, look at flowers in depth to find their seeds, discuss how humans can help spread seeds.",
+    "duration": "40 min",
+    "date_label": "May 7",
+    "senses": [
+      "Sight",
+      "Smell",
+      "Touch"
+    ],
+    "materials": [],
+    "preparation": "No preparation needed. Works in any green space with some wildflowers or garden flowers.",
+    "space_needed": "Any green space on school grounds.",
+    "steps": [
+      {
+        "note": "Discussion about wildflowers and how they spread: wind carries seeds, animals carry them on fur or in droppings, water moves them, people plant them. Some arrived by accident. Some have been here longer than the school.",
+        "tips": [
+          {
+            "then": "Ask \"how did a dandelion get here?\" One puff, and they'll work out the wind.",
+            "when": "If they're stuck"
+          },
+          {
+            "then": "Ask \"who? when? did you see them do it?\" Most wildflowers nobody planted.",
+            "when": "If they say \"people planted them\""
+          },
+          {
+            "then": "Point to the nearest flower. \"That one. How did THAT one get here?\"",
+            "when": "If they're distracted"
+          }
+        ],
+        "type": "talk",
+        "label": "Say to your class",
+        "phase": "🌸 Talk · Step 1 of 4",
+        "prompt": "\"How do wildflowers spread?\nWind, animals, water, people.\nHow did the flowers in our space get here?\"",
+        "durationHint": "~10 min"
+      },
+      {
+        "note": "Explore your green space and notice flowers. Smell, touch, look closely. How many different kinds can they find? What colours? What shapes? Which ones have visitors?",
+        "tips": [
+          {
+            "then": "Point out moss, clover, dandelions — wildflowers they may not recognise as flowers.",
+            "when": "If they count \"one kind\""
+          },
+          {
+            "then": "\"Touch like you're meeting a new friend. Gentle first, then a little closer.\"",
+            "when": "If they're rough with plants"
+          },
+          {
+            "then": "Look smaller. Pavement cracks, wall edges, fence posts. Something is growing.",
+            "when": "If they find no flowers at all"
+          }
+        ],
+        "type": "explore",
+        "label": "Say to your class",
+        "phase": "🔍 Explore · Step 2 of 4",
+        "prompt": "\"Find flowers. Smell them. Touch the petals.\nLook at the colours. How many different kinds?\"",
+        "durationHint": "~10 min"
+      },
+      {
+        "note": "Looking at different flowers in more depth. Where are their seeds? How might they be gathered? Notice wildflower seedlings growing near parent plants. Some seeds are in pods, some in heads, some hidden inside.",
+        "tips": [
+          {
+            "then": "Look at flowers that are \"done\" — dried, brown, past their peak. Seeds hide in the fading.",
+            "when": "If they can't find seeds"
+          },
+          {
+            "then": "\"Leave the seeds to travel themselves. We're detectives, not collectors.\"",
+            "when": "If they want to pick everything"
+          },
+          {
+            "then": "Ask who they think the parent plant is. Usually within a metre.",
+            "when": "If they find seedlings"
+          }
+        ],
+        "type": "observe",
+        "label": "Say to your class",
+        "phase": "🔬 Look Closer · Step 3 of 4",
+        "prompt": "\"Pick one flower and look closely.\nWhere are its seeds? Can you see any seedlings nearby?\"",
+        "durationHint": "~10 min"
+      },
+      {
+        "note": "Discussion: how can we as humans help spread seeds and why is it important to have a diverse range of wildflowers? More kinds of flowers means more kinds of pollinators, which means a healthier ecosystem.",
+        "tips": [
+          {
+            "then": "Ask: \"If only one kind of flower grew, what insects would starve?\" Get specific.",
+            "when": "If the answers are all generic"
+          },
+          {
+            "then": "Remind them about seed bombs next week. Today is noticing. Next week is doing.",
+            "when": "If they're ready for action"
+          },
+          {
+            "then": "Offer two answers: \"Save seeds. Scatter them in bare places.\" Let them build from there.",
+            "when": "If no one speaks"
+          }
+        ],
+        "type": "discuss",
+        "label": "Say to your class",
+        "phase": "🌿 Discuss · Step 4 of 4",
+        "prompt": "\"How can we help spread seeds?\nWhy is it important to have many different kinds of wildflowers?\"",
+        "durationHint": "~10 min"
+      }
+    ],
+    "closing_prompts": [
+      {
+        "note": "Let children share their count and describe what they found.",
+        "question": "How many different flowers did you find?"
+      },
+      {
+        "note": "Wind, birds, previous plantings, nature finding a way.",
+        "question": "How do you think the flowers in our space got here?"
+      },
+      {
+        "note": "Connects to the seed bomb practice and forward thinking about stewardship.",
+        "question": "What could we do to help more wildflowers grow here?"
+      }
+    ],
+    "primer": {
+      "why": "Children often assume plants grow because someone planted them. Learning that wildflowers spread themselves, in surprising ways, changes how children see the world. A dandelion is not a weed — it is a flower that found its own way here. This builds observational science skills and wonder.",
+      "summary": "Wildflowers spread themselves. Seeds travel on the wind, stick to animal fur, hitchhike in bird droppings, float on water, or get carried by people. Every wildflower in your school grounds got there somehow — and children become detectives investigating how.",
+      "glossary": [
+        {
+          "term": "Seed dispersal",
+          "definition": "The ways seeds travel from their parent plant to a new place where they can grow.",
+          "forChildren": "\"Seed dispersal is how seeds move around. Some fly. Some float. Some stick to animals. Some get eaten and pooped out somewhere new!\""
+        },
+        {
+          "term": "Wind-dispersed",
+          "definition": "Seeds shaped to catch the wind — dandelion fluff, sycamore helicopters, thistle down.",
+          "forChildren": "\"Some seeds have tiny parachutes or helicopter wings. When the wind blows, they fly away to find a new home. Dandelion fluff is the best example.\""
+        },
+        {
+          "term": "Animal-dispersed",
+          "definition": "Seeds that stick to fur or feathers (like burdock), or are eaten and passed through an animal (like berries).",
+          "forChildren": "\"Some seeds are sticky or have tiny hooks so they catch on a dog's fur or a bird's feathers. The animal carries them somewhere new without even knowing.\""
+        },
+        {
+          "term": "Seedling",
+          "definition": "A very young plant that has just sprouted from a seed.",
+          "forChildren": "\"A seedling is a baby plant. It has one or two tiny leaves when it first pops out of the ground.\""
+        },
+        {
+          "term": "Biodiversity",
+          "definition": "The variety of different living things in one place — plants, animals, insects, fungi. More variety usually means a healthier ecosystem.",
+          "forChildren": "\"Biodiversity means LOTS of different living things all in one place. A garden with 10 kinds of flower is more biodiverse than a garden with just grass. More kinds is healthier!\""
+        }
+      ],
+      "childFriendlyExamples": [
+        "\"Look at this dandelion puff. Each of those white feathery bits is a seed with its own tiny parachute. One puff can make a hundred new dandelions!\"",
+        "\"Have you ever had little sticky green balls stuck to your socks after a walk? Those are seeds hitching a ride. You carried them somewhere new!\"",
+        "\"Birds eat berries and then poop out the seeds somewhere else. That's how many trees end up in new places — bird poop!\""
+      ]
+    },
+    "celebration": {
+      "emoji": "🔍",
+      "headline": "You investigated the hidden life in your school grounds.",
+      "keepsake": "Your class now knows that every wildflower got there somehow. Wind, fur, water, wings. Nothing was planted by accident. Everything has a story.",
+      "nextWeekTease": "Next week: use nature to make art."
+    },
+    "connection_to_last": "Last week you made seed bombs for pollinators. This week, discover the flowers that are already here and how they arrived without anyone planting them.",
+    "audio_url": null,
+    "is_active": false,
+    "sort_order": 2,
+    "inserted_at": "2026-04-20T17:52:06.816Z",
+    "updated_at": "2026-06-11T13:55:41.109Z"
+  },
+  {
+    "id": "3",
+    "season_key": "spring",
+    "week": 3,
+    "title": "Natural Paint Making",
+    "prompt": "Using natural resources to create.",
+    "description": "About using natural resources to create.",
+    "activity": "Discuss art in nature, explore green space collecting petals, leaves and grass, crush collected nature in bowls to make paint, create art with your hands using natural pigments.",
+    "duration": "40 min",
+    "date_label": "May 14",
+    "senses": [
+      "Sight",
+      "Touch",
+      "Smell"
+    ],
+    "materials": [
+      "Paper",
+      "Bowls and wooden sticks",
+      "Outside green space"
+    ],
+    "preparation": "Bring bowls (one per pair or small group), wooden sticks or spoons for crushing, and paper. Find a green space where children can collect fallen petals, leaves, and grass.",
+    "space_needed": "Outside green space where children can collect natural materials.",
+    "steps": [
+      {
+        "note": "Discussion about art in nature: patterns, colours, shapes, textures. Nature is full of art that nobody designed. Today we use what nature gives us to make our own.",
+        "tips": [
+          {
+            "then": "Point to a leaf. \"Look at the pattern of veins. Who designed that? Nobody did.\"",
+            "when": "If they're blank"
+          },
+          {
+            "then": "Show them a spider web, a pine cone, a zebra stripe. Pattern IS art.",
+            "when": "If they think art means drawings"
+          },
+          {
+            "then": "Reply \"yes — and nature has been making art for millions of years before paint.\"",
+            "when": "If they say \"it's just nature\""
+          }
+        ],
+        "type": "talk",
+        "label": "Say to your class",
+        "phase": "🎨 Talk · Step 1 of 4",
+        "prompt": "\"Where do you see art in nature?\nPatterns on leaves, colours in flowers, shapes in bark.\"",
+        "durationHint": "~5 min"
+      },
+      {
+        "note": "Class explores green space noticing colours, shapes and patterns while collecting petals, leaves and grass. Remind them: only collect what has already fallen or can be picked without harming the plant.",
+        "tips": [
+          {
+            "then": "Stop gently. \"Look at the ground first. The ground is full of what nature has already let go.\"",
+            "when": "If they pick from living plants"
+          },
+          {
+            "then": "A handful is plenty. \"We need enough to fill half your bowl, not a bag.\"",
+            "when": "If they collect too much"
+          },
+          {
+            "then": "Soil is brown. Moss is green. Bark is grey. Even without flowers, there is colour.",
+            "when": "If they can't find colour"
+          }
+        ],
+        "type": "explore",
+        "label": "Say to your class",
+        "phase": "🔍 Explore · Step 2 of 4",
+        "prompt": "\"Notice colours, shapes and patterns.\nCollect petals, leaves, grass. Only what has already fallen.\"",
+        "durationHint": "~10 min"
+      },
+      {
+        "note": "Using collected nature, crush in bowls and use as painting medium with their hands. Different plants give different colours: grass gives green, petals give pinks/yellows/purples, soil gives brown. Let them experiment and mix.",
+        "tips": [
+          {
+            "then": "Crush harder and add less water. The paint should be more like mud than juice.",
+            "when": "If the colour is too pale"
+          },
+          {
+            "then": "Good. Messy hands mean it's working. Water at the end, not during.",
+            "when": "If hands get too messy"
+          },
+          {
+            "then": "Offer a stick. Painting with a twig is just as valid. Autonomy first.",
+            "when": "If a child won't touch the paint"
+          }
+        ],
+        "type": "make",
+        "label": "Say to your class",
+        "phase": "🤲 Make · Step 3 of 4",
+        "prompt": "\"Put what you collected in your bowl.\nCrush it with the stick. Add a tiny bit of water.\nNow use your hands to paint on the paper.\"",
+        "durationHint": "~15 min",
+        "referenceImageUrl": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=600&h=300&fit=crop"
+      },
+      {
+        "note": "Reflection on how the colours and pigments of nature come out on the page. How it feels to use nature creatively. The colours are softer, more varied, more surprising than shop-bought paint.",
+        "tips": [
+          {
+            "then": "Ask one child: \"If this painting could fade back into nature, would you mind?\"",
+            "when": "If the group is flat"
+          },
+          {
+            "then": "\"This is the same way people made paint for thousands of years. You just joined them.\"",
+            "when": "If they're proud"
+          },
+          {
+            "then": "Line them up side by side. They always look more different in a row.",
+            "when": "If paintings look similar"
+          }
+        ],
+        "type": "reflect",
+        "label": "Say to your class",
+        "phase": "🌿 Reflect · Step 4 of 4",
+        "prompt": "\"Look at the colours on your page.\nThey came from the ground, from petals, from leaves.\nHow does it feel to use nature to make art?\"",
+        "durationHint": "~10 min"
+      }
+    ],
+    "closing_prompts": [
+      {
+        "note": "Let children share their discoveries. Which plants gave the strongest colour?",
+        "question": "What colours did you make and what did you use?"
+      },
+      {
+        "note": "Often the colours are not what children expect. Green leaves can give yellow. Red petals can give pink.",
+        "question": "Were any colours surprising?"
+      },
+      {
+        "note": "Connects making to feeling. The medium IS the message.",
+        "question": "How does it feel different using nature to paint instead of normal paint?"
+      }
+    ],
+    "primer": {
+      "why": "This is art lesson, science lesson, and sensory lesson in one. Children learn where colours come from — a question most adults can't answer. They touch textures they usually walk past. And the art itself celebrates nature rather than extracting from it.",
+      "summary": "Before paint came in tubes, people made their own from plants, berries, soil and rocks. Crushed petals give pinks. Grass gives green. Mud gives brown. Children discover nature's colours with their hands — no brushes, just fingers on paper.",
+      "glossary": [
+        {
+          "term": "Pigment",
+          "definition": "The substance in a plant, rock, or creature that gives it its colour.",
+          "forChildren": "\"Pigment is what makes things coloured. A red petal has red pigment inside. When we crush it, the colour comes out.\""
+        },
+        {
+          "term": "Natural dye",
+          "definition": "A colour made from plants or other natural sources, used to stain fabric or paper.",
+          "forChildren": "\"A dye is paint that sinks INTO something, like how tea stains a mug. People used to dye their clothes with flowers and berries.\""
+        },
+        {
+          "term": "Crushed",
+          "definition": "Broken into small pieces so the liquid and colour can escape.",
+          "forChildren": "\"When we crush a petal, we break its tiny walls. The colour comes out like juice from a squashed berry.\""
+        },
+        {
+          "term": "Natural materials",
+          "definition": "Things found in nature — not made in a factory. Leaves, sticks, stones, soil, petals.",
+          "forChildren": "\"Natural materials are things nature made, not people. A stick is natural. A plastic toy is not.\""
+        }
+      ],
+      "childFriendlyExamples": [
+        "\"Long, long ago, before paint tubes existed, people made their own paint. If they wanted red, they crushed berries. If they wanted brown, they used mud. If they wanted yellow, they used flowers. Today, we're going to do what people used to do.\"",
+        "\"Colours are hiding in everything. Inside this green leaf is yellow hiding. Inside this brown bark is red hiding. Our job is to find them by squishing.\"",
+        "\"When you make a painting with nature, the painting will slowly change back into nature — the colours will fade over weeks. That's okay. It's the opposite of plastic. It came from the earth and it goes back to the earth.\""
+      ]
+    },
+    "celebration": {
+      "emoji": "🎨",
+      "headline": "Your class made art from the ground up.",
+      "keepsake": "The colours on those pages came from petals, leaves and soil. No factory, no plastic. Just the earth and their hands. Those paintings will fade back into nature. That is part of their beauty.",
+      "nextWeekTease": "Next week: build something that brings wildlife to your school."
+    },
+    "connection_to_last": "You have explored wildflowers and how they spread. Today, use the colours nature gives you to make art from petals, leaves and soil.",
+    "audio_url": null,
+    "is_active": false,
+    "sort_order": 3,
+    "inserted_at": "2026-04-20T17:52:06.831Z",
+    "updated_at": "2026-06-11T13:55:41.109Z"
+  },
+  {
+    "id": "4",
+    "season_key": "spring",
+    "week": 4,
+    "title": "Bird Feeders",
+    "prompt": "Making bird feeders and encouraging wildlife in your school grounds.",
+    "description": "Making bird feeders and encouraging wildlife in your school grounds.",
+    "activity": "Talk about local birds and listen/look for them, explore natural bird food in your green space, make bird feeders from oranges and birdseed, discuss why conserving and helping wildlife matters.",
+    "duration": "40 min",
+    "date_label": "May 21",
+    "senses": [
+      "Sight",
+      "Listening",
+      "Touch"
+    ],
+    "materials": [
+      "Fruit (oranges)",
+      "Birdseed",
+      "String"
+    ],
+    "preparation": "Bring oranges (one per pair), birdseed, and string. Have a knife ready to halve the oranges (teacher does this). Find trees where feeders can be hung.",
+    "space_needed": "Green space with trees where bird feeders can be hung.",
+    "steps": [
+      {
+        "note": "Talk about the different birds you might see locally. Listen for birdsong. Look for movement in trees and hedges. Common ones: robins, blue tits, sparrows, blackbirds, pigeons.",
+        "tips": [
+          {
+            "then": "Ask for 30 seconds of total silence. The birds are usually there; our ears just need to tune in.",
+            "when": "If no one can hear any birds"
+          },
+          {
+            "then": "That's a real answer. Start there: \"what does a pigeon look like? how does it sound?\"",
+            "when": "If they only know \"pigeon\""
+          },
+          {
+            "then": "Turn it into a game: everyone freezes; first person to hear a bird wins.",
+            "when": "If they're too loud to hear anything"
+          }
+        ],
+        "type": "talk",
+        "label": "Say to your class",
+        "phase": "🐦 Talk · Step 1 of 4",
+        "prompt": "\"What birds live near our school?\nListen. Can you hear any?\nLook. Can you see any?\"",
+        "durationHint": "~10 min"
+      },
+      {
+        "note": "Explore natural food for birds in your green space: worms in the soil, seeds on plants, insects on leaves, berries on bushes. What is already here for them? Is there enough?",
+        "tips": [
+          {
+            "then": "Look under stones and leaves — worms, woodlice, beetles. Bird food is hiding everywhere.",
+            "when": "If they're stuck"
+          },
+          {
+            "then": "Ask them to imagine being a bird six inches tall. Now look again.",
+            "when": "If they say \"there is nothing\""
+          },
+          {
+            "then": "They don't need to touch. Just spotting counts.",
+            "when": "If one child is squeamish"
+          }
+        ],
+        "type": "explore",
+        "label": "Say to your class",
+        "phase": "🔍 Explore · Step 2 of 4",
+        "prompt": "\"Go into the space.\nWhat food can birds find here naturally?\"",
+        "durationHint": "~10 min"
+      },
+      {
+        "note": "Work in partners to make bird feeder: halve an orange (teacher halves them ahead of time), scoop out the flesh, tie string to 2 sides to make a hanging basket, fill with birdseed, hang on trees in the school grounds.",
+        "tips": [
+          {
+            "then": "Poke two small holes through the peel with a stick before threading.",
+            "when": "If string keeps slipping"
+          },
+          {
+            "then": "A handful is enough. Too much and the seed tips out. \"Half full is generous.\"",
+            "when": "If they overfill with seed"
+          },
+          {
+            "then": "Lift them for it. Or hang them low on a hedge — birds don't mind low feeders.",
+            "when": "If they can't reach a branch"
+          }
+        ],
+        "type": "make",
+        "label": "Say to your class",
+        "phase": "🤲 Make · Step 3 of 4",
+        "prompt": "\"Work with a partner. Take half an orange.\nScoop out the inside. Tie string to two sides.\nFill it with birdseed and hang it on a tree.\"",
+        "durationHint": "~15 min",
+        "referenceImageUrl": "https://images.unsplash.com/photo-1552727131-5fc6af16796d?w=600&h=300&fit=crop"
+      },
+      {
+        "note": "Discuss why it is important to conserve and help wildlife in the local area. Bird boxes, water dishes, planting berry bushes, leaving seed heads on plants over winter.",
+        "tips": [
+          {
+            "then": "Ask \"if you were a bird, what would you want our school to have more of?\"",
+            "when": "If ideas are generic"
+          },
+          {
+            "then": "Offer: \"a shallow bowl of water. Birds need to drink too.\" Build from there.",
+            "when": "If they say \"nothing\""
+          },
+          {
+            "then": "Promise to check the feeders tomorrow. \"Birds may visit overnight. We'll see.\"",
+            "when": "If they're ready for action"
+          }
+        ],
+        "type": "discuss",
+        "label": "Say to your class",
+        "phase": "🌿 Discuss · Step 4 of 4",
+        "prompt": "\"Why is it important to help wildlife in our local area?\nWhat else could we do to make our school a better place for birds?\"",
+        "durationHint": "~5 min"
+      }
+    ],
+    "closing_prompts": [
+      {
+        "note": "Let children share. Even pigeons count. Every bird is local wildlife.",
+        "question": "What birds did you see or hear today?"
+      },
+      {
+        "note": "Worms, seeds, insects, berries. Connects exploration to the feeder-making.",
+        "question": "What natural food did you find for birds in our grounds?"
+      },
+      {
+        "note": "Forward-looking. Bird boxes, water, planting, leaving wild corners.",
+        "question": "What else could we do to make our school grounds better for wildlife?"
+      }
+    ],
+    "primer": {
+      "why": "Most children can't name three local birds. Paying attention to birds is a gateway to paying attention to everything. A bird feeder is a tiny act of care that pays back immediately — birds arrive within hours. Children see cause and effect in real time.",
+      "summary": "Local birds eat what the land gives them — seeds, insects, worms, berries. In winter and early spring food is scarce. Children make a simple bird feeder from half an orange and birdseed, then hang it in the school grounds.",
+      "glossary": [
+        {
+          "term": "Wildlife",
+          "definition": "Any living creature that lives in the wild, not kept as a pet or farmed.",
+          "forChildren": "\"Wildlife means wild animals — birds, insects, foxes, worms. Any creature that lives outside without humans looking after it.\""
+        },
+        {
+          "term": "Habitat",
+          "definition": "The place where a plant or animal naturally lives — with the food, shelter, and space it needs.",
+          "forChildren": "\"A habitat is an animal's home. A bird's habitat has trees to nest in, food to eat, and water to drink. Our school grounds are a habitat for lots of creatures.\""
+        },
+        {
+          "term": "Birdsong",
+          "definition": "The singing of birds, often used to mark territory or attract a mate.",
+          "forChildren": "\"Birds sing to say 'this is MY tree!' or to call to each other. Each kind of bird has its own song, like its own voice.\""
+        },
+        {
+          "term": "Conservation",
+          "definition": "Protecting wild things and wild places so they don't disappear.",
+          "forChildren": "\"Conservation is looking after nature — making sure there are still bees, birds and flowers when we grow up. Today we're doing a little bit of conservation by feeding the birds.\""
+        },
+        {
+          "term": "Local",
+          "definition": "From your own area — the birds, plants and animals that live near you, not in faraway places.",
+          "forChildren": "\"Local means near here. Robins are local to us. Penguins are not! Today we're looking for LOCAL birds — the ones that live right here.\""
+        }
+      ],
+      "childFriendlyExamples": [
+        "\"Close your eyes. Can you hear any birds right now? That's called birdsong. Each bird has its own song. If you listen a lot, you'll start to recognise them like friends.\"",
+        "\"Robins have a little red chest. Blue tits are tiny and yellow with a blue cap. Blackbirds are all black with orange beaks. Pigeons are grey and fat. Those are four local birds you probably see every day.\"",
+        "\"Birds spend most of the day looking for food. In winter, there isn't much food. When we make a bird feeder, we're saying: 'Hello birds, here is some extra food to keep you warm.' That's kindness.\""
+      ]
+    },
+    "celebration": {
+      "emoji": "🐦",
+      "headline": "Your school grounds just got friendlier for birds.",
+      "keepsake": "There are bird feeders hanging in your trees now. Tomorrow morning, a robin or a blue tit will find one. It will eat. It will come back. Your class made that happen."
+    },
+    "connection_to_last": "You have made art from nature. Now give something back. This week, build a feeder so the birds who share your school grounds have more to eat.",
+    "audio_url": null,
+    "is_active": false,
+    "sort_order": 4,
+    "inserted_at": "2026-04-20T17:52:06.842Z",
+    "updated_at": "2026-06-11T13:55:41.109Z"
+  }
+]

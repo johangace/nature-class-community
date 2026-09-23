@@ -1,0 +1,1088 @@
+{
+  "id": "autumn",
+  "title": "Autumn term",
+  "subject": "Nature study",
+  "ageBand": "4-6",
+  "sessions": [
+    {
+      "id": "autumn-w1-fruit-and-seed",
+      "prompt": "What is your seed wearing, and what is it for?",
+      "title": "Fruit and seed",
+      "topic": "Find what the trees and bushes are letting go this month, drop them to see how they travel, and work out what a seed is carrying.",
+      "topicTags": [
+        "trees",
+        "plants"
+      ],
+      "primaryTopic": "trees",
+      "objective": "Find the fruits and seeds our grounds are giving away this month, and work out what every seed carries: a plant, a packed lunch, a coat, and a way of travelling.",
+      "namedSkill": "looking and touching",
+      "kit": [
+        "A tray or a light cloth to lay finds on",
+        "Hand wipes"
+      ],
+      "durationMin": 20,
+      "preparation": "Walk your hedge or your trees the day before and see what is down. If nothing has fallen yet, a bag of conkers, acorns or sycamore keys from a park does the same job.",
+      "spaceNeeded": "Any hedge, bush or tree you can reach, and a patch of ground under it. One grass verge with one tree is enough.",
+      "nodeSeq": 36,
+      "phases": [
+        {
+          "nid": "p1",
+          "key": "find-1",
+          "title": "Find",
+          "blocks": [
+            {
+              "nid": "b5",
+              "type": "conditions-line",
+              "fallbackText": "Look at the sky together before you set off. Whatever it's doing, name it out loud."
+            },
+            {
+              "nid": "b6",
+              "type": "teacher-note",
+              "text": "Set the boundary first: this hedge, this tree, this patch of ground. Pairs work well, one tray between them."
+            },
+            {
+              "nid": "b7",
+              "type": "say-aloud",
+              "text": "Find everything a plant has let go of this month. Seeds, nuts, cones, keys, berries."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t2",
+              "when": "Nothing has fallen in your grounds yet...",
+              "then": "Look up instead. What is a tree still holding on to? Then bring out the bag you collected in the park."
+            },
+            {
+              "nid": "t3",
+              "when": "They only pick up the big shiny ones...",
+              "then": "Ask for the smallest thing on the tray. Some seeds are the size of a full stop."
+            },
+            {
+              "nid": "t4",
+              "when": "Someone wants to eat a berry...",
+              "then": "Firm and cheerful: we look at berries, we never taste them. Wipe hands before we go in."
+            }
+          ]
+        },
+        {
+          "nid": "p8",
+          "key": "look-2",
+          "title": "Look",
+          "blocks": [
+            {
+              "nid": "b11",
+              "type": "teacher-note",
+              "text": "Everything on the tray is wearing something: a wing, a cup, a shell, a skin, a hook. The wearing is the whole lesson."
+            },
+            {
+              "nid": "b12",
+              "type": "say-aloud",
+              "text": "Pick one. What is yours wearing?"
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t9",
+              "when": "They say it is just brown...",
+              "then": "Turn it over. Roll it. Ask what is smooth and what is rough on the same one thing."
+            },
+            {
+              "nid": "t10",
+              "when": "Two children want the same conker...",
+              "then": "Give the tree the last word: go back and see whether it has dropped another."
+            }
+          ]
+        },
+        {
+          "nid": "p13",
+          "key": "travel-3",
+          "title": "Travel",
+          "blocks": [
+            {
+              "nid": "b16",
+              "type": "teacher-note",
+              "text": "Hold a sycamore key up high and let it go, then a conker. The class sees the difference before anyone explains it."
+            },
+            {
+              "nid": "b17",
+              "type": "say-aloud",
+              "text": "How did yours get from up there down to here?"
+            },
+            {
+              "nid": "b18",
+              "type": "say-aloud",
+              "text": "Hold it as high as you can and let it go. Watch what it does."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t14",
+              "when": "Everything they have just drops...",
+              "then": "That is an answer too. A conker rolls away downhill. Try one on a slope."
+            },
+            {
+              "nid": "t15",
+              "when": "They want to throw them...",
+              "then": "Change the job: they are the wind now, not the arm. Blow instead."
+            }
+          ]
+        },
+        {
+          "nid": "p19",
+          "key": "carries-4",
+          "title": "What a seed carries",
+          "blocks": [
+            {
+              "nid": "b22",
+              "type": "teacher-note",
+              "text": "Four things they can look for in anything they pick up. Try them on an acorn, a sycamore key, a conker, a blackberry."
+            },
+            {
+              "nid": "b23",
+              "type": "say-aloud",
+              "text": "What a seed carries: a plant, a packed lunch, a coat, and a way of travelling."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t20",
+              "when": "The words feel too big...",
+              "then": "Open a conker case together. Spiky coat, shiny skin, and inside all of that, one whole tree waiting."
+            },
+            {
+              "nid": "t21",
+              "when": "They ask where the plant is...",
+              "then": "It is in there, folded up and asleep. Say it plainly. That is the true answer."
+            }
+          ]
+        },
+        {
+          "nid": "p24",
+          "key": "circle",
+          "title": "Circle",
+          "blocks": [
+            {
+              "nid": "b25",
+              "type": "circle-question",
+              "text": "Which was the best traveller on our tray, and how do you know?"
+            },
+            {
+              "nid": "b26",
+              "type": "teacher-note",
+              "text": "Let them argue it out. The wings usually win, but a berry a bird carries goes further than any of them."
+            },
+            {
+              "nid": "b27",
+              "type": "circle-question",
+              "text": "What was your seed wearing, and what do you think it is for?"
+            },
+            {
+              "nid": "b28",
+              "type": "teacher-note",
+              "text": "Any guess counts as thinking like a scientist."
+            },
+            {
+              "nid": "b29",
+              "type": "circle-question",
+              "text": "How many of the seeds under one tree do you think ever become a tree?"
+            },
+            {
+              "nid": "b30",
+              "type": "teacher-note",
+              "text": "No right answer. Very few, and that is exactly why there are so many. Big guesses welcome."
+            },
+            {
+              "nid": "b31",
+              "type": "named-skill",
+              "skill": "looking and touching"
+            }
+          ]
+        }
+      ],
+      "standards": [
+        {
+          "system": "england",
+          "code": "Year 3 · Plants",
+          "text": "explore the part that flowers play in the life cycle of flowering plants, including pollination, seed formation and seed dispersal"
+        },
+        {
+          "system": "england",
+          "code": "Year 2 · Plants",
+          "text": "observe and describe how seeds and bulbs grow into mature plants"
+        }
+      ],
+      "childSheet": [
+        {
+          "nid": "b32",
+          "type": "sheet-title",
+          "title": "Fruit and seed",
+          "nameLine": "These were found by"
+        },
+        {
+          "nid": "b33",
+          "type": "collage-zone",
+          "hint": "Stick down what you found. A key, a cup, a shell, a berry skin. Or draw the one that travelled furthest."
+        },
+        {
+          "nid": "b34",
+          "type": "match-strip",
+          "prompt": "Which tree posted your parcel? Find it by its leaf:",
+          "cards": [
+            {
+              "name": "the oak",
+              "clue": "wavy leaf, and an acorn sitting in a little cup"
+            },
+            {
+              "name": "the sycamore",
+              "clue": "a leaf like a hand, and seeds with two wings"
+            },
+            {
+              "name": "the birch",
+              "clue": "a leaf like a teardrop, and catkins that crumble into tiny seeds"
+            }
+          ]
+        },
+        {
+          "nid": "b35",
+          "type": "notice-line",
+          "prompt": "What your seed was wearing, and how it travelled:"
+        },
+        {
+          "nid": "b36",
+          "type": "parent-line",
+          "text": "For home: today we found what the trees are giving away. Ask me the four things a seed carries, and I will show you the one I brought back."
+        }
+      ],
+      "primer": {
+        "summary": "Children gather the fruits and seeds their grounds are letting go this month, look closely at what each one is wearing, drop them to see how they travel, and work out what every seed carries: a plant, a packed lunch, a coat, and a way of travelling.",
+        "why": "Autumn is the one month of the year when a whole plant's plan is lying on the ground where a five-year-old can pick it up. A child who has opened a conker case and found a tree inside it has met reproduction without anyone having to use the word."
+      },
+      "celebration": {
+        "emoji": "🌰",
+        "headline": "Your class found next year lying on the ground.",
+        "keepsake": "A wing, a cup, a shell, a skin. Every one of them a plan.",
+        "nextWeekTease": "Next week: why leaves turn."
+      },
+      "topicLine": "Fruits and seeds are what we are looking at today, and what a seed carries with it.",
+      "seasonNote": {
+        "teacher": "Fruits and seeds are ripe and dropping across the grounds through autumn: this is the plants' giving-away time, and the ground is the place to look. Early in the term more are still attached; later, most are down or already carried off.",
+        "child": "It is autumn, and the plants are giving away their fruits and seeds. We are going to find some and look at what each seed is wearing."
+      }
+    },
+    {
+      "id": "autumn-w2-why-leaves-turn",
+      "prompt": "Where does the green go?",
+      "title": "Why leaves turn",
+      "topic": "Walk under the turning trees, bring back one leaf each, lay them out from greenest to brownest, and find where the leaf let go.",
+      "topicTags": [
+        "trees",
+        "seasons"
+      ],
+      "primaryTopic": "trees",
+      "objective": "Find out why leaves change colour and fall: the tree is taking its green back in before winter, and the other colours were there all along.",
+      "namedSkill": "looking closely",
+      "kit": [],
+      "durationMin": 20,
+      "preparation": "Nothing to bring.",
+      "conditionNotes": [
+        {
+          "when": [
+            "wet"
+          ],
+          "teacher": "The colours have come up strong and the fallen leaves lift whole, so the change is easy to see today.",
+          "child": "The rain has made the leaves shine. Wet leaves show their colours well, so we will each pick one from the ground."
+        },
+        {
+          "when": [
+            "bright"
+          ],
+          "teacher": "The colour change shows at its strongest in clear light, so walk the class to the sunlit side of the trees before they choose a leaf.",
+          "child": "The sky is clear today. Sunlight makes the leaf colours easy to see, so we will look at the sunny side of the trees first."
+        }
+      ],
+      "spaceNeeded": "Anywhere with a tree or hedge that is turning, and a stretch of ground to lay leaves out on.",
+      "nodeSeq": 36,
+      "phases": [
+        {
+          "nid": "p1",
+          "key": "walk-1",
+          "title": "Walk",
+          "blocks": [
+            {
+              "nid": "b5",
+              "type": "conditions-line",
+              "fallbackText": "Look at the sky together before you set off. Whatever it's doing, name it out loud."
+            },
+            {
+              "nid": "b6",
+              "type": "teacher-note",
+              "text": "One leaf each, from the ground, chosen for its colour. Ask them not to pull leaves off a branch: those have not finished yet."
+            },
+            {
+              "nid": "b7",
+              "type": "say-aloud",
+              "text": "Walk under the trees and bring back one fallen leaf. Choose it for its colour."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t2",
+              "when": "The trees here have not turned yet...",
+              "then": "Look at the edges and the tips. Turning starts at the outside of a leaf and works inwards."
+            },
+            {
+              "nid": "t3",
+              "when": "Everything is still green where you are...",
+              "then": "Look under the hedge and at the very bottom of the tree. The oldest leaves go first."
+            },
+            {
+              "nid": "t4",
+              "when": "Someone wants to pull one off a branch...",
+              "then": "Ask them to try. It holds on. That is exactly the lesson: it lets go when it is ready."
+            }
+          ]
+        },
+        {
+          "nid": "p8",
+          "key": "line-2",
+          "title": "The colour line",
+          "blocks": [
+            {
+              "nid": "b11",
+              "type": "teacher-note",
+              "text": "Lay every leaf on the ground in one long line, greenest at one end, brownest at the other. Let the class argue about where each one goes."
+            },
+            {
+              "nid": "b12",
+              "type": "say-aloud",
+              "text": "Lay your leaf in the line. Greenest at this end, brownest at that end."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t9",
+              "when": "Two leaves look the same...",
+              "then": "Put them side by side and let the class decide. A tie is a fine answer."
+            },
+            {
+              "nid": "t10",
+              "when": "The line blows apart...",
+              "then": "Move to the sheltered side of a wall, or hold the leaves up in a row instead."
+            }
+          ]
+        },
+        {
+          "nid": "p13",
+          "key": "why-3",
+          "title": "Why",
+          "blocks": [
+            {
+              "nid": "b16",
+              "type": "teacher-note",
+              "text": "The green is the tree's food-maker and it is expensive. Before winter the tree takes it back inside and stores it. The yellows and oranges were in the leaf the whole time, hidden underneath."
+            },
+            {
+              "nid": "b17",
+              "type": "say-aloud",
+              "text": "Where do you think the green goes?"
+            },
+            {
+              "nid": "b18",
+              "type": "say-aloud",
+              "text": "The yellow was there all along. The green was just sitting on top of it."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t14",
+              "when": "They think the leaf is being painted...",
+              "then": "Turn it round: nothing is added. Something is taken away, and what was underneath shows."
+            },
+            {
+              "nid": "t15",
+              "when": "The discussion stalls...",
+              "then": "Hold the greenest leaf and the brownest leaf side by side and ask which one the tree has finished with."
+            }
+          ]
+        },
+        {
+          "nid": "p19",
+          "key": "letgo-4",
+          "title": "Letting go",
+          "blocks": [
+            {
+              "nid": "b22",
+              "type": "teacher-note",
+              "text": "Find the stalk end. There is a small clean scar where the leaf joined the branch. The tree built that. It let go on purpose."
+            },
+            {
+              "nid": "b23",
+              "type": "say-aloud",
+              "text": "Look at the end of your stalk. Can you find where the tree let it go?"
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t20",
+              "when": "The stalk is torn, not clean...",
+              "then": "That one came off in the wind before it was ready. Find another and put the two ends side by side."
+            },
+            {
+              "nid": "t21",
+              "when": "A child is sad about the leaves falling...",
+              "then": "Tell them straight: the tree is not losing them, it is putting them down. It will do it again next year."
+            }
+          ]
+        },
+        {
+          "nid": "p24",
+          "key": "circle",
+          "title": "Circle",
+          "blocks": [
+            {
+              "nid": "b25",
+              "type": "circle-question",
+              "text": "What colour did your leaf end up, and where did it stand in our line?"
+            },
+            {
+              "nid": "b26",
+              "type": "teacher-note",
+              "text": "Let a few children hold theirs up for the whole circle."
+            },
+            {
+              "nid": "b27",
+              "type": "circle-question",
+              "text": "Where did the green go?"
+            },
+            {
+              "nid": "b28",
+              "type": "teacher-note",
+              "text": "Back into the tree, kept until spring. Say it plainly. It is a good, true answer."
+            },
+            {
+              "nid": "b29",
+              "type": "circle-question",
+              "text": "Why do you think a tree lets its leaves go at all?"
+            },
+            {
+              "nid": "b30",
+              "type": "teacher-note",
+              "text": "No right answer. Ice, wind, weight, the dark. Big guesses welcome."
+            },
+            {
+              "nid": "b31",
+              "type": "named-skill",
+              "skill": "looking closely"
+            }
+          ]
+        }
+      ],
+      "standards": [
+        {
+          "system": "england",
+          "code": "Year 1 · Seasonal changes",
+          "text": "observe changes across the 4 seasons"
+        },
+        {
+          "system": "england",
+          "code": "Year 1 · Plants",
+          "text": "identify and name a variety of common wild and garden plants, including deciduous and evergreen trees"
+        }
+      ],
+      "childSheet": [
+        {
+          "nid": "b32",
+          "type": "sheet-title",
+          "title": "The leaf that turned",
+          "nameLine": "This leaf was chosen by"
+        },
+        {
+          "nid": "b33",
+          "type": "collage-zone",
+          "hint": "Stick your leaf here, the way round it was hanging. Leave room to write its colour beside it."
+        },
+        {
+          "nid": "b34",
+          "type": "match-strip",
+          "prompt": "Whose leaf turned? Find the tree it fell from:",
+          "cards": [
+            {
+              "name": "the oak",
+              "clue": "wavy edges, and it turns a deep russet brown"
+            },
+            {
+              "name": "the birch",
+              "clue": "a little teardrop, and it turns bright yellow"
+            },
+            {
+              "name": "the maple",
+              "clue": "five points like a hand, and it turns yellow or red"
+            }
+          ]
+        },
+        {
+          "nid": "b35",
+          "type": "notice-line",
+          "prompt": "Your leaf's colour, and where it stood in our line:"
+        },
+        {
+          "nid": "b36",
+          "type": "parent-line",
+          "text": "For home: today we found out where the green goes before winter. Ask me why my leaf changed colour, and I will show you the little scar where the tree let it go."
+        }
+      ],
+      "connectionToLast": "Last week the trees were giving away their seeds. This week they are giving away their leaves.",
+      "primer": {
+        "summary": "Children walk under the turning trees, bring back one fallen leaf each, lay them out from greenest to brownest, and work out that the tree is taking its green back in before winter and the other colours were there all along.",
+        "why": "Every child has been told that leaves change colour in autumn; almost none have been told why, and the real reason is simple enough for a five-year-old. The clean little scar on a stalk, found with a fingertip, is the moment the change stops being weather and starts being something the tree did."
+      },
+      "celebration": {
+        "emoji": "🍂",
+        "headline": "Your class found out where the green goes.",
+        "keepsake": "A line of leaves from green to brown, laid out on the playground by thirty pairs of hands.",
+        "nextWeekTease": "Next week: where the leaves go."
+      },
+      "topicLine": "Leaves are changing colour, and today we find out where the green goes.",
+      "seasonNote": {
+        "teacher": "Trees are drawing their green back in now, tree by tree, so leaves in every stage from green to gold to brown are on the branches and on the ground. That spread is the evidence the session needs, and it lasts the whole season.",
+        "child": "In autumn the trees take their green back in, and the other colours show. We are going to look for where the green is going."
+      }
+    },
+    {
+      "id": "autumn-w3-where-the-leaves-go",
+      "prompt": "Why is our playground not buried in leaves?",
+      "title": "Where the leaves go",
+      "topic": "Lift the fallen leaves, meet whoever is eating them, dig to the layer where leaves stop being leaves, and put every creature back.",
+      "topicTags": [
+        "soil",
+        "minibeasts",
+        "trees"
+      ],
+      "primaryTopic": "minibeasts",
+      "objective": "Find out what happens to all the fallen leaves: they are eaten, and they become the soil the next plants grow in.",
+      "namedSkill": "looking and touching",
+      "kit": [
+        "Bug pots or viewers",
+        "Magnifying glasses",
+        "Hand wipes"
+      ],
+      "durationMin": 20,
+      "preparation": "Bring the bug pots, the magnifying glasses and hand wipes for afterwards. Find your leaf pile the day before: a corner where leaves gather, a hedge bottom, a log. Check it for anything sharp.",
+      "spaceNeeded": "A corner where fallen leaves have gathered and been left alone. A hedge bottom, a log, a flower bed, the base of a fence.",
+      "nodeSeq": 39,
+      "phases": [
+        {
+          "nid": "p1",
+          "key": "wonder-1",
+          "title": "Wonder",
+          "blocks": [
+            {
+              "nid": "b4",
+              "type": "conditions-line",
+              "fallbackText": "Look at the sky together before you set off. Whatever it's doing, name it out loud."
+            },
+            {
+              "nid": "b5",
+              "type": "teacher-note",
+              "text": "Ask it before you go out and let it sit. Most children have never noticed the absence."
+            },
+            {
+              "nid": "b6",
+              "type": "say-aloud",
+              "text": "Every autumn every tree drops every leaf it has. So why is our playground not buried in leaves?"
+            },
+            {
+              "nid": "b7",
+              "type": "say-aloud",
+              "text": "Where do you think they all go?"
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t2",
+              "when": "Someone says the caretaker sweeps them up...",
+              "then": "True, and a fair answer. Then ask what happens in a wood, where nobody sweeps."
+            },
+            {
+              "nid": "t3",
+              "when": "Nobody has an idea...",
+              "then": "Go and stand at the oldest pile you have. The answer is inside it."
+            }
+          ]
+        },
+        {
+          "nid": "p8",
+          "key": "lift-2",
+          "title": "Lift",
+          "blocks": [
+            {
+              "nid": "b12",
+              "type": "teacher-note",
+              "text": "Lift, look, and put back exactly as you found it. Two hands under a log, rolled towards them so nothing runs over their fingers."
+            },
+            {
+              "nid": "b13",
+              "type": "say-aloud",
+              "text": "Lift the leaves and look underneath. Who is living down here?"
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t9",
+              "when": "They find nothing under the top leaves...",
+              "then": "Go deeper. The top layer is dry. The life is in the damp, dark, sticking-together layer below."
+            },
+            {
+              "nid": "t10",
+              "when": "A child does not want to touch it...",
+              "then": "Give them the magnifying glass and the job of looking. Watching closely is doing the work."
+            },
+            {
+              "nid": "t11",
+              "when": "You find a mushroom or mould...",
+              "then": "Look, never pick, wash hands after. Say why out loud: some are food, some are not, and nobody can tell by looking."
+            }
+          ]
+        },
+        {
+          "nid": "p14",
+          "key": "meet-3",
+          "title": "Meet",
+          "blocks": [
+            {
+              "nid": "b17",
+              "type": "teacher-note",
+              "text": "Bring the class back together. Woodlice, worms, millipedes, slugs, springtails, and the white threads running through the wet leaves: all of them are eating."
+            },
+            {
+              "nid": "b18",
+              "type": "say-aloud",
+              "text": "Who did you find?"
+            },
+            {
+              "nid": "b19",
+              "type": "say-aloud",
+              "text": "What was it doing to the leaf?"
+            },
+            {
+              "nid": "b20",
+              "type": "say-aloud",
+              "text": "Look for white threads running through the wet leaves. That is a fungus, and it is eating too."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t15",
+              "when": "They only name the big ones...",
+              "then": "Ask what is moving that they cannot quite see. Springtails jump. Watch for the leaf that seems to twitch."
+            },
+            {
+              "nid": "t16",
+              "when": "Someone calls them all bugs...",
+              "then": "Good enough for today. Then ask how many legs it had. That is where the real naming starts."
+            }
+          ]
+        },
+        {
+          "nid": "p21",
+          "key": "crumble-4",
+          "title": "Crumble",
+          "blocks": [
+            {
+              "nid": "b24",
+              "type": "teacher-note",
+              "text": "This is the moment of the lesson. Dig down to where the leaves have stopped looking like leaves. Rub it between finger and thumb: dark, damp, crumbly, and it used to be a tree."
+            },
+            {
+              "nid": "b25",
+              "type": "say-aloud",
+              "text": "Dig down to where the leaves stop looking like leaves. Rub some between your fingers."
+            },
+            {
+              "nid": "b26",
+              "type": "say-aloud",
+              "text": "That was leaves. Now it is soil. Everything growing here is growing in it."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t22",
+              "when": "The ground is dry and there is no crumbly layer...",
+              "then": "Try under the hedge or against a north wall, where it stays damp. Failing that, a handful from a plant pot tells the same story."
+            },
+            {
+              "nid": "t23",
+              "when": "A child does not want it on their hands...",
+              "then": "Offer them a leaf to use as a spoon. Everyone wipes hands at the end anyway."
+            }
+          ]
+        },
+        {
+          "nid": "p27",
+          "key": "circle",
+          "title": "Circle",
+          "blocks": [
+            {
+              "nid": "b28",
+              "type": "circle-question",
+              "text": "Carry your creature back to where you found it and lay the leaves over it again."
+            },
+            {
+              "nid": "b29",
+              "type": "teacher-note",
+              "text": "We borrow, we look, we give back. The whole lesson in one move."
+            },
+            {
+              "nid": "b30",
+              "type": "circle-question",
+              "text": "Who is doing the job of eating our leaves?"
+            },
+            {
+              "nid": "b31",
+              "type": "teacher-note",
+              "text": "Woodlice, worms, slugs, and the fungus threads. Any guess counts as thinking like a scientist."
+            },
+            {
+              "nid": "b32",
+              "type": "circle-question",
+              "text": "What do you think is under our playground, right at the bottom?"
+            },
+            {
+              "nid": "b33",
+              "type": "teacher-note",
+              "text": "No right answer. Everything that ever fell here, all the way down. Big guesses welcome."
+            },
+            {
+              "nid": "b34",
+              "type": "named-skill",
+              "skill": "looking and touching"
+            }
+          ]
+        }
+      ],
+      "standards": [
+        {
+          "system": "england",
+          "code": "Year 3 · Rocks",
+          "text": "recognise that soils are made from rocks and organic matter"
+        },
+        {
+          "system": "england",
+          "code": "Year 2 · Living things and their habitats",
+          "text": "describe how animals obtain their food from plants and other animals, using the idea of a simple food chain, and identify and name different sources of food"
+        }
+      ],
+      "childSheet": [
+        {
+          "nid": "b35",
+          "type": "sheet-title",
+          "title": "Where the leaves go",
+          "nameLine": "This was dug up by"
+        },
+        {
+          "nid": "b36",
+          "type": "collage-zone",
+          "hint": "Press a thumb in the dark crumbly stuff and print it here. That was leaves, last year. Then draw whoever you found living in it."
+        },
+        {
+          "nid": "b37",
+          "type": "notice-line",
+          "prompt": "Who you found eating the leaves, and what it was doing:"
+        },
+        {
+          "nid": "b38",
+          "type": "notice-line",
+          "prompt": "What the crumbly layer felt like, and what it smelled like:"
+        },
+        {
+          "nid": "b39",
+          "type": "parent-line",
+          "text": "For home: today we found out where all last autumn's leaves went. Ask me who eats them, and what soil is really made of."
+        }
+      ],
+      "connectionToLast": "Last week we watched the leaves come down. This week we find out what happens to them next.",
+      "primer": {
+        "summary": "Children lift the fallen leaves to meet the woodlice, worms and fungus threads eating them, dig down to the layer where leaves stop looking like leaves, and find that it has become soil.",
+        "why": "The question this session opens with, why is the playground not buried in leaves, has an answer a child can hold in their hand. Nothing here is thrown away: it is eaten, and it becomes the next thing. That is the whole of decomposition, met with fingers long before it is ever a word."
+      },
+      "celebration": {
+        "emoji": "🍄",
+        "headline": "Your class found out where last year's leaves went.",
+        "keepsake": "Dark, damp and crumbly, and every bit of it used to be a leaf.",
+        "nextWeekTease": "Next week: getting ready for winter."
+      },
+      "conditionNotes": [
+        {
+          "when": [
+            "wet"
+          ],
+          "teacher": "The eaters work in the damp leaves, so go straight to the bottom of the pile and have the bug pots open before the first handful is lifted.",
+          "child": "The rain has wet the leaf pile. Small creatures eat leaves when they are damp, so we will look at the bottom of the pile."
+        },
+        {
+          "when": [
+            "dry"
+          ],
+          "teacher": "The crisp top leaves are mostly empty, so dig to the damp dark layer underneath, which is where the eating and the soil making are happening.",
+          "child": "The leaves on top are dry and crunchy. Under them it is damp and dark, so that is where we will look."
+        }
+      ],
+      "topicLine": "Today we are finding out what happens to all the fallen leaves, and who eats them.",
+      "seasonNote": {
+        "teacher": "Fallen leaves are piling up and being eaten as fast as they land: the worms, woodlice and fungi that turn them into soil are most active while the ground stays mild and damp. The playground not being buried is the proof, any week of the term.",
+        "child": "Leaves keep falling, but the ground does not fill up with them. We are going to find out where they go and who is eating them."
+      }
+    },
+    {
+      "id": "autumn-w4-getting-ready-for-winter",
+      "prompt": "Who is getting ready for the cold?",
+      "title": "Getting ready for winter",
+      "topic": "Put a stone where your shadow ends, hunt for who is getting ready for the cold, and sort what you find into the four answers.",
+      "topicTags": [
+        "seasons",
+        "soil",
+        "weather"
+      ],
+      "primaryTopic": "seasons",
+      "objective": "Notice that the light is going and the year is turning, and find the four answers the living things around us give to winter: store it, sleep through it, leave, or die back and wait underground.",
+      "namedSkill": "looking and wondering",
+      "kit": [
+        "One stone or a stick of chalk per pair"
+      ],
+      "durationMin": 20,
+      "preparation": "Bring a stone per pair, or chalk if your ground is hard. Go out at the time of day you could come back at, so the shadows can be put side by side later. Nothing else.",
+      "spaceNeeded": "An open patch where shadows fall, plus a hedge, a bush or a tree to hunt around.",
+      "nodeSeq": 36,
+      "phases": [
+        {
+          "nid": "p1",
+          "key": "shadow-1",
+          "title": "Shadow",
+          "blocks": [
+            {
+              "nid": "b4",
+              "type": "conditions-line",
+              "fallbackText": "Look at the sky together before you set off. Whatever it's doing, name it out loud."
+            },
+            {
+              "nid": "b5",
+              "type": "teacher-note",
+              "text": "This one needs sun. If the sky is flat grey, say so honestly, go straight to the hunt, and mark the shadows on the first bright day instead."
+            },
+            {
+              "nid": "b6",
+              "type": "say-aloud",
+              "text": "Stand still. Put a stone where your shadow ends."
+            },
+            {
+              "nid": "b7",
+              "type": "say-aloud",
+              "text": "The sun is getting lower every day. Your shadow will be longer next time we do this."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t2",
+              "when": "There is no sun at all today...",
+              "then": "Say so and move on. Come back on the first bright morning and do it then. Honest beats pretend."
+            },
+            {
+              "nid": "t3",
+              "when": "They move between marking and looking...",
+              "then": "Mark their heels too. Two stones, and the shadow can be found again."
+            }
+          ]
+        },
+        {
+          "nid": "p8",
+          "key": "hunt-2",
+          "title": "Hunt",
+          "blocks": [
+            {
+              "nid": "b11",
+              "type": "teacher-note",
+              "text": "Nibbled nuts, empty shells, a hole at the bottom of a hedge, a web, a nest showing now the leaves are thinning, a bush stripped of its berries. Evidence, not animals."
+            },
+            {
+              "nid": "b12",
+              "type": "say-aloud",
+              "text": "Hunt for somebody who is getting ready for the cold. Look for what they have left behind."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t9",
+              "when": "They want to find the animal itself...",
+              "then": "Most have gone quiet already. Tell them we are reading the signs instead, the way a detective would."
+            },
+            {
+              "nid": "t10",
+              "when": "They find nothing at all...",
+              "then": "Look up. A nest you could not see in summer is the clearest sign there is."
+            }
+          ]
+        },
+        {
+          "nid": "p13",
+          "key": "answers-3",
+          "title": "Four answers",
+          "blocks": [
+            {
+              "nid": "b16",
+              "type": "teacher-note",
+              "text": "Four answers they can hold anything against. Try them on a squirrel, a hedgehog, a swallow, a daffodil."
+            },
+            {
+              "nid": "b17",
+              "type": "say-aloud",
+              "text": "Four answers to winter: store it, sleep through it, leave, or die back and wait underground."
+            },
+            {
+              "nid": "b18",
+              "type": "say-aloud",
+              "text": "Which answer did the one you found choose?"
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t14",
+              "when": "Something does not fit any of the four...",
+              "then": "Good. Some just carry on: a robin, a fox, a person. That is a fifth answer, and they found it."
+            },
+            {
+              "nid": "t15",
+              "when": "The words feel too big...",
+              "then": "Act them out: fill your cheeks, curl up asleep, fly away, sink down small."
+            }
+          ]
+        },
+        {
+          "nid": "p19",
+          "key": "us-4",
+          "title": "Us",
+          "blocks": [
+            {
+              "nid": "b22",
+              "type": "teacher-note",
+              "text": "Same problem, same four answers. Coats and a full cupboard are storing. The lights going on earlier is the light going. Let them find the parallels."
+            },
+            {
+              "nid": "b23",
+              "type": "say-aloud",
+              "text": "The cold is coming for us too. What do we do about it?"
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t20",
+              "when": "They only say coats...",
+              "then": "Ask what changes in their house. Heating on, curtains earlier, thicker blankets, hot food."
+            },
+            {
+              "nid": "t21",
+              "when": "Somebody says people fly away for winter...",
+              "then": "They are right, and it is the same answer a swallow gives. Say so."
+            }
+          ]
+        },
+        {
+          "nid": "p24",
+          "key": "circle",
+          "title": "Circle",
+          "blocks": [
+            {
+              "nid": "b25",
+              "type": "circle-question",
+              "text": "What did you find, and which of the four answers did it choose?"
+            },
+            {
+              "nid": "b26",
+              "type": "teacher-note",
+              "text": "Let a few children hold their evidence up for the whole circle."
+            },
+            {
+              "nid": "b27",
+              "type": "circle-question",
+              "text": "Who around here do you think will be asleep by midwinter?"
+            },
+            {
+              "nid": "b28",
+              "type": "teacher-note",
+              "text": "Hedgehogs, bats, some butterflies behind the shed. Any guess counts as thinking like a scientist."
+            },
+            {
+              "nid": "b29",
+              "type": "circle-question",
+              "text": "Come back to your stone in a few weeks. What do you think your shadow will have done?"
+            },
+            {
+              "nid": "b30",
+              "type": "teacher-note",
+              "text": "No right answer. Longer, until midwinter, and then it starts coming back. Big guesses welcome."
+            },
+            {
+              "nid": "b31",
+              "type": "named-skill",
+              "skill": "looking and wondering"
+            }
+          ]
+        }
+      ],
+      "standards": [
+        {
+          "system": "england",
+          "code": "Year 1 · Seasonal changes",
+          "text": "observe changes across the 4 seasons"
+        },
+        {
+          "system": "england",
+          "code": "Year 1 · Seasonal changes",
+          "text": "observe and describe weather associated with the seasons and how day length varies"
+        }
+      ],
+      "childSheet": [
+        {
+          "nid": "b32",
+          "type": "sheet-title",
+          "title": "Getting ready for winter",
+          "nameLine": "These signs were found by"
+        },
+        {
+          "nid": "b33",
+          "type": "collage-zone",
+          "hint": "Stick or draw what you found: the nibbled nut, the empty shell, the web, the nest you could not see in summer."
+        },
+        {
+          "nid": "b34",
+          "type": "notice-line",
+          "prompt": "Who you found getting ready, and which of the four answers they chose:"
+        },
+        {
+          "nid": "b35",
+          "type": "notice-line",
+          "prompt": "Where your shadow ended today. Go back to your stone in a few weeks:"
+        },
+        {
+          "nid": "b36",
+          "type": "parent-line",
+          "text": "For home: today we read the signs that winter is coming. Ask me the four answers, and come outside and see where my shadow ended."
+        }
+      ],
+      "connectionToLast": "The leaves are down and eaten. Now the light is going, and everything here has an answer ready for it.",
+      "primer": {
+        "summary": "Children mark where their own shadow ends, hunt for the evidence of animals and plants preparing for the cold, and sort what they find into the four answers to winter: store it, sleep through it, leave, or die back and wait underground.",
+        "why": "Autumn is a countdown a child can watch happening. A stone laid where a shadow ended turns the shortening days from a feeling into a fact on the ground, and the four answers give a class a frame they can hold against any animal for the rest of the year."
+      },
+      "celebration": {
+        "emoji": "🦔",
+        "headline": "Your class read the signs.",
+        "keepsake": "A stone where the shadow ended, and the evidence of everybody getting ready."
+      },
+      "topicLine": "The cold is coming, and today we find out who is getting ready for it, and how.",
+      "seasonNote": {
+        "teacher": "Every living thing around the school is answering winter in its own way as the light goes: storing, sleeping, leaving, or dying back to wait underground. Late autumn shows all four answers at once, and early autumn shows the storing.",
+        "child": "The light is going and winter is coming. We are going to look for who is getting ready and how they are doing it."
+      }
+    }
+  ]
+}

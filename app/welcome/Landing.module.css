@@ -1,0 +1,2185 @@
+/* The public landing (issue 914).
+   One paper page with two deep grounds: the moss that carries "What you get"
+   and the two closing bands, and the mustard plate under the long outcome.
+   Every colour is a token, every size is on the scale or a clamp, and every
+   photograph is cut with one deep corner so the set reads as one hand. */
+
+.page {
+  min-height: 100vh;
+  overflow: clip;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--text);
+  font-size: var(--size-2);
+  line-height: 1.6;
+}
+
+.shell {
+  width: min(100%, 1280px);
+  margin-inline: auto;
+  padding-inline: clamp(20px, 4.4vw, 56px);
+}
+
+.headerInner {
+  min-height: 96px;
+  border-bottom: 1px solid var(--hairline-soft);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+/* On-page anchors for a page this long: a head or a partner arriving from a
+   link jumps straight to their section. Hidden on phones, where there is no
+   room for five words beside the wordmark and scrolling is the natural move. */
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 26px;
+  margin-inline: auto;
+  font-size: var(--size-1);
+  font-weight: var(--weight-strong);
+}
+
+.nav a {
+  color: var(--ink-soft);
+  text-decoration: none;
+  padding: 6px 0;
+}
+
+.nav a:hover {
+  color: var(--ink);
+  text-decoration: underline;
+  text-underline-offset: 6px;
+}
+
+.how,
+.offer,
+.audiences,
+.partner {
+  scroll-margin-top: 24px;
+}
+
+@media (max-width: 900px) {
+  .nav {
+    display: none;
+  }
+}
+
+.brand {
+  min-height: 44px;
+  padding-right: 34px;
+  display: inline-flex;
+  align-items: center;
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.headerLogo {
+  position: relative;
+  display: inline-block;
+  /* The wordmark keeps the brand petrol on the landing (Johan, 2026-09-07);
+     the seed stays green. Everything else on the page leaves petrol alone. */
+  color: var(--brand);
+  font-family: var(--display);
+  font-size: clamp(var(--size-5), 2.3vw, var(--size-6));
+  font-weight: var(--weight-medium);
+  line-height: 1;
+  letter-spacing: -0.025em;
+  white-space: nowrap;
+}
+
+.headerLogo :global(.wordmark-first) {
+  opacity: 1;
+}
+
+.headerLogo :global(.wordmark-second) {
+  color: inherit;
+}
+
+.headerLogo :global(.wordmark-seed) {
+  position: absolute;
+  top: -0.82em;
+  right: -0.9em;
+  width: 1.4em;
+  height: 1.28em;
+  overflow: visible;
+  color: var(--seed);
+}
+
+.signIn {
+  min-height: 44px;
+  padding: 10px 14px;
+  border: 1px solid var(--hairline);
+  border-radius: 12px;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  color: inherit;
+  font-family: var(--display);
+  font-size: var(--size-2);
+  font-weight: var(--weight-medium);
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background-color 160ms var(--settle), border-color 160ms var(--settle);
+}
+
+.signIn:hover {
+  border-color: var(--living);
+  background: var(--plate-spoken);
+}
+
+.teacherAvatar {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--action);
+  color: var(--action-ink);
+  font-family: var(--text);
+  font-size: var(--size-1);
+  font-weight: var(--weight-strong);
+  line-height: 1;
+}
+
+/* ── Shared voice ──────────────────────────────────────────────────────── */
+
+.kicker {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--ink);
+  font-size: var(--size-1);
+  font-weight: var(--weight-strong);
+}
+
+.kicker::before {
+  width: 20px;
+  height: 2px;
+  flex: none;
+  background: var(--living);
+  content: "";
+}
+
+.sectionTitle {
+  margin: 16px 0 0;
+  font-family: var(--display);
+  font-size: clamp(var(--size-6), 4.6vw, 3.1rem);
+  font-weight: var(--weight-display);
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  text-wrap: balance;
+}
+
+.sectionHead {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  align-items: end;
+  gap: clamp(32px, 6vw, 96px);
+}
+
+.sectionLead {
+  margin: 0;
+  max-width: 30em;
+  color: var(--ink-soft);
+  font-size: var(--size-3);
+  line-height: 1.5;
+}
+
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.chip {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 9px;
+  background: var(--plate-spoken);
+  color: var(--ink);
+  font-size: var(--size-1);
+  font-weight: var(--weight-strong);
+  line-height: 1.2;
+}
+
+.chipWeather {
+  background: var(--plate-conditions);
+}
+
+.chipSky {
+  background: var(--plate-weather);
+}
+
+.chipRow {
+  margin: 10px 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+/* The spoken line in the product's own register: a hanging quotation mark and
+   nothing else, the way engine/renderers/say-aloud.tsx draws it. */
+.spoken {
+  position: relative;
+  margin: 14px 0 0;
+  padding-left: 0.5em;
+  font-family: var(--display);
+  font-size: var(--size-4);
+  font-weight: var(--weight-display);
+  line-height: 1.24;
+  letter-spacing: -0.008em;
+  color: var(--ink);
+}
+
+.spoken::after {
+  content: "”";
+  margin-left: 0.06em;
+  color: var(--umber);
+}
+
+.quoteGlyph {
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--umber);
+}
+
+.forYou {
+  margin: 12px 0 0;
+  color: var(--ink-soft);
+  font-size: var(--size-1);
+  line-height: 1.5;
+}
+
+.primaryAction,
+.lightAction,
+.paperAction {
+  min-height: 56px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 14px 22px;
+  border-radius: 12px;
+  font-family: var(--display);
+  font-size: var(--size-3);
+  font-weight: var(--weight-medium);
+  text-decoration: none;
+  transition: transform 160ms var(--settle), filter 160ms var(--settle);
+}
+
+.primaryAction {
+  background: var(--action);
+  color: var(--action-ink);
+}
+
+.lightAction {
+  background: var(--moss-accent);
+  color: var(--moss);
+}
+
+.paperAction {
+  background: var(--paper);
+  color: var(--ink);
+}
+
+.primaryAction:hover,
+.lightAction:hover,
+.paperAction:hover {
+  filter: brightness(0.94);
+  transform: translateY(-1px);
+}
+
+.quietAction,
+.footerLink {
+  color: inherit;
+  font-weight: var(--weight-strong);
+  text-decoration-line: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 5px;
+}
+
+/* One family of cuts. A deep corner each, rotating, never an arch. */
+.photo {
+  position: relative;
+  overflow: hidden;
+  background: var(--plate-spoken);
+}
+
+.photo img {
+  object-fit: cover;
+}
+
+.cutOne {
+  border-radius: 28px 170px 28px 28px;
+}
+
+.cutTwo {
+  border-radius: 170px 28px 28px 28px;
+}
+
+.cutThree {
+  border-radius: 28px 28px 170px 28px;
+}
+
+.cutFour {
+  border-radius: 28px 28px 28px 170px;
+}
+
+.cutLeaf {
+  border-radius: 28px 150px 28px 150px;
+}
+
+.cutLeafMirror {
+  border-radius: 150px 28px 150px 28px;
+}
+
+/* ── Hero ───────────────────────────────────────────────────────────────── */
+
+/* ONE RHYTHM (2026-09-07): every section pads clamp(64px, 8vw, 110px) top and
+   bottom, so the space between any two sections is the same whether they
+   are plates or paper. The hero alone sits closer under the header. */
+.hero {
+  padding-block: clamp(48px, 6vw, 80px) clamp(64px, 8vw, 110px);
+}
+
+.heroIntro {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(290px, 0.85fr);
+  align-items: start;
+  gap: clamp(40px, 7vw, 96px);
+}
+
+.heroTitle {
+  max-width: none;
+  margin: 22px 0 0;
+  font-family: var(--display);
+  font-size: clamp(48px, 5.9vw, 84px);
+  font-weight: var(--weight-display);
+  line-height: 0.88;
+  letter-spacing: -0.045em;
+}
+
+.heroTitle span { display: block; white-space: nowrap; }
+.heroTitle span:last-child { color: var(--living); }
+
+.heroCopy {
+  padding-top: 34px;
+}
+
+.heroLead {
+  margin: 0;
+  max-width: 24em;
+  font-size: clamp(var(--size-3), 1.8vw, var(--size-4));
+  line-height: 1.4;
+}
+
+.heroLead strong {
+  font-weight: var(--weight-strong);
+}
+
+.heroActions {
+  margin-top: 34px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 24px;
+}
+
+.reassurance {
+  margin: 14px 0 0;
+  color: var(--ink-soft);
+  font-size: var(--size-1);
+}
+
+/* One shade darker than the rest of the line, and nothing else. The device is
+   a fact a visitor is scanning for; it is not a selling point, and weight or
+   colour here would make it one. */
+.reassuranceDevice {
+  color: var(--ink);
+}
+
+.heroVisual {
+  position: relative;
+  margin: clamp(48px, 6vw, 80px) 0 0;
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr) minmax(0, 1fr);
+  grid-template-rows: clamp(260px, 32vw, 420px);
+  gap: 22px;
+}
+
+.heroPhotoMain {
+  grid-row: 1;
+}
+
+.heroPhotoSmall {
+  grid-row: 1;
+}
+
+.sheetMeta,
+.phoneMeta {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  color: var(--living);
+  font-size: var(--size-1);
+  font-weight: var(--weight-strong);
+}
+
+.photoCaption {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+/* ── How it works ───────────────────────────────────────────────────────── */
+
+.how {
+  padding-block: clamp(64px, 8vw, 110px);
+}
+
+.steps {
+  margin: clamp(56px, 7vw, 96px) 0 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: clamp(64px, 8vw, 110px);
+}
+
+.step {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr);
+  align-items: center;
+  gap: clamp(36px, 6vw, 90px);
+}
+
+.step:nth-child(even) {
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
+}
+
+.step:nth-child(even) .stepCopy { order: 2; }
+
+
+.stepNumber {
+  width: 48px;
+  height: 48px;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--plate-spoken);
+  color: var(--living);
+  font-family: var(--display);
+  font-size: var(--size-4);
+  font-weight: var(--weight-medium);
+}
+
+.stepCopy h3 {
+  margin: 16px 0 0;
+  font-family: var(--display);
+  font-size: var(--size-4);
+  font-weight: var(--weight-display);
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+.stepCopy p:not(.stepNumber) {
+  margin: 14px 0 0;
+  max-width: 26em;
+  color: var(--ink-soft);
+  font-size: var(--size-3);
+  line-height: 1.5;
+}
+
+.todayCard,
+.phone,
+.printSheet {
+  color: var(--ink);
+}
+
+.todayCard {
+  padding: 24px 26px 26px;
+  border-radius: 24px;
+  background: var(--surface);
+  box-shadow: 0 24px 60px rgb(0 0 0 / 14%), 0 0 0 1px rgb(0 0 0 / 6%);
+}
+
+.todayMeta {
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: var(--size-1);
+  font-weight: var(--weight-strong);
+}
+
+.todayLabel {
+  margin: 18px 0 0;
+  color: var(--living);
+  font-size: var(--size-1);
+  font-weight: var(--weight-strong);
+  letter-spacing: 0.04em;
+}
+
+.speciesList,
+.foundList {
+  margin: 10px 0 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.speciesList li,
+.foundList li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 12px 8px 8px;
+  border-radius: 14px;
+  background: var(--plate-quiet);
+  box-shadow: 0 0 0 1px var(--hairline-soft);
+  font-size: var(--size-1);
+  line-height: 1.3;
+  color: var(--ink-soft);
+}
+
+.speciesList strong,
+.foundList strong {
+  display: block;
+  color: var(--ink);
+  font-size: var(--size-2);
+  font-weight: var(--weight-strong);
+}
+
+.speciesImage {
+  position: relative;
+  flex: none;
+  width: 52px;
+  height: 52px;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.speciesImage img {
+  object-fit: cover;
+}
+
+.todayArrow {
+  margin: 10px 0 0;
+  text-align: center;
+  color: var(--living);
+  font-size: var(--size-4);
+  line-height: 1;
+}
+
+.todayLesson {
+  margin-top: 8px;
+  padding: 16px 18px 18px;
+  border-radius: 16px;
+  background: var(--plate-spoken);
+}
+
+.todayLesson .todayLabel {
+  margin-top: 0;
+}
+
+.todayLesson h4 {
+  margin: 4px 0 0;
+  font-family: var(--display);
+  font-size: var(--size-5);
+  font-weight: var(--weight-display);
+  line-height: 1.2;
+}
+
+.todayLesson p {
+  margin: 4px 0 0;
+  font-size: var(--size-2);
+}
+
+.todayFoot {
+  margin-top: 10px;
+  color: var(--ink-soft);
+  font-size: var(--size-1);
+}
+
+.duo {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  align-items: center;
+  gap: 18px;
+}
+
+.duoPhoto {
+  height: 380px;
+}
+
+.phone {
+  width: min(360px, 100%);
+  margin-inline: auto;
+  padding: 18px 18px 26px;
+  border-radius: 32px;
+  background: var(--surface);
+  box-shadow: 0 24px 60px rgb(0 0 0 / 14%), 0 0 0 1px rgb(0 0 0 / 6%);
+}
+
+.phone .spoken,
+.phone .forYou,
+.phoneMeta,
+.phoneTitle,
+.phoneQuiet,
+.checkList,
+.foundList,
+.seasonList,
+.bigNumber,
+.logRows,
+.askThread,
+.phoneField,
+.phoneAction {
+  margin-inline: 8px;
+}
+
+.phoneTop {
+  margin: 0 8px 14px;
+  display: flex;
+  justify-content: space-between;
+  color: var(--ink-soft);
+  font-size: var(--size-1);
+}
+
+.phoneMeta {
+  margin-top: 14px;
+}
+
+.phoneMeta:first-of-type {
+  margin-top: 0;
+}
+
+.phoneTitle {
+  margin: 6px 8px 0;
+  font-family: var(--display);
+  font-size: var(--size-5);
+  font-weight: var(--weight-display);
+  line-height: 1.1;
+}
+
+.phone .spoken {
+  font-size: var(--size-4);
+}
+
+.phoneQuiet {
+  margin-top: 14px;
+  text-align: center;
+  color: var(--ink-soft);
+  font-size: var(--size-1);
+  font-weight: var(--weight-strong);
+}
+
+.phoneField {
+  margin-top: 14px;
+  padding: 14px 16px;
+  border: 1px solid var(--hairline);
+  border-radius: 12px;
+  color: var(--ink-soft);
+  font-size: var(--size-2);
+}
+
+.phoneAction {
+  margin-top: 14px;
+  padding: 14px;
+  border-radius: 12px;
+  background: var(--action);
+  color: var(--action-ink);
+  text-align: center;
+  font-weight: var(--weight-strong);
+}
+
+.checkList {
+  margin-top: 12px;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 10px;
+}
+
+.checkList li {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  font-size: var(--size-2);
+}
+
+.checkList li::before {
+  content: "";
+  flex: none;
+  width: 18px;
+  height: 18px;
+  margin-top: 4px;
+  border-radius: 5px;
+  background: var(--action);
+}
+
+.askThread {
+  margin-top: 14px;
+  padding: 14px 16px;
+  border-radius: 14px;
+  background: var(--plate-quiet);
+  box-shadow: 0 0 0 1px var(--hairline-soft);
+}
+
+.askThread p {
+  margin: 8px 0 0;
+  font-size: var(--size-2);
+  line-height: 1.5;
+}
+
+.askQuestion {
+  margin-top: 0;
+  font-weight: var(--weight-strong);
+}
+
+.seasonList {
+  margin-top: 12px;
+  padding: 0;
+  list-style: none;
+}
+
+.seasonList li {
+  display: grid;
+  gap: 2px;
+  padding: 10px 0;
+  border-top: 1px solid var(--hairline-soft);
+  font-size: var(--size-1);
+  color: var(--ink-soft);
+}
+
+.seasonList strong {
+  color: var(--ink);
+  font-size: var(--size-2);
+  font-weight: var(--weight-medium);
+}
+
+.bigNumber {
+  margin-top: 8px;
+  font-family: var(--display);
+  font-size: clamp(var(--size-6), 4vw, 2.6rem);
+  font-weight: var(--weight-display);
+  line-height: 1;
+  color: var(--living);
+}
+
+.bigNumber small {
+  display: block;
+  margin-top: 6px;
+  font-family: var(--text);
+  font-size: var(--size-1);
+  font-weight: var(--weight-strong);
+  color: var(--ink-soft);
+}
+
+.logRows {
+  margin-top: 12px;
+}
+
+.logRows div {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 0;
+  border-top: 1px solid var(--hairline-soft);
+  font-size: var(--size-1);
+}
+
+.logRows dt {
+  color: var(--ink-soft);
+}
+
+.logRows dd {
+  margin: 0;
+  font-weight: var(--weight-strong);
+  white-space: nowrap;
+}
+
+.printSheet {
+  padding: 24px 22px;
+  border-radius: 14px;
+  background: var(--plate-teacher);
+  box-shadow: 0 18px 40px rgb(0 0 0 / 16%);
+  transform: rotate(1.5deg);
+}
+
+.printSheet h4 {
+  margin: 6px 0 0;
+  font-family: var(--display);
+  font-size: var(--size-5);
+  font-weight: var(--weight-display);
+  line-height: 1.2;
+}
+
+.printNameLine,
+.noticeLine {
+  margin: 6px 0 0;
+  color: var(--ink-soft);
+  font-size: var(--size-1);
+}
+
+.collageZone {
+  margin-top: 14px;
+  padding: 24px 20px;
+  border: 1.5px dashed var(--hairline);
+  border-radius: 18px;
+  text-align: center;
+  color: var(--ink-soft);
+  font-size: var(--size-1);
+}
+
+/* ── What you get ───────────────────────────────────────────────────────── */
+
+/* Blue is the human side of the page (the teacher's kit here, the head's
+   section below); green is the living world (the day, the grounds). */
+.offer {
+  padding-block: clamp(64px, 8vw, 110px);
+  background: var(--plate-weather);
+  color: var(--ink);
+}
+
+.offer .kicker {
+  color: var(--ink);
+}
+
+.offer .kicker::before {
+  background: var(--sky);
+}
+
+.offer .sectionTitle span {
+  color: var(--sky);
+}
+
+.offer .sectionLead {
+  color: var(--ink-soft);
+}
+
+/* Eight cards on the moss ground, the same rounded surface the pilot block
+   and the weather cards use, so the list reads as things you hold rather than
+   rows in a table. The index is set in the accent at display scale: it gives
+   the eye a place to land on each card without inventing an icon set. */
+.offerList {
+  margin: clamp(44px, 5vw, 64px) 0 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: clamp(16px, 2vw, 24px);
+}
+
+.offerList li {
+  position: relative;
+  display: grid;
+  align-content: start;
+  gap: 10px;
+  min-height: 240px;
+  padding: clamp(22px, 2.4vw, 30px);
+  border-radius: 22px;
+  background: var(--surface);
+  box-shadow: 0 8px 30px rgb(0 0 0 / 5%);
+}
+
+.offerGlyph {
+  display: grid;
+  place-items: center;
+  width: 46px;
+  height: 46px;
+  border-radius: 14px;
+  background: var(--plate-weather);
+  color: var(--sky);
+  margin-bottom: clamp(14px, 1.6vw, 22px);
+}
+
+.offerList strong {
+  display: block;
+  font-family: var(--display);
+  font-size: var(--size-3);
+  font-weight: var(--weight-display);
+  line-height: 1.2;
+  color: var(--ink);
+}
+
+.offerList strong + span {
+  display: block;
+  color: var(--ink-soft);
+  font-size: var(--size-1);
+  line-height: 1.5;
+}
+
+@media (max-width: 1020px) {
+  .offerList {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .offerList li {
+    min-height: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .offerList {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+.offerFoot {
+  margin-top: clamp(40px, 5vw, 64px);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 24px;
+}
+
+/* ── How it was made ────────────────────────────────────────────────────── */
+
+/* The quiet band between two loud sections. No plate, no card, no rule around
+   it: the ground either side of it is coloured (moss above, weather below), so
+   plain surface with air around it is already the strongest frame available,
+   and adding a box here would make a pause look like a fourth argument. */
+.shapedGroups {
+  margin: clamp(32px, 4vw, 48px) 0 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(24px, 3vw, 44px);
+}
+
+.shapedGroups li {
+  padding-top: 18px;
+  border-top: 2px solid var(--living);
+}
+
+.shapedGroups strong {
+  display: block;
+  font-family: var(--display);
+  font-size: var(--size-3);
+  font-weight: var(--weight-display);
+  color: var(--ink);
+}
+
+.shapedGroups span {
+  display: block;
+  margin-top: 8px;
+  color: var(--ink-soft);
+  font-size: var(--size-1);
+  line-height: 1.5;
+}
+
+/* ── Rain or shine ──────────────────────────────────────────────────────── */
+
+.intelligence {
+  padding-block: clamp(64px, 8vw, 110px);
+  background: var(--plate-spoken);
+}
+
+.formula {
+  margin: clamp(44px, 5vw, 64px) 0 0;
+  padding: 30px 36px;
+  border-radius: 22px;
+  background: var(--surface);
+  box-shadow: 0 8px 30px rgb(0 0 0 / 6%);
+}
+
+.formulaVisual {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 16px 14px;
+  font-size: var(--size-2);
+  font-weight: var(--weight-strong);
+}
+
+.formulaLarge .chip {
+  padding: 12px 18px;
+  border-radius: 12px;
+  font-size: var(--size-2);
+}
+
+.formulaOp {
+  color: var(--ink-soft);
+  font-size: var(--size-4);
+  font-weight: var(--weight-body);
+}
+
+.formulaVisual strong {
+  margin-left: 8px;
+  font-family: var(--display);
+  font-size: var(--size-6);
+  font-weight: var(--weight-display);
+  color: var(--living);
+}
+
+.tripLead {
+  margin: clamp(36px, 4vw, 56px) 0 0;
+  color: var(--ink-soft);
+  font-weight: var(--weight-strong);
+}
+
+.weatherDoorways {
+  margin: 18px 0 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 28px;
+}
+
+.weatherDoorways > li {
+  padding: 14px 14px 26px;
+  border-radius: 20px;
+  background: var(--surface);
+  box-shadow: 0 8px 30px rgb(0 0 0 / 6%);
+}
+
+.weatherImage {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.weatherImage img {
+  object-fit: contain;
+}
+
+.weatherDoorwayCopy {
+  padding: 0 8px;
+}
+
+.weatherDoorwayCopy .chipRow {
+  margin-top: 14px;
+}
+
+.weatherDoorwayCopy h3 {
+  margin: 4px 0 0;
+  font-family: var(--display);
+  font-size: var(--size-5);
+  font-weight: var(--weight-display);
+  line-height: 1.1;
+}
+
+/* ── What it changes ─────────────────────────────────────────────────────── */
+
+.belief {
+  padding-block: clamp(64px, 8vw, 110px);
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr);
+  align-items: center;
+  gap: clamp(48px, 7vw, 100px);
+}
+
+.beliefPhoto {
+  height: 540px;
+}
+
+.outcomeRail {
+  margin: 36px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.outcomeRail li {
+  display: grid;
+  gap: 4px;
+  padding: 22px 0;
+  border-top: 1px solid var(--hairline-soft);
+}
+
+.outcomeRail strong {
+  font-weight: var(--weight-strong);
+}
+
+.outcomeRail span {
+  color: var(--ink-soft);
+  font-size: var(--size-2);
+}
+
+/* ── Children's work ────────────────────────────────────────────────────── */
+
+.work {
+  padding-block: clamp(64px, 8vw, 110px);
+}
+
+.activityStories {
+  margin: clamp(40px, 5vw, 64px) 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.activityStory {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.7fr);
+  align-items: center;
+  gap: clamp(32px, 5vw, 72px);
+  padding: clamp(36px, 5vw, 56px) 0;
+  border-top: 1px solid var(--hairline-soft);
+}
+
+.activityStory:nth-child(even) {
+  grid-template-columns: minmax(0, 1.7fr) minmax(0, 1fr);
+}
+
+.activityStory:nth-child(even) .activityStoryCopy {
+  order: 2;
+}
+
+.activitySubject {
+  margin: 0;
+  color: var(--living);
+  font-size: var(--size-1);
+  font-weight: var(--weight-strong);
+}
+
+.activityStoryCopy h3 {
+  margin: 10px 0 0;
+  font-family: var(--display);
+  font-size: clamp(var(--size-5), 3.4vw, 2.4rem);
+  font-weight: var(--weight-display);
+  line-height: 1.2;
+}
+
+.activityStoryCopy > p:not(.activitySubject) {
+  margin: 12px 0 0;
+  max-width: 26em;
+  color: var(--ink-soft);
+}
+
+.voice {
+  position: relative;
+  max-width: 30em;
+  margin: 26px 0 0;
+  padding: 34px 28px 26px 30px;
+  border-radius: 22px;
+  background: var(--plate-teacher);
+}
+
+.voiceMark {
+  position: absolute;
+  top: -6px;
+  left: 22px;
+  font-family: var(--display);
+  font-size: clamp(3.5rem, 6vw, 4.6rem);
+  line-height: 1;
+  color: var(--living);
+  opacity: 0.55;
+}
+
+.voice blockquote {
+  margin: 18px 0 0;
+  font-family: var(--display);
+  font-size: var(--size-4);
+  font-weight: var(--weight-display);
+  line-height: 1.32;
+  color: var(--ink);
+}
+
+.voice figcaption {
+  margin-top: 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--ink-soft);
+  font-size: var(--size-1);
+  font-weight: var(--weight-strong);
+}
+
+.voice figcaption::before {
+  content: "";
+  width: 22px;
+  height: 2px;
+  background: var(--living);
+}
+
+.activityMosaic {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(0, 1fr);
+  gap: 18px;
+  height: 300px;
+}
+
+.activityImage { height: 100%; }
+
+.childWork {
+  margin: clamp(56px, 7vw, 90px) 0 0;
+  padding: clamp(44px, 6vw, 90px) clamp(28px, 5.5vw, 80px);
+  border-radius: 36px;
+  background: var(--mustard);
+  color: var(--ink);
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.3fr);
+  align-items: center;
+  gap: clamp(40px, 6vw, 96px);
+}
+
+.childWork .kicker::before {
+  background: var(--ink);
+}
+
+.childWorkImage {
+  width: min(85%, 400px);
+  justify-self: center;
+  position: relative;
+  aspect-ratio: 4 / 5;
+  padding: 12px;
+  border-radius: 12px;
+  background: var(--surface);
+  box-shadow: 0 18px 40px rgb(0 0 0 / 16%);
+  transform: rotate(-1.5deg);
+}
+
+.childWorkImage img {
+  object-fit: contain;
+  padding: 12px;
+}
+
+.childWorkCopy h3 {
+  margin: 14px 0 0;
+  font-family: var(--display);
+  font-size: clamp(var(--size-6), 5vw, 3.3rem);
+  font-weight: var(--weight-display);
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+}
+
+.childWorkCopy p:not(.kicker) {
+  margin: 14px 0 0;
+  font-size: var(--size-3);
+}
+
+
+/* ── Free, open and private ─────────────────────────────────────────────── */
+
+.open {
+  padding-block: clamp(64px, 8vw, 110px);
+}
+
+.open .sectionTitle {
+  max-width: 22ch;
+}
+
+.openColumns {
+  margin-top: clamp(44px, 5vw, 64px);
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(28px, 4vw, 56px);
+}
+
+.openColumns div {
+  padding-top: 22px;
+  border-top: 2px solid var(--living);
+}
+
+.openColumns h3 {
+  margin: 0;
+  font-family: var(--display);
+  font-size: var(--size-4);
+  font-weight: var(--weight-display);
+}
+
+.openColumns p {
+  margin: 10px 0 0;
+  color: var(--ink-soft);
+  font-size: var(--size-2);
+}
+
+.acknowledgment {
+  margin: clamp(44px, 5vw, 64px) 0 0;
+  padding-top: 22px;
+  border-top: 1px solid var(--hairline-soft);
+  color: var(--ink-soft);
+  font-size: var(--size-1);
+}
+
+.acknowledgment a {
+  color: var(--ink);
+  font-weight: var(--weight-strong);
+}
+
+/* ── Close ──────────────────────────────────────────────────────────────── */
+
+/* One rhythm from the partner door to the foot: the same gap above the
+   band, below it, and before the makers. */
+.close {
+  padding-block: clamp(64px, 8vw, 110px);
+}
+
+.closeBand {
+  padding: clamp(44px, 6vw, 90px) clamp(28px, 5.5vw, 80px);
+  border-radius: 36px;
+  background: var(--moss);
+  color: var(--moss-ink);
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.8fr);
+  align-items: center;
+  gap: 40px;
+}
+
+.closeBand .kicker {
+  color: var(--moss-ink);
+}
+
+.closeBand .kicker::before {
+  background: var(--moss-accent);
+}
+
+.closeBand h2 {
+  max-width: 12ch;
+  margin: 16px 0 0;
+  font-family: var(--display);
+  font-size: clamp(var(--size-6), 5vw, 3.4rem);
+  font-weight: var(--weight-display);
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+
+.closeBand p:not(.kicker) {
+  margin: 14px 0 0;
+  color: var(--moss-soft);
+}
+
+.closeBand .lightAction {
+  justify-self: end;
+}
+
+
+/* Small text on a tinted plate takes that surface's readable ink, never the
+   green: the spoken green holds 4.56:1 on paper and only 3.8:1 on the plate. */
+.todayLesson .todayLabel,
+.todayFoot,
+.sheetMeta,
+.printNameLine,
+.noticeLine,
+.collageZone,
+.voice figcaption {
+  color: var(--ink);
+}
+
+/* ── Footer ─────────────────────────────────────────────────────────────── */
+
+.footer {
+  background: var(--paper);
+  color: var(--ink);
+}
+
+.footerInner {
+  min-height: 100px;
+  border-top: 1px solid var(--hairline-soft);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  font-size: var(--size-1);
+}
+
+.footerInner p {
+  margin: 0;
+  color: var(--ink-soft);
+}
+
+.footerInner :global(.wordmark) {
+  --wordmark-ink: var(--ink);
+  color: var(--ink);
+}
+
+.page a:focus-visible {
+  outline: 3px solid var(--action);
+  outline-offset: 4px;
+}
+
+/* ── Responsive ─────────────────────────────────────────────────────────── */
+
+@media (max-width: 1020px) {
+  .heroIntro,
+  .sectionHead,
+  .step,
+  .step:nth-child(even),
+  .belief,
+  .activityStory,
+  .activityStory:nth-child(even),
+  .childWork,
+  .closeBand {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .step:nth-child(even) .stepCopy,
+  .activityStory:nth-child(even) .activityStoryCopy {
+    order: 0;
+  }
+
+  .heroCopy {
+    padding-top: 0;
+  }
+
+  .closeBand .lightAction {
+    justify-self: start;
+  }
+
+  .beliefPhoto {
+    height: 420px;
+  }
+
+  .openColumns {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  /* Three groups, so two columns leaves a hole. They stay side by side until
+     the width that stacks them. */
+  .shapedGroups {
+    gap: 24px;
+  }
+}
+
+@media (max-width: 760px) {
+  .shell { padding-inline: 24px; }
+  .headerInner { min-height: 88px; gap: 12px; }
+  .brand { padding-right: 24px; }
+  .headerLogo { font-size: var(--size-4); }
+  .signIn { padding-inline: 10px; gap: 6px; }
+  .heroIntro { gap: 28px; }
+  .heroTitle { font-size: clamp(32px, 10vw, 68px); line-height: 1; }
+  .heroLead, .sectionLead, .stepCopy p:not(.stepNumber) { font-size: var(--size-2); line-height: 1.65; }
+  .sectionTitle { font-size: var(--size-6); line-height: 1.15; }
+  .sectionHead { gap: 24px; }
+  .heroActions { margin-top: 28px; gap: 16px; align-items: stretch; flex-direction: column; }
+  .quietAction { align-self: flex-start; padding-block: 8px; }
+  .primaryAction, .lightAction, .paperAction {
+    font-size: var(--size-2); padding: 14px 16px; gap: 10px; max-width: 100%;
+  }
+  .heroVisual { grid-template-columns: repeat(2, minmax(0, 1fr)); grid-template-rows: auto; gap: 14px; margin-top: 36px; }
+  .heroPhotoMain { grid-column: 1 / -1; grid-row: auto; aspect-ratio: 4 / 3; }
+  .heroPhotoSmall { grid-row: auto; aspect-ratio: 4 / 3; }
+  .spoken { font-size: var(--size-3); line-height: 1.4; }
+  .steps { grid-template-columns: minmax(0, 1fr); margin-top: 40px; gap: 64px; }
+  .stepCopy { display: grid; grid-template-columns: 36px minmax(0, 1fr); column-gap: 16px; }
+  .stepNumber { grid-row: 1 / 3; width: 36px; height: 36px; font-size: var(--size-3); }
+  .stepCopy h3 { margin: 2px 0 0; font-size: var(--size-4); }
+  .stepCopy p:not(.stepNumber) { grid-column: 2; margin-top: 10px; }
+  .phone { padding: 24px 20px; }
+  .featureContent { grid-template-columns: minmax(0, 1fr); gap: 24px; }
+  .featureSummary { gap: 16px; padding-block: 24px; }
+  .featureTitle { font-size: var(--size-3); }
+  .featureDescription { font-size: var(--size-2); }
+  .weatherDoorways, .openColumns, .foundList { grid-template-columns: minmax(0, 1fr); }
+  .weatherDoorways { gap: 32px; }
+  .weatherDoorways > li { padding: 12px 12px 24px; }
+  .weatherDoorwayCopy h3 { font-size: var(--size-4); line-height: 1.25; }
+  .activityStory, .activityStory:nth-child(even) { gap: 24px; padding-block: 32px; }
+  .activityStoryCopy h3 { font-size: var(--size-5); }
+  .activityMosaic { grid-auto-flow: row; grid-template-columns: repeat(2, minmax(0, 1fr)); grid-auto-rows: 180px; height: auto; gap: 16px; }
+  .activityMosaic > :last-child:nth-child(odd) { grid-column: 1 / -1; height: 230px; }
+  .voice { padding: 30px 24px 24px; }
+  .voice blockquote { font-size: var(--size-3); line-height: 1.5; }
+  .duo { grid-template-columns: minmax(0, 1fr); gap: 24px; }
+  .duoPhoto { height: auto; aspect-ratio: 4 / 3; }
+  .printSheet { width: 100%; margin: 0; transform: none; }
+  .speciesList { grid-template-columns: minmax(0, 1fr); }
+  .shapedGroups { grid-template-columns: minmax(0, 1fr); gap: 28px; }
+  .formulaVisual { flex-direction: column; gap: 8px; }
+  .formulaVisual strong { margin-left: 0; }
+  .formula { padding: 24px 20px; }
+  .beliefPhoto { height: auto; aspect-ratio: 4 / 3; }
+  .reassuranceDevice { display: block; }
+  .cutOne { border-radius: 20px 38% 20px 20px; }
+  .cutTwo { border-radius: 38% 20px 20px 20px; }
+  .cutThree { border-radius: 20px 20px 38% 20px; }
+  .cutFour { border-radius: 20px 20px 20px 38%; }
+  .cutLeaf { border-radius: 16px 45% 16px 45%; }
+  .cutLeafMirror { border-radius: 45% 16px 45% 16px; }
+  .childWork { margin-top: 40px; padding: 28px 24px; border-radius: 24px; gap: 32px; }
+  .childWorkImage { width: 100%; max-width: 360px; margin-inline: auto; transform: none; }
+  .childWorkCopy h3 { font-size: var(--size-5); }
+  .childWorkCopy p:not(.kicker) { font-size: var(--size-2); }
+  .close { padding-bottom: calc(72px * 2); }
+  .closeBand { padding: 32px 24px; border-radius: 24px; gap: 28px; }
+  .closeBand h2 { font-size: var(--size-6); line-height: 1.15; }
+  .closeBand .lightAction { justify-self: stretch; }
+  .footerInner { flex-direction: column; align-items: flex-start; padding-block: 28px; gap: 16px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .primaryAction,
+  .lightAction,
+  .paperAction,
+  .signIn {
+    transition: none;
+  }
+}
+
+
+/* Editorial miniatures stay compact independently of product typography.
+
+   Each block below is a small rendering of the product sitting inside the
+   page, and its internal sizes answer to its own geometry -- a glyph beside a
+   line, a caption under a thumbnail -- rather than to the scale the page's
+   sentences use. So each miniature names its foot on the scale once, and
+   everything inside it is written in em against its own parent. The miniature
+   then scales from that one number, and it cannot drift when the page's body
+   step moves.
+
+   Every em below is the size the rule held before divided by its parent's
+   computed size, so nothing inside a miniature changes on screen. The arithmetic
+   is against --size-2, which is 1rem: the root carries font-size: var(--size-2),
+   and rem on the root element resolves against the initial value, so 1rem is
+   16px here and .page hands that same step down to every miniature that does
+   not set its own.
+
+   The one foot that does move is .platformPreview itself, from 15px to the
+   nearest step on the scale (--size-2, 16px). Its internals are held where they
+   are by the em values below. */
+.platformPreview { min-width: 0; width: 100%; max-width: 480px; box-sizing: border-box; padding: 24px; background: var(--paper); color: var(--ink); border-radius: 20px; font-size: var(--size-2); line-height: 1.5; }
+.previewLabel { margin: 0 0 20px; font-size: 0.8125em; color: var(--ink-soft); }
+.previewTitle { margin: 12px 0; font-family: var(--display); font-size: 1.375em; line-height: 1.25; }
+.previewHeader { display: flex; justify-content: space-between; gap: 12px; border-block: 1px solid var(--ink-soft); padding-block: 10px; font-size: 0.75em; }
+.previewQuote { margin: 24px 0; font-family: var(--display); font-size: 1.4375em; line-height: 1.35; }
+.previewNote { margin: 12px 0; font-size: 0.9375em; line-height: 1.5; }
+.previewNote strong { display: flex; align-items: center; gap: 8px; font-size: 0.8em; margin-bottom: 5px; }
+.previewLink { display: inline-block; margin-top: 20px; color: inherit; font-size: 0.875em; line-height: 1.5; text-decoration: underline; text-underline-offset: 4px; }
+.paperStack { background: var(--surface); border: 1px solid var(--hairline); box-shadow: 5px 5px 0 var(--plate-quiet), 10px 10px 0 var(--hairline); padding: 20px; margin: 8px 10px 12px 0; font-size: 0.75em; }
+.paperStack .previewTitle { font-size: 1.5833em; }
+.sheetDrawing { display: flex; align-items: center; justify-content: center; gap: 12px; border: 1px dashed var(--hairline); padding: 12px; color: var(--living); }
+.sheetDrawing svg { display: block; flex-shrink: 0; }
+.noticeLine { border-bottom: 1px solid var(--hairline); padding-bottom: 12px; }
+.previewSequence { margin: 0; padding-left: 28px; }
+.previewSequence li { padding: 14px 8px; border-bottom: 1px solid var(--hairline); font-family: var(--display); font-size: 1.125em; }
+.previewSequence li::marker { color: var(--living); }
+.previewMenu { list-style: none; padding: 0; margin: 20px 0 0; }
+.previewMenu li { display: flex; align-items: center; gap: 16px; padding: 14px 0; border-top: 1px solid var(--hairline); }
+/* Drawn, not typed: this glyph is centred in a 32px cell and sized to it, so
+   the rule's own geometry depends on the number. It is listed by name in
+   DRAWN_NOT_TYPED in scripts/token-lint.mjs, carrying this reason. */
+.previewMenu li > span { display: grid; place-items: center; flex-shrink: 0; font-size: 26px; width: 32px; text-align: center; color: var(--living); }
+.previewMenu small { display: block; font-size: 0.75em; margin-top: 4px; }
+.speciesPictures { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+.speciesPictures figure { margin: 0; }
+.speciesPictures img { width: 100%; height: 90px; object-fit: cover; border-radius: 12px 28px 12px 12px; }
+.speciesPictures figcaption { margin-top: 8px; font-size: 0.75em; }
+/* Drawn, not typed: the question mark is centred in a 76 by 64px plate and
+   sized to it, not to the scale the sentences use. It is listed by name in
+   DRAWN_NOT_TYPED in scripts/token-lint.mjs, carrying this reason. */
+.questionIllustration { display: grid; place-items: center; width: 76px; height: 64px; border-radius: 24px 24px 24px 0; background: var(--plate-conditions); text-align: center; font-family: var(--display); font-size: 42px; color: var(--living); }
+.logIllustration { display: grid; gap: 12px; padding: 20px; max-width: 220px; border: 1px solid var(--hairline); border-radius: 4px 20px 20px 4px; background: var(--surface); color: var(--living); font-size: 1.25em; }
+.conditionChips { display: flex; flex-wrap: wrap; gap: 8px; }
+.conditionChips span { display: inline-flex; align-items: center; gap: 6px; background: var(--plate-conditions); padding: 6px 12px; border-radius: 10px; font-weight: var(--weight-strong); }
+.conditionChips svg { flex-shrink: 0; }
+.conditionChips span:nth-child(1) { background: var(--plate-weather); }
+.conditionChips span:nth-child(2) { background: var(--plate-spoken); }
+.conditionChips span:nth-child(4) { background: var(--plate-teacher); }
+.platformPreview .speciesList { grid-template-columns: repeat(2, minmax(0, 1fr)); margin-block: 24px; font-size: 0.8125em; gap: 12px; }
+.photoInvitation { display: flex; align-items: center; justify-content: space-between; gap: 32px; margin-top: 40px; }
+.invitationQuestion { margin: 16px 0 0; font-family: var(--display); font-size: var(--size-4); line-height: 1.35; }
+@media (max-width: 760px) {
+  .photoInvitation { flex-direction: column; align-items: flex-start; gap: 24px; }
+  .platformPreview { padding: 16px; }
+  .featureContent { padding-inline: 0; }
+}
+
+/* Small shared credit area, not another full chapter. */
+.makerNames { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 28px; margin: 20px 0 0; font-family: var(--display); font-size: var(--size-2); color: var(--ink-soft); }
+.makerNames a { color: inherit; text-underline-offset: 4px; }
+.lessonExcerpt { margin-block: 24px; font-size: var(--size-2); }
+.lessonExcerpt :global(.block-say-aloud) { margin: 0; padding: 0; }
+.lessonExcerpt :global(.voice-quoted) { padding-left: 12px; }
+.lessonExcerpt :global(.quote-glyph) { font-size: 2em; }
+.lessonExcerpt :global(.say-aloud-text) { font-size: 1.3125em; line-height: 1.4; margin: 0; }
+.excerptNote { display: flex; align-items: flex-start; gap: 12px; margin: 20px 0 0 20px; font-size: var(--size-2); }
+.excerptNote svg { flex-shrink: 0; margin-top: 3px; color: var(--umber); }
+.excerptNote p { margin: 0; font-size: 0.875em; line-height: 1.5; }
+.runnerPreview { border: 1px solid var(--hairline); }
+.runnerPreview .previewHeader { flex-wrap: wrap; justify-content: flex-start; gap: 8px 16px; }
+.activePhase { color: var(--living); font-weight: var(--weight-strong); border-bottom: 2px solid currentColor; }
+.platformPreview .primaryAction { margin-top: 16px; font-size: 0.9375em; padding: 12px 18px; }
+
+.simpleFeatureLink { display: inline-block; color: var(--moss-ink); font-size: var(--size-1); text-underline-offset: 5px; }
+.maskPrintable { max-width: 440px; }
+.maskPrintable img { display: block; width: 100%; height: auto; border-radius: 4px; box-shadow: 5px 5px 0 var(--moss-soft); }
+.maskPrintable .previewLink { color: var(--moss-ink); display: block; }
+
+.stepPhoto { width: 100%; aspect-ratio: 4 / 3; }
+.stepEyebrow { display: flex; align-items: center; gap: 10px; color: var(--living); font-size: var(--size-1); font-weight: var(--weight-strong); }
+.dayPreview { padding: 24px; border-radius: 24px; background: var(--surface); font-size: var(--size-2); }
+.stepSpecies { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin-top: 24px; }
+.stepSpecies figure { display: flex; align-items: center; gap: 12px; margin: 0; padding: 12px; border: 1px solid var(--hairline); border-radius: 16px; }
+.stepSpecies img { display: block; width: 56px; height: 56px; flex-shrink: 0; object-fit: cover; border-radius: 10px; }
+.stepSpecies figcaption { font-size: var(--size-1); font-weight: var(--weight-strong); }
+@media (max-width: 760px) {
+  .dayPreview { padding: 20px 16px; }
+  .dayPreview .conditionChips { gap: 6px; }
+  .dayPreview .conditionChips span { padding: 6px 10px; font-size: 0.8125em; }
+  .dayPreview .stepSpecies { gap: 8px; }
+  .stepSpecies figure { padding: 8px; gap: 8px; }
+  .stepSpecies img { width: 40px; height: 40px; }
+  .stepSpecies figcaption { font-size: 0.75em; }
+}
+.stepMask { padding: 20px; background: var(--plate-quiet); border-radius: 24px; }
+.stepMask img { width: 100%; height: auto; display: block; box-shadow: 4px 6px 0 var(--hairline); transform: rotate(-3deg); }
+@media (max-width: 760px) { .stepCopy { display: block; } .stepSpecies { gap: 16px; } }
+
+/* The lesson overlaps the photographs, like a sheet laid over the day. */
+.heroLesson { --green: var(--action); --s3: 1.5rem; font-size: var(--size-2); position: relative; z-index: 1; width: min(65%, 650px); margin: -48px 0 0 clamp(0px, 16%, 200px); padding: 20px; background: var(--surface); border: 1px solid var(--hairline); border-radius: 28px; box-shadow: 0 10px 24px rgb(0 0 0 / 6%); transform: rotate(-1deg); }
+.heroLessonContext { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-bottom: 10px; font-size: 0.8125em; font-weight: var(--weight-strong); }
+.heroLessonContext p { margin: 0 8px 0 0; color: var(--living); }
+.heroLessonContext > span { display: inline-flex; align-items: center; gap: 6px; padding: 6px 9px; border-radius: 10px; }
+.heroLessonContext .placeChip { background: var(--plate-weather); }
+.heroLessonContext .seasonChip { background: var(--plate-spoken); }
+.heroLessonContext .weatherChip { background: var(--plate-conditions); }
+.heroLessonExcerpt { margin: 16px 0; font-family: var(--display); font-weight: var(--weight-display); font-size: 1.25em; line-height: 1.35; }
+.heroLessonExcerpt span { color: var(--living); }
+.heroLessonFooter { border-top: 1px solid var(--hairline); padding-top: 14px; display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+.heroLessonFooter p, .heroLessonFooter a { margin-top: 0; }
+.heroLessonFooter a { flex-shrink: 0; padding: 10px 16px; min-height: 44px; font-size: 0.9375em; }
+.heroLesson > h2 { font-size: 1.75em; margin: 0 0 8px; }
+.heroLesson > p { font-size: 1.0625em; margin: 0; }
+.heroLessonFooter p { font-size: 0.8125em; line-height: 1.4; }
+@media (max-width: 760px) {
+  .heroLesson { width: calc(100% - 20px); margin-top: -20px; padding: 16px; border-radius: 22px; transform: none; }
+  .heroLessonContext { gap: 6px; font-size: 0.8125em; }
+  .heroLessonContext p { flex-basis: 100%; margin-bottom: 4px; }
+  .heroLessonContext > span { padding: 6px 9px; }
+  .heroLessonFooter { flex-direction: column; align-items: stretch; gap: 16px; }
+}
+
+
+.introductionVisual { display: grid; gap: 20px; }
+.animalInspiration { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.animalInspiration figure { margin: 0; }
+.animalInspiration img { width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; display: block; border-radius: 18px 36% 18px 18px; }
+.animalInspiration figure:nth-child(2) img { border-radius: 36% 18px 18px 18px; }
+.animalInspiration figcaption, .introductionCaption { font-size: var(--size-1); color: var(--ink-soft); margin: 10px 0 0; }
+.introductionVisual .stepMask { width: 85%; justify-self: center; box-sizing: border-box; }
+.introductionCaption { text-align: center; margin-top: 0; }
+
+/* An equation on the page, with the illustrations carrying the examples. */
+.formula { padding: 28px 0; background: transparent; box-shadow: none; border-radius: 0; }
+.formulaVisual { display: grid; grid-template-columns: 1fr auto 1fr auto 1fr auto 1fr; gap: 28px 20px; text-align: center; }
+.formulaInput { display: inline-flex; flex-direction: column; align-items: center; gap: 16px; font-size: clamp(20px, 2vw, 26px); line-height: 1.3; }
+.formulaInput svg { width: 44px; height: 44px; color: var(--living); flex-shrink: 0; }
+.formulaVisual .formulaOp { font-size: 1.875em; }
+.formulaVisual strong { grid-column: 1 / -1; margin: 12px 0 0; padding-top: 32px; border-top: 1px solid var(--hairline); font-size: clamp(30px, 3.5vw, 46px); line-height: 1.2; }
+.weatherDoorways > li { padding: 0; overflow: hidden; box-shadow: none; background: var(--paper); }
+.weatherImage { aspect-ratio: 4 / 3; border-radius: 0; }
+.weatherImage img { object-fit: cover; }
+.weatherDoorwayCopy { padding: 18px 20px 22px; }
+.weatherDoorwayCopy .chipRow { margin: 0; gap: 6px; }
+.weatherDoorwayCopy .chip { display: inline-flex; align-items: center; gap: 5px; padding: 6px 9px; font-size: var(--size-1); }
+.weatherDoorwayCopy .chip svg { flex-shrink: 0; }
+.weatherDoorwayCopy .placeChip { background: var(--plate-weather); }
+.weatherDoorwayCopy .seasonChip { background: var(--plate-spoken); }
+.weatherDoorwayCopy .weatherChip { background: var(--plate-conditions); }
+.weatherDoorwayCopy h3 { margin: 14px 0 0; font-size: var(--size-3); line-height: 1.35; }
+@media (max-width: 760px) {
+  .formulaVisual { display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; gap: 16px 10px; }
+  .formulaInput { flex-direction: row; font-size: 1.125em; gap: 8px; }
+  .formulaInput svg { width: 28px; height: 28px; }
+  .formulaVisual strong { flex-basis: 100%; font-size: 1.875em; padding-top: 24px; }
+  .weatherDoorways { gap: 24px; }
+  .weatherDoorways > li { display: block; }
+  .weatherImage { aspect-ratio: 16 / 10; }
+  .weatherDoorwayCopy { padding: 16px 18px 20px; }
+  .weatherDoorwayCopy h3 { font-size: var(--size-3); }
+}
+
+.dayLessonArrow { margin: 14px 0 8px; text-align: center; color: var(--living); font-size: 1.75em; }
+.dayLesson { background: var(--plate-spoken); padding: 20px; border-radius: 18px; }
+.dayLesson p { margin: 0; font-size: var(--size-1); line-height: 1.4; }
+.dayLesson h4 { font-family: var(--display); font-weight: var(--weight-display); font-size: var(--size-4); margin: 8px 0; line-height: 1.2; }
+.dayLesson .dayLessonMeta { margin-top: 12px; color: var(--ink-soft); }
+
+
+.stepPreparation { width: 100%; max-width: 560px; margin-inline: auto; display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); align-items: start; padding: 22px 8px; }
+.menuScreenshot { grid-column: 1 / 10; grid-row: 1 / 3; margin: 0; padding: 14px; border: 1px solid var(--hairline); border-radius: 20px; background: var(--paper); box-shadow: 0 14px 28px rgb(0 0 0 / 8%); transform: rotate(-4deg); }
+.menuScreenshot img { display: block; width: 100%; height: auto; }
+.menuScreenshot figcaption { margin-top: 10px; font-size: var(--size-1); color: var(--ink-soft); }
+.stackedLessonPreview { grid-column: 8 / -1; grid-row: 1; z-index: 1; margin-top: 30px; padding: 12px; background: var(--surface); border: 1px solid var(--hairline); border-radius: 18px; box-shadow: 0 10px 24px rgb(0 0 0 / 10%); transform: rotate(5deg); font-size: var(--size-2); }
+.stackedLessonPreview img { width: 100%; height: auto; aspect-ratio: 6 / 5; object-fit: cover; border-radius: 10px; }
+.stackedLessonPreview p { font-size: 0.75em; color: var(--ink-soft); margin: 8px 0 4px; }
+.stackedLessonPreview strong { display: block; font-family: var(--display); font-size: var(--size-2); line-height: 1.2; }
+.stepPreparation .stepMask { grid-column: 5 / -1; grid-row: 2; z-index: 2; width: 100%; margin-top: 20px; padding: 12px; background: var(--surface); box-shadow: 0 14px 28px rgb(0 0 0 / 12%); transform: rotate(3deg); }
+.stepPreparation .stepMask img { transform: none; box-shadow: none; }
+.outsideExample { width: 100%; max-width: 560px; margin-inline: auto; display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); align-items: center; gap: 0; }
+.outsideLesson { grid-column: 1 / 12; grid-row: 2; z-index: 1; margin-top: -32px; background: var(--surface); border: 1px solid var(--hairline); border-radius: 28px; padding: 24px; box-shadow: 0 16px 32px rgb(0 0 0 / 8%); font-size: var(--size-2); }
+.outsideExampleLabel { display: flex; justify-content: space-between; gap: 12px; margin: 0; font-size: 0.75em; color: var(--ink-soft); }
+.outsideLessonName { margin: 22px 0; font-size: var(--size-1); font-weight: var(--weight-strong); color: var(--living); }
+.outsideLesson :global(.block) { margin: 20px 0; }
+.outsideLesson :global(.say-aloud-text) { font-size: 1.625em; }
+.outsideLesson :global(.voice-quoted) { margin-left: 0; }
+.outsideLesson :global(.quote-glyph) { display: none; }
+.outsideLesson :global(.say-aloud-text)::before { content: "“"; }
+.outsideLesson :global(.say-aloud-text)::after { content: "”"; display: inline; position: static; width: auto; font-size: inherit; line-height: inherit; vertical-align: baseline; color: inherit; }
+.outsideLesson :global(.teacher-note-text) { font-size: 0.9375em; }
+.outsidePhoto { grid-column: 3 / -1; grid-row: 1; align-self: start; min-height: 0; aspect-ratio: 1; border-radius: 28px 64px 28px 28px; }
+@media (max-width: 760px) {
+  .stepPreparation { padding-inline: 4px; }
+  .menuScreenshot { padding: 10px; }
+  .stackedLessonPreview { padding: 10px; }
+  .stackedLessonPreview strong { font-size: 0.875em; }
+  .outsideExample { grid-template-columns: repeat(12, minmax(0, 1fr)); }
+  .outsideLesson { grid-column: 1 / 12; margin-top: -20px; padding: 18px; border-radius: 22px; }
+  .outsideLesson :global(.say-aloud-text) { font-size: 1.5em; }
+  .outsidePhoto { min-height: 0; border-radius: 22px 48px 22px 22px; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* A generous opening and a distinct explanation below the photographs. */
+.heroIntro { grid-template-columns: minmax(0, 1.15fr) minmax(290px, .85fr); align-items: center; gap: clamp(40px, 7vw, 96px); }
+.heroSubheader { max-width: 28em; margin: 28px 0 0; font-size: clamp(21px, 2vw, 26px); line-height: 1.4; color: var(--ink-soft); }
+.heroCopy { max-width: 720px; padding-top: 0; }
+.heroActions { margin-top: 0; }
+.heroVisual { margin-top: clamp(64px, 8vw, 104px); }
+.introduction { max-width: 1080px; margin: clamp(72px, 9vw, 120px) auto 0; display: grid; grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr); align-items: center; gap: clamp(40px, 6vw, 80px); }
+.introductionHeading h2 { font-family: var(--display); font-weight: var(--weight-display); font-size: clamp(32px, 4vw, 48px); line-height: 1.12; margin: 24px 0 0; }
+.introductionMark { display: inline-flex; padding: 20px; color: var(--living); background: var(--plate-spoken); border-radius: 18px 44px 18px 44px; }
+.introductionCopy > p { margin: 0; font-size: clamp(22px, 2.4vw, 30px); line-height: 1.5; }
+.introduction strong { font-weight: var(--weight-display); }
+@media (max-width: 760px) {
+  .heroIntro { grid-template-columns: minmax(0, 1fr); gap: 32px; }
+  .heroSubheader { margin-top: 24px; }
+  .introduction { grid-template-columns: 1fr; gap: 28px; }
+  .introductionHeading { display: flex; align-items: center; gap: 20px; }
+  .introductionHeading h2 { margin: 0; }
+  .introductionMark { padding: 16px; }
+  .introductionMark svg { width: 40px; height: 40px; }
+  .introductionCopy > p { font-size: var(--size-4); }
+}
+
+/* Pictures to share with the class, tucked beneath the lesson card. */
+.classPreview { width: 100%; max-width: 560px; margin-inline: auto; }
+.classPreview .dayPreview { padding-bottom: 56px; border: 1px solid var(--hairline); }
+.classPreview .dayLesson { margin-top: 20px; }
+.classPreviewPhotos { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin: -28px 20px 0; position: relative; }
+.classPreviewPhotos .stackedLessonPreview { grid-column: auto; grid-row: auto; margin: 0; transform: rotate(-4deg); }
+.classPreviewPhotos .stackedLessonPreview:last-child { margin-top: 18px; transform: rotate(5deg); }
+.classPreviewPhotos figcaption { margin: 8px 0 0; font-weight: var(--weight-strong); }
+@media (max-width: 760px) {
+  .classPreviewPhotos { gap: 12px; margin-inline: 12px; }
+}
+
+.lessonMenuPreview { color: var(--ink); text-align: left; font-size: var(--size-2); }
+.lessonMenuPreview > p:first-child { margin-top: 0; }
+.lessonMenuPreview .menuPreviewThreshold { margin: 28px 0 12px; }
+.lessonMenuPreview > a { font-size: 0.875em; min-height: 48px; padding: 12px; }
+
+.projectSupport { margin: 20px 0 0; color: var(--ink-soft); font-size: var(--size-1); }
+.projectSupport a { color: var(--ink); text-decoration: underline; text-underline-offset: 4px; }
+
+
+.makerCredits a { color: inherit; text-underline-offset: 5px; }
+@media (max-width: 760px) { .makerCredits { grid-template-columns: 1fr; gap: 24px; } }
+
+.howTitle span { display: block; color: var(--living); }
+
+.introductionSubheader { margin: 0 0 20px; font-family: var(--display); font-size: clamp(24px, 2.6vw, 32px); font-weight: var(--weight-display); line-height: 1.25; color: var(--living); }
+
+.stepCopy .tabletNote { margin-top: 16px; font-size: var(--size-1); line-height: 1.5; color: var(--ink-soft); }
+
+/* ── Rain or shine: three paintings pinned up, not three cards ───────────
+   The children's paintings sit as a loose collage: each one whole on its own
+   sheet (Johan: no corner cuts, they crop the painting), a small tilt, the
+   middle one dropped a little so the row reads as pinned up rather than
+   filed. Chips and the note hang beneath. */
+.weatherDoorways {
+  margin-top: 36px;
+  align-items: start;
+  gap: clamp(20px, 3vw, 44px);
+}
+
+.weatherDoorways > li {
+  padding: 0;
+  overflow: visible;
+  background: none;
+  box-shadow: none;
+}
+
+.weatherImage {
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  padding: 10px;
+  border-radius: 10px;
+  background: var(--surface);
+  box-shadow: 0 18px 40px rgb(0 0 0 / 14%);
+}
+
+.weatherImage img {
+  object-fit: contain;
+  padding: 10px;
+}
+
+.weatherDoorways > li:nth-child(1) .weatherImage {
+  transform: rotate(-3deg);
+}
+
+.weatherDoorways > li:nth-child(2) {
+  margin-top: 40px;
+}
+
+.weatherDoorways > li:nth-child(2) .weatherImage {
+  transform: rotate(2deg);
+}
+
+.weatherDoorways > li:nth-child(3) .weatherImage {
+  transform: rotate(-2deg);
+}
+
+.weatherDoorwayCopy {
+  padding: 26px 8px 0;
+}
+
+@media (max-width: 760px) {
+  .weatherDoorways > li:nth-child(2) {
+    margin-top: 0;
+  }
+  .weatherImage {
+    aspect-ratio: 4 / 3;
+  }
+}
+
+/* ── Free, open and private ──────────────────────────────────────────────
+   Editorial, not boxed: the headline on its own line, then three columns
+   separated by slim hairlines rather than heavy rules, titles at display
+   size, the body set small and soft. */
+.open {
+  padding-block: clamp(64px, 8vw, 110px);
+}
+
+.open .sectionTitle {
+  max-width: 20ch;
+}
+
+.openColumns {
+  margin-top: clamp(40px, 5vw, 64px);
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0;
+}
+
+.openColumns div {
+  padding: 4px clamp(24px, 3vw, 44px) 4px 0;
+  border-top: 0;
+}
+
+.openColumns div + div {
+  padding-left: clamp(24px, 3vw, 44px);
+  border-left: 1px solid var(--hairline);
+}
+
+.openColumns h3 {
+  margin: 0;
+  font-family: var(--display);
+  font-size: var(--size-4);
+  font-weight: var(--weight-display);
+  line-height: 1.2;
+}
+
+.openColumns p {
+  max-width: 26em;
+  margin: 12px 0 0;
+  color: var(--ink-soft);
+  font-size: var(--size-1);
+  line-height: 1.6;
+}
+
+@media (max-width: 760px) {
+  .openColumns {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 24px;
+  }
+  .openColumns div + div {
+    padding-left: 0;
+    padding-top: 24px;
+    border-left: 0;
+    border-top: 1px solid var(--hairline);
+  }
+}
+
+/* ── How it was made, at the very end ────────────────────────────────────
+   The sentence as the heading, then the three makers stacked, each with a
+   line that says who they are and what they gave. */
+.shaped {
+  padding-block: clamp(64px, 8vw, 110px);
+  background: var(--paper);
+}
+
+.shapedTitle {
+  max-width: 22ch;
+  margin: 16px 0 0;
+  font-family: var(--display);
+  font-size: clamp(var(--size-5), 3.4vw, 2.6rem);
+  font-weight: var(--weight-display);
+  line-height: 1.08;
+  letter-spacing: -0.02em;
+}
+
+.makerCredits {
+  margin: clamp(32px, 4vw, 48px) 0 0;
+  display: grid;
+  gap: 0;
+}
+
+.makerCredits div {
+  display: grid;
+  grid-template-columns: minmax(0, 0.45fr) minmax(0, 1fr);
+  gap: 12px 40px;
+  padding: 22px 0;
+  border-top: 1px solid var(--hairline);
+}
+
+.makerCredits dt {
+  color: var(--ink-soft);
+  font-size: var(--size-1);
+  font-weight: var(--weight-strong);
+  padding-top: 4px;
+}
+
+.makerCredits dd {
+  margin: 0;
+}
+
+.makerCredits dd p {
+  max-width: 40em;
+  margin: 6px 0 0;
+  color: var(--ink-soft);
+  font-size: var(--size-1);
+  line-height: 1.55;
+}
+
+.makerCredits a {
+  font-family: var(--display);
+  font-size: var(--size-3);
+  font-weight: var(--weight-display);
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.makerCredits a:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+@media (max-width: 760px) {
+  .openColumns {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+/* ── For the whole school, and for home ──────────────────────────────────
+   Two cards of equal weight. The school card takes the sky ground the head's
+   band always had; the family card takes the sky wash, so the two read as a
+   pair from one family rather than two unrelated sections. */
+.audiences {
+  padding-block: clamp(64px, 8vw, 110px);
+}
+
+.audienceCards {
+  margin-top: clamp(32px, 4vw, 48px);
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: clamp(20px, 3vw, 32px);
+}
+
+.audienceCard {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 24px;
+}
+
+.audienceSchools {
+  background: var(--sky);
+  color: var(--surface);
+}
+
+.audienceParents {
+  background: var(--plate-weather);
+  color: var(--ink);
+}
+
+.audiencePhoto {
+  position: relative;
+  aspect-ratio: 16 / 10;
+}
+
+.audiencePhoto img {
+  object-fit: cover;
+}
+
+.audienceCopy {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: clamp(24px, 3vw, 40px);
+}
+
+/* Who the card is for is the headline; the promise is the lead under it. */
+.audienceName {
+  margin: 0;
+  font-family: var(--display);
+  font-size: clamp(2.2rem, 4vw, 3.1rem);
+  font-weight: var(--weight-display);
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+}
+
+.audienceCopy .audiencePromise {
+  margin: 12px 0 0;
+  font-family: var(--display);
+  font-size: var(--size-4);
+  font-weight: var(--weight-medium);
+  line-height: 1.3;
+  text-wrap: balance;
+}
+
+.audienceCopy > p:not(.audiencePromise) {
+  margin: 14px 0 0;
+  max-width: 34em;
+  font-size: var(--size-2);
+  line-height: 1.6;
+}
+
+.audienceParents .audienceCopy > p:not(.audiencePromise) {
+  color: var(--ink-soft);
+}
+
+/* The link sits at the foot of the card so both doors line up. */
+.audienceAction {
+  margin-top: auto;
+  padding-top: 24px;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  color: inherit;
+  font-family: var(--display);
+  font-size: var(--size-3);
+  font-weight: var(--weight-medium);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 6px;
+}
+
+.audienceAction:hover {
+  text-decoration-thickness: 2px;
+}
+
+@media (max-width: 760px) {
+  .audienceCards {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+/* ── Partner with Nature Class ───────────────────────────────────────────
+   The outdoor educators' own section (Johan: an audience, not a footnote).
+   One contained plate after the teacher's last call: the pitch and the
+   programme kinds on the left, so a scout leader or a forest-school lead
+   sees themselves, and the door on the right. */
+.partner {
+  padding-block: 0 clamp(64px, 8vw, 110px);
+}
+
+.partnerPlate {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: end;
+  gap: clamp(28px, 5vw, 72px);
+  padding: clamp(28px, 4vw, 48px);
+  border: 1px solid var(--hairline);
+  border-radius: 24px;
+}
+
+.partnerChip {
+  background: var(--plate-weather);
+  color: var(--ink);
+}
+
+@media (max-width: 760px) {
+  .partnerPlate {
+    grid-template-columns: minmax(0, 1fr);
+    align-items: start;
+  }
+}
+
+.partner .sectionTitle {
+  max-width: 22ch;
+  font-size: clamp(var(--size-5), 3.2vw, var(--size-6));
+}
+
+.partnerLead {
+  max-width: 40em;
+  margin: 14px 0 0;
+  color: var(--ink-soft);
+  font-size: var(--size-2);
+  line-height: 1.6;
+}
+
+.partnerKinds {
+  margin: 24px 0 0;
+  gap: 8px;
+  padding: 0;
+  list-style: none;
+}
+
+.partnerAction {
+  border: 1px solid var(--ink);
+  white-space: nowrap;
+}
+
+.intelligenceFoot {
+  margin-top: clamp(40px, 5vw, 64px);
+  display: flex;
+}
+
+/* Compact flag choices with a clear selected edition and full-height hit areas. */
+.localeSwitch { display: flex; flex-shrink: 0; gap: 2px; font-size: var(--size-3); }
+.localeSwitch a { display: flex; align-items: center; justify-content: center; min-width: 34px; min-height: 44px; text-decoration: none; border-radius: 6px; }
+.localeSwitch a span { font-size: var(--size-3); display: flex; align-items: center; justify-content: center; width: 32px; height: 30px; border: 1px solid transparent; border-radius: 6px; }
+.localeSwitch a[aria-current="page"] span { border-color: var(--ink-soft); background: var(--hairline-soft); }
+.localeSwitch a:hover span { background: var(--hairline-soft); }
+.localeSwitch a:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+@media (max-width: 600px) {
+  .headerInner { gap: 8px; }
+  .brand { padding-right: 0; }
+}
+
+@media (max-width: 360px) {
+  .headerLogo { font-size: var(--size-3); }
+  .signIn { padding-inline: 6px; font-size: var(--size-1); }
+  .signIn span { display: none; }
+}
+
+/* Simple navigation links, matching the audience pages. */
+.nav a, .nav a:hover, .footerInner a {
+  text-decoration: none;
+  font-weight: var(--weight-medium);
+}

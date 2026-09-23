@@ -1,0 +1,4770 @@
+{
+  "1": [
+    {
+      "id": "us_mountain_west_w1_black_billed_magpie",
+      "species": "Black-billed Magpie",
+      "scientificName": "Pica hudsonia",
+      "description": "Magpies conspicuous against snow, foraging in small groups and calling with harsh chattering",
+      "habitats": [
+        "urban",
+        "garden",
+        "grassland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A big black-and-white bird with a super long tail hops through the snow. Its feathers flash blue and green in the sun!"
+    },
+    {
+      "id": "us_mountain_west_w1_mule_deer",
+      "species": "Mule Deer",
+      "scientificName": "Odocoileus hemionus",
+      "description": "Mule deer gathered in lower valleys and foothills, browsing on sagebrush and dried grasses",
+      "habitats": [
+        "grassland",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Deer with big ears like a mule stand together in the snowy fields, nibbling on whatever they can find"
+    },
+    {
+      "id": "us_mountain_west_w1_animal_tracks_in_snow",
+      "species": "Animal Tracks in Snow",
+      "description": "Fresh snow reveals tracks of cottontail rabbits, coyotes, and squirrels, perfect for reading stories left behind",
+      "habitats": [
+        "garden",
+        "woodland",
+        "grassland",
+        "playing_field",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "After fresh snow, look for little footprints: tiny bunny hops, dog-like coyote prints, and squirrel paw-pairs!"
+    },
+    {
+      "id": "us_mountain_west_w1_red_tailed_hawk",
+      "species": "Red-tailed Hawk",
+      "scientificName": "Buteo jamaicensis",
+      "description": "Red-tailed hawks perched on utility poles and bare cottonwoods, scanning for rodents in snow-covered fields",
+      "habitats": [
+        "grassland",
+        "urban",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A big hawk sits on a pole like a statue, then suddenly dives. It spotted a mouse hiding under the snow!"
+    },
+    {
+      "id": "us_mountain_west_w1_ponderosa_pine",
+      "species": "Ponderosa Pine",
+      "scientificName": "Pinus ponderosa",
+      "description": "Ponderosa pines stand green against the snow; on sunny winter days press your nose to the bark for a butterscotch scent",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Find a big pine tree with orange-brown bark and sniff it on a sunny day. It smells like vanilla cookies!"
+    },
+    {
+      "id": "us_mountain_west_w1_stellers_jay",
+      "species": "Steller's Jay",
+      "scientificName": "Cyanocitta stelleri",
+      "description": "Bold Steller's jays visiting feeders and picnic areas, dark blue with a tall black crest",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A dark blue bird with a spiky hairdo screams from a pine tree. Steller's jays are loud and bossy!"
+    }
+  ],
+  "2": [
+    {
+      "id": "us_mountain_west_w2_black_billed_magpie",
+      "species": "Black-billed Magpie",
+      "scientificName": "Pica hudsonia",
+      "description": "Magpies starting to gather sticks for their large domed nests, chattering in cottonwoods",
+      "habitats": [
+        "urban",
+        "garden",
+        "grassland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Magpies are already collecting sticks for their nests. They build giant stick domes as big as a beach ball!"
+    },
+    {
+      "id": "us_mountain_west_w2_elk",
+      "species": "Elk",
+      "scientificName": "Cervus canadensis",
+      "description": "Elk herds concentrated in valley bottoms and lower meadows, bulls have shed or are shedding antlers",
+      "habitats": [
+        "grassland",
+        "meadow",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Huge elk stand together in snowy fields. Some boys have lost their antlers and look surprised without them!"
+    },
+    {
+      "id": "us_mountain_west_w2_dark_eyed_junco",
+      "species": "Dark-eyed Junco",
+      "scientificName": "Junco hyemalis",
+      "description": "Juncos hopping on snowy ground beneath feeders, flashing white outer tail feathers when they fly",
+      "habitats": [
+        "garden",
+        "urban",
+        "woodland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Little grey birds with white bellies hop around in the snow. When they fly away, their tails flash bright white!"
+    },
+    {
+      "id": "us_mountain_west_w2_cottontail_tracks",
+      "species": "Mountain Cottontail",
+      "scientificName": "Sylvilagus nuttallii",
+      "description": "Cottontail rabbit tracks in snow, two big back feet in front of two small front feet in a bounding pattern",
+      "habitats": [
+        "garden",
+        "grassland",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Bunny tracks in the snow look backwards. The big back feet land in front of the little front feet!"
+    },
+    {
+      "id": "us_mountain_west_w2_great_horned_owl",
+      "species": "Great Horned Owl",
+      "scientificName": "Bubo virginianus",
+      "description": "Great horned owls hooting at dusk, already nesting. Listen for deep \"hoo-hoo-hooooo hoo-hoo\" duets",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "At bedtime, listen for a deep \"hoo-hoo-hooooo\". That's a huge owl with ear tufts sitting on eggs in the cold!"
+    }
+  ],
+  "3": [
+    {
+      "id": "us_mountain_west_w3_black_billed_magpie",
+      "species": "Black-billed Magpie",
+      "scientificName": "Pica hudsonia",
+      "description": "Magpies actively building large stick nests in cottonwoods and willows, visible against bare branches",
+      "habitats": [
+        "urban",
+        "garden",
+        "hedgerow",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Look up in bare trees for huge messy stick nests. Magpies are busy builders even in the freezing cold!"
+    },
+    {
+      "id": "us_mountain_west_w3_mule_deer",
+      "species": "Mule Deer",
+      "scientificName": "Odocoileus hemionus",
+      "description": "Mule deer in winter herds, bucks dropping antlers. Search sunny hillsides for shed antlers",
+      "habitats": [
+        "grassland",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Deer are dropping their antlers like losing teeth. If you're lucky you might find one on the ground!"
+    },
+    {
+      "id": "us_mountain_west_w3_red_tailed_hawk",
+      "species": "Red-tailed Hawk",
+      "scientificName": "Buteo jamaicensis",
+      "description": "Red-tailed hawks soaring over open fields, their rusty-red tails glowing in winter sun",
+      "habitats": [
+        "grassland",
+        "urban",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A hawk circles high in the blue sky, screaming \"keeee-arrr!\". Look for the red tail catching the light"
+    },
+    {
+      "id": "us_mountain_west_w3_ponderosa_pine",
+      "species": "Ponderosa Pine",
+      "scientificName": "Pinus ponderosa",
+      "description": "Ponderosa pines vivid green against grey sky, bark smelling of butterscotch in afternoon sun",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Press your nose into the jigsaw-puzzle bark of a ponderosa. Warm sunshine makes it smell like butterscotch!"
+    },
+    {
+      "id": "us_mountain_west_w3_great_horned_owl",
+      "species": "Great Horned Owl",
+      "scientificName": "Bubo virginianus",
+      "description": "Great horned owls incubating eggs, the female sitting tight through snowstorms on the nest",
+      "habitats": [
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Mama owl is sitting on her eggs in the freezing cold, covered in snow like a feathery blanket, so brave!"
+    },
+    {
+      "id": "us_mountain_west_w3_coyote_tracks",
+      "species": "Coyote",
+      "scientificName": "Canis latrans",
+      "description": "Coyote tracks in snow following a straight line, unlike dog tracks that wander. Listen for yipping at dawn",
+      "habitats": [
+        "grassland",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Coyote paw prints march in a neat line through the snow. Dogs zigzag, but coyotes walk like they have somewhere to go!"
+    }
+  ],
+  "4": [
+    {
+      "id": "us_mountain_west_w4_black_billed_magpie",
+      "species": "Black-billed Magpie",
+      "scientificName": "Pica hudsonia",
+      "description": "Magpie nests growing larger, pairs defending territory with loud rattling calls",
+      "habitats": [
+        "urban",
+        "garden",
+        "hedgerow",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Magpie couples guard their stick-castle nest and scream at anyone who walks too close!"
+    },
+    {
+      "id": "us_mountain_west_w4_dark_eyed_junco",
+      "species": "Dark-eyed Junco",
+      "scientificName": "Junco hyemalis",
+      "description": "Flocks of juncos foraging under feeders, scratching through snow for seeds",
+      "habitats": [
+        "garden",
+        "urban",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Tiny grey birds scratch the snow with both feet at once, hop-scratch, hop-scratch, looking for seeds!"
+    },
+    {
+      "id": "us_mountain_west_w4_elk",
+      "species": "Elk",
+      "scientificName": "Cervus canadensis",
+      "description": "Elk bulls have dropped antlers; cows and calves huddled in valley meadows, pawing through snow for grass",
+      "habitats": [
+        "grassland",
+        "meadow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Big elk use their hooves like shovels to dig through the snow and find dry grass underneath!"
+    },
+    {
+      "id": "us_mountain_west_w4_red_tailed_hawk",
+      "species": "Red-tailed Hawk",
+      "scientificName": "Buteo jamaicensis",
+      "description": "Red-tails beginning courtship flights, pairs circling together and diving",
+      "habitats": [
+        "grassland",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Two hawks dance in the sky together, swooping and spinning. They're showing off for each other!"
+    },
+    {
+      "id": "us_mountain_west_w4_frost_crystals",
+      "species": "Frost Crystals",
+      "description": "Intricate hoarfrost on fence wires, grass blades, and tree branches in the cold dry mountain air",
+      "habitats": [
+        "garden",
+        "playing_field",
+        "wall_fence",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Every blade of grass wears a sparkly ice coat. The dry mountain air makes the fanciest frost crystals!"
+    }
+  ],
+  "5": [
+    {
+      "id": "us_mountain_west_w5_great_horned_owl",
+      "species": "Great Horned Owl",
+      "scientificName": "Bubo virginianus",
+      "description": "Great horned owl chicks hatching, fluffy white owlets visible in nests if you know where to look",
+      "habitats": [
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Baby owls are hatching in the cold! They look like fluffy white cotton balls with big dark eyes"
+    },
+    {
+      "id": "us_mountain_west_w5_black_billed_magpie",
+      "species": "Black-billed Magpie",
+      "scientificName": "Pica hudsonia",
+      "description": "Magpies finishing their elaborate roofed nests, lining the inside with mud and soft materials",
+      "habitats": [
+        "urban",
+        "garden",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Magpies put a roof on their nest! They carry mud in their beaks to make the inside smooth and cozy"
+    },
+    {
+      "id": "us_mountain_west_w5_coyote",
+      "species": "Coyote",
+      "scientificName": "Canis latrans",
+      "description": "Coyotes in mating season, pairs howling together at dawn and dusk. Yipping chorus carries far in cold air",
+      "habitats": [
+        "grassland",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "At sunset, coyotes sing together, yip yip yip awooooo! It sounds like a wild song bouncing off the mountains"
+    },
+    {
+      "id": "us_mountain_west_w5_mule_deer",
+      "species": "Mule Deer",
+      "scientificName": "Odocoileus hemionus",
+      "description": "Mule deer in winter survival mode, browsing sagebrush and juniper on south-facing slopes",
+      "habitats": [
+        "grassland",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Deer choose sunny hillsides where snow melts first, clever trick to find something green to eat!"
+    },
+    {
+      "id": "us_mountain_west_w5_stellers_jay",
+      "species": "Steller's Jay",
+      "scientificName": "Cyanocitta stelleri",
+      "description": "Steller's jays caching seeds and visiting feeders, their harsh \"shack-shack-shack\" calls echoing in pines",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "This bossy blue bird buries seeds in secret hiding spots. It remembers thousands of hiding places!"
+    }
+  ],
+  "6": [
+    {
+      "id": "us_mountain_west_w6_black_capped_chickadee",
+      "species": "Black-capped Chickadee",
+      "scientificName": "Poecile atricapillus",
+      "description": "Chickadees beginning spring song, a clear whistled \"fee-bee\" replacing winter \"chick-a-dee-dee\" calls",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban",
+        "hedgerow"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The chickadee changes its song! Instead of \"chick-a-dee,\" it now whistles \"fee-bee\". Spring is coming!"
+    },
+    {
+      "id": "us_mountain_west_w6_red_tailed_hawk",
+      "species": "Red-tailed Hawk",
+      "scientificName": "Buteo jamaicensis",
+      "description": "Red-tailed hawks performing spectacular courtship dives and talon-locking aerial displays",
+      "habitats": [
+        "grassland",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Two hawks grab each other's feet high in the sky and tumble together: it's their way of saying \"I love you!\""
+    },
+    {
+      "id": "us_mountain_west_w6_great_horned_owl",
+      "species": "Great Horned Owl",
+      "scientificName": "Bubo virginianus",
+      "description": "Owl chicks growing, parents hunting actively at dusk to feed hungry nestlings",
+      "habitats": [
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Parent owls fly silently in the dark, bringing mice and rabbits back to their hungry fluffy babies"
+    },
+    {
+      "id": "us_mountain_west_w6_ponderosa_pine",
+      "species": "Ponderosa Pine",
+      "scientificName": "Pinus ponderosa",
+      "description": "Ponderosa pines fragrant on warm February afternoons, bark puzzle-pieces catching the low sun",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "smell",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "On a warm sunny afternoon, the ponderosa bark smells like a bakery: vanilla and butterscotch!"
+    },
+    {
+      "id": "us_mountain_west_w6_dark_eyed_junco",
+      "species": "Dark-eyed Junco",
+      "scientificName": "Junco hyemalis",
+      "description": "Junco flocks still abundant at feeders, some males beginning to sing a simple trill on mild days",
+      "habitats": [
+        "garden",
+        "urban",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Little grey juncos start practising their spring song, a fast twinkling trill like a tiny bell!"
+    }
+  ],
+  "7": [
+    {
+      "id": "us_mountain_west_w7_black_capped_chickadee",
+      "species": "Black-capped Chickadee",
+      "scientificName": "Poecile atricapillus",
+      "description": "Chickadees singing \"fee-bee\" spring song more frequently, pairs beginning to form",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban",
+        "hedgerow"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Chickadees are pairing up! Two tiny birds chase each other through the branches whistling \"fee-bee!\""
+    },
+    {
+      "id": "us_mountain_west_w7_red_winged_blackbird",
+      "species": "Red-winged Blackbird",
+      "scientificName": "Agelaius phoeniceus",
+      "description": "First male red-winged blackbirds arriving at lower-elevation marshes, claiming territories early",
+      "habitats": [
+        "pond",
+        "stream",
+        "meadow",
+        "grassland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A shiny black bird with bright red shoulder patches puffs up and sings \"conk-la-ree!\" from a cattail"
+    },
+    {
+      "id": "us_mountain_west_w7_elk",
+      "species": "Elk",
+      "scientificName": "Cervus canadensis",
+      "description": "Elk still in winter herds but starting to shift upslope on warm days, bulls growing new antler nubs",
+      "habitats": [
+        "grassland",
+        "meadow",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Bull elk have fuzzy little bumps on their heads, brand new antlers starting to sprout like magic!"
+    },
+    {
+      "id": "us_mountain_west_w7_american_robin",
+      "species": "American Robin",
+      "scientificName": "Turdus migratorius",
+      "description": "Early robins appearing in lower elevations, running across lawns on warm days",
+      "habitats": [
+        "garden",
+        "urban",
+        "playing_field",
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The first robin of spring! Watch it run, stop, tilt its head, then pull a worm. It's listening for lunch!"
+    },
+    {
+      "id": "us_mountain_west_w7_coyote",
+      "species": "Coyote",
+      "scientificName": "Canis latrans",
+      "description": "Mated coyote pairs seeking den sites, tracks in snow often showing two animals side by side",
+      "habitats": [
+        "grassland",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Two sets of coyote tracks walk side by side in the snow: a coyote couple looking for a home for their babies!"
+    }
+  ],
+  "8": [
+    {
+      "id": "us_mountain_west_w8_prairie_dog",
+      "species": "Black-tailed Prairie Dog",
+      "scientificName": "Cynomys ludovicianus",
+      "description": "Prairie dogs beginning to emerge from burrows on warm afternoons, sitting at burrow entrances",
+      "habitats": [
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Chubby little prairie dogs poke their heads out of their holes on sunny days and bark like tiny dogs!"
+    },
+    {
+      "id": "us_mountain_west_w8_pussy_willow",
+      "species": "Pussy Willow",
+      "scientificName": "Salix discolor",
+      "description": "Pussy willow buds swelling along streams and ditches, soft silvery catkins emerging from dark buds",
+      "habitats": [
+        "stream",
+        "pond",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Fuzzy silver puffs pop out of the willow branches. Touch one gently, it feels like a tiny kitten's paw!"
+    },
+    {
+      "id": "us_mountain_west_w8_red_winged_blackbird",
+      "species": "Red-winged Blackbird",
+      "scientificName": "Agelaius phoeniceus",
+      "description": "More red-winged blackbirds arriving, males perching prominently and singing from cattails and fences",
+      "habitats": [
+        "pond",
+        "stream",
+        "meadow",
+        "wall_fence"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Red-winged blackbirds flash their red and yellow shoulder patches like badges: \"This marsh is mine!\""
+    },
+    {
+      "id": "us_mountain_west_w8_american_robin",
+      "species": "American Robin",
+      "scientificName": "Turdus migratorius",
+      "description": "Robins increasing in numbers, singing at dawn from rooftops and bare trees",
+      "habitats": [
+        "garden",
+        "urban",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Robins sing \"cheerily, cheer-up, cheerio!\" from the highest branches. They're the morning alarm clock!"
+    },
+    {
+      "id": "us_mountain_west_w8_black_capped_chickadee",
+      "species": "Black-capped Chickadee",
+      "scientificName": "Poecile atricapillus",
+      "description": "Chickadee pairs investigating tree cavities and nest boxes, singing \"fee-bee\" constantly",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Chickadees peek into every hole in every tree. They're house-hunting for the perfect spot to raise babies!"
+    }
+  ],
+  "9": [
+    {
+      "id": "us_mountain_west_w9_crocus",
+      "species": "Crocus",
+      "scientificName": "Crocus vernus",
+      "description": "Early crocuses pushing through snow in town gardens and south-facing beds, purple and yellow blooms",
+      "habitats": [
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Brave little purple and yellow flowers push right through the snow. They can't wait for spring!"
+    },
+    {
+      "id": "us_mountain_west_w9_prairie_dog",
+      "species": "Black-tailed Prairie Dog",
+      "scientificName": "Cynomys ludovicianus",
+      "description": "Prairie dogs more active on warm days, standing upright on mounds and giving alarm barks",
+      "habitats": [
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Prairie dogs stand straight up like little soldiers and bark when they see something scary, even you!"
+    },
+    {
+      "id": "us_mountain_west_w9_red_winged_blackbird",
+      "species": "Red-winged Blackbird",
+      "scientificName": "Agelaius phoeniceus",
+      "description": "Red-winged blackbird males in full territorial display, singing and flaring red epaulets",
+      "habitats": [
+        "pond",
+        "stream",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The blackbird puffs up like a balloon and flashes its red shoulders while singing as loud as it can!"
+    },
+    {
+      "id": "us_mountain_west_w9_pussy_willow",
+      "species": "Pussy Willow",
+      "scientificName": "Salix discolor",
+      "description": "Pussy willows in full catkin, soft grey furry buds all along the branches near water",
+      "habitats": [
+        "stream",
+        "pond",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Willow branches are covered in soft grey puffs. Stroke them and they feel like the softest velvet"
+    },
+    {
+      "id": "us_mountain_west_w9_american_robin",
+      "species": "American Robin",
+      "scientificName": "Turdus migratorius",
+      "description": "Robin flocks arriving in waves, singing dawn chorus even on cold mornings",
+      "habitats": [
+        "garden",
+        "urban",
+        "playing_field",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Flocks of orange-bellied robins are back! They sing so cheerfully it makes cold mornings feel warmer"
+    },
+    {
+      "id": "us_mountain_west_w9_mountain_bluebird",
+      "species": "Mountain Bluebird",
+      "scientificName": "Sialia currucoides",
+      "description": "First mountain bluebirds arriving from lower elevations, males an electric sky-blue hovering over grasslands",
+      "habitats": [
+        "grassland",
+        "meadow",
+        "wall_fence"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A bird so blue it looks like a piece of sky! Mountain bluebirds hover like tiny helicopters over the grass"
+    }
+  ],
+  "10": [
+    {
+      "id": "us_mountain_west_w10_mountain_bluebird",
+      "species": "Mountain Bluebird",
+      "scientificName": "Sialia currucoides",
+      "description": "Mountain bluebirds returning to nesting areas, males hovering over open fields displaying brilliant blue plumage",
+      "habitats": [
+        "grassland",
+        "meadow",
+        "wall_fence"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The bluest bird you've ever seen floats over the field like a bright blue leaf blown by the wind!"
+    },
+    {
+      "id": "us_mountain_west_w10_american_robin",
+      "species": "American Robin",
+      "scientificName": "Turdus migratorius",
+      "description": "Robins everywhere now, singing from treetops and pulling worms from thawing lawns",
+      "habitats": [
+        "garden",
+        "urban",
+        "playing_field",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Robins tilt their heads sideways on the lawn. They're actually listening for worms wriggling underground!"
+    },
+    {
+      "id": "us_mountain_west_w10_red_winged_blackbird",
+      "species": "Red-winged Blackbird",
+      "scientificName": "Agelaius phoeniceus",
+      "description": "Red-winged blackbirds in full song at every marsh and pond, females beginning to arrive",
+      "habitats": [
+        "pond",
+        "stream",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Now the brown lady blackbirds arrive and the boys show off their red shoulders even harder!"
+    },
+    {
+      "id": "us_mountain_west_w10_crocus",
+      "species": "Crocus",
+      "scientificName": "Crocus vernus",
+      "description": "Crocuses blooming in garden beds and along warm sidewalks, opening wide on sunny afternoons",
+      "habitats": [
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Crocuses open their cups wide to drink in the sunshine, then close up tight when clouds roll in!"
+    },
+    {
+      "id": "us_mountain_west_w10_prairie_dog",
+      "species": "Black-tailed Prairie Dog",
+      "scientificName": "Cynomys ludovicianus",
+      "description": "Prairie dog towns fully active, animals kissing (touching teeth) to identify colony members",
+      "habitats": [
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Prairie dogs greet each other with a kiss! They touch their teeth together to say \"you're one of us!\""
+    },
+    {
+      "id": "us_mountain_west_w10_pussy_willow",
+      "species": "Pussy Willow",
+      "scientificName": "Salix discolor",
+      "description": "Pussy willow catkins turning golden as they release pollen, first food for early bees",
+      "habitats": [
+        "stream",
+        "pond"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The fuzzy silver puffs turn golden and dusty. Hungry bees visit them for the first meal of spring!"
+    }
+  ],
+  "11": [
+    {
+      "id": "us_mountain_west_w11_pasque_flower",
+      "species": "Pasque Flower",
+      "scientificName": "Pulsatilla patens",
+      "description": "Pasque flowers, the first native wildflower, blooming on sunny hillsides, fuzzy purple cups often poking through remaining snow",
+      "habitats": [
+        "grassland",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A fuzzy purple flower pushes right through the snow! Its stem is covered in soft silver hairs to keep it warm"
+    },
+    {
+      "id": "us_mountain_west_w11_mountain_bluebird",
+      "species": "Mountain Bluebird",
+      "scientificName": "Sialia currucoides",
+      "description": "Mountain bluebirds actively checking nest boxes and tree cavities, pairs forming",
+      "habitats": [
+        "grassland",
+        "meadow",
+        "wall_fence"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Bluebird couples peek into nest boxes together: \"Is this one good? What about that one over there?\""
+    },
+    {
+      "id": "us_mountain_west_w11_western_meadowlark",
+      "species": "Western Meadowlark",
+      "scientificName": "Sturnella neglecta",
+      "description": "Western meadowlarks returning to grasslands, singing their beautiful bubbling flute-like song from fence posts",
+      "habitats": [
+        "grassland",
+        "meadow",
+        "wall_fence"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A yellow-bellied bird on a fence post tips its head back and plays a flute, the most beautiful song in the West!"
+    },
+    {
+      "id": "us_mountain_west_w11_american_robin",
+      "species": "American Robin",
+      "scientificName": "Turdus migratorius",
+      "description": "Robins beginning to build nests in sheltered spots, carrying mud and grass",
+      "habitats": [
+        "garden",
+        "urban",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Watch a robin carry a beak-full of mud. It's making a perfect round bowl to hold its blue eggs!"
+    },
+    {
+      "id": "us_mountain_west_w11_prairie_dog",
+      "species": "Black-tailed Prairie Dog",
+      "scientificName": "Cynomys ludovicianus",
+      "description": "Prairie dog towns bustling, animals grooming each other and standing sentinel on mounds",
+      "habitats": [
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "One prairie dog always stands guard while the others eat. It barks loud if a hawk flies over!"
+    }
+  ],
+  "12": [
+    {
+      "id": "us_mountain_west_w12_pasque_flower",
+      "species": "Pasque Flower",
+      "scientificName": "Pulsatilla patens",
+      "description": "Pasque flowers in peak bloom on foothills and open grasslands, furry stems and lavender petals",
+      "habitats": [
+        "grassland",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Hillsides are dotted with fuzzy purple flowers. Each one has a golden sun of stamens in the middle!"
+    },
+    {
+      "id": "us_mountain_west_w12_western_meadowlark",
+      "species": "Western Meadowlark",
+      "scientificName": "Sturnella neglecta",
+      "description": "Meadowlarks in full song, bright yellow breast with black V-necklace visible on fence posts",
+      "habitats": [
+        "grassland",
+        "meadow",
+        "wall_fence"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The meadowlark wears a yellow shirt with a fancy black necklace and sings the prettiest song you ever heard!"
+    },
+    {
+      "id": "us_mountain_west_w12_mountain_bluebird",
+      "species": "Mountain Bluebird",
+      "scientificName": "Sialia currucoides",
+      "description": "Bluebird pairs established on territories, male perching conspicuously near nest cavities",
+      "habitats": [
+        "grassland",
+        "meadow",
+        "wall_fence"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The bright blue dad bird sits right on top of the nest box like a shiny blue guard!"
+    },
+    {
+      "id": "us_mountain_west_w12_daffodil",
+      "species": "Daffodil",
+      "scientificName": "Narcissus pseudonarcissus",
+      "description": "Garden daffodils blooming in town gardens and parks, cheerful yellow trumpets on sunny days",
+      "habitats": [
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Golden daffodils nod their trumpet-heads in the breeze like they're playing a sunny song!"
+    },
+    {
+      "id": "us_mountain_west_w12_red_tailed_hawk",
+      "species": "Red-tailed Hawk",
+      "scientificName": "Buteo jamaicensis",
+      "description": "Red-tailed hawk pairs building or refurbishing stick nests in cottonwoods and on cliff ledges",
+      "habitats": [
+        "woodland",
+        "grassland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A hawk carries a stick as big as your arm to its giant nest. It's redecorating for baby hawks!"
+    },
+    {
+      "id": "us_mountain_west_w12_garter_snake",
+      "species": "Western Terrestrial Garter Snake",
+      "scientificName": "Thamnophis elegans",
+      "description": "First garter snakes emerging from winter dens on warm south-facing slopes, basking on rocks",
+      "habitats": [
+        "grassland",
+        "stream",
+        "garden",
+        "wall_fence"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A stripy snake stretches out on a warm rock to soak up sunshine. It spent all winter sleeping underground!"
+    }
+  ],
+  "13": [
+    {
+      "id": "us_mountain_west_w13_broad_tailed_hummingbird",
+      "species": "Broad-tailed Hummingbird",
+      "scientificName": "Selasphorus platycercus",
+      "description": "First broad-tailed hummingbirds arriving at lower elevations, males making distinctive metallic wing trills in flight",
+      "habitats": [
+        "garden",
+        "woodland",
+        "meadow"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A tiny jewel-coloured bird zooms past making a cricket-like buzzing with its wings. It flew here from Mexico!"
+    },
+    {
+      "id": "us_mountain_west_w13_pasque_flower",
+      "species": "Pasque Flower",
+      "scientificName": "Pulsatilla patens",
+      "description": "Pasque flowers developing feathery seed heads as blooms fade, silky plumes catching wind",
+      "habitats": [
+        "grassland",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The purple flowers turn into fluffy feathery balls. Blow on them and tiny seeds float away like wishes!"
+    },
+    {
+      "id": "us_mountain_west_w13_western_meadowlark",
+      "species": "Western Meadowlark",
+      "scientificName": "Sturnella neglecta",
+      "description": "Meadowlarks singing from every fence post and rise, the quintessential sound of the mountain grasslands",
+      "habitats": [
+        "grassland",
+        "meadow",
+        "wall_fence"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Every fence post has its own singer. Meadowlarks fill the whole prairie with their bubbly flute song!"
+    },
+    {
+      "id": "us_mountain_west_w13_ornamental_cherry",
+      "species": "Ornamental Cherry",
+      "scientificName": "Prunus serrulata",
+      "description": "Ornamental cherries and crab apples beginning to bloom in town streets and parks, pink and white blossoms",
+      "habitats": [
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Town trees explode with pink flowers like nature's fireworks. Stand underneath and petals fall like confetti!"
+    },
+    {
+      "id": "us_mountain_west_w13_prairie_dog",
+      "species": "Black-tailed Prairie Dog",
+      "scientificName": "Cynomys ludovicianus",
+      "description": "Prairie dogs actively mating, males chasing females around the colony with excited barking",
+      "habitats": [
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Prairie dog town is full of drama. They chase each other around and bark and bark and bark!"
+    },
+    {
+      "id": "us_mountain_west_w13_canada_goose",
+      "species": "Canada Goose",
+      "scientificName": "Branta canadensis",
+      "description": "Canada geese returning to mountain lakes and parks, honking V-formations overhead, pairs claiming nest sites",
+      "habitats": [
+        "pond",
+        "stream",
+        "playing_field",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Look up when you hear honking! Geese fly in a V-shape. Each bird takes turns being the leader at the front"
+    }
+  ],
+  "14": [
+    {
+      "id": "us_mountain_west_w14_crab_apple",
+      "species": "Crab Apple",
+      "scientificName": "Malus sylvestris",
+      "description": "Crab apples and ornamental fruit trees in bloom across towns, clouds of pink and white blossoms",
+      "habitats": [
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Whole streets smell sweet! The crab apple trees look like big pink lollipops covered in buzzing bees"
+    },
+    {
+      "id": "us_mountain_west_w14_broad_tailed_hummingbird",
+      "species": "Broad-tailed Hummingbird",
+      "scientificName": "Selasphorus platycercus",
+      "description": "Broad-tailed hummingbirds arriving in greater numbers, wing trills audible before you see the bird",
+      "habitats": [
+        "garden",
+        "woodland",
+        "meadow"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "You hear a strange buzzy trill and then (zip!) a tiny hummingbird rockets past your ear!"
+    },
+    {
+      "id": "us_mountain_west_w14_western_meadowlark",
+      "species": "Western Meadowlark",
+      "scientificName": "Sturnella neglecta",
+      "description": "Meadowlarks nesting in grass tussocks, singing their complex flute-like melodies from fence posts",
+      "habitats": [
+        "grassland",
+        "meadow",
+        "wall_fence"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The meadowlark's nest is hidden in the grass. The mama bird walks to it so sneakily no one can find it!"
+    },
+    {
+      "id": "us_mountain_west_w14_mountain_bluebird",
+      "species": "Mountain Bluebird",
+      "scientificName": "Sialia currucoides",
+      "description": "Mountain bluebirds nesting, female incubating while the sky-blue male guards nearby",
+      "habitats": [
+        "grassland",
+        "meadow",
+        "wall_fence"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Mama bluebird sits on her eggs while papa bluebird keeps watch on the fence like a bright blue lookout!"
+    },
+    {
+      "id": "us_mountain_west_w14_canada_goose",
+      "species": "Canada Goose",
+      "scientificName": "Branta canadensis",
+      "description": "Canada geese nesting on pond edges and islands, the gander aggressively guarding the sitting goose",
+      "habitats": [
+        "pond",
+        "stream",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Don't get too close to a goose nest. The dad goose hisses and spreads his wings to say \"Back off!\""
+    }
+  ],
+  "15": [
+    {
+      "id": "us_mountain_west_w15_broad_tailed_hummingbird",
+      "species": "Broad-tailed Hummingbird",
+      "scientificName": "Selasphorus platycercus",
+      "description": "Hummingbirds established at feeders and early-blooming flowers, males performing J-shaped dive displays",
+      "habitats": [
+        "garden",
+        "woodland",
+        "meadow"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The hummingbird boy zooms up high then dives like a tiny roller coaster, making a loud buzz at the bottom!"
+    },
+    {
+      "id": "us_mountain_west_w15_dandelion",
+      "species": "Dandelion",
+      "scientificName": "Taraxacum officinale",
+      "description": "Dandelions blooming across lawns and disturbed ground, providing crucial early nectar for bees",
+      "habitats": [
+        "garden",
+        "urban",
+        "playing_field",
+        "grassland"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Golden dandelion suns pop up everywhere. Bees love them because they're the first restaurant open for spring!"
+    },
+    {
+      "id": "us_mountain_west_w15_western_meadowlark",
+      "species": "Western Meadowlark",
+      "scientificName": "Sturnella neglecta",
+      "description": "Meadowlarks on eggs in hidden grass nests, still singing powerfully from elevated perches",
+      "habitats": [
+        "grassland",
+        "meadow",
+        "wall_fence"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The meadowlark sings its heart out from a fence post while its partner hides in the grass on the eggs!"
+    },
+    {
+      "id": "us_mountain_west_w15_american_robin",
+      "species": "American Robin",
+      "scientificName": "Turdus migratorius",
+      "description": "Robins incubating their signature blue eggs, singing rich dawn chorus starting before sunrise",
+      "habitats": [
+        "garden",
+        "urban",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Robin eggs are the most famous blue in nature: \"robin's egg blue\" is named after them!"
+    },
+    {
+      "id": "us_mountain_west_w15_garter_snake",
+      "species": "Western Terrestrial Garter Snake",
+      "scientificName": "Thamnophis elegans",
+      "description": "Garter snakes fully active, hunting near streams and garden ponds for frogs and worms",
+      "habitats": [
+        "stream",
+        "garden",
+        "grassland",
+        "wall_fence"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A stripy snake slithers through the grass by the stream. Its tongue flicks in and out to smell the world!"
+    },
+    {
+      "id": "us_mountain_west_w15_lilac",
+      "species": "Common Lilac",
+      "scientificName": "Syringa vulgaris",
+      "description": "Lilac buds swelling in town gardens, leaves just beginning to unfurl on the bushes",
+      "habitats": [
+        "garden",
+        "urban",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Fat purple buds on the lilac bush are about to burst open. Soon the whole garden will smell amazing!"
+    }
+  ],
+  "16": [
+    {
+      "id": "us_mountain_west_w16_lilac",
+      "species": "Common Lilac",
+      "scientificName": "Syringa vulgaris",
+      "description": "Lilacs beginning to bloom in town gardens and along old homestead sites, heavy sweet fragrance",
+      "habitats": [
+        "garden",
+        "urban",
+        "hedgerow"
+      ],
+      "senses": [
+        "smell",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Close your eyes near a lilac bush and breathe in. The smell is so sweet it feels like purple!"
+    },
+    {
+      "id": "us_mountain_west_w16_broad_tailed_hummingbird",
+      "species": "Broad-tailed Hummingbird",
+      "scientificName": "Selasphorus platycercus",
+      "description": "Hummingbirds nesting, the tiny female building a walnut-sized nest of spider silk and lichen on a branch",
+      "habitats": [
+        "garden",
+        "woodland"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The mama hummingbird's nest is as small as a walnut. She glues it together with spider webs!"
+    },
+    {
+      "id": "us_mountain_west_w16_dandelion",
+      "species": "Dandelion",
+      "scientificName": "Taraxacum officinale",
+      "description": "Dandelion fields golden across lawns and meadows, first seed clocks forming",
+      "habitats": [
+        "garden",
+        "urban",
+        "playing_field",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Lawns turn gold with dandelions! Soon they'll become fluffy white puffballs perfect for wish-blowing"
+    },
+    {
+      "id": "us_mountain_west_w16_canada_goose",
+      "species": "Canada Goose",
+      "scientificName": "Branta canadensis",
+      "description": "First goslings hatching, yellow fuzzy chicks following parents in a line to water",
+      "habitats": [
+        "pond",
+        "stream",
+        "playing_field",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Fuzzy yellow-green goslings waddle behind their parents in a line. Count how many babies in the family!"
+    },
+    {
+      "id": "us_mountain_west_w16_cottonwood_budding",
+      "species": "Plains Cottonwood",
+      "scientificName": "Populus deltoides",
+      "description": "Cottonwood buds swelling and becoming sticky, releasing a sweet resinous fragrance called balm of Gilead",
+      "habitats": [
+        "stream",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "smell",
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Cottonwood buds are sticky with golden goo that smells like honey and medicine mixed together. Smell your fingers after touching one!"
+    }
+  ],
+  "17": [
+    {
+      "id": "us_mountain_west_w17_lilac",
+      "species": "Common Lilac",
+      "scientificName": "Syringa vulgaris",
+      "description": "Lilacs in full bloom, heavy purple and white flower clusters perfuming entire neighbourhoods",
+      "habitats": [
+        "garden",
+        "urban",
+        "hedgerow"
+      ],
+      "senses": [
+        "smell",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Lilac bushes are covered in purple and white flower clusters. Bury your nose in one and take a deep sniff!"
+    },
+    {
+      "id": "us_mountain_west_w17_cottonwood_leafing",
+      "species": "Plains Cottonwood",
+      "scientificName": "Populus deltoides",
+      "description": "Cottonwoods pushing out bright green leaves, the last major tree to leaf out along rivers and in towns",
+      "habitats": [
+        "stream",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Big cottonwood trees finally get their leaves! The new ones are bright shiny green and rattle in the breeze"
+    },
+    {
+      "id": "us_mountain_west_w17_wild_iris",
+      "species": "Rocky Mountain Iris",
+      "scientificName": "Iris missouriensis",
+      "description": "Wild iris beginning to bloom in moist meadows and along ditches, elegant blue-purple flowers",
+      "habitats": [
+        "meadow",
+        "stream",
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Wild iris flowers look like fancy purple butterflies landing in the wet meadow grass!"
+    },
+    {
+      "id": "us_mountain_west_w17_pronghorn",
+      "species": "Pronghorn",
+      "scientificName": "Antilocapra americana",
+      "description": "Pronghorn does moving to fawning areas in open grasslands, bucks in bachelor groups",
+      "habitats": [
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Pronghorn are the fastest animals in North America. They can run as fast as a car on the highway!"
+    },
+    {
+      "id": "us_mountain_west_w17_barn_swallow",
+      "species": "Barn Swallow",
+      "scientificName": "Hirundo rustica",
+      "description": "Barn swallows arriving from Central America, swooping and diving over fields and water catching insects",
+      "habitats": [
+        "pond",
+        "stream",
+        "grassland",
+        "urban",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Swooping, diving birds with forked tails are back from their winter holiday in Central America!"
+    }
+  ],
+  "18": [
+    {
+      "id": "us_mountain_west_w18_chokecherry",
+      "species": "Chokecherry",
+      "scientificName": "Prunus virginiana",
+      "description": "Chokecherry shrubs bursting into bloom, drooping clusters of small white flowers along streams and roadsides",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "stream"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "White flower clusters hang like tiny grape bunches on the chokecherry bush. Bees go crazy for them!"
+    },
+    {
+      "id": "us_mountain_west_w18_cottonwood_leafing",
+      "species": "Plains Cottonwood",
+      "scientificName": "Populus deltoides",
+      "description": "Cottonwoods in full new leaf, heart-shaped leaves rustling and flickering silver-green in the wind",
+      "habitats": [
+        "stream",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Cottonwood leaves are shaped like hearts and they shimmer and whisper in the wind. Listen to the tree talk!"
+    },
+    {
+      "id": "us_mountain_west_w18_wild_iris",
+      "species": "Rocky Mountain Iris",
+      "scientificName": "Iris missouriensis",
+      "description": "Wild iris in full bloom in wet meadows, patches of blue-purple flowers swaying in the breeze",
+      "habitats": [
+        "meadow",
+        "stream"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Whole meadows turn purple with wild iris. Each flower has golden stripes inside to guide bees to the nectar!"
+    },
+    {
+      "id": "us_mountain_west_w18_rattlesnake",
+      "species": "Prairie Rattlesnake",
+      "scientificName": "Crotalus viridis",
+      "description": "Rattlesnakes emerging from winter dens and dispersing across grasslands, basking on warm rocks and trails",
+      "habitats": [
+        "grassland",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Listen for a buzzy rattle sound near rocks. Rattlesnakes shake their tails to say \"please don't step on me!\""
+    },
+    {
+      "id": "us_mountain_west_w18_barn_swallow",
+      "species": "Barn Swallow",
+      "scientificName": "Hirundo rustica",
+      "description": "Barn swallows building mud nests under eaves and bridges, swooping to collect mud from puddle edges",
+      "habitats": [
+        "urban",
+        "pond",
+        "stream",
+        "wall_fence"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Swallows carry tiny blobs of mud in their beaks to build a cup-shaped nest, one mud ball at a time!"
+    },
+    {
+      "id": "us_mountain_west_w18_pronghorn",
+      "species": "Pronghorn",
+      "scientificName": "Antilocapra americana",
+      "description": "Pronghorn does heavy with fawns, seeking isolated spots in the grasslands for birthing",
+      "habitats": [
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Mama pronghorn finds a quiet spot in the big grassy prairie. Her baby will be born soon and can run within days!"
+    }
+  ],
+  "19": [
+    {
+      "id": "us_mountain_west_w19_blue_columbine",
+      "species": "Colorado Blue Columbine",
+      "scientificName": "Aquilegia coerulea",
+      "description": "Blue columbine beginning to bloom at lower elevations, Colorado's state flower with elegant spurred petals",
+      "habitats": [
+        "woodland",
+        "meadow",
+        "stream"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Colorado's special flower looks like a blue and white star with long pointy tails, like a fairy's hat!"
+    },
+    {
+      "id": "us_mountain_west_w19_chokecherry",
+      "species": "Chokecherry",
+      "scientificName": "Prunus virginiana",
+      "description": "Chokecherry in full bloom, sweet almond-like fragrance drifting from white flower clusters",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "stream"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Stand near a chokecherry bush and breathe deep. The white flowers smell like almonds and honey!"
+    },
+    {
+      "id": "us_mountain_west_w19_prairie_dog_pups",
+      "species": "Black-tailed Prairie Dog",
+      "scientificName": "Cynomys ludovicianus",
+      "description": "Prairie dog pups first appearing above ground, tiny and wobbly at burrow entrances",
+      "habitats": [
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Tiny baby prairie dogs peek out of their holes for the first time. They're so small and wiggly and curious!"
+    },
+    {
+      "id": "us_mountain_west_w19_broad_tailed_hummingbird",
+      "species": "Broad-tailed Hummingbird",
+      "scientificName": "Selasphorus platycercus",
+      "description": "Hummingbirds at peak activity visiting penstemons, columbines, and garden flowers",
+      "habitats": [
+        "garden",
+        "woodland",
+        "meadow"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Hummingbirds zip from flower to flower like tiny rockets. They visit hundreds of flowers every single day!"
+    },
+    {
+      "id": "us_mountain_west_w19_barn_swallow",
+      "species": "Barn Swallow",
+      "scientificName": "Hirundo rustica",
+      "description": "Barn swallows on eggs in mud nests, pairs swooping and chattering near barns and bridges",
+      "habitats": [
+        "urban",
+        "pond",
+        "stream"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Swallows chatter and swoop near their mud nests. Mama swallow is sitting on her eggs inside!"
+    }
+  ],
+  "20": [
+    {
+      "id": "us_mountain_west_w20_blue_columbine",
+      "species": "Colorado Blue Columbine",
+      "scientificName": "Aquilegia coerulea",
+      "description": "Columbines blooming in shaded mountain woods and along streams, delicate blue-and-white spurred flowers",
+      "habitats": [
+        "woodland",
+        "meadow",
+        "stream"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Each columbine has five blue petals with long nectar spurs. Only hummingbirds have tongues long enough to reach inside!"
+    },
+    {
+      "id": "us_mountain_west_w20_indian_paintbrush",
+      "species": "Indian Paintbrush",
+      "scientificName": "Castilleja miniata",
+      "description": "Indian paintbrush beginning to bloom at lower elevations, flame-red bracts brightening meadow edges",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "It really does look like someone dipped a paintbrush in red paint and stuck it in the ground!"
+    },
+    {
+      "id": "us_mountain_west_w20_cottonwood_cotton",
+      "species": "Plains Cottonwood",
+      "scientificName": "Populus deltoides",
+      "description": "Cottonwood trees releasing fluffy white seeds, the \"cotton\" drifting through the air like summer snow",
+      "habitats": [
+        "stream",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "It's snowing in May! Cottonwood trees send fluffy white puffs floating through the air. Catch one!"
+    },
+    {
+      "id": "us_mountain_west_w20_pronghorn_fawns",
+      "species": "Pronghorn",
+      "scientificName": "Antilocapra americana",
+      "description": "Pronghorn fawns being born, hiding motionless in the grass while mothers graze nearby",
+      "habitats": [
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Tiny pronghorn babies lie perfectly still in the grass. They have no scent so coyotes can't smell them!"
+    },
+    {
+      "id": "us_mountain_west_w20_barn_swallow",
+      "species": "Barn Swallow",
+      "scientificName": "Hirundo rustica",
+      "description": "Swallows swooping low over ponds and fields, catching insects on the wing with acrobatic turns",
+      "habitats": [
+        "pond",
+        "stream",
+        "grassland",
+        "playing_field"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Swallows are the best flyers in the bird world. They twist and turn and catch bugs right out of the air!"
+    }
+  ],
+  "21": [
+    {
+      "id": "us_mountain_west_w21_indian_paintbrush",
+      "species": "Indian Paintbrush",
+      "scientificName": "Castilleja miniata",
+      "description": "Indian paintbrush in bloom across foothill meadows, vibrant red-orange bracts among the grasses",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Fields are splashed with bright red paintbrush flowers, like an artist flung red paint across the meadow!"
+    },
+    {
+      "id": "us_mountain_west_w21_blue_columbine",
+      "species": "Colorado Blue Columbine",
+      "scientificName": "Aquilegia coerulea",
+      "description": "Columbines at peak in mountain forests and along trails, white inner petals and blue outer petals",
+      "habitats": [
+        "woodland",
+        "meadow",
+        "stream"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The columbine looks like a blue and white crown. It's so special it's against the law to pick it in Colorado!"
+    },
+    {
+      "id": "us_mountain_west_w21_cottonwood_cotton",
+      "species": "Plains Cottonwood",
+      "scientificName": "Populus deltoides",
+      "description": "Peak cottonwood fluff, white drifts accumulating against curbs and fences like midsummer snow",
+      "habitats": [
+        "stream",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Cottonwood fluff piles up like snow drifts! Each tiny puff carries a seed that could grow into a giant tree"
+    },
+    {
+      "id": "us_mountain_west_w21_lupine",
+      "species": "Silvery Lupine",
+      "scientificName": "Lupinus argenteus",
+      "description": "Lupines blooming in mountain meadows and along roadsides, spires of blue-purple pea-like flowers",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Purple lupine towers stand like tiny Christmas trees decorated with blue-purple flowers!"
+    },
+    {
+      "id": "us_mountain_west_w21_mule_deer_fawns",
+      "species": "Mule Deer",
+      "scientificName": "Odocoileus hemionus",
+      "description": "Mule deer fawns being born, spotted brown babies hiding in tall grass and brush",
+      "habitats": [
+        "woodland",
+        "grassland",
+        "meadow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Baby deer have white spots like polka dots to help them hide in the dappled shade. If you see one, don't touch it!"
+    }
+  ],
+  "22": [
+    {
+      "id": "us_mountain_west_w22_lupine",
+      "species": "Silvery Lupine",
+      "scientificName": "Lupinus argenteus",
+      "description": "Lupines in full bloom across mountain meadows, blue-purple spires mixed with other wildflowers",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Meadows are full of purple lupine towers buzzing with bees. Each flower is shaped like a tiny mouth!"
+    },
+    {
+      "id": "us_mountain_west_w22_indian_paintbrush",
+      "species": "Indian Paintbrush",
+      "scientificName": "Castilleja miniata",
+      "description": "Paintbrush at peak in foothill meadows, often growing alongside lupines in a red-and-blue display",
+      "habitats": [
+        "meadow",
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Red paintbrush and blue lupine grow side by side like nature's own Fourth of July decorations!"
+    },
+    {
+      "id": "us_mountain_west_w22_broad_tailed_hummingbird",
+      "species": "Broad-tailed Hummingbird",
+      "scientificName": "Selasphorus platycercus",
+      "description": "Hummingbirds feeding nestlings, females making constant trips between flowers and tiny nests",
+      "habitats": [
+        "garden",
+        "woodland",
+        "meadow"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Mama hummingbird feeds her babies by sticking her long beak into their mouths like a tiny sword, slurp!"
+    },
+    {
+      "id": "us_mountain_west_w22_marmot",
+      "species": "Yellow-bellied Marmot",
+      "scientificName": "Marmota flaviventris",
+      "description": "Marmots sunning on rocks in mountain meadows, giving sharp whistle alarm calls when hikers approach",
+      "habitats": [
+        "grassland",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Chubby marmots sunbathe on warm rocks and whistle loud when they see you. That's why they're called whistle pigs!"
+    },
+    {
+      "id": "us_mountain_west_w22_aspen",
+      "species": "Quaking Aspen",
+      "scientificName": "Populus tremuloides",
+      "description": "Aspens fully leafed out, round leaves trembling and flickering in the slightest breeze, groves bright green",
+      "habitats": [
+        "woodland",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Aspen leaves dance and shimmer even when there's no wind. The flat stems make them tremble and whisper!"
+    }
+  ],
+  "23": [
+    {
+      "id": "us_mountain_west_w23_larkspur",
+      "species": "Larkspur",
+      "scientificName": "Delphinium nuttallianum",
+      "description": "Larkspur blooming in mountain meadows and open woodlands, tall spikes of deep blue-purple flowers",
+      "habitats": [
+        "meadow",
+        "woodland",
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Tall blue larkspur spikes stand up in the meadow like purple candles. Each flower has a pointy spur on the back!"
+    },
+    {
+      "id": "us_mountain_west_w23_indian_paintbrush",
+      "species": "Indian Paintbrush",
+      "scientificName": "Castilleja miniata",
+      "description": "Paintbrush blooming at higher elevations now, joining the alpine wildflower display",
+      "habitats": [
+        "meadow",
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Higher and higher up the mountain, paintbrush flowers are popping open. The colour parade climbs uphill!"
+    },
+    {
+      "id": "us_mountain_west_w23_marmot",
+      "species": "Yellow-bellied Marmot",
+      "scientificName": "Marmota flaviventris",
+      "description": "Marmots grazing on wildflowers and grasses, fattening up for their long hibernation",
+      "habitats": [
+        "grassland",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Marmots stuff their cheeks with flowers and grass. They need to get as fat as possible before their winter sleep!"
+    },
+    {
+      "id": "us_mountain_west_w23_pika",
+      "species": "American Pika",
+      "scientificName": "Ochotona princeps",
+      "description": "Pikas active in high-elevation talus fields, giving sharp \"eek!\" alarm calls from rock piles",
+      "habitats": [
+        "grassland",
+        "meadow"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A tiny round animal that looks like a hamster with round ears goes \"eek!\" from between the rocks!"
+    },
+    {
+      "id": "us_mountain_west_w23_afternoon_thunderstorm",
+      "species": "Afternoon Thunderstorm",
+      "description": "Afternoon thunderstorms building over the mountains, towering cumulus clouds and dramatic lightning displays",
+      "habitats": [
+        "grassland",
+        "meadow",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Puffy white clouds grow into dark towers every afternoon, then boom! Thunder rumbles and rain smells amazing!"
+    },
+    {
+      "id": "us_mountain_west_w23_broad_tailed_hummingbird",
+      "species": "Broad-tailed Hummingbird",
+      "scientificName": "Selasphorus platycercus",
+      "description": "Hummingbirds visiting mountain wildflowers at peak, especially penstemons and scarlet gilia",
+      "habitats": [
+        "garden",
+        "woodland",
+        "meadow"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Hummingbirds love red flowers best. They zoom to every red thing, even red shirts and red hats!"
+    }
+  ],
+  "24": [
+    {
+      "id": "us_mountain_west_w24_larkspur",
+      "species": "Larkspur",
+      "scientificName": "Delphinium nuttallianum",
+      "description": "Larkspur in full bloom across mountain meadows, deep blue spires swaying in afternoon breezes",
+      "habitats": [
+        "meadow",
+        "woodland",
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Blue larkspur flowers look like tiny birds perching on a tall green stick. Count how many flowers on one spike!"
+    },
+    {
+      "id": "us_mountain_west_w24_lupine",
+      "species": "Silvery Lupine",
+      "scientificName": "Lupinus argenteus",
+      "description": "Lupines at peak in mountain meadows, some beginning to set seed pods that twist and pop in the sun",
+      "habitats": [
+        "meadow",
+        "grassland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Lupine seed pods twist and pop open in the hot sun. Listen for tiny snapping sounds on a warm afternoon!"
+    },
+    {
+      "id": "us_mountain_west_w24_pika",
+      "species": "American Pika",
+      "scientificName": "Ochotona princeps",
+      "description": "Pikas beginning to gather flowers and grasses for hay piles, carrying mouthfuls back to their rock crevices",
+      "habitats": [
+        "grassland",
+        "meadow"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The tiny pika carries a huge moustache of wildflowers back to its rock. It's making a hay pantry for winter!"
+    },
+    {
+      "id": "us_mountain_west_w24_afternoon_thunderstorm",
+      "species": "Afternoon Thunderstorm",
+      "description": "Daily afternoon thunderstorms over the mountains, the smell of petrichor on dry earth after rain",
+      "habitats": [
+        "grassland",
+        "meadow",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "After the thunder booms and rain falls on dry ground, sniff the air. That amazing fresh smell is called petrichor!"
+    },
+    {
+      "id": "us_mountain_west_w24_mule_deer_fawns",
+      "species": "Mule Deer",
+      "scientificName": "Odocoileus hemionus",
+      "description": "Spotted mule deer fawns now following does, still wobbly on long legs in mountain meadows",
+      "habitats": [
+        "woodland",
+        "meadow",
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Baby deer trot behind their mamas on long wobbly legs. They still have their polka-dot camouflage coats!"
+    }
+  ],
+  "25": [
+    {
+      "id": "us_mountain_west_w25_wildflower_meadow",
+      "species": "Mountain Wildflower Meadow",
+      "description": "Peak wildflower season in mountain meadows: paintbrush, lupine, columbine, larkspur, and asters creating a tapestry of colour",
+      "habitats": [
+        "meadow",
+        "grassland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Mountain meadows look like someone spilled every colour of paint: red, blue, purple, yellow, white, all mixed together!"
+    },
+    {
+      "id": "us_mountain_west_w25_pika",
+      "species": "American Pika",
+      "scientificName": "Ochotona princeps",
+      "description": "Pikas in full haying mode, frantically gathering wildflowers and spreading them on rocks to dry",
+      "habitats": [
+        "grassland",
+        "meadow"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Pikas spread flowers on sunny rocks to dry them. They're making tiny haystacks to eat all winter long!"
+    },
+    {
+      "id": "us_mountain_west_w25_marmot",
+      "species": "Yellow-bellied Marmot",
+      "scientificName": "Marmota flaviventris",
+      "description": "Marmot pups emerging from burrows, playful young marmots wrestling and chasing near boulder fields",
+      "habitats": [
+        "grassland",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Baby marmots play-fight and chase each other around the rocks like furry little kids at recess!"
+    },
+    {
+      "id": "us_mountain_west_w25_broad_tailed_hummingbird",
+      "species": "Broad-tailed Hummingbird",
+      "scientificName": "Selasphorus platycercus",
+      "description": "Hummingbirds at peak numbers in mountain wildflower meadows, constant buzz and chitter",
+      "habitats": [
+        "meadow",
+        "garden",
+        "woodland"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "So many hummingbirds! They zoom past your ears making a cricket-trill sound with their wings"
+    },
+    {
+      "id": "us_mountain_west_w25_afternoon_thunderstorm",
+      "species": "Afternoon Thunderstorm",
+      "description": "Afternoon monsoon storms building daily, dramatic lightning and heavy rain cooling mountain trails",
+      "habitats": [
+        "grassland",
+        "meadow",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Every afternoon the mountains cook up a thunderstorm. Watch the clouds puff up like popcorn, then crack goes the lightning!"
+    }
+  ],
+  "26": [
+    {
+      "id": "us_mountain_west_w26_indian_paintbrush",
+      "species": "Indian Paintbrush",
+      "scientificName": "Castilleja miniata",
+      "description": "Paintbrush in full colour at higher elevations, reds and oranges mixed with alpine wildflowers",
+      "habitats": [
+        "meadow",
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Even way up high on the mountain, red paintbrush flowers glow like little campfires in the green grass!"
+    },
+    {
+      "id": "us_mountain_west_w26_pika",
+      "species": "American Pika",
+      "scientificName": "Ochotona princeps",
+      "description": "Pikas continuing to gather hay, sharp alarm calls echoing across talus slopes when hawks pass",
+      "habitats": [
+        "grassland",
+        "meadow"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The pika squeaks \"eek!\" and dives into the rocks when a hawk's shadow passes over, quick as lightning!"
+    },
+    {
+      "id": "us_mountain_west_w26_aspen",
+      "species": "Quaking Aspen",
+      "scientificName": "Populus tremuloides",
+      "description": "Aspen groves lush and green, leaves shimmering and rustling in summer breezes with a gentle rushing sound",
+      "habitats": [
+        "woodland",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Stand in an aspen grove and close your eyes. Thousands of leaves whisper and shimmer like gentle rain!"
+    },
+    {
+      "id": "us_mountain_west_w26_marmot",
+      "species": "Yellow-bellied Marmot",
+      "scientificName": "Marmota flaviventris",
+      "description": "Marmots basking on warm rocks, their sharp alarm whistles carrying across mountain valleys",
+      "habitats": [
+        "grassland",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A marmot lies flat on a warm rock with its legs dangling. It looks like a furry pancake getting a suntan!"
+    },
+    {
+      "id": "us_mountain_west_w26_barn_swallow",
+      "species": "Barn Swallow",
+      "scientificName": "Hirundo rustica",
+      "description": "Barn swallow chicks growing in mud nests, parents swooping in constantly with beaks full of insects",
+      "habitats": [
+        "urban",
+        "pond",
+        "stream",
+        "wall_fence"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Baby swallows open their mouths so wide when a parent arrives. Four big yellow beaks pop out of the mud cup!"
+    }
+  ],
+  "27": [
+    {
+      "id": "us_mountain_west_w27_fireweed",
+      "species": "Fireweed",
+      "scientificName": "Chamerion angustifolium",
+      "description": "Fireweed beginning to bloom along roadsides and disturbed areas, tall magenta spikes opening from bottom to top",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Tall pink fireweed flowers open from the bottom up. When they reach the top, summer is almost over!"
+    },
+    {
+      "id": "us_mountain_west_w27_afternoon_thunderstorm",
+      "species": "Afternoon Thunderstorm",
+      "description": "Intense afternoon monsoon storms, mushroom-shaped clouds building to 40,000 feet over the peaks",
+      "habitats": [
+        "grassland",
+        "meadow",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Thunderclouds grow as tall as mountains in the afternoon sky. Count the seconds between flash and boom to see how far away!"
+    },
+    {
+      "id": "us_mountain_west_w27_broad_tailed_hummingbird",
+      "species": "Broad-tailed Hummingbird",
+      "scientificName": "Selasphorus platycercus",
+      "description": "Hummingbirds abundant in mountain gardens and wildflower meadows, juveniles now also visiting flowers",
+      "habitats": [
+        "garden",
+        "meadow",
+        "woodland"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Young hummingbirds are learning to fly! Watch them crash-land on flowers and figure out how to hover"
+    },
+    {
+      "id": "us_mountain_west_w27_pika",
+      "species": "American Pika",
+      "scientificName": "Ochotona princeps",
+      "description": "Pikas working hard through peak flower season, drying haystacks growing on favourite rocks",
+      "habitats": [
+        "grassland",
+        "meadow"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The pika's hay pile is getting big. It dries flowers in the sun and moves them inside before it rains!"
+    },
+    {
+      "id": "us_mountain_west_w27_western_tiger_swallowtail",
+      "species": "Western Tiger Swallowtail",
+      "scientificName": "Papilio rutulus",
+      "description": "Large yellow-and-black swallowtail butterflies nectaring on wildflowers and near streams",
+      "habitats": [
+        "stream",
+        "garden",
+        "meadow",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A big yellow butterfly with black tiger stripes floats by. Its wings are as big as your hand!"
+    }
+  ],
+  "28": [
+    {
+      "id": "us_mountain_west_w28_fireweed",
+      "species": "Fireweed",
+      "scientificName": "Chamerion angustifolium",
+      "description": "Fireweed in full bloom along roads and clearings, vivid magenta spires half-open",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Fireweed spikes are halfway up with pink flowers. Summer is at its midpoint, just like the flowers!"
+    },
+    {
+      "id": "us_mountain_west_w28_marmot",
+      "species": "Yellow-bellied Marmot",
+      "scientificName": "Marmota flaviventris",
+      "description": "Marmots visibly fattening, grazing heavily through mountain meadows in preparation for hibernation",
+      "habitats": [
+        "grassland",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Marmots are getting so round! They eat and eat all summer so they have enough fat to sleep until spring"
+    },
+    {
+      "id": "us_mountain_west_w28_aspen",
+      "species": "Quaking Aspen",
+      "scientificName": "Populus tremuloides",
+      "description": "Aspen groves at their greenest, white bark standing out against deep green canopy and blue sky",
+      "habitats": [
+        "woodland",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Aspen trunks are white as paper. People used to carve their names on them, but please don't, it hurts the tree!"
+    },
+    {
+      "id": "us_mountain_west_w28_western_tiger_swallowtail",
+      "species": "Western Tiger Swallowtail",
+      "scientificName": "Papilio rutulus",
+      "description": "Swallowtails puddling at damp spots on trails, groups gathering to sip minerals from mud",
+      "habitats": [
+        "stream",
+        "garden",
+        "meadow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Big yellow butterflies gather at mud puddles for a drink. They're having a butterfly pool party!"
+    },
+    {
+      "id": "us_mountain_west_w28_barn_swallow",
+      "species": "Barn Swallow",
+      "scientificName": "Hirundo rustica",
+      "description": "Barn swallow fledglings sitting on wires in a row, begging from parents who swoop past with insects",
+      "habitats": [
+        "urban",
+        "pond",
+        "grassland",
+        "wall_fence"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Baby swallows line up on a wire like birds on a clothesline, begging for food with wide-open mouths!"
+    }
+  ],
+  "29": [
+    {
+      "id": "us_mountain_west_w29_fireweed",
+      "species": "Fireweed",
+      "scientificName": "Chamerion angustifolium",
+      "description": "Fireweed blooms climbing to the top of the stalk, a traditional signal that summer is waning",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Fireweed is almost to the top! Old-timers say when it blooms to the tip, frost is only six weeks away"
+    },
+    {
+      "id": "us_mountain_west_w29_pika",
+      "species": "American Pika",
+      "scientificName": "Ochotona princeps",
+      "description": "Pikas harvesting intensely, large hay piles visible on rock ledges drying in the summer sun",
+      "habitats": [
+        "grassland",
+        "meadow"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The pika's hay pile is huge now. It's been gathering all summer and its pantry is nearly full!"
+    },
+    {
+      "id": "us_mountain_west_w29_broad_tailed_hummingbird",
+      "species": "Broad-tailed Hummingbird",
+      "scientificName": "Selasphorus platycercus",
+      "description": "Hummingbirds feeding heavily on late-summer flowers, building fat reserves before migration",
+      "habitats": [
+        "garden",
+        "meadow",
+        "woodland"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Hummingbirds are eating extra-hard now. They need to get fat for their long flight back to Mexico!"
+    },
+    {
+      "id": "us_mountain_west_w29_mule_deer",
+      "species": "Mule Deer",
+      "scientificName": "Odocoileus hemionus",
+      "description": "Mule deer bucks in velvet, antlers nearly full-grown and covered in fuzzy brown skin",
+      "habitats": [
+        "woodland",
+        "meadow",
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Buck deer have fuzzy velvet on their antlers. It's like soft brown fabric covering the growing bone!"
+    },
+    {
+      "id": "us_mountain_west_w29_afternoon_thunderstorm",
+      "species": "Afternoon Thunderstorm",
+      "description": "Monsoon thunderstorms continuing, spectacular double rainbows appearing over the mountains after storms",
+      "habitats": [
+        "grassland",
+        "meadow",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "After the storm, look east with the sun behind you. You might see a double rainbow arching over the mountains!"
+    }
+  ],
+  "30": [
+    {
+      "id": "us_mountain_west_w30_fireweed",
+      "species": "Fireweed",
+      "scientificName": "Chamerion angustifolium",
+      "description": "Fireweed blooming at the very top, lower seed pods splitting open to release fluffy white seeds",
+      "habitats": [
+        "meadow",
+        "grassland"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Fireweed reached the top! The bottom pods burst open with fluffy white floss. Summer is almost done"
+    },
+    {
+      "id": "us_mountain_west_w30_rabbitbrush",
+      "species": "Rabbitbrush",
+      "scientificName": "Ericameria nauseosa",
+      "description": "Rabbitbrush beginning to show yellow buds in the dry foothills and along roadsides",
+      "habitats": [
+        "grassland",
+        "meadow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The grey-green rabbitbrush bushes are getting ready to explode into bright yellow flowers, not yet, but soon!"
+    },
+    {
+      "id": "us_mountain_west_w30_mule_deer",
+      "species": "Mule Deer",
+      "scientificName": "Odocoileus hemionus",
+      "description": "Mule deer bucks beginning to shed velvet from antlers, rubbing against trees to remove the drying skin",
+      "habitats": [
+        "woodland",
+        "meadow",
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Buck deer rub their antlers on trees to peel off the velvet. Sometimes you can see strips hanging like ribbons!"
+    },
+    {
+      "id": "us_mountain_west_w30_western_tiger_swallowtail",
+      "species": "Western Tiger Swallowtail",
+      "scientificName": "Papilio rutulus",
+      "description": "Second brood of swallowtails on the wing, worn first-brood adults and fresh new ones side by side",
+      "habitats": [
+        "stream",
+        "garden",
+        "meadow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Some swallowtails look tattered from a busy summer while brand-new ones are crisp and bright. Spot the difference!"
+    },
+    {
+      "id": "us_mountain_west_w30_barn_swallow",
+      "species": "Barn Swallow",
+      "scientificName": "Hirundo rustica",
+      "description": "Swallows raising second broods, parents and fledglings from first brood all hunting insects together",
+      "habitats": [
+        "pond",
+        "stream",
+        "grassland",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The whole swallow family hunts together now, parents, big brothers and sisters, all swooping over the pond!"
+    }
+  ],
+  "31": [
+    {
+      "id": "us_mountain_west_w31_rabbitbrush",
+      "species": "Rabbitbrush",
+      "scientificName": "Ericameria nauseosa",
+      "description": "Rabbitbrush buds nearly open, grey-green bushes about to burst into golden bloom across the dry slopes",
+      "habitats": [
+        "grassland",
+        "meadow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Rabbitbrush is ready to pop. Any day now those grey bushes will be covered in bright golden flowers!"
+    },
+    {
+      "id": "us_mountain_west_w31_elk",
+      "species": "Elk",
+      "scientificName": "Cervus canadensis",
+      "description": "Elk bulls with hardened antlers, bachelor groups beginning to break up as rutting season approaches",
+      "habitats": [
+        "woodland",
+        "meadow",
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Big bull elk with huge antlers are getting grumpy. They'll soon be fighting over who gets to be the boss!"
+    },
+    {
+      "id": "us_mountain_west_w31_broad_tailed_hummingbird",
+      "species": "Broad-tailed Hummingbird",
+      "scientificName": "Selasphorus platycercus",
+      "description": "Hummingbird numbers beginning to thin as early migrants start heading south",
+      "habitats": [
+        "garden",
+        "meadow",
+        "woodland"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Some hummingbirds are already leaving! They're heading to Mexico, a journey as long as driving from Denver to Dallas"
+    },
+    {
+      "id": "us_mountain_west_w31_nighthawk",
+      "species": "Common Nighthawk",
+      "scientificName": "Chordeiles minor",
+      "description": "Nighthawks displaying at dusk, diving and making a booming sound with their wings, catching insects in flight",
+      "habitats": [
+        "urban",
+        "grassland",
+        "meadow"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "At sunset, watch for birds with white wing patches diving through the sky, vroomm! Their wings make a cool boom sound!"
+    },
+    {
+      "id": "us_mountain_west_w31_pika",
+      "species": "American Pika",
+      "scientificName": "Ochotona princeps",
+      "description": "Pikas making final hay-gathering runs, haystacks at their largest before being cached in rock crevices",
+      "habitats": [
+        "grassland",
+        "meadow"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The pika's haystack is as big as a pillow, time to start tucking it into the rocks for winter!"
+    }
+  ],
+  "32": [
+    {
+      "id": "us_mountain_west_w32_rabbitbrush",
+      "species": "Rabbitbrush",
+      "scientificName": "Ericameria nauseosa",
+      "description": "Rabbitbrush bursting into bloom, turning hillsides and roadsides brilliant golden yellow",
+      "habitats": [
+        "grassland",
+        "meadow",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The whole hillside turns gold! Rabbitbrush is the last big wildflower show before autumn starts"
+    },
+    {
+      "id": "us_mountain_west_w32_nighthawk",
+      "species": "Common Nighthawk",
+      "scientificName": "Chordeiles minor",
+      "description": "Nighthawk flocks gathering for migration, hundreds swooping over towns at dusk catching insects",
+      "habitats": [
+        "urban",
+        "grassland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Hundreds of nighthawks swoop together at sunset. They're having a farewell party before flying to South America!"
+    },
+    {
+      "id": "us_mountain_west_w32_mule_deer",
+      "species": "Mule Deer",
+      "scientificName": "Odocoileus hemionus",
+      "description": "Bucks with polished antlers, velvet fully shed, beginning to spar with other males",
+      "habitats": [
+        "woodland",
+        "meadow",
+        "grassland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Buck deer push their antlers together and wrestle. It sounds like clacking sticks in the woods!"
+    },
+    {
+      "id": "us_mountain_west_w32_broad_tailed_hummingbird",
+      "species": "Broad-tailed Hummingbird",
+      "scientificName": "Selasphorus platycercus",
+      "description": "Hummingbird numbers declining, rufous hummingbirds passing through on southbound migration",
+      "habitats": [
+        "garden",
+        "meadow"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The hummingbirds are leaving! Keep your feeders full. Tired travellers need a rest stop on their long journey"
+    },
+    {
+      "id": "us_mountain_west_w32_prairie_grass_golden",
+      "species": "Prairie Grasses",
+      "description": "Prairie grasses turning golden and tawny, seed heads waving in warm August breezes",
+      "habitats": [
+        "grassland",
+        "meadow",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "touch",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The green grass is turning gold like a lion's mane. Run your hand through the seed heads and feel them tickle!"
+    }
+  ],
+  "33": [
+    {
+      "id": "us_mountain_west_w33_rabbitbrush",
+      "species": "Rabbitbrush",
+      "scientificName": "Ericameria nauseosa",
+      "description": "Rabbitbrush at peak bloom, attracting late-season butterflies and beetles, golden against dry grass",
+      "habitats": [
+        "grassland",
+        "meadow",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Rabbitbrush is the last restaurant open for butterflies. They crowd around the golden flowers for one last meal!"
+    },
+    {
+      "id": "us_mountain_west_w33_elk",
+      "species": "Elk",
+      "scientificName": "Cervus canadensis",
+      "description": "Bull elk beginning early bugling, testing their voices in the cool mountain mornings",
+      "habitats": [
+        "woodland",
+        "meadow",
+        "grassland"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Bull elk start practising their bugle call, a high-pitched scream that echoes off the mountain walls!"
+    },
+    {
+      "id": "us_mountain_west_w33_aspen",
+      "species": "Quaking Aspen",
+      "scientificName": "Populus tremuloides",
+      "description": "First hints of gold appearing in aspen leaves at the highest elevations, barely noticeable",
+      "habitats": [
+        "woodland",
+        "meadow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Way up on the mountain tops, a few aspen leaves are turning gold. Autumn is whispering \"I'm coming!\""
+    },
+    {
+      "id": "us_mountain_west_w33_prairie_grass_golden",
+      "species": "Prairie Grasses",
+      "description": "Prairie grasses fully golden, wild sunflowers and late asters blooming along roads and fields",
+      "habitats": [
+        "grassland",
+        "meadow",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The prairies are a sea of gold. Stand in the middle and watch the grass waves ripple in the wind like water!"
+    },
+    {
+      "id": "us_mountain_west_w33_red_tailed_hawk",
+      "species": "Red-tailed Hawk",
+      "scientificName": "Buteo jamaicensis",
+      "description": "Red-tailed hawks and juvenile birds of the year soaring over golden grasslands, learning to hunt",
+      "habitats": [
+        "grassland",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Young hawks are practising hunting. They swoop and miss a lot, but they're getting better every day!"
+    }
+  ],
+  "34": [
+    {
+      "id": "us_mountain_west_w34_elk_bugling",
+      "species": "Elk",
+      "scientificName": "Cervus canadensis",
+      "description": "Elk bugling increasing in mountain valleys, bulls beginning to gather cows into harems",
+      "habitats": [
+        "woodland",
+        "meadow",
+        "grassland"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Elk bugling sounds like a haunted flute! The big bulls scream to say \"this is my family, stay away!\""
+    },
+    {
+      "id": "us_mountain_west_w34_aspen",
+      "species": "Quaking Aspen",
+      "scientificName": "Populus tremuloides",
+      "description": "Aspen colour starting to turn at higher elevations, patches of gold appearing among the green",
+      "habitats": [
+        "woodland",
+        "meadow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Golden patches are spreading through the aspen forests. It's like someone spilled a paint bucket of gold!"
+    },
+    {
+      "id": "us_mountain_west_w34_rabbitbrush",
+      "species": "Rabbitbrush",
+      "scientificName": "Ericameria nauseosa",
+      "description": "Rabbitbrush still golden, the dominant colour along roadsides and open areas",
+      "habitats": [
+        "grassland",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Bright yellow rabbitbrush lines every road. It's like nature drew yellow racing stripes on the landscape!"
+    },
+    {
+      "id": "us_mountain_west_w34_first_frost",
+      "species": "First Frost",
+      "description": "First frost possible at higher elevations, ice crystals on grass and flowers in cold mountain mornings",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The first frost turns the meadow into a glittering diamond field. Every blade of grass wears an icy sparkle coat!"
+    },
+    {
+      "id": "us_mountain_west_w34_nighthawk",
+      "species": "Common Nighthawk",
+      "scientificName": "Chordeiles minor",
+      "description": "Nighthawk migration in full swing, large flocks moving southward in the late afternoon sky",
+      "habitats": [
+        "urban",
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Hundreds of nighthawks stream across the sky heading south. Wave goodbye until next summer!"
+    }
+  ],
+  "35": [
+    {
+      "id": "us_mountain_west_w35_elk_bugling",
+      "species": "Elk",
+      "scientificName": "Cervus canadensis",
+      "description": "Elk rut intensifying, bulls bugling constantly at dawn and dusk, the defining sound of mountain autumn",
+      "habitats": [
+        "woodland",
+        "meadow",
+        "grassland"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Elk bugles echo through the valleys at sunrise. It's one of the wildest sounds in all of nature!"
+    },
+    {
+      "id": "us_mountain_west_w35_aspen_gold",
+      "species": "Quaking Aspen",
+      "scientificName": "Populus tremuloides",
+      "description": "Aspen colour spreading rapidly downslope, mountainsides becoming a patchwork of gold, orange, and green",
+      "habitats": [
+        "woodland",
+        "meadow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Whole mountainsides are turning gold! The aspens look like rivers of liquid gold running down the slopes"
+    },
+    {
+      "id": "us_mountain_west_w35_broad_tailed_hummingbird",
+      "species": "Broad-tailed Hummingbird",
+      "scientificName": "Selasphorus platycercus",
+      "description": "Last broad-tailed hummingbirds departing, a few stragglers fuelling up at feeders and late flowers",
+      "habitats": [
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The last hummingbirds are tanking up at the feeder like tiny airplanes getting fuel before a long flight!"
+    },
+    {
+      "id": "us_mountain_west_w35_rabbitbrush",
+      "species": "Rabbitbrush",
+      "scientificName": "Ericameria nauseosa",
+      "description": "Rabbitbrush flowers fading to dusty gold, seed heads forming",
+      "habitats": [
+        "grassland",
+        "meadow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The rabbitbrush flowers are getting fuzzy and dusty. They're turning into fluffy seed puffs"
+    },
+    {
+      "id": "us_mountain_west_w35_mule_deer",
+      "species": "Mule Deer",
+      "scientificName": "Odocoileus hemionus",
+      "description": "Mule deer bucks with polished antlers, necks thickening for the coming rut",
+      "habitats": [
+        "woodland",
+        "grassland",
+        "meadow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Buck deer look extra tough right now. Their necks are thick and muscly and their antlers shine in the sun!"
+    }
+  ],
+  "36": [
+    {
+      "id": "us_mountain_west_w36_elk_bugling",
+      "species": "Elk",
+      "scientificName": "Cervus canadensis",
+      "description": "Peak elk rut, bulls bugling, sparring, and herding cows, one of the great wildlife spectacles of North America",
+      "habitats": [
+        "woodland",
+        "meadow",
+        "grassland"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Giant bull elk crash their antlers together with a clack!. They're wrestling to see who's the strongest"
+    },
+    {
+      "id": "us_mountain_west_w36_aspen_gold",
+      "species": "Quaking Aspen",
+      "scientificName": "Populus tremuloides",
+      "description": "Aspen gold at or near peak, entire mountainsides blazing yellow and orange, the famous Rocky Mountain autumn",
+      "habitats": [
+        "woodland",
+        "meadow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The mountains are on fire with colour, but it's not real fire, it's millions of golden aspen leaves!"
+    },
+    {
+      "id": "us_mountain_west_w36_black_billed_magpie",
+      "species": "Black-billed Magpie",
+      "scientificName": "Pica hudsonia",
+      "description": "Magpies in large autumn flocks, their black-and-white plumage striking against golden aspens",
+      "habitats": [
+        "urban",
+        "garden",
+        "grassland",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Big flocks of chattering magpies fly between the golden trees, black and white against yellow and blue!"
+    },
+    {
+      "id": "us_mountain_west_w36_first_frost",
+      "species": "First Hard Frost",
+      "description": "Hard frosts common now, blackening garden plants and coating everything in thick white crystals at dawn",
+      "habitats": [
+        "garden",
+        "playing_field",
+        "meadow",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Frost so thick it looks like snow! Touch a frozen leaf and it crumbles into glittery pieces"
+    },
+    {
+      "id": "us_mountain_west_w36_dark_eyed_junco",
+      "species": "Dark-eyed Junco",
+      "scientificName": "Junco hyemalis",
+      "description": "Dark-eyed juncos arriving from higher elevations and the north, flocks building at feeders",
+      "habitats": [
+        "garden",
+        "urban",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Little grey \"snowbirds\" are back at the feeder. They come down from the mountains when it gets cold up there!"
+    }
+  ],
+  "37": [
+    {
+      "id": "us_mountain_west_w37_aspen_gold",
+      "species": "Quaking Aspen",
+      "scientificName": "Populus tremuloides",
+      "description": "Peak aspen colour at mid-elevations, leaves beginning to fall at the highest spots, golden carpet on trails",
+      "habitats": [
+        "woodland",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Walk through the aspen grove and golden leaves rain down like coins. Scuffle through the golden carpet!"
+    },
+    {
+      "id": "us_mountain_west_w37_elk_bugling",
+      "species": "Elk",
+      "scientificName": "Cervus canadensis",
+      "description": "Elk rut continuing, bulls exhausted from constant bugling and fighting, ribs starting to show",
+      "habitats": [
+        "woodland",
+        "meadow",
+        "grassland"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The bull elk haven't eaten in weeks because they're too busy fighting. They look tired but still bugle at dawn!"
+    },
+    {
+      "id": "us_mountain_west_w37_mule_deer",
+      "species": "Mule Deer",
+      "scientificName": "Odocoileus hemionus",
+      "description": "Mule deer rut beginning, bucks chasing does across hillsides and through aspen groves",
+      "habitats": [
+        "woodland",
+        "grassland",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Deer are chasing each other through the golden aspens. Buck deer are showing off for the lady deer!"
+    },
+    {
+      "id": "us_mountain_west_w37_red_tailed_hawk",
+      "species": "Red-tailed Hawk",
+      "scientificName": "Buteo jamaicensis",
+      "description": "Red-tailed hawks soaring over golden grasslands, migrant hawks joining resident birds",
+      "habitats": [
+        "grassland",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "More hawks than usual circle in the sky. Local hawks are joined by travellers passing through!"
+    },
+    {
+      "id": "us_mountain_west_w37_canada_goose",
+      "species": "Canada Goose",
+      "scientificName": "Branta canadensis",
+      "description": "Canada geese in migration formation, noisy V-shaped flocks honking overhead",
+      "habitats": [
+        "pond",
+        "playing_field",
+        "grassland",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Look up when you hear honking. Big V's of geese are heading south, trading leaders so nobody gets too tired!"
+    }
+  ],
+  "38": [
+    {
+      "id": "us_mountain_west_w38_aspen_gold",
+      "species": "Quaking Aspen",
+      "scientificName": "Populus tremuloides",
+      "description": "Aspen colour fading at higher elevations, peak colour moving to mid and lower elevations now",
+      "habitats": [
+        "woodland",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The golden wave moves downhill. Up high the aspens are bare, but down low they're still blazing gold!"
+    },
+    {
+      "id": "us_mountain_west_w38_elk_bugling",
+      "species": "Elk",
+      "scientificName": "Cervus canadensis",
+      "description": "Elk rut winding down, exhausted bulls beginning to separate from cow herds",
+      "habitats": [
+        "woodland",
+        "meadow",
+        "grassland"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The elk battles are winding down. The tired bull elk wander off to rest and eat after weeks of fighting"
+    },
+    {
+      "id": "us_mountain_west_w38_mule_deer",
+      "species": "Mule Deer",
+      "scientificName": "Odocoileus hemionus",
+      "description": "Mule deer rut in full swing, bucks sparring and chasing does, visible in open areas at dawn and dusk",
+      "habitats": [
+        "woodland",
+        "grassland",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Deer bucks crash their antlers together in the misty morning. It sounds like a stick fight in the woods!"
+    },
+    {
+      "id": "us_mountain_west_w38_dark_eyed_junco",
+      "species": "Dark-eyed Junco",
+      "scientificName": "Junco hyemalis",
+      "description": "Junco flocks growing, winter populations settling in at feeders and in shrubby areas",
+      "habitats": [
+        "garden",
+        "urban",
+        "woodland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "More and more grey juncos arrive every day. They've come down from the mountains for the winter!"
+    },
+    {
+      "id": "us_mountain_west_w38_cottonwood_fall",
+      "species": "Plains Cottonwood",
+      "scientificName": "Populus deltoides",
+      "description": "Cottonwoods turning bright yellow along rivers and in town, large heart-shaped leaves falling",
+      "habitats": [
+        "stream",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Big yellow cottonwood leaves shaped like hearts spin and twirl as they fall. Catch one for good luck!"
+    }
+  ],
+  "39": [
+    {
+      "id": "us_mountain_west_w39_aspen_gold",
+      "species": "Quaking Aspen",
+      "scientificName": "Populus tremuloides",
+      "description": "Aspens past peak at most elevations, bare branches showing at the top, last gold clinging lower down",
+      "habitats": [
+        "woodland",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The aspen show is almost over. Bare white trunks stand like skeletons at the top while gold still glows below"
+    },
+    {
+      "id": "us_mountain_west_w39_mule_deer",
+      "species": "Mule Deer",
+      "scientificName": "Odocoileus hemionus",
+      "description": "Mule deer rut continuing, bucks visibly thinner from constant chasing and sparring",
+      "habitats": [
+        "woodland",
+        "grassland",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The buck deer look skinny. They haven't been eating because they've been too busy showing off!"
+    },
+    {
+      "id": "us_mountain_west_w39_cottonwood_fall",
+      "species": "Plains Cottonwood",
+      "scientificName": "Populus deltoides",
+      "description": "Cottonwoods shedding golden leaves, rivers of yellow flowing along waterways against brown grasslands",
+      "habitats": [
+        "stream",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Golden cottonwood leaves pile up on the ground and float down the stream, a golden river under a golden tree!"
+    },
+    {
+      "id": "us_mountain_west_w39_canada_goose",
+      "species": "Canada Goose",
+      "scientificName": "Branta canadensis",
+      "description": "Large flocks of geese staging on ponds and reservoirs, resting before continuing south",
+      "habitats": [
+        "pond",
+        "playing_field",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Hundreds of geese rest on the lake like a noisy parking lot. They honk and splash and argue all day!"
+    },
+    {
+      "id": "us_mountain_west_w39_first_snow",
+      "species": "First Mountain Snow",
+      "description": "First snow dusting the highest peaks, a dramatic white cap above the gold and brown of the valleys",
+      "habitats": [
+        "grassland",
+        "meadow",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The mountain tops get their first white snow cap. They look like they're wearing fluffy white hats!"
+    }
+  ],
+  "40": [
+    {
+      "id": "us_mountain_west_w40_first_snow",
+      "species": "First Valley Snow",
+      "description": "First snow possible in valley towns, often melting by midday but signalling winter's approach",
+      "habitats": [
+        "urban",
+        "garden",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The first snow in town! It might melt by lunchtime, but those first flakes on your tongue taste like winter!"
+    },
+    {
+      "id": "us_mountain_west_w40_elk",
+      "species": "Elk",
+      "scientificName": "Cervus canadensis",
+      "description": "Elk herds beginning to move toward winter range, bulls rejoining small groups",
+      "habitats": [
+        "grassland",
+        "meadow",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Elk families start walking downhill to warmer valleys. It's like their own autumn road trip!"
+    },
+    {
+      "id": "us_mountain_west_w40_mule_deer",
+      "species": "Mule Deer",
+      "scientificName": "Odocoileus hemionus",
+      "description": "Mule deer beginning autumn migration from high summer range to lower winter areas",
+      "habitats": [
+        "woodland",
+        "grassland",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Deer are moving downhill to town. You might see more deer in your neighbourhood as winter approaches!"
+    },
+    {
+      "id": "us_mountain_west_w40_black_billed_magpie",
+      "species": "Black-billed Magpie",
+      "scientificName": "Pica hudsonia",
+      "description": "Magpies in autumn flocks, conspicuous in bare trees, caching food for winter",
+      "habitats": [
+        "urban",
+        "garden",
+        "hedgerow",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Magpies are hiding food everywhere: under leaves, in gutters, in fence holes. Will they remember all the spots?"
+    },
+    {
+      "id": "us_mountain_west_w40_dark_eyed_junco",
+      "species": "Dark-eyed Junco",
+      "scientificName": "Junco hyemalis",
+      "description": "Junco winter flocks established, hopping on the ground under feeders and bushes",
+      "habitats": [
+        "garden",
+        "urban",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Juncos hop around under the bird feeder cleaning up spilled seeds. They're the clean-up crew!"
+    }
+  ],
+  "41": [
+    {
+      "id": "us_mountain_west_w41_elk",
+      "species": "Elk",
+      "scientificName": "Cervus canadensis",
+      "description": "Elk migration in full swing, large herds visible moving through valleys and across roads",
+      "habitats": [
+        "grassland",
+        "meadow",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Huge herds of elk march through the valleys. Sometimes they walk right across the road and you have to wait!"
+    },
+    {
+      "id": "us_mountain_west_w41_mule_deer",
+      "species": "Mule Deer",
+      "scientificName": "Odocoileus hemionus",
+      "description": "Mule deer migration continuing, more deer appearing in towns and lower foothills",
+      "habitats": [
+        "woodland",
+        "grassland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Deer are everywhere! They walk through yards, munch on bushes, and stare at you with their big brown eyes"
+    },
+    {
+      "id": "us_mountain_west_w41_bare_aspen",
+      "species": "Quaking Aspen",
+      "scientificName": "Populus tremuloides",
+      "description": "Aspens mostly bare, white trunks with dark eye-shaped scars standing stark against grey and blue skies",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Bare white aspen trunks have dark eye-shaped marks. A whole grove looks like it's watching you with hundreds of eyes!"
+    },
+    {
+      "id": "us_mountain_west_w41_black_billed_magpie",
+      "species": "Black-billed Magpie",
+      "scientificName": "Pica hudsonia",
+      "description": "Magpie flocks noisy and bold, their empty domed nests visible in bare trees",
+      "habitats": [
+        "urban",
+        "garden",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Now you can see magpie nests in the bare trees, big messy stick domes that look like bird castles!"
+    },
+    {
+      "id": "us_mountain_west_w41_mountain_chickadee",
+      "species": "Mountain Chickadee",
+      "scientificName": "Poecile gambeli",
+      "description": "Mountain chickadees moving to lower elevations, joining mixed flocks with juncos and nuthatches",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Mountain chickadees look like regular chickadees with a white racing stripe over their eye, \"chick-a-dee-dee!\""
+    }
+  ],
+  "42": [
+    {
+      "id": "us_mountain_west_w42_mule_deer",
+      "species": "Mule Deer",
+      "scientificName": "Odocoileus hemionus",
+      "description": "Mule deer settling into winter range in towns and lower foothills, bucks beginning to shed antlers",
+      "habitats": [
+        "woodland",
+        "grassland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Deer are dropping their antlers again. The yearly cycle starts over! Search the hillsides for treasures"
+    },
+    {
+      "id": "us_mountain_west_w42_dark_eyed_junco",
+      "species": "Dark-eyed Junco",
+      "scientificName": "Junco hyemalis",
+      "description": "Junco flocks fully established for winter, trilling songs and flashing white tail feathers",
+      "habitats": [
+        "garden",
+        "urban",
+        "woodland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Juncos are here for the whole winter. They'll be your little grey feeder friends until spring!"
+    },
+    {
+      "id": "us_mountain_west_w42_elk",
+      "species": "Elk",
+      "scientificName": "Cervus canadensis",
+      "description": "Elk herds on winter range, large groups visible in valley meadows and on feed grounds",
+      "habitats": [
+        "grassland",
+        "meadow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Huge groups of elk gather in the snowy valleys, sometimes hundreds all together!"
+    },
+    {
+      "id": "us_mountain_west_w42_snow_on_evergreens",
+      "species": "Snow on Evergreens",
+      "description": "Snow draped on ponderosa pine and Douglas fir branches, green boughs bent under white weight",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Pine trees wear snow like white frosting on green cake. Brush a branch and whoosh, a mini snowstorm!"
+    },
+    {
+      "id": "us_mountain_west_w42_red_tailed_hawk",
+      "species": "Red-tailed Hawk",
+      "scientificName": "Buteo jamaicensis",
+      "description": "Red-tailed hawks perched on bare cottonwoods and poles, easily visible against grey October skies",
+      "habitats": [
+        "grassland",
+        "urban",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Hawks are easy to spot now that leaves are gone. Big puffed-up birds sit on bare branches watching everything!"
+    }
+  ],
+  "43": [
+    {
+      "id": "us_mountain_west_w43_black_billed_magpie",
+      "species": "Black-billed Magpie",
+      "scientificName": "Pica hudsonia",
+      "description": "Magpies conspicuous in bare trees and on snowy ground, iridescent feathers flashing in thin autumn sun",
+      "habitats": [
+        "urban",
+        "garden",
+        "woodland",
+        "grassland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Magpie feathers aren't just black. Look close in the sun and you'll see green, blue, and purple shimmer!"
+    },
+    {
+      "id": "us_mountain_west_w43_dark_eyed_junco",
+      "species": "Dark-eyed Junco",
+      "scientificName": "Junco hyemalis",
+      "description": "Junco flocks busy at feeders, their grey-and-white plumage blending with the November landscape",
+      "habitats": [
+        "garden",
+        "urban",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Juncos match the grey sky and white snow perfectly. They're wearing winter camouflage!"
+    },
+    {
+      "id": "us_mountain_west_w43_mule_deer",
+      "species": "Mule Deer",
+      "scientificName": "Odocoileus hemionus",
+      "description": "Mule deer in winter coats, thick grey-brown fur keeping them warm in freezing temperatures",
+      "habitats": [
+        "woodland",
+        "grassland",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Deer put on their fluffy winter coats. Their fur is hollow, so it traps warm air like a sleeping bag!"
+    },
+    {
+      "id": "us_mountain_west_w43_stellers_jay",
+      "species": "Steller's Jay",
+      "scientificName": "Cyanocitta stelleri",
+      "description": "Steller's jays moving to lower elevations, visiting feeders and caching pinyon pine nuts",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Steller's jays swoop in from the mountains. They scream and grab seeds and fly off to hide them!"
+    },
+    {
+      "id": "us_mountain_west_w43_coyote",
+      "species": "Coyote",
+      "scientificName": "Canis latrans",
+      "description": "Coyotes in thick winter coats, howling at dusk, more visible as vegetation dies back",
+      "habitats": [
+        "grassland",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Coyotes look extra fluffy in their winter fur. Listen at sunset for their howling song across the cold air!"
+    }
+  ],
+  "44": [
+    {
+      "id": "us_mountain_west_w44_elk",
+      "species": "Elk",
+      "scientificName": "Cervus canadensis",
+      "description": "Elk settled on winter range, herds grazing in valley meadows, bulls shedding antlers",
+      "habitats": [
+        "grassland",
+        "meadow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Big elk herds stand in the snowy fields. The boys are starting to lose their antlers one by one!"
+    },
+    {
+      "id": "us_mountain_west_w44_black_billed_magpie",
+      "species": "Black-billed Magpie",
+      "scientificName": "Pica hudsonia",
+      "description": "Magpies feeding on anything they can find, from roadkill to bird feeders, chattering loudly",
+      "habitats": [
+        "urban",
+        "garden",
+        "grassland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Magpies eat just about anything. They're nature's cleanup crew with the fanciest outfits!"
+    },
+    {
+      "id": "us_mountain_west_w44_ponderosa_pine",
+      "species": "Ponderosa Pine",
+      "scientificName": "Pinus ponderosa",
+      "description": "Ponderosa pines vivid green against fresh snow, the warm orange bark striking in low autumn light",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Ponderosa pines are the toughest trees, green and strong while everything else is bare and brown!"
+    },
+    {
+      "id": "us_mountain_west_w44_red_tailed_hawk",
+      "species": "Red-tailed Hawk",
+      "scientificName": "Buteo jamaicensis",
+      "description": "Red-tails hunting along roads, perched on poles watching for voles in stubble fields",
+      "habitats": [
+        "grassland",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Hawks sit on every other telephone pole along country roads. They're watching for mice like nature's security cameras!"
+    },
+    {
+      "id": "us_mountain_west_w44_animal_tracks_in_snow",
+      "species": "Animal Tracks in Snow",
+      "description": "First good tracking snow reveals rabbit, squirrel, deer, and coyote trails through neighbourhoods",
+      "habitats": [
+        "garden",
+        "woodland",
+        "grassland",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Fresh snow is like a detective's notebook. Every animal that walked by left footprints for you to read!"
+    }
+  ],
+  "45": [
+    {
+      "id": "us_mountain_west_w45_dark_eyed_junco",
+      "species": "Dark-eyed Junco",
+      "scientificName": "Junco hyemalis",
+      "description": "Juncos in full winter abundance, large flocks scratching under feeders and along hedge lines",
+      "habitats": [
+        "garden",
+        "urban",
+        "woodland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Juncos are everywhere! Count how many you can see under the bird feeder. Sometimes there are dozens!"
+    },
+    {
+      "id": "us_mountain_west_w45_great_horned_owl",
+      "species": "Great Horned Owl",
+      "scientificName": "Bubo virginianus",
+      "description": "Great horned owls beginning courtship hooting, deep duets echoing in the cold November night",
+      "habitats": [
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Owls start their love songs early! Listen at bedtime for \"hoo-hoo-hooooo hoo-hoo\" from the big trees"
+    },
+    {
+      "id": "us_mountain_west_w45_mule_deer",
+      "species": "Mule Deer",
+      "scientificName": "Odocoileus hemionus",
+      "description": "Mule deer in winter groups, browsing on sagebrush and whatever green they can find",
+      "habitats": [
+        "grassland",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Deer munch on sagebrush. It's not very tasty but it's green when everything else is brown and dead!"
+    },
+    {
+      "id": "us_mountain_west_w45_coyote",
+      "species": "Coyote",
+      "scientificName": "Canis latrans",
+      "description": "Coyotes more visible in early dusk, trotting through open areas with thick winter coats",
+      "habitats": [
+        "grassland",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A fluffy coyote trots across the snowy field at sunset. It looks like a wild dog on a mission!"
+    },
+    {
+      "id": "us_mountain_west_w45_stellers_jay",
+      "species": "Steller's Jay",
+      "scientificName": "Cyanocitta stelleri",
+      "description": "Steller's jays noisy at feeders, their bold blue colour vivid against grey and white landscape",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The Steller's jay is the loudest bird at the feeder. It screams \"shack shack shack\" and scares everyone else away!"
+    }
+  ],
+  "46": [
+    {
+      "id": "us_mountain_west_w46_black_billed_magpie",
+      "species": "Black-billed Magpie",
+      "scientificName": "Pica hudsonia",
+      "description": "Magpies in winter flocks, long tails streaming behind them in flight against snowy backgrounds",
+      "habitats": [
+        "urban",
+        "garden",
+        "grassland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Magpies fly with their super-long tails streaming behind them like black-and-white kites!"
+    },
+    {
+      "id": "us_mountain_west_w46_great_horned_owl",
+      "species": "Great Horned Owl",
+      "scientificName": "Bubo virginianus",
+      "description": "Great horned owl pairs hooting in courtship, choosing nest sites in cottonwoods and on cliff ledges",
+      "habitats": [
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Two owls hoot back and forth to each other in the dark: the deep one is dad, the higher one is mum!"
+    },
+    {
+      "id": "us_mountain_west_w46_elk",
+      "species": "Elk",
+      "scientificName": "Cervus canadensis",
+      "description": "Elk in large winter herds, pawing through snow for grass, steam rising from their breath in cold air",
+      "habitats": [
+        "grassland",
+        "meadow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Elk breathe out clouds of steam in the cold. A whole herd makes a misty fog as they eat!"
+    },
+    {
+      "id": "us_mountain_west_w46_dark_eyed_junco",
+      "species": "Dark-eyed Junco",
+      "scientificName": "Junco hyemalis",
+      "description": "Juncos and other sparrows sheltering in dense bushes, huddled together for warmth on cold nights",
+      "habitats": [
+        "garden",
+        "urban",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "At bedtime, juncos squeeze together in thick bushes to share body heat, a feathery sleep-over!"
+    },
+    {
+      "id": "us_mountain_west_w46_ponderosa_pine",
+      "species": "Ponderosa Pine",
+      "scientificName": "Pinus ponderosa",
+      "description": "Ponderosa and Douglas fir provide the only green in the landscape, sheltering birds from winter winds",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Evergreen trees are the heroes of winter. They stay green and give birds and squirrels a place to hide from storms!"
+    }
+  ],
+  "47": [
+    {
+      "id": "us_mountain_west_w47_animal_tracks_in_snow",
+      "species": "Animal Tracks in Snow",
+      "description": "Fresh snow reveals overnight visitors: rabbit, deer, coyote, and fox tracks crisscrossing yards and fields",
+      "habitats": [
+        "garden",
+        "woodland",
+        "grassland",
+        "urban",
+        "playing_field"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Check the snow first thing in the morning. You can tell exactly who visited your yard while you were sleeping!"
+    },
+    {
+      "id": "us_mountain_west_w47_red_tailed_hawk",
+      "species": "Red-tailed Hawk",
+      "scientificName": "Buteo jamaicensis",
+      "description": "Red-tailed hawks puffed up on perches, conserving energy in the cold, hunting during brief warm spells",
+      "habitats": [
+        "grassland",
+        "urban",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The hawk fluffs up its feathers like a puffy jacket to stay warm. It looks twice as big as in summer!"
+    },
+    {
+      "id": "us_mountain_west_w47_black_billed_magpie",
+      "species": "Black-billed Magpie",
+      "scientificName": "Pica hudsonia",
+      "description": "Magpies foraging in small groups, their chattering calls breaking the winter silence",
+      "habitats": [
+        "urban",
+        "garden",
+        "grassland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Magpies chatter and gossip all day long. They seem to have so much to say to each other!"
+    },
+    {
+      "id": "us_mountain_west_w47_mule_deer",
+      "species": "Mule Deer",
+      "scientificName": "Odocoileus hemionus",
+      "description": "Mule deer gathering in sheltered valleys and on south-facing slopes where snow melts first",
+      "habitats": [
+        "grassland",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Deer huddle on sunny hillsides where the snow melts. They're smart about finding the warmest spots!"
+    },
+    {
+      "id": "us_mountain_west_w47_great_horned_owl",
+      "species": "Great Horned Owl",
+      "scientificName": "Bubo virginianus",
+      "description": "Great horned owls hooting loudly in early evening, establishing territories for nesting season",
+      "habitats": [
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The great horned owl hoots as soon as it gets dark. Listen right after sunset for that deep \"who-who-who\""
+    }
+  ],
+  "48": [
+    {
+      "id": "us_mountain_west_w48_ponderosa_pine",
+      "species": "Ponderosa Pine",
+      "scientificName": "Pinus ponderosa",
+      "description": "Ponderosa pine and Douglas fir standing green against fresh snow, the backbone of the winter landscape",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Green pines look like Christmas trees covered in snow frosting. Sniff the bark for that cookie smell!"
+    },
+    {
+      "id": "us_mountain_west_w48_dark_eyed_junco",
+      "species": "Dark-eyed Junco",
+      "scientificName": "Junco hyemalis",
+      "description": "Juncos feeding actively in the short winter days, needing to find enough calories before the long cold night",
+      "habitats": [
+        "garden",
+        "urban",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Juncos eat fast because winter days are short. They need a full tummy to survive the long cold night!"
+    },
+    {
+      "id": "us_mountain_west_w48_great_horned_owl",
+      "species": "Great Horned Owl",
+      "scientificName": "Bubo virginianus",
+      "description": "Great horned owls may begin nesting in late November, sitting on eggs through December snowstorms",
+      "habitats": [
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Some owls are already sitting on eggs! They nest in winter because their babies need lots of time to grow"
+    },
+    {
+      "id": "us_mountain_west_w48_stellers_jay",
+      "species": "Steller's Jay",
+      "scientificName": "Cyanocitta stelleri",
+      "description": "Steller's jays retrieving cached seeds from hiding spots, their memory remarkable",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The Steller's jay remembers where it buried hundreds of seeds. It finds them even under the snow!"
+    },
+    {
+      "id": "us_mountain_west_w48_coyote",
+      "species": "Coyote",
+      "scientificName": "Canis latrans",
+      "description": "Coyotes yipping and howling at dusk, sound carrying far in the crisp cold air",
+      "habitats": [
+        "grassland",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Coyote howls sound extra loud and spooky in the cold night air. The sound bounces off everything!"
+    }
+  ],
+  "49": [
+    {
+      "id": "us_mountain_west_w49_elk",
+      "species": "Elk",
+      "scientificName": "Cervus canadensis",
+      "description": "Elk in deep winter mode, large herds concentrated on sheltered winter ranges, some still carrying antlers",
+      "habitats": [
+        "grassland",
+        "meadow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Elk stand shoulder to shoulder in the snow. They share body heat to stay warm in the freezing cold"
+    },
+    {
+      "id": "us_mountain_west_w49_black_billed_magpie",
+      "species": "Black-billed Magpie",
+      "scientificName": "Pica hudsonia",
+      "description": "Magpies bold and adaptable in winter, following deer and elk herds to scavenge",
+      "habitats": [
+        "urban",
+        "garden",
+        "grassland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Clever magpies follow the elk around. They pick bugs off the elk's back and the elk don't even mind!"
+    },
+    {
+      "id": "us_mountain_west_w49_stars_in_dry_air",
+      "species": "Winter Stars",
+      "description": "Orion and winter constellations brilliant in the dry mountain air, the Milky Way visible from dark locations",
+      "habitats": [
+        "grassland",
+        "meadow",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The dry mountain air makes stars extra sparkly. Find Orion the Hunter and his three-star belt in the south!"
+    },
+    {
+      "id": "us_mountain_west_w49_red_tailed_hawk",
+      "species": "Red-tailed Hawk",
+      "scientificName": "Buteo jamaicensis",
+      "description": "Red-tailed hawks on fence posts and poles, hunting the few daylight hours for rodents",
+      "habitats": [
+        "grassland",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Hawks have to catch enough mice in just a few hours of daylight. Every minute of winter sunshine counts!"
+    },
+    {
+      "id": "us_mountain_west_w49_ponderosa_pine",
+      "species": "Ponderosa Pine",
+      "scientificName": "Pinus ponderosa",
+      "description": "Ponderosa pines dusted with snow, orange bark glowing in low winter sun, butterscotch scent on warm afternoons",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Even in December, a sunny afternoon warms the ponderosa bark enough to release that amazing cookie smell!"
+    }
+  ],
+  "50": [
+    {
+      "id": "us_mountain_west_w50_great_horned_owl",
+      "species": "Great Horned Owl",
+      "scientificName": "Bubo virginianus",
+      "description": "Great horned owls on nests or preparing to nest, deep hooting duets audible on cold clear nights",
+      "habitats": [
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Owls are nesting in December! Mama owl keeps her eggs warm even when it's below zero outside, amazing!"
+    },
+    {
+      "id": "us_mountain_west_w50_mule_deer",
+      "species": "Mule Deer",
+      "scientificName": "Odocoileus hemionus",
+      "description": "Mule deer in heavy winter coats, gathered in sheltered canyons and town edges, browsing sagebrush",
+      "habitats": [
+        "grassland",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Deer wear their thickest winter coats. Hollow fur traps air like a puffy jacket to keep them warm!"
+    },
+    {
+      "id": "us_mountain_west_w50_black_billed_magpie",
+      "species": "Black-billed Magpie",
+      "scientificName": "Pica hudsonia",
+      "description": "Magpies roosting communally in dense trees at night, dispersing in noisy groups at first light",
+      "habitats": [
+        "urban",
+        "garden",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Magpies sleep together in the same tree every night. In the morning they all fly out chattering at once!"
+    },
+    {
+      "id": "us_mountain_west_w50_animal_tracks_in_snow",
+      "species": "Animal Tracks in Snow",
+      "description": "Snow tracking at its best: mouse tunnels, rabbit hops, deer trails, and coyote paths visible after fresh snow",
+      "habitats": [
+        "garden",
+        "woodland",
+        "grassland",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Snow is nature's story book. Mouse trails look like tiny zippers, and you can follow them to see where they went!"
+    },
+    {
+      "id": "us_mountain_west_w50_dark_eyed_junco",
+      "species": "Dark-eyed Junco",
+      "scientificName": "Junco hyemalis",
+      "description": "Juncos foraging busily on short winter days, flocking around feeders and hedgerows",
+      "habitats": [
+        "garden",
+        "urban",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Juncos eat all day long in winter. They need to fill up before the long, cold, 15-hour night!"
+    }
+  ],
+  "51": [
+    {
+      "id": "us_mountain_west_w51_ponderosa_pine",
+      "species": "Ponderosa Pine",
+      "scientificName": "Pinus ponderosa",
+      "description": "Ponderosa pine and Douglas fir standing strong in winter, green boughs heavy with fresh snow",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The tallest ponderosas wear snow on their branches like white sleeves. They've been standing here for hundreds of years!"
+    },
+    {
+      "id": "us_mountain_west_w51_great_horned_owl",
+      "species": "Great Horned Owl",
+      "scientificName": "Bubo virginianus",
+      "description": "Great horned owls incubating through the shortest days, calling at dusk from snow-covered perches",
+      "habitats": [
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The owl sits on her eggs through blizzards and freezing nights. She's the bravest bird in the forest!"
+    },
+    {
+      "id": "us_mountain_west_w51_elk",
+      "species": "Elk",
+      "scientificName": "Cervus canadensis",
+      "description": "Elk herds on winter range, surviving on dry grass and browse, calves nearly full-grown",
+      "habitats": [
+        "grassland",
+        "meadow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The elk calves born last spring are almost as big as their mums now. They grew so fast!"
+    },
+    {
+      "id": "us_mountain_west_w51_stellers_jay",
+      "species": "Steller's Jay",
+      "scientificName": "Cyanocitta stelleri",
+      "description": "Steller's jays bright blue against the snow, raiding feeders and screaming from the pines",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The bold blue jay lands right on the feeder pole and screams. It wants all the seeds for itself!"
+    },
+    {
+      "id": "us_mountain_west_w51_winter_stars",
+      "species": "Winter Stars",
+      "description": "The longest night of the year: Orion, Sirius, and the winter constellations blaze in crystal-clear mountain air",
+      "habitats": [
+        "grassland",
+        "meadow",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The longest night has the most stars! Find the brightest star in the sky. That's Sirius, the dog star, following Orion!"
+    }
+  ],
+  "52": [
+    {
+      "id": "us_mountain_west_w52_mule_deer",
+      "species": "Mule Deer",
+      "scientificName": "Odocoileus hemionus",
+      "description": "Mule deer in winter survival mode, conserving energy, moving little, browsing on sagebrush and juniper",
+      "habitats": [
+        "grassland",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Deer move slowly to save energy in the deep cold. Every calorie counts when food is hard to find!"
+    },
+    {
+      "id": "us_mountain_west_w52_black_billed_magpie",
+      "species": "Black-billed Magpie",
+      "scientificName": "Pica hudsonia",
+      "description": "Magpies bold and noisy as ever, black-and-white plumage crisp against the holiday snow",
+      "habitats": [
+        "urban",
+        "garden",
+        "grassland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Magpies are dressed in black and white like they're going to a fancy party, and they never stop chatting!"
+    },
+    {
+      "id": "us_mountain_west_w52_coyote",
+      "species": "Coyote",
+      "scientificName": "Canis latrans",
+      "description": "Coyotes hunting in the cold, pouncing through snow to catch mice, their yipping chorus echoing at dusk",
+      "habitats": [
+        "grassland",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Coyotes leap high and dive nose-first into the snow. They heard a mouse underneath and pounce!"
+    },
+    {
+      "id": "us_mountain_west_w52_ponderosa_pine",
+      "species": "Ponderosa Pine",
+      "scientificName": "Pinus ponderosa",
+      "description": "Ponderosa pine fragrant even in deep winter, warm bark a beacon of life in the frozen landscape",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Even in the coldest week of the year, hug a ponderosa on a sunny day and breathe in, warm vanilla magic!"
+    },
+    {
+      "id": "us_mountain_west_w52_great_horned_owl",
+      "species": "Great Horned Owl",
+      "scientificName": "Bubo virginianus",
+      "description": "Great horned owls hooting through the longest nights, the deep call a signature sound of the mountain winter",
+      "habitats": [
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "As the year ends, the owl's deep hoot echoes through the cold mountains. Goodnight, wild world!"
+    }
+  ]
+}

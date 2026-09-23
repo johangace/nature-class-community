@@ -1,0 +1,279 @@
+{
+  "cameraEvidence": {
+    "center": {
+      "latitude": 42.5378,
+      "longitude": -72.1715
+    },
+    "source": "phenocam",
+    "evidenceKind": "camera-derived",
+    "siteId": "harvard",
+    "roiId": "1000",
+    "vegetationType": "DB",
+    "spatialScope": "camera-roi-only",
+    "cameraPosition": {
+      "latitude": 42.5378,
+      "longitude": -72.1715
+    },
+    "footprint": null,
+    "distanceKm": 0,
+    "localConditionConfirmed": false,
+    "silent": false,
+    "samples": [
+      {
+        "date": "2026-08-07",
+        "gccMean": 0.42291,
+        "imageCount": 25,
+        "outlierCheck": "unavailable",
+        "imageUrl": "https://phenocam.nau.edu/data/archive/harvard/2026/08/harvard_2026_08_07_115906.jpg"
+      },
+      {
+        "date": "2026-08-08",
+        "gccMean": 0.42094,
+        "imageCount": 24,
+        "outlierCheck": "unavailable",
+        "imageUrl": "https://phenocam.nau.edu/data/archive/harvard/2026/08/harvard_2026_08_08_115906.jpg"
+      },
+      {
+        "date": "2026-08-09",
+        "gccMean": 0.42325,
+        "imageCount": 24,
+        "outlierCheck": "unavailable",
+        "imageUrl": "https://phenocam.nau.edu/data/archive/harvard/2026/08/harvard_2026_08_09_115906.jpg"
+      },
+      {
+        "date": "2026-08-10",
+        "gccMean": 0.42406,
+        "imageCount": 24,
+        "outlierCheck": "unavailable",
+        "imageUrl": "https://phenocam.nau.edu/data/archive/harvard/2026/08/harvard_2026_08_10_115905.jpg"
+      },
+      {
+        "date": "2026-08-11",
+        "gccMean": 0.4208,
+        "imageCount": 24,
+        "outlierCheck": "unavailable",
+        "imageUrl": "https://phenocam.nau.edu/data/archive/harvard/2026/08/harvard_2026_08_11_115905.jpg"
+      },
+      {
+        "date": "2026-08-12",
+        "gccMean": 0.42106,
+        "imageCount": 24,
+        "outlierCheck": "unavailable",
+        "imageUrl": "https://phenocam.nau.edu/data/archive/harvard/2026/08/harvard_2026_08_12_115906.jpg"
+      },
+      {
+        "date": "2026-08-13",
+        "gccMean": 0.41851,
+        "imageCount": 24,
+        "outlierCheck": "unavailable",
+        "imageUrl": "https://phenocam.nau.edu/data/archive/harvard/2026/08/harvard_2026_08_13_115905.jpg"
+      },
+      {
+        "date": "2026-08-14",
+        "gccMean": 0.42016,
+        "imageCount": 24,
+        "outlierCheck": "unavailable",
+        "imageUrl": "https://phenocam.nau.edu/data/archive/harvard/2026/08/harvard_2026_08_14_115905.jpg"
+      },
+      {
+        "date": "2026-08-15",
+        "gccMean": 0.41958,
+        "imageCount": 24,
+        "outlierCheck": "unavailable",
+        "imageUrl": "https://phenocam.nau.edu/data/archive/harvard/2026/08/harvard_2026_08_15_115905.jpg"
+      },
+      {
+        "date": "2026-08-16",
+        "gccMean": 0.42075,
+        "imageCount": 24,
+        "outlierCheck": "unavailable",
+        "imageUrl": "https://phenocam.nau.edu/data/archive/harvard/2026/08/harvard_2026_08_16_115906.jpg"
+      },
+      {
+        "date": "2026-08-17",
+        "gccMean": 0.42022,
+        "imageCount": 24,
+        "outlierCheck": "unavailable",
+        "imageUrl": "https://phenocam.nau.edu/data/archive/harvard/2026/08/harvard_2026_08_17_115905.jpg"
+      },
+      {
+        "date": "2026-08-18",
+        "gccMean": 0.42104,
+        "imageCount": 24,
+        "outlierCheck": "unavailable",
+        "imageUrl": "https://phenocam.nau.edu/data/archive/harvard/2026/08/harvard_2026_08_18_115906.jpg"
+      },
+      {
+        "date": "2026-08-19",
+        "gccMean": 0.42067,
+        "imageCount": 23,
+        "outlierCheck": "unavailable",
+        "imageUrl": "https://phenocam.nau.edu/data/archive/harvard/2026/08/harvard_2026_08_19_115905.jpg"
+      },
+      {
+        "date": "2026-08-20",
+        "gccMean": 0.4242,
+        "imageCount": 23,
+        "outlierCheck": "unavailable",
+        "imageUrl": "https://phenocam.nau.edu/data/archive/harvard/2026/08/harvard_2026_08_20_115905.jpg"
+      },
+      {
+        "date": "2026-08-21",
+        "gccMean": 0.41882,
+        "imageCount": 23,
+        "outlierCheck": "unavailable",
+        "imageUrl": "https://phenocam.nau.edu/data/archive/harvard/2026/08/harvard_2026_08_21_115905.jpg"
+      },
+      {
+        "date": "2026-08-22",
+        "gccMean": 0.41993,
+        "imageCount": 23,
+        "outlierCheck": "unavailable",
+        "imageUrl": "https://phenocam.nau.edu/data/archive/harvard/2026/08/harvard_2026_08_22_115905.jpg"
+      },
+      {
+        "date": "2026-08-23",
+        "gccMean": 0.42319,
+        "imageCount": 23,
+        "outlierCheck": "unavailable",
+        "imageUrl": "https://phenocam.nau.edu/data/archive/harvard/2026/08/harvard_2026_08_23_115905.jpg"
+      },
+      {
+        "date": "2026-08-24",
+        "gccMean": 0.42111,
+        "imageCount": 23,
+        "outlierCheck": "unavailable",
+        "imageUrl": "https://phenocam.nau.edu/data/archive/harvard/2026/08/harvard_2026_08_24_115906.jpg"
+      },
+      {
+        "date": "2026-08-25",
+        "gccMean": 0.4168,
+        "imageCount": 23,
+        "outlierCheck": "unavailable",
+        "imageUrl": "https://phenocam.nau.edu/data/archive/harvard/2026/08/harvard_2026_08_25_115905.jpg"
+      },
+      {
+        "date": "2026-08-26",
+        "gccMean": 0.41701,
+        "imageCount": 23,
+        "outlierCheck": "unavailable",
+        "imageUrl": "https://phenocam.nau.edu/data/archive/harvard/2026/08/harvard_2026_08_26_115905.jpg"
+      },
+      {
+        "date": "2026-08-27",
+        "gccMean": 0.41896,
+        "imageCount": 23,
+        "outlierCheck": "unavailable",
+        "imageUrl": "https://phenocam.nau.edu/data/archive/harvard/2026/08/harvard_2026_08_27_115905.jpg"
+      },
+      {
+        "date": "2026-08-28",
+        "gccMean": 0.41853,
+        "imageCount": 22,
+        "outlierCheck": "unavailable",
+        "imageUrl": "https://phenocam.nau.edu/data/archive/harvard/2026/08/harvard_2026_08_28_115906.jpg"
+      },
+      {
+        "date": "2026-08-29",
+        "gccMean": 0.41905,
+        "imageCount": 22,
+        "outlierCheck": "unavailable",
+        "imageUrl": "https://phenocam.nau.edu/data/archive/harvard/2026/08/harvard_2026_08_29_115906.jpg"
+      },
+      {
+        "date": "2026-08-30",
+        "gccMean": 0.41967,
+        "imageCount": 22,
+        "outlierCheck": "unavailable",
+        "imageUrl": "https://phenocam.nau.edu/data/archive/harvard/2026/08/harvard_2026_08_30_115905.jpg"
+      },
+      {
+        "date": "2026-08-31",
+        "gccMean": 0.4189,
+        "imageCount": 22,
+        "outlierCheck": "unavailable",
+        "imageUrl": "https://phenocam.nau.edu/data/archive/harvard/2026/08/harvard_2026_08_31_115906.jpg"
+      },
+      {
+        "date": "2026-09-01",
+        "gccMean": 0.42142,
+        "imageCount": 22,
+        "outlierCheck": "unavailable",
+        "imageUrl": "https://phenocam.nau.edu/data/archive/harvard/2026/09/harvard_2026_09_01_115905.jpg"
+      },
+      {
+        "date": "2026-09-02",
+        "gccMean": 0.41793,
+        "imageCount": 22,
+        "outlierCheck": "unavailable",
+        "imageUrl": "https://phenocam.nau.edu/data/archive/harvard/2026/09/harvard_2026_09_02_115906.jpg"
+      },
+      {
+        "date": "2026-09-03",
+        "gccMean": 0.41453,
+        "imageCount": 22,
+        "outlierCheck": "unavailable",
+        "imageUrl": "https://phenocam.nau.edu/data/archive/harvard/2026/09/harvard_2026_09_03_115905.jpg"
+      },
+      {
+        "date": "2026-09-04",
+        "gccMean": 0.4175,
+        "imageCount": 22,
+        "outlierCheck": "unavailable",
+        "imageUrl": "https://phenocam.nau.edu/data/archive/harvard/2026/09/harvard_2026_09_04_115905.jpg"
+      },
+      {
+        "date": "2026-09-05",
+        "gccMean": 0.4162,
+        "imageCount": 22,
+        "outlierCheck": "unavailable",
+        "imageUrl": "https://phenocam.nau.edu/data/archive/harvard/2026/09/harvard_2026_09_05_115906.jpg"
+      }
+    ],
+    "retrievedAt": "2026-09-07T12:00:00.000Z",
+    "sourceUpdatedOn": "2026-09-06",
+    "sourceUrl": "https://phenocam.nau.edu/data/archive/harvard/ROI/harvard_DB_1000_1day.csv",
+    "siteUrl": "https://phenocam.nau.edu/webcam/sites/harvard/",
+    "termsUrl": "https://phenocam.nau.edu/webcam/fairuse_statement/",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "PhenoCam Network; Harvard Forest EMS AmeriFlux core site (DOE Office of Science, DE-AC02-05CH11231); Harvard Forest LTER (NSF DEB-1237491). Richardson et al. (2018), https://doi.org/10.1038/sdata.2018.28. Provisional archive data; subset of daily GCC means.",
+    "provisional": true,
+    "ttlMinutes": 360
+  },
+  "treeInventory": {
+    "source": "boston-bprd",
+    "evidenceKind": "inventory",
+    "spatialScope": "publisher-tree-points",
+    "localPresenceConfirmed": false,
+    "radiusMeters": 500,
+    "center": {
+      "latitude": 42.29612,
+      "longitude": -71.06462
+    },
+    "silent": false,
+    "records": [
+      {
+        "entityId": "boston-bprd:2",
+        "publisherId": 2,
+        "scientificName": "Acer platanoides",
+        "commonName": "Maple, Norway",
+        "latitude": 42.29612,
+        "longitude": -71.06462,
+        "coordinateUncertaintyMeters": null,
+        "inventoryObservedOn": null,
+        "plantedOnRaw": null,
+        "park": null,
+        "distanceKm": 0,
+        "access": "not-verified"
+      }
+    ],
+    "retrievedAt": "2026-09-07T12:00:00.000Z",
+    "sourceUrl": "https://data.boston.gov/dataset/bprd-trees",
+    "license": "ODC-PDDL-1.0",
+    "licenseUrl": "https://opendatacommons.org/licenses/pddl/1-0/",
+    "attribution": "City of Boston Parks and Recreation Department, BPRD Trees. Publisher inventory subset; coordinates and continued presence not independently verified.",
+    "ttlMinutes": 1440,
+    "truncated": true
+  }
+}

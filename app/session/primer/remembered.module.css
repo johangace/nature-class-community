@@ -1,0 +1,68 @@
+/* The memory strip, built in the primer's own register (#509).
+   Rows, not cards: this page is body prose at a comfortable measure, and a
+   bordered card here would be the chrome the rest of the product bans. */
+
+.list {
+  margin-top: 0.2rem;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+  align-items: baseline;
+  padding: 0.65rem 0;
+  border-bottom: 1px solid var(--hairline-soft);
+}
+
+.row:last-child {
+  border-bottom: 0;
+}
+
+.said {
+  font-size: var(--size-2);
+  line-height: 1.6;
+  color: var(--ink);
+  max-width: 44ch;
+}
+
+.said em {
+  font-style: italic;
+  color: var(--ink-soft);
+}
+
+.source {
+  font-size: var(--size-1);
+  color: var(--ink-soft);
+  margin-top: 0.15rem;
+}
+
+/* Her own hand. Terracotta is already this product's colour for it, so a
+   photographed fact is system-native rather than a new badge. */
+.photo {
+  color: var(--berry);
+}
+
+.retire {
+  appearance: none;
+  background: none;
+  border: 0;
+  font: inherit;
+  font-size: var(--size-1);
+  color: var(--ink-soft);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  flex: none;
+  padding: 0.2rem;
+  min-height: var(--touch-secondary);
+}
+
+.retire[disabled] {
+  text-decoration: none;
+}
+
+/* The form is only there to carry the fact's identity to the server; it must
+   not become a second box in the row. */
+.retireForm {
+  display: contents;
+}

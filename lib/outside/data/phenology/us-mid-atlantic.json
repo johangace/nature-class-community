@@ -1,0 +1,5978 @@
+{
+  "1": [
+    {
+      "id": "us_mid_atlantic_w1_northern_cardinal",
+      "species": "Northern Cardinal",
+      "scientificName": "Cardinalis cardinalis",
+      "description": "Male cardinals brilliant red against snow, singing from bare branches",
+      "habitats": [
+        "garden",
+        "woodland",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "A bright red bird that looks like a flame sitting in the snow. He sings \"cheer-cheer-cheer!\""
+    },
+    {
+      "id": "us_mid_atlantic_w1_blue_jay",
+      "species": "Blue Jay",
+      "scientificName": "Cyanocitta cristata",
+      "description": "Blue jays visiting feeders, noisy calls echoing through bare woods",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "A bold blue bird with a mohawk hairdo. It makes a loud \"jay-jay!\" sound"
+    },
+    {
+      "id": "us_mid_atlantic_w1_white_tailed_deer",
+      "species": "White-tailed Deer",
+      "scientificName": "Odocoileus virginianus",
+      "description": "Deer browsing in groups near forest edges, paw through snow for food",
+      "habitats": [
+        "woodland",
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "Deer lift their big white tails like flags when they run. It warns the others \"danger!\""
+    },
+    {
+      "id": "us_mid_atlantic_w1_ice_and_frost",
+      "species": "Ice and Frost",
+      "description": "Frost ferns on windows, ice formations on streams, frozen puddles",
+      "habitats": [
+        "urban",
+        "garden",
+        "stream",
+        "pond"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "Look at frozen puddles. The ice makes fern and feather patterns like tiny fairy artwork"
+    },
+    {
+      "id": "us_mid_atlantic_w1_black_capped_chickadee",
+      "species": "Black-capped Chickadee",
+      "scientificName": "Poecile atricapillus",
+      "description": "Chickadees visiting feeders, calling \"chick-a-dee-dee-dee\" from bare branches",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "A tiny brave bird that calls its own name (\"chickadee-dee-dee!\") even in the coldest weather"
+    }
+  ],
+  "2": [
+    {
+      "id": "us_mid_atlantic_w2_northern_cardinal",
+      "species": "Northern Cardinal",
+      "scientificName": "Cardinalis cardinalis",
+      "description": "Male cardinals brilliant red against snow, singing from bare branches",
+      "habitats": [
+        "garden",
+        "woodland",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "A bright red bird that looks like a flame sitting in the snow. He sings \"cheer-cheer-cheer!\""
+    },
+    {
+      "id": "us_mid_atlantic_w2_blue_jay",
+      "species": "Blue Jay",
+      "scientificName": "Cyanocitta cristata",
+      "description": "Blue jays visiting feeders, noisy calls echoing through bare woods",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "A bold blue bird with a mohawk hairdo. It makes a loud \"jay-jay!\" sound"
+    },
+    {
+      "id": "us_mid_atlantic_w2_white_tailed_deer",
+      "species": "White-tailed Deer",
+      "scientificName": "Odocoileus virginianus",
+      "description": "Deer browsing in groups near forest edges, paw through snow for food",
+      "habitats": [
+        "woodland",
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "Deer lift their big white tails like flags when they run. It warns the others \"danger!\""
+    },
+    {
+      "id": "us_mid_atlantic_w2_ice_and_frost",
+      "species": "Ice and Frost",
+      "description": "Frost ferns on windows, ice formations on streams, frozen puddles",
+      "habitats": [
+        "urban",
+        "garden",
+        "stream",
+        "pond"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "Look at frozen puddles. The ice makes fern and feather patterns like tiny fairy artwork"
+    },
+    {
+      "id": "us_mid_atlantic_w2_black_capped_chickadee",
+      "species": "Black-capped Chickadee",
+      "scientificName": "Poecile atricapillus",
+      "description": "Chickadees visiting feeders, calling \"chick-a-dee-dee-dee\" from bare branches",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "A tiny brave bird that calls its own name (\"chickadee-dee-dee!\") even in the coldest weather"
+    },
+    {
+      "id": "us_mid_atlantic_w2_great_horned_owl",
+      "species": "Great Horned Owl",
+      "scientificName": "Bubo virginianus",
+      "description": "Great horned owls hooting to establish nesting territories, earliest nester",
+      "habitats": [
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A deep \"hoo-hoo-hoooo\" echoes through cold woods. This huge owl starts nesting in the snow!"
+    }
+  ],
+  "3": [
+    {
+      "id": "us_mid_atlantic_w3_northern_cardinal",
+      "species": "Northern Cardinal",
+      "scientificName": "Cardinalis cardinalis",
+      "description": "Male cardinals brilliant red against snow, singing from bare branches",
+      "habitats": [
+        "garden",
+        "woodland",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "A bright red bird that looks like a flame sitting in the snow. He sings \"cheer-cheer-cheer!\""
+    },
+    {
+      "id": "us_mid_atlantic_w3_blue_jay",
+      "species": "Blue Jay",
+      "scientificName": "Cyanocitta cristata",
+      "description": "Blue jays visiting feeders, noisy calls echoing through bare woods",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "A bold blue bird with a mohawk hairdo. It makes a loud \"jay-jay!\" sound"
+    },
+    {
+      "id": "us_mid_atlantic_w3_white_tailed_deer",
+      "species": "White-tailed Deer",
+      "scientificName": "Odocoileus virginianus",
+      "description": "Deer browsing in groups near forest edges, paw through snow for food",
+      "habitats": [
+        "woodland",
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "Deer lift their big white tails like flags when they run. It warns the others \"danger!\""
+    },
+    {
+      "id": "us_mid_atlantic_w3_ice_and_frost",
+      "species": "Ice and Frost",
+      "description": "Frost ferns on windows, ice formations on streams, frozen puddles",
+      "habitats": [
+        "urban",
+        "garden",
+        "stream",
+        "pond"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "Look at frozen puddles. The ice makes fern and feather patterns like tiny fairy artwork"
+    },
+    {
+      "id": "us_mid_atlantic_w3_black_capped_chickadee",
+      "species": "Black-capped Chickadee",
+      "scientificName": "Poecile atricapillus",
+      "description": "Chickadees visiting feeders, calling \"chick-a-dee-dee-dee\" from bare branches",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "A tiny brave bird that calls its own name (\"chickadee-dee-dee!\") even in the coldest weather"
+    },
+    {
+      "id": "us_mid_atlantic_w3_great_horned_owl",
+      "species": "Great Horned Owl",
+      "scientificName": "Bubo virginianus",
+      "description": "Great horned owls hooting to establish nesting territories, earliest nester",
+      "habitats": [
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A deep \"hoo-hoo-hoooo\" echoes through cold woods. This huge owl starts nesting in the snow!"
+    }
+  ],
+  "4": [
+    {
+      "id": "us_mid_atlantic_w4_northern_cardinal",
+      "species": "Northern Cardinal",
+      "scientificName": "Cardinalis cardinalis",
+      "description": "Male cardinals brilliant red against snow, singing from bare branches",
+      "habitats": [
+        "garden",
+        "woodland",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "A bright red bird that looks like a flame sitting in the snow. He sings \"cheer-cheer-cheer!\""
+    },
+    {
+      "id": "us_mid_atlantic_w4_blue_jay",
+      "species": "Blue Jay",
+      "scientificName": "Cyanocitta cristata",
+      "description": "Blue jays visiting feeders, noisy calls echoing through bare woods",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "A bold blue bird with a mohawk hairdo. It makes a loud \"jay-jay!\" sound"
+    },
+    {
+      "id": "us_mid_atlantic_w4_white_tailed_deer",
+      "species": "White-tailed Deer",
+      "scientificName": "Odocoileus virginianus",
+      "description": "Deer browsing in groups near forest edges, paw through snow for food",
+      "habitats": [
+        "woodland",
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "Deer lift their big white tails like flags when they run. It warns the others \"danger!\""
+    },
+    {
+      "id": "us_mid_atlantic_w4_ice_and_frost",
+      "species": "Ice and Frost",
+      "description": "Frost ferns on windows, ice formations on streams, frozen puddles",
+      "habitats": [
+        "urban",
+        "garden",
+        "stream",
+        "pond"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "Look at frozen puddles. The ice makes fern and feather patterns like tiny fairy artwork"
+    },
+    {
+      "id": "us_mid_atlantic_w4_black_capped_chickadee",
+      "species": "Black-capped Chickadee",
+      "scientificName": "Poecile atricapillus",
+      "description": "Chickadees visiting feeders, calling \"chick-a-dee-dee-dee\" from bare branches",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "A tiny brave bird that calls its own name (\"chickadee-dee-dee!\") even in the coldest weather"
+    },
+    {
+      "id": "us_mid_atlantic_w4_great_horned_owl",
+      "species": "Great Horned Owl",
+      "scientificName": "Bubo virginianus",
+      "description": "Great horned owls hooting to establish nesting territories, earliest nester",
+      "habitats": [
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A deep \"hoo-hoo-hoooo\" echoes through cold woods. This huge owl starts nesting in the snow!"
+    }
+  ],
+  "5": [
+    {
+      "id": "us_mid_atlantic_w5_northern_cardinal",
+      "species": "Northern Cardinal",
+      "scientificName": "Cardinalis cardinalis",
+      "description": "Male cardinals brilliant red against snow, singing from bare branches",
+      "habitats": [
+        "garden",
+        "woodland",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "A bright red bird that looks like a flame sitting in the snow. He sings \"cheer-cheer-cheer!\""
+    },
+    {
+      "id": "us_mid_atlantic_w5_blue_jay",
+      "species": "Blue Jay",
+      "scientificName": "Cyanocitta cristata",
+      "description": "Blue jays visiting feeders, noisy calls echoing through bare woods",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "A bold blue bird with a mohawk hairdo. It makes a loud \"jay-jay!\" sound"
+    },
+    {
+      "id": "us_mid_atlantic_w5_ice_and_frost",
+      "species": "Ice and Frost",
+      "description": "Frost ferns on windows, ice formations on streams, frozen puddles",
+      "habitats": [
+        "urban",
+        "garden",
+        "stream",
+        "pond"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "Look at frozen puddles. The ice makes fern and feather patterns like tiny fairy artwork"
+    },
+    {
+      "id": "us_mid_atlantic_w5_great_horned_owl",
+      "species": "Great Horned Owl",
+      "scientificName": "Bubo virginianus",
+      "description": "Great horned owls hooting to establish nesting territories, earliest nester",
+      "habitats": [
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A deep \"hoo-hoo-hoooo\" echoes through cold woods. This huge owl starts nesting in the snow!"
+    },
+    {
+      "id": "us_mid_atlantic_w5_skunk_cabbage",
+      "species": "Skunk Cabbage",
+      "scientificName": "Symplocarpus foetidus",
+      "description": "Skunk cabbage pushing through snow and ice in swampy areas, generating its own heat",
+      "habitats": [
+        "stream",
+        "pond"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "This plant is so warm it melts the snow around it! It smells terrible though, like a skunk!"
+    },
+    {
+      "id": "us_mid_atlantic_w5_american_robin",
+      "species": "American Robin",
+      "scientificName": "Turdus migratorius",
+      "description": "First American robins returning, hopping on thawing lawns",
+      "habitats": [
+        "garden",
+        "urban",
+        "playing_field",
+        "grassland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The robin with the orange belly is back! It hops on the lawn listening for worms"
+    }
+  ],
+  "6": [
+    {
+      "id": "us_mid_atlantic_w6_northern_cardinal",
+      "species": "Northern Cardinal",
+      "scientificName": "Cardinalis cardinalis",
+      "description": "Male cardinals brilliant red against snow, singing from bare branches",
+      "habitats": [
+        "garden",
+        "woodland",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "A bright red bird that looks like a flame sitting in the snow. He sings \"cheer-cheer-cheer!\""
+    },
+    {
+      "id": "us_mid_atlantic_w6_blue_jay",
+      "species": "Blue Jay",
+      "scientificName": "Cyanocitta cristata",
+      "description": "Blue jays visiting feeders, noisy calls echoing through bare woods",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "A bold blue bird with a mohawk hairdo. It makes a loud \"jay-jay!\" sound"
+    },
+    {
+      "id": "us_mid_atlantic_w6_skunk_cabbage",
+      "species": "Skunk Cabbage",
+      "scientificName": "Symplocarpus foetidus",
+      "description": "Skunk cabbage pushing through snow and ice in swampy areas, generating its own heat",
+      "habitats": [
+        "stream",
+        "pond"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "This plant is so warm it melts the snow around it! It smells terrible though, like a skunk!"
+    },
+    {
+      "id": "us_mid_atlantic_w6_sugar_maple_sap",
+      "species": "Sugar Maple Sap",
+      "scientificName": "Acer saccharum",
+      "description": "Maple sap running as days warm above freezing. Maple sugaring season begins",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Sweet water drips from maple trees into buckets. People boil it down to make maple syrup!"
+    },
+    {
+      "id": "us_mid_atlantic_w6_american_robin",
+      "species": "American Robin",
+      "scientificName": "Turdus migratorius",
+      "description": "First American robins returning, hopping on thawing lawns",
+      "habitats": [
+        "garden",
+        "urban",
+        "playing_field",
+        "grassland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The robin with the orange belly is back! It hops on the lawn listening for worms"
+    }
+  ],
+  "7": [
+    {
+      "id": "us_mid_atlantic_w7_northern_cardinal",
+      "species": "Northern Cardinal",
+      "scientificName": "Cardinalis cardinalis",
+      "description": "Male cardinals brilliant red against snow, singing from bare branches",
+      "habitats": [
+        "garden",
+        "woodland",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "A bright red bird that looks like a flame sitting in the snow. He sings \"cheer-cheer-cheer!\""
+    },
+    {
+      "id": "us_mid_atlantic_w7_skunk_cabbage",
+      "species": "Skunk Cabbage",
+      "scientificName": "Symplocarpus foetidus",
+      "description": "Skunk cabbage pushing through snow and ice in swampy areas, generating its own heat",
+      "habitats": [
+        "stream",
+        "pond"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "This plant is so warm it melts the snow around it! It smells terrible though, like a skunk!"
+    },
+    {
+      "id": "us_mid_atlantic_w7_red_winged_blackbird",
+      "species": "Red-winged Blackbird",
+      "scientificName": "Agelaius phoeniceus",
+      "description": "Male red-winged blackbirds returning to marshes, flashing red shoulder patches",
+      "habitats": [
+        "pond",
+        "stream",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A black bird flashes bright red shoulders and sings \"conk-la-reee!\" from the reeds"
+    },
+    {
+      "id": "us_mid_atlantic_w7_sugar_maple_sap",
+      "species": "Sugar Maple Sap",
+      "scientificName": "Acer saccharum",
+      "description": "Maple sap running as days warm above freezing. Maple sugaring season begins",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Sweet water drips from maple trees into buckets. People boil it down to make maple syrup!"
+    },
+    {
+      "id": "us_mid_atlantic_w7_american_robin",
+      "species": "American Robin",
+      "scientificName": "Turdus migratorius",
+      "description": "First American robins returning, hopping on thawing lawns",
+      "habitats": [
+        "garden",
+        "urban",
+        "playing_field",
+        "grassland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The robin with the orange belly is back! It hops on the lawn listening for worms"
+    },
+    {
+      "id": "us_mid_atlantic_w7_woodcock",
+      "species": "Woodcock",
+      "scientificName": "Scolopax minor",
+      "description": "American woodcock performing aerial courtship displays at dusk. Listen for \"peent\" calls",
+      "habitats": [
+        "meadow",
+        "woodland"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A chubby bird goes \"peent!\" then spirals up into the sky doing loop-the-loops!"
+    }
+  ],
+  "8": [
+    {
+      "id": "us_mid_atlantic_w8_northern_cardinal",
+      "species": "Northern Cardinal",
+      "scientificName": "Cardinalis cardinalis",
+      "description": "Male cardinals brilliant red against snow, singing from bare branches",
+      "habitats": [
+        "garden",
+        "woodland",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "A bright red bird that looks like a flame sitting in the snow. He sings \"cheer-cheer-cheer!\""
+    },
+    {
+      "id": "us_mid_atlantic_w8_skunk_cabbage",
+      "species": "Skunk Cabbage",
+      "scientificName": "Symplocarpus foetidus",
+      "description": "Skunk cabbage leaves unfurling, strong odor",
+      "habitats": [
+        "stream",
+        "pond"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "This plant is so warm it melts the snow around it! It smells terrible though, like a skunk!"
+    },
+    {
+      "id": "us_mid_atlantic_w8_red_winged_blackbird",
+      "species": "Red-winged Blackbird",
+      "scientificName": "Agelaius phoeniceus",
+      "description": "Male red-winged blackbirds returning to marshes, flashing red shoulder patches",
+      "habitats": [
+        "pond",
+        "stream",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A black bird flashes bright red shoulders and sings \"conk-la-reee!\" from the reeds"
+    },
+    {
+      "id": "us_mid_atlantic_w8_sugar_maple_sap",
+      "species": "Sugar Maple Sap",
+      "scientificName": "Acer saccharum",
+      "description": "Maple sap running as days warm above freezing. Maple sugaring season begins",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Sweet water drips from maple trees into buckets. People boil it down to make maple syrup!"
+    },
+    {
+      "id": "us_mid_atlantic_w8_american_robin",
+      "species": "American Robin",
+      "scientificName": "Turdus migratorius",
+      "description": "First American robins returning, hopping on thawing lawns",
+      "habitats": [
+        "garden",
+        "urban",
+        "playing_field",
+        "grassland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The robin with the orange belly is back! It hops on the lawn listening for worms"
+    },
+    {
+      "id": "us_mid_atlantic_w8_woodcock",
+      "species": "Woodcock",
+      "scientificName": "Scolopax minor",
+      "description": "American woodcock performing aerial courtship displays at dusk. Listen for \"peent\" calls",
+      "habitats": [
+        "meadow",
+        "woodland"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A chubby bird goes \"peent!\" then spirals up into the sky doing loop-the-loops!"
+    }
+  ],
+  "9": [
+    {
+      "id": "us_mid_atlantic_w9_skunk_cabbage",
+      "species": "Skunk Cabbage",
+      "scientificName": "Symplocarpus foetidus",
+      "description": "Skunk cabbage leaves unfurling, strong odor",
+      "habitats": [
+        "stream",
+        "pond"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "This plant is so warm it melts the snow around it! It smells terrible though, like a skunk!"
+    },
+    {
+      "id": "us_mid_atlantic_w9_red_winged_blackbird",
+      "species": "Red-winged Blackbird",
+      "scientificName": "Agelaius phoeniceus",
+      "description": "Male red-winged blackbirds returning to marshes, flashing red shoulder patches",
+      "habitats": [
+        "pond",
+        "stream",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A black bird flashes bright red shoulders and sings \"conk-la-reee!\" from the reeds"
+    },
+    {
+      "id": "us_mid_atlantic_w9_sugar_maple_sap",
+      "species": "Sugar Maple Sap",
+      "scientificName": "Acer saccharum",
+      "description": "Peak sap flow, sugar houses steaming",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Sweet water drips from maple trees into buckets. People boil it down to make maple syrup!"
+    },
+    {
+      "id": "us_mid_atlantic_w9_woodcock",
+      "species": "Woodcock",
+      "scientificName": "Scolopax minor",
+      "description": "American woodcock performing aerial courtship displays at dusk. Listen for \"peent\" calls",
+      "habitats": [
+        "meadow",
+        "woodland"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A chubby bird goes \"peent!\" then spirals up into the sky doing loop-the-loops!"
+    },
+    {
+      "id": "us_mid_atlantic_w9_spring_peeper",
+      "species": "Spring Peeper",
+      "scientificName": "Pseudacris crucifer",
+      "description": "Spring peepers beginning their high-pitched chorus from vernal pools",
+      "habitats": [
+        "pond",
+        "stream",
+        "woodland"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Tiny frogs no bigger than your thumb make an incredibly loud \"peep! peep!\" sound. Hundreds sing together!"
+    },
+    {
+      "id": "us_mid_atlantic_w9_crocus",
+      "species": "Crocus",
+      "scientificName": "Crocus vernus",
+      "description": "Crocuses pushing through in gardens and parks",
+      "habitats": [
+        "garden",
+        "urban",
+        "playing_field"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Purple, yellow and white cups pop open when the sun warms them up"
+    },
+    {
+      "id": "us_mid_atlantic_w9_american_robin",
+      "species": "American Robin",
+      "scientificName": "Turdus migratorius",
+      "description": "Robins now common on lawns, pulling earthworms after rain",
+      "habitats": [
+        "garden",
+        "urban",
+        "playing_field",
+        "grassland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Robins tilt their heads on the lawn. They're listening for worms wriggling underground!"
+    }
+  ],
+  "10": [
+    {
+      "id": "us_mid_atlantic_w10_red_winged_blackbird",
+      "species": "Red-winged Blackbird",
+      "scientificName": "Agelaius phoeniceus",
+      "description": "Red-wings singing \"conk-la-ree!\" from cattails",
+      "habitats": [
+        "pond",
+        "stream",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A black bird flashes bright red shoulders and sings \"conk-la-reee!\" from the reeds"
+    },
+    {
+      "id": "us_mid_atlantic_w10_sugar_maple_sap",
+      "species": "Sugar Maple Sap",
+      "scientificName": "Acer saccharum",
+      "description": "Peak sap flow, sugar houses steaming",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Sweet water drips from maple trees into buckets. People boil it down to make maple syrup!"
+    },
+    {
+      "id": "us_mid_atlantic_w10_spring_peeper",
+      "species": "Spring Peeper",
+      "scientificName": "Pseudacris crucifer",
+      "description": "Spring peepers beginning their high-pitched chorus from vernal pools",
+      "habitats": [
+        "pond",
+        "stream",
+        "woodland"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Tiny frogs no bigger than your thumb make an incredibly loud \"peep! peep!\" sound. Hundreds sing together!"
+    },
+    {
+      "id": "us_mid_atlantic_w10_crocus",
+      "species": "Crocus",
+      "scientificName": "Crocus vernus",
+      "description": "Crocuses pushing through in gardens and parks",
+      "habitats": [
+        "garden",
+        "urban",
+        "playing_field"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Purple, yellow and white cups pop open when the sun warms them up"
+    },
+    {
+      "id": "us_mid_atlantic_w10_forsythia",
+      "species": "Forsythia",
+      "scientificName": "Forsythia × intermedia",
+      "description": "Forsythia bushes exploding in bright yellow before leaves appear",
+      "habitats": [
+        "garden",
+        "urban",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Bushes turn completely gold before any leaves come out, like sunshine grew on sticks"
+    },
+    {
+      "id": "us_mid_atlantic_w10_red_maple",
+      "species": "Red Maple",
+      "scientificName": "Acer rubrum",
+      "description": "Red maple flowers opening, tiny red clusters on bare branches",
+      "habitats": [
+        "woodland",
+        "stream",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Bare trees sprout tiny red flowers like hundreds of little red stars, the first tree to wake up"
+    },
+    {
+      "id": "us_mid_atlantic_w10_american_robin",
+      "species": "American Robin",
+      "scientificName": "Turdus migratorius",
+      "description": "Robins now common on lawns, pulling earthworms after rain",
+      "habitats": [
+        "garden",
+        "urban",
+        "playing_field",
+        "grassland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Robins tilt their heads on the lawn. They're listening for worms wriggling underground!"
+    }
+  ],
+  "11": [
+    {
+      "id": "us_mid_atlantic_w11_red_winged_blackbird",
+      "species": "Red-winged Blackbird",
+      "scientificName": "Agelaius phoeniceus",
+      "description": "Red-wings singing \"conk-la-ree!\" from cattails",
+      "habitats": [
+        "pond",
+        "stream",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A black bird flashes bright red shoulders and sings \"conk-la-reee!\" from the reeds"
+    },
+    {
+      "id": "us_mid_atlantic_w11_spring_peeper",
+      "species": "Spring Peeper",
+      "scientificName": "Pseudacris crucifer",
+      "description": "Spring peepers beginning their high-pitched chorus from vernal pools",
+      "habitats": [
+        "pond",
+        "stream",
+        "woodland"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Tiny frogs no bigger than your thumb make an incredibly loud \"peep! peep!\" sound. Hundreds sing together!"
+    },
+    {
+      "id": "us_mid_atlantic_w11_crocus",
+      "species": "Crocus",
+      "scientificName": "Crocus vernus",
+      "description": "Crocuses at peak bloom",
+      "habitats": [
+        "garden",
+        "urban",
+        "playing_field"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Purple, yellow and white cups pop open when the sun warms them up"
+    },
+    {
+      "id": "us_mid_atlantic_w11_forsythia",
+      "species": "Forsythia",
+      "scientificName": "Forsythia × intermedia",
+      "description": "Forsythia bushes exploding in bright yellow before leaves appear",
+      "habitats": [
+        "garden",
+        "urban",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Bushes turn completely gold before any leaves come out, like sunshine grew on sticks"
+    },
+    {
+      "id": "us_mid_atlantic_w11_red_maple",
+      "species": "Red Maple",
+      "scientificName": "Acer rubrum",
+      "description": "Red maple flowers opening, tiny red clusters on bare branches",
+      "habitats": [
+        "woodland",
+        "stream",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Bare trees sprout tiny red flowers like hundreds of little red stars, the first tree to wake up"
+    },
+    {
+      "id": "us_mid_atlantic_w11_american_robin",
+      "species": "American Robin",
+      "scientificName": "Turdus migratorius",
+      "description": "Robins now common on lawns, pulling earthworms after rain",
+      "habitats": [
+        "garden",
+        "urban",
+        "playing_field",
+        "grassland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Robins tilt their heads on the lawn. They're listening for worms wriggling underground!"
+    },
+    {
+      "id": "us_mid_atlantic_w11_daffodil",
+      "species": "Daffodil",
+      "scientificName": "Narcissus",
+      "description": "Daffodils opening in gardens and parks",
+      "habitats": [
+        "garden",
+        "urban",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Golden trumpet flowers bob in the spring breeze, the cheerful sign that winter is over"
+    }
+  ],
+  "12": [
+    {
+      "id": "us_mid_atlantic_w12_red_winged_blackbird",
+      "species": "Red-winged Blackbird",
+      "scientificName": "Agelaius phoeniceus",
+      "description": "Red-wings well established, females arriving",
+      "habitats": [
+        "pond",
+        "stream",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "A black bird flashes bright red shoulders and sings \"conk-la-reee!\" from the reeds"
+    },
+    {
+      "id": "us_mid_atlantic_w12_spring_peeper",
+      "species": "Spring Peeper",
+      "scientificName": "Pseudacris crucifer",
+      "description": "Peeper chorus deafening near wetlands on warm evenings",
+      "habitats": [
+        "pond",
+        "stream",
+        "woodland"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Tiny frogs no bigger than your thumb make an incredibly loud \"peep! peep!\" sound. Hundreds sing together!"
+    },
+    {
+      "id": "us_mid_atlantic_w12_crocus",
+      "species": "Crocus",
+      "scientificName": "Crocus vernus",
+      "description": "Crocuses fading",
+      "habitats": [
+        "garden",
+        "urban",
+        "playing_field"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Purple, yellow and white cups pop open when the sun warms them up"
+    },
+    {
+      "id": "us_mid_atlantic_w12_forsythia",
+      "species": "Forsythia",
+      "scientificName": "Forsythia × intermedia",
+      "description": "Forsythia at peak, golden bushes everywhere in suburbs",
+      "habitats": [
+        "garden",
+        "urban",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Bushes turn completely gold before any leaves come out, like sunshine grew on sticks"
+    },
+    {
+      "id": "us_mid_atlantic_w12_red_maple",
+      "species": "Red Maple",
+      "scientificName": "Acer rubrum",
+      "description": "Red maple flowers opening, tiny red clusters on bare branches",
+      "habitats": [
+        "woodland",
+        "stream",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Bare trees sprout tiny red flowers like hundreds of little red stars, the first tree to wake up"
+    },
+    {
+      "id": "us_mid_atlantic_w12_american_robin",
+      "species": "American Robin",
+      "scientificName": "Turdus migratorius",
+      "description": "Robins now common on lawns, pulling earthworms after rain",
+      "habitats": [
+        "garden",
+        "urban",
+        "playing_field",
+        "grassland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Robins tilt their heads on the lawn. They're listening for worms wriggling underground!"
+    },
+    {
+      "id": "us_mid_atlantic_w12_daffodil",
+      "species": "Daffodil",
+      "scientificName": "Narcissus",
+      "description": "Daffodils opening in gardens and parks",
+      "habitats": [
+        "garden",
+        "urban",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Golden trumpet flowers bob in the spring breeze, the cheerful sign that winter is over"
+    }
+  ],
+  "13": [
+    {
+      "id": "us_mid_atlantic_w13_red_winged_blackbird",
+      "species": "Red-winged Blackbird",
+      "scientificName": "Agelaius phoeniceus",
+      "description": "Red-wings well established, females arriving",
+      "habitats": [
+        "pond",
+        "stream",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "A black bird flashes bright red shoulders and sings \"conk-la-reee!\" from the reeds"
+    },
+    {
+      "id": "us_mid_atlantic_w13_spring_peeper",
+      "species": "Spring Peeper",
+      "scientificName": "Pseudacris crucifer",
+      "description": "Peeper chorus deafening near wetlands on warm evenings",
+      "habitats": [
+        "pond",
+        "stream",
+        "woodland"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Tiny frogs no bigger than your thumb make an incredibly loud \"peep! peep!\" sound. Hundreds sing together!"
+    },
+    {
+      "id": "us_mid_atlantic_w13_forsythia",
+      "species": "Forsythia",
+      "scientificName": "Forsythia × intermedia",
+      "description": "Forsythia at peak, golden bushes everywhere in suburbs",
+      "habitats": [
+        "garden",
+        "urban",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Bushes turn completely gold before any leaves come out, like sunshine grew on sticks"
+    },
+    {
+      "id": "us_mid_atlantic_w13_red_maple",
+      "species": "Red Maple",
+      "scientificName": "Acer rubrum",
+      "description": "Red maple in full flower, earliest tree to bloom",
+      "habitats": [
+        "woodland",
+        "stream",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Bare trees sprout tiny red flowers like hundreds of little red stars, the first tree to wake up"
+    },
+    {
+      "id": "us_mid_atlantic_w13_american_robin",
+      "species": "American Robin",
+      "scientificName": "Turdus migratorius",
+      "description": "Robins now common on lawns, pulling earthworms after rain",
+      "habitats": [
+        "garden",
+        "urban",
+        "playing_field",
+        "grassland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Robins tilt their heads on the lawn. They're listening for worms wriggling underground!"
+    },
+    {
+      "id": "us_mid_atlantic_w13_daffodil",
+      "species": "Daffodil",
+      "scientificName": "Narcissus",
+      "description": "Daffodils at peak",
+      "habitats": [
+        "garden",
+        "urban",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Golden trumpet flowers bob in the spring breeze, the cheerful sign that winter is over"
+    },
+    {
+      "id": "us_mid_atlantic_w13_spotted_salamander",
+      "species": "Spotted Salamander",
+      "scientificName": "Ambystoma maculatum",
+      "description": "Spotted salamanders migrating to vernal pools on rainy nights",
+      "habitats": [
+        "woodland",
+        "pond"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Black salamanders with yellow polka dots crawl through rainy forests at night, like tiny dragons!"
+    }
+  ],
+  "14": [
+    {
+      "id": "us_mid_atlantic_w14_spring_peeper",
+      "species": "Spring Peeper",
+      "scientificName": "Pseudacris crucifer",
+      "description": "Peeper chorus deafening near wetlands on warm evenings",
+      "habitats": [
+        "pond",
+        "stream",
+        "woodland"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Tiny frogs no bigger than your thumb make an incredibly loud \"peep! peep!\" sound. Hundreds sing together!"
+    },
+    {
+      "id": "us_mid_atlantic_w14_forsythia",
+      "species": "Forsythia",
+      "scientificName": "Forsythia × intermedia",
+      "description": "Forsythia fading, leaves emerging",
+      "habitats": [
+        "garden",
+        "urban",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Bushes turn completely gold before any leaves come out, like sunshine grew on sticks"
+    },
+    {
+      "id": "us_mid_atlantic_w14_red_maple",
+      "species": "Red Maple",
+      "scientificName": "Acer rubrum",
+      "description": "Red maple in full flower, earliest tree to bloom",
+      "habitats": [
+        "woodland",
+        "stream",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Bare trees sprout tiny red flowers like hundreds of little red stars, the first tree to wake up"
+    },
+    {
+      "id": "us_mid_atlantic_w14_american_robin",
+      "species": "American Robin",
+      "scientificName": "Turdus migratorius",
+      "description": "Robins now common on lawns, pulling earthworms after rain",
+      "habitats": [
+        "garden",
+        "urban",
+        "playing_field",
+        "grassland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Robins tilt their heads on the lawn. They're listening for worms wriggling underground!"
+    },
+    {
+      "id": "us_mid_atlantic_w14_daffodil",
+      "species": "Daffodil",
+      "scientificName": "Narcissus",
+      "description": "Daffodils at peak",
+      "habitats": [
+        "garden",
+        "urban",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Golden trumpet flowers bob in the spring breeze, the cheerful sign that winter is over"
+    },
+    {
+      "id": "us_mid_atlantic_w14_flowering_dogwood",
+      "species": "Flowering Dogwood",
+      "scientificName": "Cornus florida",
+      "description": "Dogwood buds opening, white and pink bracts unfurling",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Small trees covered in what look like four-petalled white flowers. They glow in the shade"
+    },
+    {
+      "id": "us_mid_atlantic_w14_eastern_redbud",
+      "species": "Eastern Redbud",
+      "scientificName": "Cercis canadensis",
+      "description": "Redbud trees opening rosy pink flowers directly on branches and trunk",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Pink flowers grow right on the tree trunk and branches, not just at the tips!"
+    }
+  ],
+  "15": [
+    {
+      "id": "us_mid_atlantic_w15_spring_peeper",
+      "species": "Spring Peeper",
+      "scientificName": "Pseudacris crucifer",
+      "description": "Peeper calls less intense",
+      "habitats": [
+        "pond",
+        "stream",
+        "woodland"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Tiny frogs no bigger than your thumb make an incredibly loud \"peep! peep!\" sound. Hundreds sing together!"
+    },
+    {
+      "id": "us_mid_atlantic_w15_american_robin",
+      "species": "American Robin",
+      "scientificName": "Turdus migratorius",
+      "description": "Robins now common on lawns, pulling earthworms after rain",
+      "habitats": [
+        "garden",
+        "urban",
+        "playing_field",
+        "grassland"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Robins tilt their heads on the lawn. They're listening for worms wriggling underground!"
+    },
+    {
+      "id": "us_mid_atlantic_w15_daffodil",
+      "species": "Daffodil",
+      "scientificName": "Narcissus",
+      "description": "Daffodils fading",
+      "habitats": [
+        "garden",
+        "urban",
+        "playing_field"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Golden trumpet flowers bob in the spring breeze, the cheerful sign that winter is over"
+    },
+    {
+      "id": "us_mid_atlantic_w15_flowering_dogwood",
+      "species": "Flowering Dogwood",
+      "scientificName": "Cornus florida",
+      "description": "Dogwood buds opening, white and pink bracts unfurling",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Small trees covered in what look like four-petalled white flowers. They glow in the shade"
+    },
+    {
+      "id": "us_mid_atlantic_w15_yellow_warbler",
+      "species": "Yellow Warbler",
+      "scientificName": "Setophaga petechia",
+      "description": "Warblers arriving from Central America, bright yellow flashes in trees",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden",
+        "stream"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A tiny bright yellow bird sings \"sweet-sweet-I'm-so-sweet\". It flew from Central America!"
+    },
+    {
+      "id": "us_mid_atlantic_w15_spotted_salamander",
+      "species": "Spotted Salamander",
+      "scientificName": "Ambystoma maculatum",
+      "description": "Salamander egg masses in vernal pools",
+      "habitats": [
+        "woodland",
+        "pond"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Black salamanders with yellow polka dots crawl through rainy forests at night, like tiny dragons!"
+    },
+    {
+      "id": "us_mid_atlantic_w15_eastern_redbud",
+      "species": "Eastern Redbud",
+      "scientificName": "Cercis canadensis",
+      "description": "Redbud trees opening rosy pink flowers directly on branches and trunk",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Pink flowers grow right on the tree trunk and branches, not just at the tips!"
+    }
+  ],
+  "16": [
+    {
+      "id": "us_mid_atlantic_w16_spring_peeper",
+      "species": "Spring Peeper",
+      "scientificName": "Pseudacris crucifer",
+      "description": "Peeper calls less intense",
+      "habitats": [
+        "pond",
+        "stream",
+        "woodland"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Tiny frogs no bigger than your thumb make an incredibly loud \"peep! peep!\" sound. Hundreds sing together!"
+    },
+    {
+      "id": "us_mid_atlantic_w16_flowering_dogwood",
+      "species": "Flowering Dogwood",
+      "scientificName": "Cornus florida",
+      "description": "Dogwood at peak, understory lit up white and pink",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Small trees covered in what look like four-petalled white flowers. They glow in the shade"
+    },
+    {
+      "id": "us_mid_atlantic_w16_yellow_warbler",
+      "species": "Yellow Warbler",
+      "scientificName": "Setophaga petechia",
+      "description": "Warblers arriving from Central America, bright yellow flashes in trees",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden",
+        "stream"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A tiny bright yellow bird sings \"sweet-sweet-I'm-so-sweet\". It flew from Central America!"
+    },
+    {
+      "id": "us_mid_atlantic_w16_spotted_salamander",
+      "species": "Spotted Salamander",
+      "scientificName": "Ambystoma maculatum",
+      "description": "Salamander egg masses in vernal pools",
+      "habitats": [
+        "woodland",
+        "pond"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Black salamanders with yellow polka dots crawl through rainy forests at night, like tiny dragons!"
+    },
+    {
+      "id": "us_mid_atlantic_w16_eastern_redbud",
+      "species": "Eastern Redbud",
+      "scientificName": "Cercis canadensis",
+      "description": "Redbud at peak, brilliant pink clouds in the understory",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Pink flowers grow right on the tree trunk and branches, not just at the tips!"
+    }
+  ],
+  "17": [
+    {
+      "id": "us_mid_atlantic_w17_flowering_dogwood",
+      "species": "Flowering Dogwood",
+      "scientificName": "Cornus florida",
+      "description": "Dogwood at peak, understory lit up white and pink",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Small trees covered in what look like four-petalled white flowers. They glow in the shade"
+    },
+    {
+      "id": "us_mid_atlantic_w17_yellow_warbler",
+      "species": "Yellow Warbler",
+      "scientificName": "Setophaga petechia",
+      "description": "Warblers arriving from Central America, bright yellow flashes in trees",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden",
+        "stream"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A tiny bright yellow bird sings \"sweet-sweet-I'm-so-sweet\". It flew from Central America!"
+    },
+    {
+      "id": "us_mid_atlantic_w17_eastern_redbud",
+      "species": "Eastern Redbud",
+      "scientificName": "Cercis canadensis",
+      "description": "Redbud flowers fading, heart-shaped leaves emerging",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Pink flowers grow right on the tree trunk and branches, not just at the tips!"
+    },
+    {
+      "id": "us_mid_atlantic_w17_lilac",
+      "species": "Lilac",
+      "scientificName": "Syringa vulgaris",
+      "description": "Lilac buds opening in gardens and hedgerows",
+      "habitats": [
+        "garden",
+        "urban",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Purple flower clusters that smell amazing. Bury your nose in one and breathe in deeply"
+    }
+  ],
+  "18": [
+    {
+      "id": "us_mid_atlantic_w18_flowering_dogwood",
+      "species": "Flowering Dogwood",
+      "scientificName": "Cornus florida",
+      "description": "Dogwood bracts falling",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Small trees covered in what look like four-petalled white flowers. They glow in the shade"
+    },
+    {
+      "id": "us_mid_atlantic_w18_yellow_warbler",
+      "species": "Yellow Warbler",
+      "scientificName": "Setophaga petechia",
+      "description": "Warblers singing from every thicket, \"sweet-sweet-sweet-I'm-so-sweet\"",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden",
+        "stream"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A tiny bright yellow bird sings \"sweet-sweet-I'm-so-sweet\". It flew from Central America!"
+    },
+    {
+      "id": "us_mid_atlantic_w18_lilac",
+      "species": "Lilac",
+      "scientificName": "Syringa vulgaris",
+      "description": "Lilac buds opening in gardens and hedgerows",
+      "habitats": [
+        "garden",
+        "urban",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Purple flower clusters that smell amazing. Bury your nose in one and breathe in deeply"
+    },
+    {
+      "id": "us_mid_atlantic_w18_ruby_throated_hummingbird",
+      "species": "Ruby-throated Hummingbird",
+      "scientificName": "Archilochus colubris",
+      "description": "First hummingbirds arriving, visiting red tubular flowers",
+      "habitats": [
+        "garden",
+        "woodland",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A tiny bird that hovers like a helicopter! Its wings beat so fast they buzz. Look for the red throat"
+    },
+    {
+      "id": "us_mid_atlantic_w18_lady_beetle",
+      "species": "Lady Beetle",
+      "scientificName": "Coccinellidae",
+      "description": "Lady beetles (ladybugs) emerging and hunting aphids on garden plants",
+      "habitats": [
+        "garden",
+        "meadow",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Little red beetles with black dots. They eat garden pests and are a gardener's best friend!"
+    }
+  ],
+  "19": [
+    {
+      "id": "us_mid_atlantic_w19_flowering_dogwood",
+      "species": "Flowering Dogwood",
+      "scientificName": "Cornus florida",
+      "description": "Dogwood bracts falling",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Small trees covered in what look like four-petalled white flowers. They glow in the shade"
+    },
+    {
+      "id": "us_mid_atlantic_w19_yellow_warbler",
+      "species": "Yellow Warbler",
+      "scientificName": "Setophaga petechia",
+      "description": "Warblers singing from every thicket, \"sweet-sweet-sweet-I'm-so-sweet\"",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden",
+        "stream"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A tiny bright yellow bird sings \"sweet-sweet-I'm-so-sweet\". It flew from Central America!"
+    },
+    {
+      "id": "us_mid_atlantic_w19_lilac",
+      "species": "Lilac",
+      "scientificName": "Syringa vulgaris",
+      "description": "Lilacs at peak, intoxicating perfume on warm days",
+      "habitats": [
+        "garden",
+        "urban",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Purple flower clusters that smell amazing. Bury your nose in one and breathe in deeply"
+    },
+    {
+      "id": "us_mid_atlantic_w19_ruby_throated_hummingbird",
+      "species": "Ruby-throated Hummingbird",
+      "scientificName": "Archilochus colubris",
+      "description": "First hummingbirds arriving, visiting red tubular flowers",
+      "habitats": [
+        "garden",
+        "woodland",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A tiny bird that hovers like a helicopter! Its wings beat so fast they buzz. Look for the red throat"
+    },
+    {
+      "id": "us_mid_atlantic_w19_luna_moth",
+      "species": "Luna Moth",
+      "scientificName": "Actias luna",
+      "description": "Luna moths emerging, large pale green wings with long tails",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A huge pale green moth with long tail streamers, like a fairy from the moon. It doesn't even have a mouth!"
+    },
+    {
+      "id": "us_mid_atlantic_w19_lady_beetle",
+      "species": "Lady Beetle",
+      "scientificName": "Coccinellidae",
+      "description": "Lady beetles (ladybugs) emerging and hunting aphids on garden plants",
+      "habitats": [
+        "garden",
+        "meadow",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Little red beetles with black dots. They eat garden pests and are a gardener's best friend!"
+    }
+  ],
+  "20": [
+    {
+      "id": "us_mid_atlantic_w20_yellow_warbler",
+      "species": "Yellow Warbler",
+      "scientificName": "Setophaga petechia",
+      "description": "Warblers singing from every thicket, \"sweet-sweet-sweet-I'm-so-sweet\"",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden",
+        "stream"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A tiny bright yellow bird sings \"sweet-sweet-I'm-so-sweet\". It flew from Central America!"
+    },
+    {
+      "id": "us_mid_atlantic_w20_lilac",
+      "species": "Lilac",
+      "scientificName": "Syringa vulgaris",
+      "description": "Lilacs at peak, intoxicating perfume on warm days",
+      "habitats": [
+        "garden",
+        "urban",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Purple flower clusters that smell amazing. Bury your nose in one and breathe in deeply"
+    },
+    {
+      "id": "us_mid_atlantic_w20_ruby_throated_hummingbird",
+      "species": "Ruby-throated Hummingbird",
+      "scientificName": "Archilochus colubris",
+      "description": "First hummingbirds arriving, visiting red tubular flowers",
+      "habitats": [
+        "garden",
+        "woodland",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A tiny bird that hovers like a helicopter! Its wings beat so fast they buzz. Look for the red throat"
+    },
+    {
+      "id": "us_mid_atlantic_w20_luna_moth",
+      "species": "Luna Moth",
+      "scientificName": "Actias luna",
+      "description": "Luna moths emerging, large pale green wings with long tails",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A huge pale green moth with long tail streamers, like a fairy from the moon. It doesn't even have a mouth!"
+    },
+    {
+      "id": "us_mid_atlantic_w20_lady_beetle",
+      "species": "Lady Beetle",
+      "scientificName": "Coccinellidae",
+      "description": "Lady beetles (ladybugs) emerging and hunting aphids on garden plants",
+      "habitats": [
+        "garden",
+        "meadow",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Little red beetles with black dots. They eat garden pests and are a gardener's best friend!"
+    },
+    {
+      "id": "us_mid_atlantic_w20_poison_ivy",
+      "species": "Poison Ivy",
+      "scientificName": "Toxicodendron radicans",
+      "description": "Poison ivy leaves unfurling: \"leaves of three, let it be!\"",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Three shiny leaves together. Never touch! It makes your skin super itchy. \"Leaves of three, let it be!\""
+    },
+    {
+      "id": "us_mid_atlantic_w20_gray_catbird",
+      "species": "Gray Catbird",
+      "scientificName": "Dumetella carolinensis",
+      "description": "Catbirds arriving in thickets, distinctive mewing call",
+      "habitats": [
+        "hedgerow",
+        "garden",
+        "woodland"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A grey bird that sounds like a cat going \"mew!\". It also copies other birds' songs"
+    }
+  ],
+  "21": [
+    {
+      "id": "us_mid_atlantic_w21_yellow_warbler",
+      "species": "Yellow Warbler",
+      "scientificName": "Setophaga petechia",
+      "description": "Warbler song declining as nesting begins",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden",
+        "stream"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "A tiny bright yellow bird sings \"sweet-sweet-I'm-so-sweet\". It flew from Central America!"
+    },
+    {
+      "id": "us_mid_atlantic_w21_lilac",
+      "species": "Lilac",
+      "scientificName": "Syringa vulgaris",
+      "description": "Lilac flowers browning",
+      "habitats": [
+        "garden",
+        "urban",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Purple flower clusters that smell amazing. Bury your nose in one and breathe in deeply"
+    },
+    {
+      "id": "us_mid_atlantic_w21_ruby_throated_hummingbird",
+      "species": "Ruby-throated Hummingbird",
+      "scientificName": "Archilochus colubris",
+      "description": "Hummingbirds buzzing at gardens and feeders, wings a blur",
+      "habitats": [
+        "garden",
+        "woodland",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A tiny bird that hovers like a helicopter! Its wings beat so fast they buzz. Look for the red throat"
+    },
+    {
+      "id": "us_mid_atlantic_w21_luna_moth",
+      "species": "Luna Moth",
+      "scientificName": "Actias luna",
+      "description": "Luna moths at peak near lights at night",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A huge pale green moth with long tail streamers, like a fairy from the moon. It doesn't even have a mouth!"
+    },
+    {
+      "id": "us_mid_atlantic_w21_lady_beetle",
+      "species": "Lady Beetle",
+      "scientificName": "Coccinellidae",
+      "description": "Lady beetles (ladybugs) emerging and hunting aphids on garden plants",
+      "habitats": [
+        "garden",
+        "meadow",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Little red beetles with black dots. They eat garden pests and are a gardener's best friend!"
+    },
+    {
+      "id": "us_mid_atlantic_w21_poison_ivy",
+      "species": "Poison Ivy",
+      "scientificName": "Toxicodendron radicans",
+      "description": "Poison ivy leaves unfurling: \"leaves of three, let it be!\"",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Three shiny leaves together. Never touch! It makes your skin super itchy. \"Leaves of three, let it be!\""
+    },
+    {
+      "id": "us_mid_atlantic_w21_gray_catbird",
+      "species": "Gray Catbird",
+      "scientificName": "Dumetella carolinensis",
+      "description": "Catbirds arriving in thickets, distinctive mewing call",
+      "habitats": [
+        "hedgerow",
+        "garden",
+        "woodland"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A grey bird that sounds like a cat going \"mew!\". It also copies other birds' songs"
+    }
+  ],
+  "22": [
+    {
+      "id": "us_mid_atlantic_w22_yellow_warbler",
+      "species": "Yellow Warbler",
+      "scientificName": "Setophaga petechia",
+      "description": "Warbler song declining as nesting begins",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden",
+        "stream"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "A tiny bright yellow bird sings \"sweet-sweet-I'm-so-sweet\". It flew from Central America!"
+    },
+    {
+      "id": "us_mid_atlantic_w22_ruby_throated_hummingbird",
+      "species": "Ruby-throated Hummingbird",
+      "scientificName": "Archilochus colubris",
+      "description": "Hummingbirds buzzing at gardens and feeders, wings a blur",
+      "habitats": [
+        "garden",
+        "woodland",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A tiny bird that hovers like a helicopter! Its wings beat so fast they buzz. Look for the red throat"
+    },
+    {
+      "id": "us_mid_atlantic_w22_luna_moth",
+      "species": "Luna Moth",
+      "scientificName": "Actias luna",
+      "description": "Luna moths at peak near lights at night",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A huge pale green moth with long tail streamers, like a fairy from the moon. It doesn't even have a mouth!"
+    },
+    {
+      "id": "us_mid_atlantic_w22_firefly",
+      "species": "Firefly",
+      "scientificName": "Photuris",
+      "description": "First fireflies blinking in meadows at dusk",
+      "habitats": [
+        "meadow",
+        "garden",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The meadow twinkles with tiny yellow-green lights. Each flash is a firefly looking for love!"
+    },
+    {
+      "id": "us_mid_atlantic_w22_poison_ivy",
+      "species": "Poison Ivy",
+      "scientificName": "Toxicodendron radicans",
+      "description": "Poison ivy leaves unfurling: \"leaves of three, let it be!\"",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Three shiny leaves together. Never touch! It makes your skin super itchy. \"Leaves of three, let it be!\""
+    },
+    {
+      "id": "us_mid_atlantic_w22_wild_strawberry",
+      "species": "Wild Strawberry",
+      "scientificName": "Fragaria virginiana",
+      "description": "Wild strawberries fruiting in meadows and woodland edges",
+      "habitats": [
+        "meadow",
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Tiny strawberries hidden in the grass. They're so much tastier than big ones from the store!"
+    },
+    {
+      "id": "us_mid_atlantic_w22_gray_catbird",
+      "species": "Gray Catbird",
+      "scientificName": "Dumetella carolinensis",
+      "description": "Catbirds arriving in thickets, distinctive mewing call",
+      "habitats": [
+        "hedgerow",
+        "garden",
+        "woodland"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A grey bird that sounds like a cat going \"mew!\". It also copies other birds' songs"
+    }
+  ],
+  "23": [
+    {
+      "id": "us_mid_atlantic_w23_ruby_throated_hummingbird",
+      "species": "Ruby-throated Hummingbird",
+      "scientificName": "Archilochus colubris",
+      "description": "Hummingbirds buzzing at gardens and feeders, wings a blur",
+      "habitats": [
+        "garden",
+        "woodland",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A tiny bird that hovers like a helicopter! Its wings beat so fast they buzz. Look for the red throat"
+    },
+    {
+      "id": "us_mid_atlantic_w23_luna_moth",
+      "species": "Luna Moth",
+      "scientificName": "Actias luna",
+      "description": "First generation luna moths declining",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "A huge pale green moth with long tail streamers, like a fairy from the moon. It doesn't even have a mouth!"
+    },
+    {
+      "id": "us_mid_atlantic_w23_firefly",
+      "species": "Firefly",
+      "scientificName": "Photuris",
+      "description": "First fireflies blinking in meadows at dusk",
+      "habitats": [
+        "meadow",
+        "garden",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The meadow twinkles with tiny yellow-green lights. Each flash is a firefly looking for love!"
+    },
+    {
+      "id": "us_mid_atlantic_w23_poison_ivy",
+      "species": "Poison Ivy",
+      "scientificName": "Toxicodendron radicans",
+      "description": "Poison ivy lush and vigorous along trails and woodland edges",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Three shiny leaves together. Never touch! It makes your skin super itchy. \"Leaves of three, let it be!\""
+    },
+    {
+      "id": "us_mid_atlantic_w23_wild_strawberry",
+      "species": "Wild Strawberry",
+      "scientificName": "Fragaria virginiana",
+      "description": "Wild strawberries fruiting in meadows and woodland edges",
+      "habitats": [
+        "meadow",
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Tiny strawberries hidden in the grass. They're so much tastier than big ones from the store!"
+    },
+    {
+      "id": "us_mid_atlantic_w23_gray_catbird",
+      "species": "Gray Catbird",
+      "scientificName": "Dumetella carolinensis",
+      "description": "Catbirds singing complex songs from dense shrubs",
+      "habitats": [
+        "hedgerow",
+        "garden",
+        "woodland"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A grey bird that sounds like a cat going \"mew!\". It also copies other birds' songs"
+    }
+  ],
+  "24": [
+    {
+      "id": "us_mid_atlantic_w24_ruby_throated_hummingbird",
+      "species": "Ruby-throated Hummingbird",
+      "scientificName": "Archilochus colubris",
+      "description": "Hummingbirds buzzing at gardens and feeders, wings a blur",
+      "habitats": [
+        "garden",
+        "woodland",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A tiny bird that hovers like a helicopter! Its wings beat so fast they buzz. Look for the red throat"
+    },
+    {
+      "id": "us_mid_atlantic_w24_firefly",
+      "species": "Firefly",
+      "scientificName": "Photuris",
+      "description": "First fireflies blinking in meadows at dusk",
+      "habitats": [
+        "meadow",
+        "garden",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The meadow twinkles with tiny yellow-green lights. Each flash is a firefly looking for love!"
+    },
+    {
+      "id": "us_mid_atlantic_w24_poison_ivy",
+      "species": "Poison Ivy",
+      "scientificName": "Toxicodendron radicans",
+      "description": "Poison ivy lush and vigorous along trails and woodland edges",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Three shiny leaves together. Never touch! It makes your skin super itchy. \"Leaves of three, let it be!\""
+    },
+    {
+      "id": "us_mid_atlantic_w24_wild_strawberry",
+      "species": "Wild Strawberry",
+      "scientificName": "Fragaria virginiana",
+      "description": "Wild strawberries fruiting in meadows and woodland edges",
+      "habitats": [
+        "meadow",
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Tiny strawberries hidden in the grass. They're so much tastier than big ones from the store!"
+    },
+    {
+      "id": "us_mid_atlantic_w24_gray_catbird",
+      "species": "Gray Catbird",
+      "scientificName": "Dumetella carolinensis",
+      "description": "Catbirds singing complex songs from dense shrubs",
+      "habitats": [
+        "hedgerow",
+        "garden",
+        "woodland"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A grey bird that sounds like a cat going \"mew!\". It also copies other birds' songs"
+    },
+    {
+      "id": "us_mid_atlantic_w24_annual_cicada",
+      "species": "Annual Cicada",
+      "scientificName": "Neotibicen",
+      "description": "First cicadas buzzing from treetops on hot days",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A loud buzzing from the trees that gets louder and louder. Cicadas lived underground for years before flying!"
+    },
+    {
+      "id": "us_mid_atlantic_w24_common_green_darner",
+      "species": "Common Green Darner",
+      "scientificName": "Anax junius",
+      "description": "Green darner dragonflies active over ponds and meadows",
+      "habitats": [
+        "pond",
+        "stream",
+        "meadow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A big green dragonfly zooms over the pond. It can fly forwards, backwards, and hover like a helicopter"
+    }
+  ],
+  "25": [
+    {
+      "id": "us_mid_atlantic_w25_ruby_throated_hummingbird",
+      "species": "Ruby-throated Hummingbird",
+      "scientificName": "Archilochus colubris",
+      "description": "Hummingbirds buzzing at gardens and feeders, wings a blur",
+      "habitats": [
+        "garden",
+        "woodland",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A tiny bird that hovers like a helicopter! Its wings beat so fast they buzz. Look for the red throat"
+    },
+    {
+      "id": "us_mid_atlantic_w25_firefly",
+      "species": "Firefly",
+      "scientificName": "Photuris",
+      "description": "Firefly displays at peak, meadows twinkling with bioluminescence",
+      "habitats": [
+        "meadow",
+        "garden",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The meadow twinkles with tiny yellow-green lights. Each flash is a firefly looking for love!"
+    },
+    {
+      "id": "us_mid_atlantic_w25_poison_ivy",
+      "species": "Poison Ivy",
+      "scientificName": "Toxicodendron radicans",
+      "description": "Poison ivy lush and vigorous along trails and woodland edges",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Three shiny leaves together. Never touch! It makes your skin super itchy. \"Leaves of three, let it be!\""
+    },
+    {
+      "id": "us_mid_atlantic_w25_wild_strawberry",
+      "species": "Wild Strawberry",
+      "scientificName": "Fragaria virginiana",
+      "description": "Wild strawberry season at peak, tiny but intensely sweet",
+      "habitats": [
+        "meadow",
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Tiny strawberries hidden in the grass. They're so much tastier than big ones from the store!"
+    },
+    {
+      "id": "us_mid_atlantic_w25_gray_catbird",
+      "species": "Gray Catbird",
+      "scientificName": "Dumetella carolinensis",
+      "description": "Catbirds singing complex songs from dense shrubs",
+      "habitats": [
+        "hedgerow",
+        "garden",
+        "woodland"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A grey bird that sounds like a cat going \"mew!\". It also copies other birds' songs"
+    },
+    {
+      "id": "us_mid_atlantic_w25_annual_cicada",
+      "species": "Annual Cicada",
+      "scientificName": "Neotibicen",
+      "description": "First cicadas buzzing from treetops on hot days",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A loud buzzing from the trees that gets louder and louder. Cicadas lived underground for years before flying!"
+    },
+    {
+      "id": "us_mid_atlantic_w25_black_eyed_susan",
+      "species": "Black-eyed Susan",
+      "scientificName": "Rudbeckia hirta",
+      "description": "Black-eyed Susans opening in meadows, golden petals with dark centers",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Golden flowers with a dark brown button in the middle. They look like little sunflowers"
+    }
+  ],
+  "26": [
+    {
+      "id": "us_mid_atlantic_w26_ruby_throated_hummingbird",
+      "species": "Ruby-throated Hummingbird",
+      "scientificName": "Archilochus colubris",
+      "description": "Hummingbirds buzzing at gardens and feeders, wings a blur",
+      "habitats": [
+        "garden",
+        "woodland",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A tiny bird that hovers like a helicopter! Its wings beat so fast they buzz. Look for the red throat"
+    },
+    {
+      "id": "us_mid_atlantic_w26_firefly",
+      "species": "Firefly",
+      "scientificName": "Photuris",
+      "description": "Firefly displays at peak, meadows twinkling with bioluminescence",
+      "habitats": [
+        "meadow",
+        "garden",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The meadow twinkles with tiny yellow-green lights. Each flash is a firefly looking for love!"
+    },
+    {
+      "id": "us_mid_atlantic_w26_poison_ivy",
+      "species": "Poison Ivy",
+      "scientificName": "Toxicodendron radicans",
+      "description": "Poison ivy lush and vigorous along trails and woodland edges",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Three shiny leaves together. Never touch! It makes your skin super itchy. \"Leaves of three, let it be!\""
+    },
+    {
+      "id": "us_mid_atlantic_w26_wild_strawberry",
+      "species": "Wild Strawberry",
+      "scientificName": "Fragaria virginiana",
+      "description": "Wild strawberry season at peak, tiny but intensely sweet",
+      "habitats": [
+        "meadow",
+        "woodland",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Tiny strawberries hidden in the grass. They're so much tastier than big ones from the store!"
+    },
+    {
+      "id": "us_mid_atlantic_w26_gray_catbird",
+      "species": "Gray Catbird",
+      "scientificName": "Dumetella carolinensis",
+      "description": "Catbirds singing complex songs from dense shrubs",
+      "habitats": [
+        "hedgerow",
+        "garden",
+        "woodland"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A grey bird that sounds like a cat going \"mew!\". It also copies other birds' songs"
+    },
+    {
+      "id": "us_mid_atlantic_w26_annual_cicada",
+      "species": "Annual Cicada",
+      "scientificName": "Neotibicen",
+      "description": "First cicadas buzzing from treetops on hot days",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A loud buzzing from the trees that gets louder and louder. Cicadas lived underground for years before flying!"
+    },
+    {
+      "id": "us_mid_atlantic_w26_mountain_laurel",
+      "species": "Mountain Laurel",
+      "scientificName": "Kalmia latifolia",
+      "description": "Mountain laurel at peak on woodland slopes",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Amazing pink flowers that look like tiny decorated umbrellas. Each one has a cool geometric pattern"
+    }
+  ],
+  "27": [
+    {
+      "id": "us_mid_atlantic_w27_ruby_throated_hummingbird",
+      "species": "Ruby-throated Hummingbird",
+      "scientificName": "Archilochus colubris",
+      "description": "Hummingbirds buzzing at gardens and feeders, wings a blur",
+      "habitats": [
+        "garden",
+        "woodland",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A tiny bird that hovers like a helicopter! Its wings beat so fast they buzz. Look for the red throat"
+    },
+    {
+      "id": "us_mid_atlantic_w27_firefly",
+      "species": "Firefly",
+      "scientificName": "Photuris",
+      "description": "Firefly displays at peak, meadows twinkling with bioluminescence",
+      "habitats": [
+        "meadow",
+        "garden",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The meadow twinkles with tiny yellow-green lights. Each flash is a firefly looking for love!"
+    },
+    {
+      "id": "us_mid_atlantic_w27_poison_ivy",
+      "species": "Poison Ivy",
+      "scientificName": "Toxicodendron radicans",
+      "description": "Poison ivy lush and vigorous along trails and woodland edges",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Three shiny leaves together. Never touch! It makes your skin super itchy. \"Leaves of three, let it be!\""
+    },
+    {
+      "id": "us_mid_atlantic_w27_gray_catbird",
+      "species": "Gray Catbird",
+      "scientificName": "Dumetella carolinensis",
+      "description": "Catbirds singing complex songs from dense shrubs",
+      "habitats": [
+        "hedgerow",
+        "garden",
+        "woodland"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A grey bird that sounds like a cat going \"mew!\". It also copies other birds' songs"
+    },
+    {
+      "id": "us_mid_atlantic_w27_annual_cicada",
+      "species": "Annual Cicada",
+      "scientificName": "Neotibicen",
+      "description": "Cicada chorus loud and continuous on hot afternoons",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A loud buzzing from the trees that gets louder and louder. Cicadas lived underground for years before flying!"
+    },
+    {
+      "id": "us_mid_atlantic_w27_common_green_darner",
+      "species": "Common Green Darner",
+      "scientificName": "Anax junius",
+      "description": "Dragonflies abundant near water",
+      "habitats": [
+        "pond",
+        "stream",
+        "meadow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A big green dragonfly zooms over the pond. It can fly forwards, backwards, and hover like a helicopter"
+    },
+    {
+      "id": "us_mid_atlantic_w27_mountain_laurel",
+      "species": "Mountain Laurel",
+      "scientificName": "Kalmia latifolia",
+      "description": "Mountain laurel at peak on woodland slopes",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Amazing pink flowers that look like tiny decorated umbrellas. Each one has a cool geometric pattern"
+    }
+  ],
+  "28": [
+    {
+      "id": "us_mid_atlantic_w28_ruby_throated_hummingbird",
+      "species": "Ruby-throated Hummingbird",
+      "scientificName": "Archilochus colubris",
+      "description": "Hummingbirds buzzing at gardens and feeders, wings a blur",
+      "habitats": [
+        "garden",
+        "woodland",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A tiny bird that hovers like a helicopter! Its wings beat so fast they buzz. Look for the red throat"
+    },
+    {
+      "id": "us_mid_atlantic_w28_firefly",
+      "species": "Firefly",
+      "scientificName": "Photuris",
+      "description": "Firefly displays at peak, meadows twinkling with bioluminescence",
+      "habitats": [
+        "meadow",
+        "garden",
+        "woodland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The meadow twinkles with tiny yellow-green lights. Each flash is a firefly looking for love!"
+    },
+    {
+      "id": "us_mid_atlantic_w28_poison_ivy",
+      "species": "Poison Ivy",
+      "scientificName": "Toxicodendron radicans",
+      "description": "Poison ivy lush and vigorous along trails and woodland edges",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Three shiny leaves together. Never touch! It makes your skin super itchy. \"Leaves of three, let it be!\""
+    },
+    {
+      "id": "us_mid_atlantic_w28_annual_cicada",
+      "species": "Annual Cicada",
+      "scientificName": "Neotibicen",
+      "description": "Cicada chorus loud and continuous on hot afternoons",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A loud buzzing from the trees that gets louder and louder. Cicadas lived underground for years before flying!"
+    },
+    {
+      "id": "us_mid_atlantic_w28_black_eyed_susan",
+      "species": "Black-eyed Susan",
+      "scientificName": "Rudbeckia hirta",
+      "description": "Black-eyed Susans at peak, meadows golden",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Golden flowers with a dark brown button in the middle. They look like little sunflowers"
+    },
+    {
+      "id": "us_mid_atlantic_w28_common_green_darner",
+      "species": "Common Green Darner",
+      "scientificName": "Anax junius",
+      "description": "Dragonflies abundant near water",
+      "habitats": [
+        "pond",
+        "stream",
+        "meadow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A big green dragonfly zooms over the pond. It can fly forwards, backwards, and hover like a helicopter"
+    },
+    {
+      "id": "us_mid_atlantic_w28_monarch_butterfly",
+      "species": "Monarch Butterfly",
+      "scientificName": "Danaus plexippus",
+      "description": "Monarch butterflies visiting milkweed, laying eggs on undersides of leaves",
+      "habitats": [
+        "meadow",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Orange and black butterflies that will fly all the way to Mexico, thousands of miles!"
+    }
+  ],
+  "29": [
+    {
+      "id": "us_mid_atlantic_w29_ruby_throated_hummingbird",
+      "species": "Ruby-throated Hummingbird",
+      "scientificName": "Archilochus colubris",
+      "description": "Hummingbirds buzzing at gardens and feeders, wings a blur",
+      "habitats": [
+        "garden",
+        "woodland",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A tiny bird that hovers like a helicopter! Its wings beat so fast they buzz. Look for the red throat"
+    },
+    {
+      "id": "us_mid_atlantic_w29_poison_ivy",
+      "species": "Poison Ivy",
+      "scientificName": "Toxicodendron radicans",
+      "description": "Poison ivy lush and vigorous along trails and woodland edges",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Three shiny leaves together. Never touch! It makes your skin super itchy. \"Leaves of three, let it be!\""
+    },
+    {
+      "id": "us_mid_atlantic_w29_annual_cicada",
+      "species": "Annual Cicada",
+      "scientificName": "Neotibicen",
+      "description": "Cicada chorus loud and continuous on hot afternoons",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A loud buzzing from the trees that gets louder and louder. Cicadas lived underground for years before flying!"
+    },
+    {
+      "id": "us_mid_atlantic_w29_black_eyed_susan",
+      "species": "Black-eyed Susan",
+      "scientificName": "Rudbeckia hirta",
+      "description": "Black-eyed Susans at peak, meadows golden",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Golden flowers with a dark brown button in the middle. They look like little sunflowers"
+    },
+    {
+      "id": "us_mid_atlantic_w29_common_green_darner",
+      "species": "Common Green Darner",
+      "scientificName": "Anax junius",
+      "description": "Dragonflies abundant near water",
+      "habitats": [
+        "pond",
+        "stream",
+        "meadow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A big green dragonfly zooms over the pond. It can fly forwards, backwards, and hover like a helicopter"
+    },
+    {
+      "id": "us_mid_atlantic_w29_monarch_butterfly",
+      "species": "Monarch Butterfly",
+      "scientificName": "Danaus plexippus",
+      "description": "Monarch butterflies visiting milkweed, laying eggs on undersides of leaves",
+      "habitats": [
+        "meadow",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Orange and black butterflies that will fly all the way to Mexico, thousands of miles!"
+    },
+    {
+      "id": "us_mid_atlantic_w29_bullfrog",
+      "species": "Bullfrog",
+      "scientificName": "Lithobates catesbeianus",
+      "description": "Bullfrogs calling from pond edges, deep \"jug-o-rum\" calls",
+      "habitats": [
+        "pond",
+        "stream"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A deep \"jug-o-rum!\" from the pond. That's a bullfrog, the biggest frog around!"
+    }
+  ],
+  "30": [
+    {
+      "id": "us_mid_atlantic_w30_ruby_throated_hummingbird",
+      "species": "Ruby-throated Hummingbird",
+      "scientificName": "Archilochus colubris",
+      "description": "Hummingbirds buzzing at gardens and feeders, wings a blur",
+      "habitats": [
+        "garden",
+        "woodland",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A tiny bird that hovers like a helicopter! Its wings beat so fast they buzz. Look for the red throat"
+    },
+    {
+      "id": "us_mid_atlantic_w30_poison_ivy",
+      "species": "Poison Ivy",
+      "scientificName": "Toxicodendron radicans",
+      "description": "Poison ivy lush and vigorous along trails and woodland edges",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Three shiny leaves together. Never touch! It makes your skin super itchy. \"Leaves of three, let it be!\""
+    },
+    {
+      "id": "us_mid_atlantic_w30_annual_cicada",
+      "species": "Annual Cicada",
+      "scientificName": "Neotibicen",
+      "description": "Cicada chorus loud and continuous on hot afternoons",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A loud buzzing from the trees that gets louder and louder. Cicadas lived underground for years before flying!"
+    },
+    {
+      "id": "us_mid_atlantic_w30_black_eyed_susan",
+      "species": "Black-eyed Susan",
+      "scientificName": "Rudbeckia hirta",
+      "description": "Black-eyed Susans at peak, meadows golden",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Golden flowers with a dark brown button in the middle. They look like little sunflowers"
+    },
+    {
+      "id": "us_mid_atlantic_w30_common_green_darner",
+      "species": "Common Green Darner",
+      "scientificName": "Anax junius",
+      "description": "Dragonflies abundant near water",
+      "habitats": [
+        "pond",
+        "stream",
+        "meadow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A big green dragonfly zooms over the pond. It can fly forwards, backwards, and hover like a helicopter"
+    },
+    {
+      "id": "us_mid_atlantic_w30_monarch_butterfly",
+      "species": "Monarch Butterfly",
+      "scientificName": "Danaus plexippus",
+      "description": "Monarchs active in gardens and meadows, caterpillars on milkweed",
+      "habitats": [
+        "meadow",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Orange and black butterflies that will fly all the way to Mexico, thousands of miles!"
+    },
+    {
+      "id": "us_mid_atlantic_w30_bullfrog",
+      "species": "Bullfrog",
+      "scientificName": "Lithobates catesbeianus",
+      "description": "Bullfrogs calling from pond edges, deep \"jug-o-rum\" calls",
+      "habitats": [
+        "pond",
+        "stream"
+      ],
+      "senses": [
+        "sound",
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A deep \"jug-o-rum!\" from the pond. That's a bullfrog, the biggest frog around!"
+    }
+  ],
+  "31": [
+    {
+      "id": "us_mid_atlantic_w31_ruby_throated_hummingbird",
+      "species": "Ruby-throated Hummingbird",
+      "scientificName": "Archilochus colubris",
+      "description": "Hummingbirds preparing for fall migration",
+      "habitats": [
+        "garden",
+        "woodland",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "A tiny bird that hovers like a helicopter! Its wings beat so fast they buzz. Look for the red throat"
+    },
+    {
+      "id": "us_mid_atlantic_w31_black_eyed_susan",
+      "species": "Black-eyed Susan",
+      "scientificName": "Rudbeckia hirta",
+      "description": "Black-eyed Susans at peak, meadows golden",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Golden flowers with a dark brown button in the middle. They look like little sunflowers"
+    },
+    {
+      "id": "us_mid_atlantic_w31_common_green_darner",
+      "species": "Common Green Darner",
+      "scientificName": "Anax junius",
+      "description": "Dragonflies abundant near water",
+      "habitats": [
+        "pond",
+        "stream",
+        "meadow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A big green dragonfly zooms over the pond. It can fly forwards, backwards, and hover like a helicopter"
+    },
+    {
+      "id": "us_mid_atlantic_w31_monarch_butterfly",
+      "species": "Monarch Butterfly",
+      "scientificName": "Danaus plexippus",
+      "description": "Monarchs active in gardens and meadows, caterpillars on milkweed",
+      "habitats": [
+        "meadow",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Orange and black butterflies that will fly all the way to Mexico, thousands of miles!"
+    },
+    {
+      "id": "us_mid_atlantic_w31_goldenrod",
+      "species": "Goldenrod",
+      "scientificName": "Solidago",
+      "description": "Goldenrod beginning to flower, golden plumes in meadows",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Fields turn gold with fluffy flower plumes. Bees go crazy for them"
+    },
+    {
+      "id": "us_mid_atlantic_w31_wild_blueberry",
+      "species": "Wild Blueberry",
+      "scientificName": "Vaccinium angustifolium",
+      "description": "Peak blueberry season",
+      "habitats": [
+        "woodland",
+        "grassland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Wild blueberries are smaller than store ones but taste a million times better. Pop them in your mouth!"
+    },
+    {
+      "id": "us_mid_atlantic_w31_katydid",
+      "species": "Katydid",
+      "scientificName": "Pterophylla camellifolia",
+      "description": "Katydids beginning their loud evening chorus",
+      "habitats": [
+        "woodland",
+        "garden",
+        "hedgerow"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "At night, big green insects argue \"Katy did! Katy didn't!\" over and over in the trees"
+    }
+  ],
+  "32": [
+    {
+      "id": "us_mid_atlantic_w32_ruby_throated_hummingbird",
+      "species": "Ruby-throated Hummingbird",
+      "scientificName": "Archilochus colubris",
+      "description": "Hummingbirds preparing for fall migration",
+      "habitats": [
+        "garden",
+        "woodland",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "A tiny bird that hovers like a helicopter! Its wings beat so fast they buzz. Look for the red throat"
+    },
+    {
+      "id": "us_mid_atlantic_w32_black_eyed_susan",
+      "species": "Black-eyed Susan",
+      "scientificName": "Rudbeckia hirta",
+      "description": "Black-eyed Susans at peak, meadows golden",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Golden flowers with a dark brown button in the middle. They look like little sunflowers"
+    },
+    {
+      "id": "us_mid_atlantic_w32_common_green_darner",
+      "species": "Common Green Darner",
+      "scientificName": "Anax junius",
+      "description": "Dragonflies abundant near water",
+      "habitats": [
+        "pond",
+        "stream",
+        "meadow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A big green dragonfly zooms over the pond. It can fly forwards, backwards, and hover like a helicopter"
+    },
+    {
+      "id": "us_mid_atlantic_w32_monarch_butterfly",
+      "species": "Monarch Butterfly",
+      "scientificName": "Danaus plexippus",
+      "description": "Monarchs active in gardens and meadows, caterpillars on milkweed",
+      "habitats": [
+        "meadow",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Orange and black butterflies that will fly all the way to Mexico, thousands of miles!"
+    },
+    {
+      "id": "us_mid_atlantic_w32_goldenrod",
+      "species": "Goldenrod",
+      "scientificName": "Solidago",
+      "description": "Goldenrod at peak, meadows ablaze with gold",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Fields turn gold with fluffy flower plumes. Bees go crazy for them"
+    },
+    {
+      "id": "us_mid_atlantic_w32_wild_blueberry",
+      "species": "Wild Blueberry",
+      "scientificName": "Vaccinium angustifolium",
+      "description": "Peak blueberry season",
+      "habitats": [
+        "woodland",
+        "grassland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Wild blueberries are smaller than store ones but taste a million times better. Pop them in your mouth!"
+    },
+    {
+      "id": "us_mid_atlantic_w32_katydid",
+      "species": "Katydid",
+      "scientificName": "Pterophylla camellifolia",
+      "description": "Katydids beginning their loud evening chorus",
+      "habitats": [
+        "woodland",
+        "garden",
+        "hedgerow"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "At night, big green insects argue \"Katy did! Katy didn't!\" over and over in the trees"
+    }
+  ],
+  "33": [
+    {
+      "id": "us_mid_atlantic_w33_ruby_throated_hummingbird",
+      "species": "Ruby-throated Hummingbird",
+      "scientificName": "Archilochus colubris",
+      "description": "Hummingbirds preparing for fall migration",
+      "habitats": [
+        "garden",
+        "woodland",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "A tiny bird that hovers like a helicopter! Its wings beat so fast they buzz. Look for the red throat"
+    },
+    {
+      "id": "us_mid_atlantic_w33_poison_ivy",
+      "species": "Poison Ivy",
+      "scientificName": "Toxicodendron radicans",
+      "description": "Poison ivy beginning to turn red",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Three shiny leaves together. Never touch! It makes your skin super itchy. \"Leaves of three, let it be!\""
+    },
+    {
+      "id": "us_mid_atlantic_w33_annual_cicada",
+      "species": "Annual Cicada",
+      "scientificName": "Neotibicen",
+      "description": "Cicada calls winding down",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "A loud buzzing from the trees that gets louder and louder. Cicadas lived underground for years before flying!"
+    },
+    {
+      "id": "us_mid_atlantic_w33_monarch_butterfly",
+      "species": "Monarch Butterfly",
+      "scientificName": "Danaus plexippus",
+      "description": "Monarchs active in gardens and meadows, caterpillars on milkweed",
+      "habitats": [
+        "meadow",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Orange and black butterflies that will fly all the way to Mexico, thousands of miles!"
+    },
+    {
+      "id": "us_mid_atlantic_w33_goldenrod",
+      "species": "Goldenrod",
+      "scientificName": "Solidago",
+      "description": "Goldenrod at peak, meadows ablaze with gold",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Fields turn gold with fluffy flower plumes. Bees go crazy for them"
+    },
+    {
+      "id": "us_mid_atlantic_w33_katydid",
+      "species": "Katydid",
+      "scientificName": "Pterophylla camellifolia",
+      "description": "Katydids beginning their loud evening chorus",
+      "habitats": [
+        "woodland",
+        "garden",
+        "hedgerow"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "At night, big green insects argue \"Katy did! Katy didn't!\" over and over in the trees"
+    },
+    {
+      "id": "us_mid_atlantic_w33_new_england_aster",
+      "species": "New England Aster",
+      "scientificName": "Symphyotrichum novae-angliae",
+      "description": "New England asters opening, deep purple with golden centers",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "garden",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Purple flowers with gold middles look like tiny stars. They bloom when everything else is stopping"
+    }
+  ],
+  "34": [
+    {
+      "id": "us_mid_atlantic_w34_ruby_throated_hummingbird",
+      "species": "Ruby-throated Hummingbird",
+      "scientificName": "Archilochus colubris",
+      "description": "Hummingbirds preparing for fall migration",
+      "habitats": [
+        "garden",
+        "woodland",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "A tiny bird that hovers like a helicopter! Its wings beat so fast they buzz. Look for the red throat"
+    },
+    {
+      "id": "us_mid_atlantic_w34_poison_ivy",
+      "species": "Poison Ivy",
+      "scientificName": "Toxicodendron radicans",
+      "description": "Poison ivy beginning to turn red",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Three shiny leaves together. Never touch! It makes your skin super itchy. \"Leaves of three, let it be!\""
+    },
+    {
+      "id": "us_mid_atlantic_w34_black_eyed_susan",
+      "species": "Black-eyed Susan",
+      "scientificName": "Rudbeckia hirta",
+      "description": "Flowers going over",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Golden flowers with a dark brown button in the middle. They look like little sunflowers"
+    },
+    {
+      "id": "us_mid_atlantic_w34_monarch_butterfly",
+      "species": "Monarch Butterfly",
+      "scientificName": "Danaus plexippus",
+      "description": "Monarchs active in gardens and meadows, caterpillars on milkweed",
+      "habitats": [
+        "meadow",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Orange and black butterflies that will fly all the way to Mexico, thousands of miles!"
+    },
+    {
+      "id": "us_mid_atlantic_w34_goldenrod",
+      "species": "Goldenrod",
+      "scientificName": "Solidago",
+      "description": "Goldenrod at peak, meadows ablaze with gold",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Fields turn gold with fluffy flower plumes. Bees go crazy for them"
+    },
+    {
+      "id": "us_mid_atlantic_w34_katydid",
+      "species": "Katydid",
+      "scientificName": "Pterophylla camellifolia",
+      "description": "Katydids at peak, \"katy-did, katy-didn't\" filling night air",
+      "habitats": [
+        "woodland",
+        "garden",
+        "hedgerow"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "At night, big green insects argue \"Katy did! Katy didn't!\" over and over in the trees"
+    },
+    {
+      "id": "us_mid_atlantic_w34_new_england_aster",
+      "species": "New England Aster",
+      "scientificName": "Symphyotrichum novae-angliae",
+      "description": "New England asters opening, deep purple with golden centers",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "garden",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Purple flowers with gold middles look like tiny stars. They bloom when everything else is stopping"
+    }
+  ],
+  "35": [
+    {
+      "id": "us_mid_atlantic_w35_ruby_throated_hummingbird",
+      "species": "Ruby-throated Hummingbird",
+      "scientificName": "Archilochus colubris",
+      "description": "Hummingbirds preparing for fall migration",
+      "habitats": [
+        "garden",
+        "woodland",
+        "meadow"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "A tiny bird that hovers like a helicopter! Its wings beat so fast they buzz. Look for the red throat"
+    },
+    {
+      "id": "us_mid_atlantic_w35_poison_ivy",
+      "species": "Poison Ivy",
+      "scientificName": "Toxicodendron radicans",
+      "description": "Poison ivy beginning to turn red",
+      "habitats": [
+        "woodland",
+        "hedgerow",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Three shiny leaves together. Never touch! It makes your skin super itchy. \"Leaves of three, let it be!\""
+    },
+    {
+      "id": "us_mid_atlantic_w35_monarch_butterfly",
+      "species": "Monarch Butterfly",
+      "scientificName": "Danaus plexippus",
+      "description": "Monarchs active in gardens and meadows, caterpillars on milkweed",
+      "habitats": [
+        "meadow",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Orange and black butterflies that will fly all the way to Mexico, thousands of miles!"
+    },
+    {
+      "id": "us_mid_atlantic_w35_goldenrod",
+      "species": "Goldenrod",
+      "scientificName": "Solidago",
+      "description": "Goldenrod at peak, meadows ablaze with gold",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Fields turn gold with fluffy flower plumes. Bees go crazy for them"
+    },
+    {
+      "id": "us_mid_atlantic_w35_katydid",
+      "species": "Katydid",
+      "scientificName": "Pterophylla camellifolia",
+      "description": "Katydids at peak, \"katy-did, katy-didn't\" filling night air",
+      "habitats": [
+        "woodland",
+        "garden",
+        "hedgerow"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "At night, big green insects argue \"Katy did! Katy didn't!\" over and over in the trees"
+    },
+    {
+      "id": "us_mid_atlantic_w35_new_england_aster",
+      "species": "New England Aster",
+      "scientificName": "Symphyotrichum novae-angliae",
+      "description": "New England asters opening, deep purple with golden centers",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "garden",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Purple flowers with gold middles look like tiny stars. They bloom when everything else is stopping"
+    },
+    {
+      "id": "us_mid_atlantic_w35_broad_winged_hawk",
+      "species": "Broad-winged Hawk",
+      "scientificName": "Buteo platypterus",
+      "description": "Hawks beginning autumn migration, watch for kettles rising on thermals",
+      "habitats": [
+        "woodland",
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Hundreds of hawks spiral upward in the sky like a living tornado. They're heading south for winter"
+    }
+  ],
+  "36": [
+    {
+      "id": "us_mid_atlantic_w36_monarch_butterfly",
+      "species": "Monarch Butterfly",
+      "scientificName": "Danaus plexippus",
+      "description": "Monarchs beginning migration south",
+      "habitats": [
+        "meadow",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Orange and black butterflies that will fly all the way to Mexico, thousands of miles!"
+    },
+    {
+      "id": "us_mid_atlantic_w36_goldenrod",
+      "species": "Goldenrod",
+      "scientificName": "Solidago",
+      "description": "Goldenrod at peak, meadows ablaze with gold",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Fields turn gold with fluffy flower plumes. Bees go crazy for them"
+    },
+    {
+      "id": "us_mid_atlantic_w36_katydid",
+      "species": "Katydid",
+      "scientificName": "Pterophylla camellifolia",
+      "description": "Katydids at peak, \"katy-did, katy-didn't\" filling night air",
+      "habitats": [
+        "woodland",
+        "garden",
+        "hedgerow"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "At night, big green insects argue \"Katy did! Katy didn't!\" over and over in the trees"
+    },
+    {
+      "id": "us_mid_atlantic_w36_new_england_aster",
+      "species": "New England Aster",
+      "scientificName": "Symphyotrichum novae-angliae",
+      "description": "Asters at peak, rich purple drifts",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "garden",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Purple flowers with gold middles look like tiny stars. They bloom when everything else is stopping"
+    },
+    {
+      "id": "us_mid_atlantic_w36_broad_winged_hawk",
+      "species": "Broad-winged Hawk",
+      "scientificName": "Buteo platypterus",
+      "description": "Hawks beginning autumn migration, watch for kettles rising on thermals",
+      "habitats": [
+        "woodland",
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Hundreds of hawks spiral upward in the sky like a living tornado. They're heading south for winter"
+    },
+    {
+      "id": "us_mid_atlantic_w36_apple",
+      "species": "Apple",
+      "scientificName": "Malus domestica",
+      "description": "Apples ripening in orchards, apple-picking season beginning",
+      "habitats": [
+        "garden",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Crunchy apples right from the tree. Bite into one and juice runs down your chin!"
+    },
+    {
+      "id": "us_mid_atlantic_w36_woolly_bear_caterpillar",
+      "species": "Woolly Bear Caterpillar",
+      "scientificName": "Pyrrharctia isabella",
+      "description": "Woolly bear caterpillars crossing roads and paths",
+      "habitats": [
+        "garden",
+        "grassland",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A fuzzy black-and-brown caterpillar curls into a ball when you gently pick it up. It tickles!"
+    }
+  ],
+  "37": [
+    {
+      "id": "us_mid_atlantic_w37_monarch_butterfly",
+      "species": "Monarch Butterfly",
+      "scientificName": "Danaus plexippus",
+      "description": "Monarchs beginning migration south",
+      "habitats": [
+        "meadow",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Orange and black butterflies that will fly all the way to Mexico, thousands of miles!"
+    },
+    {
+      "id": "us_mid_atlantic_w37_katydid",
+      "species": "Katydid",
+      "scientificName": "Pterophylla camellifolia",
+      "description": "Katydids at peak, \"katy-did, katy-didn't\" filling night air",
+      "habitats": [
+        "woodland",
+        "garden",
+        "hedgerow"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "At night, big green insects argue \"Katy did! Katy didn't!\" over and over in the trees"
+    },
+    {
+      "id": "us_mid_atlantic_w37_new_england_aster",
+      "species": "New England Aster",
+      "scientificName": "Symphyotrichum novae-angliae",
+      "description": "Asters at peak, rich purple drifts",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "garden",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Purple flowers with gold middles look like tiny stars. They bloom when everything else is stopping"
+    },
+    {
+      "id": "us_mid_atlantic_w37_broad_winged_hawk",
+      "species": "Broad-winged Hawk",
+      "scientificName": "Buteo platypterus",
+      "description": "Hawks beginning autumn migration, watch for kettles rising on thermals",
+      "habitats": [
+        "woodland",
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Hundreds of hawks spiral upward in the sky like a living tornado. They're heading south for winter"
+    },
+    {
+      "id": "us_mid_atlantic_w37_sugar_maple",
+      "species": "Sugar Maple",
+      "scientificName": "Acer saccharum",
+      "description": "Sugar maples beginning to turn: first reds, oranges and golds",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The trees set the whole hillside on fire with orange and red: New England's famous fall colors!"
+    },
+    {
+      "id": "us_mid_atlantic_w37_apple",
+      "species": "Apple",
+      "scientificName": "Malus domestica",
+      "description": "Apples ripening in orchards, apple-picking season beginning",
+      "habitats": [
+        "garden",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Crunchy apples right from the tree. Bite into one and juice runs down your chin!"
+    },
+    {
+      "id": "us_mid_atlantic_w37_monarch_migration",
+      "species": "Monarch Migration",
+      "kind": "event",
+      "scientificName": "Danaus plexippus",
+      "description": "Monarch butterflies streaming south along coast and ridgelines",
+      "habitats": [
+        "meadow",
+        "garden",
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Orange butterflies float past in waves. Each one is flying to a mountain in Mexico it's never seen!"
+    }
+  ],
+  "38": [
+    {
+      "id": "us_mid_atlantic_w38_monarch_butterfly",
+      "species": "Monarch Butterfly",
+      "scientificName": "Danaus plexippus",
+      "description": "Monarchs beginning migration south",
+      "habitats": [
+        "meadow",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Orange and black butterflies that will fly all the way to Mexico, thousands of miles!"
+    },
+    {
+      "id": "us_mid_atlantic_w38_goldenrod",
+      "species": "Goldenrod",
+      "scientificName": "Solidago",
+      "description": "Goldenrod going over",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Fields turn gold with fluffy flower plumes. Bees go crazy for them"
+    },
+    {
+      "id": "us_mid_atlantic_w38_new_england_aster",
+      "species": "New England Aster",
+      "scientificName": "Symphyotrichum novae-angliae",
+      "description": "Asters at peak, rich purple drifts",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "garden",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Purple flowers with gold middles look like tiny stars. They bloom when everything else is stopping"
+    },
+    {
+      "id": "us_mid_atlantic_w38_broad_winged_hawk",
+      "species": "Broad-winged Hawk",
+      "scientificName": "Buteo platypterus",
+      "description": "Peak hawk migration. Thousands soar over ridgelines",
+      "habitats": [
+        "woodland",
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Hundreds of hawks spiral upward in the sky like a living tornado. They're heading south for winter"
+    },
+    {
+      "id": "us_mid_atlantic_w38_sugar_maple",
+      "species": "Sugar Maple",
+      "scientificName": "Acer saccharum",
+      "description": "Sugar maples beginning to turn: first reds, oranges and golds",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The trees set the whole hillside on fire with orange and red: New England's famous fall colors!"
+    },
+    {
+      "id": "us_mid_atlantic_w38_apple",
+      "species": "Apple",
+      "scientificName": "Malus domestica",
+      "description": "Apples ripening in orchards, apple-picking season beginning",
+      "habitats": [
+        "garden",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Crunchy apples right from the tree. Bite into one and juice runs down your chin!"
+    },
+    {
+      "id": "us_mid_atlantic_w38_monarch_migration",
+      "species": "Monarch Migration",
+      "kind": "event",
+      "scientificName": "Danaus plexippus",
+      "description": "Monarch butterflies streaming south along coast and ridgelines",
+      "habitats": [
+        "meadow",
+        "garden",
+        "coast"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Orange butterflies float past in waves. Each one is flying to a mountain in Mexico it's never seen!"
+    }
+  ],
+  "39": [
+    {
+      "id": "us_mid_atlantic_w39_katydid",
+      "species": "Katydid",
+      "scientificName": "Pterophylla camellifolia",
+      "description": "Katydid calls fading with cooler nights",
+      "habitats": [
+        "woodland",
+        "garden",
+        "hedgerow"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "At night, big green insects argue \"Katy did! Katy didn't!\" over and over in the trees"
+    },
+    {
+      "id": "us_mid_atlantic_w39_new_england_aster",
+      "species": "New England Aster",
+      "scientificName": "Symphyotrichum novae-angliae",
+      "description": "Asters fading",
+      "habitats": [
+        "meadow",
+        "grassland",
+        "garden",
+        "hedgerow"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Purple flowers with gold middles look like tiny stars. They bloom when everything else is stopping"
+    },
+    {
+      "id": "us_mid_atlantic_w39_broad_winged_hawk",
+      "species": "Broad-winged Hawk",
+      "scientificName": "Buteo platypterus",
+      "description": "Peak hawk migration. Thousands soar over ridgelines",
+      "habitats": [
+        "woodland",
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Hundreds of hawks spiral upward in the sky like a living tornado. They're heading south for winter"
+    },
+    {
+      "id": "us_mid_atlantic_w39_sugar_maple",
+      "species": "Sugar Maple",
+      "scientificName": "Acer saccharum",
+      "description": "Sugar maples beginning to turn: first reds, oranges and golds",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The trees set the whole hillside on fire with orange and red: New England's famous fall colors!"
+    },
+    {
+      "id": "us_mid_atlantic_w39_apple",
+      "species": "Apple",
+      "scientificName": "Malus domestica",
+      "description": "Peak apple season",
+      "habitats": [
+        "garden",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Crunchy apples right from the tree. Bite into one and juice runs down your chin!"
+    },
+    {
+      "id": "us_mid_atlantic_w39_woolly_bear_caterpillar",
+      "species": "Woolly Bear Caterpillar",
+      "scientificName": "Pyrrharctia isabella",
+      "description": "Woolly bears abundant, seeking winter shelter",
+      "habitats": [
+        "garden",
+        "grassland",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A fuzzy black-and-brown caterpillar curls into a ball when you gently pick it up. It tickles!"
+    },
+    {
+      "id": "us_mid_atlantic_w39_eastern_gray_squirrel",
+      "species": "Eastern Gray Squirrel",
+      "scientificName": "Sciurus carolinensis",
+      "description": "Squirrels frantically burying acorns and hickory nuts",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden",
+        "playing_field"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Squirrels are going nuts, hiding acorns everywhere. They forget most of them so trees grow!"
+    }
+  ],
+  "40": [
+    {
+      "id": "us_mid_atlantic_w40_katydid",
+      "species": "Katydid",
+      "scientificName": "Pterophylla camellifolia",
+      "description": "Katydid calls fading with cooler nights",
+      "habitats": [
+        "woodland",
+        "garden",
+        "hedgerow"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "At night, big green insects argue \"Katy did! Katy didn't!\" over and over in the trees"
+    },
+    {
+      "id": "us_mid_atlantic_w40_sugar_maple",
+      "species": "Sugar Maple",
+      "scientificName": "Acer saccharum",
+      "description": "Peak fall foliage, spectacular orange and red maples",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The trees set the whole hillside on fire with orange and red: New England's famous fall colors!"
+    },
+    {
+      "id": "us_mid_atlantic_w40_apple",
+      "species": "Apple",
+      "scientificName": "Malus domestica",
+      "description": "Peak apple season",
+      "habitats": [
+        "garden",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Crunchy apples right from the tree. Bite into one and juice runs down your chin!"
+    },
+    {
+      "id": "us_mid_atlantic_w40_woolly_bear_caterpillar",
+      "species": "Woolly Bear Caterpillar",
+      "scientificName": "Pyrrharctia isabella",
+      "description": "Woolly bears abundant, seeking winter shelter",
+      "habitats": [
+        "garden",
+        "grassland",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A fuzzy black-and-brown caterpillar curls into a ball when you gently pick it up. It tickles!"
+    },
+    {
+      "id": "us_mid_atlantic_w40_witch_hazel",
+      "species": "Witch Hazel",
+      "scientificName": "Hamamelis virginiana",
+      "description": "Witch hazel flowering, spidery yellow flowers on bare branches",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Weird spidery yellow flowers bloom on bare branches when everything else has stopped, nature's rebel!"
+    },
+    {
+      "id": "us_mid_atlantic_w40_canada_goose",
+      "species": "Canada Goose",
+      "scientificName": "Branta canadensis",
+      "description": "V-formations of Canada geese flying south, honking loudly",
+      "habitats": [
+        "pond",
+        "grassland",
+        "playing_field",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Look up! Big V shapes of honking geese fly across the sky heading south for winter"
+    },
+    {
+      "id": "us_mid_atlantic_w40_eastern_gray_squirrel",
+      "species": "Eastern Gray Squirrel",
+      "scientificName": "Sciurus carolinensis",
+      "description": "Squirrels frantically burying acorns and hickory nuts",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden",
+        "playing_field"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Squirrels are going nuts, hiding acorns everywhere. They forget most of them so trees grow!"
+    }
+  ],
+  "41": [
+    {
+      "id": "us_mid_atlantic_w41_broad_winged_hawk",
+      "species": "Broad-winged Hawk",
+      "scientificName": "Buteo platypterus",
+      "description": "Late hawk migration continuing",
+      "habitats": [
+        "woodland",
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Hundreds of hawks spiral upward in the sky like a living tornado. They're heading south for winter"
+    },
+    {
+      "id": "us_mid_atlantic_w41_sugar_maple",
+      "species": "Sugar Maple",
+      "scientificName": "Acer saccharum",
+      "description": "Peak fall foliage, spectacular orange and red maples",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The trees set the whole hillside on fire with orange and red: New England's famous fall colors!"
+    },
+    {
+      "id": "us_mid_atlantic_w41_apple",
+      "species": "Apple",
+      "scientificName": "Malus domestica",
+      "description": "Late apple varieties still on trees",
+      "habitats": [
+        "garden",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Crunchy apples right from the tree. Bite into one and juice runs down your chin!"
+    },
+    {
+      "id": "us_mid_atlantic_w41_woolly_bear_caterpillar",
+      "species": "Woolly Bear Caterpillar",
+      "scientificName": "Pyrrharctia isabella",
+      "description": "Last woolly bears disappearing into leaf litter",
+      "habitats": [
+        "garden",
+        "grassland",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "A fuzzy black-and-brown caterpillar curls into a ball when you gently pick it up. It tickles!"
+    },
+    {
+      "id": "us_mid_atlantic_w41_witch_hazel",
+      "species": "Witch Hazel",
+      "scientificName": "Hamamelis virginiana",
+      "description": "Witch hazel flowering, spidery yellow flowers on bare branches",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Weird spidery yellow flowers bloom on bare branches when everything else has stopped, nature's rebel!"
+    },
+    {
+      "id": "us_mid_atlantic_w41_canada_goose",
+      "species": "Canada Goose",
+      "scientificName": "Branta canadensis",
+      "description": "V-formations of Canada geese flying south, honking loudly",
+      "habitats": [
+        "pond",
+        "grassland",
+        "playing_field",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Look up! Big V shapes of honking geese fly across the sky heading south for winter"
+    },
+    {
+      "id": "us_mid_atlantic_w41_eastern_gray_squirrel",
+      "species": "Eastern Gray Squirrel",
+      "scientificName": "Sciurus carolinensis",
+      "description": "Squirrels frantically burying acorns and hickory nuts",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden",
+        "playing_field"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Squirrels are going nuts, hiding acorns everywhere. They forget most of them so trees grow!"
+    }
+  ],
+  "42": [
+    {
+      "id": "us_mid_atlantic_w42_broad_winged_hawk",
+      "species": "Broad-winged Hawk",
+      "scientificName": "Buteo platypterus",
+      "description": "Late hawk migration continuing",
+      "habitats": [
+        "woodland",
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Hundreds of hawks spiral upward in the sky like a living tornado. They're heading south for winter"
+    },
+    {
+      "id": "us_mid_atlantic_w42_sugar_maple",
+      "species": "Sugar Maple",
+      "scientificName": "Acer saccharum",
+      "description": "Peak fall foliage, spectacular orange and red maples",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The trees set the whole hillside on fire with orange and red: New England's famous fall colors!"
+    },
+    {
+      "id": "us_mid_atlantic_w42_apple",
+      "species": "Apple",
+      "scientificName": "Malus domestica",
+      "description": "Late apple varieties still on trees",
+      "habitats": [
+        "garden",
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell",
+        "touch"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Crunchy apples right from the tree. Bite into one and juice runs down your chin!"
+    },
+    {
+      "id": "us_mid_atlantic_w42_witch_hazel",
+      "species": "Witch Hazel",
+      "scientificName": "Hamamelis virginiana",
+      "description": "Witch hazel flowering, spidery yellow flowers on bare branches",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Weird spidery yellow flowers bloom on bare branches when everything else has stopped, nature's rebel!"
+    },
+    {
+      "id": "us_mid_atlantic_w42_canada_goose",
+      "species": "Canada Goose",
+      "scientificName": "Branta canadensis",
+      "description": "V-formations of Canada geese flying south, honking loudly",
+      "habitats": [
+        "pond",
+        "grassland",
+        "playing_field",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Look up! Big V shapes of honking geese fly across the sky heading south for winter"
+    },
+    {
+      "id": "us_mid_atlantic_w42_eastern_gray_squirrel",
+      "species": "Eastern Gray Squirrel",
+      "scientificName": "Sciurus carolinensis",
+      "description": "Squirrels frantically burying acorns and hickory nuts",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden",
+        "playing_field"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Squirrels are going nuts, hiding acorns everywhere. They forget most of them so trees grow!"
+    },
+    {
+      "id": "us_mid_atlantic_w42_white_oak",
+      "species": "White Oak",
+      "scientificName": "Quercus alba",
+      "description": "Oak leaves turning deep red and russet, acorns falling",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "touch",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Oak leaves turn deep red and crunch under your feet. Collect the acorns and look for the little cups"
+    }
+  ],
+  "43": [
+    {
+      "id": "us_mid_atlantic_w43_sugar_maple",
+      "species": "Sugar Maple",
+      "scientificName": "Acer saccharum",
+      "description": "Leaves falling, past peak colour",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The trees set the whole hillside on fire with orange and red: New England's famous fall colors!"
+    },
+    {
+      "id": "us_mid_atlantic_w43_witch_hazel",
+      "species": "Witch Hazel",
+      "scientificName": "Hamamelis virginiana",
+      "description": "Witch hazel at peak, the last native wildflower to bloom",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Weird spidery yellow flowers bloom on bare branches when everything else has stopped, nature's rebel!"
+    },
+    {
+      "id": "us_mid_atlantic_w43_canada_goose",
+      "species": "Canada Goose",
+      "scientificName": "Branta canadensis",
+      "description": "V-formations of Canada geese flying south, honking loudly",
+      "habitats": [
+        "pond",
+        "grassland",
+        "playing_field",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Look up! Big V shapes of honking geese fly across the sky heading south for winter"
+    },
+    {
+      "id": "us_mid_atlantic_w43_eastern_gray_squirrel",
+      "species": "Eastern Gray Squirrel",
+      "scientificName": "Sciurus carolinensis",
+      "description": "Squirrels frantically burying acorns and hickory nuts",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden",
+        "playing_field"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Squirrels are going nuts, hiding acorns everywhere. They forget most of them so trees grow!"
+    },
+    {
+      "id": "us_mid_atlantic_w43_white_oak",
+      "species": "White Oak",
+      "scientificName": "Quercus alba",
+      "description": "Oak leaves turning deep red and russet, acorns falling",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "touch",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Oak leaves turn deep red and crunch under your feet. Collect the acorns and look for the little cups"
+    }
+  ],
+  "44": [
+    {
+      "id": "us_mid_atlantic_w44_sugar_maple",
+      "species": "Sugar Maple",
+      "scientificName": "Acer saccharum",
+      "description": "Leaves falling, past peak colour",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The trees set the whole hillside on fire with orange and red: New England's famous fall colors!"
+    },
+    {
+      "id": "us_mid_atlantic_w44_witch_hazel",
+      "species": "Witch Hazel",
+      "scientificName": "Hamamelis virginiana",
+      "description": "Witch hazel at peak, the last native wildflower to bloom",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Weird spidery yellow flowers bloom on bare branches when everything else has stopped, nature's rebel!"
+    },
+    {
+      "id": "us_mid_atlantic_w44_canada_goose",
+      "species": "Canada Goose",
+      "scientificName": "Branta canadensis",
+      "description": "Goose migration at peak overhead",
+      "habitats": [
+        "pond",
+        "grassland",
+        "playing_field",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Look up! Big V shapes of honking geese fly across the sky heading south for winter"
+    },
+    {
+      "id": "us_mid_atlantic_w44_eastern_gray_squirrel",
+      "species": "Eastern Gray Squirrel",
+      "scientificName": "Sciurus carolinensis",
+      "description": "Squirrels frantically burying acorns and hickory nuts",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden",
+        "playing_field"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Squirrels are going nuts, hiding acorns everywhere. They forget most of them so trees grow!"
+    },
+    {
+      "id": "us_mid_atlantic_w44_white_oak",
+      "species": "White Oak",
+      "scientificName": "Quercus alba",
+      "description": "Oak leaves turning deep red and russet, acorns falling",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "touch",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Oak leaves turn deep red and crunch under your feet. Collect the acorns and look for the little cups"
+    },
+    {
+      "id": "us_mid_atlantic_w44_dark_eyed_junco",
+      "species": "Dark-eyed Junco",
+      "scientificName": "Junco hyemalis",
+      "description": "Juncos arriving from the north for winter, flashing white tail feathers",
+      "habitats": [
+        "garden",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Little grey birds with white tail-flash. They hop on the ground under feeders like tiny snowbirds"
+    }
+  ],
+  "45": [
+    {
+      "id": "us_mid_atlantic_w45_witch_hazel",
+      "species": "Witch Hazel",
+      "scientificName": "Hamamelis virginiana",
+      "description": "Witch hazel flowers persisting",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Weird spidery yellow flowers bloom on bare branches when everything else has stopped, nature's rebel!"
+    },
+    {
+      "id": "us_mid_atlantic_w45_canada_goose",
+      "species": "Canada Goose",
+      "scientificName": "Branta canadensis",
+      "description": "Goose migration at peak overhead",
+      "habitats": [
+        "pond",
+        "grassland",
+        "playing_field",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Look up! Big V shapes of honking geese fly across the sky heading south for winter"
+    },
+    {
+      "id": "us_mid_atlantic_w45_eastern_gray_squirrel",
+      "species": "Eastern Gray Squirrel",
+      "scientificName": "Sciurus carolinensis",
+      "description": "Squirrels frantically burying acorns and hickory nuts",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden",
+        "playing_field"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Squirrels are going nuts, hiding acorns everywhere. They forget most of them so trees grow!"
+    },
+    {
+      "id": "us_mid_atlantic_w45_white_oak",
+      "species": "White Oak",
+      "scientificName": "Quercus alba",
+      "description": "Oaks at peak autumn colour, acorns abundant on ground",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "touch",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Oak leaves turn deep red and crunch under your feet. Collect the acorns and look for the little cups"
+    },
+    {
+      "id": "us_mid_atlantic_w45_dark_eyed_junco",
+      "species": "Dark-eyed Junco",
+      "scientificName": "Junco hyemalis",
+      "description": "Juncos arriving from the north for winter, flashing white tail feathers",
+      "habitats": [
+        "garden",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Little grey birds with white tail-flash. They hop on the ground under feeders like tiny snowbirds"
+    },
+    {
+      "id": "us_mid_atlantic_w45_bare_trees",
+      "species": "Bare Trees",
+      "description": "Most deciduous trees now bare, revealing bird nests and tree architecture",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "Bare trees show off their shapes. You can see squirrel nests and bird nests high up"
+    },
+    {
+      "id": "us_mid_atlantic_w45_late_fungi",
+      "species": "Late Fungi",
+      "description": "Hen of the woods and late oyster mushrooms on tree stumps before hard freeze",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Weird and wonderful mushrooms grow on tree stumps. Some look like shelves, others like fans"
+    }
+  ],
+  "46": [
+    {
+      "id": "us_mid_atlantic_w46_witch_hazel",
+      "species": "Witch Hazel",
+      "scientificName": "Hamamelis virginiana",
+      "description": "Witch hazel flowers persisting",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "smell"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Weird spidery yellow flowers bloom on bare branches when everything else has stopped, nature's rebel!"
+    },
+    {
+      "id": "us_mid_atlantic_w46_canada_goose",
+      "species": "Canada Goose",
+      "scientificName": "Branta canadensis",
+      "description": "Goose migration at peak overhead",
+      "habitats": [
+        "pond",
+        "grassland",
+        "playing_field",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Look up! Big V shapes of honking geese fly across the sky heading south for winter"
+    },
+    {
+      "id": "us_mid_atlantic_w46_white_oak",
+      "species": "White Oak",
+      "scientificName": "Quercus alba",
+      "description": "Oaks at peak autumn colour, acorns abundant on ground",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "touch",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Oak leaves turn deep red and crunch under your feet. Collect the acorns and look for the little cups"
+    },
+    {
+      "id": "us_mid_atlantic_w46_dark_eyed_junco",
+      "species": "Dark-eyed Junco",
+      "scientificName": "Junco hyemalis",
+      "description": "Juncos arriving from the north for winter, flashing white tail feathers",
+      "habitats": [
+        "garden",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Little grey birds with white tail-flash. They hop on the ground under feeders like tiny snowbirds"
+    },
+    {
+      "id": "us_mid_atlantic_w46_bare_trees",
+      "species": "Bare Trees",
+      "description": "Most deciduous trees now bare, revealing bird nests and tree architecture",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "Bare trees show off their shapes. You can see squirrel nests and bird nests high up"
+    },
+    {
+      "id": "us_mid_atlantic_w46_great_horned_owl",
+      "species": "Great Horned Owl",
+      "scientificName": "Bubo virginianus",
+      "description": "Great horned owls hooting more frequently as breeding season approaches",
+      "habitats": [
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A deep, booming \"hoo-hoo-hoooo\" echoes through the cold dark woods"
+    },
+    {
+      "id": "us_mid_atlantic_w46_late_fungi",
+      "species": "Late Fungi",
+      "description": "Hen of the woods and late oyster mushrooms on tree stumps before hard freeze",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Weird and wonderful mushrooms grow on tree stumps. Some look like shelves, others like fans"
+    }
+  ],
+  "47": [
+    {
+      "id": "us_mid_atlantic_w47_canada_goose",
+      "species": "Canada Goose",
+      "scientificName": "Branta canadensis",
+      "description": "Late goose flocks still heading south",
+      "habitats": [
+        "pond",
+        "grassland",
+        "playing_field",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Look up! Big V shapes of honking geese fly across the sky heading south for winter"
+    },
+    {
+      "id": "us_mid_atlantic_w47_white_oak",
+      "species": "White Oak",
+      "scientificName": "Quercus alba",
+      "description": "Oak leaves falling, rattling in the wind",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "touch",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Oak leaves turn deep red and crunch under your feet. Collect the acorns and look for the little cups"
+    },
+    {
+      "id": "us_mid_atlantic_w47_dark_eyed_junco",
+      "species": "Dark-eyed Junco",
+      "scientificName": "Junco hyemalis",
+      "description": "Juncos common at feeders and forest floor",
+      "habitats": [
+        "garden",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Little grey birds with white tail-flash. They hop on the ground under feeders like tiny snowbirds"
+    },
+    {
+      "id": "us_mid_atlantic_w47_bare_trees",
+      "species": "Bare Trees",
+      "description": "Most deciduous trees now bare, revealing bird nests and tree architecture",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "Bare trees show off their shapes. You can see squirrel nests and bird nests high up"
+    },
+    {
+      "id": "us_mid_atlantic_w47_great_horned_owl",
+      "species": "Great Horned Owl",
+      "scientificName": "Bubo virginianus",
+      "description": "Great horned owls hooting more frequently as breeding season approaches",
+      "habitats": [
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A deep, booming \"hoo-hoo-hoooo\" echoes through the cold dark woods"
+    },
+    {
+      "id": "us_mid_atlantic_w47_late_fungi",
+      "species": "Late Fungi",
+      "description": "Hen of the woods and late oyster mushrooms on tree stumps before hard freeze",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Weird and wonderful mushrooms grow on tree stumps. Some look like shelves, others like fans"
+    }
+  ],
+  "48": [
+    {
+      "id": "us_mid_atlantic_w48_canada_goose",
+      "species": "Canada Goose",
+      "scientificName": "Branta canadensis",
+      "description": "Late goose flocks still heading south",
+      "habitats": [
+        "pond",
+        "grassland",
+        "playing_field",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Look up! Big V shapes of honking geese fly across the sky heading south for winter"
+    },
+    {
+      "id": "us_mid_atlantic_w48_white_oak",
+      "species": "White Oak",
+      "scientificName": "Quercus alba",
+      "description": "Oak leaves falling, rattling in the wind",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight",
+        "touch",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Oak leaves turn deep red and crunch under your feet. Collect the acorns and look for the little cups"
+    },
+    {
+      "id": "us_mid_atlantic_w48_dark_eyed_junco",
+      "species": "Dark-eyed Junco",
+      "scientificName": "Junco hyemalis",
+      "description": "Juncos common at feeders and forest floor",
+      "habitats": [
+        "garden",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Little grey birds with white tail-flash. They hop on the ground under feeders like tiny snowbirds"
+    },
+    {
+      "id": "us_mid_atlantic_w48_bare_trees",
+      "species": "Bare Trees",
+      "description": "Most deciduous trees now bare, revealing bird nests and tree architecture",
+      "habitats": [
+        "woodland",
+        "urban",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "Bare trees show off their shapes. You can see squirrel nests and bird nests high up"
+    },
+    {
+      "id": "us_mid_atlantic_w48_great_horned_owl",
+      "species": "Great Horned Owl",
+      "scientificName": "Bubo virginianus",
+      "description": "Great horned owls hooting more frequently as breeding season approaches",
+      "habitats": [
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A deep, booming \"hoo-hoo-hoooo\" echoes through the cold dark woods"
+    },
+    {
+      "id": "us_mid_atlantic_w48_late_fungi",
+      "species": "Late Fungi",
+      "description": "Hen of the woods and late oyster mushrooms on tree stumps before hard freeze",
+      "habitats": [
+        "woodland"
+      ],
+      "senses": [
+        "sight",
+        "touch"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Weird and wonderful mushrooms grow on tree stumps. Some look like shelves, others like fans"
+    }
+  ],
+  "49": [
+    {
+      "id": "us_mid_atlantic_w49_dark_eyed_junco",
+      "species": "Dark-eyed Junco",
+      "scientificName": "Junco hyemalis",
+      "description": "Juncos common at feeders and forest floor",
+      "habitats": [
+        "garden",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Little grey birds with white tail-flash. They hop on the ground under feeders like tiny snowbirds"
+    },
+    {
+      "id": "us_mid_atlantic_w49_great_horned_owl",
+      "species": "Great Horned Owl",
+      "scientificName": "Bubo virginianus",
+      "description": "Great horned owls hooting more frequently as breeding season approaches",
+      "habitats": [
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A deep, booming \"hoo-hoo-hoooo\" echoes through the cold dark woods"
+    },
+    {
+      "id": "us_mid_atlantic_w49_northern_cardinal",
+      "species": "Northern Cardinal",
+      "scientificName": "Cardinalis cardinalis",
+      "description": "Cardinals brilliant against snow, visiting feeders, singing \"birdy-birdy-birdy\"",
+      "habitats": [
+        "garden",
+        "woodland",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The brightest red bird glows like a flame against the white snow, nature's Christmas ornament"
+    },
+    {
+      "id": "us_mid_atlantic_w49_blue_jay",
+      "species": "Blue Jay",
+      "scientificName": "Cyanocitta cristata",
+      "description": "Blue jays caching acorns and visiting feeders, bold and noisy",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "A bright blue bird with a punky crest screams \"jay!\" from the treetops"
+    },
+    {
+      "id": "us_mid_atlantic_w49_white_tailed_deer",
+      "species": "White-tailed Deer",
+      "scientificName": "Odocoileus virginianus",
+      "description": "Deer in winter coats, browsing at forest edges at dawn and dusk",
+      "habitats": [
+        "woodland",
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "Deer in thick grey winter coats leave hoof prints in the snow"
+    },
+    {
+      "id": "us_mid_atlantic_w49_black_capped_chickadee",
+      "species": "Black-capped Chickadee",
+      "scientificName": "Poecile atricapillus",
+      "description": "Chickadees visiting feeders and foraging in flocks, \"chick-a-dee\" calls in cold air",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "A tiny bird in a black cap sings \"chickadee-dee-dee!\". The colder it is, the more \"dees\" it adds!"
+    },
+    {
+      "id": "us_mid_atlantic_w49_winterberry",
+      "species": "Winterberry",
+      "scientificName": "Ilex verticillata",
+      "description": "Winterberry holly bright red against bare branches and snow",
+      "habitats": [
+        "woodland",
+        "stream",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Bright red berries on bare sticks. They glow against the snow like tiny red lights"
+    }
+  ],
+  "50": [
+    {
+      "id": "us_mid_atlantic_w50_dark_eyed_junco",
+      "species": "Dark-eyed Junco",
+      "scientificName": "Junco hyemalis",
+      "description": "Juncos common at feeders and forest floor",
+      "habitats": [
+        "garden",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Little grey birds with white tail-flash. They hop on the ground under feeders like tiny snowbirds"
+    },
+    {
+      "id": "us_mid_atlantic_w50_great_horned_owl",
+      "species": "Great Horned Owl",
+      "scientificName": "Bubo virginianus",
+      "description": "Great horned owls hooting more frequently as breeding season approaches",
+      "habitats": [
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A deep, booming \"hoo-hoo-hoooo\" echoes through the cold dark woods"
+    },
+    {
+      "id": "us_mid_atlantic_w50_northern_cardinal",
+      "species": "Northern Cardinal",
+      "scientificName": "Cardinalis cardinalis",
+      "description": "Cardinals brilliant against snow, visiting feeders, singing \"birdy-birdy-birdy\"",
+      "habitats": [
+        "garden",
+        "woodland",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The brightest red bird glows like a flame against the white snow, nature's Christmas ornament"
+    },
+    {
+      "id": "us_mid_atlantic_w50_blue_jay",
+      "species": "Blue Jay",
+      "scientificName": "Cyanocitta cristata",
+      "description": "Blue jays caching acorns and visiting feeders, bold and noisy",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "A bright blue bird with a punky crest screams \"jay!\" from the treetops"
+    },
+    {
+      "id": "us_mid_atlantic_w50_white_tailed_deer",
+      "species": "White-tailed Deer",
+      "scientificName": "Odocoileus virginianus",
+      "description": "Deer in winter coats, browsing at forest edges at dawn and dusk",
+      "habitats": [
+        "woodland",
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "Deer in thick grey winter coats leave hoof prints in the snow"
+    },
+    {
+      "id": "us_mid_atlantic_w50_black_capped_chickadee",
+      "species": "Black-capped Chickadee",
+      "scientificName": "Poecile atricapillus",
+      "description": "Chickadees visiting feeders and foraging in flocks, \"chick-a-dee\" calls in cold air",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "A tiny bird in a black cap sings \"chickadee-dee-dee!\". The colder it is, the more \"dees\" it adds!"
+    },
+    {
+      "id": "us_mid_atlantic_w50_winterberry",
+      "species": "Winterberry",
+      "scientificName": "Ilex verticillata",
+      "description": "Winterberry holly bright red against bare branches and snow",
+      "habitats": [
+        "woodland",
+        "stream",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Bright red berries on bare sticks. They glow against the snow like tiny red lights"
+    }
+  ],
+  "51": [
+    {
+      "id": "us_mid_atlantic_w51_dark_eyed_junco",
+      "species": "Dark-eyed Junco",
+      "scientificName": "Junco hyemalis",
+      "description": "Juncos common at feeders and forest floor",
+      "habitats": [
+        "garden",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Little grey birds with white tail-flash. They hop on the ground under feeders like tiny snowbirds"
+    },
+    {
+      "id": "us_mid_atlantic_w51_great_horned_owl",
+      "species": "Great Horned Owl",
+      "scientificName": "Bubo virginianus",
+      "description": "Great horned owls hooting more frequently as breeding season approaches",
+      "habitats": [
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A deep, booming \"hoo-hoo-hoooo\" echoes through the cold dark woods"
+    },
+    {
+      "id": "us_mid_atlantic_w51_northern_cardinal",
+      "species": "Northern Cardinal",
+      "scientificName": "Cardinalis cardinalis",
+      "description": "Cardinals brilliant against snow, visiting feeders, singing \"birdy-birdy-birdy\"",
+      "habitats": [
+        "garden",
+        "woodland",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The brightest red bird glows like a flame against the white snow, nature's Christmas ornament"
+    },
+    {
+      "id": "us_mid_atlantic_w51_blue_jay",
+      "species": "Blue Jay",
+      "scientificName": "Cyanocitta cristata",
+      "description": "Blue jays caching acorns and visiting feeders, bold and noisy",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "A bright blue bird with a punky crest screams \"jay!\" from the treetops"
+    },
+    {
+      "id": "us_mid_atlantic_w51_white_tailed_deer",
+      "species": "White-tailed Deer",
+      "scientificName": "Odocoileus virginianus",
+      "description": "Deer in winter coats, browsing at forest edges at dawn and dusk",
+      "habitats": [
+        "woodland",
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "Deer in thick grey winter coats leave hoof prints in the snow"
+    },
+    {
+      "id": "us_mid_atlantic_w51_black_capped_chickadee",
+      "species": "Black-capped Chickadee",
+      "scientificName": "Poecile atricapillus",
+      "description": "Chickadees visiting feeders and foraging in flocks, \"chick-a-dee\" calls in cold air",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "A tiny bird in a black cap sings \"chickadee-dee-dee!\". The colder it is, the more \"dees\" it adds!"
+    },
+    {
+      "id": "us_mid_atlantic_w51_winterberry",
+      "species": "Winterberry",
+      "scientificName": "Ilex verticillata",
+      "description": "Winterberry holly bright red against bare branches and snow",
+      "habitats": [
+        "woodland",
+        "stream",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Bright red berries on bare sticks. They glow against the snow like tiny red lights"
+    }
+  ],
+  "52": [
+    {
+      "id": "us_mid_atlantic_w52_dark_eyed_junco",
+      "species": "Dark-eyed Junco",
+      "scientificName": "Junco hyemalis",
+      "description": "Juncos common at feeders and forest floor",
+      "habitats": [
+        "garden",
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Little grey birds with white tail-flash. They hop on the ground under feeders like tiny snowbirds"
+    },
+    {
+      "id": "us_mid_atlantic_w52_great_horned_owl",
+      "species": "Great Horned Owl",
+      "scientificName": "Bubo virginianus",
+      "description": "Great horned owls hooting more frequently as breeding season approaches",
+      "habitats": [
+        "woodland",
+        "urban"
+      ],
+      "senses": [
+        "sound"
+      ],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A deep, booming \"hoo-hoo-hoooo\" echoes through the cold dark woods"
+    },
+    {
+      "id": "us_mid_atlantic_w52_northern_cardinal",
+      "species": "Northern Cardinal",
+      "scientificName": "Cardinalis cardinalis",
+      "description": "Cardinals brilliant against snow, visiting feeders, singing \"birdy-birdy-birdy\"",
+      "habitats": [
+        "garden",
+        "woodland",
+        "hedgerow",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The brightest red bird glows like a flame against the white snow, nature's Christmas ornament"
+    },
+    {
+      "id": "us_mid_atlantic_w52_blue_jay",
+      "species": "Blue Jay",
+      "scientificName": "Cyanocitta cristata",
+      "description": "Blue jays caching acorns and visiting feeders, bold and noisy",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "A bright blue bird with a punky crest screams \"jay!\" from the treetops"
+    },
+    {
+      "id": "us_mid_atlantic_w52_white_tailed_deer",
+      "species": "White-tailed Deer",
+      "scientificName": "Odocoileus virginianus",
+      "description": "Deer in winter coats, browsing at forest edges at dawn and dusk",
+      "habitats": [
+        "woodland",
+        "grassland"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "Deer in thick grey winter coats leave hoof prints in the snow"
+    },
+    {
+      "id": "us_mid_atlantic_w52_black_capped_chickadee",
+      "species": "Black-capped Chickadee",
+      "scientificName": "Poecile atricapillus",
+      "description": "Chickadees visiting feeders and foraging in flocks, \"chick-a-dee\" calls in cold air",
+      "habitats": [
+        "woodland",
+        "garden",
+        "urban"
+      ],
+      "senses": [
+        "sight",
+        "sound"
+      ],
+      "confidence": "high",
+      "childFriendlyNote": "A tiny bird in a black cap sings \"chickadee-dee-dee!\". The colder it is, the more \"dees\" it adds!"
+    },
+    {
+      "id": "us_mid_atlantic_w52_winterberry",
+      "species": "Winterberry",
+      "scientificName": "Ilex verticillata",
+      "description": "Winterberry holly bright red against bare branches and snow",
+      "habitats": [
+        "woodland",
+        "stream",
+        "garden"
+      ],
+      "senses": [
+        "sight"
+      ],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Bright red berries on bare sticks. They glow against the snow like tiny red lights"
+    }
+  ]
+}

@@ -1,0 +1,1338 @@
+{
+  "id": "living-things-spring",
+  "title": "Living things and their habitats",
+  "subject": "Nature study",
+  "ageBand": "6-7",
+  "sessions": [
+    {
+      "id": "habitats-w1-alive-dead-never-alive",
+      "sheetTemplate": "life-sort",
+      "prompt": "How can you tell if something is alive?",
+      "doorQuestion": "Can something be alive and not move at all?",
+      "doorQuestions": [
+        {
+          "question": "Can something be alive and not move at all?"
+        },
+        {
+          "question": "What is the most alive thing you can see from where you are standing?",
+          "species": "glance"
+        }
+      ],
+      "title": "Alive, dead, never alive",
+      "topic": "Sorting what the grounds hold into three groups, alive, dead, and never alive, and saying what decided each one",
+      "topicTags": [
+        "plants",
+        "animals",
+        "senses"
+      ],
+      "primaryTopic": "plants",
+      "labels": [
+        "science",
+        "biodiversity"
+      ],
+      "validity": {
+        "requiresSeason": [
+          "spring"
+        ]
+      },
+      "objective": "Explore the grounds and sort what is found into alive, dead and never alive, giving a reason for each",
+      "childWorkSummary": "Children agree what a living thing has to do, then go out in pairs and bring back one thing they think is dead and one they think was never alive. Anything living is left where it is, and they draw it on a card instead. The finds and the cards go into three chalk circles, the class moves the ones it disagrees with, and each child records the hardest one and what decided it.",
+      "namedSkill": "sorting and giving a reason",
+      "kit": [
+        "three chalk circles or three hoops",
+        "a collecting tray for each pair",
+        "small blank cards, a few for each pair",
+        "clipboards",
+        "pencils"
+      ],
+      "durationMin": 40,
+      "preparation": "Chalk three big circles on a hard surface, or lay out three hoops, and label them alive, dead, never alive. Agree the collecting rule with the class before you go out: nothing living is picked up. It is drawn on a card, and the card comes back instead.",
+      "spaceNeeded": "Any outdoor space with some planting, a hard surface and a few loose things on the ground. One tree and a strip of soil is enough",
+      "settle": true,
+      "primer": {
+        "summary": "Children meet the three groups, alive, dead and never alive, and then test them outside. In pairs they bring back one thing they believe is dead and one they believe was never alive; anything living is left where it is and drawn on a card, and the card comes back in its place. The finds and the cards go into three chalk circles, the class walks round and moves whatever it disagrees with, and the circle closes on the question that settles it.",
+        "why": "The statutory distinction is easy to say and hard to hold. Children sort confidently on movement alone until the first stick, shell or seed arrives, and the argument that follows is the lesson rather than an interruption to it. The test that survives is not movement but whether a thing is, or was part of, a kind of living thing: one that grows, feeds, and whose kind makes more of itself. Making more is true of the kind over its life, not a test every single plant or animal has to have passed, so a young or a sterile animal is still alive. Wood, wool, feathers and shells are the productive traps: all of them are dead rather than never alive, because each was part of a living thing, and a class that gets there has understood the difference. Spring can help: where new growth comes up through last year's dead stems, both columns are within a few steps of each other. Walk the grounds first to see whether yours has that.",
+        "glossary": [
+          {
+            "term": "alive",
+            "definition": "Living now: growing and feeding, and one of a kind of living thing that makes more of its own kind.",
+            "forChildren": "Living right now, even if it is not moving."
+          },
+          {
+            "term": "dead",
+            "definition": "Something that was alive, or was part of something alive, and is not alive any more. It still shows how it was made.",
+            "forChildren": "It was alive once, or part of something alive, and it has stopped."
+          },
+          {
+            "term": "never alive",
+            "definition": "Something that was never a living thing at all: a stone, a piece of plastic, a drop of rain.",
+            "forChildren": "It was never alive, not even once."
+          }
+        ],
+        "childFriendlyExamples": [
+          "A stone was never alive. A fallen leaf was alive once. The tree it fell from is alive now.",
+          "A seed that can still grow is alive, even though it looks like nothing at all. We cannot always tell by looking."
+        ]
+      },
+      "nodeSeq": 36,
+      "phases": [
+        {
+          "nid": "p1",
+          "key": "introduce",
+          "title": "Introduce",
+          "mode": "present",
+          "durationMin": 10,
+          "blocks": [
+            {
+              "nid": "b3",
+              "type": "say-aloud",
+              "text": "What does a thing have to do before we call it alive?"
+            },
+            {
+              "nid": "b4",
+              "type": "teacher-note",
+              "text": "Take every answer onto the board. Moves, eats, grows, breathes, drinks, has babies. Movement will dominate, and that is the door into the rest of the lesson."
+            },
+            {
+              "nid": "b5",
+              "type": "say-aloud",
+              "text": "A tree never walks anywhere. Is a tree alive?"
+            },
+            {
+              "nid": "b6",
+              "type": "teacher-note",
+              "text": "Let the disagreement run for a moment before you settle it. Growing, feeding, and being a kind of thing that makes more of its own kind is the test that survives. Moving is not."
+            },
+            {
+              "nid": "b7",
+              "type": "say-aloud",
+              "text": "We have three groups today. Alive. Dead. Never alive."
+            },
+            {
+              "nid": "b8",
+              "type": "say-aloud",
+              "text": "Dead is the tricky one. Dead means it was alive once, or part of something alive, and it has stopped."
+            },
+            {
+              "nid": "b9",
+              "type": "teacher-note",
+              "text": "Write the three headings on the board in that order. The circles outside carry the same three words."
+            },
+            {
+              "nid": "b10",
+              "type": "conditions-line",
+              "fallbackText": "Step outside and look at the ground along the wall before you say anything. Name one thing you can see from where you stand."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t2",
+              "when": "Somebody says the wind is alive",
+              "then": "A real answer, and worth the minute. The wind moves and never grows or feeds. Put it beside the tree and let the class compare the two."
+            }
+          ]
+        },
+        {
+          "nid": "p11",
+          "key": "collect",
+          "title": "Collect",
+          "mode": "work",
+          "childTask": "In pairs, bring back one thing you think is dead and one you think was never alive. If you find something living, leave it where it is and draw it on a card instead.",
+          "durationMin": 12,
+          "blocks": [
+            {
+              "nid": "b14",
+              "type": "say-aloud",
+              "text": "Two things on each tray. One you think is dead. One you think was never alive."
+            },
+            {
+              "nid": "b15",
+              "type": "say-aloud",
+              "text": "If you find something alive, leave it exactly where it is. Draw it on a card, and bring the card back."
+            },
+            {
+              "nid": "b16",
+              "type": "demo",
+              "move": "The two-thing tray",
+              "steps": [
+                {
+                  "text": "Walk slowly. Look down first, then up."
+                },
+                {
+                  "text": "Pick up only what is already loose on the ground."
+                },
+                {
+                  "text": "Lay it on the tray and say out loud which group you think it goes in."
+                }
+              ],
+              "look": "Loose, fallen, dry, or a scrap of stone, metal or plastic. Glass stays on the ground.",
+              "materials": [
+                "a collecting tray"
+              ]
+            },
+            {
+              "nid": "b17",
+              "type": "teacher-note",
+              "text": "Nothing is pulled off a plant and nothing living is lifted. The rule is the lesson: a living thing is left where it lives, and its card stands in for it in the alive circle."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t12",
+              "when": "A pair brings back a handful of soil",
+              "then": "Good find, and a hard question. Ask them whether soil is one thing, and what might be alive inside it."
+            },
+            {
+              "nid": "t13",
+              "when": "A pair can find nothing that was never alive",
+              "then": "Send them to the wall or the edge of the playground to look for stone, metal or plastic. Glass is looked at, never picked up. A wooden fence does not count: it was a tree once, so it belongs in dead."
+            }
+          ]
+        },
+        {
+          "nid": "p18",
+          "key": "sort",
+          "title": "Sort",
+          "mode": "work",
+          "childTask": "Lay your two things and your cards in the circle you think they belong in. Then walk round and move anything you disagree with.",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b20",
+              "type": "say-aloud",
+              "text": "Put each thing, and each card, in the circle where you think it belongs."
+            },
+            {
+              "nid": "b21",
+              "type": "say-aloud",
+              "text": "Now walk round. If you disagree with something, move it, and be ready to say why."
+            },
+            {
+              "nid": "b22",
+              "type": "teacher-note",
+              "text": "Let a thing move more than once. The arguing is the assessment: listen for which reason a child reaches for."
+            },
+            {
+              "nid": "b23",
+              "type": "say-aloud",
+              "text": "Hold up the one that was hardest to place. Tell us what decided it."
+            },
+            {
+              "nid": "b24",
+              "type": "teacher-note",
+              "text": "Sticks, feathers, shells and wool are the ones worth slowing down for. Every one of them is dead rather than never alive, because every one of them was part of something that grew."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t19",
+              "when": "The class puts a stick in never alive",
+              "then": "Ask where a stick comes from. A stick was part of something that grew, so it belongs in dead."
+            }
+          ]
+        },
+        {
+          "nid": "p25",
+          "key": "circle",
+          "title": "Circle time",
+          "mode": "gather",
+          "durationMin": 10,
+          "blocks": [
+            {
+              "nid": "b26",
+              "type": "circle-question",
+              "text": "Which thing was hardest to place, and what decided it in the end?"
+            },
+            {
+              "nid": "b27",
+              "type": "circle-question",
+              "text": "Is there anything in our three circles that was alive this morning?"
+            },
+            {
+              "nid": "b28",
+              "type": "teacher-note",
+              "text": "A flower picked today was. A fallen leaf was alive once, but unless somebody saw it fall we cannot say when. Keeping to what we know makes dead concrete rather than frightening."
+            },
+            {
+              "nid": "b29",
+              "type": "circle-question",
+              "text": "What is the one question you could ask about anything at all, to find out which circle it goes in?"
+            },
+            {
+              "nid": "b30",
+              "type": "say-aloud",
+              "text": "Living things grow and feed, and their kind makes more of itself. Dead things were alive once, or part of something alive. Never alive things never were."
+            },
+            {
+              "nid": "b31",
+              "type": "named-skill",
+              "skill": "sorting and giving a reason"
+            }
+          ]
+        }
+      ],
+      "childSheet": [
+        {
+          "nid": "b32",
+          "type": "sheet-title",
+          "title": "Alive, dead, never alive",
+          "nameLine": "These three circles were sorted by"
+        },
+        {
+          "nid": "b33",
+          "type": "collage-zone",
+          "hint": "Draw one thing from each circle, in the order alive, dead, never alive."
+        },
+        {
+          "nid": "b34",
+          "type": "notice-line",
+          "prompt": "The hardest one to place was:"
+        },
+        {
+          "nid": "b35",
+          "type": "notice-line",
+          "prompt": "What decided it:"
+        },
+        {
+          "nid": "b36",
+          "type": "parent-line",
+          "text": "For home: we sorted things from our grounds into alive, dead and never alive. Ask me why a stick does not go in the never alive circle."
+        }
+      ],
+      "standards": [
+        {
+          "system": "england",
+          "code": "Year 2 · Living things and their habitats",
+          "text": "explore and compare the differences between things that are living, dead, and things that have never been alive"
+        },
+        {
+          "system": "england",
+          "code": "Key stage 1 · Working scientifically",
+          "text": "identifying and classifying"
+        },
+        {
+          "system": "england",
+          "code": "Key stage 1 · Working scientifically",
+          "text": "asking simple questions and recognising that they can be answered in different ways"
+        }
+      ],
+      "celebration": {
+        "headline": "You found the line between alive, dead and never alive",
+        "emoji": "🌱",
+        "keepsake": "Three circles on the ground, and an argument you settled with a reason."
+      },
+      "topicLine": "Today is about three groups: what is alive, what is dead, and what was never alive at all.",
+      "seasonNote": {
+        "teacher": "Spring can put both of the hard columns within a few steps of each other, where new shoots come up through last year's dead stems and leaves. Walk your grounds first rather than assume it: a mown, paved or cleared patch may show neither, and then the class sorts what is there.",
+        "child": "It is spring. Let us look for anything new and green near old leaves, and sort out which is which."
+      }
+    },
+    {
+      "id": "habitats-w2-micro-habitats",
+      "sheetTemplate": "micro-habitat-study",
+      "prompt": "Who lives in the small places?",
+      "doorQuestion": "Who might be living under that stone right now?",
+      "doorQuestions": [
+        {
+          "question": "Who might be living under that stone right now?"
+        },
+        {
+          "question": "What might a small place give the things living in it?",
+          "pictures": {
+            "purpose": "example",
+            "items": [
+              {
+                "src": "/lesson-examples/woodlice.webp",
+                "alt": "Woodlice packed into the cracks of a rotting piece of wood",
+                "caption": "A rotting log is a micro-habitat: dark, damp, and made of the dead wood a woodlouse eats."
+              },
+              {
+                "src": "/lesson-examples/earthworm-soil.webp",
+                "alt": "An earthworm on dark soil between dry stalks",
+                "caption": "Soil is a micro-habitat too. A worm needs it damp, and leaves it better than it found it."
+              }
+            ]
+          }
+        }
+      ],
+      "title": "Micro-habitats",
+      "topic": "Opening the small places, a stone, a log, a leaf pile, a crack in a wall, and naming what is living in each of them",
+      "topicTags": [
+        "minibeasts",
+        "soil"
+      ],
+      "primaryTopic": "minibeasts",
+      "labels": [
+        "biodiversity",
+        "science"
+      ],
+      "validity": {
+        "requiresSeason": [
+          "spring"
+        ]
+      },
+      "objective": "Find and name the plants and animals living in the small places in the grounds, and say what each small place gives them",
+      "childWorkSummary": "Children learn what a micro-habitat is and how to open one without wrecking it, then go out in pairs and open three: a stone, something rotting, and a crack or a tuft. They count and name what they find, look closely at one creature and one plant growing there, put every creature and every stone back exactly as it was, and record the small place, the creature and the plant on the sheet.",
+      "namedSkill": "looking closely and naming",
+      "kit": [
+        "bug pots or viewers, one for each pair",
+        "magnifying glasses",
+        "a soft paintbrush for moving a creature",
+        "clipboards and pencils"
+      ],
+      "preparation": "Walk the route the day before and find three kinds of small place you are willing to have opened: something flat on the ground, something rotting, and a crack or a tuft. Anything a class should not lift, mark it and say so.",
+      "spaceNeeded": "Anywhere with a few loose stones or logs, a hedge bottom, a leaf pile or an old wall. A single paving slab and a tuft of grass is enough",
+      "durationMin": 40,
+      "settle": true,
+      "primer": {
+        "summary": "Children meet the word micro-habitat and learn the careful lift, then open three small places in the grounds: something flat on the ground, something rotting, and a crack or a tuft. They count and name what lives in each, then put every creature and every stone back exactly as it was. The circle compares the three, and asks why the same creature turned up in some places and not others.",
+        "why": "This is the statutory microhabitat bullet, and the whole of it is in the technique rather than in the content. A stone dropped back flat crushes what lived under it, and a class that has lifted a stone badly once has learned the wrong lesson very well. The naming matters less than the noticing: a child who says three grey ones with lots of legs has identified a woodlouse in every way that counts at this age, and the name can follow. Do not tell them in advance what they will find. The point of opening a small place is that nobody knows yet, and a class that has been given the answer first stops looking.",
+        "glossary": [
+          {
+            "term": "habitat",
+            "definition": "The kind of place a living thing lives in, where it finds everything it needs.",
+            "forChildren": "The place something lives."
+          },
+          {
+            "term": "micro-habitat",
+            "definition": "A very small habitat inside a bigger one: under one stone, inside one rotting log, in one crack in a wall.",
+            "forChildren": "A tiny home inside a bigger place."
+          },
+          {
+            "term": "minibeast",
+            "definition": "The word a school uses for a small creature with no backbone: a woodlouse, a worm, a spider, a beetle.",
+            "forChildren": "A small creature with no bones inside it."
+          }
+        ],
+        "childFriendlyExamples": [
+          "Under one stone is a whole world. Dark, damp, and somebody's.",
+          "Put the stone back the same way up. That is somebody's roof."
+        ]
+      },
+      "nodeSeq": 36,
+      "phases": [
+        {
+          "nid": "p1",
+          "key": "introduce",
+          "title": "Introduce",
+          "mode": "present",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b3",
+              "type": "say-aloud",
+              "text": "A habitat is the place something lives. A micro-habitat is a tiny one inside it."
+            },
+            {
+              "nid": "b4",
+              "type": "say-aloud",
+              "text": "Under one stone. Inside one rotting log. In one crack in a wall."
+            },
+            {
+              "nid": "b5",
+              "type": "teacher-note",
+              "text": "Three examples and no more. The list is meant to run out, so the class goes looking for the fourth."
+            },
+            {
+              "nid": "b6",
+              "type": "say-aloud",
+              "text": "We are going to open three small places, and put every one of them back."
+            },
+            {
+              "nid": "b7",
+              "type": "teacher-note",
+              "text": "Do not say what is under there. Nobody knows yet, and that is the reason for going."
+            },
+            {
+              "nid": "b8",
+              "type": "conditions-line",
+              "fallbackText": "Feel the ground by the wall with the flat of your hand. Say whether it is wet, damp or dry today."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t2",
+              "when": "Somebody asks what they are going to find",
+              "then": "Say honestly that you do not know. Then ask what they think a dark damp place would suit."
+            }
+          ]
+        },
+        {
+          "nid": "p9",
+          "key": "open",
+          "title": "Open a small place",
+          "mode": "work",
+          "childTask": "Open three small places with your partner: something flat on the ground, something rotting, and a crack or a tuft. Count what lives in each one before you touch anything.",
+          "durationMin": 14,
+          "blocks": [
+            {
+              "nid": "b12",
+              "type": "say-aloud",
+              "text": "Kneel down first. You cannot look into a small place from standing up."
+            },
+            {
+              "nid": "b13",
+              "type": "demo",
+              "move": "The careful lift",
+              "steps": [
+                {
+                  "text": "Kneel, and take the far edge of the stone."
+                },
+                {
+                  "text": "Lift it towards you, so the light comes in slowly."
+                },
+                {
+                  "text": "Look, count and name before anything is touched."
+                },
+                {
+                  "text": "Put it back exactly where it was, the same way up."
+                }
+              ],
+              "look": "Movement at the edges, and anything running for the dark.",
+              "materials": [
+                "a bug pot",
+                "a magnifying glass"
+              ]
+            },
+            {
+              "nid": "b14",
+              "type": "say-aloud",
+              "text": "Count first. How many different kinds are living in there?"
+            },
+            {
+              "nid": "b15",
+              "type": "teacher-note",
+              "text": "A stone dropped back flat crushes whatever was under it. Lowered slowly, from one edge, gives everything time to move. This is the part worth being strict about."
+            },
+            {
+              "nid": "b16",
+              "type": "say-aloud",
+              "text": "Now open a rotting one. Then find a crack, or a tuft of grass, and open that."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t10",
+              "when": "A pair finds nothing under their stone",
+              "then": "An empty answer is a real answer. Ask what they can see that is different about the busy stone, and let nothing we can see yet be an answer too."
+            },
+            {
+              "nid": "t11",
+              "when": "A creature will not come out of the pot",
+              "then": "Lay the pot on its side where it was found and wait. Tipping it out is how legs get lost."
+            }
+          ]
+        },
+        {
+          "nid": "p17",
+          "key": "name",
+          "title": "Name what lives there",
+          "mode": "work",
+          "childTask": "Choose one creature and one plant from your small place, and look at each properly. Count the creature's legs and look for wings. Look at the plant's leaves. Describe each one well enough that somebody else could find it, then find its name together.",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b19",
+              "type": "say-aloud",
+              "text": "Choose one creature. Count the legs. Look for wings."
+            },
+            {
+              "nid": "b20",
+              "type": "say-aloud",
+              "text": "If you do not know its name, describe it well enough that somebody else could find it."
+            },
+            {
+              "nid": "b21",
+              "type": "teacher-note",
+              "text": "Grey, many legs, rolls up is how the name gets found. Once a description is said, agree the name as a class or look it up in a picture guide, and write both down. If nobody can name it today, the description goes on the sheet and the name becomes the question to bring back."
+            },
+            {
+              "nid": "b34",
+              "type": "say-aloud",
+              "text": "Now choose one plant growing in your small place itself, in the crack or under the edge. Look at the shape of its leaves."
+            },
+            {
+              "nid": "b35",
+              "type": "teacher-note",
+              "text": "The plant counts the same way. Leaf shape, colour and where it grows, said well, leads to its name, found the same way as the creature's. Do not supply the name first. If nothing grows in the small place itself, the record is no plant found here."
+            },
+            {
+              "nid": "b22",
+              "type": "say-aloud",
+              "text": "Now put everything back where it came from, and the stone back the way it was."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t18",
+              "when": "Two children insist on different names for the same creature",
+              "then": "Have them each describe it without saying the name. The description settles it faster than the argument."
+            }
+          ]
+        },
+        {
+          "nid": "p23",
+          "key": "circle",
+          "title": "Circle time",
+          "mode": "gather",
+          "durationMin": 10,
+          "blocks": [
+            {
+              "nid": "b24",
+              "type": "circle-question",
+              "text": "Which of the three small places had the most different kinds living in it?"
+            },
+            {
+              "nid": "b25",
+              "type": "circle-question",
+              "text": "What did your small place give the things you found living in it?"
+            },
+            {
+              "nid": "b26",
+              "type": "teacher-note",
+              "text": "List what each group actually found there, in their words: a woodlouse under a stone and a plant in a sunny crack had different things. The lists start the next lesson."
+            },
+            {
+              "nid": "b27",
+              "type": "circle-question",
+              "text": "Did anything turn up under two different stones? Why would that be?"
+            },
+            {
+              "nid": "b28",
+              "type": "named-skill",
+              "skill": "looking closely and naming"
+            }
+          ]
+        }
+      ],
+      "childSheet": [
+        {
+          "nid": "b29",
+          "type": "sheet-title",
+          "title": "Micro-habitats",
+          "nameLine": "These small places were opened by"
+        },
+        {
+          "nid": "b30",
+          "type": "collage-zone",
+          "hint": "Draw the creature you looked at longest, with the legs you could actually count."
+        },
+        {
+          "nid": "b36",
+          "type": "notice-line",
+          "prompt": "A plant growing there, and what its leaves look like:"
+        },
+        {
+          "nid": "b31",
+          "type": "notice-line",
+          "prompt": "The small place I opened was:"
+        },
+        {
+          "nid": "b32",
+          "type": "notice-line",
+          "prompt": "What it gives whatever lives in it:"
+        },
+        {
+          "nid": "b33",
+          "type": "parent-line",
+          "text": "For home: we opened three small places in our grounds, counted who lives in them, and put every one of them back. Ask me what a micro-habitat is."
+        }
+      ],
+      "standards": [
+        {
+          "system": "england",
+          "code": "Year 2 · Living things and their habitats",
+          "text": "identify and name a variety of plants and animals in their habitats, including microhabitats"
+        },
+        {
+          "system": "england",
+          "code": "Key stage 1 · Working scientifically",
+          "text": "observing closely, using simple equipment"
+        },
+        {
+          "system": "england",
+          "code": "Key stage 1 · Working scientifically",
+          "text": "identifying and classifying"
+        }
+      ],
+      "celebration": {
+        "headline": "You opened the small places, and put every one of them back",
+        "emoji": "🔍",
+        "keepsake": "A count of who lives under one stone, and the stone put back the way it was."
+      },
+      "connectionToLast": "You sorted the grounds into alive, dead and never alive. Now go and find where the alive ones actually live.",
+      "conditionNotes": [
+        {
+          "when": [
+            "wet"
+          ],
+          "teacher": "Have the class feel the soil under a stone with a hand before anyone says it is damp. Rain falling today does not tell you how wet the ground is down there.",
+          "child": "It is raining today. Let us feel whether the ground under the stones is wet too."
+        }
+      ],
+      "topicLine": "Today is about the small places, and who is living in them.",
+      "seasonNote": {
+        "teacher": "It is spring, and the class is opening small places after the winter. Nobody has counted these stones before, so there is nothing to compare today's count with. If the class wants to know whether it changes, write today's count down and open the same stone again another week.",
+        "child": "It is spring. We are going to count who lives in the small places today, and we could look again another week."
+      }
+    },
+    {
+      "id": "habitats-w3-what-a-habitat-gives",
+      "sheetTemplate": "habitat-needs",
+      "prompt": "What does this place give the things that live in it?",
+      "doorQuestion": "What would you need if you had to live out here all year?",
+      "doorQuestions": [
+        {
+          "question": "What would you need if you had to live out here all year?"
+        },
+        {
+          "question": "Which of the things living out here would have the easiest time of it?",
+          "species": "choose"
+        }
+      ],
+      "title": "What a habitat gives",
+      "topic": "Taking one patch of the grounds and checking what it gives the animals and the plants living there: air, water and food for animals, light, air and water for plants, and shelter",
+      "topicTags": [
+        "animals",
+        "plants",
+        "water"
+      ],
+      "primaryTopic": "animals",
+      "labels": [
+        "science",
+        "biodiversity"
+      ],
+      "validity": {
+        "requiresSeason": [
+          "spring"
+        ]
+      },
+      "objective": "Survey one patch of the grounds and describe how it provides for the basic needs of the animals and plants living in it, and how one living thing there depends on another",
+      "childWorkSummary": "Children sort their own list of needs into what animals need and what plants need, then take one patch each, marked with a metre of string, and check what it gives each of them, writing down what they could not find today as well as what is there. They then find one living thing in the patch that needs another, and the circle puts the patches side by side to ask which would be the best address.",
+      "namedSkill": "surveying and describing",
+      "kit": [
+        "clipboards and pencils",
+        "a metre of string for each group",
+        "a hand lens"
+      ],
+      "preparation": "Choose four or five patches around the grounds that are honestly different from each other: mown grass, under a hedge, a wall foot, a border, a puddle edge. Different is the point, not pretty.",
+      "spaceNeeded": "Anywhere with at least two kinds of ground within sight of each other. Mown grass and a hedge bottom is enough of a contrast",
+      "durationMin": 40,
+      "settle": true,
+      "primer": {
+        "summary": "Children sort their list of needs into two: animals need air, water and food, and most need shelter; plants need light, air and water, and somewhere to grow. They survey one patch of the grounds against both lists and record the gaps as carefully as the ticks. They then look for one living thing in their patch that needs another, and the circle puts the patches side by side and asks which is the best address, and for whom.",
+        "why": "The statutory bullet asks for two things at once: that a habitat suits what lives in it, and that the things living in it depend on each other. Both are hard to teach from a picture and easy to teach from a metre of string. The gaps are the teaching, and they are what the comparison tests rather than what it assumes: if a patch of mown grass turns out to hold little, its missing water and shelter are the first place to look for a reason, and a hedge bottom is the patch that puts that reading to the test. Suited is a comparison, so it needs at least two patches to be visible at all, which is why the patches are chosen to be different from each other rather than good.",
+        "glossary": [
+          {
+            "term": "live",
+            "definition": "To have your home in a place and get everything you need there.",
+            "forChildren": "To have your home somewhere."
+          },
+          {
+            "term": "shelter",
+            "definition": "Somewhere out of the weather and out of sight of whatever is hunting.",
+            "forChildren": "A place to hide and keep dry."
+          },
+          {
+            "term": "depend",
+            "definition": "To need something else in order to live: the bird depends on the caterpillar, and the caterpillar depends on the leaf.",
+            "forChildren": "To need something else so you can live."
+          }
+        ],
+        "childFriendlyExamples": [
+          "Animals need air, water and food. Plants need light, air and water. A good place gives them what they need.",
+          "Mown grass is a desert if you are small."
+        ]
+      },
+      "nodeSeq": 33,
+      "phases": [
+        {
+          "nid": "p1",
+          "key": "introduce",
+          "title": "Introduce",
+          "mode": "present",
+          "durationMin": 10,
+          "blocks": [
+            {
+              "nid": "b3",
+              "type": "say-aloud",
+              "text": "What would you need if you had to live out there all year?"
+            },
+            {
+              "nid": "b4",
+              "type": "teacher-note",
+              "text": "Take every answer, then sort the list with them into two columns: what animals need and what plants need. Animals need air, water and food, and most need shelter. Plants need light, air and water, and somewhere to grow. Somewhere safe to raise young matters to many animals but is not a need every living thing has."
+            },
+            {
+              "nid": "b5",
+              "type": "say-aloud",
+              "text": "Animals need air, water and food. Most of them need somewhere to shelter too."
+            },
+            {
+              "nid": "b6",
+              "type": "say-aloud",
+              "text": "Plants need light, air and water, and somewhere to grow. Many of them grow roots into soil."
+            },
+            {
+              "nid": "b33",
+              "type": "say-aloud",
+              "text": "A habitat is a place that gives the things living there what they need."
+            },
+            {
+              "nid": "b7",
+              "type": "teacher-note",
+              "text": "Each group gets a metre of string and one patch. Give them patches that are genuinely different from each other, because suited only shows up as a comparison."
+            },
+            {
+              "nid": "b8",
+              "type": "conditions-line",
+              "fallbackText": "Look along the ground from where you stand and pick out two places that look nothing like each other."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t2",
+              "when": "Somebody says an animal needs a bed",
+              "then": "That is shelter, in their own word. Put it under shelter and keep the word they used."
+            }
+          ]
+        },
+        {
+          "nid": "p9",
+          "key": "survey",
+          "title": "Survey your patch",
+          "mode": "work",
+          "childTask": "Lay your string round your patch. Check what it gives an animal and what it gives a plant, and write down what you could not see today as well as what you could.",
+          "durationMin": 12,
+          "blocks": [
+            {
+              "nid": "b12",
+              "type": "say-aloud",
+              "text": "Lay your string round your patch. Everything inside it is yours to study."
+            },
+            {
+              "nid": "b13",
+              "type": "demo",
+              "move": "The needs check",
+              "steps": [
+                {
+                  "text": "Stand in your patch and turn all the way round once."
+                },
+                {
+                  "text": "Point at what an animal here could eat, drink and hide in."
+                },
+                {
+                  "text": "Point at where a plant here gets its light, its water and somewhere to grow."
+                },
+                {
+                  "text": "If you cannot point at one, write not seen today."
+                }
+              ],
+              "look": "The gap is as interesting as the tick.",
+              "materials": [
+                "a metre of string",
+                "a clipboard"
+              ]
+            },
+            {
+              "nid": "b14",
+              "type": "say-aloud",
+              "text": "Write what you can actually see, not what you think ought to be there."
+            },
+            {
+              "nid": "b15",
+              "type": "teacher-note",
+              "text": "This is the honesty the whole unit rests on. A patch that gives some of what is needed and not the rest is a good finding, and a class that invents the missing ones has learnt to make things up."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t10",
+              "when": "A group cannot find water anywhere",
+              "then": "Ask them where rain goes after it lands. Damp soil, a puddle, drops on leaves all count, and none of them may be there today."
+            },
+            {
+              "nid": "t11",
+              "when": "A group says their patch gives nothing at all",
+              "then": "Excellent. Send them to look at a patch that gives plenty and ask what the difference is made of."
+            }
+          ]
+        },
+        {
+          "nid": "p16",
+          "key": "depend",
+          "title": "Who needs whom",
+          "mode": "work",
+          "childTask": "Find one living thing in your patch that needs another living thing, and work out which way round the need goes.",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b18",
+              "type": "say-aloud",
+              "text": "Find a living thing in your patch that needs another living thing."
+            },
+            {
+              "nid": "b19",
+              "type": "say-aloud",
+              "text": "Does the need go both ways, or only one way?"
+            },
+            {
+              "nid": "b20",
+              "type": "teacher-note",
+              "text": "A caterpillar and the leaf it is eating. A hedge and a bird nesting in it. Both halves must be living, so a stone does not count. One-way need is enough: the caterpillar needs the leaf, and the leaf does not need the caterpillar."
+            },
+            {
+              "nid": "b21",
+              "type": "teacher-note",
+              "text": "Keep both halves pointable. If they cannot show you the second thing, it is a guess, and a guess belongs on the sheet as a question rather than as a finding."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t17",
+              "when": "A group names a pair they cannot see",
+              "then": "Ask them how they would check. Turning it into a question they could answer is worth more than the pair was."
+            }
+          ]
+        },
+        {
+          "nid": "p22",
+          "key": "circle",
+          "title": "Circle time",
+          "mode": "gather",
+          "durationMin": 10,
+          "blocks": [
+            {
+              "nid": "b23",
+              "type": "circle-question",
+              "text": "Which patch gives the most, and who would it suit best?"
+            },
+            {
+              "nid": "b24",
+              "type": "circle-question",
+              "text": "What could you not find in your patch today, and where is the nearest place that has it?"
+            },
+            {
+              "nid": "b25",
+              "type": "teacher-note",
+              "text": "Nearest is the useful word here. A patch with no water is fine if a puddle is a hop away, and that is what a home range means without the phrase."
+            },
+            {
+              "nid": "b26",
+              "type": "circle-question",
+              "text": "Choose one living thing that needs another. What would it lose without it?"
+            },
+            {
+              "nid": "b27",
+              "type": "named-skill",
+              "skill": "surveying and describing"
+            }
+          ]
+        }
+      ],
+      "childSheet": [
+        {
+          "nid": "b28",
+          "type": "sheet-title",
+          "title": "What a habitat gives",
+          "nameLine": "This patch was surveyed by"
+        },
+        {
+          "nid": "b29",
+          "type": "collage-zone",
+          "hint": "Draw your patch from where you stood, and mark where the food, the water and the shelter are."
+        },
+        {
+          "nid": "b30",
+          "type": "notice-line",
+          "prompt": "Something we could not find in this patch today:"
+        },
+        {
+          "nid": "b31",
+          "type": "notice-line",
+          "prompt": "A living thing here, and the living thing it needs:"
+        },
+        {
+          "nid": "b32",
+          "type": "parent-line",
+          "text": "For home: we took one patch of our grounds and checked what it gives the animals and plants living there. Ask me what we could not find in our patch today."
+        }
+      ],
+      "standards": [
+        {
+          "system": "england",
+          "code": "Year 2 · Living things and their habitats",
+          "text": "identify that most living things live in habitats to which they are suited and describe how different habitats provide for the basic needs of different kinds of animals and plants, and how they depend on each other"
+        },
+        {
+          "system": "england",
+          "code": "Year 2 · Animals, including humans",
+          "text": "find out about and describe the basic needs of animals, including humans, for survival (water, food and air)"
+        },
+        {
+          "system": "england",
+          "code": "Key stage 1 · Working scientifically",
+          "text": "using their observations and ideas to suggest answers to questions"
+        }
+      ],
+      "celebration": {
+        "headline": "You checked a real patch of ground against everything a living thing needs",
+        "emoji": "🏡",
+        "keepsake": "One metre of string, what it gives, and an honest list of what we could not find today."
+      },
+      "connectionToLast": "You found who lives in the small places. Now find out what those places actually give them.",
+      "topicLine": "Today is about one patch of ground, and everything it does and does not give the things living in it.",
+      "seasonNote": {
+        "teacher": "Spring is when many birds build nests, so shelter is a need a class may see being used rather than only listed. Whether anything is nesting in your patch is for the survey to find out, not for this note to say.",
+        "child": "It is spring, and animals are choosing where to raise their young. We are going to see what one patch of our grounds has to offer."
+      }
+    },
+    {
+      "id": "habitats-w4-food-chains",
+      "sheetTemplate": "food-chain",
+      "prompt": "Where does the food in our grounds begin?",
+      "doorQuestion": "Who eats what out here?",
+      "doorQuestions": [
+        {
+          "question": "Who eats what out here?"
+        },
+        {
+          "question": "Can you be somebody's dinner and still be doing the eating?",
+          "pictures": {
+            "purpose": "example",
+            "items": [
+              {
+                "src": "/lesson-examples/ladybird-aphids.webp",
+                "alt": "A red ladybird on a green stem with small green aphids just above it",
+                "caption": "The aphid eats the plant. The ladybird eats the aphid. The middle one is doing both."
+              }
+            ]
+          }
+        }
+      ],
+      "title": "Simple food chains",
+      "topic": "Building a three-link food chain out of things the class has actually found, and naming predator and prey only where the class saw one animal eat another",
+      "topicTags": [
+        "minibeasts",
+        "birds",
+        "plants"
+      ],
+      "primaryTopic": "minibeasts",
+      "labels": [
+        "science",
+        "biodiversity"
+      ],
+      "validity": {
+        "requiresSeason": [
+          "spring"
+        ]
+      },
+      "objective": "Build a simple food chain from living things found in the grounds, naming each link the class has seen and leaving a question on each link it has not",
+      "childWorkSummary": "Children meet the words for who eats what, then go out to find the bottom of a chain: a plant, and something eating it. They build a three-link paper chain from what they actually found, with an arrow on each join pointing at the eater, and any link nobody has seen is left blank with the question written on it.",
+      "namedSkill": "linking and explaining",
+      "kit": [
+        "strips of card for the chain links",
+        "felt pens",
+        "sticky tape",
+        "clipboards and pencils"
+      ],
+      "preparation": "Cut three strips of card for each pair, big enough to draw on. If your class kept its sheets from the earlier lessons, put them out: the chain is built from what they already found.",
+      "spaceNeeded": "Anywhere with growing plants and somewhere a bird might perch or a creature might hide. A border and a hedge is plenty",
+      "durationMin": 40,
+      "settle": true,
+      "primer": {
+        "summary": "Children meet the words for who eats what, then go out and find the bottom of a chain: a plant, and something that is eating it. Back together they build a three-link paper chain from what they actually found, with an arrow on each join pointing at the eater. A link nobody in the class has seen is left blank with the question written on it, and the circle reads the chains out and asks where all of it started.",
+        "why": "The arrow is the idea, and it goes the way a book does not: it points at the eater, because the arrow shows where the food goes. A class that draws the arrows the other way has a picture of hunting rather than of feeding. The second thing worth holding is honesty about the top link. Most school grounds will not hand a class a predator on the day, and the temptation is to reach for a fox out of a book. Leave the strip blank instead and write the question on it. A chain with a stated gap is better science than a complete chain with a borrowed animal in it, and it gives the class something to come back and finish.",
+        "glossary": [
+          {
+            "term": "food chain",
+            "definition": "The order food travels in. In the chains we build: from a plant, to the animal that eats the plant, to the animal that eats that animal.",
+            "forChildren": "Who eats who, in order."
+          },
+          {
+            "term": "herbivore",
+            "definition": "An animal that eats only plants.",
+            "forChildren": "It eats plants and nothing else."
+          },
+          {
+            "term": "carnivore",
+            "definition": "An animal that eats other animals.",
+            "forChildren": "It eats other animals."
+          },
+          {
+            "term": "omnivore",
+            "definition": "An animal that eats both plants and other animals.",
+            "forChildren": "It eats both."
+          },
+          {
+            "term": "predator",
+            "definition": "An animal that hunts and eats other animals.",
+            "forChildren": "The one doing the hunting."
+          },
+          {
+            "term": "prey",
+            "definition": "An animal that is hunted and eaten by another animal.",
+            "forChildren": "The one being hunted."
+          }
+        ],
+        "childFriendlyExamples": [
+          "Our chains start with a plant, because a plant can make its own food and the animals in them cannot.",
+          "The arrow always points at the eater. Follow the arrows and you are following the dinner."
+        ]
+      },
+      "nodeSeq": 35,
+      "phases": [
+        {
+          "nid": "p1",
+          "key": "introduce",
+          "title": "Introduce",
+          "mode": "present",
+          "durationMin": 12,
+          "blocks": [
+            {
+              "nid": "b3",
+              "type": "say-aloud",
+              "text": "The chains we build today start with a green plant. A plant makes its own food out of light."
+            },
+            {
+              "nid": "b4",
+              "type": "say-aloud",
+              "text": "An animal that eats only plants is a herbivore."
+            },
+            {
+              "nid": "b5",
+              "type": "say-aloud",
+              "text": "An animal that eats animals but not plants is a carnivore. An animal that eats both plants and animals is an omnivore."
+            },
+            {
+              "nid": "b6",
+              "type": "teacher-note",
+              "text": "Three words on the board. Ask which one they are, and take the argument that follows: most of the class will be omnivores and will want to say carnivore."
+            },
+            {
+              "nid": "b7",
+              "type": "say-aloud",
+              "text": "When one animal hunts another, the hunter is the predator and the hunted one is the prey."
+            },
+            {
+              "nid": "b8",
+              "type": "teacher-note",
+              "text": "Prey is the word children find hardest, because it is a role rather than a kind of animal. The same creature can be prey in one chain and predator in another."
+            },
+            {
+              "nid": "b9",
+              "type": "say-aloud",
+              "text": "We are going to build a chain today out of things we have actually found, and nothing else."
+            },
+            {
+              "nid": "b10",
+              "type": "conditions-line",
+              "fallbackText": "Look at the leaves nearest you before you start, and say whether anything has been eating them."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t2",
+              "when": "Somebody names a lion or a shark",
+              "then": "A real carnivore and not one of ours. Ask them for a hunter that could be in our grounds today."
+            }
+          ]
+        },
+        {
+          "nid": "p11",
+          "key": "find",
+          "title": "Find the bottom of a chain",
+          "mode": "work",
+          "childTask": "Find a plant, and then look for something eating it. Only a creature you see eating the plant names the eater. A creature just sitting on it may be resting or hunting. Holes and nibbled edges tell you to look closer.",
+          "durationMin": 10,
+          "blocks": [
+            {
+              "nid": "b14",
+              "type": "say-aloud",
+              "text": "Find a plant first. Then find something that has been eating it."
+            },
+            {
+              "nid": "b15",
+              "type": "say-aloud",
+              "text": "A hole in a leaf tells us something may have eaten it. It does not tell us what."
+            },
+            {
+              "nid": "b16",
+              "type": "teacher-note",
+              "text": "Chewed edges and holes suggest an eater but not which one. Unless a child has watched a creature eating that plant, the second strip stays blank with the question on it. A ladybird or spider sitting on a leaf is not eating it."
+            },
+            {
+              "nid": "b17",
+              "type": "say-aloud",
+              "text": "Now look up. Is there anything out here that would eat the eater?"
+            },
+            {
+              "nid": "b18",
+              "type": "teacher-note",
+              "text": "If nobody has seen the eater, or a third link, that is the honest answer and the lesson can say so. Do not supply one."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t12",
+              "when": "A pair finds a plant nothing has touched",
+              "then": "Worth a question of its own. Ask them why this one has been left alone when the one beside it has not."
+            },
+            {
+              "nid": "t13",
+              "when": "Somebody wants to pull a creature off a leaf to prove it",
+              "then": "Leave it on the leaf. The creature on the leaf it is eating is better evidence than the creature in a pot."
+            }
+          ]
+        },
+        {
+          "nid": "p19",
+          "key": "build",
+          "title": "Build the chain",
+          "mode": "work",
+          "childTask": "Make your chain from three strips: the plant, the one that eats the plant, and the one that eats that. Put an arrow on each join, pointing at the eater.",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b21",
+              "type": "demo",
+              "move": "The three-link chain",
+              "steps": [
+                {
+                  "text": "Draw the plant on the first strip."
+                },
+                {
+                  "text": "On the second, draw the creature you saw eating it. If nobody saw it eating, leave it blank and write your question."
+                },
+                {
+                  "text": "On the third, only what you saw eating that animal. If nobody saw it, leave it blank and write your question."
+                },
+                {
+                  "text": "Tape the strips together with an arrow on each join."
+                }
+              ],
+              "look": "Every arrow points at the eater, never at the eaten.",
+              "materials": [
+                "three strips of card",
+                "a felt pen",
+                "sticky tape"
+              ]
+            },
+            {
+              "nid": "b22",
+              "type": "say-aloud",
+              "text": "The arrow points at whoever is doing the eating, because that is where the food goes."
+            },
+            {
+              "nid": "b23",
+              "type": "say-aloud",
+              "text": "If nobody has seen one of your links, leave that strip empty and write your question on it."
+            },
+            {
+              "nid": "b24",
+              "type": "teacher-note",
+              "text": "Build the chain from what this class actually found, not out of a book. A blank link with a question on it is a stronger piece of work than a borrowed fox or a guessed caterpillar, and it gives them something to come back for."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t20",
+              "when": "A pair draws the arrows pointing at the plant",
+              "then": "Ask them which way the dinner travels. Turning one arrow round usually turns the rest round with it."
+            }
+          ]
+        },
+        {
+          "nid": "p25",
+          "key": "circle",
+          "title": "Circle time",
+          "mode": "gather",
+          "durationMin": 10,
+          "blocks": [
+            {
+              "nid": "b26",
+              "type": "circle-question",
+              "text": "Read your chain out. What is each link eating, here in your chain?"
+            },
+            {
+              "nid": "b27",
+              "type": "circle-question",
+              "text": "If somebody saw one animal eating another, which one was the predator, and which was its prey?"
+            },
+            {
+              "nid": "b28",
+              "type": "teacher-note",
+              "text": "One meal is not a whole diet, so do not call a link herbivore or carnivore from its place in the chain. Predator and prey only apply where somebody saw one animal eat another. If the third strip is blank, those roles stay a question too."
+            },
+            {
+              "nid": "b29",
+              "type": "circle-question",
+              "text": "Every one of our chains starts with a plant. What can a plant do that the animals in our chain cannot?"
+            },
+            {
+              "nid": "b30",
+              "type": "named-skill",
+              "skill": "linking and explaining"
+            }
+          ]
+        }
+      ],
+      "childSheet": [
+        {
+          "nid": "b31",
+          "type": "sheet-title",
+          "title": "Simple food chains",
+          "nameLine": "This chain was built by"
+        },
+        {
+          "nid": "b32",
+          "type": "collage-zone",
+          "hint": "Draw your chain in order, and put the arrow on each join."
+        },
+        {
+          "nid": "b33",
+          "type": "notice-line",
+          "prompt": "What each animal was seen eating, and where:"
+        },
+        {
+          "nid": "b34",
+          "type": "notice-line",
+          "prompt": "A link we could not fill, and what we would need to find out:"
+        },
+        {
+          "nid": "b35",
+          "type": "parent-line",
+          "text": "For home: we built a food chain out of things we found in our own grounds, and left any link we could not fill as a question. Ask me which way the arrows point."
+        }
+      ],
+      "standards": [
+        {
+          "system": "england",
+          "code": "Year 2 · Living things and their habitats",
+          "text": "describe how animals obtain their food from plants and other animals, using the idea of a simple food chain, and identify and name different sources of food"
+        },
+        {
+          "system": "england",
+          "code": "Key stage 1 · Working scientifically",
+          "text": "gathering and recording data to help in answering questions"
+        },
+        {
+          "system": "england",
+          "code": "Key stage 1 · Working scientifically",
+          "text": "using their observations and ideas to suggest answers to questions"
+        }
+      ],
+      "celebration": {
+        "headline": "You built a food chain out of things your own class found",
+        "emoji": "🐛",
+        "keepsake": "Paper links, every arrow pointing at the eater, and any gaps left honestly as questions."
+      },
+      "connectionToLast": "You checked what a patch of ground gives. Now follow the food through it.",
+      "topicLine": "Today is about who eats what out here, and where all of it starts.",
+      "seasonNote": {
+        "teacher": "Spring is often when the bottom of the chain restocks: new leaves can bring leaf eaters, and leaf eaters can bring birds feeding young. Whether your grounds show any of that today is for the class to find out, not for this note to say.",
+        "child": "It is spring. Let us look for new leaves, and for anything eating them. We are going to follow the food from the plant upwards."
+      }
+    }
+  ]
+}

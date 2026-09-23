@@ -1,0 +1,8 @@
+[
+  { "degrees": 17, "sky": "a soft grey sky", "wind": "a light breeze", "raining": false, "heavyRain": false, "fallback": "It is 17 degrees, with a light breeze." },
+  { "degrees": 4,  "sky": "a clear sky",     "wind": "a stiff wind",   "raining": false, "heavyRain": false, "fallback": "It is 4 degrees, with a stiff wind." },
+  { "degrees": 11, "sky": null,              "wind": null,            "raining": true,  "heavyRain": false, "fallback": "It is 11 degrees and raining lightly." },
+  { "degrees": 25, "sky": "a bright sky",    "wind": null,            "raining": false, "heavyRain": false, "fallback": "It is 25 degrees under a bright sky." },
+  { "degrees": 9,  "sky": "a low grey sky",  "wind": "a light breeze", "raining": true, "heavyRain": true,  "fallback": "It is 9 degrees and raining hard." },
+  { "degrees": 0,  "sky": "a white sky",     "wind": "no wind worth mentioning", "raining": false, "heavyRain": false, "fallback": "It is 0 degrees and still." }
+]

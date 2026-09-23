@@ -1,0 +1,3194 @@
+{
+  "1": [
+    {
+      "id": "us_california_w1_monarch_butterfly",
+      "species": "Monarch Butterfly",
+      "scientificName": "Danaus plexippus",
+      "description": "Monarch butterflies clustered in dense overwintering groups on eucalyptus and Monterey pine trees along the central coast",
+      "habitats": ["woodland", "coast"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Thousands of orange butterflies hang together in trees like living curtains. When the sun warms them, they start to flutter!"
+    },
+    {
+      "id": "us_california_w1_gray_whale",
+      "species": "Gray Whale",
+      "scientificName": "Eschrichtius robustus",
+      "description": "Gray whales migrating southbound along the California coast toward Baja breeding lagoons, visible spouting from shore",
+      "habitats": ["coast"],
+      "senses": ["sight"],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Watch the ocean for a puff of mist. That's a whale breathing! They're swimming all the way to Mexico to have their babies"
+    },
+    {
+      "id": "us_california_w1_green_hills",
+      "species": "Annual Grasses",
+      "scientificName": "Bromus spp.",
+      "description": "Hillsides turning vivid green from winter rains, a carpet of new grass sprouting across coastal ranges",
+      "habitats": ["grassland", "meadow"],
+      "senses": ["sight", "smell"],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The hills are turning bright green like a giant's lawn. The rain woke up all the sleeping seeds!"
+    },
+    {
+      "id": "us_california_w1_annas_hummingbird",
+      "species": "Anna's Hummingbird",
+      "scientificName": "Calypte anna",
+      "description": "Male Anna's hummingbirds performing spectacular dive displays, flashing iridescent pink-red gorget in courtship",
+      "habitats": ["garden", "urban", "woodland"],
+      "senses": ["sight", "sound"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A tiny bird zooms straight up into the sky, then dives back down with a loud squeak. He is showing off his sparkly pink throat."
+    },
+    {
+      "id": "us_california_w1_pacific_tree_frog",
+      "species": "Pacific Tree Frog",
+      "scientificName": "Pseudacris regilla",
+      "description": "Pacific tree frogs calling from rain-filled ponds and ditches, their loud 'ribbit' chorus carrying far on wet evenings",
+      "habitats": ["pond", "stream", "garden"],
+      "senses": ["sound"],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "After the rain, listen for a loud 'ribbit, ribbit'. These tiny green frogs are smaller than your thumb, and louder than a dog."
+    }
+  ],
+  "2": [
+    {
+      "id": "us_california_w2_monarch_butterfly",
+      "species": "Monarch Butterfly",
+      "scientificName": "Danaus plexippus",
+      "description": "Monarch overwintering clusters still dense on coastal trees, butterflies basking on warm afternoons",
+      "habitats": ["woodland", "coast"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Thousands of orange butterflies hang together in trees like living curtains. When the sun warms them, they start to flutter!"
+    },
+    {
+      "id": "us_california_w2_gray_whale",
+      "species": "Gray Whale",
+      "scientificName": "Eschrichtius robustus",
+      "description": "Peak of southbound gray whale migration, watch for spouts and flukes from headlands and piers",
+      "habitats": ["coast"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Watch the ocean for a puff of mist. That's a whale breathing! They're swimming all the way to Mexico to have their babies"
+    },
+    {
+      "id": "us_california_w2_green_hills",
+      "species": "Annual Grasses",
+      "scientificName": "Bromus spp.",
+      "description": "Hillsides lush green from winter rains, new grass thick and soft across coastal valleys",
+      "habitats": ["grassland", "meadow"],
+      "senses": ["sight", "smell"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The hills are bright green like a giant's lawn. Run your hand through the soft new grass and smell the fresh earth"
+    },
+    {
+      "id": "us_california_w2_annas_hummingbird",
+      "species": "Anna's Hummingbird",
+      "scientificName": "Calypte anna",
+      "description": "Anna's hummingbirds already nesting, females building tiny lichen-covered nests the size of a walnut",
+      "habitats": ["garden", "urban", "woodland"],
+      "senses": ["sight", "sound"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A tiny bird zooms straight up into the sky, then dives back down with a loud squeak. She might already have eggs in a nest as small as a bottle cap."
+    },
+    {
+      "id": "us_california_w2_pacific_tree_frog",
+      "species": "Pacific Tree Frog",
+      "scientificName": "Pseudacris regilla",
+      "description": "Pacific tree frog chorus growing louder from rain pools and seasonal ponds",
+      "habitats": ["pond", "stream", "garden"],
+      "senses": ["sound"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "After the rain, a huge 'ribbit, ribbit' chorus rises from every puddle. These frogs are smaller than your thumb, and every one of them is loud."
+    },
+    {
+      "id": "us_california_w2_acacia",
+      "species": "Acacia",
+      "scientificName": "Acacia baileyana",
+      "description": "Acacia trees bursting into bright yellow pom-pom flowers, one of the first splashes of color in winter gardens",
+      "habitats": ["urban", "garden"],
+      "senses": ["sight", "smell"],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Fuzzy yellow pom-pom flowers cover whole trees like golden clouds. Lean in close and smell the sweet honey scent"
+    }
+  ],
+  "3": [
+    {
+      "id": "us_california_w3_monarch_butterfly",
+      "species": "Monarch Butterfly",
+      "scientificName": "Danaus plexippus",
+      "description": "Monarch overwintering clusters still present, butterflies becoming more active on warm afternoons",
+      "habitats": ["woodland", "coast"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "On sunny days, the butterflies wake up and float away from their cluster to sip nectar. Then they come back to cuddle at night!"
+    },
+    {
+      "id": "us_california_w3_gray_whale",
+      "species": "Gray Whale",
+      "scientificName": "Eschrichtius robustus",
+      "description": "Southbound gray whale migration continuing, mothers-to-be heading for warm lagoons",
+      "habitats": ["coast"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Whales are still passing by. Look for their heart-shaped blow of mist from a cliff or pier"
+    },
+    {
+      "id": "us_california_w3_acacia",
+      "species": "Acacia",
+      "scientificName": "Acacia baileyana",
+      "description": "Acacia trees in full golden bloom along streets and in parks, fragrant on warm days",
+      "habitats": ["urban", "garden"],
+      "senses": ["sight", "smell"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Fuzzy yellow pom-pom flowers cover whole trees like golden clouds. Lean in close and smell the sweet honey scent"
+    },
+    {
+      "id": "us_california_w3_annas_hummingbird",
+      "species": "Anna's Hummingbird",
+      "scientificName": "Calypte anna",
+      "description": "Anna's hummingbirds actively nesting, males performing dramatic dive displays",
+      "habitats": ["garden", "urban", "woodland"],
+      "senses": ["sight", "sound"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The hummingbird dad flies way up high then dives down fast, making a loud chirp at the bottom. He's saying 'Look at me!'"
+    },
+    {
+      "id": "us_california_w3_california_newt",
+      "species": "California Newt",
+      "scientificName": "Taricha torosa",
+      "description": "California newts migrating to breeding ponds after winter rains, crossing trails and roads at night",
+      "habitats": ["pond", "stream", "woodland"],
+      "senses": ["sight"],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "After rain, bumpy brown salamanders walk slowly across paths heading to ponds. They look like tiny dinosaurs! Don't touch though, their skin is yucky-tasting to keep predators away"
+    },
+    {
+      "id": "us_california_w3_pacific_tree_frog",
+      "species": "Pacific Tree Frog",
+      "scientificName": "Pseudacris regilla",
+      "description": "Pacific tree frog breeding chorus at full volume from ponds and wet areas",
+      "habitats": ["pond", "stream", "garden"],
+      "senses": ["sound"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The frog choir is at its loudest now. Hundreds of tiny frogs all sing 'ribbit' together after dark."
+    }
+  ],
+  "4": [
+    {
+      "id": "us_california_w4_monarch_butterfly",
+      "species": "Monarch Butterfly",
+      "scientificName": "Danaus plexippus",
+      "description": "Monarch clusters beginning to thin as butterflies start dispersing on warm days",
+      "habitats": ["woodland", "coast"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The butterfly sleepover is ending. More and more orange wings drift away from the trees each sunny day"
+    },
+    {
+      "id": "us_california_w4_gray_whale",
+      "species": "Gray Whale",
+      "scientificName": "Eschrichtius robustus",
+      "description": "Late southbound gray whales passing California, some early northbound mothers with new calves",
+      "habitats": ["coast"],
+      "senses": ["sight"],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Some whales are heading south, but a few mums with brand new babies are already swimming back north. Look for a big blow and a tiny one next to it!"
+    },
+    {
+      "id": "us_california_w4_acacia",
+      "species": "Acacia",
+      "scientificName": "Acacia baileyana",
+      "description": "Acacia in full bloom, dropping golden pollen that dusts parked cars and sidewalks yellow",
+      "habitats": ["urban", "garden"],
+      "senses": ["sight", "smell"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The golden pom-pom trees shake yellow dust everywhere. Cars parked underneath get covered in yellow fairy dust!"
+    },
+    {
+      "id": "us_california_w4_california_newt",
+      "species": "California Newt",
+      "scientificName": "Taricha torosa",
+      "description": "California newts arriving at breeding ponds, males developing smooth skin and flattened tails for swimming",
+      "habitats": ["pond", "stream", "woodland"],
+      "senses": ["sight"],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The bumpy little newts are swimming in ponds now, doing a slow underwater dance to find a partner"
+    },
+    {
+      "id": "us_california_w4_almond_blossom",
+      "species": "Almond",
+      "scientificName": "Prunus dulcis",
+      "description": "Almond orchards exploding into pink-white bloom across the Central Valley, buzzing with honeybees",
+      "habitats": ["meadow", "garden"],
+      "senses": ["sight", "smell", "sound"],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Whole orchards turn pink and white, like snow made of flowers. Listen for the buzz of thousands of bees having a feast."
+    },
+    {
+      "id": "us_california_w4_green_hills",
+      "species": "Annual Grasses",
+      "scientificName": "Bromus spp.",
+      "description": "Hills at their greenest, winter rains keeping grasslands lush and emerald",
+      "habitats": ["grassland", "meadow"],
+      "senses": ["sight", "smell"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The hills are the greenest green you've ever seen, like someone colored them with the brightest crayon in the box!"
+    }
+  ],
+  "5": [
+    {
+      "id": "us_california_w5_almond_blossom",
+      "species": "Almond",
+      "scientificName": "Prunus dulcis",
+      "description": "Almond blossoms at peak across the Central Valley, a sea of pink and white petals",
+      "habitats": ["meadow", "garden"],
+      "senses": ["sight", "smell", "sound"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Rows and rows of trees covered in pink flowers stretch as far as you can see. It looks like a fairy kingdom!"
+    },
+    {
+      "id": "us_california_w5_gray_whale",
+      "species": "Gray Whale",
+      "scientificName": "Eschrichtius robustus",
+      "description": "Southbound migration tapering off, first northbound mothers and calves appearing",
+      "habitats": ["coast"],
+      "senses": ["sight"],
+      "confidence": "medium",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The whale parade is slowing down, but keep watching! Some mums with new babies are heading back north already"
+    },
+    {
+      "id": "us_california_w5_california_newt",
+      "species": "California Newt",
+      "scientificName": "Taricha torosa",
+      "description": "Newts breeding in ponds, laying eggs on submerged vegetation",
+      "habitats": ["pond", "stream"],
+      "senses": ["sight"],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Peek into a pond and you might see newts doing their slow underwater dance. They lay tiny jelly eggs on underwater plants"
+    },
+    {
+      "id": "us_california_w5_annas_hummingbird",
+      "species": "Anna's Hummingbird",
+      "scientificName": "Calypte anna",
+      "description": "Anna's hummingbird chicks hatching in walnut-sized nests, females feeding constantly",
+      "habitats": ["garden", "urban", "woodland"],
+      "senses": ["sight", "sound"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Baby hummingbirds are hatching. They're the size of a jellybean! Mum feeds them by poking her long beak into their tiny mouths"
+    },
+    {
+      "id": "us_california_w5_green_hills",
+      "species": "Annual Grasses",
+      "scientificName": "Bromus spp.",
+      "description": "Hills at peak green, lush from steady winter rains",
+      "habitats": ["grassland", "meadow"],
+      "senses": ["sight", "smell"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The hills look like a green velvet blanket. They smell fresh and alive after every rain shower"
+    },
+    {
+      "id": "us_california_w5_manzanita",
+      "species": "Manzanita",
+      "scientificName": "Arctostaphylos spp.",
+      "description": "Manzanita shrubs covered in clusters of tiny pink-white urn-shaped flowers, buzzing with native bees",
+      "habitats": ["woodland", "grassland"],
+      "senses": ["sight", "sound"],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Smooth red-barked bushes are covered in tiny pink bells. Lean close and hear the buzz of hungry bees visiting every flower"
+    }
+  ],
+  "6": [
+    {
+      "id": "us_california_w6_almond_blossom",
+      "species": "Almond",
+      "scientificName": "Prunus dulcis",
+      "description": "Almond blossoms fading, petals drifting down like snow in Central Valley orchards",
+      "habitats": ["meadow", "garden"],
+      "senses": ["sight", "smell"],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Pink petals are raining down from the almond trees. Walk underneath and feel them land softly on your head!"
+    },
+    {
+      "id": "us_california_w6_manzanita",
+      "species": "Manzanita",
+      "scientificName": "Arctostaphylos spp.",
+      "description": "Manzanita in full bloom, smooth reddish bark and clusters of tiny bell flowers attracting early pollinators",
+      "habitats": ["woodland", "grassland"],
+      "senses": ["sight", "sound"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Feel the smooth, cool bark of the manzanita. It feels like a polished stone. The tiny bells on top buzz with bees!"
+    },
+    {
+      "id": "us_california_w6_acorn_woodpecker",
+      "species": "Acorn Woodpecker",
+      "scientificName": "Melanerpes formicivorus",
+      "description": "Acorn woodpeckers chattering loudly from granary trees, maintaining their acorn stash holes from last autumn",
+      "habitats": ["woodland", "urban"],
+      "senses": ["sight", "sound"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Clown-faced birds with red caps laugh 'waka-waka' from trees full of holes. Each hole has an acorn stuffed in it, like a little pantry."
+    },
+    {
+      "id": "us_california_w6_pacific_tree_frog",
+      "species": "Pacific Tree Frog",
+      "scientificName": "Pseudacris regilla",
+      "description": "Tree frog chorus at peak volume, egg masses visible in shallow ponds",
+      "habitats": ["pond", "stream", "garden"],
+      "senses": ["sound", "sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The frog concert is the loudest it'll be all year. Look in the water for blobs of clear jelly with tiny black dots inside. Those are frog eggs!"
+    },
+    {
+      "id": "us_california_w6_annas_hummingbird",
+      "species": "Anna's Hummingbird",
+      "scientificName": "Calypte anna",
+      "description": "Anna's hummingbirds feeding on winter-blooming sage and rosemary",
+      "habitats": ["garden", "urban"],
+      "senses": ["sight", "sound"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The tiny sparkly hummingbird zips from flower to flower so fast your eyes can barely follow. Its wings beat 50 times a second!"
+    },
+    {
+      "id": "us_california_w6_green_hills",
+      "species": "Annual Grasses",
+      "scientificName": "Bromus spp.",
+      "description": "Hillsides vividly green, winter rains keeping grasslands lush and growing",
+      "habitats": ["grassland", "meadow"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Every hill looks like it was painted green overnight. The rain is magic paint for the Earth!"
+    }
+  ],
+  "7": [
+    {
+      "id": "us_california_w7_manzanita",
+      "species": "Manzanita",
+      "scientificName": "Arctostaphylos spp.",
+      "description": "Manzanita bloom fading, tiny bell flowers dropping and small green berries forming",
+      "habitats": ["woodland", "grassland"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The tiny pink bells are falling off the smooth red bushes, and baby green berries are starting to grow in their place"
+    },
+    {
+      "id": "us_california_w7_california_poppy",
+      "species": "California Poppy",
+      "scientificName": "Eschscholzia californica",
+      "description": "First California poppy leaves appearing in sunny grasslands, ferny blue-green foliage spreading low",
+      "habitats": ["grassland", "meadow", "garden"],
+      "senses": ["sight"],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Feathery blue-green leaves are spreading on the ground like little ferns. They're getting ready to become California's famous orange flowers!"
+    },
+    {
+      "id": "us_california_w7_acorn_woodpecker",
+      "species": "Acorn Woodpecker",
+      "scientificName": "Melanerpes formicivorus",
+      "description": "Acorn woodpeckers vocal and active, beginning to prepare nesting cavities in oaks",
+      "habitats": ["woodland", "urban"],
+      "senses": ["sight", "sound"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The clown-faced birds are hammering new holes in the trees, tap tap tap, getting their house ready for babies."
+    },
+    {
+      "id": "us_california_w7_green_hills",
+      "species": "Annual Grasses",
+      "scientificName": "Bromus spp.",
+      "description": "Emerald green hillsides at their most vibrant, with early wildflower rosettes starting to form",
+      "habitats": ["grassland", "meadow"],
+      "senses": ["sight", "smell"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The hills are so green they almost glow. Look closely at the ground and you will see tiny baby wildflowers getting ready."
+    },
+    {
+      "id": "us_california_w7_california_newt",
+      "species": "California Newt",
+      "scientificName": "Taricha torosa",
+      "description": "Newts still breeding in ponds, egg masses visible on submerged branches",
+      "habitats": ["pond", "stream"],
+      "senses": ["sight"],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Look in ponds for brownish salamanders swimming slowly. They've wrapped their jelly eggs around twigs underwater"
+    },
+    {
+      "id": "us_california_w7_ceanothus",
+      "species": "Ceanothus",
+      "scientificName": "Ceanothus spp.",
+      "description": "Wild lilac buds swelling on hillside shrubs, getting ready to bloom",
+      "habitats": ["woodland", "grassland"],
+      "senses": ["sight"],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Bushes on the hillsides are covered in tiny tight buds. Soon they'll explode into clouds of blue and purple flowers!"
+    }
+  ],
+  "8": [
+    {
+      "id": "us_california_w8_california_poppy",
+      "species": "California Poppy",
+      "scientificName": "Eschscholzia californica",
+      "description": "First California poppy buds appearing, pointed caps ready to pop off and reveal orange petals",
+      "habitats": ["grassland", "meadow", "garden"],
+      "senses": ["sight"],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The poppy buds wear pointy green hats. When they're ready, the hat pops right off and out comes a crinkly orange flower!"
+    },
+    {
+      "id": "us_california_w8_ceanothus",
+      "species": "Ceanothus",
+      "scientificName": "Ceanothus spp.",
+      "description": "Wild lilac shrubs beginning to bloom, first blue-purple flower clusters opening on sunny slopes",
+      "habitats": ["woodland", "grassland"],
+      "senses": ["sight", "smell"],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The hillside bushes are opening their first blue flowers. Lean in and sniff, they smell sweet like honey mixed with vanilla!"
+    },
+    {
+      "id": "us_california_w8_green_hills",
+      "species": "Annual Grasses",
+      "scientificName": "Bromus spp.",
+      "description": "Hills at peak green with early wildflower patches starting to dot the landscape",
+      "habitats": ["grassland", "meadow"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The green hills are getting sprinkled with tiny flower dots. Nature is decorating!"
+    },
+    {
+      "id": "us_california_w8_allen_hummingbird",
+      "species": "Allen's Hummingbird",
+      "scientificName": "Selasphorus sasin",
+      "description": "Allen's hummingbirds arriving back from Mexico, males performing pendulum courtship flights",
+      "habitats": ["garden", "coast", "woodland"],
+      "senses": ["sight", "sound"],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A new hummingbird is back from vacation! He swings back and forth in the air like he's on an invisible swing"
+    },
+    {
+      "id": "us_california_w8_pacific_tree_frog",
+      "species": "Pacific Tree Frog",
+      "scientificName": "Pseudacris regilla",
+      "description": "Tree frogs still chorusing loudly, tadpoles hatching in ponds",
+      "habitats": ["pond", "stream", "garden"],
+      "senses": ["sound", "sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The frogs are still singing their hearts out, and their eggs have hatched too. Look for tiny wiggly tadpoles in the pond."
+    },
+    {
+      "id": "us_california_w8_acorn_woodpecker",
+      "species": "Acorn Woodpecker",
+      "scientificName": "Melanerpes formicivorus",
+      "description": "Acorn woodpeckers nesting in communal cavities, whole family group helping",
+      "habitats": ["woodland", "urban"],
+      "senses": ["sight", "sound"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The whole woodpecker family works together. Grandma, uncle, everyone helps feed the babies. They're the best team in the forest!"
+    }
+  ],
+  "9": [
+    {
+      "id": "us_california_w9_california_poppy",
+      "species": "California Poppy",
+      "scientificName": "Eschscholzia californica",
+      "description": "California poppies opening in warm spots, bright orange blooms closing at night and on cloudy days",
+      "habitats": ["grassland", "meadow", "garden"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The first orange poppies are open! They close up tight at night like little sleeping bags. Come back in the morning to see them open again"
+    },
+    {
+      "id": "us_california_w9_ceanothus",
+      "species": "Ceanothus",
+      "scientificName": "Ceanothus spp.",
+      "description": "Wild lilac blooming across hillsides, filling the air with sweet fragrance",
+      "habitats": ["woodland", "grassland"],
+      "senses": ["sight", "smell"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Whole hillsides are covered in fluffy blue-purple flowers that smell amazing. Close your eyes and breathe in!"
+    },
+    {
+      "id": "us_california_w9_green_hills",
+      "species": "Annual Grasses",
+      "scientificName": "Bromus spp.",
+      "description": "Hills still brilliantly green with wildflower season beginning to paint the grasslands",
+      "habitats": ["grassland", "meadow"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Green hills are getting their first splashes of orange and purple. It's like nature is starting a painting!"
+    },
+    {
+      "id": "us_california_w9_barn_swallow",
+      "species": "Barn Swallow",
+      "scientificName": "Hirundo rustica",
+      "description": "First barn swallows returning from Central America, swooping over fields catching insects",
+      "habitats": ["meadow", "grassland", "urban", "pond"],
+      "senses": ["sight"],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Speedy birds with forked tails are back from their winter holiday. They swoop and dive catching tiny bugs in midair like little acrobats!"
+    },
+    {
+      "id": "us_california_w9_lupine",
+      "species": "Lupine",
+      "scientificName": "Lupinus spp.",
+      "description": "Lupine leaves spreading across grasslands, their distinctive fan-shaped foliage carpeting meadows",
+      "habitats": ["grassland", "meadow", "coast"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Look for leaves shaped like tiny green hands reaching up from the grass. They'll grow tall purple flower spikes soon!"
+    }
+  ],
+  "10": [
+    {
+      "id": "us_california_w10_california_poppy",
+      "species": "California Poppy",
+      "scientificName": "Eschscholzia californica",
+      "description": "California poppies spreading rapidly across hillsides and roadsides, orange blooms multiplying daily",
+      "habitats": ["grassland", "meadow", "garden"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "More and more orange poppies pop open every day. Soon whole hillsides will look like they're on fire with color!"
+    },
+    {
+      "id": "us_california_w10_ceanothus",
+      "species": "Ceanothus",
+      "scientificName": "Ceanothus spp.",
+      "description": "Wild lilac at peak bloom, hillsides fragrant with blue-purple flower clouds buzzing with bees",
+      "habitats": ["woodland", "grassland"],
+      "senses": ["sight", "smell", "sound"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The wild lilac smells sweet, and the bees think so too. Whole hillsides are blue-purple and buzzing."
+    },
+    {
+      "id": "us_california_w10_lupine",
+      "species": "Lupine",
+      "scientificName": "Lupinus spp.",
+      "description": "Lupine flower spikes emerging, purple and blue towers rising from fan-shaped leaves",
+      "habitats": ["grassland", "meadow", "coast"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Purple towers are popping up in the meadow. Each one is covered in tiny flowers shaped like little butterflies!"
+    },
+    {
+      "id": "us_california_w10_barn_swallow",
+      "species": "Barn Swallow",
+      "scientificName": "Hirundo rustica",
+      "description": "Barn swallows arriving in greater numbers, beginning to scout nesting sites under eaves and bridges",
+      "habitats": ["meadow", "grassland", "urban", "pond"],
+      "senses": ["sight", "sound"],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The fork-tailed swallows are house-hunting! Watch them zoom under bridges and porches looking for the perfect spot to build a mud nest"
+    },
+    {
+      "id": "us_california_w10_green_hills",
+      "species": "Annual Grasses",
+      "scientificName": "Bromus spp.",
+      "description": "Hillsides still lush green with wildflowers beginning to create colorful patches",
+      "habitats": ["grassland", "meadow"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The green hills are getting dressed up with orange poppies and purple lupines, nature's spring fashion show!"
+    },
+    {
+      "id": "us_california_w10_western_fence_lizard",
+      "species": "Western Fence Lizard",
+      "scientificName": "Sceloporus occidentalis",
+      "description": "Western fence lizards emerging from winter dormancy, basking on rocks and fence posts in morning sun",
+      "habitats": ["wall_fence", "garden", "grassland"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Little grey lizards are sunbathing on rocks and fences. They do tiny push-ups to show off their bright blue bellies!"
+    }
+  ],
+  "11": [
+    {
+      "id": "us_california_w11_california_poppy",
+      "species": "California Poppy",
+      "scientificName": "Eschscholzia californica",
+      "description": "California poppies blooming strongly, whole hillsides beginning to glow orange",
+      "habitats": ["grassland", "meadow", "garden"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Hillsides are turning orange with poppies! They open wide in sunshine and wrap up tight when clouds come, like they have their own weather app"
+    },
+    {
+      "id": "us_california_w11_lupine",
+      "species": "Lupine",
+      "scientificName": "Lupinus spp.",
+      "description": "Lupine spikes blooming in meadows and along roadsides, purple mixed with orange poppies",
+      "habitats": ["grassland", "meadow", "coast"],
+      "senses": ["sight", "smell"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Purple and orange wildflowers are painting the meadows like an artist went wild with their favorite colors!"
+    },
+    {
+      "id": "us_california_w11_ceanothus",
+      "species": "Ceanothus",
+      "scientificName": "Ceanothus spp.",
+      "description": "Wild lilac bloom still strong on hillsides, fragrance carrying on warm breezes",
+      "habitats": ["woodland", "grassland"],
+      "senses": ["sight", "smell"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Take a deep breath on a hillside walk. That sweet perfume is wild lilac, and it's everywhere!"
+    },
+    {
+      "id": "us_california_w11_western_fence_lizard",
+      "species": "Western Fence Lizard",
+      "scientificName": "Sceloporus occidentalis",
+      "description": "Fence lizards doing push-up displays on walls and rocks, males flashing blue belly patches",
+      "habitats": ["wall_fence", "garden", "grassland"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The lizards are doing push-ups on every fence post. They bob up and down to say 'this is my rock'. Can you do push-ups too?"
+    },
+    {
+      "id": "us_california_w11_barn_swallow",
+      "species": "Barn Swallow",
+      "scientificName": "Hirundo rustica",
+      "description": "Barn swallows building mud nests under eaves, gathering mouthfuls of wet mud from puddles",
+      "habitats": ["meadow", "urban", "pond"],
+      "senses": ["sight", "sound"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Watch swallows scoop up mud from puddles and fly it to their nest. They build their house one tiny mud ball at a time!"
+    },
+    {
+      "id": "us_california_w11_gray_whale_northbound",
+      "species": "Gray Whale",
+      "scientificName": "Eschrichtius robustus",
+      "description": "Northbound gray whale migration picking up, mothers swimming close to shore with calves",
+      "habitats": ["coast"],
+      "senses": ["sight"],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Whale mums are swimming north with their babies right along the coast. The babies are already as big as a car!"
+    }
+  ],
+  "12": [
+    {
+      "id": "us_california_w12_california_poppy",
+      "species": "California Poppy",
+      "scientificName": "Eschscholzia californica",
+      "description": "California poppies at spectacular peak, hillsides blazing orange in the warm late-March sunshine",
+      "habitats": ["grassland", "meadow", "garden"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The hillsides look like they caught fire with the most beautiful orange flames, but they're flowers! Lie down in a poppy field and look up at the sky"
+    },
+    {
+      "id": "us_california_w12_lupine",
+      "species": "Lupine",
+      "scientificName": "Lupinus spp.",
+      "description": "Lupines blooming thickly in meadows, creating purple carpets mixed with orange poppies, the classic California wildflower display",
+      "habitats": ["grassland", "meadow", "coast"],
+      "senses": ["sight", "smell"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Purple and orange flowers cover the meadow like a patchwork quilt made by a giant. It smells sweet and the bees are humming!"
+    },
+    {
+      "id": "us_california_w12_green_hills",
+      "species": "Annual Grasses",
+      "scientificName": "Bromus spp.",
+      "description": "Hills still vibrantly green beneath the wildflower show, the last weeks of peak green before summer gold begins",
+      "habitats": ["grassland", "meadow"],
+      "senses": ["sight", "smell"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The hills are still bright green, and now they are covered in wildflowers too. This is California's most magical time of year."
+    },
+    {
+      "id": "us_california_w12_gray_whale_northbound",
+      "species": "Gray Whale",
+      "scientificName": "Eschrichtius robustus",
+      "description": "Northbound gray whale migration in full swing, cow-calf pairs hugging the coastline",
+      "habitats": ["coast"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Whale mums and their babies are swimming past right now. Grab binoculars and look for their misty breath puffs from any high spot near the ocean!"
+    },
+    {
+      "id": "us_california_w12_western_fence_lizard",
+      "species": "Western Fence Lizard",
+      "scientificName": "Sceloporus occidentalis",
+      "description": "Fence lizards very active, males doing vigorous push-up displays and chasing rivals from sunny perches",
+      "habitats": ["wall_fence", "garden", "grassland"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Every sunny wall has a tiny lizard doing push-ups like a gym instructor, up down, up down, flashing its blue tummy."
+    },
+    {
+      "id": "us_california_w12_cliff_swallow",
+      "species": "Cliff Swallow",
+      "scientificName": "Petrochelidon pyrrhonota",
+      "description": "Cliff swallows returning to nesting colonies, traditionally arriving at Mission San Juan Capistrano around March 19",
+      "habitats": ["urban", "coast", "meadow"],
+      "senses": ["sight", "sound"],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The swallows are back! Every year they fly thousands of miles from South America to build their mud nests in the same spot, like coming home from the longest trip ever!"
+    }
+  ],
+  "13": [
+    {
+      "id": "us_california_w13_california_poppy",
+      "species": "California Poppy",
+      "scientificName": "Eschscholzia californica",
+      "description": "California poppies at full peak, blazing orange across entire landscapes in the Antelope Valley and coastal hills",
+      "habitats": ["grassland", "meadow", "garden"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Fields of orange stretch as far as you can see. It looks like the ground is glowing! These are California's state flower and this is their big moment"
+    },
+    {
+      "id": "us_california_w13_lupine",
+      "species": "Lupine",
+      "scientificName": "Lupinus spp.",
+      "description": "Lupines at peak alongside poppies, the purple and orange superbloom display at its best",
+      "habitats": ["grassland", "meadow", "coast"],
+      "senses": ["sight", "smell"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Purple and orange flowers are having a competition to see who can cover more ground. It's a tie and everyone wins!"
+    },
+    {
+      "id": "us_california_w13_cliff_swallow",
+      "species": "Cliff Swallow",
+      "scientificName": "Petrochelidon pyrrhonota",
+      "description": "Cliff swallows busy building gourd-shaped mud nests under bridges and building eaves",
+      "habitats": ["urban", "coast", "meadow"],
+      "senses": ["sight", "sound"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The swallows are building nests shaped like little mud igloos under bridges. They carry mud in their beaks, one tiny ball at a time!"
+    },
+    {
+      "id": "us_california_w13_gray_whale_northbound",
+      "species": "Gray Whale",
+      "scientificName": "Eschrichtius robustus",
+      "description": "Peak of northbound gray whale migration, mothers and calves passing close to shore",
+      "habitats": ["coast"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The whale parade is at its busiest. Mums teach their babies to swim by staying in the shallow water near the beach"
+    },
+    {
+      "id": "us_california_w13_western_fence_lizard",
+      "species": "Western Fence Lizard",
+      "scientificName": "Sceloporus occidentalis",
+      "description": "Fence lizards in peak breeding activity, males territorial and displaying constantly",
+      "habitats": ["wall_fence", "garden", "grassland"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The push-up lizards are working overtime. They bob so fast it looks like they're dancing on the fence!"
+    },
+    {
+      "id": "us_california_w13_painted_lady",
+      "species": "Painted Lady Butterfly",
+      "scientificName": "Vanessa cardui",
+      "description": "Painted lady butterflies beginning spring migration northward through California in some years",
+      "habitats": ["grassland", "meadow", "garden"],
+      "senses": ["sight"],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Orange and brown butterflies flutter past in groups. They are on a long trip from Mexico, all the way to Oregon and beyond."
+    }
+  ],
+  "14": [
+    {
+      "id": "us_california_w14_california_poppy",
+      "species": "California Poppy",
+      "scientificName": "Eschscholzia californica",
+      "description": "Poppies blooming prolifically across hillsides and road verges, peak wildflower season in full swing",
+      "habitats": ["grassland", "meadow", "garden"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Orange poppies are everywhere: along roads, on hills, in gardens. They close up every night and open fresh each morning."
+    },
+    {
+      "id": "us_california_w14_lupine",
+      "species": "Lupine",
+      "scientificName": "Lupinus spp.",
+      "description": "Lupines in full bloom, purple spikes thick in coastal grasslands and inland valleys",
+      "habitats": ["grassland", "meadow", "coast"],
+      "senses": ["sight", "smell"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Purple flower towers stand proud in the fields. Each little flower on the spike looks like a tiny butterfly resting"
+    },
+    {
+      "id": "us_california_w14_owl_clover",
+      "species": "Owl's Clover",
+      "scientificName": "Castilleja densiflora",
+      "description": "Owl's clover adding pink-purple splashes to wildflower meadows among the poppies and lupines",
+      "habitats": ["grassland", "meadow"],
+      "senses": ["sight"],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Pink fuzzy flowers dot the meadow between the orange and purple ones. The wildflower show has all the colors in it."
+    },
+    {
+      "id": "us_california_w14_cliff_swallow",
+      "species": "Cliff Swallow",
+      "scientificName": "Petrochelidon pyrrhonota",
+      "description": "Cliff swallow colonies busy, birds swooping to catch insects and carrying mud to growing nests",
+      "habitats": ["urban", "coast", "meadow"],
+      "senses": ["sight", "sound"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Under the bridge, mud igloos are getting bigger every day. The swallows work from sunrise to sunset!"
+    },
+    {
+      "id": "us_california_w14_painted_lady",
+      "species": "Painted Lady Butterfly",
+      "scientificName": "Vanessa cardui",
+      "description": "Painted ladies migrating through in growing numbers, nectaring on wildflowers",
+      "habitats": ["grassland", "meadow", "garden"],
+      "senses": ["sight"],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Butterflies are streaming through like a sky river. Sometimes millions pass through California in a single spring!"
+    },
+    {
+      "id": "us_california_w14_green_hills",
+      "species": "Annual Grasses",
+      "scientificName": "Bromus spp.",
+      "description": "Hills still green but beginning to show first hints of gold on south-facing slopes",
+      "habitats": ["grassland", "meadow"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The green hills are still going strong but look closely: a few sunny slopes are starting to turn gold at the tips, like nature's highlighter"
+    }
+  ],
+  "15": [
+    {
+      "id": "us_california_w15_california_poppy",
+      "species": "California Poppy",
+      "scientificName": "Eschscholzia californica",
+      "description": "California poppies still blooming strongly, peak shifting to higher elevations and northern areas",
+      "habitats": ["grassland", "meadow", "garden"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The orange poppies are still showing off. Touch the silky petals gently, they feel like the softest tissue paper"
+    },
+    {
+      "id": "us_california_w15_lupine",
+      "species": "Lupine",
+      "scientificName": "Lupinus spp.",
+      "description": "Lupines in full bloom, some early flowers fading and forming seed pods",
+      "habitats": ["grassland", "meadow", "coast"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The purple towers are starting to make seeds at the bottom while still flowering at the top, busy multitaskers!"
+    },
+    {
+      "id": "us_california_w15_goldfinch",
+      "species": "Lesser Goldfinch",
+      "scientificName": "Spinus psaltria",
+      "description": "Lesser goldfinches in bright breeding plumage singing from treetops and feeding on thistle seeds",
+      "habitats": ["garden", "urban", "woodland", "meadow"],
+      "senses": ["sight", "sound"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Tiny bright yellow birds bounce through the air like flying tennis balls, singing a cheerful twittering song from every tree!"
+    },
+    {
+      "id": "us_california_w15_western_fence_lizard",
+      "species": "Western Fence Lizard",
+      "scientificName": "Sceloporus occidentalis",
+      "description": "Fence lizards very active, females developing eggs, males still displaying from prominent perches",
+      "habitats": ["wall_fence", "garden", "grassland"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The lizards are everywhere now. Freeze and watch one, it'll stare right back at you with its beady eyes and do a push-up!"
+    },
+    {
+      "id": "us_california_w15_california_quail",
+      "species": "California Quail",
+      "scientificName": "Callipepla californica",
+      "description": "California quail pairs nesting in dense shrubs, males calling 'chi-ca-go' from fence posts as sentinels",
+      "habitats": ["grassland", "garden", "hedgerow", "urban"],
+      "senses": ["sight", "sound"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A plump bird with a funny curly feather on its head calls 'chi-ca-go, chi-ca-go' from a fence. He is the lookout while his family hides in the bushes."
+    }
+  ],
+  "16": [
+    {
+      "id": "us_california_w16_california_poppy",
+      "species": "California Poppy",
+      "scientificName": "Eschscholzia californica",
+      "description": "Poppies still blooming but beginning to slow in low-elevation areas as the soil dries",
+      "habitats": ["grassland", "meadow", "garden"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The poppies are still glowing orange. Watch a bumblebee crawl inside one and come out covered in golden pollen dust!"
+    },
+    {
+      "id": "us_california_w16_california_quail",
+      "species": "California Quail",
+      "scientificName": "Callipepla californica",
+      "description": "California quail incubating eggs in hidden ground nests, males on lookout duty",
+      "habitats": ["grassland", "garden", "hedgerow"],
+      "senses": ["sight", "sound"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The quail dad stands guard on a high spot calling 'chi-ca-go' while mum sits quietly on her eggs, hidden in the grass."
+    },
+    {
+      "id": "us_california_w16_goldfinch",
+      "species": "Lesser Goldfinch",
+      "scientificName": "Spinus psaltria",
+      "description": "Lesser goldfinches singing constantly, pairs building tiny cup nests in trees",
+      "habitats": ["garden", "urban", "woodland"],
+      "senses": ["sight", "sound"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Little yellow birds sing a bubbly song while weaving the tiniest nest you've ever seen, smaller than a teacup!"
+    },
+    {
+      "id": "us_california_w16_hills_turning",
+      "species": "Annual Grasses",
+      "scientificName": "Bromus spp.",
+      "description": "Hills starting their transition from green to gold, south-facing slopes drying first as spring rains diminish",
+      "habitats": ["grassland", "meadow"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The green hills are starting to get golden streaks, like nature is slowly painting them with a gold crayon from the bottom up"
+    },
+    {
+      "id": "us_california_w16_buckeye",
+      "species": "California Buckeye",
+      "scientificName": "Aesculus californica",
+      "description": "California buckeye trees in full fresh leaf, large palmate leaves creating dense canopy",
+      "habitats": ["woodland", "stream"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A tree with big hand-shaped leaves is showing off its best green outfit. Each leaf looks like a spread-out hand waving at you!"
+    },
+    {
+      "id": "us_california_w16_painted_lady",
+      "species": "Painted Lady Butterfly",
+      "scientificName": "Vanessa cardui",
+      "description": "Painted lady migration continuing, sometimes in spectacular numbers across hillsides",
+      "habitats": ["grassland", "meadow", "garden"],
+      "senses": ["sight"],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Orange butterflies float through the air in groups. They're on the longest trip of their lives, flying all the way to Oregon!"
+    }
+  ],
+  "17": [
+    {
+      "id": "us_california_w17_california_poppy",
+      "species": "California Poppy",
+      "scientificName": "Eschscholzia californica",
+      "description": "Poppies fading at lower elevations, still blooming at higher spots and along the coast",
+      "habitats": ["grassland", "meadow", "coast"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Some poppies are making seed pods now. They look like long skinny green fingers. Shake a dry one and hear tiny seeds rattle inside!"
+    },
+    {
+      "id": "us_california_w17_buckeye",
+      "species": "California Buckeye",
+      "scientificName": "Aesculus californica",
+      "description": "California buckeye producing tall white-pink flower spikes, fragrant and buzzing with bees and butterflies",
+      "habitats": ["woodland", "stream"],
+      "senses": ["sight", "smell", "sound"],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The hand-leaf tree is putting on candle-shaped flowers, white and pink towers that smell sweet and are covered in busy bees!"
+    },
+    {
+      "id": "us_california_w17_hills_turning",
+      "species": "Annual Grasses",
+      "scientificName": "Bromus spp.",
+      "description": "Hills increasingly golden-brown, the famous California gold spreading as grasses dry and set seed",
+      "habitats": ["grassland", "meadow"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The green is fading to gold like magic. California's hills are putting on their summer outfit!"
+    },
+    {
+      "id": "us_california_w17_barn_swallow",
+      "species": "Barn Swallow",
+      "scientificName": "Hirundo rustica",
+      "description": "Barn swallows incubating eggs in mud cup nests, swooping constantly to catch flying insects",
+      "habitats": ["meadow", "urban", "pond"],
+      "senses": ["sight", "sound"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Parent swallows zoom back and forth catching bugs. They have babies to feed soon and need lots of food!"
+    },
+    {
+      "id": "us_california_w17_california_quail",
+      "species": "California Quail",
+      "scientificName": "Callipepla californica",
+      "description": "First quail chicks hatching, tiny cotton-ball-sized babies running after parents in a line",
+      "habitats": ["grassland", "garden", "hedgerow", "urban"],
+      "senses": ["sight", "sound"],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Tiny quail babies the size of cotton balls run after their mum in a wobbly line. Count them, there might be 10 or more!"
+    },
+    {
+      "id": "us_california_w17_lupine",
+      "species": "Lupine",
+      "scientificName": "Lupinus spp.",
+      "description": "Lupines setting seed at lower elevations, rattly pods developing, still blooming in cooler spots",
+      "habitats": ["grassland", "meadow"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The purple flowers are turning into fuzzy pea pods. When they dry out in the sun, they pop open and fling their seeds."
+    }
+  ],
+  "18": [
+    {
+      "id": "us_california_w18_buckeye",
+      "species": "California Buckeye",
+      "scientificName": "Aesculus californica",
+      "description": "Buckeye flower spikes at peak, tall white candles visible across woodland hillsides",
+      "habitats": ["woodland", "stream"],
+      "senses": ["sight", "smell"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "White flower candles glow on the trees. Some of them are longer than your arm."
+    },
+    {
+      "id": "us_california_w18_hills_golden",
+      "species": "Annual Grasses",
+      "scientificName": "Bromus spp.",
+      "description": "Hillsides rapidly turning from green to golden as spring rains end and summer drought begins",
+      "habitats": ["grassland", "meadow"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The golden color is spreading fast across the hills. Soon they'll look like they're made of honey!"
+    },
+    {
+      "id": "us_california_w18_california_quail",
+      "species": "California Quail",
+      "scientificName": "Callipepla californica",
+      "description": "Quail family groups visible, tiny striped chicks scurrying after parents through garden edges",
+      "habitats": ["grassland", "garden", "hedgerow", "urban"],
+      "senses": ["sight", "sound"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A line of tiny striped quail babies follows mum like a little train. They can run almost as fast as you on their teeny legs!"
+    },
+    {
+      "id": "us_california_w18_brown_pelican",
+      "species": "Brown Pelican",
+      "scientificName": "Pelecanus occidentalis",
+      "description": "Brown pelicans nesting on offshore islands, adults spectacular with red-brown neck plumage",
+      "habitats": ["coast"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Big pelicans with pouchy beaks fly in a line over the waves, like a squadron of prehistoric birds. Then, splash, they dive headfirst for fish."
+    },
+    {
+      "id": "us_california_w18_foxtail_grass",
+      "species": "Foxtail Grass",
+      "scientificName": "Hordeum murinum",
+      "description": "Foxtail grass going to seed in grasslands and along paths, bristly seed heads catching on socks and pet fur",
+      "habitats": ["grassland", "meadow", "playing_field", "urban"],
+      "senses": ["sight", "touch"],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Fuzzy grass seeds shaped like fox tails stick to everything: your socks, your shoelaces, your dog! They're nature's hitchhikers"
+    },
+    {
+      "id": "us_california_w18_barn_swallow",
+      "species": "Barn Swallow",
+      "scientificName": "Hirundo rustica",
+      "description": "Barn swallow chicks hatching, parents making constant feeding trips with beakfuls of insects",
+      "habitats": ["meadow", "urban", "pond"],
+      "senses": ["sight", "sound"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Baby swallows open their bright yellow mouths wide and cheep cheep when mum and dad bring bugs. They are always hungry."
+    }
+  ],
+  "19": [
+    {
+      "id": "us_california_w19_buckeye",
+      "species": "California Buckeye",
+      "scientificName": "Aesculus californica",
+      "description": "Buckeye flowers fading, early leaves beginning to brown as the tree prepares for summer dormancy",
+      "habitats": ["woodland", "stream"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The buckeye tree is already getting sleepy for summer. Its leaves are turning brown while other trees are still green. It naps through the hot months!"
+    },
+    {
+      "id": "us_california_w19_hills_golden",
+      "species": "Annual Grasses",
+      "scientificName": "Bromus spp.",
+      "description": "Hills mostly golden-brown now, the iconic California summer landscape establishing",
+      "habitats": ["grassland", "meadow"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The hills have turned into golden waves. This is what makes California look like California in the movies!"
+    },
+    {
+      "id": "us_california_w19_foxtail_grass",
+      "species": "Foxtail Grass",
+      "scientificName": "Hordeum murinum",
+      "description": "Foxtail grass seed heads drying and sharp, easily catching in clothing and pet fur",
+      "habitats": ["grassland", "meadow", "playing_field"],
+      "senses": ["sight", "touch"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Pick a foxtail and brush it on your arm. Feel how it only goes one way? That's how it burrows into the ground to plant itself!"
+    },
+    {
+      "id": "us_california_w19_brown_pelican",
+      "species": "Brown Pelican",
+      "scientificName": "Pelecanus occidentalis",
+      "description": "Brown pelicans feeding actively along the coast, spectacular plunge-diving into schools of fish",
+      "habitats": ["coast"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Watch the pelicans fold up their wings and crash into the water beak-first. Their throat pouch fills with water and fish, like a fishing net."
+    },
+    {
+      "id": "us_california_w19_western_fence_lizard",
+      "species": "Western Fence Lizard",
+      "scientificName": "Sceloporus occidentalis",
+      "description": "Fence lizards laying eggs in warm soil, males still doing push-up territory displays",
+      "habitats": ["wall_fence", "garden", "grassland"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The push-up lizards are still going strong. Lady lizards have buried their eggs in warm sandy soil to cook in the sun"
+    }
+  ],
+  "20": [
+    {
+      "id": "us_california_w20_hills_golden",
+      "species": "Annual Grasses",
+      "scientificName": "Bromus spp.",
+      "description": "Golden hills now the dominant landscape, dried grass seeds scattering in warm breezes",
+      "habitats": ["grassland", "meadow"],
+      "senses": ["sight", "sound"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The golden hills whisper and rustle in the wind. Run your hand through the dry grass and listen to it crackle"
+    },
+    {
+      "id": "us_california_w20_buckeye_dormancy",
+      "species": "California Buckeye",
+      "scientificName": "Aesculus californica",
+      "description": "Buckeye leaves dropping rapidly, trees going dormant months before other deciduous trees",
+      "habitats": ["woodland", "stream"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "This tree is losing its leaves in May. While everything else is green, the buckeye is going to sleep to save water. Smart tree."
+    },
+    {
+      "id": "us_california_w20_brown_pelican",
+      "species": "Brown Pelican",
+      "scientificName": "Pelecanus occidentalis",
+      "description": "Brown pelicans in full breeding season, spectacular diving displays along the coast",
+      "habitats": ["coast"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Pelicans circle high above the waves, then tuck and dive. Splash. They catch fish in their big stretchy beak pouch."
+    },
+    {
+      "id": "us_california_w20_barn_swallow",
+      "species": "Barn Swallow",
+      "scientificName": "Hirundo rustica",
+      "description": "Barn swallow chicks growing fast, parents exhausted from constant insect-catching runs",
+      "habitats": ["meadow", "urban", "pond"],
+      "senses": ["sight", "sound"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The baby swallows are getting big and fluffy. They peer over the edge of the mud nest and chirp for more food."
+    },
+    {
+      "id": "us_california_w20_california_quail",
+      "species": "California Quail",
+      "scientificName": "Callipepla californica",
+      "description": "Quail families with growing chicks foraging together, multiple broods sometimes merging into large groups",
+      "habitats": ["grassland", "garden", "hedgerow"],
+      "senses": ["sight", "sound"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Quail kindergarten! Sometimes two families join together so 20 babies all run around in one big group. It's quail daycare!"
+    },
+    {
+      "id": "us_california_w20_foxtail_grass",
+      "species": "Foxtail Grass",
+      "scientificName": "Hordeum murinum",
+      "description": "Foxtail seeds at their sharpest, care needed on walks as they penetrate socks and animal ears",
+      "habitats": ["grassland", "playing_field"],
+      "senses": ["touch", "sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Watch out for foxtails on your socks! These sneaky seeds have tiny barbs that only go one direction. Check your shoes after a walk"
+    }
+  ],
+  "21": [
+    {
+      "id": "us_california_w21_hills_golden",
+      "species": "Annual Grasses",
+      "scientificName": "Bromus spp.",
+      "description": "Hills fully golden-brown, dry summer pattern well established across California",
+      "habitats": ["grassland", "meadow"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Golden hills stretch in every direction. They glow warm amber in the late afternoon sun"
+    },
+    {
+      "id": "us_california_w21_brown_pelican",
+      "species": "Brown Pelican",
+      "scientificName": "Pelecanus occidentalis",
+      "description": "Brown pelicans feeding chicks on nesting islands, adults commuting to fishing grounds",
+      "habitats": ["coast"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Pelican mums and dads fly out to sea to fill their beaks with fish, then fly back to feed their fluffy grey babies"
+    },
+    {
+      "id": "us_california_w21_western_fence_lizard",
+      "species": "Western Fence Lizard",
+      "scientificName": "Sceloporus occidentalis",
+      "description": "Fence lizards basking in early morning before retreating from midday heat",
+      "habitats": ["wall_fence", "garden", "grassland"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The lizards are early birds now. They sunbathe in the cool morning then hide in the shade when it gets too hot. They're sun-smart!"
+    },
+    {
+      "id": "us_california_w21_red_tailed_hawk",
+      "species": "Red-tailed Hawk",
+      "scientificName": "Buteo jamaicensis",
+      "description": "Red-tailed hawks soaring over golden hills on thermals, hunting ground squirrels in open grasslands",
+      "habitats": ["grassland", "meadow", "woodland"],
+      "senses": ["sight", "sound"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A big hawk circles slowly over the golden hills without even flapping. Listen for a long 'keeeeer'. That screaming call means 'this is my sky'."
+    },
+    {
+      "id": "us_california_w21_california_ground_squirrel",
+      "species": "California Ground Squirrel",
+      "scientificName": "Otospermophilus beecheyi",
+      "description": "Ground squirrels very active, standing upright as sentinels and chirping alarm calls at passersby",
+      "habitats": ["grassland", "playing_field", "urban"],
+      "senses": ["sight", "sound"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Chubby squirrels stand up tall on their back legs like meerkats and chirp warnings to each other. One sees you and the whole family dives underground!"
+    }
+  ],
+  "22": [
+    {
+      "id": "us_california_w22_hills_golden",
+      "species": "Annual Grasses",
+      "scientificName": "Bromus spp.",
+      "description": "Hills deep golden, dried grass stems crackling underfoot in the warming weather",
+      "habitats": ["grassland", "meadow"],
+      "senses": ["sight", "sound"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Walk through the golden grass and listen to it crunch. Each step sounds like nature's Rice Krispies."
+    },
+    {
+      "id": "us_california_w22_brown_pelican",
+      "species": "Brown Pelican",
+      "scientificName": "Pelecanus occidentalis",
+      "description": "Brown pelicans flying in V-formations along the coast, diving spectacularly for sardines and anchovies",
+      "habitats": ["coast"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Pelicans fly in a perfect line right above the waves. Then one by one they peel off and splash dive for fish."
+    },
+    {
+      "id": "us_california_w22_red_tailed_hawk",
+      "species": "Red-tailed Hawk",
+      "scientificName": "Buteo jamaicensis",
+      "description": "Red-tailed hawk fledglings learning to fly, wobbly first flights from nest trees",
+      "habitats": ["grassland", "woodland"],
+      "senses": ["sight", "sound"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Baby hawks are trying their first flights. They wobble and flap clumsily, but soon they'll soar as well as their parents!"
+    },
+    {
+      "id": "us_california_w22_california_ground_squirrel",
+      "species": "California Ground Squirrel",
+      "scientificName": "Otospermophilus beecheyi",
+      "description": "Ground squirrel pups emerging from burrows for the first time, curious and playful",
+      "habitats": ["grassland", "playing_field", "urban"],
+      "senses": ["sight", "sound"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Tiny baby squirrels peek out of holes in the ground for the first time. They chase each other and tumble like furry puppies!"
+    },
+    {
+      "id": "us_california_w22_marine_layer",
+      "species": "Coastal Fog",
+      "description": "Marine layer fog rolling in from the Pacific, blanketing the coast in cool grey mist while inland valleys bake",
+      "habitats": ["coast", "urban"],
+      "senses": ["sight", "touch"],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "A thick cloud sits right on top of the ocean and creeps over the land. Walk through it and feel the cool, damp air on your face like a giant's breath!"
+    }
+  ],
+  "23": [
+    {
+      "id": "us_california_w23_marine_layer",
+      "species": "Coastal Fog",
+      "description": "June gloom, thick marine layer fog covering the coast each morning, burning off by afternoon inland",
+      "habitats": ["coast", "urban"],
+      "senses": ["sight", "touch"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "June Gloom! A fluffy fog blanket covers the beach every morning. By lunchtime the sun burns through and it's warm again"
+    },
+    {
+      "id": "us_california_w23_hills_golden",
+      "species": "Annual Grasses",
+      "scientificName": "Bromus spp.",
+      "description": "Golden-brown hills fully established, dry grass seeds rattling in afternoon breezes",
+      "habitats": ["grassland", "meadow"],
+      "senses": ["sight", "sound"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The golden hills glow like honey in the warm sunshine. California's summer colors are here!"
+    },
+    {
+      "id": "us_california_w23_california_ground_squirrel",
+      "species": "California Ground Squirrel",
+      "scientificName": "Otospermophilus beecheyi",
+      "description": "Ground squirrel families active in early morning and late evening, avoiding midday heat",
+      "habitats": ["grassland", "playing_field", "urban"],
+      "senses": ["sight", "sound"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The squirrels are morning people now, they play and eat when it's cool, then disappear underground when the sun gets hot"
+    },
+    {
+      "id": "us_california_w23_barn_swallow",
+      "species": "Barn Swallow",
+      "scientificName": "Hirundo rustica",
+      "description": "First brood of barn swallows fledging, young birds practicing flying near the nest",
+      "habitats": ["meadow", "urban", "pond"],
+      "senses": ["sight", "sound"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Young swallows take their first flights from the nest. They're a bit wobbly at first but soon they're zooming like their parents!"
+    },
+    {
+      "id": "us_california_w23_red_tailed_hawk",
+      "species": "Red-tailed Hawk",
+      "scientificName": "Buteo jamaicensis",
+      "description": "Red-tailed hawks riding thermals over golden hills, young hawks getting stronger on the wing",
+      "habitats": ["grassland", "woodland"],
+      "senses": ["sight", "sound"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Hawks ride invisible escalators of warm air up into the sky. They can see a mouse in the grass from way up high!"
+    },
+    {
+      "id": "us_california_w23_tarweed",
+      "species": "Tarweed",
+      "scientificName": "Madia elegans",
+      "description": "Tarweed plants beginning to bloom in dry grasslands, sticky yellow flowers that open in late afternoon",
+      "habitats": ["grassland", "meadow"],
+      "senses": ["sight", "smell", "touch"],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Sticky yellow flowers pop open in the dry grass. Touch the stem and your fingers get gummy! They smell like warm tar on a road"
+    }
+  ],
+  "24": [
+    {
+      "id": "us_california_w24_marine_layer",
+      "species": "Coastal Fog",
+      "description": "June gloom marine layer persistent, fog dripping from trees in coastal areas providing summer moisture",
+      "habitats": ["coast", "woodland"],
+      "senses": ["sight", "touch"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The fog is so thick that trees drip water even though it hasn't rained. Redwood trees drink fog like a giant straw!"
+    },
+    {
+      "id": "us_california_w24_tarweed",
+      "species": "Tarweed",
+      "scientificName": "Madia elegans",
+      "description": "Tarweed blooming in dry grasslands, one of the few wildflowers thriving in summer heat",
+      "habitats": ["grassland", "meadow"],
+      "senses": ["sight", "smell", "touch"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "While everything else is dry and brown, sticky yellow tarweed flowers bloom bravely. They're the summer wildflower champions!"
+    },
+    {
+      "id": "us_california_w24_brown_pelican",
+      "species": "Brown Pelican",
+      "scientificName": "Pelecanus occidentalis",
+      "description": "Brown pelicans fishing actively along beaches, young birds making clumsy practice dives",
+      "habitats": ["coast"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Young pelicans are learning to fish. Their first dives are big belly-flops! But they get better every day"
+    },
+    {
+      "id": "us_california_w24_california_ground_squirrel",
+      "species": "California Ground Squirrel",
+      "scientificName": "Otospermophilus beecheyi",
+      "description": "Ground squirrels foraging in early morning, some adults beginning summer estivation in hottest areas",
+      "habitats": ["grassland", "playing_field"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Some squirrels are so hot they take a summer nap underground. It's like hibernation but for heat instead of cold!"
+    },
+    {
+      "id": "us_california_w24_western_fence_lizard",
+      "species": "Western Fence Lizard",
+      "scientificName": "Sceloporus occidentalis",
+      "description": "Fence lizards active in mornings and late afternoons, hatchlings starting to appear",
+      "habitats": ["wall_fence", "garden", "grassland"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Teeny tiny baby lizards are hatching. They're barely as long as your finger and they can already do push-ups!"
+    }
+  ],
+  "25": [
+    {
+      "id": "us_california_w25_marine_layer",
+      "species": "Coastal Fog",
+      "description": "Marine layer fog still blanketing the coast most mornings, keeping coastal temperatures cool",
+      "habitats": ["coast", "urban"],
+      "senses": ["sight", "touch"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The fog is like nature's air conditioning for the beach. While inland is hot, the coast stays cool and misty"
+    },
+    {
+      "id": "us_california_w25_hills_golden",
+      "species": "Annual Grasses",
+      "scientificName": "Bromus spp.",
+      "description": "Golden-brown hills baking in summer heat, dried grass creating fire-danger conditions",
+      "habitats": ["grassland", "meadow"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The golden hills are hot now. The dry grass is so crunchy you can hear it from far away when the wind blows."
+    },
+    {
+      "id": "us_california_w25_red_tailed_hawk",
+      "species": "Red-tailed Hawk",
+      "scientificName": "Buteo jamaicensis",
+      "description": "Red-tailed hawks hunting over dry grasslands, young hawks now independent and learning to hunt alone",
+      "habitats": ["grassland", "meadow"],
+      "senses": ["sight", "sound"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Young hawks are hunting on their own now. Watch them hover in the wind then drop like a stone to catch a gopher!"
+    },
+    {
+      "id": "us_california_w25_tarweed",
+      "species": "Tarweed",
+      "scientificName": "Madia elegans",
+      "description": "Tarweed in full bloom across dry grasslands, sticky stems trapping small insects",
+      "habitats": ["grassland", "meadow"],
+      "senses": ["sight", "smell", "touch"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The tarweed flowers are so sticky that tiny bugs get trapped on the stems. It's almost like a carnivorous plant!"
+    },
+    {
+      "id": "us_california_w25_california_quail",
+      "species": "California Quail",
+      "scientificName": "Callipepla californica",
+      "description": "Quail families foraging in shady areas during heat, chicks now half-grown with developing topknots",
+      "habitats": ["grassland", "garden", "hedgerow"],
+      "senses": ["sight", "sound"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The quail teenagers are growing their own little curly head feathers. They stick up like a tiny question mark!"
+    }
+  ],
+  "26": [
+    {
+      "id": "us_california_w26_hills_golden",
+      "species": "Annual Grasses",
+      "scientificName": "Bromus spp.",
+      "description": "Deep golden-brown hills in the long dry season, thistles and dry seed heads the only upright plants",
+      "habitats": ["grassland", "meadow"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The hills look like they're made of straw, but seeds are hiding in the soil, waiting patiently for rain"
+    },
+    {
+      "id": "us_california_w26_brown_pelican",
+      "species": "Brown Pelican",
+      "scientificName": "Pelecanus occidentalis",
+      "description": "Brown pelicans fishing in large groups, young birds joining adults in coastal feeding",
+      "habitats": ["coast"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A whole flock of pelicans dive-bombs the ocean at once, splash, splash, splash. It is a pelican pool party."
+    },
+    {
+      "id": "us_california_w26_california_ground_squirrel",
+      "species": "California Ground Squirrel",
+      "scientificName": "Otospermophilus beecheyi",
+      "description": "Ground squirrels most active at dawn, young of the year nearly full-sized",
+      "habitats": ["grassland", "playing_field", "urban"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The baby squirrels have grown up fast. They're almost as big as their parents and getting bold enough to come near people"
+    },
+    {
+      "id": "us_california_w26_western_fence_lizard",
+      "species": "Western Fence Lizard",
+      "scientificName": "Sceloporus occidentalis",
+      "description": "Fence lizards everywhere, juveniles and adults basking and hunting insects on warm surfaces",
+      "habitats": ["wall_fence", "garden", "grassland"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Lizards are on every wall and fence, snapping up ants and flies. They're the best pest control in your garden!"
+    },
+    {
+      "id": "us_california_w26_tarweed",
+      "species": "Tarweed",
+      "scientificName": "Madia elegans",
+      "description": "Tarweed still flowering bravely in parched grasslands, fragrant on hot afternoons",
+      "habitats": ["grassland", "meadow"],
+      "senses": ["sight", "smell"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Tough little yellow flowers keep blooming even when everything else has given up. They're the last ones standing in the dry grass"
+    }
+  ],
+  "27": [
+    {
+      "id": "us_california_w27_hills_golden",
+      "species": "Annual Grasses",
+      "scientificName": "Bromus spp.",
+      "description": "Deep summer golden hills, fire danger elevated across the state",
+      "habitats": ["grassland", "meadow"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The golden hills shimmer in the heat. Everything is waiting for rain that won't come for months"
+    },
+    {
+      "id": "us_california_w27_brown_pelican",
+      "species": "Brown Pelican",
+      "scientificName": "Pelecanus occidentalis",
+      "description": "Brown pelicans fishing along the coast, juveniles with brown heads now common",
+      "habitats": ["coast"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Young pelicans have plain brown heads while the grown-ups have fancy white heads. Can you tell which is which?"
+    },
+    {
+      "id": "us_california_w27_california_ground_squirrel",
+      "species": "California Ground Squirrel",
+      "scientificName": "Otospermophilus beecheyi",
+      "description": "Ground squirrels foraging mostly at dawn and dusk, staying underground during peak heat",
+      "habitats": ["grassland", "playing_field"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Even the squirrels think it's too hot. They only come out when the sun is low and spend the hot part of the day in their cool underground tunnels"
+    },
+    {
+      "id": "us_california_w27_red_tailed_hawk",
+      "species": "Red-tailed Hawk",
+      "scientificName": "Buteo jamaicensis",
+      "description": "Red-tailed hawks soaring on powerful summer thermals, hunting dry grasslands for ground squirrels",
+      "habitats": ["grassland", "meadow"],
+      "senses": ["sight", "sound"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Hawks love hot days. Warm air pushes them up high without even flapping. They surf the invisible sky waves!"
+    },
+    {
+      "id": "us_california_w27_dragonfly",
+      "species": "Common Green Darner",
+      "scientificName": "Anax junius",
+      "description": "Large green darner dragonflies patrolling ponds and streams, catching mosquitoes on the wing",
+      "habitats": ["pond", "stream", "garden"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Huge green dragonflies zoom over the water like tiny helicopters. They can fly forwards, backwards, and even hover in place!"
+    }
+  ],
+  "28": [
+    {
+      "id": "us_california_w28_hills_golden",
+      "species": "Annual Grasses",
+      "scientificName": "Bromus spp.",
+      "description": "Peak of golden-brown summer hills, landscape at its most arid and warm-toned",
+      "habitats": ["grassland", "meadow"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The hills are deep gold like a lion's mane. California looks like a wild savanna in summer"
+    },
+    {
+      "id": "us_california_w28_brown_pelican",
+      "species": "Brown Pelican",
+      "scientificName": "Pelecanus occidentalis",
+      "description": "Pelicans gliding in long lines just above the wave crests, using updraft from waves",
+      "habitats": ["coast"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Pelicans surf the air right above the waves without even flapping. They glide like feathered surfboards!"
+    },
+    {
+      "id": "us_california_w28_dragonfly",
+      "species": "Common Green Darner",
+      "scientificName": "Anax junius",
+      "description": "Dragonflies abundant over ponds and gardens, brilliant blue-green bodies catching the light",
+      "habitats": ["pond", "stream", "garden"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Shimmering green dragonflies zip and hover over the water. Their wings are like tiny stained-glass windows in the sun!"
+    },
+    {
+      "id": "us_california_w28_western_fence_lizard",
+      "species": "Western Fence Lizard",
+      "scientificName": "Sceloporus occidentalis",
+      "description": "Fence lizards avoiding midday heat, most active in mornings when surfaces are warm but not scorching",
+      "habitats": ["wall_fence", "garden"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Even the sun-loving lizards hide from the afternoon blaze. Catch them doing their push-ups early in the morning!"
+    },
+    {
+      "id": "us_california_w28_california_quail",
+      "species": "California Quail",
+      "scientificName": "Callipepla californica",
+      "description": "Large quail coveys gathering at water sources in early morning, chicks now nearly adult-sized",
+      "habitats": ["grassland", "garden", "hedgerow"],
+      "senses": ["sight", "sound"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Quail families gather at birdbaths and puddles to drink. It's the watering hole and everybody's invited!"
+    },
+    {
+      "id": "us_california_w28_marine_layer",
+      "species": "Coastal Fog",
+      "description": "Marine layer fog still common on the coast, burning off to sunny afternoons",
+      "habitats": ["coast"],
+      "senses": ["sight", "touch"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Mornings at the beach start grey and cool. Then the sun wins the battle and pushes the fog back out to sea!"
+    }
+  ],
+  "29": [
+    {
+      "id": "us_california_w29_hills_golden",
+      "species": "Annual Grasses",
+      "scientificName": "Bromus spp.",
+      "description": "Golden-brown hills at midsummer, fire weather conditions requiring vigilance",
+      "habitats": ["grassland", "meadow"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The golden hills crackle in the heat. Everything is dry and waiting. This is why we're extra careful about fire in summer"
+    },
+    {
+      "id": "us_california_w29_brown_pelican",
+      "species": "Brown Pelican",
+      "scientificName": "Pelecanus occidentalis",
+      "description": "Pelicans fishing in large flocks, sometimes hundreds gathering where fish are schooling near shore",
+      "habitats": ["coast"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A huge flock of pelicans found the fish! They all dive at once. It's like watching the world's biggest belly-flop competition"
+    },
+    {
+      "id": "us_california_w29_red_tailed_hawk",
+      "species": "Red-tailed Hawk",
+      "scientificName": "Buteo jamaicensis",
+      "description": "Red-tailed hawks riding strong thermals, hunting from soaring height over dry grasslands",
+      "habitats": ["grassland", "meadow"],
+      "senses": ["sight", "sound"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Hawks circle higher and higher on the hot rising air. They can see the whole valley from up there!"
+    },
+    {
+      "id": "us_california_w29_dragonfly",
+      "species": "Common Green Darner",
+      "scientificName": "Anax junius",
+      "description": "Dragonflies patrolling gardens and ponds, catching countless mosquitoes and gnats",
+      "habitats": ["pond", "stream", "garden"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Dragonflies are like tiny fighter jets catching bugs in midair. One dragonfly eats hundreds of mosquitoes every day!"
+    },
+    {
+      "id": "us_california_w29_california_ground_squirrel",
+      "species": "California Ground Squirrel",
+      "scientificName": "Otospermophilus beecheyi",
+      "description": "Ground squirrels using their bushy tails as sunshades, flipping them over their backs in the heat",
+      "habitats": ["grassland", "playing_field", "urban"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Ground squirrels hold their fluffy tails over their heads like tiny umbrellas to shade themselves from the hot sun, clever!"
+    }
+  ],
+  "30": [
+    {
+      "id": "us_california_w30_hills_golden",
+      "species": "Annual Grasses",
+      "scientificName": "Bromus spp.",
+      "description": "Golden-brown hills at peak summer, landscape at maximum dryness",
+      "habitats": ["grassland", "meadow"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The hills are deep, toasty gold, like giant golden pancakes stretching to the horizon"
+    },
+    {
+      "id": "us_california_w30_dragonfly",
+      "species": "Common Green Darner",
+      "scientificName": "Anax junius",
+      "description": "Dragonflies abundant, laying eggs on pond vegetation, nymphs active underwater",
+      "habitats": ["pond", "stream", "garden"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Dragonflies dip their tails into the water. They're laying eggs! The babies live underwater for a whole year before they fly"
+    },
+    {
+      "id": "us_california_w30_brown_pelican",
+      "species": "Brown Pelican",
+      "scientificName": "Pelecanus occidentalis",
+      "description": "Pelicans active along every stretch of coast, a constant presence in the summer seascape",
+      "habitats": ["coast"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Pelicans are everywhere at the beach. Watch them tuck their beaks into their chests and rest on the pier posts like sleepy old men"
+    },
+    {
+      "id": "us_california_w30_western_scrub_jay",
+      "species": "California Scrub-Jay",
+      "scientificName": "Aphelocoma californica",
+      "description": "Scrub-jays caching food for autumn, boldly visiting gardens and picnic areas",
+      "habitats": ["garden", "urban", "woodland"],
+      "senses": ["sight", "sound"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "A bright blue bird with a loud shriek steals your sandwich crumbs. Scrub-jays are cheeky and smart. They hide food for later and remember every hiding spot."
+    },
+    {
+      "id": "us_california_w30_tarweed",
+      "species": "Tarweed",
+      "scientificName": "Madia elegans",
+      "description": "Tarweed still flowering, yellow blooms in otherwise completely brown grasslands",
+      "habitats": ["grassland", "meadow"],
+      "senses": ["sight", "smell"],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The last brave yellow flowers still bloom in the brown grass. The tarweed refuses to give up until every last bee has visited!"
+    }
+  ],
+  "31": [
+    {
+      "id": "us_california_w31_hills_golden",
+      "species": "Annual Grasses",
+      "scientificName": "Bromus spp.",
+      "description": "Hills remain golden-brown, August heat baking the landscape dry",
+      "habitats": ["grassland", "meadow"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The hills are still made of gold. They've been this color for so long it feels like they were always this way"
+    },
+    {
+      "id": "us_california_w31_perseid_meteors",
+      "species": "Perseid Meteor Shower",
+      "kind": "event",
+      "description": "Perseid meteor shower begins, best viewed from dark locations away from city lights in warm summer evenings",
+      "habitats": ["grassland", "meadow", "coast"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Shooting stars! Lie on a blanket outside after dark and count the streaks of light across the sky. Make a wish on each one!"
+    },
+    {
+      "id": "us_california_w31_brown_pelican",
+      "species": "Brown Pelican",
+      "scientificName": "Pelecanus occidentalis",
+      "description": "Brown pelicans ranging widely along the coast, post-breeding dispersal beginning",
+      "habitats": ["coast"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Pelicans are exploring the whole coast now. Big groups glide past in long wavy lines just above the waves"
+    },
+    {
+      "id": "us_california_w31_western_scrub_jay",
+      "species": "California Scrub-Jay",
+      "scientificName": "Aphelocoma californica",
+      "description": "Scrub-jays busy caching acorns and seeds, their remarkable memory storing thousands of hiding spots",
+      "habitats": ["garden", "urban", "woodland"],
+      "senses": ["sight", "sound"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The blue jay is burying acorns everywhere. It remembers thousands of hiding spots! The ones it forgets grow into new oak trees"
+    },
+    {
+      "id": "us_california_w31_california_ground_squirrel",
+      "species": "California Ground Squirrel",
+      "scientificName": "Otospermophilus beecheyi",
+      "description": "Ground squirrels foraging intensely in mornings, building fat reserves for autumn estivation",
+      "habitats": ["grassland", "playing_field", "urban"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The squirrels are eating as much as they can. Like stocking up the pantry before a long nap!"
+    }
+  ],
+  "32": [
+    {
+      "id": "us_california_w32_perseid_meteors",
+      "species": "Perseid Meteor Shower",
+      "kind": "event",
+      "description": "Perseid meteor shower at peak, up to 100 shooting stars per hour visible on clear dark nights",
+      "habitats": ["grassland", "meadow", "coast"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Tonight is the best night for shooting stars. Every few minutes a bright streak zips across the sky. They are really tiny space rocks burning up."
+    },
+    {
+      "id": "us_california_w32_hills_golden",
+      "species": "Annual Grasses",
+      "scientificName": "Bromus spp.",
+      "description": "Golden-brown hills in deep summer, hot dry winds sometimes whipping across the landscape",
+      "habitats": ["grassland", "meadow"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Hot wind makes the golden grass dance and wave. It looks like a golden ocean with waves rolling across the hills"
+    },
+    {
+      "id": "us_california_w32_red_tailed_hawk",
+      "species": "Red-tailed Hawk",
+      "scientificName": "Buteo jamaicensis",
+      "description": "Red-tailed hawks soaring in hot thermals, juveniles now fully independent hunters",
+      "habitats": ["grassland", "meadow", "woodland"],
+      "senses": ["sight", "sound"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Young hawks are expert hunters now. They soar all by themselves, screaming their battle cry across the golden hills"
+    },
+    {
+      "id": "us_california_w32_western_scrub_jay",
+      "species": "California Scrub-Jay",
+      "scientificName": "Aphelocoma californica",
+      "description": "Scrub-jays molting into fresh feathers, looking scruffy while new plumage grows in",
+      "habitats": ["garden", "urban", "woodland"],
+      "senses": ["sight", "sound"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The blue jays look a bit messy right now. They're growing new feathers! Imagine changing all your clothes at the same time"
+    },
+    {
+      "id": "us_california_w32_dragonfly",
+      "species": "Common Green Darner",
+      "scientificName": "Anax junius",
+      "description": "Dragonflies still abundant, some beginning early southbound migration",
+      "habitats": ["pond", "stream", "garden"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Did you know dragonflies migrate like birds? Some of these shiny green flyers will travel hundreds of miles south!"
+    }
+  ],
+  "33": [
+    {
+      "id": "us_california_w33_perseid_meteors",
+      "species": "Perseid Meteor Shower",
+      "kind": "event",
+      "description": "Perseid meteor shower fading but still producing occasional bright fireballs",
+      "habitats": ["grassland", "meadow"],
+      "senses": ["sight"],
+      "confidence": "medium",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "A few more shooting stars still streak across the sky, the leftover sparklers from the big space show"
+    },
+    {
+      "id": "us_california_w33_hills_golden",
+      "species": "Annual Grasses",
+      "scientificName": "Bromus spp.",
+      "description": "Hills at their most golden-brown, late summer heat and bone-dry conditions",
+      "habitats": ["grassland", "meadow"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The hills are the deepest gold of the whole year, like honey and butter and sunshine all mixed together"
+    },
+    {
+      "id": "us_california_w33_brown_pelican",
+      "species": "Brown Pelican",
+      "scientificName": "Pelecanus occidentalis",
+      "description": "Brown pelicans dispersing from breeding colonies, large numbers visible along the entire coast",
+      "habitats": ["coast"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Pelicans are everywhere along the beach now. Count how many you can see in one glance!"
+    },
+    {
+      "id": "us_california_w33_california_ground_squirrel",
+      "species": "California Ground Squirrel",
+      "scientificName": "Otospermophilus beecheyi",
+      "description": "Some adult ground squirrels entering estivation in hottest inland areas, juveniles still active",
+      "habitats": ["grassland", "playing_field"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The grown-up squirrels are disappearing underground for a summer snooze, but the young ones are still running around having fun!"
+    },
+    {
+      "id": "us_california_w33_western_fence_lizard",
+      "species": "Western Fence Lizard",
+      "scientificName": "Sceloporus occidentalis",
+      "description": "Young fence lizards abundant, darting across paths and up fence posts",
+      "habitats": ["wall_fence", "garden", "grassland"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Baby lizards are everywhere. They zip across the path so fast they look like little grey rockets!"
+    },
+    {
+      "id": "us_california_w33_valley_oak_acorn",
+      "species": "Valley Oak",
+      "scientificName": "Quercus lobata",
+      "description": "Valley oak acorns developing on branches, still green and growing through the summer heat",
+      "habitats": ["woodland", "grassland"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Look up in the oak tree. Green baby acorns are growing in their little cups, getting bigger and fatter every week"
+    }
+  ],
+  "34": [
+    {
+      "id": "us_california_w34_hills_golden",
+      "species": "Annual Grasses",
+      "scientificName": "Bromus spp.",
+      "description": "Golden-brown hills in late August, some south-facing slopes nearly white from sun bleaching",
+      "habitats": ["grassland", "meadow"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Some hills are so dry they're almost white. The sun has bleached the grass like old bones in the desert"
+    },
+    {
+      "id": "us_california_w34_valley_oak_acorn",
+      "species": "Valley Oak",
+      "scientificName": "Quercus lobata",
+      "description": "Valley oak acorns getting larger, starting to show brown coloring as they mature",
+      "habitats": ["woodland", "grassland"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The acorns are getting brown caps like tiny hats. Each one has a baby oak tree inside, waiting for its chance!"
+    },
+    {
+      "id": "us_california_w34_red_tailed_hawk",
+      "species": "Red-tailed Hawk",
+      "scientificName": "Buteo jamaicensis",
+      "description": "Red-tailed hawks riding thermals over dry grasslands, molting into fresh flight feathers",
+      "habitats": ["grassland", "meadow"],
+      "senses": ["sight", "sound"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "If you find a big striped feather on the ground, a hawk dropped it while growing a new one, nature's hand-me-downs!"
+    },
+    {
+      "id": "us_california_w34_brown_pelican",
+      "species": "Brown Pelican",
+      "scientificName": "Pelecanus occidentalis",
+      "description": "Pelicans in post-breeding plumage, gathering in large roosting groups on piers and jetties",
+      "habitats": ["coast"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Dozens of pelicans line up on the pier like they're waiting for a bus. They tuck their huge beaks into their feathers and nap!"
+    },
+    {
+      "id": "us_california_w34_western_scrub_jay",
+      "species": "California Scrub-Jay",
+      "scientificName": "Aphelocoma californica",
+      "description": "Scrub-jays in fresh plumage after molt, intensely blue and active in gardens",
+      "habitats": ["garden", "urban", "woodland"],
+      "senses": ["sight", "sound"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The scrub-jays look brand new. Their blue feathers are shiny and bright after growing in fresh, and they look proud of it."
+    }
+  ],
+  "35": [
+    {
+      "id": "us_california_w35_hills_golden",
+      "species": "Annual Grasses",
+      "scientificName": "Bromus spp.",
+      "description": "Golden-brown hills stretching into early autumn, the dry season at its longest",
+      "habitats": ["grassland", "meadow"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The golden hills have been this color for months, but don't worry, rain is coming! Just a few more weeks..."
+    },
+    {
+      "id": "us_california_w35_valley_oak_acorn",
+      "species": "Valley Oak",
+      "scientificName": "Quercus lobata",
+      "description": "Valley oak acorns nearly ripe, first ones beginning to drop from branches",
+      "habitats": ["woodland", "grassland"],
+      "senses": ["sight", "sound"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Bonk. Acorns are starting to drop. Walk under an oak tree and hear them tap on the ground around you."
+    },
+    {
+      "id": "us_california_w35_california_ground_squirrel",
+      "species": "California Ground Squirrel",
+      "scientificName": "Otospermophilus beecheyi",
+      "description": "Ground squirrels collecting and caching acorns and seeds, preparing for autumn",
+      "habitats": ["grassland", "woodland", "playing_field"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Squirrels are stuffing their cheeks so full of acorns they look like fuzzy balloons. They're saving snacks for later!"
+    },
+    {
+      "id": "us_california_w35_dragonfly",
+      "species": "Common Green Darner",
+      "scientificName": "Anax junius",
+      "description": "Green darner dragonflies beginning autumn migration, sometimes passing in visible streams",
+      "habitats": ["pond", "meadow", "garden"],
+      "senses": ["sight"],
+      "confidence": "medium",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The dragonflies are packing up for their trip south. Watch for groups of them all flying the same direction like tiny air traffic"
+    },
+    {
+      "id": "us_california_w35_western_fence_lizard",
+      "species": "Western Fence Lizard",
+      "scientificName": "Sceloporus occidentalis",
+      "description": "Fence lizards still very active in late summer warmth, juveniles growing rapidly",
+      "habitats": ["wall_fence", "garden"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The baby lizards born in summer are growing fast. They do push-ups on the fence just like their parents taught them!"
+    }
+  ],
+  "36": [
+    {
+      "id": "us_california_w36_hills_golden",
+      "species": "Annual Grasses",
+      "scientificName": "Bromus spp.",
+      "description": "Hills still golden-brown, September often the hottest month in California",
+      "habitats": ["grassland", "meadow"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Here is a surprise: September can be the hottest month here. The golden hills bake in the heat while other places are getting cooler."
+    },
+    {
+      "id": "us_california_w36_valley_oak_acorn",
+      "species": "Valley Oak",
+      "scientificName": "Quercus lobata",
+      "description": "Acorns dropping steadily, acorn woodpeckers and scrub-jays frantically collecting and storing them",
+      "habitats": ["woodland", "grassland"],
+      "senses": ["sight", "sound"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Acorns rain down from the oaks. Woodpeckers and jays race to grab them and hide them away. It's the Great Acorn Scramble!"
+    },
+    {
+      "id": "us_california_w36_tarantula",
+      "species": "California Tarantula",
+      "scientificName": "Aphonopelma spp.",
+      "description": "Male tarantulas beginning their autumn mating walks, crossing roads and trails in search of females",
+      "habitats": ["grassland", "woodland"],
+      "senses": ["sight"],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Big fuzzy spiders are going on walks! Male tarantulas wander around looking for a girlfriend. They're gentle and harmless, just say hello!"
+    },
+    {
+      "id": "us_california_w36_red_tailed_hawk",
+      "species": "Red-tailed Hawk",
+      "scientificName": "Buteo jamaicensis",
+      "description": "Red-tailed hawks soaring in September heat, hunting ground squirrels active at dawn",
+      "habitats": ["grassland", "meadow"],
+      "senses": ["sight", "sound"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The hawks circle over the golden hills in the warm September air. Listen for a long 'keeer'. Their cry echoes across the valley."
+    },
+    {
+      "id": "us_california_w36_acorn_woodpecker",
+      "species": "Acorn Woodpecker",
+      "scientificName": "Melanerpes formicivorus",
+      "description": "Acorn woodpeckers in overdrive, hammering acorns into granary trees, the tapping audible from far away",
+      "habitats": ["woodland", "urban"],
+      "senses": ["sight", "sound"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Tap, tap, tap. The woodpeckers are stuffing acorns into every hole in their special tree. Some trees hold thousands of acorns."
+    }
+  ],
+  "37": [
+    {
+      "id": "us_california_w37_tarantula",
+      "species": "California Tarantula",
+      "scientificName": "Aphonopelma spp.",
+      "description": "Peak of tarantula mating season, males commonly seen walking across trails and roads in the evening",
+      "habitats": ["grassland", "woodland"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "It's tarantula time! These big gentle spiders walk slowly across paths looking for love. They have fuzzy legs and tiny eyes in a cluster"
+    },
+    {
+      "id": "us_california_w37_hills_golden",
+      "species": "Annual Grasses",
+      "scientificName": "Bromus spp.",
+      "description": "Hills still golden-brown in the September heat, but anticipation building for first autumn rains",
+      "habitats": ["grassland", "meadow"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The golden hills are still here but the air feels different. Can you smell something? Rain might be coming soon..."
+    },
+    {
+      "id": "us_california_w37_monarch_butterfly",
+      "species": "Monarch Butterfly",
+      "scientificName": "Danaus plexippus",
+      "description": "First monarch butterflies arriving at California overwintering sites, trickling in from the north and east",
+      "habitats": ["coast", "woodland", "garden"],
+      "senses": ["sight"],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The first orange butterflies are coming back! They flew hundreds of miles to sleep in California's warm trees this winter"
+    },
+    {
+      "id": "us_california_w37_valley_oak_acorn",
+      "species": "Valley Oak",
+      "scientificName": "Quercus lobata",
+      "description": "Acorns dropping heavily, the forest floor littered with brown nuts in their caps",
+      "habitats": ["woodland", "grassland"],
+      "senses": ["sight", "sound"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Walk under an oak and hear the crunch. Acorns are everywhere. Pick one up and pop the cap off, like a tiny hat."
+    },
+    {
+      "id": "us_california_w37_acorn_woodpecker",
+      "species": "Acorn Woodpecker",
+      "scientificName": "Melanerpes formicivorus",
+      "description": "Acorn woodpeckers working feverishly to fill every hole in their granary trees with fresh acorns",
+      "habitats": ["woodland", "urban"],
+      "senses": ["sight", "sound"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The woodpeckers are busy, busy, busy. They fly back and forth with acorns in their beaks, tap them into holes, then zoom off for more."
+    }
+  ],
+  "38": [
+    {
+      "id": "us_california_w38_tarantula",
+      "species": "California Tarantula",
+      "scientificName": "Aphonopelma spp.",
+      "description": "Tarantula mating walks continuing, males wandering widely in late afternoon and evening",
+      "habitats": ["grassland", "woodland"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "More fuzzy spiders on the move. If you see one crossing a path, watch it carefully. It walks so slowly and carefully on its eight hairy legs!"
+    },
+    {
+      "id": "us_california_w38_hills_golden",
+      "species": "Annual Grasses",
+      "scientificName": "Bromus spp.",
+      "description": "Golden-brown hills in late September, the longest-dry landscapes starting to look tired",
+      "habitats": ["grassland", "meadow"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The hills are still golden but they look thirsty. Everything is waiting for that first sip of autumn rain"
+    },
+    {
+      "id": "us_california_w38_monarch_butterfly",
+      "species": "Monarch Butterfly",
+      "scientificName": "Danaus plexippus",
+      "description": "More monarchs arriving at coastal overwintering groves, small clusters forming in eucalyptus and pines",
+      "habitats": ["coast", "woodland"],
+      "senses": ["sight"],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "More orange butterflies arrive each day. They're finding their friends and starting to huddle together in the trees"
+    },
+    {
+      "id": "us_california_w38_california_quail",
+      "species": "California Quail",
+      "scientificName": "Callipepla californica",
+      "description": "Large quail coveys forming for autumn and winter, sometimes 30-40 birds gathering together",
+      "habitats": ["grassland", "garden", "hedgerow"],
+      "senses": ["sight", "sound"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Quail families are joining together into one big group. Sometimes 40 birds scurry across the path in a long wobbly line."
+    },
+    {
+      "id": "us_california_w38_western_scrub_jay",
+      "species": "California Scrub-Jay",
+      "scientificName": "Aphelocoma californica",
+      "description": "Scrub-jays intensely caching acorns, burying them in lawns and garden beds for winter retrieval",
+      "habitats": ["garden", "urban", "woodland"],
+      "senses": ["sight", "sound"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Watch the blue jay bury an acorn, look around sneakily, then cover it with a leaf. It remembers thousands of hiding spots."
+    }
+  ],
+  "39": [
+    {
+      "id": "us_california_w39_tarantula",
+      "species": "California Tarantula",
+      "scientificName": "Aphonopelma spp.",
+      "description": "Tarantula mating season continuing, males still wandering trails on warm evenings",
+      "habitats": ["grassland", "woodland"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The tarantula romance season is winding down. A few more big fuzzy spiders are still out looking for love"
+    },
+    {
+      "id": "us_california_w39_monarch_butterfly",
+      "species": "Monarch Butterfly",
+      "scientificName": "Danaus plexippus",
+      "description": "Monarch clusters growing at coastal overwintering sites, butterflies arriving steadily",
+      "habitats": ["coast", "woodland"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The butterfly tree is getting fuller! Orange wings flutter in, tired from their long journey, and join the sleepover"
+    },
+    {
+      "id": "us_california_w39_valley_oak_acorn",
+      "species": "Valley Oak",
+      "scientificName": "Quercus lobata",
+      "description": "Acorn drop slowing, ground squirrels and jays have gathered most of the crop",
+      "habitats": ["woodland", "grassland"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "Most acorns have fallen and been scooped up by squirrels and birds. The oaks have given away their treasure"
+    },
+    {
+      "id": "us_california_w39_first_rain",
+      "species": "Annual Grasses",
+      "scientificName": "Bromus spp.",
+      "description": "First autumn rain possible: 'the first flush' that brings dramatic greening of the golden hills within days",
+      "habitats": ["grassland", "meadow"],
+      "senses": ["sight", "smell"],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Is that rain? The first rain after summer smells incredible, like the Earth sighing with relief. Watch for tiny green shoots in just a few days."
+    },
+    {
+      "id": "us_california_w39_red_tailed_hawk",
+      "species": "Red-tailed Hawk",
+      "scientificName": "Buteo jamaicensis",
+      "description": "Red-tailed hawks continuing to hunt over dry grasslands, some migrant hawks arriving from the north",
+      "habitats": ["grassland", "meadow"],
+      "senses": ["sight", "sound"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "More hawks are appearing. Visitor hawks from up north are joining our local ones for the winter!"
+    }
+  ],
+  "40": [
+    {
+      "id": "us_california_w40_first_rain",
+      "species": "Annual Grasses",
+      "scientificName": "Bromus spp.",
+      "description": "First autumn rains awakening dormant seeds, green shoots appearing on golden hills within days of rainfall",
+      "habitats": ["grassland", "meadow"],
+      "senses": ["sight", "smell"],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "After months of gold, the first rain makes tiny green hairs sprout from the ground. The hills are waking up!"
+    },
+    {
+      "id": "us_california_w40_monarch_butterfly",
+      "species": "Monarch Butterfly",
+      "scientificName": "Danaus plexippus",
+      "description": "Monarch overwintering clusters growing steadily, dozens to hundreds gathering at traditional grove sites",
+      "habitats": ["coast", "woodland"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The butterfly sleepover is getting crowded. Hundreds of monarchs squeeze together on branches to stay warm at night!"
+    },
+    {
+      "id": "us_california_w40_toyon",
+      "species": "Toyon",
+      "scientificName": "Heteromeles arbutifolia",
+      "description": "Toyon berries beginning to ripen, clusters turning from green to orange-red on hillside shrubs",
+      "habitats": ["woodland", "grassland"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Bush berries are starting to turn red like tiny Christmas ornaments. They'll be bright scarlet by December!"
+    },
+    {
+      "id": "us_california_w40_california_quail",
+      "species": "California Quail",
+      "scientificName": "Callipepla californica",
+      "description": "Large quail coveys foraging together through autumn days, huddling together at roost sites",
+      "habitats": ["grassland", "garden", "hedgerow"],
+      "senses": ["sight", "sound"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The quail gang sticks together. They eat together, sleep together, and run together. Safety in numbers!"
+    },
+    {
+      "id": "us_california_w40_western_scrub_jay",
+      "species": "California Scrub-Jay",
+      "scientificName": "Aphelocoma californica",
+      "description": "Scrub-jays checking and re-caching stored acorns, moving them if they think another bird saw the hiding spot",
+      "habitats": ["garden", "urban", "woodland"],
+      "senses": ["sight", "sound"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The blue jay digs up its hidden acorn, looks around suspiciously, and buries it somewhere new. It does not trust anyone."
+    }
+  ],
+  "41": [
+    {
+      "id": "us_california_w41_first_rain",
+      "species": "Annual Grasses",
+      "scientificName": "Bromus spp.",
+      "description": "Green flush spreading on hills after autumn rains, golden color giving way to fresh green on wetter slopes",
+      "habitats": ["grassland", "meadow"],
+      "senses": ["sight", "smell"],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Green patches are spreading across the gold like someone is slowly coloring in the hills. The rain is bringing them back to life!"
+    },
+    {
+      "id": "us_california_w41_monarch_butterfly",
+      "species": "Monarch Butterfly",
+      "scientificName": "Danaus plexippus",
+      "description": "Monarch overwintering clusters well-established at Pacific Grove, Santa Cruz, and other coastal sites",
+      "habitats": ["coast", "woodland"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The butterfly trees look like they have orange leaves, but those are really thousands of butterflies huddled together."
+    },
+    {
+      "id": "us_california_w41_toyon",
+      "species": "Toyon",
+      "scientificName": "Heteromeles arbutifolia",
+      "description": "Toyon berries turning redder, clusters becoming more conspicuous on hillside shrubs",
+      "habitats": ["woodland", "grassland"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The berry bushes are getting redder every week. Birds are eyeing them hungrily but waiting until they're perfectly ripe!"
+    },
+    {
+      "id": "us_california_w41_mushroom",
+      "species": "Wild Mushrooms",
+      "description": "First autumn mushrooms appearing after rains: chanterelles, porcini, and turkey tail pushing through damp soil and wood",
+      "habitats": ["woodland"],
+      "senses": ["sight", "smell"],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Rain and warm soil together make mushrooms. Weird and wonderful shapes pop up overnight on the forest floor, like magic. Look, but never eat a wild one."
+    },
+    {
+      "id": "us_california_w41_acorn_woodpecker",
+      "species": "Acorn Woodpecker",
+      "scientificName": "Melanerpes formicivorus",
+      "description": "Acorn woodpeckers guarding their granary trees fiercely, chattering at any bird that comes near",
+      "habitats": ["woodland", "urban"],
+      "senses": ["sight", "sound"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The woodpeckers guard their acorn stash like tiny dragons protecting treasure, calling 'waka waka waka' if anyone gets too close."
+    }
+  ],
+  "42": [
+    {
+      "id": "us_california_w42_hills_greening",
+      "species": "Annual Grasses",
+      "scientificName": "Bromus spp.",
+      "description": "Hills transitioning from gold to green as autumn rains continue, the famous California color change in reverse",
+      "habitats": ["grassland", "meadow"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The golden hills are turning green again! It's backwards from other places. While leaves fall elsewhere, California's grass wakes up"
+    },
+    {
+      "id": "us_california_w42_monarch_butterfly",
+      "species": "Monarch Butterfly",
+      "scientificName": "Danaus plexippus",
+      "description": "Monarch clusters dense and settled, thousands of butterflies packed tightly on favored branches",
+      "habitats": ["coast", "woodland"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The butterfly tree is packed! When a cloud moves and sunshine hits, thousands of wings open at once. It's breathtaking!"
+    },
+    {
+      "id": "us_california_w42_mushroom",
+      "species": "Wild Mushrooms",
+      "description": "Mushroom season building with continued rains, diverse species fruiting in woodlands and under oaks",
+      "habitats": ["woodland"],
+      "senses": ["sight", "smell"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Mushrooms are popping up everywhere after the rain. Some look like umbrellas, some like shelves on trees, some like brain coral!"
+    },
+    {
+      "id": "us_california_w42_toyon",
+      "species": "Toyon",
+      "scientificName": "Heteromeles arbutifolia",
+      "description": "Toyon berries becoming bright red, attracting cedar waxwings and robins",
+      "habitats": ["woodland", "grassland", "garden"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The toyon bushes are decked in red berries. This is the 'Christmas berry' that might be how Hollywood got its name!"
+    },
+    {
+      "id": "us_california_w42_gray_whale",
+      "species": "Gray Whale",
+      "scientificName": "Eschrichtius robustus",
+      "description": "First gray whales beginning their southbound migration from Alaska, early scouts passing the California coast",
+      "habitats": ["coast"],
+      "senses": ["sight"],
+      "confidence": "low",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The very first whales of the season are starting to swim south. Keep your eyes on the ocean for a misty spout!"
+    }
+  ],
+  "43": [
+    {
+      "id": "us_california_w43_hills_greening",
+      "species": "Annual Grasses",
+      "scientificName": "Bromus spp.",
+      "description": "Green rapidly spreading across hillsides with continued autumn rains, grass growing visibly day by day",
+      "habitats": ["grassland", "meadow"],
+      "senses": ["sight", "smell"],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "More green every day! The hills are like a coloring book being filled in with green crayon. Watch it spread after each rain"
+    },
+    {
+      "id": "us_california_w43_monarch_butterfly",
+      "species": "Monarch Butterfly",
+      "scientificName": "Danaus plexippus",
+      "description": "Monarch overwintering colonies at peak numbers, dense clusters hanging from coastal grove trees",
+      "habitats": ["coast", "woodland"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The butterfly trees are so full that the branches sag under the weight of thousands of sleeping monarchs."
+    },
+    {
+      "id": "us_california_w43_mushroom",
+      "species": "Wild Mushrooms",
+      "description": "Peak mushroom season, chanterelles golden in oak woodlands, amanitas bright under pines",
+      "habitats": ["woodland"],
+      "senses": ["sight", "smell"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The forest floor is a mushroom city! Golden trumpets, red-capped toadstools, and weird shapes you've never imagined. Nature is the best artist"
+    },
+    {
+      "id": "us_california_w43_toyon",
+      "species": "Toyon",
+      "scientificName": "Heteromeles arbutifolia",
+      "description": "Toyon berries brilliant scarlet, flocks of birds descending to feast",
+      "habitats": ["woodland", "grassland", "garden"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Bright red berry bushes light up the hillsides. Noisy flocks of birds swoop in for the all-you-can-eat berry buffet!"
+    },
+    {
+      "id": "us_california_w43_gray_whale",
+      "species": "Gray Whale",
+      "scientificName": "Eschrichtius robustus",
+      "description": "Southbound gray whale migration building, more spouts visible from headlands and piers",
+      "habitats": ["coast"],
+      "senses": ["sight"],
+      "confidence": "medium",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "More whales are passing by each day. They're heading to warm water in Mexico to have their babies"
+    }
+  ],
+  "44": [
+    {
+      "id": "us_california_w44_hills_greening",
+      "species": "Annual Grasses",
+      "scientificName": "Bromus spp.",
+      "description": "Hills turning solidly green again as autumn rains establish, the seasonal transformation nearly complete",
+      "habitats": ["grassland", "meadow"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The hills are green again. After months of gold, the rain has painted them fresh and bright. This is California's big costume change."
+    },
+    {
+      "id": "us_california_w44_monarch_butterfly",
+      "species": "Monarch Butterfly",
+      "scientificName": "Danaus plexippus",
+      "description": "Monarch clusters large and stable at overwintering sites, butterflies basking on warm afternoons",
+      "habitats": ["coast", "woodland"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "On sunny November afternoons, butterflies drift out from their cluster to sip nectar, then fly back to the cozy pile at night"
+    },
+    {
+      "id": "us_california_w44_mushroom",
+      "species": "Wild Mushrooms",
+      "description": "Mushrooms flourishing in damp woodlands, new species appearing after each rain event",
+      "habitats": ["woodland"],
+      "senses": ["sight", "smell"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Every time it rains, new mushrooms appear overnight. It's like a forest surprise party that happens again and again!"
+    },
+    {
+      "id": "us_california_w44_gray_whale",
+      "species": "Gray Whale",
+      "scientificName": "Eschrichtius robustus",
+      "description": "Southbound gray whale migration increasing, pregnant females leading the way to Baja lagoons",
+      "habitats": ["coast"],
+      "senses": ["sight"],
+      "confidence": "medium",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "More and more whale spouts puff up from the ocean. The mums-to-be are in a hurry to reach their warm nursery in Mexico"
+    },
+    {
+      "id": "us_california_w44_toyon",
+      "species": "Toyon",
+      "scientificName": "Heteromeles arbutifolia",
+      "description": "Toyon berries deep scarlet red, a festive sight on autumn hillsides",
+      "habitats": ["woodland", "grassland", "garden"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The Christmas berry bushes look like they're already decorated for the holidays, bright red clusters everywhere!"
+    }
+  ],
+  "45": [
+    {
+      "id": "us_california_w45_hills_green",
+      "species": "Annual Grasses",
+      "scientificName": "Bromus spp.",
+      "description": "Hills solidly green from autumn rains, fresh grass growing thick and soft",
+      "habitats": ["grassland", "meadow"],
+      "senses": ["sight", "smell"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The green hills are back for real. Sit in the soft new grass and feel how different it is from the scratchy golden stuff!"
+    },
+    {
+      "id": "us_california_w45_monarch_butterfly",
+      "species": "Monarch Butterfly",
+      "scientificName": "Danaus plexippus",
+      "description": "Monarch colonies settled for winter, clusters dense and beautiful at coastal grove sites",
+      "habitats": ["coast", "woodland"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The butterfly sleepover is in full swing. Thousands of monarchs cuddle on their favorite branches all winter long"
+    },
+    {
+      "id": "us_california_w45_gray_whale",
+      "species": "Gray Whale",
+      "scientificName": "Eschrichtius robustus",
+      "description": "Southbound gray whale migration well underway, regular sightings from coastal headlands",
+      "habitats": ["coast"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Whale watching season is here. Grab your binoculars and scan the horizon from any high point near the ocean. Whoosh goes their misty breath."
+    },
+    {
+      "id": "us_california_w45_mushroom",
+      "species": "Wild Mushrooms",
+      "description": "Mushroom season strong, bracket fungi on dead wood, agarics in leaf litter, puffballs in grasslands",
+      "habitats": ["woodland", "grassland"],
+      "senses": ["sight", "touch"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Find a ripe puffball mushroom and tap it gently. A cloud of brown spore dust poofs out like nature's smoke bomb!"
+    },
+    {
+      "id": "us_california_w45_pacific_tree_frog",
+      "species": "Pacific Tree Frog",
+      "scientificName": "Pseudacris regilla",
+      "description": "Pacific tree frogs becoming vocal again with autumn rains, calling from refilling ponds",
+      "habitats": ["pond", "stream", "garden"],
+      "senses": ["sound"],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Ribbit, ribbit. The frogs are singing again. The rain filled up their ponds, and now they will not stop."
+    }
+  ],
+  "46": [
+    {
+      "id": "us_california_w46_hills_green",
+      "species": "Annual Grasses",
+      "scientificName": "Bromus spp.",
+      "description": "Hills lush green, winter rains building momentum and keeping grasslands fresh",
+      "habitats": ["grassland", "meadow"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The green hills look like a fresh painting. Every time it rains, the colors get brighter and brighter"
+    },
+    {
+      "id": "us_california_w46_monarch_butterfly",
+      "species": "Monarch Butterfly",
+      "scientificName": "Danaus plexippus",
+      "description": "Monarch overwintering clusters stable, butterflies hanging motionless on cool days, active on warm ones",
+      "habitats": ["coast", "woodland"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "On cold days the butterflies look like brown leaves. Then the sun comes out and they open their wings to show off their orange!"
+    },
+    {
+      "id": "us_california_w46_gray_whale",
+      "species": "Gray Whale",
+      "scientificName": "Eschrichtius robustus",
+      "description": "Peak of early southbound migration, whales spouting regularly along the coastline",
+      "habitats": ["coast"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The whale highway is busy! These giant travelers swim day and night, resting by floating at the surface"
+    },
+    {
+      "id": "us_california_w46_mushroom",
+      "species": "Wild Mushrooms",
+      "description": "Mushroom season continuing strong, new flushes appearing after each rain",
+      "habitats": ["woodland"],
+      "senses": ["sight", "smell"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "After every rain, check under the trees for new mushrooms. They pop up overnight like the forest is playing peek-a-boo!"
+    },
+    {
+      "id": "us_california_w46_toyon",
+      "species": "Toyon",
+      "scientificName": "Heteromeles arbutifolia",
+      "description": "Toyon berries at their most vibrant red, a splash of festive color in the green hillsides",
+      "habitats": ["woodland", "grassland", "garden"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Red berries glow against the green hills like nature put up its own holiday decorations, no lights needed!"
+    },
+    {
+      "id": "us_california_w46_pacific_tree_frog",
+      "species": "Pacific Tree Frog",
+      "scientificName": "Pseudacris regilla",
+      "description": "Tree frogs calling more regularly from rain-fed ponds, the evening chorus building",
+      "habitats": ["pond", "stream", "garden"],
+      "senses": ["sound"],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The frog choir is warming up. Every evening a few more voices join in until the whole pond is singing!"
+    }
+  ],
+  "47": [
+    {
+      "id": "us_california_w47_hills_green",
+      "species": "Annual Grasses",
+      "scientificName": "Bromus spp.",
+      "description": "Hillsides richly green, the wet season well established and grass growing vigorously",
+      "habitats": ["grassland", "meadow"],
+      "senses": ["sight", "smell"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The hills smell fresh and earthy after rain. Lean down and breathe in that wonderful green smell"
+    },
+    {
+      "id": "us_california_w47_monarch_butterfly",
+      "species": "Monarch Butterfly",
+      "scientificName": "Danaus plexippus",
+      "description": "Monarch clusters holding through November, an essential overwintering habitat for western population",
+      "habitats": ["coast", "woodland"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The butterflies will stay cuddled in their trees all winter. They barely eat, just sip a little water on warm days"
+    },
+    {
+      "id": "us_california_w47_gray_whale",
+      "species": "Gray Whale",
+      "scientificName": "Eschrichtius robustus",
+      "description": "Southbound whale migration steady, mothers-to-be passing closest to shore",
+      "habitats": ["coast"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Pregnant whale mums swim close to the coast where the water is calmer. They need to save energy for the long trip!"
+    },
+    {
+      "id": "us_california_w47_mushroom",
+      "species": "Wild Mushrooms",
+      "description": "Mushroom diversity at its highest, mycologists foraging for chanterelles and black trumpets",
+      "habitats": ["woodland"],
+      "senses": ["sight", "smell"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Golden trumpets, tiny parasols, brain-shaped blobs. The mushroom parade has every shape you can imagine hiding under the trees."
+    },
+    {
+      "id": "us_california_w47_annas_hummingbird",
+      "species": "Anna's Hummingbird",
+      "scientificName": "Calypte anna",
+      "description": "Anna's hummingbirds beginning courtship, males performing dive displays, one of the earliest nesting birds",
+      "habitats": ["garden", "urban", "woodland"],
+      "senses": ["sight", "sound"],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "While other birds rest for winter, the tiny hummingbird is already flirting. He flies up high, then zooms down making a loud chirp."
+    }
+  ],
+  "48": [
+    {
+      "id": "us_california_w48_hills_green",
+      "species": "Annual Grasses",
+      "scientificName": "Bromus spp.",
+      "description": "Green hills in late November, the rainy season well established and grass thick and lush",
+      "habitats": ["grassland", "meadow"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The hills are deep green and soft. Lie down on them and look up at the puffy rain clouds rolling by"
+    },
+    {
+      "id": "us_california_w48_monarch_butterfly",
+      "species": "Monarch Butterfly",
+      "scientificName": "Danaus plexippus",
+      "description": "Monarch overwintering colonies well settled, protected groves essential for survival",
+      "habitats": ["coast", "woodland"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The butterflies are snuggled in for the winter. Visit a butterfly grove and see thousands hanging together. Whisper, so you don't wake them!"
+    },
+    {
+      "id": "us_california_w48_gray_whale",
+      "species": "Gray Whale",
+      "scientificName": "Eschrichtius robustus",
+      "description": "Southbound gray whale migration in full flow, daily sightings from whale-watching points",
+      "habitats": ["coast"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The whale parade is going strong. On a good day you might count ten or more misty spouts from one headland!"
+    },
+    {
+      "id": "us_california_w48_toyon",
+      "species": "Toyon",
+      "scientificName": "Heteromeles arbutifolia",
+      "description": "Toyon berries still bright red, robins and cedar waxwings feasting on the abundant fruit",
+      "habitats": ["woodland", "grassland", "garden"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Masked cedar waxwing birds with yellow-tipped tails swarm the berry bushes. They pass berries to each other beak-to-beak. So polite!"
+    },
+    {
+      "id": "us_california_w48_annas_hummingbird",
+      "species": "Anna's Hummingbird",
+      "scientificName": "Calypte anna",
+      "description": "Anna's hummingbirds establishing territories, males singing their scratchy buzzing song from prominent perches",
+      "habitats": ["garden", "urban"],
+      "senses": ["sight", "sound"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The hummingbird sits on a high branch and makes a scratchy, buzzy song. He's the tiniest bird with the biggest attitude!"
+    }
+  ],
+  "49": [
+    {
+      "id": "us_california_w49_hills_green",
+      "species": "Annual Grasses",
+      "scientificName": "Bromus spp.",
+      "description": "Hills vividly green in early December, winter rains keeping the landscape lush",
+      "habitats": ["grassland", "meadow"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "While other places get snow, California's hills are their greenest. It's our own special kind of winter wonderland!"
+    },
+    {
+      "id": "us_california_w49_monarch_butterfly",
+      "species": "Monarch Butterfly",
+      "scientificName": "Danaus plexippus",
+      "description": "Monarch overwintering clusters dense and quiet, butterflies barely moving on cold December days",
+      "habitats": ["coast", "woodland"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The butterflies are so still they look like dried leaves hanging from branches, but wait for sunshine and watch them come alive!"
+    },
+    {
+      "id": "us_california_w49_gray_whale",
+      "species": "Gray Whale",
+      "scientificName": "Eschrichtius robustus",
+      "description": "Southbound gray whale migration at peak, highest daily counts of whales passing the coast",
+      "habitats": ["coast"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "December is the best month for whale watching. More whales pass by now than at any other time. Grab hot cocoa and your binoculars."
+    },
+    {
+      "id": "us_california_w49_toyon",
+      "species": "Toyon",
+      "scientificName": "Heteromeles arbutifolia",
+      "description": "Toyon berries still blazing red on hillsides, the original 'Christmas berry' of California",
+      "habitats": ["woodland", "grassland", "garden"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The Christmas berry is ready for Christmas! Bright red clusters decorate the green hillsides like nature's own holiday display"
+    },
+    {
+      "id": "us_california_w49_annas_hummingbird",
+      "species": "Anna's Hummingbird",
+      "scientificName": "Calypte anna",
+      "description": "Anna's hummingbirds actively courting, some females already building nests despite the short days",
+      "habitats": ["garden", "urban", "woodland"],
+      "senses": ["sight", "sound"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "While other birds wait for spring, the amazing hummingbird is already making a nest! She builds it from spider silk and plant fluff. It stretches as the babies grow"
+    },
+    {
+      "id": "us_california_w49_mushroom",
+      "species": "Wild Mushrooms",
+      "description": "Mushroom season strong through December, wet woodlands producing abundant fruiting bodies",
+      "habitats": ["woodland"],
+      "senses": ["sight", "smell"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The forest floor is still full of mushroom surprises after every rain. Each walk reveals something new and strange and wonderful"
+    }
+  ],
+  "50": [
+    {
+      "id": "us_california_w50_hills_green",
+      "species": "Annual Grasses",
+      "scientificName": "Bromus spp.",
+      "description": "Hills bright green in mid-December, the wet season at full strength",
+      "habitats": ["grassland", "meadow"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The green hills glow in the winter light. Rain keeps them soft and bright like a giant green blanket"
+    },
+    {
+      "id": "us_california_w50_monarch_butterfly",
+      "species": "Monarch Butterfly",
+      "scientificName": "Danaus plexippus",
+      "description": "Monarch overwintering clusters at midwinter, butterflies conserving energy in dense groups",
+      "habitats": ["coast", "woodland"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The butterflies are at their coziest. Packed tight together for warmth, they'll stay like this until the days get longer"
+    },
+    {
+      "id": "us_california_w50_gray_whale",
+      "species": "Gray Whale",
+      "scientificName": "Eschrichtius robustus",
+      "description": "Southbound gray whale migration continuing, steady procession visible from shore",
+      "habitats": ["coast"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Whales are still streaming south. They swim about 5 miles per hour, which is slower than you can ride a bike!"
+    },
+    {
+      "id": "us_california_w50_annas_hummingbird",
+      "species": "Anna's Hummingbird",
+      "scientificName": "Calypte anna",
+      "description": "Anna's hummingbirds nesting in December, some already incubating eggs in tiny lichen-covered nests",
+      "habitats": ["garden", "urban", "woodland"],
+      "senses": ["sight", "sound"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Believe it or not, some hummingbirds are sitting on eggs right now, in December. The nest is so tiny you would walk right past it."
+    },
+    {
+      "id": "us_california_w50_pacific_tree_frog",
+      "species": "Pacific Tree Frog",
+      "scientificName": "Pseudacris regilla",
+      "description": "Pacific tree frogs calling from rain-filled ponds and ditches, winter breeding season beginning",
+      "habitats": ["pond", "stream", "garden"],
+      "senses": ["sound"],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "Ribbit, ribbit from every puddle. The tiny green frogs start their winter singing as the rains fill up their ponds."
+    }
+  ],
+  "51": [
+    {
+      "id": "us_california_w51_hills_green",
+      "species": "Annual Grasses",
+      "scientificName": "Bromus spp.",
+      "description": "Green hillsides in late December, a stark contrast to the snow-covered landscapes of other US regions",
+      "habitats": ["grassland", "meadow"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "While kids in other states build snowmen, California kids play on bright green hills, two kinds of winter wonderland!"
+    },
+    {
+      "id": "us_california_w51_monarch_butterfly",
+      "species": "Monarch Butterfly",
+      "scientificName": "Danaus plexippus",
+      "description": "Monarch overwintering clusters at deep winter state, butterflies barely moving, conserving every calorie",
+      "habitats": ["coast", "woodland"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The butterflies are fast asleep in their tree, folded up so tight they look like brown leaves. Shhh!"
+    },
+    {
+      "id": "us_california_w51_gray_whale",
+      "species": "Gray Whale",
+      "scientificName": "Eschrichtius robustus",
+      "description": "Southbound gray whale migration strong, some early mothers already in Baja lagoons with newborn calves",
+      "habitats": ["coast"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The whales keep swimming south past our coast. Some mums have already reached Mexico and are cuddling their brand new babies!"
+    },
+    {
+      "id": "us_california_w51_toyon",
+      "species": "Toyon",
+      "scientificName": "Heteromeles arbutifolia",
+      "description": "Toyon berries still red and festive, some being eaten by cedar waxwings and mockingbirds",
+      "habitats": ["woodland", "grassland", "garden"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "fading",
+      "childFriendlyNote": "The Christmas berries are perfect for the holidays. Birds have been nibbling but there are still plenty of red clusters to enjoy"
+    },
+    {
+      "id": "us_california_w51_annas_hummingbird",
+      "species": "Anna's Hummingbird",
+      "scientificName": "Calypte anna",
+      "description": "Anna's hummingbirds incubating or feeding tiny chicks, remarkably early nesters even in late December",
+      "habitats": ["garden", "urban", "woodland"],
+      "senses": ["sight", "sound"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Some hummingbird babies are already hatching. They are the size of a coffee bean, and mum keeps them warm with her tiny body."
+    }
+  ],
+  "52": [
+    {
+      "id": "us_california_w52_hills_green",
+      "species": "Annual Grasses",
+      "scientificName": "Bromus spp.",
+      "description": "Hills green and lush at year's end, winter rains sustaining the verdant landscape into the new year",
+      "habitats": ["grassland", "meadow"],
+      "senses": ["sight", "smell"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The year ends with bright green hills. The rain has been feeding the grass for weeks, and it looks alive and fresh."
+    },
+    {
+      "id": "us_california_w52_monarch_butterfly",
+      "species": "Monarch Butterfly",
+      "scientificName": "Danaus plexippus",
+      "description": "Monarch overwintering clusters holding steady through the shortest days of winter",
+      "habitats": ["coast", "woodland"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Thousands of butterflies end the year together in their cozy tree, the biggest sleepover in the animal kingdom!"
+    },
+    {
+      "id": "us_california_w52_gray_whale",
+      "species": "Gray Whale",
+      "scientificName": "Eschrichtius robustus",
+      "description": "Southbound gray whale migration in full swing as the year turns, a living river of whales along the coast",
+      "habitats": ["coast"],
+      "senses": ["sight"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "As the year ends, whales are still swimming past. They have been making this same trip for millions of years. Happy New Year, whales."
+    },
+    {
+      "id": "us_california_w52_annas_hummingbird",
+      "species": "Anna's Hummingbird",
+      "scientificName": "Calypte anna",
+      "description": "Anna's hummingbirds continuing their winter breeding cycle, dive displays and feeding on winter flowers",
+      "habitats": ["garden", "urban", "woodland"],
+      "senses": ["sight", "sound"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "The sparkly hummingbird doesn't care that it's winter. He's diving and squeaking and showing off just like it's spring!"
+    },
+    {
+      "id": "us_california_w52_pacific_tree_frog",
+      "species": "Pacific Tree Frog",
+      "scientificName": "Pseudacris regilla",
+      "description": "Pacific tree frogs chorusing on rainy evenings, their ribbit the soundtrack of California's wet season",
+      "habitats": ["pond", "stream", "garden"],
+      "senses": ["sound"],
+      "confidence": "high",
+      "narrativePhase": "emerging",
+      "childFriendlyNote": "The year ends with a frog concert. Step outside on a rainy evening and hear hundreds of tiny frogs singing 'ribbit, ribbit' into the new year."
+    },
+    {
+      "id": "us_california_w52_mushroom",
+      "species": "Wild Mushrooms",
+      "description": "Mushroom season going strong, winter rains keeping the forest floor damp and productive",
+      "habitats": ["woodland"],
+      "senses": ["sight", "smell"],
+      "confidence": "high",
+      "narrativePhase": "peak",
+      "childFriendlyNote": "Mushrooms are still popping up like little umbrellas in the wet forest, a perfect treasure hunt for the last days of the year!"
+    }
+  ]
+}

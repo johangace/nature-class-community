@@ -1,0 +1,437 @@
+[
+  {
+    "id": "17",
+    "season_key": "summer",
+    "week": 1,
+    "title": "Counting Life",
+    "prompt": "What's living in our grounds?",
+    "description": "Objective: notice everything that is alive around you and begin to work out what it means to be living - breathing, growing, reproducing, dying.",
+    "activity": "Take ten slow steps, count every living thing you find, then work out together what makes something alive.",
+    "duration": "20 min",
+    "date_label": null,
+    "senses": [
+      "Sight",
+      "Listening"
+    ],
+    "materials": [],
+    "preparation": "Nothing to bring. Walk out as you are.",
+    "space_needed": "Any outdoor spot with ten steps of room: a playground corner, a grass edge, a quiet stretch of pavement.",
+    "steps": [
+      {
+        "name": "Count",
+        "note": "Set the boundary first: ten steps from where you stand, no further. Pairs work well.",
+        "tips": [
+          {
+            "then": "Crouch down with them. Grass, moss, a weed in a crack. The small things count.",
+            "when": "If they say there's nothing here..."
+          },
+          {
+            "then": "Ask them to prove each one: what tells you it's alive?",
+            "when": "If they race to finish first..."
+          },
+          {
+            "then": "Count together as one group, pointing as you go.",
+            "when": "If the counting turns into arguing..."
+          }
+        ],
+        "label": "Say to your class",
+        "prompt": "Count everything that's alive within ten steps.",
+        "durationHint": "5 min"
+      },
+      {
+        "name": "See",
+        "note": "Encourage children to look up, down, under...",
+        "tips": [
+          {
+            "then": "Ask for the smallest living thing they can find.",
+            "when": "If they only name big things..."
+          },
+          {
+            "then": "Try a silent minute: point, don't speak.",
+            "when": "If eyes wander to each other instead..."
+          }
+        ],
+        "label": "Say to your class",
+        "prompt": "What can you see?",
+        "durationHint": "4 min"
+      },
+      {
+        "name": "Hear",
+        "note": "Try thirty seconds of complete silence first. The longer the quiet, the more they hear.",
+        "tips": [
+          {
+            "then": "Cup hands behind ears and wait thirty more seconds. Traffic does not count: what else?",
+            "when": "If they say they hear nothing..."
+          }
+        ],
+        "label": "Say to your class",
+        "prompt": "What can you hear?",
+        "durationHint": "3 min"
+      },
+      {
+        "name": "Alive",
+        "note": "Let them argue. A fallen leaf, a seed, moss on a wall: alive or not? The wondering is the learning.",
+        "tips": [
+          {
+            "then": "Ask: was it alive? Is the tree it came from alive? Both answers teach.",
+            "when": "If they are unsure about a leaf on the ground..."
+          }
+        ],
+        "label": "Say to your class",
+        "prompt": "What is telling you it's alive?",
+        "durationHint": "4 min"
+      },
+      {
+        "name": "Living",
+        "note": "Four signs they can test anything against. Try them on a bird, a tree, a stone.",
+        "tips": [
+          {
+            "then": "Act them out: breathe in, stretch tall and grow, drift like a seed, flop down.",
+            "when": "If the words feel too big..."
+          }
+        ],
+        "label": "Say to your class",
+        "prompt": "What does it mean to be living: breathing, growing, reproducing, dying.",
+        "durationHint": "4 min"
+      }
+    ],
+    "closing_prompts": [
+      {
+        "note": "Let a few children share with the whole circle.",
+        "question": "What was the most surprising living thing you found?"
+      },
+      {
+        "note": "A feather, a seed, a fallen leaf. Hard cases make the best thinking.",
+        "question": "Was anything hard to decide: alive or not alive?"
+      },
+      {
+        "note": "No right answer. Big guesses welcome.",
+        "question": "How many living things do you think share our whole school grounds?"
+      }
+    ],
+    "primer": {
+      "why": "Naming what is alive is the first step to caring about it. A child who has counted dozens of living things in one corner of the playground never sees \"nothing\" there again.",
+      "summary": "Children count everything alive within ten steps of where they stand, then begin to work out what makes something living: breathing, growing, reproducing, dying.",
+      "glossary": []
+    },
+    "celebration": {
+      "emoji": "🔍",
+      "headline": "Your class found life everywhere.",
+      "keepsake": "Ten steps. More life than anyone expected.",
+      "nextWeekTease": "Next week: minibeast hunting."
+    },
+    "connection_to_last": null,
+    "audio_url": null,
+    "is_active": true,
+    "sort_order": 1,
+    "inserted_at": "2026-06-11T13:55:41.134Z",
+    "updated_at": "2026-06-15T16:18:26.283Z"
+  },
+  {
+    "id": "18",
+    "season_key": "summer",
+    "week": 2,
+    "title": "Minibeast Hunting",
+    "prompt": "Minibeast hunting.",
+    "description": "Objective: look closely at minibeasts and discover that all creatures have special roles to help our planet stay alive.",
+    "activity": "Hunt for minibeasts in soil, under logs and in bushes. Look closely, ask questions, and put every creature back.",
+    "duration": "20 min",
+    "date_label": null,
+    "senses": [
+      "Sight",
+      "Touch"
+    ],
+    "materials": [
+      "Bug pots or viewers",
+      "Magnifying glasses"
+    ],
+    "preparation": "Bring the bug pots or viewers and magnifying glasses. If you can, check your patch the day before: lift a log, see who is home.",
+    "space_needed": "Soil, a log, a bush or a tree. Any patch where small creatures hide.",
+    "steps": [
+      {
+        "name": "Engage",
+        "note": "Allow children to raise their hands to give feedback.",
+        "type": "engage",
+        "label": "Say to your class",
+        "phase": "Engage · Step 1 of 4",
+        "prompt": "What minibeasts do you know? Can you name them?",
+        "prompts": [
+          "What minibeasts do you know? Can you name them?",
+          "What is your favourite minibeast and why?"
+        ]
+      },
+      {
+        "name": "Explore",
+        "note": "Give children 10 minutes to explore their outdoor space, using only their senses.",
+        "type": "explore",
+        "label": "Say to your class",
+        "phase": "Explore · Step 2 of 4",
+        "prompt": "Take 10 minutes to explore. Look under logs, on leaves, in trees, and up in the sky.",
+        "prompts": [
+          "Take 10 minutes to explore. Look under logs, on leaves, in trees, and up in the sky."
+        ]
+      },
+      {
+        "name": "Identify",
+        "note": "Bring the class back to the circle. Let them discuss in partners or raise their hands.",
+        "type": "observe",
+        "label": "Say to your class",
+        "phase": "Identify · Step 3 of 4",
+        "prompt": "What minibeasts did you find in our grounds?",
+        "prompts": [
+          "What minibeasts did you find in our grounds?",
+          "How did you identify them?",
+          "How many legs did they have?",
+          "Did they have wings to fly?",
+          "Where did they live?"
+        ]
+      },
+      {
+        "name": "Appreciate",
+        "note": "Allow your class to go back to a spot in your grounds to thank the minibeasts.",
+        "type": "kinship",
+        "label": "Say to your class",
+        "phase": "Appreciate · Step 4 of 4",
+        "prompt": "Go back to a quiet spot and thank a minibeast. They play an important part in keeping our planet alive.",
+        "prompts": [
+          "Go back to a quiet spot and thank a minibeast. They play an important part in keeping our planet alive."
+        ]
+      }
+    ],
+    "closing_prompts": [
+      {
+        "note": "We borrow, we look, we give back. The whole lesson in one move.",
+        "question": "Carry your minibeast back to where you found it and say a quiet goodbye."
+      },
+      {
+        "note": "Any guess counts as thinking like a scientist.",
+        "question": "What job was your minibeast doing for our planet?"
+      },
+      {
+        "note": "",
+        "question": "Which minibeast would you like to be for a day, and why?"
+      }
+    ],
+    "primer": {
+      "why": "Minibeasts are the easiest wild animals for children to meet up close. Handling them gently is a first lesson in respect for living things: gentle hands, quiet voices, and everything goes back exactly where it was found.",
+      "summary": "Children hunt for minibeasts in soil, under logs and in bushes, look closely at legs, wings and homes, and learn that every creature has a special role.",
+      "glossary": []
+    },
+    "celebration": {
+      "emoji": "🐞",
+      "headline": "You met the neighbours.",
+      "keepsake": "Legs were counted. Wings were found. Every creature went home again.",
+      "nextWeekTease": "Next week: A5 leaf collage."
+    },
+    "connection_to_last": null,
+    "audio_url": null,
+    "is_active": true,
+    "sort_order": 2,
+    "inserted_at": "2026-06-11T13:55:41.147Z",
+    "updated_at": "2026-06-15T16:18:26.296Z"
+  },
+  {
+    "id": "19",
+    "season_key": "summer",
+    "week": 3,
+    "title": "A5 Leaf Collage",
+    "prompt": "Create art with nature.",
+    "description": "Objective: create art with nature, taking influence from what the children see around them.",
+    "activity": "Collect leaves outside, then glue them into patterns and pictures on A5 paper.",
+    "duration": "20 min",
+    "date_label": null,
+    "senses": [
+      "Touch",
+      "Sight"
+    ],
+    "materials": [
+      "Glue sticks",
+      "A5 paper",
+      "Leaves the children collect"
+    ],
+    "preparation": "Glue sticks and A5 paper in a bag. One sheet per child, plus a few spares.",
+    "space_needed": "Anywhere with fallen leaves, and a dry spot to sit and stick.",
+    "steps": [
+      {
+        "name": "Collect",
+        "note": "Ask children to gather fallen leaves and petals from the ground — ones that have already fallen.",
+        "type": "explore",
+        "label": "Say to your class",
+        "phase": "Collect · Step 1 of 4",
+        "prompt": "Let's go outside to collect leaves and petals from the ground, in a variety of shades and colours.",
+        "prompts": [
+          "Let's go outside to collect leaves and petals from the ground, in a variety of shades and colours."
+        ]
+      },
+      {
+        "name": "Create",
+        "note": "Gather the children back inside. Let them take their time with this.",
+        "type": "act",
+        "label": "Say to your class",
+        "phase": "Create · Step 2 of 4",
+        "prompt": "Take a seat. Using the materials you collected, create a collage of something you saw in nature.",
+        "prompts": [
+          "Take a seat. Using the materials you collected, create a collage of something you saw in nature."
+        ]
+      },
+      {
+        "name": "Glue",
+        "note": "Give the class ideas, drawing on what they saw in nature.",
+        "type": "act",
+        "label": "Say to your class",
+        "phase": "Glue · Step 3 of 4",
+        "prompt": "You can cut and stick pieces of leaves into different patterns or shapes.",
+        "prompts": [
+          "You can cut and stick pieces of leaves into different patterns or shapes.",
+          "Perhaps you want to make an insect, a flower, or a landscape?"
+        ]
+      },
+      {
+        "name": "Present",
+        "note": "Ask if anyone wants to show their art to the rest of the class.",
+        "type": "observe",
+        "label": "Say to your class",
+        "phase": "Present · Step 4 of 4",
+        "prompt": "What did you make?",
+        "prompts": [
+          "What did you make?",
+          "How did you use your natural materials to create different parts of your piece?",
+          "What inspired you in nature to make this?"
+        ]
+      }
+    ],
+    "closing_prompts": [
+      {
+        "note": "",
+        "question": "Show your collage to a partner. What can they see in it?"
+      },
+      {
+        "note": "Shape, colour, size, smell. Descriptive language lives here.",
+        "question": "Which leaf was your favourite, and where did it come from?"
+      },
+      {
+        "note": "Back to the earth. Nothing in nature is wasted.",
+        "question": "What will happen to the leaves we did not use?"
+      }
+    ],
+    "primer": {
+      "why": "Making art with found nature asks children to look twice: once at the leaf, once at the world. The picture is theirs; the materials belong to the place.",
+      "summary": "Children collect leaves outside and glue them into patterns and pictures on A5 paper, taking influence from what they can see around them.",
+      "glossary": []
+    },
+    "celebration": {
+      "emoji": "🍃",
+      "headline": "Art, straight from the ground.",
+      "keepsake": "Leaves became trees, clouds, birds and insects. Made entirely of this place.",
+      "nextWeekTease": "Next week: our Earth's magnificent trees."
+    },
+    "connection_to_last": null,
+    "audio_url": null,
+    "is_active": true,
+    "sort_order": 3,
+    "inserted_at": "2026-06-11T13:55:41.157Z",
+    "updated_at": "2026-06-15T16:22:54.345Z"
+  },
+  {
+    "id": "20",
+    "season_key": "summer",
+    "week": 4,
+    "title": "Our Earth's Magnificent Trees",
+    "prompt": "Why are trees so important for our existence?",
+    "description": "Objective: understand why trees matter for our existence (humans) and for the other creatures on our planet.",
+    "activity": "Walk among your trees, talk about why they matter, and end by thanking one.",
+    "duration": "20 min",
+    "date_label": null,
+    "senses": [
+      "Sight",
+      "Touch"
+    ],
+    "materials": [],
+    "preparation": "Nothing to bring. If it has rained, bark is darker and smells stronger: even better.",
+    "space_needed": "Anywhere you can see trees, even over a fence. One tree you can reach for the closing.",
+    "steps": [
+      {
+        "name": "Walk",
+        "note": "Bark, leaves, height, shape. How many different trees can the class spot?",
+        "tips": [
+          {
+            "then": "Touch two different barks. Smooth or rough? Same or different?",
+            "when": "If they say all trees look the same..."
+          }
+        ],
+        "label": "Say to your class",
+        "prompt": "Walk around your outside space, taking note of all the different trees you can see.",
+        "durationHint": "6 min"
+      },
+      {
+        "name": "Discuss",
+        "note": "Prompt children to discuss amongst themselves. They produce the air we need to breathe (oxygen).",
+        "tips": [
+          {
+            "then": "Hold your breath for three seconds together. Where does the next breath come from? Trees made part of it.",
+            "when": "If the discussion stalls..."
+          }
+        ],
+        "label": "Say to your class",
+        "prompt": "Why are trees so important for our existence (humans)?",
+        "durationHint": "5 min"
+      },
+      {
+        "name": "Creatures",
+        "note": "e.g. birds for homes and food (nuts & fruit), insects.",
+        "tips": [
+          {
+            "then": "Look closer: who is walking on the trunk? Who is under the bark?",
+            "when": "If they only say birds..."
+          }
+        ],
+        "label": "Say to your class",
+        "prompt": "What other creatures on our planet need trees to live?",
+        "durationHint": "5 min"
+      },
+      {
+        "name": "Imagine",
+        "note": "Sit with the question. Let the silence do some of the teaching.",
+        "tips": [
+          {
+            "then": "That worry is care. Tell them: that is exactly why we look after trees.",
+            "when": "If a child gets worried..."
+          }
+        ],
+        "label": "Say to your class",
+        "prompt": "If there were no trees on our planet, would we be alive?",
+        "durationHint": "4 min"
+      }
+    ],
+    "closing_prompts": [
+      {
+        "note": "",
+        "question": "Ask all children to hug and thank the tree."
+      },
+      {
+        "note": "",
+        "question": "What did the bark feel like?"
+      },
+      {
+        "note": "Some children will whisper it to themselves. That counts.",
+        "question": "What would you say to this tree if it could hear you?"
+      }
+    ],
+    "primer": {
+      "why": "A child who has thanked a tree treats trees differently. This session turns the biggest living things on the school grounds from scenery into neighbours.",
+      "summary": "Children walk among the trees of their outside space and talk about why trees matter: for the air we breathe and for the creatures that live in and around them.",
+      "glossary": []
+    },
+    "celebration": {
+      "emoji": "🌳",
+      "headline": "You thanked the trees.",
+      "keepsake": "The air we breathe, the homes above us. Today the class said thank you."
+    },
+    "connection_to_last": null,
+    "audio_url": null,
+    "is_active": true,
+    "sort_order": 4,
+    "inserted_at": "2026-06-11T13:55:41.166Z",
+    "updated_at": "2026-06-11T14:24:57.884Z"
+  }
+]

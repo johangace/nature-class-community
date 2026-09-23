@@ -1,0 +1,1401 @@
+{
+  "id": "winter-starter",
+  "title": "Winter starter",
+  "subject": "Nature study",
+  "ageBand": "4-6",
+  "sessions": [
+    {
+      "id": "bird-watching",
+      "sheetTemplate": "bird-watch",
+      "prompt": "Which birds live here in winter?",
+      "title": "Bird watching",
+      "topic": "Standing still, listening and looking for the birds that share the grounds in winter",
+      "topicTags": [
+        "birds",
+        "animals",
+        "seasons"
+      ],
+      "primaryTopic": "birds",
+      "labels": [
+        "biodiversity",
+        "science"
+      ],
+      "validity": {
+        "universal": true
+      },
+      "objective": "Observe and identify common garden birds using a simple spotter sheet",
+      "childWorkSummary": "Children say which birds they expect and what sounds they might hear, then go out as bird watchers: a still minute counting calls on their fingers, then finding the birds in the hedge, on the ground and in the sky, ticking each one on the spotter sheet or sketching the ones they cannot name.",
+      "namedSkill": "looking and listening",
+      "kit": [
+        "a free garden bird spotter sheet, one per pair",
+        "clipboards",
+        "pencils",
+        "binoculars, if you have a pair to share"
+      ],
+      "durationMin": 35,
+      "spaceNeeded": "Anywhere with a hedge, a tree or a patch of open ground. A bird table or feeder nearby helps and is not needed",
+      "settle": true,
+      "primer": {
+        "summary": "Children spend time quietly observing birds around the school grounds and use a simple spotter sheet to identify what they see. Indoors first: which birds might we see, what sounds might we hear, and what a bird watcher does. Outside they use their ears before their eyes: stand still, count the different calls, then find the birds and say where each one was. They tick what they can name and sketch what they cannot, and the circle totals the class's birds.",
+        "why": "A child who has stood still for a whole minute and heard three different birds has done real science: noticed, counted, and asked what is there. Winter makes it possible for a class of thirty, because the birds are visible and the standing still is short. For the teacher: common garden birds to expect in winter in the UK include the robin, blue tit, blackbird and wood pigeon, a handy shortlist if you want to pre-empt what pupils might spot. Bird feeders and bird tables nearby noticeably increase the number and variety of birds seen, so it is worth checking whether the school already has one before the lesson.",
+        "glossary": [
+          {
+            "term": "call",
+            "definition": "A short sound a bird makes to keep in touch or warn others. Song is the longer, tuneful sound, mostly in spring.",
+            "forChildren": "A bird's way of saying here I am, or look out."
+          },
+          {
+            "term": "perch",
+            "definition": "A place a bird sits: a twig, a fence, a wire, the top of a bush.",
+            "forChildren": "Where a bird sits when it is not flying."
+          },
+          {
+            "term": "flock",
+            "definition": "A group of birds moving or feeding together. Many small birds flock in winter to stay safe and find food.",
+            "forChildren": "A gang of birds that stick together."
+          }
+        ],
+        "childFriendlyExamples": [
+          "Stand still. Listen. How many different bird sounds can you hear?",
+          "A robin sings in winter. Most birds do not. If you hear a song today, it is probably a robin."
+        ]
+      },
+      "nodeSeq": 37,
+      "phases": [
+        {
+          "nid": "p1",
+          "key": "introduce",
+          "title": "Introduce",
+          "mode": "present",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "nid": "b3",
+              "type": "say-aloud",
+              "text": "What birds do you think we might see today?"
+            },
+            {
+              "nid": "b4",
+              "type": "teacher-note",
+              "text": "Robin, blackbird, pigeon, gull, crow, blue tit, sparrow. Every answer goes on the list, and a made-up bird gets a kind no."
+            },
+            {
+              "nid": "b5",
+              "type": "say-aloud",
+              "text": "What sounds might we hear?"
+            },
+            {
+              "nid": "b6",
+              "type": "say-aloud",
+              "text": "Today, you get to be bird watchers. That means sitting very quietly and looking carefully."
+            },
+            {
+              "nid": "b7",
+              "type": "teacher-note",
+              "text": "Hand out the spotter sheets and quickly point out two or three of the pictures on it."
+            },
+            {
+              "nid": "b8",
+              "type": "conditions-line",
+              "fallbackText": "Look at the sky together before you set off. Is anything flying?"
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t2",
+              "when": "Somebody says a penguin or a parrot",
+              "then": "A real bird, and not one that lives here. Ask which birds live near school."
+            }
+          ]
+        },
+        {
+          "nid": "p9",
+          "key": "listen",
+          "title": "Listen",
+          "mode": "work",
+          "childTask": "Sit or stand still with your partner. Listen for one whole minute. Count the different bird sounds you hear.",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b12",
+              "type": "teacher-note",
+              "text": "Take the class to a spot with a good view of trees, sky, or the feeder if there is one."
+            },
+            {
+              "nid": "b13",
+              "type": "say-aloud",
+              "text": "Sit as still and quiet as you can. Nobody talks for one minute."
+            },
+            {
+              "nid": "b14",
+              "type": "demo",
+              "move": "The still listen",
+              "steps": [
+                {
+                  "text": "Feet still. Hands still."
+                },
+                {
+                  "text": "Close your eyes, or look at the ground."
+                },
+                {
+                  "text": "Count on your fingers: every different bird sound is one finger."
+                }
+              ],
+              "look": "How many fingers?",
+              "materials": [
+                "your ears"
+              ]
+            },
+            {
+              "nid": "b15",
+              "type": "say-aloud",
+              "text": "How many different bird sounds did you hear? Show me on your fingers."
+            },
+            {
+              "nid": "b16",
+              "type": "teacher-note",
+              "text": "Do the minute yourself, visibly. The quiet lasts longer if you are in it too. Listening for bird song counts as much as watching."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t10",
+              "when": "They hear nothing",
+              "then": "Move nearer the hedge or a tree, and try again. Birds are where the cover is."
+            },
+            {
+              "nid": "t11",
+              "when": "A gull or a crow is all there is",
+              "then": "That counts. Ask what it was saying."
+            }
+          ]
+        },
+        {
+          "nid": "p17",
+          "key": "look",
+          "title": "Look",
+          "mode": "work",
+          "childTask": "Now find the birds. Look in the hedge, on the ground and in the sky. Tick each one on your sheet, or sketch it.",
+          "durationMin": 12,
+          "blocks": [
+            {
+              "nid": "b20",
+              "type": "say-aloud",
+              "text": "Now use your eyes. Where are the birds? In the hedge, on the ground, or in the sky?"
+            },
+            {
+              "nid": "b21",
+              "type": "say-aloud",
+              "text": "When you see one, freeze, and point with your chin, not your arm. Birds fly from arms."
+            },
+            {
+              "nid": "b22",
+              "type": "teacher-note",
+              "text": "Three places to look, in this order: the hedge and low branches, the ground under them, then the sky. Binoculars go to whoever has found something, not whoever asks."
+            },
+            {
+              "nid": "b23",
+              "type": "say-aloud",
+              "text": "Found one? Tick it on your sheet. If it is not on the sheet, sketch it."
+            },
+            {
+              "nid": "b24",
+              "type": "teacher-note",
+              "text": "A rough sketch with the right colour in the right place is a good record. Robin: red front. Blackbird: all black, yellow beak. Blue tit: blue cap, yellow front. Wood pigeon: grey, with a white patch on the neck."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t18",
+              "when": "A bird flies off the moment they get close",
+              "then": "That is the bird telling you how close is close enough. Stop there next time and wait."
+            },
+            {
+              "nid": "t19",
+              "when": "Nobody can see a bird at all",
+              "then": "Sit the class down for one more still minute facing the hedge. Birds come back when the moving stops."
+            }
+          ]
+        },
+        {
+          "nid": "p25",
+          "key": "circle",
+          "title": "Circle time",
+          "mode": "gather",
+          "durationMin": 10,
+          "blocks": [
+            {
+              "nid": "b26",
+              "type": "circle-question",
+              "text": "How many different birds did we see altogether as a class?"
+            },
+            {
+              "nid": "b27",
+              "type": "teacher-note",
+              "text": "Add the sheets up on the board, one tick per kind of bird."
+            },
+            {
+              "nid": "b28",
+              "type": "circle-question",
+              "text": "What was the most common bird we spotted?"
+            },
+            {
+              "nid": "b29",
+              "type": "say-aloud",
+              "text": "The birds we see most in winter are the ones that stay all year: the robin, the blue tit, the blackbird and the wood pigeon."
+            },
+            {
+              "nid": "b30",
+              "type": "circle-question",
+              "text": "Why do you think the birds that stay here for winter are so busy?"
+            },
+            {
+              "nid": "b31",
+              "type": "teacher-note",
+              "text": "Food. A short day, a cold night, and a small body to keep warm. This is the question the bird feeders lesson answers with our hands."
+            },
+            {
+              "nid": "b32",
+              "type": "named-skill",
+              "skill": "looking and listening"
+            }
+          ]
+        }
+      ],
+      "childSheet": [
+        {
+          "nid": "b33",
+          "type": "sheet-title",
+          "title": "Bird watching",
+          "nameLine": "These birds were found by"
+        },
+        {
+          "nid": "b34",
+          "type": "collage-zone",
+          "hint": "Draw the bird you saw best, with its colours in the right places."
+        },
+        {
+          "nid": "b35",
+          "type": "match-strip",
+          "prompt": "Who was it? Meet the birds that stay all winter:",
+          "cards": [
+            {
+              "name": "the robin",
+              "clue": "a red front, and it sings in winter"
+            },
+            {
+              "name": "the blackbird",
+              "clue": "all black, with a yellow beak"
+            },
+            {
+              "name": "the blue tit",
+              "clue": "a blue cap and a yellow front"
+            }
+          ]
+        },
+        {
+          "nid": "b36",
+          "type": "notice-line",
+          "prompt": "Where my bird was:"
+        },
+        {
+          "nid": "b37",
+          "type": "parent-line",
+          "text": "For home: we stood still and listened for birds, then found them in the hedge, on the ground and in the sky. Ask me which bird sings in winter."
+        }
+      ],
+      "standards": [
+        {
+          "system": "england",
+          "code": "Year 1 · Animals, including humans",
+          "text": "identify and name a variety of common animals including fish, amphibians, reptiles, birds and mammals"
+        },
+        {
+          "system": "england",
+          "code": "Year 2 · Living things and their habitats",
+          "text": "identify and name a variety of plants and animals in their habitats, including microhabitats"
+        },
+        {
+          "system": "england",
+          "code": "Key stage 1 · Working scientifically",
+          "text": "observing closely, using simple equipment"
+        },
+        {
+          "system": "england",
+          "code": "Key stage 1 · Working scientifically",
+          "text": "identifying and classifying"
+        }
+      ],
+      "celebration": {
+        "headline": "You heard the birds before you saw them, and then you found them",
+        "emoji": "🐦",
+        "keepsake": "One bird each, drawn with its colours in the right places."
+      },
+      "topicLine": "Birds are our subject today, and we listen first and look second to find them.",
+      "seasonNote": {
+        "teacher": "Birds are easiest to watch in winter: the trees are bare, the birds that stayed are hungry and busy, and winter visitors have joined them. Listening first works because calls carry in the quiet, bare grounds.",
+        "child": "It is winter, and the birds that stayed are looking for food. We are going to listen first, then look for them."
+      },
+      "doorQuestion": "What birds do you think we might see today?",
+      "preparation": "Print the bird spotter sheet, one per pair. If the school has a feeder or a bird table, check it is stocked the day before: it brings the birds in."
+    },
+    {
+      "id": "making-bird-feeders",
+      "prompt": "What do birds find hard to find in winter, and how could we help?",
+      "doorQuestion": "How could we help the birds this winter?",
+      "title": "Making bird feeders",
+      "topic": "What birds need in winter, and designing and building a feeder from a recycled bottle to help them",
+      "topicTags": [
+        "birds",
+        "seasons"
+      ],
+      "primaryTopic": "birds",
+      "labels": [
+        "sustainability",
+        "making"
+      ],
+      "validity": {
+        "universal": true
+      },
+      "objective": "Design and build a simple bird feeder using a recycled plastic bottle",
+      "childWorkSummary": "Children talk about what birds find hard to find in winter, sketch a feeder design and label its materials, build one from a clean plastic bottle with a stick for a perch and a hole an adult cuts, fill it with seed, then take it outside and choose where to hang it.",
+      "namedSkill": "designing and making",
+      "kit": [
+        "paper for designs",
+        "clean plastic bottles, one per pair",
+        "scissors or a craft knife, adult use only",
+        "a wooden spoon or a stick per bottle",
+        "string",
+        "bird seed"
+      ],
+      "durationMin": 40,
+      "preparation": "Collect and rinse the bottles a week ahead, one per pair. Have a picture of a simple bottle feeder to show, and cut a test hole in one bottle yourself so you know how the plastic behaves.",
+      "spaceNeeded": "A table for making, and a tree, a fence or a hook outside to hang the feeders from",
+      "settle": true,
+      "primer": {
+        "summary": "Children sketch a design for a bird feeder, then build a simple version from a recycled plastic bottle, before taking it outside to hang it on site. Indoors first: what birds struggle to find in winter, and how we could help. Then design, make, hang, and a circle on where each feeder went and why.",
+        "why": "A feeder is the winter birds lesson answered with the hands: the children who stood still and counted the birds now give them something. For the teacher: feeders are best hung somewhere cats cannot easily reach and a little away from windows, to reduce the risk of collisions, which is worth a quick mention when choosing where to hang the finished feeders. Bird feeders should be cleaned out every couple of weeks in term time to stop mould building up, a nice extra fact for a how do we look after our feeder discussion.",
+        "glossary": [
+          {
+            "term": "design",
+            "definition": "A drawing or plan of a thing before it is made, showing its parts and what they are made of.",
+            "forChildren": "Your plan on paper. Draw it before you build it."
+          },
+          {
+            "term": "perch",
+            "definition": "A place a bird sits: a twig, a fence, a wire, the top of a bush.",
+            "forChildren": "Where a bird sits when it is not flying. Your spoon is the perch."
+          },
+          {
+            "term": "recycled",
+            "definition": "Used again instead of thrown away.",
+            "forChildren": "A bottle that was rubbish and is now a bird's dinner table."
+          }
+        ],
+        "childFriendlyExamples": [
+          "A hole in a bottle and a stick to stand on. That is all a feeder needs.",
+          "Hang it where a cat cannot reach and a bird can see it."
+        ]
+      },
+      "nodeSeq": 35,
+      "phases": [
+        {
+          "nid": "p1",
+          "key": "introduce",
+          "title": "Introduce",
+          "mode": "present",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "nid": "b3",
+              "type": "say-aloud",
+              "text": "What do you think birds find hard to find in winter?"
+            },
+            {
+              "nid": "b4",
+              "type": "teacher-note",
+              "text": "Food, water, shelter. Short days and frozen ground make food the hardest."
+            },
+            {
+              "nid": "b5",
+              "type": "say-aloud",
+              "text": "How could we help them?"
+            },
+            {
+              "nid": "b6",
+              "type": "say-aloud",
+              "text": "Today we are going to build our own bird feeder."
+            },
+            {
+              "nid": "b7",
+              "type": "teacher-note",
+              "text": "Show a picture of a simple bottle bird feeder. We do not need to be expert builders. A hole cut in a bottle with a stick to perch on is all it takes."
+            },
+            {
+              "nid": "b8",
+              "type": "conditions-line",
+              "fallbackText": "Look out of the window together before you start: is anything feeding in the grounds right now?"
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t2",
+              "when": "Somebody says birds fly somewhere warm",
+              "then": "Some do. The robin, the blackbird and the blue tit stay, and they are the ones our feeder is for."
+            }
+          ]
+        },
+        {
+          "nid": "p9",
+          "key": "design",
+          "title": "Design",
+          "mode": "work",
+          "childTask": "Sketch your feeder. Label what each part is made of.",
+          "durationMin": 7,
+          "blocks": [
+            {
+              "nid": "b11",
+              "type": "say-aloud",
+              "text": "Draw your feeder first. Where is the hole? Where does the bird stand?"
+            },
+            {
+              "nid": "b12",
+              "type": "say-aloud",
+              "text": "Label what you will use: bottle, spoon, string, seed."
+            },
+            {
+              "nid": "b13",
+              "type": "teacher-note",
+              "text": "A quick sketch with labels is the whole task. The design is the plan they check the finished feeder against in the circle."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t10",
+              "when": "A child wants to draw a bird house with a chimney",
+              "then": "Lovely. Ask where the seed goes and where the bird stands. Those two things are the feeder."
+            }
+          ]
+        },
+        {
+          "nid": "p14",
+          "key": "make",
+          "title": "Make",
+          "mode": "work",
+          "childTask": "Push the spoon through below the hole. Fill with seed. Tie the string round the neck.",
+          "durationMin": 12,
+          "blocks": [
+            {
+              "nid": "b17",
+              "type": "teacher-note",
+              "text": "An adult cuts a small hole in each clean bottle, a few centimetres up from the base. Children never handle the knife."
+            },
+            {
+              "nid": "b18",
+              "type": "demo",
+              "move": "The bottle feeder",
+              "steps": [
+                {
+                  "text": "An adult cuts a small hole near the bottom of the bottle."
+                },
+                {
+                  "text": "Push the spoon or stick through, just below the hole, so it pokes out both sides."
+                },
+                {
+                  "text": "Fill the bottle with seed through the top."
+                },
+                {
+                  "text": "Tie the string round the neck for hanging."
+                }
+              ],
+              "look": "Shake it gently. Does seed sit at the hole where a bird can reach it?",
+              "materials": [
+                "a clean plastic bottle",
+                "a wooden spoon or stick",
+                "bird seed",
+                "string"
+              ]
+            },
+            {
+              "nid": "b19",
+              "type": "say-aloud",
+              "text": "Check it against your drawing. Is it the feeder you designed?"
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t15",
+              "when": "Seed pours straight out of the hole",
+              "then": "The hole is too low or too big. Push the spoon a little higher so its bowl catches the seed, or tape the lower edge."
+            },
+            {
+              "nid": "t16",
+              "when": "The spoon will not go through",
+              "then": "An adult makes a second small slit opposite the first. The spoon goes in slit to slit."
+            }
+          ]
+        },
+        {
+          "nid": "p20",
+          "key": "hang",
+          "title": "Hang",
+          "mode": "work",
+          "childTask": "Take your feeder outside. Choose a spot together and hang it up.",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "nid": "b22",
+              "type": "say-aloud",
+              "text": "Where should it go? Somewhere a cat cannot reach, and a little away from the windows."
+            },
+            {
+              "nid": "b23",
+              "type": "teacher-note",
+              "text": "Discuss good spots as a group before anyone hangs anything. A branch at adult height, a fence hook, the feeder pole if there is one."
+            },
+            {
+              "nid": "b24",
+              "type": "say-aloud",
+              "text": "Hang it up. Now step back and give the birds some quiet."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t21",
+              "when": "Everyone wants the same branch",
+              "then": "Spread them out. Birds queue less when the feeders are apart."
+            }
+          ]
+        },
+        {
+          "nid": "p25",
+          "key": "circle",
+          "title": "Circle time",
+          "mode": "gather",
+          "durationMin": 10,
+          "blocks": [
+            {
+              "nid": "b26",
+              "type": "circle-question",
+              "text": "Where did you hang your feeder, and why did you choose that spot?"
+            },
+            {
+              "nid": "b27",
+              "type": "say-aloud",
+              "text": "A feeder needs looking after. We will clean ours out every couple of weeks, so mould cannot build up."
+            },
+            {
+              "nid": "b28",
+              "type": "circle-question",
+              "text": "What other birds might visit now we have put these up?"
+            },
+            {
+              "nid": "b29",
+              "type": "teacher-note",
+              "text": "Come back in a week and count who is using it. That count is the evaluation the design and technology link asks for."
+            },
+            {
+              "nid": "b30",
+              "type": "named-skill",
+              "skill": "designing and making"
+            }
+          ]
+        }
+      ],
+      "childSheet": [
+        {
+          "nid": "b31",
+          "type": "sheet-title",
+          "title": "My bird feeder",
+          "nameLine": "This feeder was designed by"
+        },
+        {
+          "nid": "b32",
+          "type": "collage-zone",
+          "hint": "Draw your feeder here, with labels for the bottle, the perch, the string and the seed."
+        },
+        {
+          "nid": "b33",
+          "type": "notice-line",
+          "prompt": "Where we hung it, and why:"
+        },
+        {
+          "nid": "b34",
+          "type": "notice-line",
+          "prompt": "The first bird that used it:"
+        },
+        {
+          "nid": "b35",
+          "type": "parent-line",
+          "text": "For home: we designed and built bird feeders from old bottles and hung them in the grounds. Ask me where a feeder should go, and why not near a window."
+        }
+      ],
+      "standards": [
+        {
+          "system": "england",
+          "code": "Key stage 1 · Design and technology",
+          "text": "design purposeful, functional, appealing products for themselves and other users based on design criteria"
+        },
+        {
+          "system": "england",
+          "code": "Key stage 1 · Design and technology",
+          "text": "select from and use a range of tools and equipment to perform practical tasks [for example, cutting, shaping, joining and finishing]"
+        },
+        {
+          "system": "england",
+          "code": "Key stage 1 · Design and technology",
+          "text": "evaluate their ideas and products against design criteria"
+        },
+        {
+          "system": "england",
+          "code": "Key stage 1 · Art and design",
+          "text": "to use drawing, painting and sculpture to develop and share their ideas, experiences and imagination"
+        }
+      ],
+      "celebration": {
+        "headline": "You built the birds a winter dinner table from a bottle",
+        "emoji": "🐦",
+        "keepsake": "One hole, one perch, one bottle of seed, hung where the cats cannot go."
+      },
+      "connectionToLast": "You listened for the birds and found them. Now give the ones that stay something to eat.",
+      "topicLine": "Today is about what birds need in winter, and building a feeder to help them.",
+      "seasonNote": {
+        "teacher": "Winter is when a feeder matters most: short days, cold nights and little natural food. Once hung it needs topping up and a clean every couple of weeks, so it is a lesson that keeps giving the class something to check on.",
+        "child": "In winter the birds are hungry and the days are short. We are going to build them a feeder."
+      },
+      "sheetTemplate": "feeder-watch"
+    },
+    {
+      "id": "bark-rubbings",
+      "sheetTemplate": "bark-study",
+      "prompt": "Every tree wears its own coat.",
+      "doorQuestion": "What do you think tree bark feels like?",
+      "title": "Tree bark rubbings",
+      "topic": "Tree bark and each tree's own pattern",
+      "topicTags": [
+        "trees",
+        "art",
+        "senses"
+      ],
+      "primaryTopic": "trees",
+      "labels": [
+        "making",
+        "art"
+      ],
+      "validity": {
+        "universal": true
+      },
+      "objective": "Explore the different textures and patterns of tree bark using a simple rubbing technique",
+      "namedSkill": "noticing by touch",
+      "kit": [
+        "thin paper (A4 or A3), a few sheets per child",
+        "wax crayons with the paper wrapper removed",
+        "clipboards to press against",
+        "hand wipes"
+      ],
+      "durationMin": 35,
+      "nodeSeq": 42,
+      "phases": [
+        {
+          "nid": "p1",
+          "key": "introduce",
+          "title": "Introduce",
+          "mode": "present",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "nid": "b3",
+              "type": "say-aloud",
+              "text": "What do you think tree bark feels like?"
+            },
+            {
+              "nid": "b4",
+              "type": "say-aloud",
+              "text": "Do you think every tree's bark looks the same?"
+            },
+            {
+              "nid": "b5",
+              "type": "say-aloud",
+              "text": "Today we are going to make bark rubbings to find out."
+            },
+            {
+              "nid": "b6",
+              "type": "teacher-note",
+              "text": "Show a completed bark rubbing. Explain the technique: hold the paper flat against the trunk and rub the side of a crayon over it, and the pattern underneath comes through."
+            },
+            {
+              "nid": "b7",
+              "type": "conditions-line",
+              "fallbackText": "Feel the air on your hands for a moment before you set off. Warm, cool, moving, still: say what your hands notice."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t2",
+              "when": "It is a cold day",
+              "then": "A quick round of hand-rubbing at the door. Warm hands notice more."
+            }
+          ]
+        },
+        {
+          "nid": "p8",
+          "key": "meet",
+          "title": "Meet the trees",
+          "mode": "work",
+          "childTask": "Greet four or five trees with your flat hand. Rough or smooth? Bumpy or cracked?",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b11",
+              "type": "teacher-note",
+              "text": "Take the class to four or five different trees around the grounds."
+            },
+            {
+              "nid": "b12",
+              "type": "demo",
+              "move": "The flat-hand hello",
+              "steps": [
+                {
+                  "text": "Walk up to the tree slowly.",
+                  "mark": "m-walk"
+                },
+                {
+                  "text": "Lay your whole hand flat on its trunk.",
+                  "mark": "m-flathand"
+                },
+                {
+                  "text": "Stay for one breath before you say anything.",
+                  "mark": "m-breath"
+                }
+              ],
+              "materials": [
+                "a nearby tree"
+              ]
+            },
+            {
+              "nid": "b13",
+              "type": "say-aloud",
+              "text": "Every tree wears its own coat. Is this one rough or smooth? Bumpy or cracked?"
+            },
+            {
+              "nid": "b14",
+              "type": "say-aloud",
+              "text": "Does this one feel rougher or smoother than the last?"
+            },
+            {
+              "nid": "b15",
+              "type": "teacher-note",
+              "text": "Model the slow flat-hand touch yourself before the children scatter. Name the trees casually as hands land on them."
+            },
+            {
+              "nid": "b16",
+              "type": "conditions-line",
+              "fallbackText": "Whatever the sky is doing, the trunks keep their weather: the sheltered side of a tree often feels different from the open side."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t9",
+              "when": "The class runs tree to tree without stopping",
+              "then": "Call everyone to one tree and do one slow flat-hand hello all together, then let them scatter again."
+            },
+            {
+              "nid": "t10",
+              "when": "Someone does not want to touch the bark",
+              "then": "Looking closely counts as meeting. A stick held flat against the trunk can be their hand today."
+            }
+          ]
+        },
+        {
+          "nid": "p17",
+          "key": "rub",
+          "title": "Take a rubbing",
+          "mode": "work",
+          "childTask": "Hold your paper flat against the bark. Rub gently with the side of your crayon. Write which tree it came from.",
+          "durationMin": 12,
+          "blocks": [
+            {
+              "nid": "b21",
+              "type": "teacher-note",
+              "text": "Hand out paper and crayons at the trees, not before: paper in the hand turns walkers into runners. Pairs work well, one holds the paper flat, one rubs, then swap."
+            },
+            {
+              "nid": "b22",
+              "type": "demo",
+              "move": "The rubbing",
+              "steps": [
+                {
+                  "text": "Hold the paper flat against the trunk.",
+                  "mark": "m-papertrunk"
+                },
+                {
+                  "text": "Take the crayon on its side.",
+                  "mark": "m-crayon"
+                },
+                {
+                  "text": "Stroke it slowly across the paper.",
+                  "mark": "m-stroke"
+                }
+              ],
+              "look": "The tree's own pattern comes through.",
+              "materials": [
+                "thin paper",
+                "a peeled wax crayon",
+                "a tree with texture"
+              ]
+            },
+            {
+              "nid": "b23",
+              "type": "say-aloud",
+              "text": "Hold your paper flat against the bark and rub gently with the side of your crayon."
+            },
+            {
+              "nid": "b24",
+              "type": "say-aloud",
+              "text": "When the pattern is there, write which tree it came from on the paper."
+            },
+            {
+              "nid": "b25",
+              "type": "teacher-note",
+              "text": "Slow strokes beat hard pressing: say gently, like stroking a cat. Take rubbings from two or three different trees so the patterns can be compared side by side in the circle."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t18",
+              "when": "Rubbings are tearing through the paper",
+              "then": "Gently, like stroking a cat. Two hands: one holds the paper still, one strokes the crayon on its side."
+            },
+            {
+              "nid": "t19",
+              "when": "The pattern is not showing",
+              "then": "Move to a rougher patch of the same trunk, or an older tree. Deep bark draws the boldest picture."
+            },
+            {
+              "nid": "t20",
+              "when": "Crayon tips are being used instead of sides",
+              "then": "Show the crayon lying down: it works on its side, like a rolling pin, not standing up like a pencil."
+            }
+          ],
+          "conditionVariants": [
+            {
+              "nid": "v26",
+              "when": "wet",
+              "phase": {
+                "nid": "p27",
+                "key": "rub-wet",
+                "title": "Take a rubbing (wet day)",
+                "mode": "work",
+                "childTask": "Find the dry side of a big tree, or rub a leaf or a stick under cover.",
+                "durationMin": 12,
+                "blocks": [
+                  {
+                    "nid": "b28",
+                    "type": "say-aloud",
+                    "text": "Wet bark will not share its pattern with paper, but dry things will. Find the dry side of the big trees, or bring a fallen stick or a leaf under our shelter and rub that instead."
+                  },
+                  {
+                    "nid": "b29",
+                    "type": "demo",
+                    "move": "The under-cover rubbing",
+                    "steps": [
+                      {
+                        "text": "Lay a leaf vein-side up under the paper on a clipboard.",
+                        "mark": "m-leafdown"
+                      },
+                      {
+                        "text": "Rub slowly until its skeleton appears.",
+                        "mark": "m-stroke"
+                      }
+                    ],
+                    "materials": [
+                      "a fallen leaf",
+                      "thin paper",
+                      "a peeled wax crayon",
+                      "clipboard"
+                    ]
+                  },
+                  {
+                    "nid": "b30",
+                    "type": "teacher-note",
+                    "text": "The sheltered side of a big trunk is often dry enough to rub even in rain. Otherwise leaf rubbings under cover keep the same magic: the thing draws itself. Keep the paper inside a coat between trees."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "nid": "p31",
+          "key": "circle",
+          "title": "Circle time",
+          "mode": "gather",
+          "durationMin": 10,
+          "blocks": [
+            {
+              "nid": "b32",
+              "type": "say-aloud",
+              "text": "Lay all the rubbings out together, pattern facing up."
+            },
+            {
+              "nid": "b33",
+              "type": "circle-question",
+              "text": "Which pattern is the roughest? Which is the smoothest?"
+            },
+            {
+              "nid": "b34",
+              "type": "circle-question",
+              "text": "Can you spot two rubbings that came from the same type of tree?"
+            },
+            {
+              "nid": "b35",
+              "type": "say-aloud",
+              "text": "Bark protects a tree, much like skin protects us."
+            },
+            {
+              "nid": "b36",
+              "type": "teacher-note",
+              "text": "If rubbings are damp, they flatten nicely under a book overnight."
+            },
+            {
+              "nid": "b37",
+              "type": "named-skill",
+              "skill": "noticing by touch"
+            }
+          ]
+        }
+      ],
+      "standards": [
+        {
+          "system": "england",
+          "code": "Key stage 1 · Art and design",
+          "text": "to use a range of materials creatively to design and make products"
+        },
+        {
+          "system": "england",
+          "code": "Key stage 1 · Art and design",
+          "text": "to develop a wide range of art and design techniques in using colour, pattern, texture, line, shape, form and space"
+        },
+        {
+          "system": "england",
+          "code": "Year 1 · Plants",
+          "text": "identify and name a variety of common wild and garden plants, including deciduous and evergreen trees"
+        }
+      ],
+      "childSheet": [
+        {
+          "nid": "b38",
+          "type": "sheet-title",
+          "title": "Tree bark rubbings",
+          "nameLine": "These patterns were collected by"
+        },
+        {
+          "nid": "b39",
+          "type": "collage-zone",
+          "hint": "Your favourite rubbing lives here. Stick it down, or do a fresh one over this space next time you meet a tree."
+        },
+        {
+          "nid": "b40",
+          "type": "match-strip",
+          "prompt": "Whose coat is this? Meet the trees by their bark:",
+          "cards": [
+            {
+              "name": "the oak",
+              "clue": "deep cracks, like a maze"
+            },
+            {
+              "name": "the birch",
+              "clue": "pale and papery, peeling like paint"
+            },
+            {
+              "name": "the beech",
+              "clue": "smooth and grey, like an elephant's leg"
+            }
+          ]
+        },
+        {
+          "nid": "b41",
+          "type": "notice-line",
+          "prompt": "The tree whose coat you liked best felt like:"
+        },
+        {
+          "nid": "b42",
+          "type": "parent-line",
+          "text": "For home: today we met trees with our hands and took rubbings of their bark. Ask me to find you a tree with a rough coat."
+        }
+      ],
+      "connectionToLast": "You built the birds a feeder. Now meet the trees they perch in, with your hands.",
+      "primer": {
+        "summary": "Children use paper and crayons to take rubbings from different tree trunks around the school grounds, then compare the patterns. Indoors first: what does bark feel like, is every tree's the same, and how a rubbing works. Then outside they meet the trees a new way, with their hands: a flat palm on the trunk, rough or smooth, bumpy or cracked, before the paper and the crayon catch each tree's own pattern. The circle lays every rubbing out and finds the roughest, the smoothest, and two from the same kind of tree.",
+        "why": "Touch is a direct, honest way for a young child to get to know a tree, and it often reaches children who hang back from looking or naming. Feeling that an oak and a birch have completely different coats builds real recognition, tree by tree, and the rubbing turns that touch into something to keep and compare. For the teacher: bark protects a tree much like skin protects us, from disease, pests and water loss, and its texture varies hugely between species: smooth and grey for beech, deeply ridged and craggy for oak. Winter is a great time for this activity, since deciduous trees have no leaves to distract from the trunk itself.",
+        "glossary": [
+          {
+            "term": "Bark",
+            "definition": "The tough outer coat of a tree's trunk and branches, which protects the living wood inside.",
+            "forChildren": "Bark is the tree's coat. It is the rough or smooth skin on the outside of the trunk, and it keeps the tree safe, like a jacket that never comes off."
+          },
+          {
+            "term": "Trunk",
+            "definition": "The thick main stem of a tree, holding it up and carrying water from the roots to the branches.",
+            "forChildren": "The trunk is the big strong middle of the tree, the part you can put your arms around. It holds the whole tree up."
+          },
+          {
+            "term": "Texture",
+            "definition": "The way a surface feels when you touch it, such as rough, smooth, bumpy or cracked.",
+            "forChildren": "Texture is how something feels. Some bark is rough and cracked, some is smooth and cool. Your hands can tell the trees apart by their texture."
+          },
+          {
+            "term": "Rubbing",
+            "definition": "A copy of a surface's pattern made by holding paper on it and stroking a crayon across the paper.",
+            "forChildren": "A rubbing is how you catch a pattern on paper. You hold the paper on the bark and stroke the crayon on its side, and the tree's pattern comes through like magic."
+          }
+        ],
+        "childFriendlyExamples": [
+          "Walk up to a tree slowly and lay your whole flat hand on its trunk. Stay for one breath before you say anything. That is how you say hello with your hand.",
+          "Every tree wears its own coat. Is this one rough or smooth? Bumpy or cracked? Now find a second tree. Does it feel the same, or completely different?",
+          "The tree draws its own picture. You just hold the paper and help. Stroke the crayon slowly on its side and watch the tree's pattern arrive on the page."
+        ]
+      },
+      "conditionNotes": [
+        {
+          "when": [
+            "wet"
+          ],
+          "teacher": "Wet bark will not take a rubbing but it is worth touching first, so let hands meet the trunk and then rub the drier side or under the canopy.",
+          "child": "The rain has made the bark wet. Wet bark feels different, so we will touch it first and rub the drier side."
+        },
+        {
+          "when": [
+            "cold"
+          ],
+          "teacher": "Fingertips notice less when they are chilled, so rub hands warm at the door and keep the first touch short before the crayons come out.",
+          "child": "It is cold today. Warm hands feel more, so we will rub them together before we touch the trees."
+        }
+      ],
+      "topicLine": "Today's lesson is about the bark of trees, and keeping a rubbing of each tree's pattern.",
+      "seasonNote": {
+        "teacher": "Bark is the tree's whole story in winter: with the leaves gone the trunk and branches are what there is to meet, and the patterns are clearest on a cold, dry day. Damp bark blurs a rubbing, so choose the sheltered side.",
+        "child": "In winter the trees have no leaves, but their bark is still there to feel. We are going to make a rubbing of each tree's coat."
+      },
+      "childWorkSummary": "Children say what they think bark feels like and whether every tree's bark is the same, then meet four or five trees with a flat hand, take a rubbing of each with the side of a crayon, label which tree it came from, and compare the patterns in the circle.",
+      "preparation": "Peel the crayons the day before. Take one rubbing yourself to show at the start, and pick out four or five trees with different bark within a short walk.",
+      "spaceNeeded": "Four or five trees within a short walk of each other, with different bark if you can find it",
+      "celebration": {
+        "headline": "You met the trees by touch and kept their coats on paper",
+        "emoji": "🌳",
+        "keepsake": "Four trees, four patterns, the roughest and the smoothest side by side."
+      },
+      "settle": true
+    },
+    {
+      "id": "winter-survival-sort",
+      "prompt": "How do animals survive the cold?",
+      "doorQuestion": "Where do the animals go in winter?",
+      "title": "Winter survival sort",
+      "topic": "Why wildlife needs extra help in winter, and the three ways animals survive the cold: hibernate, migrate, adapt",
+      "topicTags": [
+        "animals",
+        "seasons"
+      ],
+      "primaryTopic": "animals",
+      "labels": [
+        "biodiversity",
+        "science"
+      ],
+      "validity": {
+        "requiresSeason": [
+          "winter"
+        ]
+      },
+      "objective": "Understand simply why wildlife needs extra help in winter, and the three main ways animals survive the cold",
+      "childWorkSummary": "Children talk about what animals need in winter and how they stay safe and warm, meet the three strategies, hibernate, migrate and adapt, go out on a short clue hunt for signs of squirrels, birds and hibernation spots, then sort animal picture cards into the three groups and check the answers together.",
+      "namedSkill": "sorting and reasoning",
+      "kit": [
+        "animal picture cards, six to eight animals",
+        "a whiteboard or a big sheet of paper"
+      ],
+      "durationMin": 35,
+      "preparation": "Print or draw six to eight animal cards: a hedgehog, a dormouse, a bat, a swallow, a house martin, a robin, a blackbird, a squirrel. Big enough to sort on the floor.",
+      "spaceNeeded": "A short walk with a log pile, a leaf pile, a hedge or a tree: anywhere a creature might hide",
+      "settle": true,
+      "primer": {
+        "summary": "Children learn three winter survival strategies, hibernate, migrate and adapt, take a short clue hunt outside, then sort animal picture cards into the correct group. Indoors first: what animals need in winter that is hard to find, and how they stay safe and warm. Outside: signs of squirrels, birds, and hibernation spots like log piles and leaf piles. Back inside, the sort, then a circle on which strategy would be hardest.",
+        "why": "A five-year-old already knows winter is cold and food is scarce. Three named ways out of that, sleep through it, leave, or change, turn a worry into a way of looking at every animal they meet. For the teacher: true hibernators in the UK include hedgehogs, dormice and bats, which slow their body functions right down to save energy. Squirrels are not true hibernators: they are just far less active and rely on food they buried earlier in the year. UK migratory birds like swallows and house martins fly to Africa for winter, while robins, blackbirds and blue tits are residents that stay and adapt instead.",
+        "glossary": [
+          {
+            "term": "hibernate",
+            "definition": "To sleep through the winter with the body slowed right down, to save energy.",
+            "forChildren": "A very long winter sleep, like the hedgehog's."
+          },
+          {
+            "term": "migrate",
+            "definition": "To travel somewhere warmer for the winter and come back in spring.",
+            "forChildren": "Flying away to a warm place, like the swallow."
+          },
+          {
+            "term": "adapt",
+            "definition": "To change to suit the cold: thicker fur or feathers, different food, more time hunting.",
+            "forChildren": "Staying, and growing a thicker coat, like the robin."
+          }
+        ],
+        "childFriendlyExamples": [
+          "Hedgehogs sleep through winter. Swallows fly away. Robins fluff up and stay.",
+          "A log pile is a bedroom. Look, and leave it be."
+        ]
+      },
+      "nodeSeq": 32,
+      "phases": [
+        {
+          "nid": "p1",
+          "key": "introduce",
+          "title": "Introduce",
+          "mode": "present",
+          "durationMin": 10,
+          "blocks": [
+            {
+              "nid": "b3",
+              "type": "say-aloud",
+              "text": "What do animals need in winter that is hard to find?"
+            },
+            {
+              "nid": "b4",
+              "type": "teacher-note",
+              "text": "Food, warmth, shelter. Write the answers on the board."
+            },
+            {
+              "nid": "b5",
+              "type": "say-aloud",
+              "text": "How do you think animals stay safe and warm?"
+            },
+            {
+              "nid": "b6",
+              "type": "say-aloud",
+              "text": "Animals have three ways to get through winter. Hibernate: sleep through it, like a hedgehog."
+            },
+            {
+              "nid": "b7",
+              "type": "say-aloud",
+              "text": "Migrate: fly somewhere warmer, like a swallow."
+            },
+            {
+              "nid": "b8",
+              "type": "say-aloud",
+              "text": "Adapt: grow thicker fur or feathers and stay, like a robin."
+            },
+            {
+              "nid": "b9",
+              "type": "teacher-note",
+              "text": "Three words on the board, one example under each. The cards will be sorted under these later."
+            },
+            {
+              "nid": "b10",
+              "type": "conditions-line",
+              "fallbackText": "Look out of the window together: is anything moving out there today, or is everything keeping still?"
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t2",
+              "when": "Somebody says squirrels hibernate",
+              "then": "Nearly. They sleep more and come out less, but they do not shut down like a hedgehog. They live on the nuts they buried."
+            }
+          ]
+        },
+        {
+          "nid": "p11",
+          "key": "hunt",
+          "title": "Clue hunt",
+          "mode": "work",
+          "childTask": "Look for signs of squirrels, birds, and hibernation spots like log piles and leaf piles.",
+          "durationMin": 8,
+          "blocks": [
+            {
+              "nid": "b14",
+              "type": "say-aloud",
+              "text": "Can you spot any signs of squirrels, birds, or a place an animal might hibernate?"
+            },
+            {
+              "nid": "b15",
+              "type": "demo",
+              "move": "The clue check",
+              "steps": [
+                {
+                  "text": "Find a log pile, a leaf pile or a thick hedge."
+                },
+                {
+                  "text": "Crouch and look, without moving anything."
+                },
+                {
+                  "text": "Say who might be asleep in there."
+                }
+              ],
+              "look": "Nibbled nuts, a feather, a hole under the leaves.",
+              "materials": [
+                "your eyes"
+              ]
+            },
+            {
+              "nid": "b16",
+              "type": "teacher-note",
+              "text": "Nothing gets lifted or poked. A sleeping hedgehog woken in winter can die of it, so the rule is look and leave."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t12",
+              "when": "They find nothing at all",
+              "then": "The absence is the clue. Ask where everybody has gone, and match the empty grounds to the three words."
+            },
+            {
+              "nid": "t13",
+              "when": "Somebody wants to dig into the leaf pile",
+              "then": "That is somebody's bedroom. Hands behind backs, eyes only."
+            }
+          ]
+        },
+        {
+          "nid": "p17",
+          "key": "sort",
+          "title": "Sort",
+          "mode": "work",
+          "childTask": "In your group, sort the animal cards into hibernate, migrate or adapt.",
+          "durationMin": 7,
+          "blocks": [
+            {
+              "nid": "b19",
+              "type": "teacher-note",
+              "text": "Back inside, hand out the animal picture cards in small groups."
+            },
+            {
+              "nid": "b20",
+              "type": "say-aloud",
+              "text": "Sort your cards into three piles: hibernate, migrate, adapt."
+            },
+            {
+              "nid": "b21",
+              "type": "say-aloud",
+              "text": "Now we go through them together. Hold up your hedgehog. Which pile?"
+            },
+            {
+              "nid": "b22",
+              "type": "teacher-note",
+              "text": "Go through the correct answers as a class. Hedgehog, dormouse, bat: hibernate. Swallow, house martin: migrate. Robin, blackbird, squirrel: adapt."
+            }
+          ],
+          "tips": [
+            {
+              "nid": "t18",
+              "when": "A group argues about the squirrel",
+              "then": "Good argument. It sleeps a lot but it does not hibernate, so adapt. Let them hear the reason, not just the answer."
+            }
+          ]
+        },
+        {
+          "nid": "p23",
+          "key": "circle",
+          "title": "Circle time",
+          "mode": "gather",
+          "durationMin": 10,
+          "blocks": [
+            {
+              "nid": "b24",
+              "type": "circle-question",
+              "text": "Which strategy do you think would be hardest for an animal? Why?"
+            },
+            {
+              "nid": "b25",
+              "type": "circle-question",
+              "text": "Did we spot any clues outside that matched one of our three strategies?"
+            },
+            {
+              "nid": "b26",
+              "type": "say-aloud",
+              "text": "Hedgehogs, dormice and bats really hibernate. Squirrels only slow down. Swallows fly all the way to Africa, and robins stay and fluff up."
+            },
+            {
+              "nid": "b27",
+              "type": "named-skill",
+              "skill": "sorting and reasoning"
+            }
+          ]
+        }
+      ],
+      "childSheet": [
+        {
+          "nid": "b28",
+          "type": "sheet-title",
+          "title": "Winter survival sort",
+          "nameLine": "These animals were sorted by"
+        },
+        {
+          "nid": "b29",
+          "type": "collage-zone",
+          "hint": "Draw one animal from each pile: one that sleeps, one that leaves, one that stays."
+        },
+        {
+          "nid": "b30",
+          "type": "notice-line",
+          "prompt": "A clue we found outside:"
+        },
+        {
+          "nid": "b31",
+          "type": "notice-line",
+          "prompt": "The strategy I think is hardest, and why:"
+        },
+        {
+          "nid": "b32",
+          "type": "parent-line",
+          "text": "For home: we learnt three ways animals get through winter, hibernate, migrate and adapt, and sorted animals into them. Ask me what a squirrel does."
+        }
+      ],
+      "standards": [
+        {
+          "system": "england",
+          "code": "Year 1 · Animals, including humans",
+          "text": "identify and name a variety of common animals including fish, amphibians, reptiles, birds and mammals"
+        },
+        {
+          "system": "england",
+          "code": "Year 1 · Animals, including humans",
+          "text": "describe and compare the structure of a variety of common animals (fish, amphibians, reptiles, birds and mammals including pets)"
+        },
+        {
+          "system": "england",
+          "code": "Year 5 · Living things and their habitats",
+          "text": "describe the differences in the life cycles of a mammal, an amphibian, an insect and a bird"
+        },
+        {
+          "system": "england",
+          "code": "Key stage 1 · Working scientifically",
+          "text": "identifying and classifying"
+        },
+        {
+          "system": "england",
+          "code": "Key stage 1 · Working scientifically",
+          "text": "using their observations and ideas to suggest answers to questions"
+        }
+      ],
+      "celebration": {
+        "headline": "You sorted the animals by how they get through winter",
+        "emoji": "🦔",
+        "keepsake": "Three piles: the sleepers, the leavers, and the ones that fluff up and stay."
+      },
+      "connectionToLast": "You felt the trees' winter coats. Now find out how the animals keep warm: sleep, leave, or change.",
+      "conditionNotes": [
+        {
+          "when": [
+            "cold"
+          ],
+          "teacher": "A hard frost is the lesson made visible: the ground gives nothing, so every animal out there today is one that adapted. Point at the first bird you see and ask which pile it belongs in.",
+          "child": "It is freezing today. Any animal we see out here is one that stayed and adapted."
+        }
+      ],
+      "topicLine": "Today is about how animals survive the winter: hibernate, migrate or adapt.",
+      "seasonNote": {
+        "teacher": "Midwinter is when the three strategies are all in force at once: the hibernators are down, the migrants are gone, and the residents are busy and visible. The clue hunt finds mostly absence, and that is the point.",
+        "child": "It is winter, and the animals have each found a way to get through it. We are going to find out which way is which."
+      },
+      "sheetTemplate": "winter-sort"
+    }
+  ]
+}

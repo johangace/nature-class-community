@@ -1,0 +1,148 @@
+{
+  "checkedAt": "2026-09-07T19:00:24.166Z",
+  "records": [
+    {
+      "source": "noaa-coops",
+      "scope": "station-reference-only",
+      "center": {
+        "latitude": 40.7128,
+        "longitude": -74.006
+      },
+      "localDate": "2026-09-07",
+      "silent": false,
+      "station": {
+        "id": "8518750",
+        "name": "The Battery",
+        "latitude": 40.700554,
+        "longitude": -74.01417,
+        "timezone": "America/New_York",
+        "datum": "MLLW",
+        "datumEpoch": "1983-2001",
+        "units": "m",
+        "metadataRetrievedAt": "2026-09-07T19:00:21.395Z",
+        "metadataUrl": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8518750.json?expand=details,datums&units=metric"
+      },
+      "selectedBy": "caller",
+      "stationDistanceKm": 1.526,
+      "attribution": "NOAA National Ocean Service, Center for Operational Oceanographic Products and Services (CO-OPS).",
+      "license": "US-government-public-domain",
+      "termsUrl": "https://tidesandcurrents.noaa.gov/disclaimers.html",
+      "predictions": {
+        "silent": false,
+        "evidenceKind": "prediction",
+        "issuedAt": null,
+        "issuedAtStatus": "not-published",
+        "retrievedAt": "2026-09-07T19:00:23.846Z",
+        "validDate": "2026-09-07",
+        "window": {
+          "startAt": "2026-09-07T04:00:00.000Z",
+          "endAt": "2026-09-08T04:00:00.000Z"
+        },
+        "sourceUrl": "https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?product=predictions&application=Pointmoon&datum=MLLW&station=8518750&time_zone=gmt&units=metric&format=json&begin_date=2026-09-07+04%3A00&end_date=2026-09-08+03%3A59&interval=hilo",
+        "ttlMinutes": 60,
+        "events": [
+          {
+            "at": "2026-09-07T09:29:00.000Z",
+            "heightMeters": 1.389,
+            "type": "high"
+          },
+          {
+            "at": "2026-09-07T15:43:00.000Z",
+            "heightMeters": 0.171,
+            "type": "low"
+          },
+          {
+            "at": "2026-09-07T21:54:00.000Z",
+            "heightMeters": 1.669,
+            "type": "high"
+          }
+        ]
+      },
+      "measured": {
+        "silent": false,
+        "evidenceKind": "measurement",
+        "observedAt": "2026-09-07T18:54:00.000Z",
+        "heightMeters": 1.238,
+        "quality": "preliminary",
+        "validUntil": "2026-09-07T19:12:00.000Z",
+        "retrievedAt": "2026-09-07T19:00:23.845Z",
+        "sourceUrl": "https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?product=water_level&application=Pointmoon&datum=MLLW&station=8518750&time_zone=gmt&units=metric&format=json&date=latest",
+        "ttlMinutes": 1
+      }
+    },
+    {
+      "source": "noaa-coops",
+      "scope": "station-reference-only",
+      "center": {
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      },
+      "localDate": "2026-09-07",
+      "silent": false,
+      "station": {
+        "id": "9414290",
+        "name": "San Francisco",
+        "latitude": 37.806305,
+        "longitude": -122.46589,
+        "timezone": "America/Los_Angeles",
+        "datum": "MLLW",
+        "datumEpoch": "1983-2001",
+        "units": "m",
+        "metadataRetrievedAt": "2026-09-07T19:00:24.027Z",
+        "metadataUrl": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9414290.json?expand=details,datums&units=metric"
+      },
+      "selectedBy": "caller",
+      "stationDistanceKm": 5.374,
+      "attribution": "NOAA National Ocean Service, Center for Operational Oceanographic Products and Services (CO-OPS).",
+      "license": "US-government-public-domain",
+      "termsUrl": "https://tidesandcurrents.noaa.gov/disclaimers.html",
+      "predictions": {
+        "silent": false,
+        "evidenceKind": "prediction",
+        "issuedAt": null,
+        "issuedAtStatus": "not-published",
+        "retrievedAt": "2026-09-07T19:00:24.166Z",
+        "validDate": "2026-09-07",
+        "window": {
+          "startAt": "2026-09-07T07:00:00.000Z",
+          "endAt": "2026-09-08T07:00:00.000Z"
+        },
+        "sourceUrl": "https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?product=predictions&application=Pointmoon&datum=MLLW&station=9414290&time_zone=gmt&units=metric&format=json&begin_date=2026-09-07+07%3A00&end_date=2026-09-08+06%3A59&interval=hilo",
+        "ttlMinutes": 60,
+        "events": [
+          {
+            "at": "2026-09-07T10:06:00.000Z",
+            "heightMeters": -0.118,
+            "type": "low"
+          },
+          {
+            "at": "2026-09-07T17:22:00.000Z",
+            "heightMeters": 1.492,
+            "type": "high"
+          },
+          {
+            "at": "2026-09-07T21:58:00.000Z",
+            "heightMeters": 0.87,
+            "type": "low"
+          },
+          {
+            "at": "2026-09-08T04:00:00.000Z",
+            "heightMeters": 1.938,
+            "type": "high"
+          }
+        ]
+      },
+      "measured": {
+        "silent": false,
+        "evidenceKind": "measurement",
+        "observedAt": "2026-09-07T18:54:00.000Z",
+        "heightMeters": 1.51,
+        "quality": "preliminary",
+        "validUntil": "2026-09-07T19:12:00.000Z",
+        "retrievedAt": "2026-09-07T19:00:24.155Z",
+        "sourceUrl": "https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?product=water_level&application=Pointmoon&datum=MLLW&station=9414290&time_zone=gmt&units=metric&format=json&date=latest",
+        "ttlMinutes": 1
+      }
+    }
+  ]
+}

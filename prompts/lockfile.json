@@ -1,0 +1,54 @@
+{
+  "door-line": {
+    "version": 1,
+    "sha256": "a99fce81931f5437852954d44970719e7970a214d6ca19edc6686ac913e9de27"
+  },
+  "conditions-line": {
+    "version": 1,
+    "sha256": "b3ccbe8804537d8ae6e52ea127cb7554007a4f4665710d407ff0fcb6aa69fd4d"
+  },
+  "place-description": {
+    "version": 1,
+    "sha256": "bc57371265a6cd788da29f86884f429ed775407ad1434bec73e63edf0b2ff130"
+  },
+  "place-instruction": {
+    "version": 1,
+    "sha256": "c0b7dc6309f14a3904a9d643c17311bb9bd33aaa277bb446dbbaab8bfbccdf1b"
+  },
+  "species-note": {
+    "version": 5,
+    "sha256": "7e89ac5cc0fbd8687d2b63f7d02e4e2c0d4ebffaabd1b8d920bb22a74a06d9c9"
+  },
+  "species-learning": {
+    "version": 3,
+    "sha256": "e528881b9fd0101137d6a9c79efdfa5fe954713576d6c06ed04521243cb9081e"
+  },
+  "look-for-line": {
+    "version": 1,
+    "sha256": "6b0b7aba0ab6beca382809a4b9b5d7b23f5edeb2507f787682c3bb386cb58663"
+  },
+  "nature-grounding-line": {
+    "version": 7,
+    "sha256": "24f791bcbce65046267b88b61930afed6a9b28211d3a86a981267f4d58cc87b6"
+  },
+  "lesson-support": {
+    "version": 6,
+    "sha256": "509359f651d760c009bd1bc696f636e6b02bc65d20e6ae8b3385e1dab596d595"
+  },
+  "ask-another-way": {
+    "version": 6,
+    "sha256": "cb15f8d7a95b0d0a82772b829d95d7ac753cffe59a9fb3f2933cf5d1e06267c0"
+  },
+  "world-extract": {
+    "version": 1,
+    "sha256": "2364fed4934fe4383eee5ce5803c361d69b28e157aeca9c60f7280953f0a5fe7"
+  },
+  "world-photo-extract": {
+    "version": 1,
+    "sha256": "dad79fd3b4db11f25930c758be37106566c4da1e69bfaef0b88b7f4378658adf"
+  },
+  "species-id": {
+    "version": 3,
+    "sha256": "2b020763a5d41c3dd26ea7b9acaf4921ebaa94707e92d3cfd4093053a11543a2"
+  }
+}
