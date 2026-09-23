@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "sourceSha": "1c55f260cf85899784e43e2faa30493aa3ddcdd0",
+  "sourceSha": "085c8c96948256933adde1b89a9c1075ae0256b0",
   "manifest": "scripts/community-export-manifest.json",
-  "fileCount": 2081,
+  "fileCount": 2085,
   "files": [
     ".env.example",
     ".githooks/pre-commit",
@@ -570,6 +570,7 @@
     "public/landing/cherries-in-hand.jpg",
     "public/landing/child-nature-page.jpg",
     "public/landing/children-exploring-outside.png",
+    "public/landing/family-garden-london.webp",
     "public/landing/first-shoots.jpg",
     "public/landing/flower-painting-table.jpg",
     "public/landing/garden-wind-chime.jpg",
@@ -1657,6 +1658,8 @@
     "scripts/production-release.test.mjs",
     "scripts/prompt-eval.d.mts",
     "scripts/prompt-eval.mjs",
+    "scripts/publish-community.d.mts",
+    "scripts/publish-community.mjs",
     "scripts/register-lint.d.mts",
     "scripts/register-lint.mjs",
     "scripts/schema-mirror-lint.d.mts",
@@ -1969,6 +1972,7 @@
     "tests/unit/prompt-registry.spec.ts",
     "tests/unit/prompter-principles.spec.ts",
     "tests/unit/public-demo-home-contract.spec.ts",
+    "tests/unit/publish-community.spec.ts",
     "tests/unit/rain-author-notes.spec.ts",
     "tests/unit/read-aloud-parser-guard.spec.ts",
     "tests/unit/record-reads-archive-contract.spec.ts",
@@ -2087,7 +2091,6 @@
     "vitest.config.mts"
   ],
   "overlays": {
-    "public/landing/child-nature-page.jpg": "release/community/placeholders/child-nature-page.jpg",
     "README.md": "release/community/README.md",
     "SECURITY.md": "release/community/SECURITY.md",
     "THIRD_PARTY_NOTICES.md": "release/community/THIRD_PARTY_NOTICES.md"

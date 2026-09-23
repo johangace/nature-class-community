@@ -98,7 +98,8 @@ private history, issue tracker and internal notes are not part of the release.
 
 ## Contributing
 
-Outside contributions are not being accepted yet, while the contributor
-agreement is reviewed.
+Issues are welcome. Pull requests are not being accepted yet, while the
+contributor agreement is reviewed. When they open, a merged contribution is
+carried into the next release and credited on its release commit.
 
 Security reports: see [`SECURITY.md`](SECURITY.md).

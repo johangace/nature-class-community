@@ -52,7 +52,8 @@
     "lint:eval-coverage": "tsx scripts/eval-coverage-lint.mjs",
     "vocab:match": "tsx scripts/vocab-match.mjs",
     "vocab:coverage": "tsx scripts/vocab-match.mjs --coverage",
-    "community:export": "node scripts/export-community.mjs"
+    "community:export": "node scripts/export-community.mjs",
+    "community:publish": "node scripts/publish-community.mjs"
   },
   "dependencies": {
     "@better-auth/passkey": "1.6.23",

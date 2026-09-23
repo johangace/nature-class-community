@@ -16,7 +16,6 @@ import {
   existsSync,
   mkdirSync,
   readdirSync,
-  readFileSync,
   writeFileSync,
 } from "node:fs";
 import { dirname, isAbsolute, join, relative, resolve } from "node:path";
@@ -253,8 +252,10 @@ export function main(argv = process.argv.slice(2)) {
   }
   if (!args.dryRun && !args.dest) throw new Error("--dest is required unless --dry-run is used");
 
-  const manifest = validateManifest(JSON.parse(readFileSync(MANIFEST_PATH, "utf8")));
   const sourceSha = resolveSourceSha(args.ref || "HEAD");
+  // The manifest at the exported commit, not the working tree, so the same
+  // SHA always exports the same tree whatever is checked out.
+  const manifest = validateManifest(JSON.parse(String(git(["show", `${sourceSha}:scripts/community-export-manifest.json`]))));
   const tree = listTree(sourceSha);
   const entries = selectExportEntries(tree, manifest);
   const overlays = selectOverlayEntries(tree, manifest);

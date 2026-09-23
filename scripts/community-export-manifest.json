@@ -48,9 +48,7 @@
     "tests/unit/primary-checkout-gate.spec.ts",
     "tests/unit/cla-identity-gate.spec.ts",
     "tests/unit/guard-mutation-check.spec.ts",
-    "tests/unit/export-community.spec.ts",
-    "public/landing/family-garden-london.webp",
-    "public/landing/child-nature-page.jpg"
+    "tests/unit/export-community.spec.ts"
   ],
   "policy": [
     "This manifest is conservative: current runtime/source code stays in the candidate Community export unless a later reviewed boundary explicitly permits exclusion.",
@@ -59,14 +57,12 @@
     "Before public release, #525 and #1316 audit the exact exported tree, #1314 proves a clean clone, and #1315 supplies public-facing release documentation.",
     "Outside contributions remain closed; the private repository's CLA and contributor instructions are not copied into the release candidate. A public-repository-specific contribution policy is added only after #13/legal review and a verified fail-closed identity/CLA gate.",
     "Tests that assert on the private repository's own CI workflows, hooks, worktrees or design prototypes are excluded with their subject, so the public suite passes from a clean clone.",
-    "The public README, notices and security policy are overlays from release/community/, and every exported text file passes the denylist in docs/release/ (which is itself never exported) or nothing is written.",
-    "Images showing identifiable children, or a child's own artwork, stay out of the public tree until the founder records consent for publication (#1316)."
+    "The public README, notices and security policy are overlays from release/community/, and every exported text file passes the denylist in docs/release/ (which is itself never exported) or nothing is written."
   ],
   "overlays": {
     "README.md": "release/community/README.md",
     "SECURITY.md": "release/community/SECURITY.md",
-    "THIRD_PARTY_NOTICES.md": "release/community/THIRD_PARTY_NOTICES.md",
-    "public/landing/child-nature-page.jpg": "release/community/placeholders/child-nature-page.jpg"
+    "THIRD_PARTY_NOTICES.md": "release/community/THIRD_PARTY_NOTICES.md"
   },
   "denylist": "docs/release/community-export-denylist.json"
 }
