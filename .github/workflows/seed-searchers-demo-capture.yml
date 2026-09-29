@@ -16,9 +16,9 @@ jobs:
           python -m playwright install --with-deps chromium
       - name: Record anonymous live lesson without completion
         run: |
-          mkdir -p capture/video capture/stills capture/renderer-support
+          mkdir -p capture/video capture/stills
           cat > /tmp/capture.py <<'PY'
-          import asyncio, json, re, time, urllib.request
+          import asyncio, json, re, time
           from pathlib import Path
           from playwright.async_api import async_playwright
           OUT=Path('capture'); log=[]; start=time.monotonic()
@@ -30,74 +30,66 @@ jobs:
               global start
               async with async_playwright() as p:
                   browser=await p.chromium.launch()
-                  ctx=await browser.new_context(viewport={'width':1600,'height':900},record_video_dir=str(OUT/'video'),record_video_size={'width':1600,'height':900},locale='en-GB',reduced_motion='no-preference')
-                  page=await ctx.new_page(); page.set_default_timeout(7000)
-                  await page.add_init_script('''document.addEventListener('DOMContentLoaded',()=>{let e=document.createElement('div');e.id='demo-pointer';e.style.cssText='position:fixed;z-index:2147483647;pointer-events:none;width:14px;height:14px;border:2px solid #474c3f;background:#ffffffbb;border-radius:50%;transform:translate(-50%,-50%);left:-50px;top:-50px';document.body.append(e);addEventListener('mousemove',ev=>{e.style.left=ev.clientX+'px';e.style.top=ev.clientY+'px';});});''')
-                  start=time.monotonic(); video=page.video
+                  ctx=await browser.new_context(viewport={'width':1280,'height':720},record_video_dir=str(OUT/'video'),record_video_size={'width':1600,'height':900},locale='en-GB',reduced_motion='no-preference')
+                  page=await ctx.new_page();page.set_default_timeout(7000)
+                  await page.add_init_script('''document.addEventListener('DOMContentLoaded',()=>{let e=document.createElement('div');e.id='demo-pointer';e.style.cssText='position:fixed;z-index:2147483647;pointer-events:none;width:12px;height:12px;border:2px solid #474c3f;background:#ffffffaa;border-radius:50%;transform:translate(-50%,-50%);left:-50px;top:-50px';document.body.append(e);addEventListener('mousemove',ev=>{e.style.left=ev.clientX+'px';e.style.top=ev.clientY+'px';});});''')
+                  start=time.monotonic();video=page.video
                   async def scene(name,hold=5):
-                      await page.wait_for_timeout(800)
-                      event(name,url=page.url,buttons=await page.locator('button:visible').all_text_contents())
+                      await page.wait_for_timeout(700)
+                      event(name,url=page.url,buttons=await page.locator('button:visible').all_text_contents(),text=(await page.locator('body').inner_text())[:1200])
                       await page.screenshot(path=str(OUT/'stills'/f'{len(log):02d}-{name}.png'))
                       await page.wait_for_timeout(hold*1000)
-                  async def click(rx,roles=('button','link'),exact=False):
-                      for role in roles:
+                  async def click(rx):
+                      for role in ['button','link']:
                           loc=page.get_by_role(role,name=re.compile(rx,re.I))
                           for j in range(await loc.count()):
                               el=loc.nth(j)
                               if await el.is_visible():
-                                  await el.scroll_into_view_if_needed()
-                                  box=await el.bounding_box()
-                                  if box: await page.mouse.move(box['x']+box['width']/2,box['y']+box['height']/2,steps=18)
-                                  await page.wait_for_timeout(350); await el.click(); await page.wait_for_timeout(900)
-                                  return True
+                                  await el.scroll_into_view_if_needed();box=await el.bounding_box()
+                                  if box:await page.mouse.move(box['x']+box['width']/2,box['y']+box['height']/2,steps=20)
+                                  await page.wait_for_timeout(300);event('click',label=await el.inner_text())
+                                  await el.click();await page.wait_for_timeout(700);return True
                       return False
+                  async def scroll(d):
+                      for _ in range(8):await page.mouse.wheel(0,d/8);await page.wait_for_timeout(65)
                   try:
-                      response=await page.goto('https://natureclass.education/session?session=seed-searchers&locale=uk',wait_until='networkidle',timeout=45000)
-                      event('loaded',status=response.status if response else None)
-                      await page.evaluate('document.fonts.ready')
-                      event('fonts',styles=await page.locator('h1').evaluate_all('(els)=>els.map(e=>({text:e.textContent,family:getComputedStyle(e).fontFamily,weight:getComputedStyle(e).fontWeight}))'))
-                      await scene('lesson-overview',7)
-                      await page.mouse.wheel(0,520); await scene('before-class-tools',6)
+                      r=await page.goto('https://natureclass.education/session?session=seed-searchers&locale=uk',wait_until='networkidle',timeout=45000)
+                      event('loaded',status=r.status if r else None);await page.evaluate('document.fonts.ready')
+                      await scene('lesson-overview',6)
+                      await scroll(430);await scene('before-class-tools',5)
                       if await click('Pre-reading'):
-                          await scene('preparation-and-curriculum',6)
+                          await scene('preparation-and-curriculum',5)
                           await page.goto('https://natureclass.education/session?session=seed-searchers&locale=uk',wait_until='networkidle')
-                      if not await click('Start lesson'):
-                          raise RuntimeError('Start lesson control not found')
-                      await scene('indoors-or-outside',5)
-                      if not await click('Indoors'):
-                          raise RuntimeError('Indoors control not found')
-                      await scene('introduce-seeds',6)
-                      # Follow only the existing introduction and stop at the outdoor transition.
+                      if not await click('Start lesson'):raise RuntimeError('Start lesson control not found')
+                      await scene('indoors-or-outside',4)
+                      if not await click('Indoors'):raise RuntimeError('Indoors control not found')
+                      await page.get_by_role('button',name='Guide',exact=True).wait_for(state='visible',timeout=30000)
+                      await page.evaluate('document.fonts.ready');await scene('introduce-seeds',6)
                       for i in range(8):
                           if await click('Outside time'):
-                              await scene('transition-outside',5); break
-                          found=await click('^(Next|Ask the class|This time of year|Introduce|Begin|Continue|What is a seed|Have you ever|Let.s begin|Let.s go|Explore|Show|Start)(\\b|[ .→])')
-                          if not found:
-                              event('intro-navigation-stopped',text=(await page.locator('body').inner_text())[:2200]); break
-                          await scene(f'introduction-{i+1}',4)
-                      # Existing phase navigation, never lesson completion or reflection.
+                              await scene('transition-outside',3);break
+                          if not await click('^(Next|Ask the class|This time of year|Introduce|Begin|Continue|What is a seed|Have you ever|Let.s begin|Let.s go|Explore|Show|Start)(\\b|[ .→])'):
+                              event('intro-navigation-stopped');break
+                          await scene(f'introduction-{i+1}',3)
+                      if not await click('Begin outdoor activity'):event('outdoor-entry-not-found')
+                      await page.wait_for_timeout(1500)
+                      await click('Skip grounding')
                       await click('^Explore$')
-                      await scene('teacher-view-outdoors',6)
+                      await scene('teacher-view-outdoors',5)
                       for i in range(3):
-                          if not await click('^Next'):
-                              break
-                          await scene(f'outdoor-guidance-{i+1}',4)
+                          if not await click('^Next'):break
+                          await scene(f'outdoor-guidance-{i+1}',3)
+                      if await click('^Experiment$'):
+                          await scene('seed-drop-experiment',5)
                       await page.goto('https://natureclass.education/print?session=seed-searchers&part=sheets&locale=uk&size=half',wait_until='networkidle',timeout=30000)
-                      await scene('child-print-sheet',6)
-                      await page.mouse.wheel(0,450); await scene('record-observations',6)
-                      event('capture-finished',note='Real anonymous browser footage; no lesson completion, no reflection, no login. Cursor ring is a recording annotation.')
+                      await scene('child-print-sheet',5)
+                      await scroll(380);await scene('record-observations',5)
+                      event('capture-finished',note='Genuine browser recording, not screenshots. No login, no completion, no reflection. Only cursor ring added for visibility.')
                   except Exception as exc:
-                      event('ERROR',message=str(exc)); await page.screenshot(path=str(OUT/'stills'/'error.png'))
+                      event('ERROR',message=str(exc));await page.screenshot(path=str(OUT/'stills'/'error.png'))
                   finally:
-                      await ctx.close()
-                      await video.save_as(str(OUT/'Seed_Searchers_Live_Browser.webm'))
-                      await browser.close()
+                      await ctx.close();await video.save_as(str(OUT/'Seed_Searchers_Live_Browser.webm'));await browser.close()
           asyncio.run(main())
-          # Renderer resources are for preparing the deck, never distributed with deliverables.
-          sources={'Fredoka.ttf':'https://raw.githubusercontent.com/google/fonts/main/ofl/fredoka/Fredoka%5Bwdth%2Cwght%5D.ttf','Nunito.ttf':'https://raw.githubusercontent.com/google/fonts/main/ofl/nunito/Nunito%5Bwght%5D.ttf'}
-          for name,url in sources.items():
-              try: urllib.request.urlretrieve(url,OUT/'renderer-support'/name)
-              except Exception as exc: print('Renderer resource:',exc)
           PY
           python /tmp/capture.py
       - name: Export real browser recording
