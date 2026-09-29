@@ -8,7 +8,7 @@ permissions:
 jobs:
   capture:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 8
     steps:
       - name: Install recording tools
         run: |
@@ -18,27 +18,21 @@ jobs:
         run: |
           mkdir -p capture/video capture/stills
           cat > /tmp/capture.py <<'PY'
-          import asyncio, json, re, time
+          import asyncio,json,re,time
           from pathlib import Path
           from playwright.async_api import async_playwright
-          OUT=Path('capture'); log=[]; start=time.monotonic()
-          def event(name, **kw):
-              item=dict(seconds=round(time.monotonic()-start,2),event=name,**kw)
-              log.append(item); print(json.dumps(item),flush=True)
-              (OUT/'sequence.json').write_text(json.dumps(log,indent=2))
+          OUT=Path('capture');log=[];start=time.monotonic()
+          def event(name,**kw):
+              e=dict(seconds=round(time.monotonic()-start,2),event=name,**kw);log.append(e);print(json.dumps(e),flush=True);(OUT/'sequence.json').write_text(json.dumps(log,indent=2))
           async def main():
               global start
               async with async_playwright() as p:
-                  browser=await p.chromium.launch()
-                  ctx=await browser.new_context(viewport={'width':1280,'height':720},record_video_dir=str(OUT/'video'),record_video_size={'width':1600,'height':900},locale='en-GB',reduced_motion='no-preference')
-                  page=await ctx.new_page();page.set_default_timeout(7000)
-                  await page.add_init_script('''document.addEventListener('DOMContentLoaded',()=>{let e=document.createElement('div');e.id='demo-pointer';e.style.cssText='position:fixed;z-index:2147483647;pointer-events:none;width:12px;height:12px;border:2px solid #474c3f;background:#ffffffaa;border-radius:50%;transform:translate(-50%,-50%);left:-50px;top:-50px';document.body.append(e);addEventListener('mousemove',ev=>{e.style.left=ev.clientX+'px';e.style.top=ev.clientY+'px';});});''')
-                  start=time.monotonic();video=page.video
-                  async def scene(name,hold=5):
-                      await page.wait_for_timeout(700)
-                      event(name,url=page.url,buttons=await page.locator('button:visible').all_text_contents(),text=(await page.locator('body').inner_text())[:1200])
-                      await page.screenshot(path=str(OUT/'stills'/f'{len(log):02d}-{name}.png'))
-                      await page.wait_for_timeout(hold*1000)
+                  b=await p.chromium.launch();ctx=await b.new_context(viewport={'width':1280,'height':720},record_video_dir=str(OUT/'video'),record_video_size={'width':1600,'height':900},locale='en-GB')
+                  page=await ctx.new_page();page.set_default_timeout(6000)
+                  await page.add_init_script('''document.addEventListener('DOMContentLoaded',()=>{let e=document.createElement('div');e.style.cssText='position:fixed;z-index:2147483647;pointer-events:none;width:12px;height:12px;border:2px solid #474c3f;background:#ffffffaa;border-radius:50%;transform:translate(-50%,-50%);left:-50px;top:-50px';document.body.append(e);addEventListener('mousemove',v=>{e.style.left=v.clientX+'px';e.style.top=v.clientY+'px'});});''')
+                  start=time.monotonic();v=page.video
+                  async def scene(name,hold=4):
+                      await page.wait_for_timeout(650);event(name,url=page.url,buttons=await page.locator('button:visible').all_text_contents(),text=(await page.locator('body').inner_text())[:1600]);await page.screenshot(path=str(OUT/'stills'/f'{len(log):02d}-{name}.png'));await page.wait_for_timeout(hold*1000)
                   async def click(rx):
                       for role in ['button','link']:
                           loc=page.get_by_role(role,name=re.compile(rx,re.I))
@@ -47,23 +41,19 @@ jobs:
                               if await el.is_visible():
                                   await el.scroll_into_view_if_needed();box=await el.bounding_box()
                                   if box:await page.mouse.move(box['x']+box['width']/2,box['y']+box['height']/2,steps=20)
-                                  await page.wait_for_timeout(300);event('click',label=await el.inner_text())
-                                  await el.click();await page.wait_for_timeout(700);return True
+                                  await page.wait_for_timeout(300);event('click',label=await el.inner_text());await el.click();await page.wait_for_timeout(850);return True
                       return False
                   async def scroll(d):
                       for _ in range(8):await page.mouse.wheel(0,d/8);await page.wait_for_timeout(65)
                   try:
-                      r=await page.goto('https://natureclass.education/session?session=seed-searchers&locale=uk',wait_until='networkidle',timeout=45000)
-                      event('loaded',status=r.status if r else None);await page.evaluate('document.fonts.ready')
-                      await scene('lesson-overview',6)
-                      await scroll(430);await scene('before-class-tools',5)
+                      r=await page.goto('https://natureclass.education/session?session=seed-searchers&locale=uk',wait_until='networkidle',timeout=45000);event('loaded',status=r.status if r else None);await page.evaluate('document.fonts.ready')
+                      await scene('lesson-overview',6);await scroll(430);await scene('before-class-tools',5)
                       if await click('Pre-reading'):
-                          await scene('preparation-and-curriculum',5)
-                          await page.goto('https://natureclass.education/session?session=seed-searchers&locale=uk',wait_until='networkidle')
-                      if not await click('Start lesson'):raise RuntimeError('Start lesson control not found')
+                          await scene('preparation-and-curriculum',5);await page.goto('https://natureclass.education/session?session=seed-searchers&locale=uk',wait_until='networkidle')
+                      if not await click('Start lesson'):raise RuntimeError('Start lesson not found')
                       await scene('indoors-or-outside',4)
-                      if not await click('Indoors'):raise RuntimeError('Indoors control not found')
-                      await page.get_by_role('button',name='Guide',exact=True).wait_for(state='visible',timeout=30000)
+                      if not await click('Indoors'):raise RuntimeError('Indoors not found')
+                      await page.get_by_text('Introduce today',exact=True).wait_for(state='visible',timeout=30000)
                       await page.evaluate('document.fonts.ready');await scene('introduce-seeds',6)
                       for i in range(8):
                           if await click('Outside time'):
@@ -72,23 +62,17 @@ jobs:
                               event('intro-navigation-stopped');break
                           await scene(f'introduction-{i+1}',3)
                       if not await click('Begin outdoor activity'):event('outdoor-entry-not-found')
-                      await page.wait_for_timeout(1500)
-                      await click('Skip grounding')
-                      await click('^Explore$')
-                      await scene('teacher-view-outdoors',5)
+                      await page.wait_for_timeout(1500);await click('Skip grounding');await click('^Explore$');await scene('teacher-view-outdoors',5)
                       for i in range(3):
                           if not await click('^Next'):break
                           await scene(f'outdoor-guidance-{i+1}',3)
-                      if await click('^Experiment$'):
-                          await scene('seed-drop-experiment',5)
-                      await page.goto('https://natureclass.education/print?session=seed-searchers&part=sheets&locale=uk&size=half',wait_until='networkidle',timeout=30000)
-                      await scene('child-print-sheet',5)
-                      await scroll(380);await scene('record-observations',5)
-                      event('capture-finished',note='Genuine browser recording, not screenshots. No login, no completion, no reflection. Only cursor ring added for visibility.')
-                  except Exception as exc:
-                      event('ERROR',message=str(exc));await page.screenshot(path=str(OUT/'stills'/'error.png'))
+                      if await click('^Experiment$'):await scene('seed-drop-experiment',5)
+                      await page.goto('https://natureclass.education/print?session=seed-searchers&part=sheets&locale=uk&size=half',wait_until='networkidle',timeout=30000);await scene('child-print-sheet',5);await scroll(380);await scene('record-observations',5)
+                      event('capture-finished',note='Genuine browser recording. No login, completion or reflection. Cursor ring is the only page annotation.')
+                  except Exception as e:
+                      event('ERROR',message=str(e));await page.screenshot(path=str(OUT/'stills'/'error.png'))
                   finally:
-                      await ctx.close();await video.save_as(str(OUT/'Seed_Searchers_Live_Browser.webm'));await browser.close()
+                      await ctx.close();await v.save_as(str(OUT/'Seed_Searchers_Live_Browser.webm'));await b.close()
           asyncio.run(main())
           PY
           python /tmp/capture.py
